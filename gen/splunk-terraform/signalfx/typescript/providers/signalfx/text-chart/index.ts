@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TextChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#description TextChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#description TextChart#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#id TextChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#id TextChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TextChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Markdown text to display. More info at: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#markdown TextChart#markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#markdown TextChart#markdown}
   */
   readonly markdown: string;
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#name TextChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#name TextChart#name}
   */
   readonly name: string;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#tags TextChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#tags TextChart#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart signalfx_text_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart signalfx_text_chart}
 */
 export class TextChart extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TextChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TextChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TextChart to import
-  * @param importFromId The id of the existing TextChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TextChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TextChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TextChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/text_chart signalfx_text_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/text_chart signalfx_text_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TextChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_text_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

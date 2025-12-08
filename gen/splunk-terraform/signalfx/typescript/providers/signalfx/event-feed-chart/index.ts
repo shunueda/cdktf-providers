@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EventFeedChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#description EventFeedChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#description EventFeedChart#description}
   */
   readonly description?: string;
   /**
   * Seconds since epoch to end the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#end_time EventFeedChart#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#end_time EventFeedChart#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#id EventFeedChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#id EventFeedChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface EventFeedChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#name EventFeedChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#name EventFeedChart#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#program_text EventFeedChart#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#program_text EventFeedChart#program_text}
   */
   readonly programText: string;
   /**
   * Seconds since epoch to start the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#start_time EventFeedChart#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#start_time EventFeedChart#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#tags EventFeedChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#tags EventFeedChart#tags}
   */
   readonly tags?: string[];
   /**
   * Seconds to display in the visualization. This is a rolling range from the current time. Example: 3600 = `-1h`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#time_range EventFeedChart#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#time_range EventFeedChart#time_range}
   */
   readonly timeRange?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart signalfx_event_feed_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart signalfx_event_feed_chart}
 */
 export class EventFeedChart extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class EventFeedChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventFeedChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventFeedChart to import
-  * @param importFromId The id of the existing EventFeedChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventFeedChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventFeedChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class EventFeedChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/event_feed_chart signalfx_event_feed_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/event_feed_chart signalfx_event_feed_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class EventFeedChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_event_feed_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

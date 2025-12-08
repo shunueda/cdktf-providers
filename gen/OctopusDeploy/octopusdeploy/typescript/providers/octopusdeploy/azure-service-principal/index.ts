@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AzureServicePrincipalConfig extends cdktf.TerraformMetaArgument
   /**
   * The application ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#application_id AzureServicePrincipal#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#application_id AzureServicePrincipal#application_id}
   */
   readonly applicationId: string;
   /**
   * The authentication endpoint URI for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#authentication_endpoint AzureServicePrincipal#authentication_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#authentication_endpoint AzureServicePrincipal#authentication_endpoint}
   */
   readonly authenticationEndpoint?: string;
   /**
   * The Azure environment associated with this resource. Valid Azure environments are `AzureCloud`, `AzureChinaCloud`, `AzureGermanCloud`, or `AzureUSGovernment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#azure_environment AzureServicePrincipal#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#azure_environment AzureServicePrincipal#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * The description of this Azure service principal account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#description AzureServicePrincipal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#description AzureServicePrincipal#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#environments AzureServicePrincipal#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#environments AzureServicePrincipal#environments}
   */
   readonly environments?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#id AzureServicePrincipal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#id AzureServicePrincipal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,61 +49,61 @@ export interface AzureServicePrincipalConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#name AzureServicePrincipal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#name AzureServicePrincipal#name}
   */
   readonly name: string;
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#password AzureServicePrincipal#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#password AzureServicePrincipal#password}
   */
   readonly password: string;
   /**
   * The resource manager endpoint URI for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#resource_manager_endpoint AzureServicePrincipal#resource_manager_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#resource_manager_endpoint AzureServicePrincipal#resource_manager_endpoint}
   */
   readonly resourceManagerEndpoint?: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#space_id AzureServicePrincipal#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#space_id AzureServicePrincipal#space_id}
   */
   readonly spaceId?: string;
   /**
   * The subscription ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#subscription_id AzureServicePrincipal#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#subscription_id AzureServicePrincipal#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The tenant ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#tenant_id AzureServicePrincipal#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#tenant_id AzureServicePrincipal#tenant_id}
   */
   readonly tenantId: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#tenant_tags AzureServicePrincipal#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#tenant_tags AzureServicePrincipal#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#tenanted_deployment_participation AzureServicePrincipal#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#tenanted_deployment_participation AzureServicePrincipal#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#tenants AzureServicePrincipal#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#tenants AzureServicePrincipal#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal octopusdeploy_azure_service_principal}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal octopusdeploy_azure_service_principal}
 */
 export class AzureServicePrincipal extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureServicePrincipal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureServicePrincipal to import
-  * @param importFromId The id of the existing AzureServicePrincipal that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureServicePrincipal that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureServicePrincipal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_service_principal octopusdeploy_azure_service_principal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_service_principal octopusdeploy_azure_service_principal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_azure_service_principal',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

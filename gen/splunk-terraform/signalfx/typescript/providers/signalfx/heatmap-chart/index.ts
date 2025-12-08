@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface HeatmapChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#description HeatmapChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#description HeatmapChart#description}
   */
   readonly description?: string;
   /**
   * (false by default) If false, samples a subset of the output MTS, which improves UI performance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#disable_sampling HeatmapChart#disable_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#disable_sampling HeatmapChart#disable_sampling}
   */
   readonly disableSampling?: boolean | cdktf.IResolvable;
   /**
   * Properties to group by in the heatmap (in nesting order)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#group_by HeatmapChart#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#group_by HeatmapChart#group_by}
   */
   readonly groupBy?: string[];
   /**
   * (false by default) Whether to show the timestamp in the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#hide_timestamp HeatmapChart#hide_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#hide_timestamp HeatmapChart#hide_timestamp}
   */
   readonly hideTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#id HeatmapChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#id HeatmapChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface HeatmapChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * How long (in seconds) to wait for late datapoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#max_delay HeatmapChart#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#max_delay HeatmapChart#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * The minimum resolution (in seconds) to use for computing the underlying program
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#minimum_resolution HeatmapChart#minimum_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#minimum_resolution HeatmapChart#minimum_resolution}
   */
   readonly minimumResolution?: number;
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#name HeatmapChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#name HeatmapChart#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#program_text HeatmapChart#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#program_text HeatmapChart#program_text}
   */
   readonly programText: string;
   /**
   * How often (in seconds) to refresh the values of the heatmap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#refresh_interval HeatmapChart#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#refresh_interval HeatmapChart#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * The property to use when sorting the elements. Must be prepended with + for ascending or - for descending (e.g. -foo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#sort_by HeatmapChart#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#sort_by HeatmapChart#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#tags HeatmapChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#tags HeatmapChart#tags}
   */
   readonly tags?: string[];
   /**
   * The property value is a string that denotes the geographic region associated with the time zone, (e.g. Australia/Sydney)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#timezone HeatmapChart#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#timezone HeatmapChart#timezone}
   */
   readonly timezone?: string;
   /**
   * (Metric by default) Must be "Metric" or "Binary"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#unit_prefix HeatmapChart#unit_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#unit_prefix HeatmapChart#unit_prefix}
   */
   readonly unitPrefix?: string;
   /**
   * color_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#color_range HeatmapChart#color_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#color_range HeatmapChart#color_range}
   */
   readonly colorRange?: HeatmapChartColorRange;
   /**
   * color_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#color_scale HeatmapChart#color_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#color_scale HeatmapChart#color_scale}
   */
   readonly colorScale?: HeatmapChartColorScale[] | cdktf.IResolvable;
 }
@@ -109,19 +109,19 @@ export interface HeatmapChartColorRange {
   /**
   * The color range to use. The starting hex color value for data values in a heatmap chart. Specify the value as a 6-character hexadecimal value preceded by the '#' character, for example "#ea1849" (grass green).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#color HeatmapChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#color HeatmapChart#color}
   */
   readonly color: string;
   /**
   * The maximum value within the coloring range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#max_value HeatmapChart#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#max_value HeatmapChart#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum value within the coloring range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#min_value HeatmapChart#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#min_value HeatmapChart#min_value}
   */
   readonly minValue?: number;
 }
@@ -262,31 +262,31 @@ export interface HeatmapChartColorScale {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, cerise, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen, red, gold, iris, green, jade, aquamarine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#color HeatmapChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#color HeatmapChart#color}
   */
   readonly color: string;
   /**
   * Indicates the lower threshold non-inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#gt HeatmapChart#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#gt HeatmapChart#gt}
   */
   readonly gt?: number;
   /**
   * Indicates the lower threshold inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#gte HeatmapChart#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#gte HeatmapChart#gte}
   */
   readonly gte?: number;
   /**
   * Indicates the upper threshold non-inculsive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#lt HeatmapChart#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#lt HeatmapChart#lt}
   */
   readonly lt?: number;
   /**
   * Indicates the upper threshold inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#lte HeatmapChart#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#lte HeatmapChart#lte}
   */
   readonly lte?: number;
 }
@@ -515,7 +515,7 @@ export class HeatmapChartColorScaleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart signalfx_heatmap_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart signalfx_heatmap_chart}
 */
 export class HeatmapChart extends cdktf.TerraformResource {
 
@@ -531,7 +531,7 @@ export class HeatmapChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HeatmapChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HeatmapChart to import
-  * @param importFromId The id of the existing HeatmapChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HeatmapChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HeatmapChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -543,7 +543,7 @@ export class HeatmapChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/heatmap_chart signalfx_heatmap_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/heatmap_chart signalfx_heatmap_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -554,8 +554,8 @@ export class HeatmapChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_heatmap_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

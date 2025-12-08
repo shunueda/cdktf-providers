@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AutomatedArchivalExemptMetricConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric#id AutomatedArchivalExemptMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric#id AutomatedArchivalExemptMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface AutomatedArchivalExemptMetricConfig extends cdktf.TerraformMeta
   /**
   * exempt_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric#exempt_metrics AutomatedArchivalExemptMetric#exempt_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric#exempt_metrics AutomatedArchivalExemptMetric#exempt_metrics}
   */
   readonly exemptMetrics: AutomatedArchivalExemptMetricExemptMetrics[] | cdktf.IResolvable;
 }
@@ -25,7 +25,7 @@ export interface AutomatedArchivalExemptMetricExemptMetrics {
   /**
   * Name of the metric to be exempted from automated archival
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric#name AutomatedArchivalExemptMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric#name AutomatedArchivalExemptMetric#name}
   */
   readonly name: string;
 }
@@ -158,7 +158,7 @@ export class AutomatedArchivalExemptMetricExemptMetricsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric signalfx_automated_archival_exempt_metric}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric signalfx_automated_archival_exempt_metric}
 */
 export class AutomatedArchivalExemptMetric extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class AutomatedArchivalExemptMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomatedArchivalExemptMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomatedArchivalExemptMetric to import
-  * @param importFromId The id of the existing AutomatedArchivalExemptMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomatedArchivalExemptMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomatedArchivalExemptMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class AutomatedArchivalExemptMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/automated_archival_exempt_metric signalfx_automated_archival_exempt_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_exempt_metric signalfx_automated_archival_exempt_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class AutomatedArchivalExemptMetric extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_automated_archival_exempt_metric',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

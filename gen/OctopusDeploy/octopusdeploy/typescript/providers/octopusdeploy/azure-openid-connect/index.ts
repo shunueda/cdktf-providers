@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface AzureOpenidConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Keys to include in an account test. Valid options are: `space`, `account`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#account_test_subject_keys AzureOpenidConnect#account_test_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#account_test_subject_keys AzureOpenidConnect#account_test_subject_keys}
   */
   readonly accountTestSubjectKeys?: string[];
   /**
   * The application ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#application_id AzureOpenidConnect#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#application_id AzureOpenidConnect#application_id}
   */
   readonly applicationId: string;
   /**
   * Federated credentials audience, this value is used to establish a connection between external workload identities and Microsoft Entra ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#audience AzureOpenidConnect#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#audience AzureOpenidConnect#audience}
   */
   readonly audience?: string;
   /**
   * The authentication endpoint URI for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#authentication_endpoint AzureOpenidConnect#authentication_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#authentication_endpoint AzureOpenidConnect#authentication_endpoint}
   */
   readonly authenticationEndpoint?: string;
   /**
   * The Azure environment associated with this resource. Valid Azure environments are `AzureCloud`, `AzureChinaCloud`, `AzureGermanCloud`, or `AzureUSGovernment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#azure_environment AzureOpenidConnect#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#azure_environment AzureOpenidConnect#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * The description of this Azure OpenID Connect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#description AzureOpenidConnect#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#description AzureOpenidConnect#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#environments AzureOpenidConnect#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#environments AzureOpenidConnect#environments}
   */
   readonly environments?: string[];
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `environment`, `project`, `tenant`, `runbook`, `account`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#execution_subject_keys AzureOpenidConnect#execution_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#execution_subject_keys AzureOpenidConnect#execution_subject_keys}
   */
   readonly executionSubjectKeys?: string[];
   /**
   * Keys to include in a health check. Valid options are `space`, `account`, `target`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#health_subject_keys AzureOpenidConnect#health_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#health_subject_keys AzureOpenidConnect#health_subject_keys}
   */
   readonly healthSubjectKeys?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#id AzureOpenidConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#id AzureOpenidConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,55 +73,55 @@ export interface AzureOpenidConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#name AzureOpenidConnect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#name AzureOpenidConnect#name}
   */
   readonly name: string;
   /**
   * The resource manager endpoint URI for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#resource_manager_endpoint AzureOpenidConnect#resource_manager_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#resource_manager_endpoint AzureOpenidConnect#resource_manager_endpoint}
   */
   readonly resourceManagerEndpoint?: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#space_id AzureOpenidConnect#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#space_id AzureOpenidConnect#space_id}
   */
   readonly spaceId?: string;
   /**
   * The subscription ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#subscription_id AzureOpenidConnect#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#subscription_id AzureOpenidConnect#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The tenant ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#tenant_id AzureOpenidConnect#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#tenant_id AzureOpenidConnect#tenant_id}
   */
   readonly tenantId: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#tenant_tags AzureOpenidConnect#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#tenant_tags AzureOpenidConnect#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#tenanted_deployment_participation AzureOpenidConnect#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#tenanted_deployment_participation AzureOpenidConnect#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#tenants AzureOpenidConnect#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#tenants AzureOpenidConnect#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect octopusdeploy_azure_openid_connect}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect octopusdeploy_azure_openid_connect}
 */
 export class AzureOpenidConnect extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class AzureOpenidConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureOpenidConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureOpenidConnect to import
-  * @param importFromId The id of the existing AzureOpenidConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureOpenidConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureOpenidConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class AzureOpenidConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_openid_connect octopusdeploy_azure_openid_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_openid_connect octopusdeploy_azure_openid_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class AzureOpenidConnect extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_azure_openid_connect',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

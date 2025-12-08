@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DetectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Team IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#authorized_writer_teams Detector#authorized_writer_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#authorized_writer_teams Detector#authorized_writer_teams}
   */
   readonly authorizedWriterTeams?: string[];
   /**
   * User IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#authorized_writer_users Detector#authorized_writer_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#authorized_writer_users Detector#authorized_writer_users}
   */
   readonly authorizedWriterUsers?: string[];
   /**
   * Description of the detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#description Detector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#description Detector#description}
   */
   readonly description?: string;
   /**
   * Indicates how a detector was created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#detector_origin Detector#detector_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#detector_origin Detector#detector_origin}
   */
   readonly detectorOrigin?: string;
   /**
   * (false by default) When false, samples a subset of the output MTS in the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#disable_sampling Detector#disable_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#disable_sampling Detector#disable_sampling}
   */
   readonly disableSampling?: boolean | cdktf.IResolvable;
   /**
   * Seconds since epoch. Used for visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#end_time Detector#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#end_time Detector#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#id Detector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#id Detector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DetectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum time (in seconds) to wait for late datapoints. Max value is 900 (15m)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#max_delay Detector#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#max_delay Detector#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * Minimum time (in seconds) for the computation to wait even if the datapoints are arriving in a timely fashion. Max value is 900 (15m)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#min_delay Detector#min_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#min_delay Detector#min_delay}
   */
   readonly minDelay?: number;
   /**
   * Name of the detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#name Detector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#name Detector#name}
   */
   readonly name: string;
   /**
   * ID of the parent AutoDetect detector from which this detector is customized and created. This property is required for detectors with detector_origin of type AutoDetectCustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#parent_detector_id Detector#parent_detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#parent_detector_id Detector#parent_detector_id}
   */
   readonly parentDetectorId?: string;
   /**
   * Signalflow program text for the detector. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#program_text Detector#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#program_text Detector#program_text}
   */
   readonly programText: string;
   /**
   * (true by default) When true, markers will be drawn for each datapoint within the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#show_data_markers Detector#show_data_markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#show_data_markers Detector#show_data_markers}
   */
   readonly showDataMarkers?: boolean | cdktf.IResolvable;
   /**
   * (false by default) When true, vertical lines will be drawn for each triggered event within the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#show_event_lines Detector#show_event_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#show_event_lines Detector#show_event_lines}
   */
   readonly showEventLines?: boolean | cdktf.IResolvable;
   /**
   * Seconds since epoch. Used for visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#start_time Detector#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#start_time Detector#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags associated with the detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#tags Detector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#tags Detector#tags}
   */
   readonly tags?: string[];
   /**
   * Team IDs to associate the detector to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#teams Detector#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#teams Detector#teams}
   */
   readonly teams?: string[];
   /**
   * Seconds to display in the visualization. This is a rolling range from the current time. Example: 3600 = `-1h`. Defaults to 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#time_range Detector#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#time_range Detector#time_range}
   */
   readonly timeRange?: number;
   /**
   * The property value is a string that denotes the geographic region associated with the time zone, (e.g. Australia/Sydney)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#timezone Detector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#timezone Detector#timezone}
   */
   readonly timezone?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#rule Detector#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#rule Detector#rule}
   */
   readonly rule: DetectorRule[] | cdktf.IResolvable;
   /**
   * viz_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#viz_options Detector#viz_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#viz_options Detector#viz_options}
   */
   readonly vizOptions?: DetectorVizOptions[] | cdktf.IResolvable;
 }
@@ -139,19 +139,19 @@ export interface DetectorRuleReminderNotification {
   /**
   * The interval at which you want to receive the notifications, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#interval_ms Detector#interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#interval_ms Detector#interval_ms}
   */
   readonly intervalMs: number;
   /**
   * The duration during which repeat notifications are sent, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#timeout_ms Detector#timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#timeout_ms Detector#timeout_ms}
   */
   readonly timeoutMs?: number;
   /**
   * Type of reminder notification. Currently, the only supported value is TIMEOUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#type Detector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#type Detector#type}
   */
   readonly type: string;
 }
@@ -289,61 +289,61 @@ export interface DetectorRule {
   /**
   * Description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#description Detector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#description Detector#description}
   */
   readonly description?: string;
   /**
   * A detect label which matches a detect label within the program text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#detect_label Detector#detect_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#detect_label Detector#detect_label}
   */
   readonly detectLabel: string;
   /**
   * (default: false) When true, notifications and events will not be generated for the detect label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#disabled Detector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#disabled Detector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of strings specifying where notifications will be sent when an incident occurs. See https://developers.signalfx.com/v2/docs/detector-model#notifications-models for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#notifications Detector#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#notifications Detector#notifications}
   */
   readonly notifications?: string[];
   /**
   * Custom notification message body when an alert is triggered. See https://developers.signalfx.com/v2/reference#detector-model for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#parameterized_body Detector#parameterized_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#parameterized_body Detector#parameterized_body}
   */
   readonly parameterizedBody?: string;
   /**
   * Custom notification message subject when an alert is triggered. See https://developers.signalfx.com/v2/reference#detector-model for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#parameterized_subject Detector#parameterized_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#parameterized_subject Detector#parameterized_subject}
   */
   readonly parameterizedSubject?: string;
   /**
   * URL of page to consult when an alert is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#runbook_url Detector#runbook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#runbook_url Detector#runbook_url}
   */
   readonly runbookUrl?: string;
   /**
   * The severity of the rule, must be one of: Critical, Warning, Major, Minor, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#severity Detector#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#severity Detector#severity}
   */
   readonly severity: string;
   /**
   * Plain text suggested first course of action, such as a command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#tip Detector#tip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#tip Detector#tip}
   */
   readonly tip?: string;
   /**
   * reminder_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#reminder_notification Detector#reminder_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#reminder_notification Detector#reminder_notification}
   */
   readonly reminderNotification?: DetectorRuleReminderNotification;
 }
@@ -716,37 +716,37 @@ export interface DetectorVizOptions {
   /**
   * Color to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#color Detector#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#color Detector#color}
   */
   readonly color?: string;
   /**
   * Specifies an alternate value for the Plot Name column of the Data Table associated with the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#display_name Detector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#display_name Detector#display_name}
   */
   readonly displayName?: string;
   /**
   * The label used in the publish statement that displays the plot (metric time series data) you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#label Detector#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#label Detector#label}
   */
   readonly label: string;
   /**
   * An arbitrary prefix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#value_prefix Detector#value_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#value_prefix Detector#value_prefix}
   */
   readonly valuePrefix?: string;
   /**
   * An arbitrary suffix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#value_suffix Detector#value_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#value_suffix Detector#value_suffix}
   */
   readonly valueSuffix?: string;
   /**
   * A unit to attach to this plot. Units support automatic scaling (eg thousands of bytes will be displayed as kilobytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#value_unit Detector#value_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#value_unit Detector#value_unit}
   */
   readonly valueUnit?: string;
 }
@@ -1004,7 +1004,7 @@ export class DetectorVizOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector signalfx_detector}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector signalfx_detector}
 */
 export class Detector extends cdktf.TerraformResource {
 
@@ -1020,7 +1020,7 @@ export class Detector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Detector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Detector to import
-  * @param importFromId The id of the existing Detector that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Detector that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Detector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1032,7 +1032,7 @@ export class Detector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/detector signalfx_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/detector signalfx_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1043,8 +1043,8 @@ export class Detector extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_detector',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

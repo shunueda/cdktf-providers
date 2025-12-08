@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DashboardGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Team IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#authorized_writer_teams DashboardGroup#authorized_writer_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#authorized_writer_teams DashboardGroup#authorized_writer_teams}
   */
   readonly authorizedWriterTeams?: string[];
   /**
   * User IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#authorized_writer_users DashboardGroup#authorized_writer_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#authorized_writer_users DashboardGroup#authorized_writer_users}
   */
   readonly authorizedWriterUsers?: string[];
   /**
   * Description of the dashboard group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#description DashboardGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#description DashboardGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#id DashboardGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#id DashboardGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DashboardGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the dashboard group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#name DashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#name DashboardGroup#name}
   */
   readonly name: string;
   /**
   * Team IDs to associate the dashboard group to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#teams DashboardGroup#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#teams DashboardGroup#teams}
   */
   readonly teams?: string[];
   /**
   * dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#dashboard DashboardGroup#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#dashboard DashboardGroup#dashboard}
   */
   readonly dashboard?: DashboardGroupDashboard[] | cdktf.IResolvable;
   /**
   * import_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#import_qualifier DashboardGroup#import_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#import_qualifier DashboardGroup#import_qualifier}
   */
   readonly importQualifier?: DashboardGroupImportQualifier[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#permissions DashboardGroup#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#permissions DashboardGroup#permissions}
   */
   readonly permissions?: DashboardGroupPermissions[] | cdktf.IResolvable;
 }
@@ -67,19 +67,19 @@ export interface DashboardGroupDashboardFilterOverride {
   /**
   * (false by default) Whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#negated DashboardGroup#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#negated DashboardGroup#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#property DashboardGroup#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#property DashboardGroup#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#values DashboardGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#values DashboardGroup#values}
   */
   readonly values: string[];
 }
@@ -249,19 +249,19 @@ export interface DashboardGroupDashboardVariableOverride {
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#property DashboardGroup#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#property DashboardGroup#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#values DashboardGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#values DashboardGroup#values}
   */
   readonly values?: string[];
   /**
   * A list of strings of suggested values for this variable; these suggestions will receive priority when values are autosuggested for this variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#values_suggested DashboardGroup#values_suggested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#values_suggested DashboardGroup#values_suggested}
   */
   readonly valuesSuggested?: string[];
 }
@@ -434,31 +434,31 @@ export interface DashboardGroupDashboard {
   /**
   * The label used in the publish statement that displays the plot (metric time series data) you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#dashboard_id DashboardGroup#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#dashboard_id DashboardGroup#dashboard_id}
   */
   readonly dashboardId: string;
   /**
   * String that provides a description override for a mirrored dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#description_override DashboardGroup#description_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#description_override DashboardGroup#description_override}
   */
   readonly descriptionOverride?: string;
   /**
   * String that provides a name override for a mirrored dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#name_override DashboardGroup#name_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#name_override DashboardGroup#name_override}
   */
   readonly nameOverride?: string;
   /**
   * filter_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#filter_override DashboardGroup#filter_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#filter_override DashboardGroup#filter_override}
   */
   readonly filterOverride?: DashboardGroupDashboardFilterOverride[] | cdktf.IResolvable;
   /**
   * variable_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#variable_override DashboardGroup#variable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#variable_override DashboardGroup#variable_override}
   */
   readonly variableOverride?: DashboardGroupDashboardVariableOverride[] | cdktf.IResolvable;
 }
@@ -694,19 +694,19 @@ export interface DashboardGroupImportQualifierFilters {
   /**
   * (false by default) Whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#negated DashboardGroup#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#negated DashboardGroup#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#property DashboardGroup#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#property DashboardGroup#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#values DashboardGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#values DashboardGroup#values}
   */
   readonly values: string[];
 }
@@ -874,13 +874,13 @@ export class DashboardGroupImportQualifierFiltersList extends cdktf.ComplexList 
 }
 export interface DashboardGroupImportQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#metric DashboardGroup#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#metric DashboardGroup#metric}
   */
   readonly metric?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#filters DashboardGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#filters DashboardGroup#filters}
   */
   readonly filters?: DashboardGroupImportQualifierFilters[] | cdktf.IResolvable;
 }
@@ -1027,19 +1027,19 @@ export interface DashboardGroupPermissions {
   /**
   * Actions level, possible values: READ, WRITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#actions DashboardGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#actions DashboardGroup#actions}
   */
   readonly actions?: string[];
   /**
   * ID of the principal with access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#principal_id DashboardGroup#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#principal_id DashboardGroup#principal_id}
   */
   readonly principalId: string;
   /**
   * Type of principal, possible values: ORG, TEAM, USER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#principal_type DashboardGroup#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#principal_type DashboardGroup#principal_type}
   */
   readonly principalType: string;
 }
@@ -1207,7 +1207,7 @@ export class DashboardGroupPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group signalfx_dashboard_group}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group signalfx_dashboard_group}
 */
 export class DashboardGroup extends cdktf.TerraformResource {
 
@@ -1223,7 +1223,7 @@ export class DashboardGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardGroup to import
-  * @param importFromId The id of the existing DashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1235,7 +1235,7 @@ export class DashboardGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/dashboard_group signalfx_dashboard_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard_group signalfx_dashboard_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1246,8 +1246,8 @@ export class DashboardGroup extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_dashboard_group',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

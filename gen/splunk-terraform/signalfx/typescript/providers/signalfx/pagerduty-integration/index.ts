@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PagerdutyIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * PagerDuty API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration#api_key PagerdutyIntegration#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration#api_key PagerdutyIntegration#api_key}
   */
   readonly apiKey?: string;
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration#enabled PagerdutyIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration#enabled PagerdutyIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration#id PagerdutyIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration#id PagerdutyIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface PagerdutyIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration#name PagerdutyIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration#name PagerdutyIntegration#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration signalfx_pagerduty_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration signalfx_pagerduty_integration}
 */
 export class PagerdutyIntegration extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PagerdutyIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PagerdutyIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PagerdutyIntegration to import
-  * @param importFromId The id of the existing PagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PagerdutyIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PagerdutyIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/pagerduty_integration signalfx_pagerduty_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/pagerduty_integration signalfx_pagerduty_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class PagerdutyIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_pagerduty_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

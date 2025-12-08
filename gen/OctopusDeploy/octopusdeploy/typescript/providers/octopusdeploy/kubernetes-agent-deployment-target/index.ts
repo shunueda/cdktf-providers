@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KubernetesAgentDeploymentTargetConfig extends cdktf.TerraformMe
   /**
   * The communication mode used by the Kubernetes agent to communicate with Octopus Server. Currently, the only supported value is 'Polling'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#communication_mode KubernetesAgentDeploymentTarget#communication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#communication_mode KubernetesAgentDeploymentTarget#communication_mode}
   */
   readonly communicationMode?: string;
   /**
   * Optional default namespace that will be used when using Kubernetes deployment steps, can be overrides within step configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#default_namespace KubernetesAgentDeploymentTarget#default_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#default_namespace KubernetesAgentDeploymentTarget#default_namespace}
   */
   readonly defaultNamespace?: string;
   /**
   * A list of environment IDs this Kubernetes agent can deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#environments KubernetesAgentDeploymentTarget#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#environments KubernetesAgentDeploymentTarget#environments}
   */
   readonly environments: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#id KubernetesAgentDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#id KubernetesAgentDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,73 +37,73 @@ export interface KubernetesAgentDeploymentTargetConfig extends cdktf.TerraformMe
   /**
   * Whether the Kubernetes agent is disabled. If the agent is disabled, it will not be included in any deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#is_disabled KubernetesAgentDeploymentTarget#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#is_disabled KubernetesAgentDeploymentTarget#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Optional ID of the machine policy that the Kubernetes agent will use. If not provided the default machine policy will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#machine_policy_id KubernetesAgentDeploymentTarget#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#machine_policy_id KubernetesAgentDeploymentTarget#machine_policy_id}
   */
   readonly machinePolicyId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#name KubernetesAgentDeploymentTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#name KubernetesAgentDeploymentTarget#name}
   */
   readonly name: string;
   /**
   * A list of target roles that are associated to this Kubernetes agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#roles KubernetesAgentDeploymentTarget#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#roles KubernetesAgentDeploymentTarget#roles}
   */
   readonly roles: string[];
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#space_id KubernetesAgentDeploymentTarget#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#space_id KubernetesAgentDeploymentTarget#space_id}
   */
   readonly spaceId?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#tenant_tags KubernetesAgentDeploymentTarget#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#tenant_tags KubernetesAgentDeploymentTarget#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#tenanted_deployment_participation KubernetesAgentDeploymentTarget#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#tenanted_deployment_participation KubernetesAgentDeploymentTarget#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#tenants KubernetesAgentDeploymentTarget#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#tenants KubernetesAgentDeploymentTarget#tenants}
   */
   readonly tenants?: string[];
   /**
   * The thumbprint of the Kubernetes agent's certificate used by server to verify the identity of the agent. This is the same thumbprint that was used when installing the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#thumbprint KubernetesAgentDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#thumbprint KubernetesAgentDeploymentTarget#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * If enabled the Kubernetes agent will not automatically upgrade and will stay on the currently installed version, even if the associated machine policy is configured to automatically upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#upgrade_locked KubernetesAgentDeploymentTarget#upgrade_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#upgrade_locked KubernetesAgentDeploymentTarget#upgrade_locked}
   */
   readonly upgradeLocked?: boolean | cdktf.IResolvable;
   /**
   * The URI of the Kubernetes agent's used by the server to queue messages. This is the same subscription uri that was used when installing the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#uri KubernetesAgentDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#uri KubernetesAgentDeploymentTarget#uri}
   */
   readonly uri: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target octopusdeploy_kubernetes_agent_deployment_target}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target octopusdeploy_kubernetes_agent_deployment_target}
 */
 export class KubernetesAgentDeploymentTarget extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class KubernetesAgentDeploymentTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAgentDeploymentTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAgentDeploymentTarget to import
-  * @param importFromId The id of the existing KubernetesAgentDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAgentDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAgentDeploymentTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class KubernetesAgentDeploymentTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/kubernetes_agent_deployment_target octopusdeploy_kubernetes_agent_deployment_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/kubernetes_agent_deployment_target octopusdeploy_kubernetes_agent_deployment_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class KubernetesAgentDeploymentTarget extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_kubernetes_agent_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServiceNowIntegrationConfig extends cdktf.TerraformMetaArgument
   /**
   * A template that Observability Cloud uses to create the ServiceNow PUT JSON payloads when an alert is cleared in ServiceNow. Use this optional field to send the values of Observability Cloud alert properties to specific fields in ServiceNow. See API reference for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#alert_resolved_payload_template ServiceNowIntegration#alert_resolved_payload_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#alert_resolved_payload_template ServiceNowIntegration#alert_resolved_payload_template}
   */
   readonly alertResolvedPayloadTemplate?: string;
   /**
   * A template that Observability Cloud uses to create the ServiceNow POST JSON payloads when an alert sends a notification to ServiceNow. Use this optional field to send the values of Observability Cloud alert properties to specific fields in ServiceNow. See API reference for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#alert_triggered_payload_template ServiceNowIntegration#alert_triggered_payload_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#alert_triggered_payload_template ServiceNowIntegration#alert_triggered_payload_template}
   */
   readonly alertTriggeredPayloadTemplate?: string;
   /**
   * Whether the integration is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#enabled ServiceNowIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#enabled ServiceNowIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#id ServiceNowIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#id ServiceNowIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ServiceNowIntegrationConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the ServiceNow instance, for example `myInstances.service-now.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#instance_name ServiceNowIntegration#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#instance_name ServiceNowIntegration#instance_name}
   */
   readonly instanceName: string;
   /**
   * The type of issue in standard ITIL terminology. The allowed values are `Incident` and `Problem`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#issue_type ServiceNowIntegration#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#issue_type ServiceNowIntegration#issue_type}
   */
   readonly issueType: string;
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#name ServiceNowIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#name ServiceNowIntegration#name}
   */
   readonly name: string;
   /**
   * Password used to authenticate the ServiceNow integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#password ServiceNowIntegration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#password ServiceNowIntegration#password}
   */
   readonly password: string;
   /**
   * User name used to authenticate the ServiceNow integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#username ServiceNowIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#username ServiceNowIntegration#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration signalfx_service_now_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration signalfx_service_now_integration}
 */
 export class ServiceNowIntegration extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ServiceNowIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceNowIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceNowIntegration to import
-  * @param importFromId The id of the existing ServiceNowIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceNowIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceNowIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ServiceNowIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/service_now_integration signalfx_service_now_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/service_now_integration signalfx_service_now_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ServiceNowIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_service_now_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

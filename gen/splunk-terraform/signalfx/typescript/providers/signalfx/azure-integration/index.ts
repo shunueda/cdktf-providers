@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AzureIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional Azure resource types that you want to sync with Observability Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#additional_services AzureIntegration#additional_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#additional_services AzureIntegration#additional_services}
   */
   readonly additionalServices?: string[];
   /**
   * Azure application ID for the Splunk Observability Cloud app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#app_id AzureIntegration#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#app_id AzureIntegration#app_id}
   */
   readonly appId: string;
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#enabled AzureIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#enabled AzureIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * what type of Azure integration this is. The allowed values are `"azure_us_government"` and `"azure"`. Defaults to `"azure"`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#environment AzureIntegration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#environment AzureIntegration#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#id AzureIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#id AzureIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface AzureIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * If enabled, Splunk Observability Cloud will sync also Azure Monitor data. If disabled, Splunk Observability Cloud will import only metadata. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#import_azure_monitor AzureIntegration#import_azure_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#import_azure_monitor AzureIntegration#import_azure_monitor}
   */
   readonly importAzureMonitor?: boolean | cdktf.IResolvable;
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#name AzureIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#name AzureIntegration#name}
   */
   readonly name: string;
   /**
   * A named token to use for ingest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#named_token AzureIntegration#named_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#named_token AzureIntegration#named_token}
   */
   readonly namedToken?: string;
   /**
   * Azure poll rate (in seconds). Between `60` and `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#poll_rate AzureIntegration#poll_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#poll_rate AzureIntegration#poll_rate}
   */
   readonly pollRate?: number;
   /**
   * Azure secret key that associates the Splunk Observability Cloud app in Azure with the Azure tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#secret_key AzureIntegration#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#secret_key AzureIntegration#secret_key}
   */
   readonly secretKey: string;
   /**
   * List of Microsoft Azure service names for the Azure services you want Splunk Observability Cloud to monitor. Splunk Observability Cloud only supports certain services, and if you specify an unsupported one, you receive an API error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#services AzureIntegration#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#services AzureIntegration#services}
   */
   readonly services: string[];
   /**
   * List of Azure subscriptions that Splunk Observability Cloud should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#subscriptions AzureIntegration#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#subscriptions AzureIntegration#subscriptions}
   */
   readonly subscriptions: string[];
   /**
   * If enabled, Splunk Observability Cloud will try to sync additional namespaces for VMs (including VMs in scale sets): telegraf/mem, telegraf/cpu, azure.vm.windows.guest (these are namespaces recommended by Azure when enabling their Diagnostic Extension). If there are no metrics there, no new datapoints will be ingested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#sync_guest_os_namespaces AzureIntegration#sync_guest_os_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#sync_guest_os_namespaces AzureIntegration#sync_guest_os_namespaces}
   */
   readonly syncGuestOsNamespaces?: boolean | cdktf.IResolvable;
   /**
   * Azure ID of the Azure tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#tenant_id AzureIntegration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#tenant_id AzureIntegration#tenant_id}
   */
   readonly tenantId: string;
   /**
   * If enabled, Splunk Observability Cloud will collect datapoints using Azure Metrics Batch API. Consider this option if you are synchronizing high loads of data and you want to avoid throttling issues. Contrary to the default Metrics List API, Metrics Batch API is paid. Refer to Azure documentation for pricing info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#use_batch_api AzureIntegration#use_batch_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#use_batch_api AzureIntegration#use_batch_api}
   */
   readonly useBatchApi?: boolean | cdktf.IResolvable;
   /**
   * custom_namespaces_per_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#custom_namespaces_per_service AzureIntegration#custom_namespaces_per_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#custom_namespaces_per_service AzureIntegration#custom_namespaces_per_service}
   */
   readonly customNamespacesPerService?: AzureIntegrationCustomNamespacesPerService[] | cdktf.IResolvable;
   /**
   * resource_filter_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#resource_filter_rules AzureIntegration#resource_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#resource_filter_rules AzureIntegration#resource_filter_rules}
   */
   readonly resourceFilterRules?: AzureIntegrationResourceFilterRules[] | cdktf.IResolvable;
 }
@@ -115,13 +115,13 @@ export interface AzureIntegrationCustomNamespacesPerService {
   /**
   * The namespaces to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#namespaces AzureIntegration#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#namespaces AzureIntegration#namespaces}
   */
   readonly namespaces: string[];
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#service AzureIntegration#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#service AzureIntegration#service}
   */
   readonly service: string;
 }
@@ -260,7 +260,7 @@ export class AzureIntegrationCustomNamespacesPerServiceList extends cdktf.Comple
 }
 export interface AzureIntegrationResourceFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#filter_source AzureIntegration#filter_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#filter_source AzureIntegration#filter_source}
   */
   readonly filterSource: string;
 }
@@ -373,7 +373,7 @@ export class AzureIntegrationResourceFilterRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration signalfx_azure_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration signalfx_azure_integration}
 */
 export class AzureIntegration extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureIntegration to import
-  * @param importFromId The id of the existing AzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/azure_integration signalfx_azure_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/azure_integration signalfx_azure_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class AzureIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_azure_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

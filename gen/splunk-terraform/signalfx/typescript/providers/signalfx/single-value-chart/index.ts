@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SingleValueChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Metric by default) Must be "Metric", "Dimension", or "Scale". "Scale" maps to Color by Value in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#color_by SingleValueChart#color_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#color_by SingleValueChart#color_by}
   */
   readonly colorBy?: string;
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#description SingleValueChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#description SingleValueChart#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#id SingleValueChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#id SingleValueChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface SingleValueChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * (false by default) Whether to hide the timestamp in the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#is_timestamp_hidden SingleValueChart#is_timestamp_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#is_timestamp_hidden SingleValueChart#is_timestamp_hidden}
   */
   readonly isTimestampHidden?: boolean | cdktf.IResolvable;
   /**
   * How long (in seconds) to wait for late datapoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#max_delay SingleValueChart#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#max_delay SingleValueChart#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * The maximum precision to for values displayed in the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#max_precision SingleValueChart#max_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#max_precision SingleValueChart#max_precision}
   */
   readonly maxPrecision?: number;
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#name SingleValueChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#name SingleValueChart#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#program_text SingleValueChart#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#program_text SingleValueChart#program_text}
   */
   readonly programText: string;
   /**
   * How often (in seconds) to refresh the values of the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#refresh_interval SingleValueChart#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#refresh_interval SingleValueChart#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * (false by default) What kind of secondary visualization to show (None, Radial, Linear, Sparkline)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#secondary_visualization SingleValueChart#secondary_visualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#secondary_visualization SingleValueChart#secondary_visualization}
   */
   readonly secondaryVisualization?: string;
   /**
   * (false by default) Whether to show a trend line below the current value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#show_spark_line SingleValueChart#show_spark_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#show_spark_line SingleValueChart#show_spark_line}
   */
   readonly showSparkLine?: boolean | cdktf.IResolvable;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#tags SingleValueChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#tags SingleValueChart#tags}
   */
   readonly tags?: string[];
   /**
   * The property value is a string that denotes the geographic region associated with the time zone, (e.g. Australia/Sydney)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#timezone SingleValueChart#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#timezone SingleValueChart#timezone}
   */
   readonly timezone?: string;
   /**
   * (Metric by default) Must be "Metric" or "Binary"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#unit_prefix SingleValueChart#unit_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#unit_prefix SingleValueChart#unit_prefix}
   */
   readonly unitPrefix?: string;
   /**
   * color_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#color_scale SingleValueChart#color_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#color_scale SingleValueChart#color_scale}
   */
   readonly colorScale?: SingleValueChartColorScale[] | cdktf.IResolvable;
   /**
   * viz_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#viz_options SingleValueChart#viz_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#viz_options SingleValueChart#viz_options}
   */
   readonly vizOptions?: SingleValueChartVizOptions[] | cdktf.IResolvable;
 }
@@ -109,31 +109,31 @@ export interface SingleValueChartColorScale {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, cerise, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen, red, gold, iris, green, jade, aquamarine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#color SingleValueChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#color SingleValueChart#color}
   */
   readonly color: string;
   /**
   * Indicates the lower threshold non-inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#gt SingleValueChart#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#gt SingleValueChart#gt}
   */
   readonly gt?: number;
   /**
   * Indicates the lower threshold inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#gte SingleValueChart#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#gte SingleValueChart#gte}
   */
   readonly gte?: number;
   /**
   * Indicates the upper threshold non-inculsive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#lt SingleValueChart#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#lt SingleValueChart#lt}
   */
   readonly lt?: number;
   /**
   * Indicates the upper threshold inclusive value for this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#lte SingleValueChart#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#lte SingleValueChart#lte}
   */
   readonly lte?: number;
 }
@@ -364,37 +364,37 @@ export interface SingleValueChartVizOptions {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, red, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#color SingleValueChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#color SingleValueChart#color}
   */
   readonly color?: string;
   /**
   * Specifies an alternate value for the Plot Name column of the Data Table associated with the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#display_name SingleValueChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#display_name SingleValueChart#display_name}
   */
   readonly displayName?: string;
   /**
   * The label used in the publish statement that displays the plot (metric time series data) you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#label SingleValueChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#label SingleValueChart#label}
   */
   readonly label: string;
   /**
   * An arbitrary prefix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#value_prefix SingleValueChart#value_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#value_prefix SingleValueChart#value_prefix}
   */
   readonly valuePrefix?: string;
   /**
   * An arbitrary suffix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#value_suffix SingleValueChart#value_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#value_suffix SingleValueChart#value_suffix}
   */
   readonly valueSuffix?: string;
   /**
   * A unit to attach to this plot. Units support automatic scaling (eg thousands of bytes will be displayed as kilobytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#value_unit SingleValueChart#value_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#value_unit SingleValueChart#value_unit}
   */
   readonly valueUnit?: string;
 }
@@ -652,7 +652,7 @@ export class SingleValueChartVizOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart signalfx_single_value_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart signalfx_single_value_chart}
 */
 export class SingleValueChart extends cdktf.TerraformResource {
 
@@ -668,7 +668,7 @@ export class SingleValueChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SingleValueChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SingleValueChart to import
-  * @param importFromId The id of the existing SingleValueChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SingleValueChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SingleValueChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -680,7 +680,7 @@ export class SingleValueChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/single_value_chart signalfx_single_value_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/single_value_chart signalfx_single_value_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -691,8 +691,8 @@ export class SingleValueChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_single_value_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

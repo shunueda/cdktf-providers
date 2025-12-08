@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSignalfxDimensionValuesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values#id DataSignalfxDimensionValues#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values#id DataSignalfxDimensionValues#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface DataSignalfxDimensionValuesConfig extends cdktf.TerraformMetaAr
   /**
   * This allows you to define how many dimensions are returned as the values output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values#limit DataSignalfxDimensionValues#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values#limit DataSignalfxDimensionValues#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values#order_by DataSignalfxDimensionValues#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values#order_by DataSignalfxDimensionValues#order_by}
   */
   readonly orderBy?: string;
   /**
   * Acepts a query string that allows for defining a key value deintion, wild card matching on values, or where the dimension value exists. Refer to https://dev.splunk.com/observability/reference/api/metrics_metadata/latest#endpoint-retrieve-dimensions-query for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values#query DataSignalfxDimensionValues#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values#query DataSignalfxDimensionValues#query}
   */
   readonly query: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values signalfx_dimension_values}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values signalfx_dimension_values}
 */
 export class DataSignalfxDimensionValues extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataSignalfxDimensionValues extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSignalfxDimensionValues resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSignalfxDimensionValues to import
-  * @param importFromId The id of the existing DataSignalfxDimensionValues that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSignalfxDimensionValues that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSignalfxDimensionValues to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataSignalfxDimensionValues extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/data-sources/dimension_values signalfx_dimension_values} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/dimension_values signalfx_dimension_values} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataSignalfxDimensionValues extends cdktf.TerraformDataSource {
       terraformResourceType: 'signalfx_dimension_values',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

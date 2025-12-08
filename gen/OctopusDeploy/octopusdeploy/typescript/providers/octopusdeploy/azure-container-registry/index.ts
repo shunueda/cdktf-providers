@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface AzureContainerRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#api_version AzureContainerRegistry#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#api_version AzureContainerRegistry#api_version}
   */
   readonly apiVersion?: string;
   /**
   * The number of times a deployment should attempt to download a package from this feed before failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#download_attempts AzureContainerRegistry#download_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#download_attempts AzureContainerRegistry#download_attempts}
   */
   readonly downloadAttempts?: number;
   /**
   * The number of seconds to apply as a linear back off between download attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#download_retry_backoff_seconds AzureContainerRegistry#download_retry_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#download_retry_backoff_seconds AzureContainerRegistry#download_retry_backoff_seconds}
   */
   readonly downloadRetryBackoffSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#feed_uri AzureContainerRegistry#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#feed_uri AzureContainerRegistry#feed_uri}
   */
   readonly feedUri: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#name AzureContainerRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#name AzureContainerRegistry#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#oidc_authentication AzureContainerRegistry#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#oidc_authentication AzureContainerRegistry#oidc_authentication}
   */
   readonly oidcAuthentication?: AzureContainerRegistryOidcAuthentication;
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#password AzureContainerRegistry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#password AzureContainerRegistry#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#registry_path AzureContainerRegistry#registry_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#registry_path AzureContainerRegistry#registry_path}
   */
   readonly registryPath?: string;
   /**
   * The space ID associated with this Azure container registry feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#space_id AzureContainerRegistry#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#space_id AzureContainerRegistry#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#username AzureContainerRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#username AzureContainerRegistry#username}
   */
   readonly username?: string;
 }
@@ -64,25 +64,25 @@ export interface AzureContainerRegistryOidcAuthentication {
   /**
   * Audience representing the intended recipient of the OIDC token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#audience AzureContainerRegistry#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#audience AzureContainerRegistry#audience}
   */
   readonly audience?: string;
   /**
   * Unique identifier representing the application requesting authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#client_id AzureContainerRegistry#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#client_id AzureContainerRegistry#client_id}
   */
   readonly clientId?: string;
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `feed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#subject_keys AzureContainerRegistry#subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#subject_keys AzureContainerRegistry#subject_keys}
   */
   readonly subjectKeys?: string[];
   /**
   * Unique identifier representing the Azure AD instance hosting the authenticating application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#tenant_id AzureContainerRegistry#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#tenant_id AzureContainerRegistry#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -263,7 +263,7 @@ export class AzureContainerRegistryOidcAuthenticationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry octopusdeploy_azure_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry octopusdeploy_azure_container_registry}
 */
 export class AzureContainerRegistry extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class AzureContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureContainerRegistry to import
-  * @param importFromId The id of the existing AzureContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class AzureContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/azure_container_registry octopusdeploy_azure_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/azure_container_registry octopusdeploy_azure_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +302,8 @@ export class AzureContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_azure_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

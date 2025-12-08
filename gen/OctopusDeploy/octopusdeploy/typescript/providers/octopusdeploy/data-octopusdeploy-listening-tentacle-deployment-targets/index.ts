@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DataOctopusdeployListeningTentacleDeploymentTargetsConfig exten
   /**
   * A filter to search by deployment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#deployment_id DataOctopusdeployListeningTentacleDeploymentTargets#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#deployment_id DataOctopusdeployListeningTentacleDeploymentTargets#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * A filter to search by a list of environment IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#environments DataOctopusdeployListeningTentacleDeploymentTargets#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#environments DataOctopusdeployListeningTentacleDeploymentTargets#environments}
   */
   readonly environments?: string[];
   /**
   * A filter to search by a list of health statuses of resources. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#health_statuses DataOctopusdeployListeningTentacleDeploymentTargets#health_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#health_statuses DataOctopusdeployListeningTentacleDeploymentTargets#health_statuses}
   */
   readonly healthStatuses?: string[];
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#ids DataOctopusdeployListeningTentacleDeploymentTargets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#ids DataOctopusdeployListeningTentacleDeploymentTargets#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by the disabled status of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#is_disabled DataOctopusdeployListeningTentacleDeploymentTargets#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#is_disabled DataOctopusdeployListeningTentacleDeploymentTargets#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#name DataOctopusdeployListeningTentacleDeploymentTargets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#name DataOctopusdeployListeningTentacleDeploymentTargets#name}
   */
   readonly name?: string;
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#partial_name DataOctopusdeployListeningTentacleDeploymentTargets#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#partial_name DataOctopusdeployListeningTentacleDeploymentTargets#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to search by a list of role IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#roles DataOctopusdeployListeningTentacleDeploymentTargets#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#roles DataOctopusdeployListeningTentacleDeploymentTargets#roles}
   */
   readonly roles?: string[];
   /**
   * A list of shell names to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#shell_names DataOctopusdeployListeningTentacleDeploymentTargets#shell_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#shell_names DataOctopusdeployListeningTentacleDeploymentTargets#shell_names}
   */
   readonly shellNames?: string[];
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#skip DataOctopusdeployListeningTentacleDeploymentTargets#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#skip DataOctopusdeployListeningTentacleDeploymentTargets#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#space_id DataOctopusdeployListeningTentacleDeploymentTargets#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#space_id DataOctopusdeployListeningTentacleDeploymentTargets#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#take DataOctopusdeployListeningTentacleDeploymentTargets#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#take DataOctopusdeployListeningTentacleDeploymentTargets#take}
   */
   readonly take?: number;
   /**
   * A filter to search by a list of tenant tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#tenant_tags DataOctopusdeployListeningTentacleDeploymentTargets#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#tenant_tags DataOctopusdeployListeningTentacleDeploymentTargets#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A filter to search by a list of tenant IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#tenants DataOctopusdeployListeningTentacleDeploymentTargets#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#tenants DataOctopusdeployListeningTentacleDeploymentTargets#tenants}
   */
   readonly tenants?: string[];
   /**
   * The thumbprint of the deployment target to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#thumbprint DataOctopusdeployListeningTentacleDeploymentTargets#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#thumbprint DataOctopusdeployListeningTentacleDeploymentTargets#thumbprint}
   */
   readonly thumbprint?: string;
 }
@@ -381,7 +381,7 @@ export class DataOctopusdeployListeningTentacleDeploymentTargetsListeningTentacl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets octopusdeploy_listening_tentacle_deployment_targets}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets octopusdeploy_listening_tentacle_deployment_targets}
 */
 export class DataOctopusdeployListeningTentacleDeploymentTargets extends cdktf.TerraformDataSource {
 
@@ -397,7 +397,7 @@ export class DataOctopusdeployListeningTentacleDeploymentTargets extends cdktf.T
   * Generates CDKTF code for importing a DataOctopusdeployListeningTentacleDeploymentTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployListeningTentacleDeploymentTargets to import
-  * @param importFromId The id of the existing DataOctopusdeployListeningTentacleDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployListeningTentacleDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployListeningTentacleDeploymentTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class DataOctopusdeployListeningTentacleDeploymentTargets extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/data-sources/listening_tentacle_deployment_targets octopusdeploy_listening_tentacle_deployment_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/listening_tentacle_deployment_targets octopusdeploy_listening_tentacle_deployment_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class DataOctopusdeployListeningTentacleDeploymentTargets extends cdktf.T
       terraformResourceType: 'octopusdeploy_listening_tentacle_deployment_targets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

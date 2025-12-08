@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TimeChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Force y-axes to always show zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#axes_include_zero TimeChart#axes_include_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#axes_include_zero TimeChart#axes_include_zero}
   */
   readonly axesIncludeZero?: boolean | cdktf.IResolvable;
   /**
   * Force a specific number of significant digits in the y-axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#axes_precision TimeChart#axes_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#axes_precision TimeChart#axes_precision}
   */
   readonly axesPrecision?: number;
   /**
   * (Dimension by default) Must be "Dimension" or "Metric"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#color_by TimeChart#color_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#color_by TimeChart#color_by}
   */
   readonly colorBy?: string;
   /**
   * Description of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#description TimeChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#description TimeChart#description}
   */
   readonly description?: string;
   /**
   * (false by default) If false, samples a subset of the output MTS, which improves UI performance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#disable_sampling TimeChart#disable_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#disable_sampling TimeChart#disable_sampling}
   */
   readonly disableSampling?: boolean | cdktf.IResolvable;
   /**
   * Seconds since epoch to end the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#end_time TimeChart#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#end_time TimeChart#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#id TimeChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#id TimeChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,127 +53,127 @@ export interface TimeChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of properties that shouldn't be displayed in the chart legend (i.e. dimension names)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#legend_fields_to_hide TimeChart#legend_fields_to_hide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#legend_fields_to_hide TimeChart#legend_fields_to_hide}
   */
   readonly legendFieldsToHide?: string[];
   /**
   * How long (in seconds) to wait for late datapoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#max_delay TimeChart#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#max_delay TimeChart#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * The minimum resolution (in seconds) to use for computing the underlying program
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#minimum_resolution TimeChart#minimum_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#minimum_resolution TimeChart#minimum_resolution}
   */
   readonly minimumResolution?: number;
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#name TimeChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#name TimeChart#name}
   */
   readonly name: string;
   /**
   * Dimension to show in the on-chart legend. On-chart legend is off unless a dimension is specified. Allowed: 'metric', 'plot_label' and any dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#on_chart_legend_dimension TimeChart#on_chart_legend_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#on_chart_legend_dimension TimeChart#on_chart_legend_dimension}
   */
   readonly onChartLegendDimension?: string;
   /**
   * (LineChart by default) The default plot display style for the visualization. Must be "LineChart", "AreaChart", "ColumnChart", or "Histogram"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#plot_type TimeChart#plot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#plot_type TimeChart#plot_type}
   */
   readonly plotType?: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#program_text TimeChart#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#program_text TimeChart#program_text}
   */
   readonly programText: string;
   /**
   * (false by default) Show markers (circles) for each datapoint used to draw line or area charts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#show_data_markers TimeChart#show_data_markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#show_data_markers TimeChart#show_data_markers}
   */
   readonly showDataMarkers?: boolean | cdktf.IResolvable;
   /**
   * (false by default) Whether vertical highlight lines should be drawn in the visualizations at times when events occurred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#show_event_lines TimeChart#show_event_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#show_event_lines TimeChart#show_event_lines}
   */
   readonly showEventLines?: boolean | cdktf.IResolvable;
   /**
   * (false by default) Whether area and bar charts in the visualization should be stacked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#stacked TimeChart#stacked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#stacked TimeChart#stacked}
   */
   readonly stacked?: boolean | cdktf.IResolvable;
   /**
   * Seconds since epoch to start the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#start_time TimeChart#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#start_time TimeChart#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags associated with the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#tags TimeChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#tags TimeChart#tags}
   */
   readonly tags?: string[];
   /**
   * Seconds to display in the visualization. This is a rolling range from the current time. Example: 3600 = `-1h`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#time_range TimeChart#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#time_range TimeChart#time_range}
   */
   readonly timeRange?: number;
   /**
   * The property value is a string that denotes the geographic region associated with the time zone, (e.g. Australia/Sydney)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#timezone TimeChart#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#timezone TimeChart#timezone}
   */
   readonly timezone?: string;
   /**
   * (Metric by default) Must be "Metric" or "Binary"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#unit_prefix TimeChart#unit_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#unit_prefix TimeChart#unit_prefix}
   */
   readonly unitPrefix?: string;
   /**
   * axis_left block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#axis_left TimeChart#axis_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#axis_left TimeChart#axis_left}
   */
   readonly axisLeft?: TimeChartAxisLeft;
   /**
   * axis_right block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#axis_right TimeChart#axis_right}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#axis_right TimeChart#axis_right}
   */
   readonly axisRight?: TimeChartAxisRight;
   /**
   * event_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#event_options TimeChart#event_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#event_options TimeChart#event_options}
   */
   readonly eventOptions?: TimeChartEventOptions[] | cdktf.IResolvable;
   /**
   * histogram_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#histogram_options TimeChart#histogram_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#histogram_options TimeChart#histogram_options}
   */
   readonly histogramOptions?: TimeChartHistogramOptions[] | cdktf.IResolvable;
   /**
   * legend_options_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#legend_options_fields TimeChart#legend_options_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#legend_options_fields TimeChart#legend_options_fields}
   */
   readonly legendOptionsFields?: TimeChartLegendOptionsFields[] | cdktf.IResolvable;
   /**
   * viz_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#viz_options TimeChart#viz_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#viz_options TimeChart#viz_options}
   */
   readonly vizOptions?: TimeChartVizOptions[] | cdktf.IResolvable;
 }
@@ -181,13 +181,13 @@ export interface TimeChartAxisLeftWatermarks {
   /**
   * Label to display associated with the watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label?: string;
   /**
   * Axis value where the watermark line will be displayed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#value TimeChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#value TimeChart#value}
   */
   readonly value: number;
 }
@@ -331,49 +331,49 @@ export interface TimeChartAxisLeft {
   /**
   * A line to draw as a high watermark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#high_watermark TimeChart#high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#high_watermark TimeChart#high_watermark}
   */
   readonly highWatermark?: number;
   /**
   * A label to attach to the high watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#high_watermark_label TimeChart#high_watermark_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#high_watermark_label TimeChart#high_watermark_label}
   */
   readonly highWatermarkLabel?: string;
   /**
   * Label of the left axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label?: string;
   /**
   * A line to draw as a low watermark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#low_watermark TimeChart#low_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#low_watermark TimeChart#low_watermark}
   */
   readonly lowWatermark?: number;
   /**
   * A label to attach to the low watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#low_watermark_label TimeChart#low_watermark_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#low_watermark_label TimeChart#low_watermark_label}
   */
   readonly lowWatermarkLabel?: string;
   /**
   * The maximum value for the left axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#max_value TimeChart#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#max_value TimeChart#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum value for the left axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#min_value TimeChart#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#min_value TimeChart#min_value}
   */
   readonly minValue?: number;
   /**
   * watermarks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#watermarks TimeChart#watermarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#watermarks TimeChart#watermarks}
   */
   readonly watermarks?: TimeChartAxisLeftWatermarks[] | cdktf.IResolvable;
 }
@@ -662,13 +662,13 @@ export interface TimeChartAxisRightWatermarks {
   /**
   * Label to display associated with the watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label?: string;
   /**
   * Axis value where the watermark line will be displayed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#value TimeChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#value TimeChart#value}
   */
   readonly value: number;
 }
@@ -812,49 +812,49 @@ export interface TimeChartAxisRight {
   /**
   * A line to draw as a high watermark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#high_watermark TimeChart#high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#high_watermark TimeChart#high_watermark}
   */
   readonly highWatermark?: number;
   /**
   * A label to attach to the high watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#high_watermark_label TimeChart#high_watermark_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#high_watermark_label TimeChart#high_watermark_label}
   */
   readonly highWatermarkLabel?: string;
   /**
   * Label of the right axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label?: string;
   /**
   * A line to draw as a low watermark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#low_watermark TimeChart#low_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#low_watermark TimeChart#low_watermark}
   */
   readonly lowWatermark?: number;
   /**
   * A label to attach to the low watermark line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#low_watermark_label TimeChart#low_watermark_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#low_watermark_label TimeChart#low_watermark_label}
   */
   readonly lowWatermarkLabel?: string;
   /**
   * The maximum value for the right axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#max_value TimeChart#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#max_value TimeChart#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum value for the right axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#min_value TimeChart#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#min_value TimeChart#min_value}
   */
   readonly minValue?: number;
   /**
   * watermarks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#watermarks TimeChart#watermarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#watermarks TimeChart#watermarks}
   */
   readonly watermarks?: TimeChartAxisRightWatermarks[] | cdktf.IResolvable;
 }
@@ -1143,19 +1143,19 @@ export interface TimeChartEventOptions {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, red, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#color TimeChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#color TimeChart#color}
   */
   readonly color?: string;
   /**
   * Specifies an alternate value for the Plot Name column of the Data Table associated with the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#display_name TimeChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#display_name TimeChart#display_name}
   */
   readonly displayName?: string;
   /**
   * The label used in the publish statement that displays the events you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label: string;
 }
@@ -1328,7 +1328,7 @@ export interface TimeChartHistogramOptions {
   /**
   * Base color theme to use for the graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#color_theme TimeChart#color_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#color_theme TimeChart#color_theme}
   */
   readonly colorTheme?: string;
 }
@@ -1446,13 +1446,13 @@ export interface TimeChartLegendOptionsFields {
   /**
   * (true by default) Determines if this property is displayed in the data table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#enabled TimeChart#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#enabled TimeChart#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name of a property to hide or show in the data table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#property TimeChart#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#property TimeChart#property}
   */
   readonly property: string;
 }
@@ -1596,49 +1596,49 @@ export interface TimeChartVizOptions {
   /**
   * The Y-axis associated with values for this plot. Must be either "right" or "left". Defaults to "left".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#axis TimeChart#axis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#axis TimeChart#axis}
   */
   readonly axis?: string;
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, red, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#color TimeChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#color TimeChart#color}
   */
   readonly color?: string;
   /**
   * Specifies an alternate value for the Plot Name column of the Data Table associated with the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#display_name TimeChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#display_name TimeChart#display_name}
   */
   readonly displayName?: string;
   /**
   * The label used in the publish statement that displays the plot (metric time series data) you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#label TimeChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#label TimeChart#label}
   */
   readonly label: string;
   /**
   * (Chart plot_type by default) The visualization style to use. Must be "LineChart", "AreaChart", "ColumnChart", or "Histogram"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#plot_type TimeChart#plot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#plot_type TimeChart#plot_type}
   */
   readonly plotType?: string;
   /**
   * An arbitrary prefix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#value_prefix TimeChart#value_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#value_prefix TimeChart#value_prefix}
   */
   readonly valuePrefix?: string;
   /**
   * An arbitrary suffix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#value_suffix TimeChart#value_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#value_suffix TimeChart#value_suffix}
   */
   readonly valueSuffix?: string;
   /**
   * A unit to attach to this plot. Units support automatic scaling (eg thousands of bytes will be displayed as kilobytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#value_unit TimeChart#value_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#value_unit TimeChart#value_unit}
   */
   readonly valueUnit?: string;
 }
@@ -1954,7 +1954,7 @@ export class TimeChartVizOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart signalfx_time_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart signalfx_time_chart}
 */
 export class TimeChart extends cdktf.TerraformResource {
 
@@ -1970,7 +1970,7 @@ export class TimeChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TimeChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimeChart to import
-  * @param importFromId The id of the existing TimeChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimeChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimeChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1982,7 +1982,7 @@ export class TimeChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/time_chart signalfx_time_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/time_chart signalfx_time_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1993,8 +1993,8 @@ export class TimeChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_time_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

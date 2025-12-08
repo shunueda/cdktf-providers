@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VictorOpsIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration#enabled VictorOpsIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration#enabled VictorOpsIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration#id VictorOpsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration#id VictorOpsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface VictorOpsIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration#name VictorOpsIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration#name VictorOpsIntegration#name}
   */
   readonly name: string;
   /**
   * Opsgenie API URL for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration#post_url VictorOpsIntegration#post_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration#post_url VictorOpsIntegration#post_url}
   */
   readonly postUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration signalfx_victor_ops_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration signalfx_victor_ops_integration}
 */
 export class VictorOpsIntegration extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class VictorOpsIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VictorOpsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VictorOpsIntegration to import
-  * @param importFromId The id of the existing VictorOpsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VictorOpsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VictorOpsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class VictorOpsIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/victor_ops_integration signalfx_victor_ops_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/victor_ops_integration signalfx_victor_ops_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class VictorOpsIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_victor_ops_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

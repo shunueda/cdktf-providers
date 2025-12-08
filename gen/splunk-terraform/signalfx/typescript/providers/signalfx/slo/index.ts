@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#id Slo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#id Slo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Type of the SLO. Currently only RequestBased SLO is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#input Slo#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#input Slo#input}
   */
   readonly input: SloInput;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#target Slo#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#target Slo#target}
   */
   readonly target: SloTarget;
 }
@@ -49,19 +49,19 @@ export interface SloInput {
   /**
   * Label used in `program_text` that refers to the data block which contains the stream of successful events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#good_events_label Slo#good_events_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#good_events_label Slo#good_events_label}
   */
   readonly goodEventsLabel?: string;
   /**
   * Signalflow program text for the SLO. More info at "https://dev.splunk.com/observability/docs/signalflow". We require this Signalflow program text to contain at least 2 data blocks - one for the total stream and one for the good stream, whose labels are specified by goodEventsLabel and totalEventsLabel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#program_text Slo#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#program_text Slo#program_text}
   */
   readonly programText: string;
   /**
   * Label used in `program_text` that refers to the data block which contains the stream of total events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#total_events_label Slo#total_events_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#total_events_label Slo#total_events_label}
   */
   readonly totalEventsLabel?: string;
 }
@@ -202,55 +202,55 @@ export interface SloTargetAlertRuleRuleParameters {
   /**
   * Burn rate threshold 1 used in burn rate alert calculation. This value must be between 0 and 100/(100-SLO target). Note: BURN_RATE alert rules use the burn_rate_threshold_1 parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#burn_rate_threshold_1 Slo#burn_rate_threshold_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#burn_rate_threshold_1 Slo#burn_rate_threshold_1}
   */
   readonly burnRateThreshold1?: number;
   /**
   * Burn rate threshold 2 used in burn rate alert calculation. This value must be between 0 and 100/(100-SLO target). Note: BURN_RATE alert rules use the burn_rate_threshold_2 parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#burn_rate_threshold_2 Slo#burn_rate_threshold_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#burn_rate_threshold_2 Slo#burn_rate_threshold_2}
   */
   readonly burnRateThreshold2?: number;
   /**
   * Duration that indicates how long the alert condition is met before the alert is triggered. The value must be positive and smaller than the compliance period of the SLO target. Note: BREACH and ERROR_BUDGET_LEFT alert rules use the fire_lasting parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#fire_lasting Slo#fire_lasting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#fire_lasting Slo#fire_lasting}
   */
   readonly fireLasting?: string;
   /**
   * Long window 1 used in burn rate alert calculation. This value must be longer than short_window_1` and shorter than 90 days. Note: BURN_RATE alert rules use the long_window_1 parameter. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#long_window_1 Slo#long_window_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#long_window_1 Slo#long_window_1}
   */
   readonly longWindow1?: string;
   /**
   * Long window 2 used in burn rate alert calculation. This value must be longer than short_window_2` and shorter than 90 days. Note: BURN_RATE alert rules use the long_window_2 parameter. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#long_window_2 Slo#long_window_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#long_window_2 Slo#long_window_2}
   */
   readonly longWindow2?: string;
   /**
   * Error budget must be equal to or smaller than this percentage for the alert to be triggered. Note: ERROR_BUDGET_LEFT alert rules use the percent_error_budget_left parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#percent_error_budget_left Slo#percent_error_budget_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#percent_error_budget_left Slo#percent_error_budget_left}
   */
   readonly percentErrorBudgetLeft?: number;
   /**
   * Percentage of the fire_lasting duration that the alert condition is met before the alert is triggered. Note: BREACH and ERROR_BUDGET_LEFT alert rules use the percent_of_lasting parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#percent_of_lasting Slo#percent_of_lasting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#percent_of_lasting Slo#percent_of_lasting}
   */
   readonly percentOfLasting?: number;
   /**
   * Short window 1 used in burn rate alert calculation. This value must be longer than 1/30 of long_window_1. Note: BURN_RATE alert rules use the short_window_1 parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#short_window_1 Slo#short_window_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#short_window_1 Slo#short_window_1}
   */
   readonly shortWindow1?: string;
   /**
   * Short window 2 used in burn rate alert calculation. This value must be longer than 1/30 of long_window_2. Note: BURN_RATE alert rules use the short_window_2 parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#short_window_2 Slo#short_window_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#short_window_2 Slo#short_window_2}
   */
   readonly shortWindow2?: string;
 }
@@ -568,19 +568,19 @@ export interface SloTargetAlertRuleRuleReminderNotification {
   /**
   * The interval at which you want to receive the notifications, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#interval_ms Slo#interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#interval_ms Slo#interval_ms}
   */
   readonly intervalMs: number;
   /**
   * The duration during which repeat notifications are sent, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#timeout_ms Slo#timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#timeout_ms Slo#timeout_ms}
   */
   readonly timeoutMs?: number;
   /**
   * Type of reminder notification. Currently, the only supported value is TIMEOUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
 }
@@ -718,61 +718,61 @@ export interface SloTargetAlertRuleRule {
   /**
   * Description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
   * (default: false) When true, notifications and events will not be generated for the detect label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#disabled Slo#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#disabled Slo#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of strings specifying where notifications will be sent when an incident occurs. See https://developers.signalfx.com/v2/docs/detector-model#notifications-models for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#notifications Slo#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#notifications Slo#notifications}
   */
   readonly notifications?: string[];
   /**
   * Custom notification message body when an alert is triggered. See https://developers.signalfx.com/v2/reference#detector-model for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#parameterized_body Slo#parameterized_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#parameterized_body Slo#parameterized_body}
   */
   readonly parameterizedBody?: string;
   /**
   * Custom notification message subject when an alert is triggered. See https://developers.signalfx.com/v2/reference#detector-model for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#parameterized_subject Slo#parameterized_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#parameterized_subject Slo#parameterized_subject}
   */
   readonly parameterizedSubject?: string;
   /**
   * URL of page to consult when an alert is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#runbook_url Slo#runbook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#runbook_url Slo#runbook_url}
   */
   readonly runbookUrl?: string;
   /**
   * The severity of the rule, must be one of: Critical, Warning, Major, Minor, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#severity Slo#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#severity Slo#severity}
   */
   readonly severity: string;
   /**
   * Plain text suggested first course of action, such as a command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#tip Slo#tip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#tip Slo#tip}
   */
   readonly tip?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#parameters Slo#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#parameters Slo#parameters}
   */
   readonly parameters?: SloTargetAlertRuleRuleParameters;
   /**
   * reminder_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#reminder_notification Slo#reminder_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#reminder_notification Slo#reminder_notification}
   */
   readonly reminderNotification?: SloTargetAlertRuleRuleReminderNotification;
 }
@@ -1148,13 +1148,13 @@ export interface SloTargetAlertRule {
   /**
   * SLO alert rule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#rule Slo#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#rule Slo#rule}
   */
   readonly rule: SloTargetAlertRuleRule[] | cdktf.IResolvable;
 }
@@ -1295,37 +1295,37 @@ export interface SloTarget {
   /**
   * (Required for `RollingWindow` type) Compliance period of this SLO. This value must be within the range of 1d (1 days) to 30d (30 days), inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#compliance_period Slo#compliance_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#compliance_period Slo#compliance_period}
   */
   readonly compliancePeriod?: string;
   /**
   * (Optional for `CalendarWindow` type)  It can be used to change the cycle start time. For example, you can specify sunday as the start of the week (instead of the default monday)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#cycle_start Slo#cycle_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#cycle_start Slo#cycle_start}
   */
   readonly cycleStart?: string;
   /**
   * (Required for `CalendarWindow` type) The cycle type of the calendar window, e.g. week, month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#cycle_type Slo#cycle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#cycle_type Slo#cycle_type}
   */
   readonly cycleType?: string;
   /**
   * Target value in the form of a percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#slo Slo#slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#slo Slo#slo}
   */
   readonly slo: number;
   /**
   * SLO target type can be the following type: `RollingWindow`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
   /**
   * alert_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#alert_rule Slo#alert_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#alert_rule Slo#alert_rule}
   */
   readonly alertRule: SloTargetAlertRule[] | cdktf.IResolvable;
 }
@@ -1545,7 +1545,7 @@ export class SloTargetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo signalfx_slo}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo signalfx_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -1561,7 +1561,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1573,7 +1573,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/slo signalfx_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/slo signalfx_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1584,8 +1584,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_slo',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

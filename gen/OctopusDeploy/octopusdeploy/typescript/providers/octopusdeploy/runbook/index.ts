@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,91 @@ export interface RunbookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sets the runbook guided failure mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#default_guided_failure_mode Runbook#default_guided_failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#default_guided_failure_mode Runbook#default_guided_failure_mode}
   */
   readonly defaultGuidedFailureMode?: string;
   /**
   * The description of this runbook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#description Runbook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#description Runbook#description}
   */
   readonly description?: string;
   /**
   * Determines how the runbook is scoped to environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#environment_scope Runbook#environment_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#environment_scope Runbook#environment_scope}
   */
   readonly environmentScope?: string;
   /**
   * When environment_scope is set to "Specified", this is the list of environments the runbook can be run against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#environments Runbook#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#environments Runbook#environments}
   */
   readonly environments?: string[];
   /**
   * Whether to force packages to be re-downloaded or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#force_package_download Runbook#force_package_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#force_package_download Runbook#force_package_download}
   */
   readonly forcePackageDownload?: boolean | cdktf.IResolvable;
   /**
   * The tenanted deployment mode of the runbook. Valid modes are `Untenanted`, `TenantedOrUntenanted`, `Tenanted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#multi_tenancy_mode Runbook#multi_tenancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#multi_tenancy_mode Runbook#multi_tenancy_mode}
   */
   readonly multiTenancyMode?: string;
   /**
   * The name of the runbook in Octopus Deploy. This name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#name Runbook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#name Runbook#name}
   */
   readonly name: string;
   /**
   * The project that this runbook belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#project_id Runbook#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#project_id Runbook#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with this runbook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#space_id Runbook#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#space_id Runbook#space_id}
   */
   readonly spaceId?: string;
   /**
   * connectivity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#connectivity_policy Runbook#connectivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#connectivity_policy Runbook#connectivity_policy}
   */
   readonly connectivityPolicy?: RunbookConnectivityPolicy[] | cdktf.IResolvable;
   /**
   * retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#retention_policy Runbook#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#retention_policy Runbook#retention_policy}
   */
   readonly retentionPolicy?: RunbookRetentionPolicy[] | cdktf.IResolvable;
+  /**
+  * retention_policy_with_strategy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#retention_policy_with_strategy Runbook#retention_policy_with_strategy}
+  */
+  readonly retentionPolicyWithStrategy?: RunbookRetentionPolicyWithStrategy[] | cdktf.IResolvable;
 }
 export interface RunbookConnectivityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#allow_deployments_to_no_targets Runbook#allow_deployments_to_no_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#allow_deployments_to_no_targets Runbook#allow_deployments_to_no_targets}
   */
   readonly allowDeploymentsToNoTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#exclude_unhealthy_targets Runbook#exclude_unhealthy_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#exclude_unhealthy_targets Runbook#exclude_unhealthy_targets}
   */
   readonly excludeUnhealthyTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#skip_machine_behavior Runbook#skip_machine_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#skip_machine_behavior Runbook#skip_machine_behavior}
   */
   readonly skipMachineBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#target_roles Runbook#target_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#target_roles Runbook#target_roles}
   */
   readonly targetRoles?: string[];
 }
@@ -293,13 +299,13 @@ export interface RunbookRetentionPolicy {
   /**
   * How many runs to keep per environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#quantity_to_keep Runbook#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#quantity_to_keep Runbook#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#should_keep_forever Runbook#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#should_keep_forever Runbook#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
 }
@@ -442,9 +448,197 @@ export class RunbookRetentionPolicyList extends cdktf.ComplexList {
     return new RunbookRetentionPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface RunbookRetentionPolicyWithStrategy {
+  /**
+  * The number of runs per environment or days of runs to keep, depending on the unit selected. Required when strategy is `Count`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#quantity_to_keep Runbook#quantity_to_keep}
+  */
+  readonly quantityToKeep?: number;
+  /**
+  * How retention will be set. Valid strategies are `Default`, `Forever` and `Count`.
+  *   - `strategy = "Forever"`, is used if runbook runs should never be deleted.
+  *   - `strategy = "Count"`, is used if a specific number of runs or days of runs should be kept.
+  *  - `strategy = "Default"`, is used if the space default runbook retention policy should be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#strategy Runbook#strategy}
+  */
+  readonly strategy: string;
+  /**
+  * The unit of the quantity to keep. Valid units are `Items` and `Days`. Required when strategy is `Count`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#unit Runbook#unit}
+  */
+  readonly unit?: string;
+}
+
+export function runbookRetentionPolicyWithStrategyToTerraform(struct?: RunbookRetentionPolicyWithStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    quantity_to_keep: cdktf.numberToTerraform(struct!.quantityToKeep),
+    strategy: cdktf.stringToTerraform(struct!.strategy),
+    unit: cdktf.stringToTerraform(struct!.unit),
+  }
+}
+
+
+export function runbookRetentionPolicyWithStrategyToHclTerraform(struct?: RunbookRetentionPolicyWithStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    quantity_to_keep: {
+      value: cdktf.numberToHclTerraform(struct!.quantityToKeep),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    strategy: {
+      value: cdktf.stringToHclTerraform(struct!.strategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    unit: {
+      value: cdktf.stringToHclTerraform(struct!.unit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RunbookRetentionPolicyWithStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RunbookRetentionPolicyWithStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._quantityToKeep !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.quantityToKeep = this._quantityToKeep;
+    }
+    if (this._strategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.strategy = this._strategy;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RunbookRetentionPolicyWithStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._quantityToKeep = undefined;
+      this._strategy = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._quantityToKeep = value.quantityToKeep;
+      this._strategy = value.strategy;
+      this._unit = value.unit;
+    }
+  }
+
+  // quantity_to_keep - computed: false, optional: true, required: false
+  private _quantityToKeep?: number; 
+  public get quantityToKeep() {
+    return this.getNumberAttribute('quantity_to_keep');
+  }
+  public set quantityToKeep(value: number) {
+    this._quantityToKeep = value;
+  }
+  public resetQuantityToKeep() {
+    this._quantityToKeep = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quantityToKeepInput() {
+    return this._quantityToKeep;
+  }
+
+  // strategy - computed: false, optional: false, required: true
+  private _strategy?: string; 
+  public get strategy() {
+    return this.getStringAttribute('strategy');
+  }
+  public set strategy(value: string) {
+    this._strategy = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get strategyInput() {
+    return this._strategy;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class RunbookRetentionPolicyWithStrategyList extends cdktf.ComplexList {
+  public internalValue? : RunbookRetentionPolicyWithStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RunbookRetentionPolicyWithStrategyOutputReference {
+    return new RunbookRetentionPolicyWithStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook octopusdeploy_runbook}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook octopusdeploy_runbook}
 */
 export class Runbook extends cdktf.TerraformResource {
 
@@ -460,7 +654,7 @@ export class Runbook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Runbook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Runbook to import
-  * @param importFromId The id of the existing Runbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Runbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Runbook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +666,7 @@ export class Runbook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/runbook octopusdeploy_runbook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/runbook octopusdeploy_runbook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +677,8 @@ export class Runbook extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_runbook',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.5.2',
-        providerVersionConstraint: '1.5.2'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -505,6 +699,7 @@ export class Runbook extends cdktf.TerraformResource {
     this._spaceId = config.spaceId;
     this._connectivityPolicy.internalValue = config.connectivityPolicy;
     this._retentionPolicy.internalValue = config.retentionPolicy;
+    this._retentionPolicyWithStrategy.internalValue = config.retentionPolicyWithStrategy;
   }
 
   // ==========
@@ -696,6 +891,22 @@ export class Runbook extends cdktf.TerraformResource {
     return this._retentionPolicy.internalValue;
   }
 
+  // retention_policy_with_strategy - computed: false, optional: true, required: false
+  private _retentionPolicyWithStrategy = new RunbookRetentionPolicyWithStrategyList(this, "retention_policy_with_strategy", false);
+  public get retentionPolicyWithStrategy() {
+    return this._retentionPolicyWithStrategy;
+  }
+  public putRetentionPolicyWithStrategy(value: RunbookRetentionPolicyWithStrategy[] | cdktf.IResolvable) {
+    this._retentionPolicyWithStrategy.internalValue = value;
+  }
+  public resetRetentionPolicyWithStrategy() {
+    this._retentionPolicyWithStrategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retentionPolicyWithStrategyInput() {
+    return this._retentionPolicyWithStrategy.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -713,6 +924,7 @@ export class Runbook extends cdktf.TerraformResource {
       space_id: cdktf.stringToTerraform(this._spaceId),
       connectivity_policy: cdktf.listMapper(runbookConnectivityPolicyToTerraform, true)(this._connectivityPolicy.internalValue),
       retention_policy: cdktf.listMapper(runbookRetentionPolicyToTerraform, true)(this._retentionPolicy.internalValue),
+      retention_policy_with_strategy: cdktf.listMapper(runbookRetentionPolicyWithStrategyToTerraform, true)(this._retentionPolicyWithStrategy.internalValue),
     };
   }
 
@@ -783,6 +995,12 @@ export class Runbook extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "RunbookRetentionPolicyList",
+      },
+      retention_policy_with_strategy: {
+        value: cdktf.listMapperHcl(runbookRetentionPolicyWithStrategyToHclTerraform, true)(this._retentionPolicyWithStrategy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RunbookRetentionPolicyWithStrategyList",
       },
     };
 

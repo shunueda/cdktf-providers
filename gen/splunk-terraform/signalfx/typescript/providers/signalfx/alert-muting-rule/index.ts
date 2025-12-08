@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlertMutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#description AlertMutingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#description AlertMutingRule#description}
   */
   readonly description: string;
   /**
   * detectors to which this muting rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#detectors AlertMutingRule#detectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#detectors AlertMutingRule#detectors}
   */
   readonly detectors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#id AlertMutingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#id AlertMutingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface AlertMutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * starting time of an alert muting rule as a Unix timestamp, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#start_time AlertMutingRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#start_time AlertMutingRule#start_time}
   */
   readonly startTime: number;
   /**
   * stop time of an alert muting rule as a Unix timestamp, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#stop_time AlertMutingRule#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#stop_time AlertMutingRule#stop_time}
   */
   readonly stopTime?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#filter AlertMutingRule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#filter AlertMutingRule#filter}
   */
   readonly filter?: AlertMutingRuleFilter[] | cdktf.IResolvable;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#recurrence AlertMutingRule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#recurrence AlertMutingRule#recurrence}
   */
   readonly recurrence?: AlertMutingRuleRecurrence;
 }
@@ -55,19 +55,19 @@ export interface AlertMutingRuleFilter {
   /**
   * (false by default) whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#negated AlertMutingRule#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#negated AlertMutingRule#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * the property to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#property AlertMutingRule#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#property AlertMutingRule#property}
   */
   readonly property: string;
   /**
   * the value of the property to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#property_value AlertMutingRule#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#property_value AlertMutingRule#property_value}
   */
   readonly propertyValue: string;
 }
@@ -237,13 +237,13 @@ export interface AlertMutingRuleRecurrence {
   /**
   * unit of the period. Can be days (d) or weeks (w)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#unit AlertMutingRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#unit AlertMutingRule#unit}
   */
   readonly unit: string;
   /**
   * amount of time, expressed as an integer applicable to the unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#value AlertMutingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#value AlertMutingRule#value}
   */
   readonly value: number;
 }
@@ -350,7 +350,7 @@ export class AlertMutingRuleRecurrenceOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule signalfx_alert_muting_rule}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule signalfx_alert_muting_rule}
 */
 export class AlertMutingRule extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class AlertMutingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertMutingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertMutingRule to import
-  * @param importFromId The id of the existing AlertMutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertMutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertMutingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class AlertMutingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/alert_muting_rule signalfx_alert_muting_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/alert_muting_rule signalfx_alert_muting_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,8 +389,8 @@ export class AlertMutingRule extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_alert_muting_rule',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

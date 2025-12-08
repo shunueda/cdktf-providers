@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebhookIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#enabled WebhookIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#enabled WebhookIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#id WebhookIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#id WebhookIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,45 +23,45 @@ export interface WebhookIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * HTTP method used for the webhook request, such as 'GET', 'POST' and 'PUT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#method WebhookIntegration#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#method WebhookIntegration#method}
   */
   readonly method?: string;
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#name WebhookIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#name WebhookIntegration#name}
   */
   readonly name: string;
   /**
   * Template for the payload to be sent with the webhook request in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#payload_template WebhookIntegration#payload_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#payload_template WebhookIntegration#payload_template}
   */
   readonly payloadTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#shared_secret WebhookIntegration#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#shared_secret WebhookIntegration#shared_secret}
   */
   readonly sharedSecret?: string;
   /**
   * Webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#url WebhookIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#url WebhookIntegration#url}
   */
   readonly url?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#headers WebhookIntegration#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#headers WebhookIntegration#headers}
   */
   readonly headers?: WebhookIntegrationHeaders[] | cdktf.IResolvable;
 }
 export interface WebhookIntegrationHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#header_key WebhookIntegration#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#header_key WebhookIntegration#header_key}
   */
   readonly headerKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#header_value WebhookIntegration#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#header_value WebhookIntegration#header_value}
   */
   readonly headerValue: string;
 }
@@ -200,7 +200,7 @@ export class WebhookIntegrationHeadersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration signalfx_webhook_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration signalfx_webhook_integration}
 */
 export class WebhookIntegration extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class WebhookIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookIntegration to import
-  * @param importFromId The id of the existing WebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class WebhookIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/webhook_integration signalfx_webhook_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/webhook_integration signalfx_webhook_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class WebhookIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_webhook_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

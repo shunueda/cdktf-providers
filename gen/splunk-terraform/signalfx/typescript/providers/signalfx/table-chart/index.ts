@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TableChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#description TableChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#description TableChart#description}
   */
   readonly description?: string;
   /**
   * (false by default) If false, samples a subset of the output MTS, which improves UI performance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#disable_sampling TableChart#disable_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#disable_sampling TableChart#disable_sampling}
   */
   readonly disableSampling?: boolean | cdktf.IResolvable;
   /**
   * Properties to group by in the Table (in nesting order)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#group_by TableChart#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#group_by TableChart#group_by}
   */
   readonly groupBy?: string[];
   /**
   * (false by default) Whether to show the timestamp in the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#hide_timestamp TableChart#hide_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#hide_timestamp TableChart#hide_timestamp}
   */
   readonly hideTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#id TableChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#id TableChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface TableChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * How long (in seconds) to wait for late datapoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#max_delay TableChart#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#max_delay TableChart#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * The minimum resolution (in seconds) to use for computing the underlying program
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#minimum_resolution TableChart#minimum_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#minimum_resolution TableChart#minimum_resolution}
   */
   readonly minimumResolution?: number;
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#name TableChart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#name TableChart#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#program_text TableChart#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#program_text TableChart#program_text}
   */
   readonly programText: string;
   /**
   * How often (in seconds) to refresh the values of the Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#refresh_interval TableChart#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#refresh_interval TableChart#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#tags TableChart#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#tags TableChart#tags}
   */
   readonly tags?: string[];
   /**
   * The property value is a string that denotes the geographic region associated with the time zone, (e.g. Australia/Sydney)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#timezone TableChart#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#timezone TableChart#timezone}
   */
   readonly timezone?: string;
   /**
   * (Metric by default) Must be "Metric" or "Binary"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#unit_prefix TableChart#unit_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#unit_prefix TableChart#unit_prefix}
   */
   readonly unitPrefix?: string;
   /**
   * viz_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#viz_options TableChart#viz_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#viz_options TableChart#viz_options}
   */
   readonly vizOptions?: TableChartVizOptions[] | cdktf.IResolvable;
 }
@@ -97,37 +97,37 @@ export interface TableChartVizOptions {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, red, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#color TableChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#color TableChart#color}
   */
   readonly color?: string;
   /**
   * Specifies an alternate value for the Plot Name column of the Data Table associated with the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#display_name TableChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#display_name TableChart#display_name}
   */
   readonly displayName?: string;
   /**
   * The label used in the publish statement that displays the plot (metric time series data) you want to customize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#label TableChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#label TableChart#label}
   */
   readonly label: string;
   /**
   * An arbitrary prefix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#value_prefix TableChart#value_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#value_prefix TableChart#value_prefix}
   */
   readonly valuePrefix?: string;
   /**
   * An arbitrary suffix to display with the value of this plot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#value_suffix TableChart#value_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#value_suffix TableChart#value_suffix}
   */
   readonly valueSuffix?: string;
   /**
   * A unit to attach to this plot. Units support automatic scaling (eg thousands of bytes will be displayed as kilobytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#value_unit TableChart#value_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#value_unit TableChart#value_unit}
   */
   readonly valueUnit?: string;
 }
@@ -385,7 +385,7 @@ export class TableChartVizOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart signalfx_table_chart}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart signalfx_table_chart}
 */
 export class TableChart extends cdktf.TerraformResource {
 
@@ -401,7 +401,7 @@ export class TableChart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TableChart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TableChart to import
-  * @param importFromId The id of the existing TableChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TableChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TableChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +413,7 @@ export class TableChart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.22.3/docs/resources/table_chart signalfx_table_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/table_chart signalfx_table_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +424,8 @@ export class TableChart extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_table_chart',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3',
-        providerVersionConstraint: '9.22.3'
+        providerVersion: '9.23.0',
+        providerVersionConstraint: '9.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

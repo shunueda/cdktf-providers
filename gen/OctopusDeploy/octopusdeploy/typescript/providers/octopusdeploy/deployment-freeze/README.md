@@ -1,3 +1,3 @@
 # `octopusdeploy_deployment_freeze`
 
-Refer to the Terraform Registry for docs: [`octopusdeploy_deployment_freeze`](https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.2/docs/resources/deployment_freeze).
+Refer to the Terraform Registry for docs: [`octopusdeploy_deployment_freeze`](https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/deployment_freeze).
