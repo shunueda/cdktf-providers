@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,199 +10,199 @@ export interface IndexerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#additional_parameters Indexer#additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#additional_parameters Indexer#additional_parameters}
   */
   readonly additionalParameters?: string;
   /**
   * Allow zero size files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#allow_zero_size Indexer#allow_zero_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#allow_zero_size Indexer#allow_zero_size}
   */
   readonly allowZeroSize?: boolean | cdktf.IResolvable;
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#api_key Indexer#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#api_key Indexer#api_key}
   */
   readonly apiKey?: string;
   /**
   * API path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#api_path Indexer#api_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#api_path Indexer#api_path}
   */
   readonly apiPath?: string;
   /**
   * API User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#api_user Indexer#api_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#api_user Indexer#api_user}
   */
   readonly apiUser?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#base_url Indexer#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#base_url Indexer#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Captcha token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#captcha_token Indexer#captcha_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#captcha_token Indexer#captcha_token}
   */
   readonly captchaToken?: string;
   /**
   * Series list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#categories Indexer#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#categories Indexer#categories}
   */
   readonly categories?: number[];
   /**
   * Codecs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#codecs Indexer#codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#codecs Indexer#codecs}
   */
   readonly codecs?: number[];
   /**
   * Indexer configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#config_contract Indexer#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#config_contract Indexer#config_contract}
   */
   readonly configContract: string;
   /**
   * Cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#cookie Indexer#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#cookie Indexer#cookie}
   */
   readonly cookie?: string;
   /**
   * Delay before grabbing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#delay Indexer#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#delay Indexer#delay}
   */
   readonly delay?: number;
   /**
   * Download client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#download_client_id Indexer#download_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#download_client_id Indexer#download_client_id}
   */
   readonly downloadClientId?: number;
   /**
   * Enable automatic search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#enable_automatic_search Indexer#enable_automatic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#enable_automatic_search Indexer#enable_automatic_search}
   */
   readonly enableAutomaticSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable interactive search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#enable_interactive_search Indexer#enable_interactive_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#enable_interactive_search Indexer#enable_interactive_search}
   */
   readonly enableInteractiveSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#enable_rss Indexer#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#enable_rss Indexer#enable_rss}
   */
   readonly enableRss?: boolean | cdktf.IResolvable;
   /**
   * Indexer implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#implementation Indexer#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#implementation Indexer#implementation}
   */
   readonly implementation: string;
   /**
   * Mediumd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#mediums Indexer#mediums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#mediums Indexer#mediums}
   */
   readonly mediums?: number[];
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#minimum_seeders Indexer#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#minimum_seeders Indexer#minimum_seeders}
   */
   readonly minimumSeeders?: number;
   /**
   * Language list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#multi_languages Indexer#multi_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#multi_languages Indexer#multi_languages}
   */
   readonly multiLanguages?: number[];
   /**
   * Indexer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#name Indexer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#name Indexer#name}
   */
   readonly name: string;
   /**
   * Passkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#passkey Indexer#passkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#passkey Indexer#passkey}
   */
   readonly passkey?: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#priority Indexer#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#priority Indexer#priority}
   */
   readonly priority?: number;
   /**
   * Protocol. Valid values are 'usenet' and 'torrent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#protocol Indexer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#protocol Indexer#protocol}
   */
   readonly protocol: string;
   /**
   * Allow ranked only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#ranked_only Indexer#ranked_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#ranked_only Indexer#ranked_only}
   */
   readonly rankedOnly?: boolean | cdktf.IResolvable;
   /**
   * Remove year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#remove_year Indexer#remove_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#remove_year Indexer#remove_year}
   */
   readonly removeYear?: boolean | cdktf.IResolvable;
   /**
   * Required flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#required_flags Indexer#required_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#required_flags Indexer#required_flags}
   */
   readonly requiredFlags?: number[];
   /**
   * Seed ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#seed_ratio Indexer#seed_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#seed_ratio Indexer#seed_ratio}
   */
   readonly seedRatio?: number;
   /**
   * Seed time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#seed_time Indexer#seed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#seed_time Indexer#seed_time}
   */
   readonly seedTime?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#tags Indexer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#tags Indexer#tags}
   */
   readonly tags?: number[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#user Indexer#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#user Indexer#user}
   */
   readonly user?: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#username Indexer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#username Indexer#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer radarr_indexer}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer radarr_indexer}
 */
 export class Indexer extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class Indexer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Indexer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Indexer to import
-  * @param importFromId The id of the existing Indexer that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Indexer that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Indexer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class Indexer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer radarr_indexer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer radarr_indexer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class Indexer extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

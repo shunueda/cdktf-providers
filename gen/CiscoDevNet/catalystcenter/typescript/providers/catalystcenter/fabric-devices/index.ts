@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface FabricDevicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of fabric devices to be managed in bulk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#fabric_devices FabricDevices#fabric_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#fabric_devices FabricDevices#fabric_devices}
   */
   readonly fabricDevices: FabricDevicesFabricDevices[] | cdktf.IResolvable;
   /**
   * ID of the fabric this device belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#fabric_id FabricDevices#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#fabric_id FabricDevices#fabric_id}
   */
   readonly fabricId: string;
 }
@@ -25,56 +25,56 @@ export interface FabricDevicesFabricDevices {
   * Border priority of the fabric border device. Allowed range is [1-9]. A lower value indicates higher priority. E.g., a priority of 1 takes precedence over 5. Default priority would be set to 10.
   *   - Range: `1`-`9`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#border_priority FabricDevices#border_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#border_priority FabricDevices#border_priority}
   */
   readonly borderPriority?: number;
   /**
   * List of the border types of the fabric device. Allowed values are [LAYER_2, LAYER_3]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#border_types FabricDevices#border_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#border_types FabricDevices#border_types}
   */
   readonly borderTypes?: string[];
   /**
   * Set this to make the fabric border device the gateway of last resort for this site. Any unknown traffic will be sent to this fabric border device from edge nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#default_exit FabricDevices#default_exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#default_exit FabricDevices#default_exit}
   */
   readonly defaultExit?: boolean | cdktf.IResolvable;
   /**
   * List of the roles of the fabric device. Allowed values are [CONTROL_PLANE_NODE, EDGE_NODE, BORDER_NODE, WIRELESS_CONTROLLER_NODE]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#device_roles FabricDevices#device_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#device_roles FabricDevices#device_roles}
   */
   readonly deviceRoles: string[];
   /**
   * ID of the fabric of this fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#fabric_id FabricDevices#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#fabric_id FabricDevices#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Set this to import external routes from other routing protocols (such as BGP) to the fabric control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#import_external_routes FabricDevices#import_external_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#import_external_routes FabricDevices#import_external_routes}
   */
   readonly importExternalRoutes?: boolean | cdktf.IResolvable;
   /**
   * BGP Local autonomous system number of the fabric border device. Allowed range is [1 to 4294967295].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#local_autonomous_system_number FabricDevices#local_autonomous_system_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#local_autonomous_system_number FabricDevices#local_autonomous_system_number}
   */
   readonly localAutonomousSystemNumber?: string;
   /**
   * Network device ID of the fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#network_device_id FabricDevices#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#network_device_id FabricDevices#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Prepend autonomous system count of the fabric border device. Allowed range is [1 to 10].
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#prepend_autonomous_system_count FabricDevices#prepend_autonomous_system_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#prepend_autonomous_system_count FabricDevices#prepend_autonomous_system_count}
   */
   readonly prependAutonomousSystemCount?: number;
 }
@@ -418,7 +418,7 @@ export class FabricDevicesFabricDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices catalystcenter_fabric_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices catalystcenter_fabric_devices}
 */
 export class FabricDevices extends cdktf.TerraformResource {
 
@@ -434,7 +434,7 @@ export class FabricDevices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricDevices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricDevices to import
-  * @param importFromId The id of the existing FabricDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricDevices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class FabricDevices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_devices catalystcenter_fabric_devices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_devices catalystcenter_fabric_devices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class FabricDevices extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_devices',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

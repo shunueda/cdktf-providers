@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type
+// https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CatalogTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The categories that this type belongs to, to be shown in the web dashboard. Possible values are: `customer`, `issue-tracker`, `product-feature`, `service`, `on-call`, `team`, `user`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#categories CatalogType#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#categories CatalogType#categories}
   */
   readonly categories?: string[];
   /**
   * Human readble description of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#description CatalogType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#description CatalogType#description}
   */
   readonly description: string;
   /**
   * Name is the human readable name of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#name CatalogType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#name CatalogType#name}
   */
   readonly name: string;
   /**
   * The url of the external repository where this type is managed. Users will not be able to edit the catalog type (or its entries) via the UI, and will instead be provided a link to this URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#source_repo_url CatalogType#source_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#source_repo_url CatalogType#source_repo_url}
   */
   readonly sourceRepoUrl: string;
   /**
   * The type name of this catalog type, to be used when defining attributes. This is immutable once a CatalogType has been created. For non-externally sync types, it must follow the pattern Custom["SomeName"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#type_name CatalogType#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#type_name CatalogType#type_name}
   */
   readonly typeName?: string;
   /**
   * If enabled, you can refer to entries of this type by their name, as well as their external ID and any aliases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#use_name_as_identifier CatalogType#use_name_as_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#use_name_as_identifier CatalogType#use_name_as_identifier}
   */
   readonly useNameAsIdentifier?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type incident_catalog_type}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type incident_catalog_type}
 */
 export class CatalogType extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CatalogType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogType to import
-  * @param importFromId The id of the existing CatalogType that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogType that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CatalogType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/catalog_type incident_catalog_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/resources/catalog_type incident_catalog_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CatalogType extends cdktf.TerraformResource {
       terraformResourceType: 'incident_catalog_type',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.20.0',
-        providerVersionConstraint: '5.20.0'
+        providerVersion: '5.21.0',
+        providerVersionConstraint: '5.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

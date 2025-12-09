@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterFabricMulticastVirtualNetworkConfig extends c
   /**
   * ID of the fabric site this multicast configuration is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network#fabric_id DataCatalystcenterFabricMulticastVirtualNetwork#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network#fabric_id DataCatalystcenterFabricMulticastVirtualNetwork#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Name of the virtual network associated with the fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network#virtual_network_name DataCatalystcenterFabricMulticastVirtualNetwork#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network#virtual_network_name DataCatalystcenterFabricMulticastVirtualNetwork#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
@@ -132,7 +132,7 @@ export class DataCatalystcenterFabricMulticastVirtualNetworkMulticastRpsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network catalystcenter_fabric_multicast_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network catalystcenter_fabric_multicast_virtual_network}
 */
 export class DataCatalystcenterFabricMulticastVirtualNetwork extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataCatalystcenterFabricMulticastVirtualNetwork extends cdktf.Terra
   * Generates CDKTF code for importing a DataCatalystcenterFabricMulticastVirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterFabricMulticastVirtualNetwork to import
-  * @param importFromId The id of the existing DataCatalystcenterFabricMulticastVirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterFabricMulticastVirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterFabricMulticastVirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataCatalystcenterFabricMulticastVirtualNetwork extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_multicast_virtual_network catalystcenter_fabric_multicast_virtual_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_multicast_virtual_network catalystcenter_fabric_multicast_virtual_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataCatalystcenterFabricMulticastVirtualNetwork extends cdktf.Terra
       terraformResourceType: 'catalystcenter_fabric_multicast_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

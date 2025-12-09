@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FrameworkAssignmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable or disable the compliance framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment#enabled FrameworkAssignment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment#enabled FrameworkAssignment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Compliance framework MRN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment#framework_mrn FrameworkAssignment#framework_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment#framework_mrn FrameworkAssignment#framework_mrn}
   */
   readonly frameworkMrn: string[];
   /**
   * Mondoo space identifier. If there's no ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment#space_id FrameworkAssignment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment#space_id FrameworkAssignment#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment mondoo_framework_assignment}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment mondoo_framework_assignment}
 */
 export class FrameworkAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FrameworkAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FrameworkAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FrameworkAssignment to import
-  * @param importFromId The id of the existing FrameworkAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FrameworkAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FrameworkAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FrameworkAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/framework_assignment mondoo_framework_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/framework_assignment mondoo_framework_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FrameworkAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_framework_assignment',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

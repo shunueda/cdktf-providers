@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataRadarrCustomFormatConditionResolutionConfig extends cdktf.T
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution#name DataRadarrCustomFormatConditionResolution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution#name DataRadarrCustomFormatConditionResolution#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution#negate DataRadarrCustomFormatConditionResolution#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution#negate DataRadarrCustomFormatConditionResolution#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution#required DataRadarrCustomFormatConditionResolution#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution#required DataRadarrCustomFormatConditionResolution#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Resolution ID. `0` Unknown, `1` R360p, `2` R480p, `3` R540p, `4` R576p, `5` R720p, `6` R1080p, `7` R2160p.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution#value DataRadarrCustomFormatConditionResolution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution#value DataRadarrCustomFormatConditionResolution#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution radarr_custom_format_condition_resolution}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution radarr_custom_format_condition_resolution}
 */
 export class DataRadarrCustomFormatConditionResolution extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataRadarrCustomFormatConditionResolution extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataRadarrCustomFormatConditionResolution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrCustomFormatConditionResolution to import
-  * @param importFromId The id of the existing DataRadarrCustomFormatConditionResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrCustomFormatConditionResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrCustomFormatConditionResolution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataRadarrCustomFormatConditionResolution extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_resolution radarr_custom_format_condition_resolution} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_resolution radarr_custom_format_condition_resolution} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataRadarrCustomFormatConditionResolution extends cdktf.TerraformDa
       terraformResourceType: 'radarr_custom_format_condition_resolution',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface IndexerHdbitsConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#api_key IndexerHdbits#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#api_key IndexerHdbits#api_key}
   */
   readonly apiKey: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#base_url IndexerHdbits#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#base_url IndexerHdbits#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Categories list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#categories IndexerHdbits#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#categories IndexerHdbits#categories}
   */
   readonly categories?: number[];
   /**
   * Codecs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#codecs IndexerHdbits#codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#codecs IndexerHdbits#codecs}
   */
   readonly codecs?: number[];
   /**
   * Download client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#download_client_id IndexerHdbits#download_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#download_client_id IndexerHdbits#download_client_id}
   */
   readonly downloadClientId?: number;
   /**
   * Enable automatic search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#enable_automatic_search IndexerHdbits#enable_automatic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#enable_automatic_search IndexerHdbits#enable_automatic_search}
   */
   readonly enableAutomaticSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable interactive search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#enable_interactive_search IndexerHdbits#enable_interactive_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#enable_interactive_search IndexerHdbits#enable_interactive_search}
   */
   readonly enableInteractiveSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#enable_rss IndexerHdbits#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#enable_rss IndexerHdbits#enable_rss}
   */
   readonly enableRss?: boolean | cdktf.IResolvable;
   /**
   * Mediumd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#mediums IndexerHdbits#mediums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#mediums IndexerHdbits#mediums}
   */
   readonly mediums?: number[];
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#minimum_seeders IndexerHdbits#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#minimum_seeders IndexerHdbits#minimum_seeders}
   */
   readonly minimumSeeders?: number;
   /**
   * Languages list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#multi_languages IndexerHdbits#multi_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#multi_languages IndexerHdbits#multi_languages}
   */
   readonly multiLanguages?: number[];
   /**
   * IndexerHdbits name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#name IndexerHdbits#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#name IndexerHdbits#name}
   */
   readonly name: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#priority IndexerHdbits#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#priority IndexerHdbits#priority}
   */
   readonly priority?: number;
   /**
   * Flag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#required_flags IndexerHdbits#required_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#required_flags IndexerHdbits#required_flags}
   */
   readonly requiredFlags?: number[];
   /**
   * Seed ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#seed_ratio IndexerHdbits#seed_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#seed_ratio IndexerHdbits#seed_ratio}
   */
   readonly seedRatio?: number;
   /**
   * Seed time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#seed_time IndexerHdbits#seed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#seed_time IndexerHdbits#seed_time}
   */
   readonly seedTime?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#tags IndexerHdbits#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#tags IndexerHdbits#tags}
   */
   readonly tags?: number[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#username IndexerHdbits#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#username IndexerHdbits#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits radarr_indexer_hdbits}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits radarr_indexer_hdbits}
 */
 export class IndexerHdbits extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class IndexerHdbits extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerHdbits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerHdbits to import
-  * @param importFromId The id of the existing IndexerHdbits that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerHdbits that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerHdbits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class IndexerHdbits extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_hdbits radarr_indexer_hdbits} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_hdbits radarr_indexer_hdbits} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class IndexerHdbits extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer_hdbits',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

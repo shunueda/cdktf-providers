@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVercelProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The build machine type to use for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#build_machine_type DataVercelProject#build_machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#build_machine_type DataVercelProject#build_machine_type}
   */
   readonly buildMachineType?: string;
   /**
   * The name of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#name DataVercelProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#name DataVercelProject#name}
   */
   readonly name: string;
   /**
   * Instantly scale build capacity to skip the queue, even if all build slots are in use. You can also choose a larger build machine; charges apply per minute if it exceeds your team's default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#on_demand_concurrent_builds DataVercelProject#on_demand_concurrent_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#on_demand_concurrent_builds DataVercelProject#on_demand_concurrent_builds}
   */
   readonly onDemandConcurrentBuilds?: boolean | cdktf.IResolvable;
   /**
   * The team ID the project exists beneath. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#team_id DataVercelProject#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#team_id DataVercelProject#team_id}
   */
   readonly teamId?: string;
 }
@@ -146,13 +146,13 @@ export interface DataVercelProjectGitComments {
   /**
   * Whether Commit comments are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#on_commit DataVercelProject#on_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#on_commit DataVercelProject#on_commit}
   */
   readonly onCommit: boolean | cdktf.IResolvable;
   /**
   * Whether Pull Request comments are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#on_pull_request DataVercelProject#on_pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#on_pull_request DataVercelProject#on_pull_request}
   */
   readonly onPullRequest: boolean | cdktf.IResolvable;
 }
@@ -421,7 +421,7 @@ export interface DataVercelProjectOidcTokenConfig {
   /**
   * Configures the URL of the `iss` claim. `team` = `https://oidc.vercel.com/[team_slug]` `global` = `https://oidc.vercel.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#issuer_mode DataVercelProject#issuer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#issuer_mode DataVercelProject#issuer_mode}
   */
   readonly issuerMode?: string;
 }
@@ -957,7 +957,7 @@ export class DataVercelProjectVercelAuthenticationOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project vercel_project}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project vercel_project}
 */
 export class DataVercelProject extends cdktf.TerraformDataSource {
 
@@ -973,7 +973,7 @@ export class DataVercelProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelProject to import
-  * @param importFromId The id of the existing DataVercelProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -985,7 +985,7 @@ export class DataVercelProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/project vercel_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project vercel_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -996,8 +996,8 @@ export class DataVercelProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_project',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1191,6 +1191,11 @@ export class DataVercelProject extends cdktf.TerraformDataSource {
   // preview_comments - computed: true, optional: false, required: false
   public get previewComments() {
     return this.getBooleanAttribute('preview_comments');
+  }
+
+  // preview_deployment_suffix - computed: true, optional: false, required: false
+  public get previewDeploymentSuffix() {
+    return this.getStringAttribute('preview_deployment_suffix');
   }
 
   // preview_deployments_disabled - computed: true, optional: false, required: false

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataArtifactoryFileListConfig extends cdktf.TerraformMetaArgume
   /**
   * Get deep listing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#deep_listing DataArtifactoryFileList#deep_listing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#deep_listing DataArtifactoryFileList#deep_listing}
   */
   readonly deepListing?: boolean | cdktf.IResolvable;
   /**
   * Depth of the deep listing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#depth DataArtifactoryFileList#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#depth DataArtifactoryFileList#depth}
   */
   readonly depth?: number;
   /**
   * Path of the folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#folder_path DataArtifactoryFileList#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#folder_path DataArtifactoryFileList#folder_path}
   */
   readonly folderPath: string;
   /**
   * Include root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#include_root_path DataArtifactoryFileList#include_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#include_root_path DataArtifactoryFileList#include_root_path}
   */
   readonly includeRootPath?: boolean | cdktf.IResolvable;
   /**
   * Include folders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#list_folders DataArtifactoryFileList#list_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#list_folders DataArtifactoryFileList#list_folders}
   */
   readonly listFolders?: boolean | cdktf.IResolvable;
   /**
   * Include metadata timestamps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#metadata_timestamps DataArtifactoryFileList#metadata_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#metadata_timestamps DataArtifactoryFileList#metadata_timestamps}
   */
   readonly metadataTimestamps?: boolean | cdktf.IResolvable;
   /**
   * Repository key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#repository_key DataArtifactoryFileList#repository_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#repository_key DataArtifactoryFileList#repository_key}
   */
   readonly repositoryKey: string;
 }
@@ -212,7 +212,7 @@ export class DataArtifactoryFileListFilesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list artifactory_file_list}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list artifactory_file_list}
 */
 export class DataArtifactoryFileList extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataArtifactoryFileList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataArtifactoryFileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryFileList to import
-  * @param importFromId The id of the existing DataArtifactoryFileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryFileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryFileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataArtifactoryFileList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/file_list artifactory_file_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/file_list artifactory_file_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataArtifactoryFileList extends cdktf.TerraformDataSource {
       terraformResourceType: 'artifactory_file_list',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

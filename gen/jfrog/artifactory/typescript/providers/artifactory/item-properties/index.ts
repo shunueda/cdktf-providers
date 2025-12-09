@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ItemPropertiesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add this property to the selected folder and to all of artifacts and folders under this folder. Default to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties#is_recursive ItemProperties#is_recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties#is_recursive ItemProperties#is_recursive}
   */
   readonly isRecursive?: boolean | cdktf.IResolvable;
   /**
   * The relative path of the item (file/folder/repository). Leave unset for repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties#item_path ItemProperties#item_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties#item_path ItemProperties#item_path}
   */
   readonly itemPath?: string;
   /**
@@ -26,19 +26,19 @@ export interface ItemPropertiesConfig extends cdktf.TerraformMetaArguments {
   * 
   * ~>The following special characters are forbidden in the key field: `)(}{][*+^$/~``!@#%&<>;=,±§` and the space character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties#properties ItemProperties#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties#properties ItemProperties#properties}
   */
   readonly properties: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Respository key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties#repo_key ItemProperties#repo_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties#repo_key ItemProperties#repo_key}
   */
   readonly repoKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties artifactory_item_properties}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties artifactory_item_properties}
 */
 export class ItemProperties extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class ItemProperties extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ItemProperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ItemProperties to import
-  * @param importFromId The id of the existing ItemProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ItemProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ItemProperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class ItemProperties extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/item_properties artifactory_item_properties} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/item_properties artifactory_item_properties} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class ItemProperties extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_item_properties',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

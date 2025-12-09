@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IndexerTorrentPotatoConfig extends cdktf.TerraformMetaArguments
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#base_url IndexerTorrentPotato#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#base_url IndexerTorrentPotato#base_url}
   */
   readonly baseUrl: string;
   /**
   * Download client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#download_client_id IndexerTorrentPotato#download_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#download_client_id IndexerTorrentPotato#download_client_id}
   */
   readonly downloadClientId?: number;
   /**
   * Enable automatic search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#enable_automatic_search IndexerTorrentPotato#enable_automatic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#enable_automatic_search IndexerTorrentPotato#enable_automatic_search}
   */
   readonly enableAutomaticSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable interactive search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#enable_interactive_search IndexerTorrentPotato#enable_interactive_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#enable_interactive_search IndexerTorrentPotato#enable_interactive_search}
   */
   readonly enableInteractiveSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#enable_rss IndexerTorrentPotato#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#enable_rss IndexerTorrentPotato#enable_rss}
   */
   readonly enableRss?: boolean | cdktf.IResolvable;
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#minimum_seeders IndexerTorrentPotato#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#minimum_seeders IndexerTorrentPotato#minimum_seeders}
   */
   readonly minimumSeeders?: number;
   /**
   * Languages list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#multi_languages IndexerTorrentPotato#multi_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#multi_languages IndexerTorrentPotato#multi_languages}
   */
   readonly multiLanguages?: number[];
   /**
   * IndexerTorrentPotato name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#name IndexerTorrentPotato#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#name IndexerTorrentPotato#name}
   */
   readonly name: string;
   /**
   * Passkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#passkey IndexerTorrentPotato#passkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#passkey IndexerTorrentPotato#passkey}
   */
   readonly passkey?: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#priority IndexerTorrentPotato#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#priority IndexerTorrentPotato#priority}
   */
   readonly priority?: number;
   /**
   * Flag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#required_flags IndexerTorrentPotato#required_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#required_flags IndexerTorrentPotato#required_flags}
   */
   readonly requiredFlags?: number[];
   /**
   * Seed ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#seed_ratio IndexerTorrentPotato#seed_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#seed_ratio IndexerTorrentPotato#seed_ratio}
   */
   readonly seedRatio?: number;
   /**
   * Seed time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#seed_time IndexerTorrentPotato#seed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#seed_time IndexerTorrentPotato#seed_time}
   */
   readonly seedTime?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#tags IndexerTorrentPotato#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#tags IndexerTorrentPotato#tags}
   */
   readonly tags?: number[];
   /**
   * User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#user IndexerTorrentPotato#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#user IndexerTorrentPotato#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato radarr_indexer_torrent_potato}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato radarr_indexer_torrent_potato}
 */
 export class IndexerTorrentPotato extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class IndexerTorrentPotato extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerTorrentPotato resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerTorrentPotato to import
-  * @param importFromId The id of the existing IndexerTorrentPotato that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerTorrentPotato that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerTorrentPotato to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class IndexerTorrentPotato extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_torrent_potato radarr_indexer_torrent_potato} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_torrent_potato radarr_indexer_torrent_potato} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class IndexerTorrentPotato extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer_torrent_potato',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

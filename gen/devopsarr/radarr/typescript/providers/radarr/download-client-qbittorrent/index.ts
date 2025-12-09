@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface DownloadClientQbittorrentConfig extends cdktf.TerraformMetaArgu
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#enable DownloadClientQbittorrent#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#enable DownloadClientQbittorrent#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * First and last flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#first_and_last DownloadClientQbittorrent#first_and_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#first_and_last DownloadClientQbittorrent#first_and_last}
   */
   readonly firstAndLast?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#host DownloadClientQbittorrent#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#host DownloadClientQbittorrent#host}
   */
   readonly host?: string;
   /**
   * Initial state, with Stop support. `0` Start, `1` ForceStart, `2` Pause.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#initial_state DownloadClientQbittorrent#initial_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#initial_state DownloadClientQbittorrent#initial_state}
   */
   readonly initialState?: number;
   /**
   * Movie category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#movie_category DownloadClientQbittorrent#movie_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#movie_category DownloadClientQbittorrent#movie_category}
   */
   readonly movieCategory?: string;
   /**
   * Movie imported category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#movie_imported_category DownloadClientQbittorrent#movie_imported_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#movie_imported_category DownloadClientQbittorrent#movie_imported_category}
   */
   readonly movieImportedCategory?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#name DownloadClientQbittorrent#name}
   */
   readonly name: string;
   /**
   * Older Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#older_movie_priority DownloadClientQbittorrent#older_movie_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#older_movie_priority DownloadClientQbittorrent#older_movie_priority}
   */
   readonly olderMoviePriority?: number;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#password DownloadClientQbittorrent#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#password DownloadClientQbittorrent#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#port DownloadClientQbittorrent#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#port DownloadClientQbittorrent#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#priority DownloadClientQbittorrent#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#priority DownloadClientQbittorrent#priority}
   */
   readonly priority?: number;
   /**
   * Recent Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#recent_movie_priority DownloadClientQbittorrent#recent_movie_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#recent_movie_priority DownloadClientQbittorrent#recent_movie_priority}
   */
   readonly recentMoviePriority?: number;
   /**
   * Remove completed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#remove_completed_downloads DownloadClientQbittorrent#remove_completed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#remove_completed_downloads DownloadClientQbittorrent#remove_completed_downloads}
   */
   readonly removeCompletedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Remove failed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#remove_failed_downloads DownloadClientQbittorrent#remove_failed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#remove_failed_downloads DownloadClientQbittorrent#remove_failed_downloads}
   */
   readonly removeFailedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Sequential order flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#sequential_order DownloadClientQbittorrent#sequential_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#sequential_order DownloadClientQbittorrent#sequential_order}
   */
   readonly sequentialOrder?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#tags DownloadClientQbittorrent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#tags DownloadClientQbittorrent#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#url_base DownloadClientQbittorrent#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#url_base DownloadClientQbittorrent#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#use_ssl DownloadClientQbittorrent#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#use_ssl DownloadClientQbittorrent#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#username DownloadClientQbittorrent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#username DownloadClientQbittorrent#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent radarr_download_client_qbittorrent}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent radarr_download_client_qbittorrent}
 */
 export class DownloadClientQbittorrent extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientQbittorrent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientQbittorrent to import
-  * @param importFromId The id of the existing DownloadClientQbittorrent that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientQbittorrent that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientQbittorrent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_qbittorrent radarr_download_client_qbittorrent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_qbittorrent radarr_download_client_qbittorrent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DownloadClientQbittorrent extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_qbittorrent',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

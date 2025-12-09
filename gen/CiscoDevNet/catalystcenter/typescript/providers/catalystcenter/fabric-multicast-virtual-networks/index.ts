@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface FabricMulticastVirtualNetworksConfig extends cdktf.TerraformMet
   /**
   * ID of the fabric site this multicast configuration is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#fabric_id FabricMulticastVirtualNetworks#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#fabric_id FabricMulticastVirtualNetworks#fabric_id}
   */
   readonly fabricId: string;
   /**
   * List of multicast virtual networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#virtual_networks FabricMulticastVirtualNetworks#virtual_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#virtual_networks FabricMulticastVirtualNetworks#virtual_networks}
   */
   readonly virtualNetworks: FabricMulticastVirtualNetworksVirtualNetworks[] | cdktf.IResolvable;
 }
@@ -24,50 +24,50 @@ export interface FabricMulticastVirtualNetworksVirtualNetworksMulticastRps {
   /**
   * IPv4 address of the RP. For external RP configuration, exactly one of ipv4Address or ipv6Address must be provided. For fabric RP, this address is allocated by SDA and should not be provided during RP creation request and SDA allocated address should be retained in subsequent requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ipv4_address FabricMulticastVirtualNetworks#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ipv4_address FabricMulticastVirtualNetworks#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 Any Source Multicast ranges. Comma seperated list of IPv4 multicast group ranges that will be served by a given Multicast RP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ipv4_asm_ranges FabricMulticastVirtualNetworks#ipv4_asm_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ipv4_asm_ranges FabricMulticastVirtualNetworks#ipv4_asm_ranges}
   */
   readonly ipv4AsmRanges?: string[];
   /**
   * IPv6 address of the RP. For external RP configuration, exactly one of ipv4Address or ipv6Address must be provided. For fabric RP, this address is allocated by SDA and should not be provided during RP creation request and SDA allocated address should be retained in subsequent requests. ipv6Address can only be provided for virtual networks with dual stack (IPv4 + IPv6) multicast pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ipv6_address FabricMulticastVirtualNetworks#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ipv6_address FabricMulticastVirtualNetworks#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 Any Source Multicast ranges. Comma seperated list of IPv6 multicast group ranges that will be served by a given Multicast RP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ipv6_asm_ranges FabricMulticastVirtualNetworks#ipv6_asm_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ipv6_asm_ranges FabricMulticastVirtualNetworks#ipv6_asm_ranges}
   */
   readonly ipv6AsmRanges?: string[];
   /**
   * Specifies whether it is a default IPv4 RP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#is_default_v4_rp FabricMulticastVirtualNetworks#is_default_v4_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#is_default_v4_rp FabricMulticastVirtualNetworks#is_default_v4_rp}
   */
   readonly isDefaultV4Rp?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether it is a default IPv6 RP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#is_default_v6_rp FabricMulticastVirtualNetworks#is_default_v6_rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#is_default_v6_rp FabricMulticastVirtualNetworks#is_default_v6_rp}
   */
   readonly isDefaultV6Rp?: boolean | cdktf.IResolvable;
   /**
   * IDs of the network devices. This is a required field for fabric RPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#network_device_ids FabricMulticastVirtualNetworks#network_device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#network_device_ids FabricMulticastVirtualNetworks#network_device_ids}
   */
   readonly networkDeviceIds?: string[];
   /**
   * Device location of the RP
   *   - Choices: `EXTERNAL`, `FABRIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#rp_device_location FabricMulticastVirtualNetworks#rp_device_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#rp_device_location FabricMulticastVirtualNetworks#rp_device_location}
   */
   readonly rpDeviceLocation: string;
 }
@@ -236,7 +236,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     }
   }
 
-  // ipv4_address - computed: false, optional: true, required: false
+  // ipv4_address - computed: true, optional: true, required: false
   private _ipv4Address?: string; 
   public get ipv4Address() {
     return this.getStringAttribute('ipv4_address');
@@ -252,7 +252,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._ipv4Address;
   }
 
-  // ipv4_asm_ranges - computed: false, optional: true, required: false
+  // ipv4_asm_ranges - computed: true, optional: true, required: false
   private _ipv4AsmRanges?: string[]; 
   public get ipv4AsmRanges() {
     return cdktf.Fn.tolist(this.getListAttribute('ipv4_asm_ranges'));
@@ -268,7 +268,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._ipv4AsmRanges;
   }
 
-  // ipv6_address - computed: false, optional: true, required: false
+  // ipv6_address - computed: true, optional: true, required: false
   private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv6_address');
@@ -284,7 +284,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._ipv6Address;
   }
 
-  // ipv6_asm_ranges - computed: false, optional: true, required: false
+  // ipv6_asm_ranges - computed: true, optional: true, required: false
   private _ipv6AsmRanges?: string[]; 
   public get ipv6AsmRanges() {
     return cdktf.Fn.tolist(this.getListAttribute('ipv6_asm_ranges'));
@@ -300,7 +300,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._ipv6AsmRanges;
   }
 
-  // is_default_v4_rp - computed: false, optional: true, required: false
+  // is_default_v4_rp - computed: true, optional: true, required: false
   private _isDefaultV4Rp?: boolean | cdktf.IResolvable; 
   public get isDefaultV4Rp() {
     return this.getBooleanAttribute('is_default_v4_rp');
@@ -316,7 +316,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._isDefaultV4Rp;
   }
 
-  // is_default_v6_rp - computed: false, optional: true, required: false
+  // is_default_v6_rp - computed: true, optional: true, required: false
   private _isDefaultV6Rp?: boolean | cdktf.IResolvable; 
   public get isDefaultV6Rp() {
     return this.getBooleanAttribute('is_default_v6_rp');
@@ -332,7 +332,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._isDefaultV6Rp;
   }
 
-  // network_device_ids - computed: false, optional: true, required: false
+  // network_device_ids - computed: true, optional: true, required: false
   private _networkDeviceIds?: string[]; 
   public get networkDeviceIds() {
     return cdktf.Fn.tolist(this.getListAttribute('network_device_ids'));
@@ -348,7 +348,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsOutputRefe
     return this._networkDeviceIds;
   }
 
-  // rp_device_location - computed: false, optional: false, required: true
+  // rp_device_location - computed: true, optional: false, required: true
   private _rpDeviceLocation?: string; 
   public get rpDeviceLocation() {
     return this.getStringAttribute('rp_device_location');
@@ -385,31 +385,40 @@ export interface FabricMulticastVirtualNetworksVirtualNetworks {
   /**
   * ID of the fabric site this multicast configuration is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#fabric_id FabricMulticastVirtualNetworks#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#fabric_id FabricMulticastVirtualNetworks#fabric_id}
   */
   readonly fabricId: string;
   /**
+  * ID of the multicast configuration
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#id FabricMulticastVirtualNetworks#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Name of the IP Pool associated with the fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ip_pool_name FabricMulticastVirtualNetworks#ip_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ip_pool_name FabricMulticastVirtualNetworks#ip_pool_name}
   */
   readonly ipPoolName: string;
   /**
   * IPv4 Source Specific Multicast (SSM) ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#ipv4_ssm_ranges FabricMulticastVirtualNetworks#ipv4_ssm_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#ipv4_ssm_ranges FabricMulticastVirtualNetworks#ipv4_ssm_ranges}
   */
   readonly ipv4SsmRanges?: string[];
   /**
   * Multicast Rendezvous Points (RP). Required for Any Source Multicast (ASM) scenario
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#multicast_rps FabricMulticastVirtualNetworks#multicast_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#multicast_rps FabricMulticastVirtualNetworks#multicast_rps}
   */
   readonly multicastRps?: FabricMulticastVirtualNetworksVirtualNetworksMulticastRps[] | cdktf.IResolvable;
   /**
   * Name of the virtual network associated with the fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#virtual_network_name FabricMulticastVirtualNetworks#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#virtual_network_name FabricMulticastVirtualNetworks#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
@@ -421,6 +430,7 @@ export function fabricMulticastVirtualNetworksVirtualNetworksToTerraform(struct?
   }
   return {
     fabric_id: cdktf.stringToTerraform(struct!.fabricId),
+    id: cdktf.stringToTerraform(struct!.id),
     ip_pool_name: cdktf.stringToTerraform(struct!.ipPoolName),
     ipv4_ssm_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipv4SsmRanges),
     multicast_rps: cdktf.listMapper(fabricMulticastVirtualNetworksVirtualNetworksMulticastRpsToTerraform, false)(struct!.multicastRps),
@@ -437,6 +447,12 @@ export function fabricMulticastVirtualNetworksVirtualNetworksToHclTerraform(stru
   const attrs = {
     fabric_id: {
       value: cdktf.stringToHclTerraform(struct!.fabricId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -495,6 +511,10 @@ export class FabricMulticastVirtualNetworksVirtualNetworksOutputReference extend
       hasAnyValues = true;
       internalValueResult.fabricId = this._fabricId;
     }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
     if (this._ipPoolName !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipPoolName = this._ipPoolName;
@@ -519,6 +539,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksOutputReference extend
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._fabricId = undefined;
+      this._id = undefined;
       this._ipPoolName = undefined;
       this._ipv4SsmRanges = undefined;
       this._multicastRps.internalValue = undefined;
@@ -532,6 +553,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksOutputReference extend
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._fabricId = value.fabricId;
+      this._id = value.id;
       this._ipPoolName = value.ipPoolName;
       this._ipv4SsmRanges = value.ipv4SsmRanges;
       this._multicastRps.internalValue = value.multicastRps;
@@ -552,9 +574,20 @@ export class FabricMulticastVirtualNetworksVirtualNetworksOutputReference extend
     return this._fabricId;
   }
 
-  // id - computed: true, optional: false, required: false
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // ip_pool_name - computed: false, optional: false, required: true
@@ -586,7 +619,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksOutputReference extend
     return this._ipv4SsmRanges;
   }
 
-  // multicast_rps - computed: false, optional: true, required: false
+  // multicast_rps - computed: true, optional: true, required: false
   private _multicastRps = new FabricMulticastVirtualNetworksVirtualNetworksMulticastRpsList(this, "multicast_rps", true);
   public get multicastRps() {
     return this._multicastRps;
@@ -637,7 +670,7 @@ export class FabricMulticastVirtualNetworksVirtualNetworksList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks catalystcenter_fabric_multicast_virtual_networks}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks catalystcenter_fabric_multicast_virtual_networks}
 */
 export class FabricMulticastVirtualNetworks extends cdktf.TerraformResource {
 
@@ -653,7 +686,7 @@ export class FabricMulticastVirtualNetworks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricMulticastVirtualNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricMulticastVirtualNetworks to import
-  * @param importFromId The id of the existing FabricMulticastVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricMulticastVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricMulticastVirtualNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -665,7 +698,7 @@ export class FabricMulticastVirtualNetworks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_multicast_virtual_networks catalystcenter_fabric_multicast_virtual_networks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_multicast_virtual_networks catalystcenter_fabric_multicast_virtual_networks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -676,8 +709,8 @@ export class FabricMulticastVirtualNetworks extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_multicast_virtual_networks',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

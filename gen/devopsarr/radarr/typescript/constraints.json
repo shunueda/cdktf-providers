@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "radarr": "2.3.3"
+    "radarr": "2.3.4"
   }
 }

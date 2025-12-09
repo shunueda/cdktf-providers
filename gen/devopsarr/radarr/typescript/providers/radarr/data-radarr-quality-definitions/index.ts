@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/quality_definitions
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/quality_definitions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataRadarrQualityDefinitionsQualityDefinitions {
   /**
   * Minimum size MB/min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/quality_definitions#min_size DataRadarrQualityDefinitions#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/quality_definitions#min_size DataRadarrQualityDefinitions#min_size}
   */
   readonly minSize?: number;
 }
@@ -158,7 +158,7 @@ export class DataRadarrQualityDefinitionsQualityDefinitionsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/quality_definitions radarr_quality_definitions}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/quality_definitions radarr_quality_definitions}
 */
 export class DataRadarrQualityDefinitions extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataRadarrQualityDefinitions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrQualityDefinitions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrQualityDefinitions to import
-  * @param importFromId The id of the existing DataRadarrQualityDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/quality_definitions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrQualityDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/quality_definitions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrQualityDefinitions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataRadarrQualityDefinitions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/quality_definitions radarr_quality_definitions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/quality_definitions radarr_quality_definitions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataRadarrQualityDefinitions extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_quality_definitions',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

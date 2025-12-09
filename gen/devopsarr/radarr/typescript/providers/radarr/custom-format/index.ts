@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CustomFormatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include custom format when renaming flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#include_custom_format_when_renaming CustomFormat#include_custom_format_when_renaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#include_custom_format_when_renaming CustomFormat#include_custom_format_when_renaming}
   */
   readonly includeCustomFormatWhenRenaming?: boolean | cdktf.IResolvable;
   /**
   * Custom Format name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#name CustomFormat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#name CustomFormat#name}
   */
   readonly name: string;
   /**
   * Specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#specifications CustomFormat#specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#specifications CustomFormat#specifications}
   */
   readonly specifications: CustomFormatSpecifications[] | cdktf.IResolvable;
 }
@@ -30,43 +30,43 @@ export interface CustomFormatSpecifications {
   /**
   * Implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#implementation CustomFormat#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#implementation CustomFormat#implementation}
   */
   readonly implementation?: string;
   /**
   * Max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#max CustomFormat#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#max CustomFormat#max}
   */
   readonly max?: number;
   /**
   * Min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#min CustomFormat#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#min CustomFormat#min}
   */
   readonly min?: number;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#name CustomFormat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#name CustomFormat#name}
   */
   readonly name?: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#negate CustomFormat#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#negate CustomFormat#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#required CustomFormat#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#required CustomFormat#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#value CustomFormat#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#value CustomFormat#value}
   */
   readonly value?: string;
 }
@@ -356,7 +356,7 @@ export class CustomFormatSpecificationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format radarr_custom_format}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format radarr_custom_format}
 */
 export class CustomFormat extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class CustomFormat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFormat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFormat to import
-  * @param importFromId The id of the existing CustomFormat that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFormat that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFormat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class CustomFormat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/custom_format radarr_custom_format} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/custom_format radarr_custom_format} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class CustomFormat extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_custom_format',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

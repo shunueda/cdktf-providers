@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SharedEnvironmentVariableProjectLinkConfig extends cdktf.Terraf
   /**
   * The ID of the Vercel project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link#project_id SharedEnvironmentVariableProjectLink#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link#project_id SharedEnvironmentVariableProjectLink#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the shared environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link#shared_environment_variable_id SharedEnvironmentVariableProjectLink#shared_environment_variable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link#shared_environment_variable_id SharedEnvironmentVariableProjectLink#shared_environment_variable_id}
   */
   readonly sharedEnvironmentVariableId: string;
   /**
   * The ID of the Vercel team. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link#team_id SharedEnvironmentVariableProjectLink#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link#team_id SharedEnvironmentVariableProjectLink#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link vercel_shared_environment_variable_project_link}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link vercel_shared_environment_variable_project_link}
 */
 export class SharedEnvironmentVariableProjectLink extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SharedEnvironmentVariableProjectLink extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a SharedEnvironmentVariableProjectLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedEnvironmentVariableProjectLink to import
-  * @param importFromId The id of the existing SharedEnvironmentVariableProjectLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedEnvironmentVariableProjectLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedEnvironmentVariableProjectLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SharedEnvironmentVariableProjectLink extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/shared_environment_variable_project_link vercel_shared_environment_variable_project_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/shared_environment_variable_project_link vercel_shared_environment_variable_project_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SharedEnvironmentVariableProjectLink extends cdktf.TerraformResourc
       terraformResourceType: 'vercel_shared_environment_variable_project_link',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

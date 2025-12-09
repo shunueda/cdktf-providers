@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/root_folder
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/root_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRadarrRootFolderConfig extends cdktf.TerraformMetaArguments
   /**
   * Root Folder absolute path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/root_folder#path DataRadarrRootFolder#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/root_folder#path DataRadarrRootFolder#path}
   */
   readonly path: string;
 }
@@ -96,7 +96,7 @@ export class DataRadarrRootFolderUnmappedFoldersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/root_folder radarr_root_folder}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/root_folder radarr_root_folder}
 */
 export class DataRadarrRootFolder extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataRadarrRootFolder extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrRootFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrRootFolder to import
-  * @param importFromId The id of the existing DataRadarrRootFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/root_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrRootFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/root_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrRootFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataRadarrRootFolder extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/root_folder radarr_root_folder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/root_folder radarr_root_folder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataRadarrRootFolder extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_root_folder',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

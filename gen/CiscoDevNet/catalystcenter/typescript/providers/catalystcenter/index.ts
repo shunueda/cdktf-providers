@@ -44,6 +44,7 @@ export * as floor from './floor';
 export * as image from './image';
 export * as imageActivation from './image-activation';
 export * as imageDistribution from './image-distribution';
+export * as integrateIse from './integrate-ise';
 export * as ipPool from './ip-pool';
 export * as ipPoolReservation from './ip-pool-reservation';
 export * as lanAutomation from './lan-automation';

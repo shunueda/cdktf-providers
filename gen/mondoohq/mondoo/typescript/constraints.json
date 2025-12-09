@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "mondoo": "0.34.0"
+    "mondoo": "0.35.0"
   }
 }

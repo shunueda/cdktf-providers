@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface ArchivePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cron expression determines when the policy is run. This parameter is not mandatory, however if left empty the policy will not run automatically and can only be triggered manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#cron_expression ArchivePolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#cron_expression ArchivePolicy#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#description ArchivePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#description ArchivePolicy#description}
   */
   readonly description?: string;
   /**
   * The maximum duration (in minutes) for policy execution, after which the policy will stop running even if not completed. While setting a maximum run duration for a policy is useful for adhering to a strict archive V2 schedule, it can cause the policy to stop before completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#duration_in_minutes ArchivePolicy#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#duration_in_minutes ArchivePolicy#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
   * Enables or disabled the package cleanup policy. This allows the user to run the policy manually. If a policy has a valid cron expression, then it will be scheduled for execution based on it. If a policy is disabled, its future executions will be unscheduled. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#enabled ArchivePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#enabled ArchivePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An ID that is used to identify the archive policy. A minimum of three characters is required and can include letters, numbers, underscore and hyphen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#key ArchivePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#key ArchivePolicy#key}
   */
   readonly key: string;
   /**
   * This attribute is used only for project-level archive V2 policies, it is not used for global-level policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#project_key ArchivePolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#project_key ArchivePolicy#project_key}
   */
   readonly projectKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#search_criteria ArchivePolicy#search_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#search_criteria ArchivePolicy#search_criteria}
   */
   readonly searchCriteria: ArchivePolicySearchCriteria;
   /**
@@ -50,7 +50,7 @@ export interface ArchivePolicyConfig extends cdktf.TerraformMetaArguments {
   * 
   * ~>The Global Trash Can setting must be enabled if you want deleted items to be transferred to the Trash Can. For information on enabling global Trash Can settings, see [Trash Can Settings](https://jfrog.com/help/r/jfrog-artifactory-documentation/trash-can-settings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#skip_trashcan ArchivePolicy#skip_trashcan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#skip_trashcan ArchivePolicy#skip_trashcan}
   */
   readonly skipTrashcan?: boolean | cdktf.IResolvable;
 }
@@ -58,31 +58,31 @@ export interface ArchivePolicySearchCriteria {
   /**
   * The archive policy will archive packages based on how long ago they were created. For example, if this parameter is 2 then packages created more than 2 days ago will be archived as part of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#created_before_in_days ArchivePolicy#created_before_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#created_before_in_days ArchivePolicy#created_before_in_days}
   */
   readonly createdBeforeInDays?: number;
   /**
   * The archive policy will archive packages based on how long ago they were created. For example, if this parameter is 2 then packages created more than 2 months ago will be archived as part of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#created_before_in_months ArchivePolicy#created_before_in_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#created_before_in_months ArchivePolicy#created_before_in_months}
   */
   readonly createdBeforeInMonths?: number;
   /**
   * Specify explicit package names that you want excluded from the policy. Only Name explicit names (and not patterns) are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#excluded_packages ArchivePolicy#excluded_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#excluded_packages ArchivePolicy#excluded_packages}
   */
   readonly excludedPackages?: string[];
   /**
   * A key-value pair applied to the lead artifact of a package. Packages with this property will be excluded from archival.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#excluded_properties ArchivePolicy#excluded_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#excluded_properties ArchivePolicy#excluded_properties}
   */
   readonly excludedProperties?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Specify patterns for repository names or explicit repository names that you want excluded from the archive policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#excluded_repos ArchivePolicy#excluded_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#excluded_repos ArchivePolicy#excluded_repos}
   */
   readonly excludedRepos?: string[];
   /**
@@ -90,13 +90,13 @@ export interface ArchivePolicySearchCriteria {
   * 
   * ~>This attribute is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#include_all_projects ArchivePolicy#include_all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#include_all_projects ArchivePolicy#include_all_projects}
   */
   readonly includeAllProjects?: boolean | cdktf.IResolvable;
   /**
   * Specify a pattern for a package name or an explicit package name. It accept only single element which can be specific package or pattern, and for including all packages use `**`. Example: `included_packages = ["**"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#included_packages ArchivePolicy#included_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#included_packages ArchivePolicy#included_packages}
   */
   readonly includedPackages: string[];
   /**
@@ -104,13 +104,13 @@ export interface ArchivePolicySearchCriteria {
   * 
   * ~>This setting is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#included_projects ArchivePolicy#included_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#included_projects ArchivePolicy#included_projects}
   */
   readonly includedProjects: string[];
   /**
   * A key-value pair applied to the lead artifact of a package. Packages with this property will be archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#included_properties ArchivePolicy#included_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#included_properties ArchivePolicy#included_properties}
   */
   readonly includedProperties?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -120,7 +120,7 @@ export interface ArchivePolicySearchCriteria {
   * 
   * ~>Not all package types support this condition. If you include a package type in your policy that is not compatible with this condition, a validation error (400) is returned. For information on which package types support this condition, see [here]().
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#keep_last_n_versions ArchivePolicy#keep_last_n_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#keep_last_n_versions ArchivePolicy#keep_last_n_versions}
   */
   readonly keepLastNVersions?: number;
   /**
@@ -128,7 +128,7 @@ export interface ArchivePolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `last_downloaded_before_in_days` condition to ensure that packages currently in use are not archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#last_downloaded_before_in_days ArchivePolicy#last_downloaded_before_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#last_downloaded_before_in_days ArchivePolicy#last_downloaded_before_in_days}
   */
   readonly lastDownloadedBeforeInDays?: number;
   /**
@@ -136,19 +136,19 @@ export interface ArchivePolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `last_downloaded_before_in_months` condition to ensure that packages currently in use are not archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#last_downloaded_before_in_months ArchivePolicy#last_downloaded_before_in_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#last_downloaded_before_in_months ArchivePolicy#last_downloaded_before_in_months}
   */
   readonly lastDownloadedBeforeInMonths?: number;
   /**
   * The package types that are archived by the policy. Support: alpine, ansible, cargo, chef, cocoapods, composer, conan, conda, debian, docker, gems, generic, go, gradle, helm, helmoci, huggingfaceml, machinelearning, maven, npm, nuget, oci, opkg, puppet, pypi, sbt, swift, terraform, terraformbackend, vagrant, rpm, yum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#package_types ArchivePolicy#package_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#package_types ArchivePolicy#package_types}
   */
   readonly packageTypes: string[];
   /**
   * Specify one or more patterns for the repository name(s) on which you want the archive policy to run. You can also specify explicit repository names. Specifying at least one pattern or explicit name is required. Only packages in repositories that match the pattern or explicit name will be archived. For including all repos use `**`. Example: `repos = ["**"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#repos ArchivePolicy#repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#repos ArchivePolicy#repos}
   */
   readonly repos: string[];
 }
@@ -607,7 +607,7 @@ export class ArchivePolicySearchCriteriaOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy artifactory_archive_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy artifactory_archive_policy}
 */
 export class ArchivePolicy extends cdktf.TerraformResource {
 
@@ -623,7 +623,7 @@ export class ArchivePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchivePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchivePolicy to import
-  * @param importFromId The id of the existing ArchivePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchivePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchivePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class ArchivePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/archive_policy artifactory_archive_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/archive_policy artifactory_archive_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class ArchivePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_archive_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

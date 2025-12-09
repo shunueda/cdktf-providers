@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface NotificationKodiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Always update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#always_update NotificationKodi#always_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#always_update NotificationKodi#always_update}
   */
   readonly alwaysUpdate?: boolean | cdktf.IResolvable;
   /**
   * Clean library flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#clean_library NotificationKodi#clean_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#clean_library NotificationKodi#clean_library}
   */
   readonly cleanLibrary?: boolean | cdktf.IResolvable;
   /**
   * Display time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#display_time NotificationKodi#display_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#display_time NotificationKodi#display_time}
   */
   readonly displayTime?: number;
   /**
   * Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#host NotificationKodi#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#host NotificationKodi#host}
   */
   readonly host: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#include_health_warnings NotificationKodi#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#include_health_warnings NotificationKodi#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationKodi name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#name NotificationKodi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#name NotificationKodi#name}
   */
   readonly name: string;
   /**
   * Notification flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#notify NotificationKodi#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#notify NotificationKodi#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_application_update NotificationKodi#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_application_update NotificationKodi#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On download flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_download NotificationKodi#on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_download NotificationKodi#on_download}
   */
   readonly onDownload?: boolean | cdktf.IResolvable;
   /**
   * On grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_grab NotificationKodi#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_grab NotificationKodi#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_health_issue NotificationKodi#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_health_issue NotificationKodi#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_health_restored NotificationKodi#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_health_restored NotificationKodi#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * On manual interaction required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_manual_interaction_required NotificationKodi#on_manual_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_manual_interaction_required NotificationKodi#on_manual_interaction_required}
   */
   readonly onManualInteractionRequired?: boolean | cdktf.IResolvable;
   /**
   * On movie added flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_movie_added NotificationKodi#on_movie_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_movie_added NotificationKodi#on_movie_added}
   */
   readonly onMovieAdded?: boolean | cdktf.IResolvable;
   /**
   * On movie delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_movie_delete NotificationKodi#on_movie_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_movie_delete NotificationKodi#on_movie_delete}
   */
   readonly onMovieDelete: boolean | cdktf.IResolvable;
   /**
   * On movie file delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_movie_file_delete NotificationKodi#on_movie_file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_movie_file_delete NotificationKodi#on_movie_file_delete}
   */
   readonly onMovieFileDelete?: boolean | cdktf.IResolvable;
   /**
   * On movie file delete for upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_movie_file_delete_for_upgrade NotificationKodi#on_movie_file_delete_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_movie_file_delete_for_upgrade NotificationKodi#on_movie_file_delete_for_upgrade}
   */
   readonly onMovieFileDeleteForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * On rename flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_rename NotificationKodi#on_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_rename NotificationKodi#on_rename}
   */
   readonly onRename?: boolean | cdktf.IResolvable;
   /**
   * On upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#on_upgrade NotificationKodi#on_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#on_upgrade NotificationKodi#on_upgrade}
   */
   readonly onUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#password NotificationKodi#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#password NotificationKodi#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#port NotificationKodi#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#port NotificationKodi#port}
   */
   readonly port: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#tags NotificationKodi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#tags NotificationKodi#tags}
   */
   readonly tags?: number[];
   /**
   * Update library flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#update_library NotificationKodi#update_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#update_library NotificationKodi#update_library}
   */
   readonly updateLibrary?: boolean | cdktf.IResolvable;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#use_ssl NotificationKodi#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#use_ssl NotificationKodi#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#username NotificationKodi#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#username NotificationKodi#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi radarr_notification_kodi}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi radarr_notification_kodi}
 */
 export class NotificationKodi extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class NotificationKodi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationKodi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationKodi to import
-  * @param importFromId The id of the existing NotificationKodi that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationKodi that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationKodi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class NotificationKodi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_kodi radarr_notification_kodi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_kodi radarr_notification_kodi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class NotificationKodi extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_notification_kodi',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

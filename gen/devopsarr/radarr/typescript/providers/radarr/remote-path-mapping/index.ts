@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RemotePathMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Download Client host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping#host RemotePathMapping#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping#host RemotePathMapping#host}
   */
   readonly host: string;
   /**
   * Local path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping#local_path RemotePathMapping#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping#local_path RemotePathMapping#local_path}
   */
   readonly localPath: string;
   /**
   * Download Client remote path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping#remote_path RemotePathMapping#remote_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping#remote_path RemotePathMapping#remote_path}
   */
   readonly remotePath: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping radarr_remote_path_mapping}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping radarr_remote_path_mapping}
 */
 export class RemotePathMapping extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class RemotePathMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemotePathMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemotePathMapping to import
-  * @param importFromId The id of the existing RemotePathMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemotePathMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemotePathMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class RemotePathMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/remote_path_mapping radarr_remote_path_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/remote_path_mapping radarr_remote_path_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class RemotePathMapping extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_remote_path_mapping',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface GeneralSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security#enable_anonymous_access GeneralSecurity#enable_anonymous_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security#enable_anonymous_access GeneralSecurity#enable_anonymous_access}
   */
   readonly enableAnonymousAccess?: boolean | cdktf.IResolvable;
   /**
   * Determines the password requirements from users identified to Artifactory from a remote client such as Maven. The options are: (1) `SUPPORTED` (default): Users can authenticate using secure encrypted passwords or clear-text passwords. (2) `REQUIRED`: Users must authenticate using secure encrypted passwords. Clear-text authentication fails. (3) `UNSUPPORTED`: Only clear-text passwords can be used for authentication. Default value is `SUPPORTED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security#encryption_policy GeneralSecurity#encryption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security#encryption_policy GeneralSecurity#encryption_policy}
   */
   readonly encryptionPolicy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security artifactory_general_security}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security artifactory_general_security}
 */
 export class GeneralSecurity extends cdktf.TerraformResource {
 
@@ -36,7 +36,7 @@ export class GeneralSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GeneralSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GeneralSecurity to import
-  * @param importFromId The id of the existing GeneralSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GeneralSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GeneralSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class GeneralSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security artifactory_general_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security artifactory_general_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class GeneralSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_general_security',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

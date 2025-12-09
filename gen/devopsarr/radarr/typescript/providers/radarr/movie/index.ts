@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,43 +11,43 @@ export interface MovieConfig extends cdktf.TerraformMetaArguments {
   * Minimum availability.
   * Allowed values: 'tba', 'announced', 'inCinemas', 'released', 'deleted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#minimum_availability Movie#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#minimum_availability Movie#minimum_availability}
   */
   readonly minimumAvailability?: string;
   /**
   * Monitored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#monitored Movie#monitored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#monitored Movie#monitored}
   */
   readonly monitored: boolean | cdktf.IResolvable;
   /**
   * Full movie path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#path Movie#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#path Movie#path}
   */
   readonly path: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#quality_profile_id Movie#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#quality_profile_id Movie#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#tags Movie#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#tags Movie#tags}
   */
   readonly tags?: number[];
   /**
   * Movie title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#title Movie#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#title Movie#title}
   */
   readonly title: string;
   /**
   * TMDB ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#tmdb_id Movie#tmdb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#tmdb_id Movie#tmdb_id}
   */
   readonly tmdbId: number;
 }
@@ -55,7 +55,7 @@ export interface MovieOriginalLanguage {
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#id Movie#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#id Movie#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ export interface MovieOriginalLanguage {
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#name Movie#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#name Movie#name}
   */
   readonly name?: string;
 }
@@ -174,7 +174,7 @@ export class MovieOriginalLanguageOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie radarr_movie}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie radarr_movie}
 */
 export class Movie extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class Movie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Movie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Movie to import
-  * @param importFromId The id of the existing Movie that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Movie that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Movie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class Movie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/movie radarr_movie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/movie radarr_movie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class Movie extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_movie',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

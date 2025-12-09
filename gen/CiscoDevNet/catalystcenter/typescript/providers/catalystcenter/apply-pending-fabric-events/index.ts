@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplyPendingFabricEventsConfig extends cdktf.TerraformMetaArgum
   /**
   * Pending fabric event ID resolved via GET and used for POST apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events#event_id ApplyPendingFabricEvents#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events#event_id ApplyPendingFabricEvents#event_id}
   */
   readonly eventId?: string;
   /**
   * ID of the fabric (used as GET query parameter and as the Terraform resource ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events#fabric_id ApplyPendingFabricEvents#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events#fabric_id ApplyPendingFabricEvents#fabric_id}
   */
   readonly fabricId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events catalystcenter_apply_pending_fabric_events}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events catalystcenter_apply_pending_fabric_events}
 */
 export class ApplyPendingFabricEvents extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ApplyPendingFabricEvents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplyPendingFabricEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplyPendingFabricEvents to import
-  * @param importFromId The id of the existing ApplyPendingFabricEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplyPendingFabricEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplyPendingFabricEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ApplyPendingFabricEvents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/apply_pending_fabric_events catalystcenter_apply_pending_fabric_events} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events catalystcenter_apply_pending_fabric_events} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ApplyPendingFabricEvents extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_apply_pending_fabric_events',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

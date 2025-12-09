@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface CredentialsHttpsWriteConfig extends cdktf.TerraformMetaArgument
   /**
   * The description of the HTTPS credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write#description CredentialsHttpsWrite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write#description CredentialsHttpsWrite#description}
   */
   readonly description: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write#password CredentialsHttpsWrite#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write#password CredentialsHttpsWrite#password}
   */
   readonly password: string;
   /**
   * HTTPS port
   *   - Default value: `443`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write#port CredentialsHttpsWrite#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write#port CredentialsHttpsWrite#port}
   */
   readonly port?: number;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write#username CredentialsHttpsWrite#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write#username CredentialsHttpsWrite#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write catalystcenter_credentials_https_write}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write catalystcenter_credentials_https_write}
 */
 export class CredentialsHttpsWrite extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CredentialsHttpsWrite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CredentialsHttpsWrite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CredentialsHttpsWrite to import
-  * @param importFromId The id of the existing CredentialsHttpsWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CredentialsHttpsWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CredentialsHttpsWrite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CredentialsHttpsWrite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_https_write catalystcenter_credentials_https_write} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/credentials_https_write catalystcenter_credentials_https_write} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CredentialsHttpsWrite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_https_write',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

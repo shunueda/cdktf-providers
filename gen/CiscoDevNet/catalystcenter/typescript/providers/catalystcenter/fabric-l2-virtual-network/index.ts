@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface FabricL2VirtualNetworkConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of the layer 3 virtual network associated with the layer 2 virtual network. This field is provided to support requests related to virtual network anchoring. The layer 3 virtual network must have already been added to the fabric before association. This field must either be present in all payload elements or none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#associated_l3_virtual_network_name FabricL2VirtualNetwork#associated_l3_virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#associated_l3_virtual_network_name FabricL2VirtualNetwork#associated_l3_virtual_network_name}
   */
   readonly associatedL3VirtualNetworkName?: string;
   /**
   * Set to true to enable wireless. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#fabric_enabled_wireless FabricL2VirtualNetwork#fabric_enabled_wireless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#fabric_enabled_wireless FabricL2VirtualNetwork#fabric_enabled_wireless}
   */
   readonly fabricEnabledWireless?: boolean | cdktf.IResolvable;
   /**
   * ID of the fabric this layer 2 virtual network is to be assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#fabric_id FabricL2VirtualNetwork#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#fabric_id FabricL2VirtualNetwork#fabric_id}
   */
   readonly fabricId: string;
   /**
   * The type of traffic that is served
   *   - Choices: `DATA`, `VOICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#traffic_type FabricL2VirtualNetwork#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#traffic_type FabricL2VirtualNetwork#traffic_type}
   */
   readonly trafficType: string;
   /**
   * ID of the VLAN of the layer 2 virtual network. Allowed VLAN range is 2-4093 except for reserved VLANs 1002-1005, and 2046. If deploying on a fabric zone, this vlanId must match the vlanId of the corresponding layer 2 virtual network on the fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#vlan_id FabricL2VirtualNetwork#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#vlan_id FabricL2VirtualNetwork#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Name of the VLAN of the layer 2 virtual network. Must contain only alphanumeric characters, underscores, and hyphens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#vlan_name FabricL2VirtualNetwork#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#vlan_name FabricL2VirtualNetwork#vlan_name}
   */
   readonly vlanName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network}
 */
 export class FabricL2VirtualNetwork extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FabricL2VirtualNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricL2VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricL2VirtualNetwork to import
-  * @param importFromId The id of the existing FabricL2VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricL2VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricL2VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FabricL2VirtualNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FabricL2VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l2_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

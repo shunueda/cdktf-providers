@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DownloadClientConfigAConfig extends cdktf.TerraformMetaArgument
   /**
   * Auto Redownload Failed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config#auto_redownload_failed DownloadClientConfigA#auto_redownload_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config#auto_redownload_failed DownloadClientConfigA#auto_redownload_failed}
   */
   readonly autoRedownloadFailed: boolean | cdktf.IResolvable;
   /**
   * Check for finished download interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config#check_for_finished_download_interval DownloadClientConfigA#check_for_finished_download_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config#check_for_finished_download_interval DownloadClientConfigA#check_for_finished_download_interval}
   */
   readonly checkForFinishedDownloadInterval: number;
   /**
   * Enable Completed Download Handling flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config#enable_completed_download_handling DownloadClientConfigA#enable_completed_download_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config#enable_completed_download_handling DownloadClientConfigA#enable_completed_download_handling}
   */
   readonly enableCompletedDownloadHandling: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config radarr_download_client_config}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config radarr_download_client_config}
 */
 export class DownloadClientConfigA extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DownloadClientConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientConfigA to import
-  * @param importFromId The id of the existing DownloadClientConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DownloadClientConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_config radarr_download_client_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_config radarr_download_client_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DownloadClientConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_config',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface DownloadClientFreeboxConfig extends cdktf.TerraformMetaArgument
   /**
   * Add paused flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#add_paused DownloadClientFreebox#add_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#add_paused DownloadClientFreebox#add_paused}
   */
   readonly addPaused?: boolean | cdktf.IResolvable;
   /**
   * API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#api_url DownloadClientFreebox#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#api_url DownloadClientFreebox#api_url}
   */
   readonly apiUrl: string;
   /**
   * App ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#app_id DownloadClientFreebox#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#app_id DownloadClientFreebox#app_id}
   */
   readonly appId: string;
   /**
   * App Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#app_token DownloadClientFreebox#app_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#app_token DownloadClientFreebox#app_token}
   */
   readonly appToken: string;
   /**
   * category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#category DownloadClientFreebox#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#category DownloadClientFreebox#category}
   */
   readonly category?: string;
   /**
   * Movie directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#destination_directory DownloadClientFreebox#destination_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#destination_directory DownloadClientFreebox#destination_directory}
   */
   readonly destinationDirectory?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#enable DownloadClientFreebox#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#enable DownloadClientFreebox#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#host DownloadClientFreebox#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#host DownloadClientFreebox#host}
   */
   readonly host: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#name DownloadClientFreebox#name}
   */
   readonly name: string;
   /**
   * Older Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#older_priority DownloadClientFreebox#older_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#older_priority DownloadClientFreebox#older_priority}
   */
   readonly olderPriority?: number;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#port DownloadClientFreebox#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#port DownloadClientFreebox#port}
   */
   readonly port: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#priority DownloadClientFreebox#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#priority DownloadClientFreebox#priority}
   */
   readonly priority?: number;
   /**
   * Recent Movie priority. `0` Last, `1` First.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#recent_priority DownloadClientFreebox#recent_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#recent_priority DownloadClientFreebox#recent_priority}
   */
   readonly recentPriority?: number;
   /**
   * Remove completed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#remove_completed_downloads DownloadClientFreebox#remove_completed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#remove_completed_downloads DownloadClientFreebox#remove_completed_downloads}
   */
   readonly removeCompletedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Remove failed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#remove_failed_downloads DownloadClientFreebox#remove_failed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#remove_failed_downloads DownloadClientFreebox#remove_failed_downloads}
   */
   readonly removeFailedDownloads?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#tags DownloadClientFreebox#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#tags DownloadClientFreebox#tags}
   */
   readonly tags?: number[];
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#use_ssl DownloadClientFreebox#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#use_ssl DownloadClientFreebox#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox radarr_download_client_freebox}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox radarr_download_client_freebox}
 */
 export class DownloadClientFreebox extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientFreebox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientFreebox to import
-  * @param importFromId The id of the existing DownloadClientFreebox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientFreebox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientFreebox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_freebox radarr_download_client_freebox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_freebox radarr_download_client_freebox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DownloadClientFreebox extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_freebox',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

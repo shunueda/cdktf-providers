@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DelayProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bypass for highest quality flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#bypass_if_highest_quality DelayProfile#bypass_if_highest_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#bypass_if_highest_quality DelayProfile#bypass_if_highest_quality}
   */
   readonly bypassIfHighestQuality?: boolean | cdktf.IResolvable;
   /**
   * Torrent allowed flag at least one of `enable_usenet` and `enable_torrent` must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#enable_torrent DelayProfile#enable_torrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#enable_torrent DelayProfile#enable_torrent}
   */
   readonly enableTorrent?: boolean | cdktf.IResolvable;
   /**
   * Usenet allowed flag at least one of `enable_usenet` and `enable_torrent` must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#enable_usenet DelayProfile#enable_usenet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#enable_usenet DelayProfile#enable_usenet}
   */
   readonly enableUsenet?: boolean | cdktf.IResolvable;
   /**
   * Order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#order DelayProfile#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#order DelayProfile#order}
   */
   readonly order?: number;
   /**
   * Preferred protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#preferred_protocol DelayProfile#preferred_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#preferred_protocol DelayProfile#preferred_protocol}
   */
   readonly preferredProtocol?: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#tags DelayProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#tags DelayProfile#tags}
   */
   readonly tags: number[];
   /**
   * Torrent Delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#torrent_delay DelayProfile#torrent_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#torrent_delay DelayProfile#torrent_delay}
   */
   readonly torrentDelay?: number;
   /**
   * Usenet delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#usenet_delay DelayProfile#usenet_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#usenet_delay DelayProfile#usenet_delay}
   */
   readonly usenetDelay?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile radarr_delay_profile}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile radarr_delay_profile}
 */
 export class DelayProfile extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DelayProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DelayProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DelayProfile to import
-  * @param importFromId The id of the existing DelayProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DelayProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DelayProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DelayProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/delay_profile radarr_delay_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/delay_profile radarr_delay_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DelayProfile extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_delay_profile',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

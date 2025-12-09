@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IndexerPassThePopcornConfig extends cdktf.TerraformMetaArgument
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#api_key IndexerPassThePopcorn#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#api_key IndexerPassThePopcorn#api_key}
   */
   readonly apiKey?: string;
   /**
   * API user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#api_user IndexerPassThePopcorn#api_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#api_user IndexerPassThePopcorn#api_user}
   */
   readonly apiUser?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#base_url IndexerPassThePopcorn#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#base_url IndexerPassThePopcorn#base_url}
   */
   readonly baseUrl: string;
   /**
   * Download client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#download_client_id IndexerPassThePopcorn#download_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#download_client_id IndexerPassThePopcorn#download_client_id}
   */
   readonly downloadClientId?: number;
   /**
   * Enable automatic search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#enable_automatic_search IndexerPassThePopcorn#enable_automatic_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#enable_automatic_search IndexerPassThePopcorn#enable_automatic_search}
   */
   readonly enableAutomaticSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable interactive search flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#enable_interactive_search IndexerPassThePopcorn#enable_interactive_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#enable_interactive_search IndexerPassThePopcorn#enable_interactive_search}
   */
   readonly enableInteractiveSearch?: boolean | cdktf.IResolvable;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#enable_rss IndexerPassThePopcorn#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#enable_rss IndexerPassThePopcorn#enable_rss}
   */
   readonly enableRss?: boolean | cdktf.IResolvable;
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#minimum_seeders IndexerPassThePopcorn#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#minimum_seeders IndexerPassThePopcorn#minimum_seeders}
   */
   readonly minimumSeeders?: number;
   /**
   * Languages list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#multi_languages IndexerPassThePopcorn#multi_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#multi_languages IndexerPassThePopcorn#multi_languages}
   */
   readonly multiLanguages?: number[];
   /**
   * IndexerPassThePopcorn name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#name IndexerPassThePopcorn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#name IndexerPassThePopcorn#name}
   */
   readonly name: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#priority IndexerPassThePopcorn#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#priority IndexerPassThePopcorn#priority}
   */
   readonly priority?: number;
   /**
   * Flag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#required_flags IndexerPassThePopcorn#required_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#required_flags IndexerPassThePopcorn#required_flags}
   */
   readonly requiredFlags?: number[];
   /**
   * Seed ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#seed_ratio IndexerPassThePopcorn#seed_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#seed_ratio IndexerPassThePopcorn#seed_ratio}
   */
   readonly seedRatio?: number;
   /**
   * Seed time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#seed_time IndexerPassThePopcorn#seed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#seed_time IndexerPassThePopcorn#seed_time}
   */
   readonly seedTime?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#tags IndexerPassThePopcorn#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#tags IndexerPassThePopcorn#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn radarr_indexer_pass_the_popcorn}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn radarr_indexer_pass_the_popcorn}
 */
 export class IndexerPassThePopcorn extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class IndexerPassThePopcorn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerPassThePopcorn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerPassThePopcorn to import
-  * @param importFromId The id of the existing IndexerPassThePopcorn that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerPassThePopcorn that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerPassThePopcorn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class IndexerPassThePopcorn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_pass_the_popcorn radarr_indexer_pass_the_popcorn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_pass_the_popcorn radarr_indexer_pass_the_popcorn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class IndexerPassThePopcorn extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer_pass_the_popcorn',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

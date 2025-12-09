@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface NotificationNtfyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Click URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#click_url NotificationNtfy#click_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#click_url NotificationNtfy#click_url}
   */
   readonly clickUrl?: string;
   /**
   * Tags and emojis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#field_tags NotificationNtfy#field_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#field_tags NotificationNtfy#field_tags}
   */
   readonly fieldTags?: string[];
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#include_health_warnings NotificationNtfy#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#include_health_warnings NotificationNtfy#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationNtfy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#name NotificationNtfy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#name NotificationNtfy#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_application_update NotificationNtfy#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_application_update NotificationNtfy#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On download flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_download NotificationNtfy#on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_download NotificationNtfy#on_download}
   */
   readonly onDownload?: boolean | cdktf.IResolvable;
   /**
   * On grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_grab NotificationNtfy#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_grab NotificationNtfy#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_health_issue NotificationNtfy#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_health_issue NotificationNtfy#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_health_restored NotificationNtfy#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_health_restored NotificationNtfy#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * On manual interaction required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_manual_interaction_required NotificationNtfy#on_manual_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_manual_interaction_required NotificationNtfy#on_manual_interaction_required}
   */
   readonly onManualInteractionRequired?: boolean | cdktf.IResolvable;
   /**
   * On movie added flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_movie_added NotificationNtfy#on_movie_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_movie_added NotificationNtfy#on_movie_added}
   */
   readonly onMovieAdded?: boolean | cdktf.IResolvable;
   /**
   * On movie delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_movie_delete NotificationNtfy#on_movie_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_movie_delete NotificationNtfy#on_movie_delete}
   */
   readonly onMovieDelete: boolean | cdktf.IResolvable;
   /**
   * On movie file delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_movie_file_delete NotificationNtfy#on_movie_file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_movie_file_delete NotificationNtfy#on_movie_file_delete}
   */
   readonly onMovieFileDelete?: boolean | cdktf.IResolvable;
   /**
   * On movie file delete for upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_movie_file_delete_for_upgrade NotificationNtfy#on_movie_file_delete_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_movie_file_delete_for_upgrade NotificationNtfy#on_movie_file_delete_for_upgrade}
   */
   readonly onMovieFileDeleteForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * On upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#on_upgrade NotificationNtfy#on_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#on_upgrade NotificationNtfy#on_upgrade}
   */
   readonly onUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#password NotificationNtfy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#password NotificationNtfy#password}
   */
   readonly password?: string;
   /**
   * Priority. `1` Min, `2` Low, `3` Default, `4` High, `5` Max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#priority NotificationNtfy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#priority NotificationNtfy#priority}
   */
   readonly priority?: number;
   /**
   * Server URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#server_url NotificationNtfy#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#server_url NotificationNtfy#server_url}
   */
   readonly serverUrl?: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#tags NotificationNtfy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#tags NotificationNtfy#tags}
   */
   readonly tags?: number[];
   /**
   * Topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#topics NotificationNtfy#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#topics NotificationNtfy#topics}
   */
   readonly topics: string[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#username NotificationNtfy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#username NotificationNtfy#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy radarr_notification_ntfy}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy radarr_notification_ntfy}
 */
 export class NotificationNtfy extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class NotificationNtfy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationNtfy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationNtfy to import
-  * @param importFromId The id of the existing NotificationNtfy that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationNtfy that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationNtfy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class NotificationNtfy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_ntfy radarr_notification_ntfy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_ntfy radarr_notification_ntfy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class NotificationNtfy extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_notification_ntfy',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

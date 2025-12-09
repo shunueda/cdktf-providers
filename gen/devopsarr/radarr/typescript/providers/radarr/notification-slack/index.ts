@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface NotificationSlackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#channel NotificationSlack#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#channel NotificationSlack#channel}
   */
   readonly channel?: string;
   /**
   * Icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#icon NotificationSlack#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#icon NotificationSlack#icon}
   */
   readonly icon?: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#include_health_warnings NotificationSlack#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#include_health_warnings NotificationSlack#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationSlack name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#name NotificationSlack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#name NotificationSlack#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_application_update NotificationSlack#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_application_update NotificationSlack#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On download flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_download NotificationSlack#on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_download NotificationSlack#on_download}
   */
   readonly onDownload?: boolean | cdktf.IResolvable;
   /**
   * On grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_grab NotificationSlack#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_grab NotificationSlack#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_health_issue NotificationSlack#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_health_issue NotificationSlack#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_health_restored NotificationSlack#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_health_restored NotificationSlack#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * On manual interaction required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_manual_interaction_required NotificationSlack#on_manual_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_manual_interaction_required NotificationSlack#on_manual_interaction_required}
   */
   readonly onManualInteractionRequired?: boolean | cdktf.IResolvable;
   /**
   * On movie added flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_movie_added NotificationSlack#on_movie_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_movie_added NotificationSlack#on_movie_added}
   */
   readonly onMovieAdded?: boolean | cdktf.IResolvable;
   /**
   * On movie delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_movie_delete NotificationSlack#on_movie_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_movie_delete NotificationSlack#on_movie_delete}
   */
   readonly onMovieDelete: boolean | cdktf.IResolvable;
   /**
   * On movie file delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_movie_file_delete NotificationSlack#on_movie_file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_movie_file_delete NotificationSlack#on_movie_file_delete}
   */
   readonly onMovieFileDelete?: boolean | cdktf.IResolvable;
   /**
   * On movie file delete for upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_movie_file_delete_for_upgrade NotificationSlack#on_movie_file_delete_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_movie_file_delete_for_upgrade NotificationSlack#on_movie_file_delete_for_upgrade}
   */
   readonly onMovieFileDeleteForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * On rename flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_rename NotificationSlack#on_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_rename NotificationSlack#on_rename}
   */
   readonly onRename?: boolean | cdktf.IResolvable;
   /**
   * On upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#on_upgrade NotificationSlack#on_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#on_upgrade NotificationSlack#on_upgrade}
   */
   readonly onUpgrade?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#tags NotificationSlack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#tags NotificationSlack#tags}
   */
   readonly tags?: number[];
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#username NotificationSlack#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#username NotificationSlack#username}
   */
   readonly username: string;
   /**
   * URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#web_hook_url NotificationSlack#web_hook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#web_hook_url NotificationSlack#web_hook_url}
   */
   readonly webHookUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack radarr_notification_slack}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack radarr_notification_slack}
 */
 export class NotificationSlack extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class NotificationSlack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationSlack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationSlack to import
-  * @param importFromId The id of the existing NotificationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationSlack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class NotificationSlack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_slack radarr_notification_slack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_slack radarr_notification_slack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class NotificationSlack extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_notification_slack',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

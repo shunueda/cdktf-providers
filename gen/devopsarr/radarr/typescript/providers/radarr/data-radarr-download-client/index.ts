@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/download_client
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/download_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataRadarrDownloadClientConfig extends cdktf.TerraformMetaArgum
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/download_client#name DataRadarrDownloadClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/download_client#name DataRadarrDownloadClient#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/download_client radarr_download_client}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/download_client radarr_download_client}
 */
 export class DataRadarrDownloadClient extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataRadarrDownloadClient extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrDownloadClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrDownloadClient to import
-  * @param importFromId The id of the existing DataRadarrDownloadClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/download_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrDownloadClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/download_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrDownloadClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataRadarrDownloadClient extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/download_client radarr_download_client} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/download_client radarr_download_client} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataRadarrDownloadClient extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_download_client',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

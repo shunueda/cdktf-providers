@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ImportListExclusionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Movie to be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion#title ImportListExclusion#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion#title ImportListExclusion#title}
   */
   readonly title: string;
   /**
   * Movie TMDB ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion#tmdb_id ImportListExclusion#tmdb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion#tmdb_id ImportListExclusion#tmdb_id}
   */
   readonly tmdbId: number;
   /**
   * Year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion#year ImportListExclusion#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion#year ImportListExclusion#year}
   */
   readonly year: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion radarr_import_list_exclusion}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion radarr_import_list_exclusion}
 */
 export class ImportListExclusion extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ImportListExclusion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListExclusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListExclusion to import
-  * @param importFromId The id of the existing ImportListExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListExclusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ImportListExclusion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_exclusion radarr_import_list_exclusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_exclusion radarr_import_list_exclusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ImportListExclusion extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_exclusion',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

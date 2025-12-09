@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface ImportListTmdbPersonConfig extends cdktf.TerraformMetaArguments
   /**
   * Include cast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#cast ImportListTmdbPerson#cast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#cast ImportListTmdbPerson#cast}
   */
   readonly cast?: boolean | cdktf.IResolvable;
   /**
   * Include cast director.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#cast_director ImportListTmdbPerson#cast_director}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#cast_director ImportListTmdbPerson#cast_director}
   */
   readonly castDirector?: boolean | cdktf.IResolvable;
   /**
   * Include cast producer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#cast_producer ImportListTmdbPerson#cast_producer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#cast_producer ImportListTmdbPerson#cast_producer}
   */
   readonly castProducer?: boolean | cdktf.IResolvable;
   /**
   * Include cast sound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#cast_sound ImportListTmdbPerson#cast_sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#cast_sound ImportListTmdbPerson#cast_sound}
   */
   readonly castSound?: boolean | cdktf.IResolvable;
   /**
   * Include cast writing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#cast_writing ImportListTmdbPerson#cast_writing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#cast_writing ImportListTmdbPerson#cast_writing}
   */
   readonly castWriting?: boolean | cdktf.IResolvable;
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#enable_auto ImportListTmdbPerson#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#enable_auto ImportListTmdbPerson#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#enabled ImportListTmdbPerson#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#enabled ImportListTmdbPerson#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#list_order ImportListTmdbPerson#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#list_order ImportListTmdbPerson#list_order}
   */
   readonly listOrder?: number;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#minimum_availability ImportListTmdbPerson#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#minimum_availability ImportListTmdbPerson#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#monitor ImportListTmdbPerson#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#monitor ImportListTmdbPerson#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#name ImportListTmdbPerson#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#name ImportListTmdbPerson#name}
   */
   readonly name: string;
   /**
   * Person ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#person_id ImportListTmdbPerson#person_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#person_id ImportListTmdbPerson#person_id}
   */
   readonly personId: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#quality_profile_id ImportListTmdbPerson#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#quality_profile_id ImportListTmdbPerson#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#root_folder_path ImportListTmdbPerson#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#root_folder_path ImportListTmdbPerson#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#search_on_add ImportListTmdbPerson#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#search_on_add ImportListTmdbPerson#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#tags ImportListTmdbPerson#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#tags ImportListTmdbPerson#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person radarr_import_list_tmdb_person}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person radarr_import_list_tmdb_person}
 */
 export class ImportListTmdbPerson extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class ImportListTmdbPerson extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListTmdbPerson resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListTmdbPerson to import
-  * @param importFromId The id of the existing ImportListTmdbPerson that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListTmdbPerson that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListTmdbPerson to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class ImportListTmdbPerson extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_person radarr_import_list_tmdb_person} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_person radarr_import_list_tmdb_person} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class ImportListTmdbPerson extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_tmdb_person',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

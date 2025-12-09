@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationOciTenantConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#credentials IntegrationOciTenant#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#credentials IntegrationOciTenant#credentials}
   */
   readonly credentials: IntegrationOciTenantCredentials;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#name IntegrationOciTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#name IntegrationOciTenant#name}
   */
   readonly name?: string;
   /**
   * OCI region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#region IntegrationOciTenant#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#region IntegrationOciTenant#region}
   */
   readonly region: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#space_id IntegrationOciTenant#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#space_id IntegrationOciTenant#space_id}
   */
   readonly spaceId?: string;
   /**
   * OCI tenancy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#tenancy IntegrationOciTenant#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#tenancy IntegrationOciTenant#tenancy}
   */
   readonly tenancy: string;
   /**
   * OCI user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#user IntegrationOciTenant#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#user IntegrationOciTenant#user}
   */
   readonly user: string;
 }
 export interface IntegrationOciTenantCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#fingerprint IntegrationOciTenant#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#fingerprint IntegrationOciTenant#fingerprint}
   */
   readonly fingerprint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#private_key IntegrationOciTenant#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#private_key IntegrationOciTenant#private_key}
   */
   readonly privateKey: string;
 }
@@ -165,7 +165,7 @@ export class IntegrationOciTenantCredentialsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant mondoo_integration_oci_tenant}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant mondoo_integration_oci_tenant}
 */
 export class IntegrationOciTenant extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class IntegrationOciTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationOciTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationOciTenant to import
-  * @param importFromId The id of the existing IntegrationOciTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationOciTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationOciTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class IntegrationOciTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_oci_tenant mondoo_integration_oci_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_oci_tenant mondoo_integration_oci_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class IntegrationOciTenant extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_oci_tenant',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

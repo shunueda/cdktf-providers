@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface NotificationSendgridConfig extends cdktf.TerraformMetaArguments
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#api_key NotificationSendgrid#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#api_key NotificationSendgrid#api_key}
   */
   readonly apiKey?: string;
   /**
   * From.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#from NotificationSendgrid#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#from NotificationSendgrid#from}
   */
   readonly from: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#include_health_warnings NotificationSendgrid#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#include_health_warnings NotificationSendgrid#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationSendgrid name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#name NotificationSendgrid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#name NotificationSendgrid#name}
   */
   readonly name: string;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_application_update NotificationSendgrid#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_application_update NotificationSendgrid#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On download flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_download NotificationSendgrid#on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_download NotificationSendgrid#on_download}
   */
   readonly onDownload?: boolean | cdktf.IResolvable;
   /**
   * On grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_grab NotificationSendgrid#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_grab NotificationSendgrid#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_health_issue NotificationSendgrid#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_health_issue NotificationSendgrid#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_health_restored NotificationSendgrid#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_health_restored NotificationSendgrid#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * On manual interaction required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_manual_interaction_required NotificationSendgrid#on_manual_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_manual_interaction_required NotificationSendgrid#on_manual_interaction_required}
   */
   readonly onManualInteractionRequired?: boolean | cdktf.IResolvable;
   /**
   * On movie added flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_movie_added NotificationSendgrid#on_movie_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_movie_added NotificationSendgrid#on_movie_added}
   */
   readonly onMovieAdded?: boolean | cdktf.IResolvable;
   /**
   * On movie delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_movie_delete NotificationSendgrid#on_movie_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_movie_delete NotificationSendgrid#on_movie_delete}
   */
   readonly onMovieDelete: boolean | cdktf.IResolvable;
   /**
   * On movie file delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_movie_file_delete NotificationSendgrid#on_movie_file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_movie_file_delete NotificationSendgrid#on_movie_file_delete}
   */
   readonly onMovieFileDelete?: boolean | cdktf.IResolvable;
   /**
   * On movie file delete for upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_movie_file_delete_for_upgrade NotificationSendgrid#on_movie_file_delete_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_movie_file_delete_for_upgrade NotificationSendgrid#on_movie_file_delete_for_upgrade}
   */
   readonly onMovieFileDeleteForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * On upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#on_upgrade NotificationSendgrid#on_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#on_upgrade NotificationSendgrid#on_upgrade}
   */
   readonly onUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#recipients NotificationSendgrid#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#recipients NotificationSendgrid#recipients}
   */
   readonly recipients: string[];
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#tags NotificationSendgrid#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#tags NotificationSendgrid#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid radarr_notification_sendgrid}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid radarr_notification_sendgrid}
 */
 export class NotificationSendgrid extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class NotificationSendgrid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationSendgrid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationSendgrid to import
-  * @param importFromId The id of the existing NotificationSendgrid that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationSendgrid that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationSendgrid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class NotificationSendgrid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_sendgrid radarr_notification_sendgrid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_sendgrid radarr_notification_sendgrid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class NotificationSendgrid extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_notification_sendgrid',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataRadarrCustomFormatConditionSizeConfig extends cdktf.Terrafo
   /**
   * Max size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#max DataRadarrCustomFormatConditionSize#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#max DataRadarrCustomFormatConditionSize#max}
   */
   readonly max: number;
   /**
   * Min size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#min DataRadarrCustomFormatConditionSize#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#min DataRadarrCustomFormatConditionSize#min}
   */
   readonly min: number;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#name DataRadarrCustomFormatConditionSize#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#name DataRadarrCustomFormatConditionSize#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#negate DataRadarrCustomFormatConditionSize#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#negate DataRadarrCustomFormatConditionSize#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#required DataRadarrCustomFormatConditionSize#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#required DataRadarrCustomFormatConditionSize#required}
   */
   readonly required: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size radarr_custom_format_condition_size}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size radarr_custom_format_condition_size}
 */
 export class DataRadarrCustomFormatConditionSize extends cdktf.TerraformDataSource {
 
@@ -56,7 +56,7 @@ export class DataRadarrCustomFormatConditionSize extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataRadarrCustomFormatConditionSize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrCustomFormatConditionSize to import
-  * @param importFromId The id of the existing DataRadarrCustomFormatConditionSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrCustomFormatConditionSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrCustomFormatConditionSize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DataRadarrCustomFormatConditionSize extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_size radarr_custom_format_condition_size} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_size radarr_custom_format_condition_size} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DataRadarrCustomFormatConditionSize extends cdktf.TerraformDataSour
       terraformResourceType: 'radarr_custom_format_condition_size',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

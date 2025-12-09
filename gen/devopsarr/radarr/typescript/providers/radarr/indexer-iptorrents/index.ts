@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface IndexerIptorrentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#base_url IndexerIptorrents#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#base_url IndexerIptorrents#base_url}
   */
   readonly baseUrl: string;
   /**
   * Download client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#download_client_id IndexerIptorrents#download_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#download_client_id IndexerIptorrents#download_client_id}
   */
   readonly downloadClientId?: number;
   /**
   * Enable RSS flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#enable_rss IndexerIptorrents#enable_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#enable_rss IndexerIptorrents#enable_rss}
   */
   readonly enableRss?: boolean | cdktf.IResolvable;
   /**
   * Minimum seeders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#minimum_seeders IndexerIptorrents#minimum_seeders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#minimum_seeders IndexerIptorrents#minimum_seeders}
   */
   readonly minimumSeeders?: number;
   /**
   * Languages list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#multi_languages IndexerIptorrents#multi_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#multi_languages IndexerIptorrents#multi_languages}
   */
   readonly multiLanguages?: number[];
   /**
   * IndexerIptorrents name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#name IndexerIptorrents#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#name IndexerIptorrents#name}
   */
   readonly name: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#priority IndexerIptorrents#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#priority IndexerIptorrents#priority}
   */
   readonly priority?: number;
   /**
   * Flag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#required_flags IndexerIptorrents#required_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#required_flags IndexerIptorrents#required_flags}
   */
   readonly requiredFlags?: number[];
   /**
   * Seed ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#seed_ratio IndexerIptorrents#seed_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#seed_ratio IndexerIptorrents#seed_ratio}
   */
   readonly seedRatio?: number;
   /**
   * Seed time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#seed_time IndexerIptorrents#seed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#seed_time IndexerIptorrents#seed_time}
   */
   readonly seedTime?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#tags IndexerIptorrents#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#tags IndexerIptorrents#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents radarr_indexer_iptorrents}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents radarr_indexer_iptorrents}
 */
 export class IndexerIptorrents extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class IndexerIptorrents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerIptorrents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerIptorrents to import
-  * @param importFromId The id of the existing IndexerIptorrents that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerIptorrents that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerIptorrents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class IndexerIptorrents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_iptorrents radarr_indexer_iptorrents} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_iptorrents radarr_indexer_iptorrents} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class IndexerIptorrents extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer_iptorrents',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,337 +10,337 @@ export interface ImportListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#access_token ImportList#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#access_token ImportList#access_token}
   */
   readonly accessToken?: string;
   /**
   * Account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#account_id ImportList#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#account_id ImportList#account_id}
   */
   readonly accountId?: string;
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#api_key ImportList#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#api_key ImportList#api_key}
   */
   readonly apiKey?: string;
   /**
   * Auth user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#auth_user ImportList#auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#auth_user ImportList#auth_user}
   */
   readonly authUser?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#base_url ImportList#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#base_url ImportList#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Include cast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#cast ImportList#cast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#cast ImportList#cast}
   */
   readonly cast?: boolean | cdktf.IResolvable;
   /**
   * Include cast director.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#cast_director ImportList#cast_director}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#cast_director ImportList#cast_director}
   */
   readonly castDirector?: boolean | cdktf.IResolvable;
   /**
   * Include cast producer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#cast_producer ImportList#cast_producer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#cast_producer ImportList#cast_producer}
   */
   readonly castProducer?: boolean | cdktf.IResolvable;
   /**
   * Include cast sound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#cast_sound ImportList#cast_sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#cast_sound ImportList#cast_sound}
   */
   readonly castSound?: boolean | cdktf.IResolvable;
   /**
   * Include cast writing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#cast_writing ImportList#cast_writing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#cast_writing ImportList#cast_writing}
   */
   readonly castWriting?: boolean | cdktf.IResolvable;
   /**
   * Certification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#certification ImportList#certification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#certification ImportList#certification}
   */
   readonly certification?: string;
   /**
   * Company ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#company_id ImportList#company_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#company_id ImportList#company_id}
   */
   readonly companyId?: string;
   /**
   * ImportList configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#config_contract ImportList#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#config_contract ImportList#config_contract}
   */
   readonly configContract: string;
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#enable_auto ImportList#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#enable_auto ImportList#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#enabled ImportList#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#enabled ImportList#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Exclude genre IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#exclude_genre_ids ImportList#exclude_genre_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#exclude_genre_ids ImportList#exclude_genre_ids}
   */
   readonly excludeGenreIds?: string;
   /**
   * Expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#expires ImportList#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#expires ImportList#expires}
   */
   readonly expires?: string;
   /**
   * Genres.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#genres ImportList#genres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#genres ImportList#genres}
   */
   readonly genres?: string;
   /**
   * ImportList implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#implementation ImportList#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#implementation ImportList#implementation}
   */
   readonly implementation?: string;
   /**
   * Include genre IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#include_genre_ids ImportList#include_genre_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#include_genre_ids ImportList#include_genre_ids}
   */
   readonly includeGenreIds?: string;
   /**
   * Keyword ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#keyword_id ImportList#keyword_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#keyword_id ImportList#keyword_id}
   */
   readonly keywordId?: string;
   /**
   * Language code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#language_code ImportList#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#language_code ImportList#language_code}
   */
   readonly languageCode?: number;
   /**
   * limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#limit ImportList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#limit ImportList#limit}
   */
   readonly limit?: number;
   /**
   * Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#link ImportList#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#link ImportList#link}
   */
   readonly link?: string;
   /**
   * List ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#list_id ImportList#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#list_id ImportList#list_id}
   */
   readonly listId?: string;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#list_order ImportList#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#list_order ImportList#list_order}
   */
   readonly listOrder?: number;
   /**
   * List type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#list_type ImportList#list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#list_type ImportList#list_type}
   */
   readonly listType: string;
   /**
   * List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#listname ImportList#listname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#listname ImportList#listname}
   */
   readonly listname?: string;
   /**
   * Min score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#min_score ImportList#min_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#min_score ImportList#min_score}
   */
   readonly minScore?: number;
   /**
   * Min vote average.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#min_vote_average ImportList#min_vote_average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#min_vote_average ImportList#min_vote_average}
   */
   readonly minVoteAverage?: string;
   /**
   * Min votes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#min_votes ImportList#min_votes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#min_votes ImportList#min_votes}
   */
   readonly minVotes?: string;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#minimum_availability ImportList#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#minimum_availability ImportList#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#monitor ImportList#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#monitor ImportList#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#name ImportList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#name ImportList#name}
   */
   readonly name: string;
   /**
   * Only active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#only_active ImportList#only_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#only_active ImportList#only_active}
   */
   readonly onlyActive?: boolean | cdktf.IResolvable;
   /**
   * Person ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#person_id ImportList#person_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#person_id ImportList#person_id}
   */
   readonly personId?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#port ImportList#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#port ImportList#port}
   */
   readonly port?: number;
   /**
   * Profile IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#profile_ids ImportList#profile_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#profile_ids ImportList#profile_ids}
   */
   readonly profileIds?: number[];
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#quality_profile_id ImportList#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#quality_profile_id ImportList#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Rating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#rating ImportList#rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#rating ImportList#rating}
   */
   readonly rating?: string;
   /**
   * Refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#refresh_token ImportList#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#refresh_token ImportList#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#root_folder_path ImportList#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#root_folder_path ImportList#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#search_on_add ImportList#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#search_on_add ImportList#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#source ImportList#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#source ImportList#source}
   */
   readonly source?: number;
   /**
   * Tag IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#tag_ids ImportList#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#tag_ids ImportList#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#tags ImportList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#tags ImportList#tags}
   */
   readonly tags?: number[];
   /**
   * Certification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#tmdb_certification ImportList#tmdb_certification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#tmdb_certification ImportList#tmdb_certification}
   */
   readonly tmdbCertification?: string;
   /**
   * TMDB list type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#tmdb_list_type ImportList#tmdb_list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#tmdb_list_type ImportList#tmdb_list_type}
   */
   readonly tmdbListType?: number;
   /**
   * Trakt additional parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#trakt_additional_parameters ImportList#trakt_additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#trakt_additional_parameters ImportList#trakt_additional_parameters}
   */
   readonly traktAdditionalParameters?: string;
   /**
   * Trakt list type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#trakt_list_type ImportList#trakt_list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#trakt_list_type ImportList#trakt_list_type}
   */
   readonly traktListType?: number;
   /**
   * URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#url ImportList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#url ImportList#url}
   */
   readonly url?: string;
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#url_base ImportList#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#url_base ImportList#url_base}
   */
   readonly urlBase?: string;
   /**
   * User list type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#user_list_type ImportList#user_list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#user_list_type ImportList#user_list_type}
   */
   readonly userListType?: number;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#username ImportList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#username ImportList#username}
   */
   readonly username?: string;
   /**
   * Years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#years ImportList#years}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#years ImportList#years}
   */
   readonly years?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list radarr_import_list}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list radarr_import_list}
 */
 export class ImportList extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class ImportList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportList to import
-  * @param importFromId The id of the existing ImportList that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportList that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class ImportList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list radarr_import_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list radarr_import_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class ImportList extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

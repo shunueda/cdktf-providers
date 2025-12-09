@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataRadarrCustomFormatConditionIndexerFlagConfig extends cdktf.
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag#name DataRadarrCustomFormatConditionIndexerFlag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag#name DataRadarrCustomFormatConditionIndexerFlag#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag#negate DataRadarrCustomFormatConditionIndexerFlag#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag#negate DataRadarrCustomFormatConditionIndexerFlag#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag#required DataRadarrCustomFormatConditionIndexerFlag#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag#required DataRadarrCustomFormatConditionIndexerFlag#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Indexer flag ID. `1` G Freeleech, `2` G Halfleech, `4` G DoubleUpload, `8` PTP Golden, `16` PTP Approved, `32` HDB Internal, `64` AHD Internal, `128` G Scene, `256` G Freeleech75, `512` G Freeleech25, `1024` AHD UserRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag#value DataRadarrCustomFormatConditionIndexerFlag#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag#value DataRadarrCustomFormatConditionIndexerFlag#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag radarr_custom_format_condition_indexer_flag}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag radarr_custom_format_condition_indexer_flag}
 */
 export class DataRadarrCustomFormatConditionIndexerFlag extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataRadarrCustomFormatConditionIndexerFlag extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataRadarrCustomFormatConditionIndexerFlag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrCustomFormatConditionIndexerFlag to import
-  * @param importFromId The id of the existing DataRadarrCustomFormatConditionIndexerFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrCustomFormatConditionIndexerFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrCustomFormatConditionIndexerFlag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataRadarrCustomFormatConditionIndexerFlag extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_indexer_flag radarr_custom_format_condition_indexer_flag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_indexer_flag radarr_custom_format_condition_indexer_flag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataRadarrCustomFormatConditionIndexerFlag extends cdktf.TerraformD
       terraformResourceType: 'radarr_custom_format_condition_indexer_flag',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

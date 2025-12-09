@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface NotificationEmbyConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#api_key NotificationEmby#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#api_key NotificationEmby#api_key}
   */
   readonly apiKey: string;
   /**
   * Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#host NotificationEmby#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#host NotificationEmby#host}
   */
   readonly host: string;
   /**
   * Include health warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#include_health_warnings NotificationEmby#include_health_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#include_health_warnings NotificationEmby#include_health_warnings}
   */
   readonly includeHealthWarnings?: boolean | cdktf.IResolvable;
   /**
   * NotificationEmby name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#name NotificationEmby#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#name NotificationEmby#name}
   */
   readonly name: string;
   /**
   * Notify flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#notify NotificationEmby#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#notify NotificationEmby#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * On application update flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_application_update NotificationEmby#on_application_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_application_update NotificationEmby#on_application_update}
   */
   readonly onApplicationUpdate?: boolean | cdktf.IResolvable;
   /**
   * On download flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_download NotificationEmby#on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_download NotificationEmby#on_download}
   */
   readonly onDownload?: boolean | cdktf.IResolvable;
   /**
   * On grab flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_grab NotificationEmby#on_grab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_grab NotificationEmby#on_grab}
   */
   readonly onGrab?: boolean | cdktf.IResolvable;
   /**
   * On health issue flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_health_issue NotificationEmby#on_health_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_health_issue NotificationEmby#on_health_issue}
   */
   readonly onHealthIssue?: boolean | cdktf.IResolvable;
   /**
   * On health restored flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_health_restored NotificationEmby#on_health_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_health_restored NotificationEmby#on_health_restored}
   */
   readonly onHealthRestored?: boolean | cdktf.IResolvable;
   /**
   * On movie added flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_movie_added NotificationEmby#on_movie_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_movie_added NotificationEmby#on_movie_added}
   */
   readonly onMovieAdded?: boolean | cdktf.IResolvable;
   /**
   * On movie delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_movie_delete NotificationEmby#on_movie_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_movie_delete NotificationEmby#on_movie_delete}
   */
   readonly onMovieDelete: boolean | cdktf.IResolvable;
   /**
   * On movie file delete flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_movie_file_delete NotificationEmby#on_movie_file_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_movie_file_delete NotificationEmby#on_movie_file_delete}
   */
   readonly onMovieFileDelete?: boolean | cdktf.IResolvable;
   /**
   * On movie file delete for upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_movie_file_delete_for_upgrade NotificationEmby#on_movie_file_delete_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_movie_file_delete_for_upgrade NotificationEmby#on_movie_file_delete_for_upgrade}
   */
   readonly onMovieFileDeleteForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * On rename flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_rename NotificationEmby#on_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_rename NotificationEmby#on_rename}
   */
   readonly onRename?: boolean | cdktf.IResolvable;
   /**
   * On upgrade flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#on_upgrade NotificationEmby#on_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#on_upgrade NotificationEmby#on_upgrade}
   */
   readonly onUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#port NotificationEmby#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#port NotificationEmby#port}
   */
   readonly port?: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#tags NotificationEmby#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#tags NotificationEmby#tags}
   */
   readonly tags?: number[];
   /**
   * Update library flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#update_library NotificationEmby#update_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#update_library NotificationEmby#update_library}
   */
   readonly updateLibrary?: boolean | cdktf.IResolvable;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#use_ssl NotificationEmby#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#use_ssl NotificationEmby#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby radarr_notification_emby}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby radarr_notification_emby}
 */
 export class NotificationEmby extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class NotificationEmby extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationEmby resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationEmby to import
-  * @param importFromId The id of the existing NotificationEmby that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationEmby that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationEmby to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class NotificationEmby extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/notification_emby radarr_notification_emby} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/notification_emby radarr_notification_emby} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class NotificationEmby extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_notification_emby',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

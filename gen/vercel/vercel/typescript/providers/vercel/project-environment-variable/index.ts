@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ProjectEnvironmentVariableConfig extends cdktf.TerraformMetaArg
   /**
   * A comment explaining what the environment variable is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#comment ProjectEnvironmentVariable#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#comment ProjectEnvironmentVariable#comment}
   */
   readonly comment?: string;
   /**
   * The IDs of Custom Environments that the Environment Variable should be present on. At least one of `target` or `custom_environment_ids` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#custom_environment_ids ProjectEnvironmentVariable#custom_environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#custom_environment_ids ProjectEnvironmentVariable#custom_environment_ids}
   */
   readonly customEnvironmentIds?: string[];
   /**
   * The git branch of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#git_branch ProjectEnvironmentVariable#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#git_branch ProjectEnvironmentVariable#git_branch}
   */
   readonly gitBranch?: string;
   /**
   * The name of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#key ProjectEnvironmentVariable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#key ProjectEnvironmentVariable#key}
   */
   readonly key: string;
   /**
   * The ID of the Vercel project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#project_id ProjectEnvironmentVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#project_id ProjectEnvironmentVariable#project_id}
   */
   readonly projectId: string;
   /**
   * Whether the Environment Variable is sensitive or not. (May be affected by a [team-wide environment variable policy](https://vercel.com/docs/projects/environment-variables/sensitive-environment-variables#environment-variables-policy))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#sensitive ProjectEnvironmentVariable#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#sensitive ProjectEnvironmentVariable#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * The environments that the Environment Variable should be present on. Valid targets are either `production`, `preview`, or `development`. At least one of `target` or `custom_environment_ids` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#target ProjectEnvironmentVariable#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#target ProjectEnvironmentVariable#target}
   */
   readonly target?: string[];
   /**
   * The ID of the Vercel team.Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#team_id ProjectEnvironmentVariable#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#team_id ProjectEnvironmentVariable#team_id}
   */
   readonly teamId?: string;
   /**
   * The value of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#value ProjectEnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#value ProjectEnvironmentVariable#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable vercel_project_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable vercel_project_environment_variable}
 */
 export class ProjectEnvironmentVariable extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class ProjectEnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectEnvironmentVariable to import
-  * @param importFromId The id of the existing ProjectEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class ProjectEnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_environment_variable vercel_project_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_environment_variable vercel_project_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class ProjectEnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

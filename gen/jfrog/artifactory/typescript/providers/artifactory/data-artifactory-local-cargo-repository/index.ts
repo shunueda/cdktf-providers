@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface DataArtifactoryLocalCargoRepositoryConfig extends cdktf.Terrafo
   /**
   * Cargo client does not send credentials when performing download and search for crates. Enable this to allow anonymous access to these resources (only), note that this will override the security anonymous access option. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#anonymous_access DataArtifactoryLocalCargoRepository#anonymous_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#anonymous_access DataArtifactoryLocalCargoRepository#anonymous_access}
   */
   readonly anonymousAccess?: boolean | cdktf.IResolvable;
   /**
   * When set, you may view content such as HTML or Javadoc files directly from Artifactory.
   * This may not be safe and therefore requires strict content moderation to prevent malicious users from uploading content that may compromise security (e.g., cross-site scripting attacks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#archive_browsing_enabled DataArtifactoryLocalCargoRepository#archive_browsing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#archive_browsing_enabled DataArtifactoryLocalCargoRepository#archive_browsing_enabled}
   */
   readonly archiveBrowsingEnabled?: boolean | cdktf.IResolvable;
   /**
   * When set, the repository does not participate in artifact resolution and new artifacts cannot be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#blacked_out DataArtifactoryLocalCargoRepository#blacked_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#blacked_out DataArtifactoryLocalCargoRepository#blacked_out}
   */
   readonly blackedOut?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from AWS CloudFront. Available in Enterprise+ and Edge licenses only. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#cdn_redirect DataArtifactoryLocalCargoRepository#cdn_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#cdn_redirect DataArtifactoryLocalCargoRepository#cdn_redirect}
   */
   readonly cdnRedirect?: boolean | cdktf.IResolvable;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#description DataArtifactoryLocalCargoRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#description DataArtifactoryLocalCargoRepository#description}
   */
   readonly description?: string;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from the cloud storage provider. Available in Enterprise+ and Edge licenses only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#download_direct DataArtifactoryLocalCargoRepository#download_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#download_direct DataArtifactoryLocalCargoRepository#download_direct}
   */
   readonly downloadDirect?: boolean | cdktf.IResolvable;
   /**
   * Enable internal index support based on Cargo sparse index specifications, instead of the default git index. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#enable_sparse_index DataArtifactoryLocalCargoRepository#enable_sparse_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#enable_sparse_index DataArtifactoryLocalCargoRepository#enable_sparse_index}
   */
   readonly enableSparseIndex?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#excludes_pattern DataArtifactoryLocalCargoRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#excludes_pattern DataArtifactoryLocalCargoRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#id DataArtifactoryLocalCargoRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#id DataArtifactoryLocalCargoRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,67 +68,67 @@ export interface DataArtifactoryLocalCargoRepositoryConfig extends cdktf.Terrafo
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#includes_pattern DataArtifactoryLocalCargoRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#includes_pattern DataArtifactoryLocalCargoRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly includesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#index_compression_formats DataArtifactoryLocalCargoRepository#index_compression_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#index_compression_formats DataArtifactoryLocalCargoRepository#index_compression_formats}
   */
   readonly indexCompressionFormats?: string[];
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#key DataArtifactoryLocalCargoRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#key DataArtifactoryLocalCargoRepository#key}
   */
   readonly key: string;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#notes DataArtifactoryLocalCargoRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#notes DataArtifactoryLocalCargoRepository#notes}
   */
   readonly notes?: string;
   /**
   * Setting repositories with priority will cause metadata to be merged only from repositories set with this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#priority_resolution DataArtifactoryLocalCargoRepository#priority_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#priority_resolution DataArtifactoryLocalCargoRepository#priority_resolution}
   */
   readonly priorityResolution?: boolean | cdktf.IResolvable;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#project_environments DataArtifactoryLocalCargoRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#project_environments DataArtifactoryLocalCargoRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#project_key DataArtifactoryLocalCargoRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#project_key DataArtifactoryLocalCargoRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of property set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#property_sets DataArtifactoryLocalCargoRepository#property_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#property_sets DataArtifactoryLocalCargoRepository#property_sets}
   */
   readonly propertySets?: string[];
   /**
   * Repository layout key for the local repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#repo_layout_ref DataArtifactoryLocalCargoRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#repo_layout_ref DataArtifactoryLocalCargoRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * Enable Indexing In Xray. Repository will be indexed with the default retention period. You will be able to change it via Xray settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#xray_index DataArtifactoryLocalCargoRepository#xray_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#xray_index DataArtifactoryLocalCargoRepository#xray_index}
   */
   readonly xrayIndex?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository artifactory_local_cargo_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository artifactory_local_cargo_repository}
 */
 export class DataArtifactoryLocalCargoRepository extends cdktf.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataArtifactoryLocalCargoRepository extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataArtifactoryLocalCargoRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryLocalCargoRepository to import
-  * @param importFromId The id of the existing DataArtifactoryLocalCargoRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryLocalCargoRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryLocalCargoRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataArtifactoryLocalCargoRepository extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/local_cargo_repository artifactory_local_cargo_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/local_cargo_repository artifactory_local_cargo_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class DataArtifactoryLocalCargoRepository extends cdktf.TerraformDataSour
       terraformResourceType: 'artifactory_local_cargo_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

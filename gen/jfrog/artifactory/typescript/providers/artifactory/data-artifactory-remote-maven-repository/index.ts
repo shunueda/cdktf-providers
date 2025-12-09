@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,92 +10,92 @@ export interface DataArtifactoryRemoteMavenRepositoryConfig extends cdktf.Terraf
   /**
   * 'Lenient Host Authentication' in the UI. Allow credentials of this repository to be used on requests redirected to any other host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#allow_any_host_auth DataArtifactoryRemoteMavenRepository#allow_any_host_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#allow_any_host_auth DataArtifactoryRemoteMavenRepository#allow_any_host_auth}
   */
   readonly allowAnyHostAuth?: boolean | cdktf.IResolvable;
   /**
   * When set, you may view content such as HTML or Javadoc files directly from Artifactory.
   * This may not be safe and therefore requires strict content moderation to prevent malicious users from uploading content that may compromise security (e.g., cross-site scripting attacks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#archive_browsing_enabled DataArtifactoryRemoteMavenRepository#archive_browsing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#archive_browsing_enabled DataArtifactoryRemoteMavenRepository#archive_browsing_enabled}
   */
   readonly archiveBrowsingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The number of seconds the repository stays in assumed offline state after a connection error. At the end of this time, an online check is attempted in order to reset the offline status. A value of 0 means the repository is never assumed offline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#assumed_offline_period_secs DataArtifactoryRemoteMavenRepository#assumed_offline_period_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#assumed_offline_period_secs DataArtifactoryRemoteMavenRepository#assumed_offline_period_secs}
   */
   readonly assumedOfflinePeriodSecs?: number;
   /**
   * (A.K.A 'Ignore Repository' on the UI) When set, the repository or its local cache do not participate in artifact resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#blacked_out DataArtifactoryRemoteMavenRepository#blacked_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#blacked_out DataArtifactoryRemoteMavenRepository#blacked_out}
   */
   readonly blackedOut?: boolean | cdktf.IResolvable;
   /**
   * If set, artifacts will fail to download if a mismatch is detected between requested and received mimetype, according to the list specified in the system properties file under blockedMismatchingMimeTypes. You can override by adding mimetypes to the override list 'mismatching_mime_types_override_list'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#block_mismatching_mime_types DataArtifactoryRemoteMavenRepository#block_mismatching_mime_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#block_mismatching_mime_types DataArtifactoryRemoteMavenRepository#block_mismatching_mime_types}
   */
   readonly blockMismatchingMimeTypes?: boolean | cdktf.IResolvable;
   /**
   * Before caching an artifact, Artifactory first sends a HEAD request to the remote resource. In some remote resources, HEAD requests are disallowed and therefore rejected, even though downloading the artifact is allowed. When checked, Artifactory will bypass the HEAD request and cache the artifact directly using a GET request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#bypass_head_requests DataArtifactoryRemoteMavenRepository#bypass_head_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#bypass_head_requests DataArtifactoryRemoteMavenRepository#bypass_head_requests}
   */
   readonly bypassHeadRequests?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from AWS CloudFront. Available in Enterprise+ and Edge licenses only. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#cdn_redirect DataArtifactoryRemoteMavenRepository#cdn_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#cdn_redirect DataArtifactoryRemoteMavenRepository#cdn_redirect}
   */
   readonly cdnRedirect?: boolean | cdktf.IResolvable;
   /**
   * Client TLS certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#client_tls_certificate DataArtifactoryRemoteMavenRepository#client_tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#client_tls_certificate DataArtifactoryRemoteMavenRepository#client_tls_certificate}
   */
   readonly clientTlsCertificate?: string;
   /**
   * Enable repository to be protected by the Curation service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#curated DataArtifactoryRemoteMavenRepository#curated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#curated DataArtifactoryRemoteMavenRepository#curated}
   */
   readonly curated?: boolean | cdktf.IResolvable;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#description DataArtifactoryRemoteMavenRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#description DataArtifactoryRemoteMavenRepository#description}
   */
   readonly description?: string;
   /**
   * When set to `true`, the proxy is disabled, and not returned in the API response body. If there is a default proxy set for the Artifactory instance, it will be ignored, too. Introduced since Artifactory 7.41.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#disable_proxy DataArtifactoryRemoteMavenRepository#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#disable_proxy DataArtifactoryRemoteMavenRepository#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable URL normalization, default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#disable_url_normalization DataArtifactoryRemoteMavenRepository#disable_url_normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#disable_url_normalization DataArtifactoryRemoteMavenRepository#disable_url_normalization}
   */
   readonly disableUrlNormalization?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from the cloud storage provider. Available in Enterprise+ and Edge licenses only. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#download_direct DataArtifactoryRemoteMavenRepository#download_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#download_direct DataArtifactoryRemoteMavenRepository#download_direct}
   */
   readonly downloadDirect?: boolean | cdktf.IResolvable;
   /**
   * Enables cookie management if the remote repository uses cookies to manage client state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#enable_cookie_management DataArtifactoryRemoteMavenRepository#enable_cookie_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#enable_cookie_management DataArtifactoryRemoteMavenRepository#enable_cookie_management}
   */
   readonly enableCookieManagement?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#excludes_pattern DataArtifactoryRemoteMavenRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#excludes_pattern DataArtifactoryRemoteMavenRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -103,35 +103,35 @@ export interface DataArtifactoryRemoteMavenRepositoryConfig extends cdktf.Terraf
   /**
   * When set, if a POM is requested, Artifactory attempts to fetch the corresponding jar in the background. This will accelerate first access time to the jar when it is subsequently requested. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#fetch_jars_eagerly DataArtifactoryRemoteMavenRepository#fetch_jars_eagerly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#fetch_jars_eagerly DataArtifactoryRemoteMavenRepository#fetch_jars_eagerly}
   */
   readonly fetchJarsEagerly?: boolean | cdktf.IResolvable;
   /**
   * When set, if a binaries jar is requested, Artifactory attempts to fetch the corresponding source jar in the background. This will accelerate first access time to the source jar when it is subsequently requested. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#fetch_sources_eagerly DataArtifactoryRemoteMavenRepository#fetch_sources_eagerly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#fetch_sources_eagerly DataArtifactoryRemoteMavenRepository#fetch_sources_eagerly}
   */
   readonly fetchSourcesEagerly?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory allows you to deploy release artifacts into this repository. Default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#handle_releases DataArtifactoryRemoteMavenRepository#handle_releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#handle_releases DataArtifactoryRemoteMavenRepository#handle_releases}
   */
   readonly handleReleases?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory allows you to deploy snapshot artifacts into this repository. Default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#handle_snapshots DataArtifactoryRemoteMavenRepository#handle_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#handle_snapshots DataArtifactoryRemoteMavenRepository#handle_snapshots}
   */
   readonly handleSnapshots?: boolean | cdktf.IResolvable;
   /**
   * When set, Artifactory will return an error to the client that causes the build to fail if there is a failure to communicate with this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#hard_fail DataArtifactoryRemoteMavenRepository#hard_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#hard_fail DataArtifactoryRemoteMavenRepository#hard_fail}
   */
   readonly hardFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#id DataArtifactoryRemoteMavenRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#id DataArtifactoryRemoteMavenRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +140,7 @@ export interface DataArtifactoryRemoteMavenRepositoryConfig extends cdktf.Terraf
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#includes_pattern DataArtifactoryRemoteMavenRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#includes_pattern DataArtifactoryRemoteMavenRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -148,181 +148,181 @@ export interface DataArtifactoryRemoteMavenRepositoryConfig extends cdktf.Terraf
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#key DataArtifactoryRemoteMavenRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#key DataArtifactoryRemoteMavenRepository#key}
   */
   readonly key: string;
   /**
   * Lists the items of remote folders in simple and list browsing. The remote content is cached according to the value of the 'Retrieval Cache Period'. Default value is 'false'. This field exists in the API but not in the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#list_remote_folder_items DataArtifactoryRemoteMavenRepository#list_remote_folder_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#list_remote_folder_items DataArtifactoryRemoteMavenRepository#list_remote_folder_items}
   */
   readonly listRemoteFolderItems?: boolean | cdktf.IResolvable;
   /**
   * The local address to be used when creating connections. Useful for specifying the interface to use on systems with multiple network interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#local_address DataArtifactoryRemoteMavenRepository#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#local_address DataArtifactoryRemoteMavenRepository#local_address}
   */
   readonly localAddress?: string;
   /**
   * The maximum number of unique snapshots of a single artifact to store. Once the number of snapshots exceeds this setting, older versions are removed. A value of 0 (default) indicates there is no limit, and unique snapshots are not cleaned up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#max_unique_snapshots DataArtifactoryRemoteMavenRepository#max_unique_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#max_unique_snapshots DataArtifactoryRemoteMavenRepository#max_unique_snapshots}
   */
   readonly maxUniqueSnapshots?: number;
   /**
   * Metadata Retrieval Cache Timeout (Sec) in the UI.This value refers to the number of seconds to wait for retrieval from the remote before serving locally cached artifact or fail the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#metadata_retrieval_timeout_secs DataArtifactoryRemoteMavenRepository#metadata_retrieval_timeout_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#metadata_retrieval_timeout_secs DataArtifactoryRemoteMavenRepository#metadata_retrieval_timeout_secs}
   */
   readonly metadataRetrievalTimeoutSecs?: number;
   /**
   * The set of mime types that should override the block_mismatching_mime_types setting. Eg: 'application/json,application/xml'. Default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#mismatching_mime_types_override_list DataArtifactoryRemoteMavenRepository#mismatching_mime_types_override_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#mismatching_mime_types_override_list DataArtifactoryRemoteMavenRepository#mismatching_mime_types_override_list}
   */
   readonly mismatchingMimeTypesOverrideList?: string;
   /**
   * Missed Retrieval Cache Period (Sec) in the UI. The number of seconds to cache artifact retrieval misses (artifact not found). A value of 0 indicates no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#missed_cache_period_seconds DataArtifactoryRemoteMavenRepository#missed_cache_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#missed_cache_period_seconds DataArtifactoryRemoteMavenRepository#missed_cache_period_seconds}
   */
   readonly missedCachePeriodSeconds?: number;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#notes DataArtifactoryRemoteMavenRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#notes DataArtifactoryRemoteMavenRepository#notes}
   */
   readonly notes?: string;
   /**
   * If set, Artifactory does not try to fetch remote artifacts. Only locally-cached artifacts are retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#offline DataArtifactoryRemoteMavenRepository#offline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#offline DataArtifactoryRemoteMavenRepository#offline}
   */
   readonly offline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#password DataArtifactoryRemoteMavenRepository#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#password DataArtifactoryRemoteMavenRepository#password}
   */
   readonly password?: string;
   /**
   * Setting Priority Resolution takes precedence over the resolution order when resolving virtual repositories. Setting repositories with priority will cause metadata to be merged only from repositories set with a priority. If a package is not found in those repositories, Artifactory will merge from repositories marked as non-priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#priority_resolution DataArtifactoryRemoteMavenRepository#priority_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#priority_resolution DataArtifactoryRemoteMavenRepository#priority_resolution}
   */
   readonly priorityResolution?: boolean | cdktf.IResolvable;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#project_environments DataArtifactoryRemoteMavenRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#project_environments DataArtifactoryRemoteMavenRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#project_key DataArtifactoryRemoteMavenRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#project_key DataArtifactoryRemoteMavenRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of property set names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#property_sets DataArtifactoryRemoteMavenRepository#property_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#property_sets DataArtifactoryRemoteMavenRepository#property_sets}
   */
   readonly propertySets?: string[];
   /**
   * Proxy key from Artifactory Proxies settings. Can't be set if `disable_proxy = true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#proxy DataArtifactoryRemoteMavenRepository#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#proxy DataArtifactoryRemoteMavenRepository#proxy}
   */
   readonly proxy?: string;
   /**
   * Custom HTTP query parameters that will be automatically included in all remote resource requests. For example: `param1=val1&param2=val2&param3=val3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#query_params DataArtifactoryRemoteMavenRepository#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#query_params DataArtifactoryRemoteMavenRepository#query_params}
   */
   readonly queryParams?: string;
   /**
   * Reject the caching of jar files that are found to be invalid. For example, pseudo jars retrieved behind a "captive portal". Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#reject_invalid_jars DataArtifactoryRemoteMavenRepository#reject_invalid_jars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#reject_invalid_jars DataArtifactoryRemoteMavenRepository#reject_invalid_jars}
   */
   readonly rejectInvalidJars?: boolean | cdktf.IResolvable;
   /**
   * Checking the Checksum effectively verifies the integrity of a deployed resource. The Checksum Policy determines how the system behaves when a client checksum for a remote resource is missing or conflicts with the locally calculated checksum. Default value is 'generate-if-absent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#remote_repo_checksum_policy_type DataArtifactoryRemoteMavenRepository#remote_repo_checksum_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#remote_repo_checksum_policy_type DataArtifactoryRemoteMavenRepository#remote_repo_checksum_policy_type}
   */
   readonly remoteRepoChecksumPolicyType?: string;
   /**
   * Repository layout key for the remote layout mapping. Repository can be created without this attribute (or set to an empty string). Once it's set, it can't be removed by passing an empty string or removing the attribute, that will be ignored by the Artifactory API. UI shows an error message, if the user tries to remove the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#remote_repo_layout_ref DataArtifactoryRemoteMavenRepository#remote_repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#remote_repo_layout_ref DataArtifactoryRemoteMavenRepository#remote_repo_layout_ref}
   */
   readonly remoteRepoLayoutRef?: string;
   /**
   * Repository layout key for the remote repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#repo_layout_ref DataArtifactoryRemoteMavenRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#repo_layout_ref DataArtifactoryRemoteMavenRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * Metadata Retrieval Cache Period (Sec) in the UI. This value refers to the number of seconds to cache metadata files before checking for newer versions on remote server. A value of 0 indicates no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#retrieval_cache_period_seconds DataArtifactoryRemoteMavenRepository#retrieval_cache_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#retrieval_cache_period_seconds DataArtifactoryRemoteMavenRepository#retrieval_cache_period_seconds}
   */
   readonly retrievalCachePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#share_configuration DataArtifactoryRemoteMavenRepository#share_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#share_configuration DataArtifactoryRemoteMavenRepository#share_configuration}
   */
   readonly shareConfiguration?: boolean | cdktf.IResolvable;
   /**
   * Network timeout (in ms) to use when establishing a connection and for unanswered requests. Timing out on a network operation is considered a retrieval failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#socket_timeout_millis DataArtifactoryRemoteMavenRepository#socket_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#socket_timeout_millis DataArtifactoryRemoteMavenRepository#socket_timeout_millis}
   */
   readonly socketTimeoutMillis?: number;
   /**
   * When set, the repository should store cached artifacts locally. When not set, artifacts are not stored locally, and direct repository-to-client streaming is used. This can be useful for multi-server setups over a high-speed LAN, with one Artifactory caching certain data on central storage, and streaming it directly to satellite pass-though Artifactory servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#store_artifacts_locally DataArtifactoryRemoteMavenRepository#store_artifacts_locally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#store_artifacts_locally DataArtifactoryRemoteMavenRepository#store_artifacts_locally}
   */
   readonly storeArtifactsLocally?: boolean | cdktf.IResolvable;
   /**
   * By default, the system keeps your repositories healthy by refusing POMs with incorrect coordinates (path). If the groupId:artifactId:version information inside the POM does not match the deployed path, Artifactory rejects the deployment with a "409 Conflict" error. You can disable this behavior by setting this attribute to 'true'. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#suppress_pom_consistency_checks DataArtifactoryRemoteMavenRepository#suppress_pom_consistency_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#suppress_pom_consistency_checks DataArtifactoryRemoteMavenRepository#suppress_pom_consistency_checks}
   */
   readonly suppressPomConsistencyChecks?: boolean | cdktf.IResolvable;
   /**
   * When set, remote artifacts are fetched along with their properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#synchronize_properties DataArtifactoryRemoteMavenRepository#synchronize_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#synchronize_properties DataArtifactoryRemoteMavenRepository#synchronize_properties}
   */
   readonly synchronizeProperties?: boolean | cdktf.IResolvable;
   /**
   * Unused Artifacts Cleanup Period (Hr) in the UI. The number of hours to wait before an artifact is deemed 'unused' and eligible for cleanup from the repository. A value of 0 means automatic cleanup of cached artifacts is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#unused_artifacts_cleanup_period_hours DataArtifactoryRemoteMavenRepository#unused_artifacts_cleanup_period_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#unused_artifacts_cleanup_period_hours DataArtifactoryRemoteMavenRepository#unused_artifacts_cleanup_period_hours}
   */
   readonly unusedArtifactsCleanupPeriodHours?: number;
   /**
   * This is a URL to the remote registry. Consider using HTTPS to ensure a secure connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#url DataArtifactoryRemoteMavenRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#url DataArtifactoryRemoteMavenRepository#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#username DataArtifactoryRemoteMavenRepository#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#username DataArtifactoryRemoteMavenRepository#username}
   */
   readonly username?: string;
   /**
   * Enable Indexing In Xray. Repository will be indexed with the default retention period. You will be able to change it via Xray settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#xray_index DataArtifactoryRemoteMavenRepository#xray_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#xray_index DataArtifactoryRemoteMavenRepository#xray_index}
   */
   readonly xrayIndex?: boolean | cdktf.IResolvable;
   /**
   * content_synchronisation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#content_synchronisation DataArtifactoryRemoteMavenRepository#content_synchronisation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#content_synchronisation DataArtifactoryRemoteMavenRepository#content_synchronisation}
   */
   readonly contentSynchronisation?: DataArtifactoryRemoteMavenRepositoryContentSynchronisation;
 }
@@ -330,25 +330,25 @@ export interface DataArtifactoryRemoteMavenRepositoryContentSynchronisation {
   /**
   * If set, Remote repository proxies a local or remote repository from another instance of Artifactory. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#enabled DataArtifactoryRemoteMavenRepository#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#enabled DataArtifactoryRemoteMavenRepository#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set, properties for artifacts that have been cached in this repository will be updated if they are modified in the artifact hosted at the remote Artifactory instance. The trigger to synchronize the properties is download of the artifact from the remote repository cache of the local Artifactory instance. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#properties_enabled DataArtifactoryRemoteMavenRepository#properties_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#properties_enabled DataArtifactoryRemoteMavenRepository#properties_enabled}
   */
   readonly propertiesEnabled?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory displays an indication on cached items if they have been deleted from the corresponding repository in the remote Artifactory instance. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#source_origin_absence_detection DataArtifactoryRemoteMavenRepository#source_origin_absence_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#source_origin_absence_detection DataArtifactoryRemoteMavenRepository#source_origin_absence_detection}
   */
   readonly sourceOriginAbsenceDetection?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory will notify the remote instance whenever an artifact in the Smart Remote Repository is downloaded locally so that it can update its download counter. Note that if this option is not set, there may be a discrepancy between the number of artifacts reported to have been downloaded in the different Artifactory instances of the proxy chain. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#statistics_enabled DataArtifactoryRemoteMavenRepository#statistics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#statistics_enabled DataArtifactoryRemoteMavenRepository#statistics_enabled}
   */
   readonly statisticsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -519,7 +519,7 @@ export class DataArtifactoryRemoteMavenRepositoryContentSynchronisationOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository artifactory_remote_maven_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository artifactory_remote_maven_repository}
 */
 export class DataArtifactoryRemoteMavenRepository extends cdktf.TerraformDataSource {
 
@@ -535,7 +535,7 @@ export class DataArtifactoryRemoteMavenRepository extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataArtifactoryRemoteMavenRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryRemoteMavenRepository to import
-  * @param importFromId The id of the existing DataArtifactoryRemoteMavenRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryRemoteMavenRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryRemoteMavenRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -547,7 +547,7 @@ export class DataArtifactoryRemoteMavenRepository extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/remote_maven_repository artifactory_remote_maven_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/remote_maven_repository artifactory_remote_maven_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,8 +558,8 @@ export class DataArtifactoryRemoteMavenRepository extends cdktf.TerraformDataSou
       terraformResourceType: 'artifactory_remote_maven_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

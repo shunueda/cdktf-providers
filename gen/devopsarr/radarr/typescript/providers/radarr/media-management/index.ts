@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface MediaManagementConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto rename folders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#auto_rename_folders MediaManagement#auto_rename_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#auto_rename_folders MediaManagement#auto_rename_folders}
   */
   readonly autoRenameFolders: boolean | cdktf.IResolvable;
   /**
   * Auto unmonitor previously downloaded movies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#auto_unmonitor_previously_downloaded_movies MediaManagement#auto_unmonitor_previously_downloaded_movies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#auto_unmonitor_previously_downloaded_movies MediaManagement#auto_unmonitor_previously_downloaded_movies}
   */
   readonly autoUnmonitorPreviouslyDownloadedMovies: boolean | cdktf.IResolvable;
   /**
   * Permission in linux format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#chmod_folder MediaManagement#chmod_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#chmod_folder MediaManagement#chmod_folder}
   */
   readonly chmodFolder: string;
   /**
   * Group used for permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#chown_group MediaManagement#chown_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#chown_group MediaManagement#chown_group}
   */
   readonly chownGroup: string;
   /**
   * Use hardlinks instead of copy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#copy_using_hardlinks MediaManagement#copy_using_hardlinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#copy_using_hardlinks MediaManagement#copy_using_hardlinks}
   */
   readonly copyUsingHardlinks: boolean | cdktf.IResolvable;
   /**
   * Create empty movies directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#create_empty_movie_folders MediaManagement#create_empty_movie_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#create_empty_movie_folders MediaManagement#create_empty_movie_folders}
   */
   readonly createEmptyMovieFolders: boolean | cdktf.IResolvable;
   /**
   * Delete empty movies directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#delete_empty_folders MediaManagement#delete_empty_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#delete_empty_folders MediaManagement#delete_empty_folders}
   */
   readonly deleteEmptyFolders: boolean | cdktf.IResolvable;
   /**
   * Download proper and repack policy. valid inputs are: 'preferAndUpgrade', 'doNotUpgrade', and 'doNotPrefer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#download_propers_and_repacks MediaManagement#download_propers_and_repacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#download_propers_and_repacks MediaManagement#download_propers_and_repacks}
   */
   readonly downloadPropersAndRepacks: string;
   /**
   * Scan files details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#enable_media_info MediaManagement#enable_media_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#enable_media_info MediaManagement#enable_media_info}
   */
   readonly enableMediaInfo: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of extra files to import (.nfo will be imported as .nfo-orig).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#extra_file_extensions MediaManagement#extra_file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#extra_file_extensions MediaManagement#extra_file_extensions}
   */
   readonly extraFileExtensions: string;
   /**
   * Define the file date modification. valid inputs are: 'none', 'cinemas, and 'release'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#file_date MediaManagement#file_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#file_date MediaManagement#file_date}
   */
   readonly fileDate: string;
   /**
   * Import extra files. If enabled it will leverage 'extra_file_extensions'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#import_extra_files MediaManagement#import_extra_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#import_extra_files MediaManagement#import_extra_files}
   */
   readonly importExtraFiles: boolean | cdktf.IResolvable;
   /**
   * Minimum free space in MB to allow import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#minimum_free_space_when_importing MediaManagement#minimum_free_space_when_importing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#minimum_free_space_when_importing MediaManagement#minimum_free_space_when_importing}
   */
   readonly minimumFreeSpaceWhenImporting: number;
   /**
   * Path default static.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#paths_default_static MediaManagement#paths_default_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#paths_default_static MediaManagement#paths_default_static}
   */
   readonly pathsDefaultStatic: boolean | cdktf.IResolvable;
   /**
   * Recycle bin absolute path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#recycle_bin MediaManagement#recycle_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#recycle_bin MediaManagement#recycle_bin}
   */
   readonly recycleBin: string;
   /**
   * Recyle bin days of retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#recycle_bin_cleanup_days MediaManagement#recycle_bin_cleanup_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#recycle_bin_cleanup_days MediaManagement#recycle_bin_cleanup_days}
   */
   readonly recycleBinCleanupDays: number;
   /**
   * Rescan after refresh policy. valid inputs are: 'always', 'afterManual' and 'never'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#rescan_after_refresh MediaManagement#rescan_after_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#rescan_after_refresh MediaManagement#rescan_after_refresh}
   */
   readonly rescanAfterRefresh: string;
   /**
   * Set permission for imported files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#set_permissions_linux MediaManagement#set_permissions_linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#set_permissions_linux MediaManagement#set_permissions_linux}
   */
   readonly setPermissionsLinux: boolean | cdktf.IResolvable;
   /**
   * Skip free space check before importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#skip_free_space_check_when_importing MediaManagement#skip_free_space_check_when_importing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#skip_free_space_check_when_importing MediaManagement#skip_free_space_check_when_importing}
   */
   readonly skipFreeSpaceCheckWhenImporting: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management radarr_media_management}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management radarr_media_management}
 */
 export class MediaManagement extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class MediaManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MediaManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaManagement to import
-  * @param importFromId The id of the existing MediaManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class MediaManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/media_management radarr_media_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/media_management radarr_media_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class MediaManagement extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_media_management',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

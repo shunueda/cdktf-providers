@@ -1,3 +1,3 @@
 # `data_catalystcenter_transit_network`
 
-Refer to the Terraform Registry for docs: [`data_catalystcenter_transit_network`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/transit_network).
+Refer to the Terraform Registry for docs: [`data_catalystcenter_transit_network`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/transit_network).

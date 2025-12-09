@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart
+// https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ChartConfig extends cdktf.TerraformMetaArguments {
   /**
   * JSON RFC6902 patches to apply to the Helm chart, organized by the file to which the patch should be applied. Each file must contain the json representation of the JSON patch array to apply. It's easiest to use the jsonencode function to generate the JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#json_patches Chart#json_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#json_patches Chart#json_patches}
   */
   readonly jsonPatches?: { [key: string]: string };
   /**
   * The architecture of the package to fetch. If not specified, uses the provider default_arch or falls back to system defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#package_arch Chart#package_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#package_arch Chart#package_arch}
   */
   readonly packageArch?: string;
   /**
   * The name of the package to fetch from the package repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#package_name Chart#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#package_name Chart#package_name}
   */
   readonly packageName: string;
   /**
   * The version of the package to fetch from the package repository. If not specified, the latest available version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#package_version Chart#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#package_version Chart#package_version}
   */
   readonly packageVersion?: string;
   /**
   * The repo in the OCI registry where the Helm chart will be pushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#repo Chart#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#repo Chart#repo}
   */
   readonly repo: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart helm_chart}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart helm_chart}
 */
 export class Chart extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Chart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Chart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Chart to import
-  * @param importFromId The id of the existing Chart that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Chart that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Chart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Chart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.8/docs/resources/chart helm_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/helm/0.0.9/docs/resources/chart helm_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Chart extends cdktf.TerraformResource {
       terraformResourceType: 'helm_chart',
       terraformGeneratorMetadata: {
         providerName: 'helm',
-        providerVersion: '0.0.8',
-        providerVersionConstraint: '0.0.8'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

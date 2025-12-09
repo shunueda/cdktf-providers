@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface ImportListTraktPopularConfig extends cdktf.TerraformMetaArgumen
   /**
   * Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#access_token ImportListTraktPopular#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#access_token ImportListTraktPopular#access_token}
   */
   readonly accessToken: string;
   /**
   * Auth user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#auth_user ImportListTraktPopular#auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#auth_user ImportListTraktPopular#auth_user}
   */
   readonly authUser: string;
   /**
   * Certification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#certification ImportListTraktPopular#certification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#certification ImportListTraktPopular#certification}
   */
   readonly certification?: string;
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#enable_auto ImportListTraktPopular#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#enable_auto ImportListTraktPopular#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#enabled ImportListTraktPopular#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#enabled ImportListTraktPopular#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#expires ImportListTraktPopular#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#expires ImportListTraktPopular#expires}
   */
   readonly expires?: string;
   /**
   * Genres.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#genres ImportListTraktPopular#genres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#genres ImportListTraktPopular#genres}
   */
   readonly genres?: string;
   /**
   * limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#limit ImportListTraktPopular#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#limit ImportListTraktPopular#limit}
   */
   readonly limit: number;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#list_order ImportListTraktPopular#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#list_order ImportListTraktPopular#list_order}
   */
   readonly listOrder?: number;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#minimum_availability ImportListTraktPopular#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#minimum_availability ImportListTraktPopular#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#monitor ImportListTraktPopular#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#monitor ImportListTraktPopular#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#name ImportListTraktPopular#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#name ImportListTraktPopular#name}
   */
   readonly name: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#quality_profile_id ImportListTraktPopular#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#quality_profile_id ImportListTraktPopular#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Rating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#rating ImportListTraktPopular#rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#rating ImportListTraktPopular#rating}
   */
   readonly rating?: string;
   /**
   * Refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#refresh_token ImportListTraktPopular#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#refresh_token ImportListTraktPopular#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#root_folder_path ImportListTraktPopular#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#root_folder_path ImportListTraktPopular#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#search_on_add ImportListTraktPopular#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#search_on_add ImportListTraktPopular#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#tags ImportListTraktPopular#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#tags ImportListTraktPopular#tags}
   */
   readonly tags?: number[];
   /**
   * Trakt additional parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#trakt_additional_parameters ImportListTraktPopular#trakt_additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#trakt_additional_parameters ImportListTraktPopular#trakt_additional_parameters}
   */
   readonly traktAdditionalParameters?: string;
   /**
   * Trakt list type.`0` Trending, `1` Popular, `2` Anticipated, `3` BoxOffice, `4` TopWatchedByWeek, `5` TopWatchedByMonth, `6` TopWatchedByYear, `7` TopWatchedByAllTime, `8` RecommendedByWeek, `9` RecommendedByMonth, `10` RecommendedByYear, `10` RecommendedByAllTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#trakt_list_type ImportListTraktPopular#trakt_list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#trakt_list_type ImportListTraktPopular#trakt_list_type}
   */
   readonly traktListType?: number;
   /**
   * Years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#years ImportListTraktPopular#years}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#years ImportListTraktPopular#years}
   */
   readonly years?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular radarr_import_list_trakt_popular}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular radarr_import_list_trakt_popular}
 */
 export class ImportListTraktPopular extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class ImportListTraktPopular extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListTraktPopular resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListTraktPopular to import
-  * @param importFromId The id of the existing ImportListTraktPopular that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListTraktPopular that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListTraktPopular to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class ImportListTraktPopular extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_trakt_popular radarr_import_list_trakt_popular} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_trakt_popular radarr_import_list_trakt_popular} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class ImportListTraktPopular extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_trakt_popular',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

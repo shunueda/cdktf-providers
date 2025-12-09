@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ScimGroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * SCIM 2.0 Group Display Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#group ScimGroupMapping#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#group ScimGroupMapping#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#mappings ScimGroupMapping#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#mappings ScimGroupMapping#mappings}
   */
   readonly mappings: ScimGroupMappingMappings[] | cdktf.IResolvable;
   /**
   * Mondoo Organization Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#org_id ScimGroupMapping#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#org_id ScimGroupMapping#org_id}
   */
   readonly orgId: string;
 }
 export interface ScimGroupMappingMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#iam_role ScimGroupMapping#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#iam_role ScimGroupMapping#iam_role}
   */
   readonly iamRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#org_mrn ScimGroupMapping#org_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#org_mrn ScimGroupMapping#org_mrn}
   */
   readonly orgMrn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#space_mrn ScimGroupMapping#space_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#space_mrn ScimGroupMapping#space_mrn}
   */
   readonly spaceMrn?: string;
 }
@@ -205,7 +205,7 @@ export class ScimGroupMappingMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping mondoo_scim_group_mapping}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping mondoo_scim_group_mapping}
 */
 export class ScimGroupMapping extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class ScimGroupMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScimGroupMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScimGroupMapping to import
-  * @param importFromId The id of the existing ScimGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScimGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScimGroupMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class ScimGroupMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/scim_group_mapping mondoo_scim_group_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/scim_group_mapping mondoo_scim_group_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class ScimGroupMapping extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_scim_group_mapping',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/global_environment
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/global_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GlobalEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name must start with a letter and contain letters, digits and `-` character. The maximum length is 32 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/global_environment#name GlobalEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/global_environment#name GlobalEnvironment#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/global_environment artifactory_global_environment}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/global_environment artifactory_global_environment}
 */
 export class GlobalEnvironment extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class GlobalEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalEnvironment to import
-  * @param importFromId The id of the existing GlobalEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/global_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/global_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class GlobalEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/global_environment artifactory_global_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/global_environment artifactory_global_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class GlobalEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_global_environment',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

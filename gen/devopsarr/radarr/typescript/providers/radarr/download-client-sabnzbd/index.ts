@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface DownloadClientSabnzbdConfig extends cdktf.TerraformMetaArgument
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#api_key DownloadClientSabnzbd#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#api_key DownloadClientSabnzbd#api_key}
   */
   readonly apiKey?: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#enable DownloadClientSabnzbd#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#enable DownloadClientSabnzbd#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#host DownloadClientSabnzbd#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#host DownloadClientSabnzbd#host}
   */
   readonly host?: string;
   /**
   * Movie category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#movie_category DownloadClientSabnzbd#movie_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#movie_category DownloadClientSabnzbd#movie_category}
   */
   readonly movieCategory?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#name DownloadClientSabnzbd#name}
   */
   readonly name: string;
   /**
   * Older Movie priority. `-100` Default, `-2` Paused, `-1` Low, `0` Normal, `1` High, `2` Force.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#older_movie_priority DownloadClientSabnzbd#older_movie_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#older_movie_priority DownloadClientSabnzbd#older_movie_priority}
   */
   readonly olderMoviePriority?: number;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#password DownloadClientSabnzbd#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#password DownloadClientSabnzbd#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#port DownloadClientSabnzbd#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#port DownloadClientSabnzbd#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#priority DownloadClientSabnzbd#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#priority DownloadClientSabnzbd#priority}
   */
   readonly priority?: number;
   /**
   * Recent Movie priority. `-100` Default, `-2` Paused, `-1` Low, `0` Normal, `1` High, `2` Force.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#recent_movie_priority DownloadClientSabnzbd#recent_movie_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#recent_movie_priority DownloadClientSabnzbd#recent_movie_priority}
   */
   readonly recentMoviePriority?: number;
   /**
   * Remove completed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#remove_completed_downloads DownloadClientSabnzbd#remove_completed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#remove_completed_downloads DownloadClientSabnzbd#remove_completed_downloads}
   */
   readonly removeCompletedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Remove failed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#remove_failed_downloads DownloadClientSabnzbd#remove_failed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#remove_failed_downloads DownloadClientSabnzbd#remove_failed_downloads}
   */
   readonly removeFailedDownloads?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#tags DownloadClientSabnzbd#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#tags DownloadClientSabnzbd#tags}
   */
   readonly tags?: number[];
   /**
   * Base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#url_base DownloadClientSabnzbd#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#url_base DownloadClientSabnzbd#url_base}
   */
   readonly urlBase?: string;
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#use_ssl DownloadClientSabnzbd#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#use_ssl DownloadClientSabnzbd#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#username DownloadClientSabnzbd#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#username DownloadClientSabnzbd#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd radarr_download_client_sabnzbd}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd radarr_download_client_sabnzbd}
 */
 export class DownloadClientSabnzbd extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientSabnzbd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientSabnzbd to import
-  * @param importFromId The id of the existing DownloadClientSabnzbd that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientSabnzbd that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientSabnzbd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_sabnzbd radarr_download_client_sabnzbd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_sabnzbd radarr_download_client_sabnzbd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DownloadClientSabnzbd extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_sabnzbd',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

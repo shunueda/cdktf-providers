@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface ImportListTmdbListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#enable_auto ImportListTmdbList#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#enable_auto ImportListTmdbList#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#enabled ImportListTmdbList#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#enabled ImportListTmdbList#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#list_id ImportListTmdbList#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#list_id ImportListTmdbList#list_id}
   */
   readonly listId: string;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#list_order ImportListTmdbList#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#list_order ImportListTmdbList#list_order}
   */
   readonly listOrder?: number;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#minimum_availability ImportListTmdbList#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#minimum_availability ImportListTmdbList#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#monitor ImportListTmdbList#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#monitor ImportListTmdbList#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#name ImportListTmdbList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#name ImportListTmdbList#name}
   */
   readonly name: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#quality_profile_id ImportListTmdbList#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#quality_profile_id ImportListTmdbList#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#root_folder_path ImportListTmdbList#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#root_folder_path ImportListTmdbList#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#search_on_add ImportListTmdbList#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#search_on_add ImportListTmdbList#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#tags ImportListTmdbList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#tags ImportListTmdbList#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list radarr_import_list_tmdb_list}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list radarr_import_list_tmdb_list}
 */
 export class ImportListTmdbList extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class ImportListTmdbList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListTmdbList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListTmdbList to import
-  * @param importFromId The id of the existing ImportListTmdbList that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListTmdbList that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListTmdbList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class ImportListTmdbList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_list radarr_import_list_tmdb_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_list radarr_import_list_tmdb_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class ImportListTmdbList extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_tmdb_list',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

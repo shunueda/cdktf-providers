@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataRadarrAutoTagConditionMonitoredConfig extends cdktf.Terrafo
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored#name DataRadarrAutoTagConditionMonitored#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored#name DataRadarrAutoTagConditionMonitored#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored#negate DataRadarrAutoTagConditionMonitored#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored#negate DataRadarrAutoTagConditionMonitored#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored#required DataRadarrAutoTagConditionMonitored#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored#required DataRadarrAutoTagConditionMonitored#required}
   */
   readonly required: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored radarr_auto_tag_condition_monitored}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored radarr_auto_tag_condition_monitored}
 */
 export class DataRadarrAutoTagConditionMonitored extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataRadarrAutoTagConditionMonitored extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataRadarrAutoTagConditionMonitored resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrAutoTagConditionMonitored to import
-  * @param importFromId The id of the existing DataRadarrAutoTagConditionMonitored that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrAutoTagConditionMonitored that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrAutoTagConditionMonitored to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataRadarrAutoTagConditionMonitored extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_monitored radarr_auto_tag_condition_monitored} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_monitored radarr_auto_tag_condition_monitored} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataRadarrAutoTagConditionMonitored extends cdktf.TerraformDataSour
       terraformResourceType: 'radarr_auto_tag_condition_monitored',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MondooProviderConfig {
   /**
   * The contents of a service account key file in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#credentials MondooProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#credentials MondooProvider#credentials}
   */
   readonly credentials?: string;
   /**
   * The endpoint url of the server to manage resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#endpoint MondooProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#endpoint MondooProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The default region to manage resources in. Valid regions are `us` or `eu`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#region MondooProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#region MondooProvider#region}
   */
   readonly region?: string;
   /**
   * The default space to manage resources in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#space MondooProvider#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#space MondooProvider#space}
   */
   readonly space?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#alias MondooProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#alias MondooProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs mondoo}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs mondoo}
 */
 export class MondooProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class MondooProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MondooProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MondooProvider to import
-  * @param importFromId The id of the existing MondooProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MondooProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MondooProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MondooProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs mondoo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs mondoo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MondooProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mondoo',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       terraformProviderSource: 'mondoohq/mondoo'
     });

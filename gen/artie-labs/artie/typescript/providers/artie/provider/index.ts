@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ArtieProviderConfig {
   /**
   * Artie API key to authenticate requests to the Artie API. Generate an API key in the Artie web app at https://app.artie.com/settings?tab=authentication (only company admins can create API keys). We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs#api_key ArtieProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs#api_key ArtieProvider#api_key}
   */
   readonly apiKey: string;
   /**
   * Artie API endpoint. This defaults to https://api.artie.com and should not need to be changed except when developing the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs#endpoint ArtieProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs#endpoint ArtieProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs#alias ArtieProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs#alias ArtieProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs artie}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs artie}
 */
 export class ArtieProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class ArtieProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ArtieProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArtieProvider to import
-  * @param importFromId The id of the existing ArtieProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArtieProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArtieProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ArtieProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs artie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs artie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ArtieProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'artie',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.5',
+        providerVersionConstraint: '2.3.5'
       },
       terraformProviderSource: 'artie-labs/artie'
     });

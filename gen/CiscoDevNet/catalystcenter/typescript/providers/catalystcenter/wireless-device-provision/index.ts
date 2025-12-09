@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WirelessDeviceProvisionConfig extends cdktf.TerraformMetaArgume
   /**
   * AP Authorization List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#ap_authorization_list_name WirelessDeviceProvision#ap_authorization_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#ap_authorization_list_name WirelessDeviceProvision#ap_authorization_list_name}
   */
   readonly apAuthorizationListName?: string;
   /**
   * AP Reboot Percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#ap_reboot_percentage WirelessDeviceProvision#ap_reboot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#ap_reboot_percentage WirelessDeviceProvision#ap_reboot_percentage}
   */
   readonly apRebootPercentage?: number;
   /**
   * True if Mesh and Non-Mesh Access Points are authorized, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#authorize_mesh_and_non_mesh_access_points WirelessDeviceProvision#authorize_mesh_and_non_mesh_access_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#authorize_mesh_and_non_mesh_access_points WirelessDeviceProvision#authorize_mesh_and_non_mesh_access_points}
   */
   readonly authorizeMeshAndNonMeshAccessPoints?: boolean | cdktf.IResolvable;
   /**
   * True if Rolling AP Upgrade is enabled, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#enable_rolling_ap_upgrade WirelessDeviceProvision#enable_rolling_ap_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#enable_rolling_ap_upgrade WirelessDeviceProvision#enable_rolling_ap_upgrade}
   */
   readonly enableRollingApUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Dynamic Interface Details. The required attributes depend on the device type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#interfaces WirelessDeviceProvision#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#interfaces WirelessDeviceProvision#interfaces}
   */
   readonly interfaces?: WirelessDeviceProvisionInterfaces[] | cdktf.IResolvable;
   /**
   * Network Device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#network_device_id WirelessDeviceProvision#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#network_device_id WirelessDeviceProvision#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Flag to indicate whether the device should be reprovisioned. If set to `true`, reprovisioning will be triggered on every Terraform apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#reprovision WirelessDeviceProvision#reprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#reprovision WirelessDeviceProvision#reprovision}
   */
   readonly reprovision?: boolean | cdktf.IResolvable;
   /**
   * True if Skip AP Provision is enabled, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#skip_ap_provision WirelessDeviceProvision#skip_ap_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#skip_ap_provision WirelessDeviceProvision#skip_ap_provision}
   */
   readonly skipApProvision?: boolean | cdktf.IResolvable;
 }
@@ -60,39 +60,39 @@ export interface WirelessDeviceProvisionInterfaces {
   /**
   * Interface Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#interface_gateway WirelessDeviceProvision#interface_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#interface_gateway WirelessDeviceProvision#interface_gateway}
   */
   readonly interfaceGateway?: string;
   /**
   * Interface IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#interface_ip_address WirelessDeviceProvision#interface_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#interface_ip_address WirelessDeviceProvision#interface_ip_address}
   */
   readonly interfaceIpAddress?: string;
   /**
   * Interface Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#interface_name WirelessDeviceProvision#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#interface_name WirelessDeviceProvision#interface_name}
   */
   readonly interfaceName: string;
   /**
   * Interface Netmask In CIDR
   *   - Range: `1`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#interface_netmask WirelessDeviceProvision#interface_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#interface_netmask WirelessDeviceProvision#interface_netmask}
   */
   readonly interfaceNetmask?: number;
   /**
   * LAG or Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#lag_or_port_number WirelessDeviceProvision#lag_or_port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#lag_or_port_number WirelessDeviceProvision#lag_or_port_number}
   */
   readonly lagOrPortNumber?: number;
   /**
   * VLAN ID
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#vlan_id WirelessDeviceProvision#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#vlan_id WirelessDeviceProvision#vlan_id}
   */
   readonly vlanId: number;
 }
@@ -347,7 +347,7 @@ export class WirelessDeviceProvisionInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision catalystcenter_wireless_device_provision}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision catalystcenter_wireless_device_provision}
 */
 export class WirelessDeviceProvision extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class WirelessDeviceProvision extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessDeviceProvision resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessDeviceProvision to import
-  * @param importFromId The id of the existing WirelessDeviceProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessDeviceProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessDeviceProvision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class WirelessDeviceProvision extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_device_provision catalystcenter_wireless_device_provision} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_device_provision catalystcenter_wireless_device_provision} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class WirelessDeviceProvision extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_wireless_device_provision',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

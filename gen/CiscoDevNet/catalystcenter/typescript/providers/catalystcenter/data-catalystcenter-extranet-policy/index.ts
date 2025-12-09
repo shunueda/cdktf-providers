@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/extranet_policy
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/extranet_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterExtranetPolicyConfig extends cdktf.TerraformM
   /**
   * Name of the extranet policy to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/extranet_policy#extranet_policy_name DataCatalystcenterExtranetPolicy#extranet_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/extranet_policy#extranet_policy_name DataCatalystcenterExtranetPolicy#extranet_policy_name}
   */
   readonly extranetPolicyName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/extranet_policy catalystcenter_extranet_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/extranet_policy catalystcenter_extranet_policy}
 */
 export class DataCatalystcenterExtranetPolicy extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCatalystcenterExtranetPolicy extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataCatalystcenterExtranetPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterExtranetPolicy to import
-  * @param importFromId The id of the existing DataCatalystcenterExtranetPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/extranet_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterExtranetPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/extranet_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterExtranetPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCatalystcenterExtranetPolicy extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/extranet_policy catalystcenter_extranet_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/extranet_policy catalystcenter_extranet_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCatalystcenterExtranetPolicy extends cdktf.TerraformDataSource 
       terraformResourceType: 'catalystcenter_extranet_policy',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

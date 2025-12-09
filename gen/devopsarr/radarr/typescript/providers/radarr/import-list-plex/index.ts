@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface ImportListPlexConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#access_token ImportListPlex#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#access_token ImportListPlex#access_token}
   */
   readonly accessToken: string;
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#enable_auto ImportListPlex#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#enable_auto ImportListPlex#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#enabled ImportListPlex#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#enabled ImportListPlex#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#list_order ImportListPlex#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#list_order ImportListPlex#list_order}
   */
   readonly listOrder?: number;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#minimum_availability ImportListPlex#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#minimum_availability ImportListPlex#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#monitor ImportListPlex#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#monitor ImportListPlex#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#name ImportListPlex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#name ImportListPlex#name}
   */
   readonly name: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#quality_profile_id ImportListPlex#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#quality_profile_id ImportListPlex#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#root_folder_path ImportListPlex#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#root_folder_path ImportListPlex#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#search_on_add ImportListPlex#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#search_on_add ImportListPlex#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#tags ImportListPlex#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#tags ImportListPlex#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex radarr_import_list_plex}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex radarr_import_list_plex}
 */
 export class ImportListPlex extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class ImportListPlex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListPlex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListPlex to import
-  * @param importFromId The id of the existing ImportListPlex that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListPlex that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListPlex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class ImportListPlex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_plex radarr_import_list_plex} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_plex radarr_import_list_plex} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class ImportListPlex extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_plex',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

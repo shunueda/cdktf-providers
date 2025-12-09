@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AutoTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto Tag name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#name AutoTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#name AutoTag#name}
   */
   readonly name: string;
   /**
   * Remove tags automatically flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#remove_tags_automatically AutoTag#remove_tags_automatically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#remove_tags_automatically AutoTag#remove_tags_automatically}
   */
   readonly removeTagsAutomatically?: boolean | cdktf.IResolvable;
   /**
   * Specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#specifications AutoTag#specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#specifications AutoTag#specifications}
   */
   readonly specifications: AutoTagSpecifications[] | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#tags AutoTag#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#tags AutoTag#tags}
   */
   readonly tags?: number[];
 }
@@ -36,43 +36,43 @@ export interface AutoTagSpecifications {
   /**
   * Implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#implementation AutoTag#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#implementation AutoTag#implementation}
   */
   readonly implementation?: string;
   /**
   * Max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#max AutoTag#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#max AutoTag#max}
   */
   readonly max?: number;
   /**
   * Min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#min AutoTag#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#min AutoTag#min}
   */
   readonly min?: number;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#name AutoTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#name AutoTag#name}
   */
   readonly name?: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#negate AutoTag#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#negate AutoTag#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Required flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#required AutoTag#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#required AutoTag#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#value AutoTag#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#value AutoTag#value}
   */
   readonly value?: string;
 }
@@ -362,7 +362,7 @@ export class AutoTagSpecificationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag radarr_auto_tag}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag radarr_auto_tag}
 */
 export class AutoTag extends cdktf.TerraformResource {
 
@@ -378,7 +378,7 @@ export class AutoTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoTag to import
-  * @param importFromId The id of the existing AutoTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class AutoTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/auto_tag radarr_auto_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/auto_tag radarr_auto_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class AutoTag extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_auto_tag',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

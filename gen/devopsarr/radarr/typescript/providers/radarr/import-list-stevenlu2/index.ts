@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface ImportListStevenlu2Config extends cdktf.TerraformMetaArguments 
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#enable_auto ImportListStevenlu2#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#enable_auto ImportListStevenlu2#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#enabled ImportListStevenlu2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#enabled ImportListStevenlu2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#list_order ImportListStevenlu2#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#list_order ImportListStevenlu2#list_order}
   */
   readonly listOrder?: number;
   /**
   * Min score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#min_score ImportListStevenlu2#min_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#min_score ImportListStevenlu2#min_score}
   */
   readonly minScore: number;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#minimum_availability ImportListStevenlu2#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#minimum_availability ImportListStevenlu2#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#monitor ImportListStevenlu2#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#monitor ImportListStevenlu2#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#name ImportListStevenlu2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#name ImportListStevenlu2#name}
   */
   readonly name: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#quality_profile_id ImportListStevenlu2#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#quality_profile_id ImportListStevenlu2#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#root_folder_path ImportListStevenlu2#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#root_folder_path ImportListStevenlu2#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#search_on_add ImportListStevenlu2#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#search_on_add ImportListStevenlu2#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * Source.`0` Standard, `1` Imdb, `2` Metacritic, `3` RottenTomatoes,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#source ImportListStevenlu2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#source ImportListStevenlu2#source}
   */
   readonly source: number;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#tags ImportListStevenlu2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#tags ImportListStevenlu2#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2 radarr_import_list_stevenlu2}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2 radarr_import_list_stevenlu2}
 */
 export class ImportListStevenlu2 extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class ImportListStevenlu2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListStevenlu2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListStevenlu2 to import
-  * @param importFromId The id of the existing ImportListStevenlu2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListStevenlu2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListStevenlu2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class ImportListStevenlu2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_stevenlu2 radarr_import_list_stevenlu2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_stevenlu2 radarr_import_list_stevenlu2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class ImportListStevenlu2 extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_stevenlu2',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

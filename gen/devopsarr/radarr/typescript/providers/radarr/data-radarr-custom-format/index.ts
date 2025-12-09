@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRadarrCustomFormatConfig extends cdktf.TerraformMetaArgumen
   /**
   * Custom Format name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format#name DataRadarrCustomFormat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format#name DataRadarrCustomFormat#name}
   */
   readonly name: string;
 }
@@ -121,7 +121,7 @@ export class DataRadarrCustomFormatSpecificationsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format radarr_custom_format}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format radarr_custom_format}
 */
 export class DataRadarrCustomFormat extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataRadarrCustomFormat extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrCustomFormat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrCustomFormat to import
-  * @param importFromId The id of the existing DataRadarrCustomFormat that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrCustomFormat that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrCustomFormat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataRadarrCustomFormat extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format radarr_custom_format} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format radarr_custom_format} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataRadarrCustomFormat extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_custom_format',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

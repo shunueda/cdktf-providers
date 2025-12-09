@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Change how Radarr handles colon replacement. Valid values are: 'smart', 'delete', 'dash', 'spaceDash', and 'spaceDashSpace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#colon_replacement_format Naming#colon_replacement_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#colon_replacement_format Naming#colon_replacement_format}
   */
   readonly colonReplacementFormat: string;
   /**
   * Movie folder format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#movie_folder_format Naming#movie_folder_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#movie_folder_format Naming#movie_folder_format}
   */
   readonly movieFolderFormat: string;
   /**
   * Radarr will use the existing file name if false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#rename_movies Naming#rename_movies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#rename_movies Naming#rename_movies}
   */
   readonly renameMovies: boolean | cdktf.IResolvable;
   /**
   * Replace illegal characters. They will be removed if false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#replace_illegal_characters Naming#replace_illegal_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#replace_illegal_characters Naming#replace_illegal_characters}
   */
   readonly replaceIllegalCharacters: boolean | cdktf.IResolvable;
   /**
   * Standard movie formatss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#standard_movie_format Naming#standard_movie_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#standard_movie_format Naming#standard_movie_format}
   */
   readonly standardMovieFormat: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming radarr_naming}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming radarr_naming}
 */
 export class Naming extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Naming extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Naming resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Naming to import
-  * @param importFromId The id of the existing Naming that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Naming that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Naming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Naming extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/naming radarr_naming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/naming radarr_naming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Naming extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_naming',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

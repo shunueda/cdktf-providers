@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface ArtifactLifecycleWebhookConfig extends cdktf.TerraformMetaArgum
   /**
   * Description of webhook. Max length 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#description ArtifactLifecycleWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#description ArtifactLifecycleWebhook#description}
   */
   readonly description?: string;
   /**
   * Status of webhook. Default to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#enabled ArtifactLifecycleWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#enabled ArtifactLifecycleWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Events in Artifactory, Distribution, Release Bundle that function as the event trigger for the Webhook.
   * Allow values: deployed, deleted, moved, copied, cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#event_types ArtifactLifecycleWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#event_types ArtifactLifecycleWebhook#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Key of webhook. Must be between 2 and 200 characters. Cannot contain spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#key ArtifactLifecycleWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#key ArtifactLifecycleWebhook#key}
   */
   readonly key: string;
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#handler ArtifactLifecycleWebhook#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#handler ArtifactLifecycleWebhook#handler}
   */
   readonly handler?: ArtifactLifecycleWebhookHandler[] | cdktf.IResolvable;
 }
@@ -43,31 +43,31 @@ export interface ArtifactLifecycleWebhookHandler {
   /**
   * Custom HTTP headers you wish to use to invoke the Webhook, comprise of key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#custom_http_headers ArtifactLifecycleWebhook#custom_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#custom_http_headers ArtifactLifecycleWebhook#custom_http_headers}
   */
   readonly customHttpHeaders?: { [key: string]: string };
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#proxy ArtifactLifecycleWebhook#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#proxy ArtifactLifecycleWebhook#proxy}
   */
   readonly proxy?: string;
   /**
   * Secret authentication token that will be sent to the configured URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#secret ArtifactLifecycleWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#secret ArtifactLifecycleWebhook#secret}
   */
   readonly secret?: string;
   /**
   * Specifies the URL that the Webhook invokes. This will be the URL that Artifactory will send an HTTP POST request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#url ArtifactLifecycleWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#url ArtifactLifecycleWebhook#url}
   */
   readonly url: string;
   /**
   * When set to `true`, the secret will be used to sign the event payload, allowing the target to validate that the payload content has not been changed and will not be passed as part of the event. If left unset or set to `false`, the secret is passed through the `X-JFrog-Event-Auth` HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#use_secret_for_signing ArtifactLifecycleWebhook#use_secret_for_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#use_secret_for_signing ArtifactLifecycleWebhook#use_secret_for_signing}
   */
   readonly useSecretForSigning?: boolean | cdktf.IResolvable;
 }
@@ -296,7 +296,7 @@ export class ArtifactLifecycleWebhookHandlerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook artifactory_artifact_lifecycle_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook artifactory_artifact_lifecycle_webhook}
 */
 export class ArtifactLifecycleWebhook extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class ArtifactLifecycleWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArtifactLifecycleWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArtifactLifecycleWebhook to import
-  * @param importFromId The id of the existing ArtifactLifecycleWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArtifactLifecycleWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArtifactLifecycleWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class ArtifactLifecycleWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_lifecycle_webhook artifactory_artifact_lifecycle_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/artifact_lifecycle_webhook artifactory_artifact_lifecycle_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class ArtifactLifecycleWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_artifact_lifecycle_webhook',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_catalystcenter_discovery`
 
-Refer to the Terraform Registry for docs: [`data_catalystcenter_discovery`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/discovery).
+Refer to the Terraform Registry for docs: [`data_catalystcenter_discovery`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/discovery).

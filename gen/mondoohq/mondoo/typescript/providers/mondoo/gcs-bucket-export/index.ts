@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GcsBucketExportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Google Cloud Storage bucket to export data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#bucket_name GcsBucketExport#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#bucket_name GcsBucketExport#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Credentials for the Google Cloud Storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#credentials GcsBucketExport#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#credentials GcsBucketExport#credentials}
   */
   readonly credentials: GcsBucketExportCredentials;
   /**
   * Format of the export (JSONL or CSV), defaults to JSONL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#export_format GcsBucketExport#export_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#export_format GcsBucketExport#export_format}
   */
   readonly exportFormat?: string;
   /**
   * Name of the export integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#name GcsBucketExport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#name GcsBucketExport#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#space_id GcsBucketExport#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#space_id GcsBucketExport#space_id}
   */
   readonly spaceId?: string;
 }
@@ -42,7 +42,7 @@ export interface GcsBucketExportCredentials {
   /**
   * Private key for the service account in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#private_key GcsBucketExport#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#private_key GcsBucketExport#private_key}
   */
   readonly privateKey: string;
 }
@@ -133,7 +133,7 @@ export class GcsBucketExportCredentialsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export mondoo_gcs_bucket_export}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export mondoo_gcs_bucket_export}
 */
 export class GcsBucketExport extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class GcsBucketExport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcsBucketExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcsBucketExport to import
-  * @param importFromId The id of the existing GcsBucketExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcsBucketExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcsBucketExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class GcsBucketExport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/gcs_bucket_export mondoo_gcs_bucket_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/gcs_bucket_export mondoo_gcs_bucket_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class GcsBucketExport extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_gcs_bucket_export',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

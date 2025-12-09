@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MetadataRoksboxConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#enable MetadataRoksbox#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#enable MetadataRoksbox#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Movie images flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#movie_images MetadataRoksbox#movie_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#movie_images MetadataRoksbox#movie_images}
   */
   readonly movieImages: boolean | cdktf.IResolvable;
   /**
   * Movie metadata flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#movie_metadata MetadataRoksbox#movie_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#movie_metadata MetadataRoksbox#movie_metadata}
   */
   readonly movieMetadata: boolean | cdktf.IResolvable;
   /**
   * Metadata name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#name MetadataRoksbox#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#name MetadataRoksbox#name}
   */
   readonly name: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#tags MetadataRoksbox#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#tags MetadataRoksbox#tags}
   */
   readonly tags?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox radarr_metadata_roksbox}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox radarr_metadata_roksbox}
 */
 export class MetadataRoksbox extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MetadataRoksbox extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetadataRoksbox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetadataRoksbox to import
-  * @param importFromId The id of the existing MetadataRoksbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetadataRoksbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetadataRoksbox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MetadataRoksbox extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata_roksbox radarr_metadata_roksbox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata_roksbox radarr_metadata_roksbox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MetadataRoksbox extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_metadata_roksbox',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

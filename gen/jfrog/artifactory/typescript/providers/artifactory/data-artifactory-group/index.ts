@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DataArtifactoryGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#admin_privileges DataArtifactoryGroup#admin_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#admin_privileges DataArtifactoryGroup#admin_privileges}
   */
   readonly adminPrivileges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#auto_join DataArtifactoryGroup#auto_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#auto_join DataArtifactoryGroup#auto_join}
   */
   readonly autoJoin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#description DataArtifactoryGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#description DataArtifactoryGroup#description}
   */
   readonly description?: string;
   /**
   * New external group ID used to configure the corresponding group in Azure AD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#external_id DataArtifactoryGroup#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#external_id DataArtifactoryGroup#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#id DataArtifactoryGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#id DataArtifactoryGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,47 +35,47 @@ export interface DataArtifactoryGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * Setting includeUsers to true will return the group with its associated user list attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#include_users DataArtifactoryGroup#include_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#include_users DataArtifactoryGroup#include_users}
   */
   readonly includeUsers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#name DataArtifactoryGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#name DataArtifactoryGroup#name}
   */
   readonly name: string;
   /**
   * When this override is set,  User in the group can set Xray security and compliance policies. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#policy_manager DataArtifactoryGroup#policy_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#policy_manager DataArtifactoryGroup#policy_manager}
   */
   readonly policyManager?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#realm DataArtifactoryGroup#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#realm DataArtifactoryGroup#realm}
   */
   readonly realm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#realm_attributes DataArtifactoryGroup#realm_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#realm_attributes DataArtifactoryGroup#realm_attributes}
   */
   readonly realmAttributes?: string;
   /**
   * When this override is set,  User in the group can manage Xray Reports. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#reports_manager DataArtifactoryGroup#reports_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#reports_manager DataArtifactoryGroup#reports_manager}
   */
   readonly reportsManager?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#users_names DataArtifactoryGroup#users_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#users_names DataArtifactoryGroup#users_names}
   */
   readonly usersNames?: string[];
   /**
   * When this override is set,  User in the group can manage Xray Watches on any resource type. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#watch_manager DataArtifactoryGroup#watch_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#watch_manager DataArtifactoryGroup#watch_manager}
   */
   readonly watchManager?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group artifactory_group}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group artifactory_group}
 */
 export class DataArtifactoryGroup extends cdktf.TerraformDataSource {
 
@@ -91,7 +91,7 @@ export class DataArtifactoryGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataArtifactoryGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryGroup to import
-  * @param importFromId The id of the existing DataArtifactoryGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class DataArtifactoryGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/group artifactory_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/group artifactory_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class DataArtifactoryGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'artifactory_group',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

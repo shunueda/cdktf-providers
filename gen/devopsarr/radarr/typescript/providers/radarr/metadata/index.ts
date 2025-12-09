@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface MetadataConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add collection name flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#add_collection_name Metadata#add_collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#add_collection_name Metadata#add_collection_name}
   */
   readonly addCollectionName?: boolean | cdktf.IResolvable;
   /**
   * Metadata configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#config_contract Metadata#config_contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#config_contract Metadata#config_contract}
   */
   readonly configContract: string;
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#enable Metadata#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#enable Metadata#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Metadata implementation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#implementation Metadata#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#implementation Metadata#implementation}
   */
   readonly implementation: string;
   /**
   * Movie images flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#movie_images Metadata#movie_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#movie_images Metadata#movie_images}
   */
   readonly movieImages?: boolean | cdktf.IResolvable;
   /**
   * Movie metadata flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#movie_metadata Metadata#movie_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#movie_metadata Metadata#movie_metadata}
   */
   readonly movieMetadata?: boolean | cdktf.IResolvable;
   /**
   * Movie metadata language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#movie_metadata_language Metadata#movie_metadata_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#movie_metadata_language Metadata#movie_metadata_language}
   */
   readonly movieMetadataLanguage?: number;
   /**
   * Movie metadata URL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#movie_metadata_url Metadata#movie_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#movie_metadata_url Metadata#movie_metadata_url}
   */
   readonly movieMetadataUrl?: boolean | cdktf.IResolvable;
   /**
   * Metadata name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#name Metadata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#name Metadata#name}
   */
   readonly name: string;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#tags Metadata#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#tags Metadata#tags}
   */
   readonly tags?: number[];
   /**
   * Use movie nfo flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#use_movie_nfo Metadata#use_movie_nfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#use_movie_nfo Metadata#use_movie_nfo}
   */
   readonly useMovieNfo?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata radarr_metadata}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata radarr_metadata}
 */
 export class Metadata extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class Metadata extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Metadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Metadata to import
-  * @param importFromId The id of the existing Metadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Metadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Metadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class Metadata extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/metadata radarr_metadata} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/metadata radarr_metadata} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class Metadata extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_metadata',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

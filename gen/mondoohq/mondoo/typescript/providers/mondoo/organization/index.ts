@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Company name of the organization.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization#company Organization#company}
+  */
+  readonly company?: string;
+  /**
   * Description of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization#description Organization#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization#description Organization#description}
   */
   readonly description?: string;
   /**
   * ID of the org. Must be globally unique. If the provider has a org configured and this field is empty, the provider org is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization#id Organization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization#id Organization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +31,13 @@ export interface OrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization#name Organization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization#name Organization#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization mondoo_organization}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization mondoo_organization}
 */
 export class Organization extends cdktf.TerraformResource {
 
@@ -47,7 +53,7 @@ export class Organization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Organization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Organization to import
-  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Organization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +65,7 @@ export class Organization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/organization mondoo_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/organization mondoo_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +76,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_organization',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +87,7 @@ export class Organization extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._company = config.company;
     this._description = config.description;
     this._id = config.id;
     this._name = config.name;
@@ -89,6 +96,22 @@ export class Organization extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // company - computed: false, optional: true, required: false
+  private _company?: string; 
+  public get company() {
+    return this.getStringAttribute('company');
+  }
+  public set company(value: string) {
+    this._company = value;
+  }
+  public resetCompany() {
+    this._company = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get companyInput() {
+    return this._company;
+  }
 
   // description - computed: false, optional: true, required: false
   private _description?: string; 
@@ -146,6 +169,7 @@ export class Organization extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      company: cdktf.stringToTerraform(this._company),
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
@@ -154,6 +178,12 @@ export class Organization extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      company: {
+        value: cdktf.stringToHclTerraform(this._company),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktf.stringToHclTerraform(this._description),
         isBlock: false,

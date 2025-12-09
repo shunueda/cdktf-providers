@@ -1,3 +1,3 @@
 # `artifactory_general_security`
 
-Refer to the Terraform Registry for docs: [`artifactory_general_security`](https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/general_security).
+Refer to the Terraform Registry for docs: [`artifactory_general_security`](https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/general_security).

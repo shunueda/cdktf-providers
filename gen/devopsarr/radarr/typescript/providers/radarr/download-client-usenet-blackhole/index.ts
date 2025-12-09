@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DownloadClientUsenetBlackholeConfig extends cdktf.TerraformMeta
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#enable DownloadClientUsenetBlackhole#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#enable DownloadClientUsenetBlackhole#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#name DownloadClientUsenetBlackhole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#name DownloadClientUsenetBlackhole#name}
   */
   readonly name: string;
   /**
   * Usenet folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#nzb_folder DownloadClientUsenetBlackhole#nzb_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#nzb_folder DownloadClientUsenetBlackhole#nzb_folder}
   */
   readonly nzbFolder: string;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#priority DownloadClientUsenetBlackhole#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#priority DownloadClientUsenetBlackhole#priority}
   */
   readonly priority?: number;
   /**
   * Remove completed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#remove_completed_downloads DownloadClientUsenetBlackhole#remove_completed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#remove_completed_downloads DownloadClientUsenetBlackhole#remove_completed_downloads}
   */
   readonly removeCompletedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Remove failed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#remove_failed_downloads DownloadClientUsenetBlackhole#remove_failed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#remove_failed_downloads DownloadClientUsenetBlackhole#remove_failed_downloads}
   */
   readonly removeFailedDownloads?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#tags DownloadClientUsenetBlackhole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#tags DownloadClientUsenetBlackhole#tags}
   */
   readonly tags?: number[];
   /**
   * Watch folder flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#watch_folder DownloadClientUsenetBlackhole#watch_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#watch_folder DownloadClientUsenetBlackhole#watch_folder}
   */
   readonly watchFolder: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole radarr_download_client_usenet_blackhole}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole radarr_download_client_usenet_blackhole}
 */
 export class DownloadClientUsenetBlackhole extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DownloadClientUsenetBlackhole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadClientUsenetBlackhole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientUsenetBlackhole to import
-  * @param importFromId The id of the existing DownloadClientUsenetBlackhole that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientUsenetBlackhole that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientUsenetBlackhole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DownloadClientUsenetBlackhole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_usenet_blackhole radarr_download_client_usenet_blackhole} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_usenet_blackhole radarr_download_client_usenet_blackhole} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DownloadClientUsenetBlackhole extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_usenet_blackhole',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

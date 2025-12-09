@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/languages
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/languages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -95,7 +95,7 @@ export class DataRadarrLanguagesLanguagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/languages radarr_languages}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/languages radarr_languages}
 */
 export class DataRadarrLanguages extends cdktf.TerraformDataSource {
 
@@ -111,7 +111,7 @@ export class DataRadarrLanguages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrLanguages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrLanguages to import
-  * @param importFromId The id of the existing DataRadarrLanguages that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/languages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrLanguages that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/languages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrLanguages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class DataRadarrLanguages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/languages radarr_languages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/languages radarr_languages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class DataRadarrLanguages extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_languages',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

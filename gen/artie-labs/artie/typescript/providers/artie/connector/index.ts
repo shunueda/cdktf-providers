@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,103 @@ export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * This should be filled out if the connector type is `bigquery`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#bigquery_config Connector#bigquery_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#bigquery_config Connector#bigquery_config}
   */
   readonly bigqueryConfig?: ConnectorBigqueryConfig;
   /**
   * The name of the data plane this connector is in (if applicable; this does not apply to cloud-based connectors like BigQuery and Snowflake). If this is not set, we will use the default data plane for your account. To see the full list of supported data planes on your account, click on 'New pipeline' in our UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#data_plane_name Connector#data_plane_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#data_plane_name Connector#data_plane_name}
   */
   readonly dataPlaneName?: string;
   /**
   * This should be filled out if the connector type is `databricks`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#databricks_config Connector#databricks_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#databricks_config Connector#databricks_config}
   */
   readonly databricksConfig?: ConnectorDatabricksConfig;
   /**
   * This should be filled out if the connector type is `dynamodb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#dynamodb_config Connector#dynamodb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#dynamodb_config Connector#dynamodb_config}
   */
   readonly dynamodbConfig?: ConnectorDynamodbConfig;
   /**
   * This should be filled out if the connector type is `gcs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#gcs_config Connector#gcs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#gcs_config Connector#gcs_config}
   */
   readonly gcsConfig?: ConnectorGcsConfig;
   /**
+  * This should be filled out if the connector type is `iceberg`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#iceberg_config Connector#iceberg_config}
+  */
+  readonly icebergConfig?: ConnectorIcebergConfig;
+  /**
   * This should be filled out if the connector type is `mongodb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#mongodb_config Connector#mongodb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#mongodb_config Connector#mongodb_config}
   */
   readonly mongodbConfig?: ConnectorMongodbConfig;
   /**
   * This should be filled out if the connector type is `mssql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#mssql_config Connector#mssql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#mssql_config Connector#mssql_config}
   */
   readonly mssqlConfig?: ConnectorMssqlConfig;
   /**
   * This should be filled out if the connector type is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#mysql_config Connector#mysql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#mysql_config Connector#mysql_config}
   */
   readonly mysqlConfig?: ConnectorMysqlConfig;
   /**
   * An optional human-readable label for this connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * This should be filled out if the connector type is `oracle`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#oracle_config Connector#oracle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#oracle_config Connector#oracle_config}
   */
   readonly oracleConfig?: ConnectorOracleConfig;
   /**
   * This should be filled out if the connector type is `postgresql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#postgresql_config Connector#postgresql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#postgresql_config Connector#postgresql_config}
   */
   readonly postgresqlConfig?: ConnectorPostgresqlConfig;
   /**
   * This should be filled out if the connector type is `redshift`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#redshift_config Connector#redshift_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#redshift_config Connector#redshift_config}
   */
   readonly redshiftConfig?: ConnectorRedshiftConfig;
   /**
   * This should be filled out if the connector type is `s3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#s3_config Connector#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#s3_config Connector#s3_config}
   */
   readonly s3Config?: ConnectorS3Config;
   /**
   * This should be filled out if the connector type is `snowflake`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#snowflake_config Connector#snowflake_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#snowflake_config Connector#snowflake_config}
   */
   readonly snowflakeConfig?: ConnectorSnowflakeConfig;
   /**
   * This can point to an `artie_ssh_tunnel` resource if you need us to use an SSH tunnel to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#ssh_tunnel_uuid Connector#ssh_tunnel_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#ssh_tunnel_uuid Connector#ssh_tunnel_uuid}
   */
   readonly sshTunnelUuid?: string;
   /**
-  * The type of connector. This must be one of the following: `api`, `bigquery`, `databricks`, `dynamodb`, `gcs`, `mongodb`, `mssql`, `mysql`, `oracle`, `postgresql`, `redshift`, `s3`, `snowflake`.
+  * The type of connector. This must be one of the following: `api`, `bigquery`, `databricks`, `dynamodb`, `gcs`, `iceberg`, `mongodb`, `mssql`, `mysql`, `oracle`, `postgresql`, `redshift`, `s3`, `snowflake`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#type Connector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#type Connector#type}
   */
   readonly type: string;
 }
@@ -108,19 +114,19 @@ export interface ConnectorBigqueryConfig {
   /**
   * The credentials data for the Google Cloud service account that we should use to connect to BigQuery. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#credentials_data Connector#credentials_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#credentials_data Connector#credentials_data}
   */
   readonly credentialsData: string;
   /**
   * The location of the BigQuery dataset. This must be either `US` or `EU`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#location Connector#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#location Connector#location}
   */
   readonly location: string;
   /**
   * The ID of the Google Cloud project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#project_id Connector#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#project_id Connector#project_id}
   */
   readonly projectId: string;
 }
@@ -265,25 +271,25 @@ export interface ConnectorDatabricksConfig {
   /**
   * The hostname of the Databricks cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The HTTP path of the Databricks cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#http_path Connector#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#http_path Connector#http_path}
   */
   readonly httpPath: string;
   /**
   * The personal access token for the service account we should use to connect to Databricks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#personal_access_token Connector#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#personal_access_token Connector#personal_access_token}
   */
   readonly personalAccessToken: string;
   /**
   * The volume of the Databricks cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#volume Connector#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#volume Connector#volume}
   */
   readonly volume: string;
 }
@@ -454,19 +460,19 @@ export interface ConnectorDynamodbConfig {
   /**
   * The AWS Access Key ID for the service account we should use to connect to DynamoDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#access_key_id Connector#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#access_key_id Connector#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS Secret Access Key for the service account we should use to connect to DynamoDB. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#secret_access_key Connector#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#secret_access_key Connector#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * The ARN (Amazon Resource Name) of the DynamoDB Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#stream_arn Connector#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#stream_arn Connector#stream_arn}
   */
   readonly streamArn: string;
 }
@@ -611,13 +617,13 @@ export interface ConnectorGcsConfig {
   /**
   * The credentials data for the Google Cloud service account that we should use to connect to GCS. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#credentials_data Connector#credentials_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#credentials_data Connector#credentials_data}
   */
   readonly credentialsData: string;
   /**
   * The ID of the Google Cloud project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#project_id Connector#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#project_id Connector#project_id}
   */
   readonly projectId: string;
 }
@@ -732,23 +738,212 @@ export class ConnectorGcsConfigOutputReference extends cdktf.ComplexObject {
     return this._projectId;
   }
 }
+export interface ConnectorIcebergConfig {
+  /**
+  * The AWS Access Key ID for the service account we should use to connect to S3.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#access_key_id Connector#access_key_id}
+  */
+  readonly accessKeyId: string;
+  /**
+  * The ARN (Amazon Resource Name) of the S3 bucket for Iceberg tables.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#bucket_arn Connector#bucket_arn}
+  */
+  readonly bucketArn: string;
+  /**
+  * The Iceberg provider type. Currently, the only supported value is `s3tables`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#provider Connector#provider}
+  */
+  readonly provider: string;
+  /**
+  * The AWS Secret Access Key for the service account we should use to connect to S3. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#secret_access_key Connector#secret_access_key}
+  */
+  readonly secretAccessKey: string;
+}
+
+export function connectorIcebergConfigToTerraform(struct?: ConnectorIcebergConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    access_key_id: cdktf.stringToTerraform(struct!.accessKeyId),
+    bucket_arn: cdktf.stringToTerraform(struct!.bucketArn),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_access_key: cdktf.stringToTerraform(struct!.secretAccessKey),
+  }
+}
+
+
+export function connectorIcebergConfigToHclTerraform(struct?: ConnectorIcebergConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    access_key_id: {
+      value: cdktf.stringToHclTerraform(struct!.accessKeyId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    bucket_arn: {
+      value: cdktf.stringToHclTerraform(struct!.bucketArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_access_key: {
+      value: cdktf.stringToHclTerraform(struct!.secretAccessKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ConnectorIcebergConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ConnectorIcebergConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accessKeyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accessKeyId = this._accessKeyId;
+    }
+    if (this._bucketArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bucketArn = this._bucketArn;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretAccessKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretAccessKey = this._secretAccessKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConnectorIcebergConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._accessKeyId = undefined;
+      this._bucketArn = undefined;
+      this._provider = undefined;
+      this._secretAccessKey = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._accessKeyId = value.accessKeyId;
+      this._bucketArn = value.bucketArn;
+      this._provider = value.provider;
+      this._secretAccessKey = value.secretAccessKey;
+    }
+  }
+
+  // access_key_id - computed: false, optional: false, required: true
+  private _accessKeyId?: string; 
+  public get accessKeyId() {
+    return this.getStringAttribute('access_key_id');
+  }
+  public set accessKeyId(value: string) {
+    this._accessKeyId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessKeyIdInput() {
+    return this._accessKeyId;
+  }
+
+  // bucket_arn - computed: false, optional: false, required: true
+  private _bucketArn?: string; 
+  public get bucketArn() {
+    return this.getStringAttribute('bucket_arn');
+  }
+  public set bucketArn(value: string) {
+    this._bucketArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketArnInput() {
+    return this._bucketArn;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_access_key - computed: false, optional: false, required: true
+  private _secretAccessKey?: string; 
+  public get secretAccessKey() {
+    return this.getStringAttribute('secret_access_key');
+  }
+  public set secretAccessKey(value: string) {
+    this._secretAccessKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretAccessKeyInput() {
+    return this._secretAccessKey;
+  }
+}
 export interface ConnectorMongodbConfig {
   /**
   * The connection string for the MongoDB server. This can be either SRV or standard format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The password of the service account we will use to connect to the MongoDB database. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The username of the service account we will use to connect to the MongoDB database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -893,31 +1088,31 @@ export interface ConnectorMssqlConfig {
   /**
   * The hostname of the Microsoft SQL Server. This must point to the primary host, not a read replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The password of the service account. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The default port for Microsoft SQL Server is 1433.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#port Connector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#port Connector#port}
   */
   readonly port: number;
   /**
   * The hostname of the Microsoft SQL Server that we should use to snapshot the database. This can be a read replica and will only be used if this connector is being used as a source. If not provided, we will use the `host` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#snapshot_host Connector#snapshot_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#snapshot_host Connector#snapshot_host}
   */
   readonly snapshotHost?: string;
   /**
   * The username of the service account we will use to connect to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -1117,31 +1312,31 @@ export interface ConnectorMysqlConfig {
   /**
   * The hostname of the MySQL database. This must point to the primary host, not a read replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The password of the service account. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The default port for MySQL is 3306.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#port Connector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#port Connector#port}
   */
   readonly port: number;
   /**
   * The hostname of the MySQL database that we should use to snapshot the database. This can be a read replica and will only be used if this connector is being used as a source. If not provided, we will use the `host` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#snapshot_host Connector#snapshot_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#snapshot_host Connector#snapshot_host}
   */
   readonly snapshotHost?: string;
   /**
   * The username of the service account we will use to connect to the MySQL database. This service account needs enough permissions to read from the server binlogs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -1341,31 +1536,31 @@ export interface ConnectorOracleConfig {
   /**
   * The hostname of the Oracle database. This must point to the primary host, not a read replica. This database must also have `ARCHIVELOG` mode and supplemental logging enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The password of the service account. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The default port for Oracle is 1521.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#port Connector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#port Connector#port}
   */
   readonly port: number;
   /**
   * The hostname of the Oracle database that we should use to snapshot the database. This can be a read replica and will only be used if this connector is being used as a source. If not provided, we will use the `host` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#snapshot_host Connector#snapshot_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#snapshot_host Connector#snapshot_host}
   */
   readonly snapshotHost?: string;
   /**
   * The username of the service account we will use to connect to the Oracle database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -1565,31 +1760,31 @@ export interface ConnectorPostgresqlConfig {
   /**
   * The hostname of the PostgreSQL database. This can point to a read replica if you are using PostgreSQL 16 or higher, not on Amazon Aurora, and `hot_standby_feedback` is enabled; otherwise it must point to the primary host. This database must also have its `WAL_LEVEL` set to `logical`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#host Connector#host}
   */
   readonly host: string;
   /**
   * The password of the service account. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The default port for PostgreSQL is 5432.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#port Connector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#port Connector#port}
   */
   readonly port: number;
   /**
   * The hostname of the PostgreSQL database that we should use to snapshot the database. This can be a read replica and will only be used if this connector is being used as a source. If not provided, we will use the `host` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#snapshot_host Connector#snapshot_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#snapshot_host Connector#snapshot_host}
   */
   readonly snapshotHost?: string;
   /**
   * The username of the service account we will use to connect to the PostgreSQL database. This service account needs enough permissions to create and read from the replication slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -1789,19 +1984,19 @@ export interface ConnectorRedshiftConfig {
   /**
   * The endpoint URL of your Redshift cluster. This should include both the host and port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#endpoint Connector#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#endpoint Connector#endpoint}
   */
   readonly endpoint: string;
   /**
   * The password for the service account we should use to connect to Redshift. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password: string;
   /**
   * The username of the service account we should use to connect to Redshift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
 }
@@ -1946,19 +2141,19 @@ export interface ConnectorS3Config {
   /**
   * The AWS Access Key ID for the service account we should use to connect to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#access_key_id Connector#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#access_key_id Connector#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS region where we should store your data in S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#region Connector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#region Connector#region}
   */
   readonly region: string;
   /**
   * The AWS Secret Access Key for the service account we should use to connect to S3. We recommend storing this in a secret manager and referencing it via a *sensitive* Terraform variable, instead of putting it in plaintext in your Terraform config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#secret_access_key Connector#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#secret_access_key Connector#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -2103,37 +2298,37 @@ export interface ConnectorSnowflakeConfig {
   /**
   * The [account identifier](https://docs.snowflake.com/user-guide/admin-account-identifier) of your Snowflake account. We recommend using this instead of `account_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#account_identifier Connector#account_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#account_identifier Connector#account_identifier}
   */
   readonly accountIdentifier?: string;
   /**
   * (Legacy) The [URL](https://docs.snowflake.com/user-guide/admin-account-identifier) of your Snowflake account. We recommend using `account_identifier` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#account_url Connector#account_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#account_url Connector#account_url}
   */
   readonly accountUrl?: string;
   /**
   * (Legacy) The password for the service account we should use to connect to Snowflake. We recommend using `private_key` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#password Connector#password}
   */
   readonly password?: string;
   /**
   * The private key for the service account we should use to connect to Snowflake. We recommend using this instead of `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#private_key Connector#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#private_key Connector#private_key}
   */
   readonly privateKey?: string;
   /**
   * The username of the service account we should use to connect to Snowflake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#username Connector#username}
   */
   readonly username: string;
   /**
   * The name of your Snowflake virtual data warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#virtual_dwh Connector#virtual_dwh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#virtual_dwh Connector#virtual_dwh}
   */
   readonly virtualDwh: string;
 }
@@ -2366,7 +2561,7 @@ export class ConnectorSnowflakeConfigOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector artie_connector}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector artie_connector}
 */
 export class Connector extends cdktf.TerraformResource {
 
@@ -2382,7 +2577,7 @@ export class Connector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connector to import
-  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2394,7 +2589,7 @@ export class Connector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/connector artie_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/connector artie_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2405,8 +2600,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'artie_connector',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.5',
+        providerVersionConstraint: '2.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2421,6 +2616,7 @@ export class Connector extends cdktf.TerraformResource {
     this._databricksConfig.internalValue = config.databricksConfig;
     this._dynamodbConfig.internalValue = config.dynamodbConfig;
     this._gcsConfig.internalValue = config.gcsConfig;
+    this._icebergConfig.internalValue = config.icebergConfig;
     this._mongodbConfig.internalValue = config.mongodbConfig;
     this._mssqlConfig.internalValue = config.mssqlConfig;
     this._mysqlConfig.internalValue = config.mysqlConfig;
@@ -2516,6 +2712,22 @@ export class Connector extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get gcsConfigInput() {
     return this._gcsConfig.internalValue;
+  }
+
+  // iceberg_config - computed: false, optional: true, required: false
+  private _icebergConfig = new ConnectorIcebergConfigOutputReference(this, "iceberg_config");
+  public get icebergConfig() {
+    return this._icebergConfig;
+  }
+  public putIcebergConfig(value: ConnectorIcebergConfig) {
+    this._icebergConfig.internalValue = value;
+  }
+  public resetIcebergConfig() {
+    this._icebergConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icebergConfigInput() {
+    return this._icebergConfig.internalValue;
   }
 
   // mongodb_config - computed: false, optional: true, required: false
@@ -2707,6 +2919,7 @@ export class Connector extends cdktf.TerraformResource {
       databricks_config: connectorDatabricksConfigToTerraform(this._databricksConfig.internalValue),
       dynamodb_config: connectorDynamodbConfigToTerraform(this._dynamodbConfig.internalValue),
       gcs_config: connectorGcsConfigToTerraform(this._gcsConfig.internalValue),
+      iceberg_config: connectorIcebergConfigToTerraform(this._icebergConfig.internalValue),
       mongodb_config: connectorMongodbConfigToTerraform(this._mongodbConfig.internalValue),
       mssql_config: connectorMssqlConfigToTerraform(this._mssqlConfig.internalValue),
       mysql_config: connectorMysqlConfigToTerraform(this._mysqlConfig.internalValue),
@@ -2752,6 +2965,12 @@ export class Connector extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "ConnectorGcsConfig",
+      },
+      iceberg_config: {
+        value: connectorIcebergConfigToHclTerraform(this._icebergConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ConnectorIcebergConfig",
       },
       mongodb_config: {
         value: connectorMongodbConfigToHclTerraform(this._mongodbConfig.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataRadarrAutoTagConditionRootFolderConfig extends cdktf.Terraf
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder#name DataRadarrAutoTagConditionRootFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder#name DataRadarrAutoTagConditionRootFolder#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder#negate DataRadarrAutoTagConditionRootFolder#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder#negate DataRadarrAutoTagConditionRootFolder#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder#required DataRadarrAutoTagConditionRootFolder#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder#required DataRadarrAutoTagConditionRootFolder#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder#value DataRadarrAutoTagConditionRootFolder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder#value DataRadarrAutoTagConditionRootFolder#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder radarr_auto_tag_condition_root_folder}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder radarr_auto_tag_condition_root_folder}
 */
 export class DataRadarrAutoTagConditionRootFolder extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataRadarrAutoTagConditionRootFolder extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataRadarrAutoTagConditionRootFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrAutoTagConditionRootFolder to import
-  * @param importFromId The id of the existing DataRadarrAutoTagConditionRootFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrAutoTagConditionRootFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrAutoTagConditionRootFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataRadarrAutoTagConditionRootFolder extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_root_folder radarr_auto_tag_condition_root_folder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_root_folder radarr_auto_tag_condition_root_folder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataRadarrAutoTagConditionRootFolder extends cdktf.TerraformDataSou
       terraformResourceType: 'radarr_auto_tag_condition_root_folder',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ReleaseBundleV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Key-pair name to use for signature creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#keypair_name ReleaseBundleV2#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#keypair_name ReleaseBundleV2#keypair_name}
   */
   readonly keypairName: string;
   /**
   * Name of Release Bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
   */
   readonly name: string;
   /**
   * Project key the Release Bundle belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#project_key ReleaseBundleV2#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#project_key ReleaseBundleV2#project_key}
   */
   readonly projectKey?: string;
   /**
   * Determines whether to skip the resolution of the Docker manifest, which adds the image layers to the Release Bundle. The default value is `false` (the manifest is resolved and image layers are included).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#skip_docker_manifest_resolution ReleaseBundleV2#skip_docker_manifest_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#skip_docker_manifest_resolution ReleaseBundleV2#skip_docker_manifest_resolution}
   */
   readonly skipDockerManifestResolution?: boolean | cdktf.IResolvable;
   /**
   * Defines specific repositories to include in the promotion. If this property is left undefined, all repositories (except those specifically excluded) are included in the promotion. Important: If one or more repositories are specifically included, all other repositories are excluded (regardless of what is defined in `excluded_repository_keys`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#source ReleaseBundleV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#source ReleaseBundleV2#source}
   */
   readonly source: ReleaseBundleV2Source;
   /**
   * Source type. Valid values: `aql`, `artifacts`, `builds`, `release_bundles`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#source_type ReleaseBundleV2#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#source_type ReleaseBundleV2#source_type}
   */
   readonly sourceType: string;
   /**
   * Version to promote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#version ReleaseBundleV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#version ReleaseBundleV2#version}
   */
   readonly version: string;
 }
@@ -54,13 +54,13 @@ export interface ReleaseBundleV2SourceArtifacts {
   /**
   * The path for the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#path ReleaseBundleV2#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#path ReleaseBundleV2#path}
   */
   readonly path: string;
   /**
   * The SHA256 for the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#sha256 ReleaseBundleV2#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#sha256 ReleaseBundleV2#sha256}
   */
   readonly sha256?: string;
 }
@@ -206,31 +206,31 @@ export interface ReleaseBundleV2SourceBuilds {
   * 
   * ~>Dependencies must be located in local or Federated repositories to be included in the Release Bundle. Dependencies located in remote repositories are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#include_dependencies ReleaseBundleV2#include_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#include_dependencies ReleaseBundleV2#include_dependencies}
   */
   readonly includeDependencies?: boolean | cdktf.IResolvable;
   /**
   * Name of the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
   */
   readonly name: string;
   /**
   * Number (run) of the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#number ReleaseBundleV2#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#number ReleaseBundleV2#number}
   */
   readonly number: string;
   /**
   * The repository key of the build. If omitted, the system uses the default built-in repository, `artifactory-build-info`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#repository ReleaseBundleV2#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#repository ReleaseBundleV2#repository}
   */
   readonly repository?: string;
   /**
   * Timestamp when the build was created. If omitted, the system uses the latest build run, as identified by the `name` and `number` combination. The timestamp is provided according to the ISO 8601 standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#started ReleaseBundleV2#started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#started ReleaseBundleV2#started}
   */
   readonly started?: string;
 }
@@ -458,25 +458,25 @@ export interface ReleaseBundleV2SourceReleaseBundles {
   /**
   * The name of the release bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#name ReleaseBundleV2#name}
   */
   readonly name: string;
   /**
   * Project key of the release bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#project_key ReleaseBundleV2#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#project_key ReleaseBundleV2#project_key}
   */
   readonly projectKey?: string;
   /**
   * The key of the release bundle repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#repository_key ReleaseBundleV2#repository_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#repository_key ReleaseBundleV2#repository_key}
   */
   readonly repositoryKey?: string;
   /**
   * The version of the release bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#version ReleaseBundleV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#version ReleaseBundleV2#version}
   */
   readonly version: string;
 }
@@ -675,25 +675,25 @@ export interface ReleaseBundleV2Source {
   /**
   * The contents of the AQL query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#aql ReleaseBundleV2#aql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#aql ReleaseBundleV2#aql}
   */
   readonly aql?: string;
   /**
   * Source type to create a Release Bundle v2 version by collecting source artifacts from a list of path/checksum pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#artifacts ReleaseBundleV2#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#artifacts ReleaseBundleV2#artifacts}
   */
   readonly artifacts?: ReleaseBundleV2SourceArtifacts[] | cdktf.IResolvable;
   /**
   * Source type to create a Release Bundle v2 version by collecting source artifacts from one or multiple builds (also known as build-info).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#builds ReleaseBundleV2#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#builds ReleaseBundleV2#builds}
   */
   readonly builds?: ReleaseBundleV2SourceBuilds[] | cdktf.IResolvable;
   /**
   * Source type to create a Release Bundle v2 version by collecting source artifacts from existing Release Bundle versions. Must match `source_type` attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#release_bundles ReleaseBundleV2#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#release_bundles ReleaseBundleV2#release_bundles}
   */
   readonly releaseBundles?: ReleaseBundleV2SourceReleaseBundles[] | cdktf.IResolvable;
 }
@@ -874,7 +874,7 @@ export class ReleaseBundleV2SourceOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2 artifactory_release_bundle_v2}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2 artifactory_release_bundle_v2}
 */
 export class ReleaseBundleV2 extends cdktf.TerraformResource {
 
@@ -890,7 +890,7 @@ export class ReleaseBundleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReleaseBundleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReleaseBundleV2 to import
-  * @param importFromId The id of the existing ReleaseBundleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReleaseBundleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReleaseBundleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -902,7 +902,7 @@ export class ReleaseBundleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2 artifactory_release_bundle_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2 artifactory_release_bundle_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -913,8 +913,8 @@ export class ReleaseBundleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_release_bundle_v2',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

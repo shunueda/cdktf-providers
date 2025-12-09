@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataRadarrCustomFormatConditionQualityModifierConfig extends cd
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier#name DataRadarrCustomFormatConditionQualityModifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier#name DataRadarrCustomFormatConditionQualityModifier#name}
   */
   readonly name: string;
   /**
   * Negate modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier#negate DataRadarrCustomFormatConditionQualityModifier#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier#negate DataRadarrCustomFormatConditionQualityModifier#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier#required DataRadarrCustomFormatConditionQualityModifier#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier#required DataRadarrCustomFormatConditionQualityModifier#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Quality modifier ID. `0` NONE, `1` REGIONAL, `2` SCREENER, `3` RAWHD, `4` BRDISK, `5` REMUX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier#value DataRadarrCustomFormatConditionQualityModifier#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier#value DataRadarrCustomFormatConditionQualityModifier#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier radarr_custom_format_condition_quality_modifier}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier radarr_custom_format_condition_quality_modifier}
 */
 export class DataRadarrCustomFormatConditionQualityModifier extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataRadarrCustomFormatConditionQualityModifier extends cdktf.Terraf
   * Generates CDKTF code for importing a DataRadarrCustomFormatConditionQualityModifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrCustomFormatConditionQualityModifier to import
-  * @param importFromId The id of the existing DataRadarrCustomFormatConditionQualityModifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrCustomFormatConditionQualityModifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrCustomFormatConditionQualityModifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataRadarrCustomFormatConditionQualityModifier extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/custom_format_condition_quality_modifier radarr_custom_format_condition_quality_modifier} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/custom_format_condition_quality_modifier radarr_custom_format_condition_quality_modifier} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataRadarrCustomFormatConditionQualityModifier extends cdktf.Terraf
       terraformResourceType: 'radarr_custom_format_condition_quality_modifier',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

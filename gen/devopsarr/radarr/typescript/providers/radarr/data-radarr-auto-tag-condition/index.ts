@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataRadarrAutoTagConditionConfig extends cdktf.TerraformMetaArg
   /**
   * Implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#implementation DataRadarrAutoTagCondition#implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#implementation DataRadarrAutoTagCondition#implementation}
   */
   readonly implementation: string;
   /**
   * Max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#max DataRadarrAutoTagCondition#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#max DataRadarrAutoTagCondition#max}
   */
   readonly max?: string;
   /**
   * Min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#min DataRadarrAutoTagCondition#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#min DataRadarrAutoTagCondition#min}
   */
   readonly min?: string;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#name DataRadarrAutoTagCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#name DataRadarrAutoTagCondition#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#negate DataRadarrAutoTagCondition#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#negate DataRadarrAutoTagCondition#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#required DataRadarrAutoTagCondition#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#required DataRadarrAutoTagCondition#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#value DataRadarrAutoTagCondition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#value DataRadarrAutoTagCondition#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition radarr_auto_tag_condition}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition radarr_auto_tag_condition}
 */
 export class DataRadarrAutoTagCondition extends cdktf.TerraformDataSource {
 
@@ -68,7 +68,7 @@ export class DataRadarrAutoTagCondition extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRadarrAutoTagCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrAutoTagCondition to import
-  * @param importFromId The id of the existing DataRadarrAutoTagCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrAutoTagCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrAutoTagCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DataRadarrAutoTagCondition extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition radarr_auto_tag_condition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition radarr_auto_tag_condition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DataRadarrAutoTagCondition extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_auto_tag_condition',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

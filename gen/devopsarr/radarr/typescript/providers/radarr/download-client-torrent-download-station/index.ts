@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface DownloadClientTorrentDownloadStationConfig extends cdktf.Terraf
   /**
   * Enable flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#enable DownloadClientTorrentDownloadStation#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#enable DownloadClientTorrentDownloadStation#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#host DownloadClientTorrentDownloadStation#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#host DownloadClientTorrentDownloadStation#host}
   */
   readonly host?: string;
   /**
   * Download Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#name DownloadClientTorrentDownloadStation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#name DownloadClientTorrentDownloadStation#name}
   */
   readonly name: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#password DownloadClientTorrentDownloadStation#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#password DownloadClientTorrentDownloadStation#password}
   */
   readonly password?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#port DownloadClientTorrentDownloadStation#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#port DownloadClientTorrentDownloadStation#port}
   */
   readonly port?: number;
   /**
   * Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#priority DownloadClientTorrentDownloadStation#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#priority DownloadClientTorrentDownloadStation#priority}
   */
   readonly priority?: number;
   /**
   * Remove completed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#remove_completed_downloads DownloadClientTorrentDownloadStation#remove_completed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#remove_completed_downloads DownloadClientTorrentDownloadStation#remove_completed_downloads}
   */
   readonly removeCompletedDownloads?: boolean | cdktf.IResolvable;
   /**
   * Remove failed downloads flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#remove_failed_downloads DownloadClientTorrentDownloadStation#remove_failed_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#remove_failed_downloads DownloadClientTorrentDownloadStation#remove_failed_downloads}
   */
   readonly removeFailedDownloads?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#tags DownloadClientTorrentDownloadStation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#tags DownloadClientTorrentDownloadStation#tags}
   */
   readonly tags?: number[];
   /**
   * Use SSL flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#use_ssl DownloadClientTorrentDownloadStation#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#use_ssl DownloadClientTorrentDownloadStation#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#username DownloadClientTorrentDownloadStation#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#username DownloadClientTorrentDownloadStation#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station radarr_download_client_torrent_download_station}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station radarr_download_client_torrent_download_station}
 */
 export class DownloadClientTorrentDownloadStation extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class DownloadClientTorrentDownloadStation extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a DownloadClientTorrentDownloadStation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadClientTorrentDownloadStation to import
-  * @param importFromId The id of the existing DownloadClientTorrentDownloadStation that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadClientTorrentDownloadStation that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadClientTorrentDownloadStation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class DownloadClientTorrentDownloadStation extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/download_client_torrent_download_station radarr_download_client_torrent_download_station} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/download_client_torrent_download_station radarr_download_client_torrent_download_station} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class DownloadClientTorrentDownloadStation extends cdktf.TerraformResourc
       terraformResourceType: 'radarr_download_client_torrent_download_station',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

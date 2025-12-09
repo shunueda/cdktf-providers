@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProjectCronsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether crons are enabled for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons#enabled ProjectCrons#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons#enabled ProjectCrons#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The ID of the Project to toggle crons for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons#project_id ProjectCrons#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons#project_id ProjectCrons#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the team the Project exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons#team_id ProjectCrons#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons#team_id ProjectCrons#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons vercel_project_crons}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons vercel_project_crons}
 */
 export class ProjectCrons extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ProjectCrons extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectCrons resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectCrons to import
-  * @param importFromId The id of the existing ProjectCrons that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectCrons that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectCrons to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ProjectCrons extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_crons vercel_project_crons} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_crons vercel_project_crons} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ProjectCrons extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_crons',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

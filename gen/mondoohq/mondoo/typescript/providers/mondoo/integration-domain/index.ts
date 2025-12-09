@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain name or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain#host IntegrationDomain#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain#host IntegrationDomain#host}
   */
   readonly host: string;
   /**
   * Enable HTTP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain#http IntegrationDomain#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain#http IntegrationDomain#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTPS port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain#https IntegrationDomain#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain#https IntegrationDomain#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain#space_id IntegrationDomain#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain#space_id IntegrationDomain#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain mondoo_integration_domain}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain mondoo_integration_domain}
 */
 export class IntegrationDomain extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class IntegrationDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationDomain to import
-  * @param importFromId The id of the existing IntegrationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IntegrationDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_domain mondoo_integration_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_domain mondoo_integration_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IntegrationDomain extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_domain',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

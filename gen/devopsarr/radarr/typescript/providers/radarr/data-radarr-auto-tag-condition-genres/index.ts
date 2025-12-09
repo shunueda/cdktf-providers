@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataRadarrAutoTagConditionGenresConfig extends cdktf.TerraformM
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres#name DataRadarrAutoTagConditionGenres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres#name DataRadarrAutoTagConditionGenres#name}
   */
   readonly name: string;
   /**
   * Negate flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres#negate DataRadarrAutoTagConditionGenres#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres#negate DataRadarrAutoTagConditionGenres#negate}
   */
   readonly negate: boolean | cdktf.IResolvable;
   /**
   * Computed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres#required DataRadarrAutoTagConditionGenres#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres#required DataRadarrAutoTagConditionGenres#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Genres. Space separated list of genres.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres#value DataRadarrAutoTagConditionGenres#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres#value DataRadarrAutoTagConditionGenres#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres radarr_auto_tag_condition_genres}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres radarr_auto_tag_condition_genres}
 */
 export class DataRadarrAutoTagConditionGenres extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataRadarrAutoTagConditionGenres extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataRadarrAutoTagConditionGenres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRadarrAutoTagConditionGenres to import
-  * @param importFromId The id of the existing DataRadarrAutoTagConditionGenres that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRadarrAutoTagConditionGenres that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRadarrAutoTagConditionGenres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataRadarrAutoTagConditionGenres extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/data-sources/auto_tag_condition_genres radarr_auto_tag_condition_genres} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/data-sources/auto_tag_condition_genres radarr_auto_tag_condition_genres} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataRadarrAutoTagConditionGenres extends cdktf.TerraformDataSource 
       terraformResourceType: 'radarr_auto_tag_condition_genres',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

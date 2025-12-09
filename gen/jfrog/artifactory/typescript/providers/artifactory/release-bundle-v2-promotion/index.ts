@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ReleaseBundleV2PromotionConfig extends cdktf.TerraformMetaArgum
   /**
   * Target environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#environment ReleaseBundleV2Promotion#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#environment ReleaseBundleV2Promotion#environment}
   */
   readonly environment: string;
   /**
   * Defines specific repositories to exclude from the promotion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#excluded_repository_keys ReleaseBundleV2Promotion#excluded_repository_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#excluded_repository_keys ReleaseBundleV2Promotion#excluded_repository_keys}
   */
   readonly excludedRepositoryKeys?: string[];
   /**
   * Defines specific repositories to include in the promotion. If this property is left undefined, all repositories (except those specifically excluded) are included in the promotion. Important: If one or more repositories are specifically included, all other repositories are excluded (regardless of what is defined in `excluded_repository_keys`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#included_repository_keys ReleaseBundleV2Promotion#included_repository_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#included_repository_keys ReleaseBundleV2Promotion#included_repository_keys}
   */
   readonly includedRepositoryKeys?: string[];
   /**
   * Key-pair name to use for signature creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#keypair_name ReleaseBundleV2Promotion#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#keypair_name ReleaseBundleV2Promotion#keypair_name}
   */
   readonly keypairName: string;
   /**
   * Name of Release Bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#name ReleaseBundleV2Promotion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#name ReleaseBundleV2Promotion#name}
   */
   readonly name: string;
   /**
   * Project key the Release Bundle belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#project_key ReleaseBundleV2Promotion#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#project_key ReleaseBundleV2Promotion#project_key}
   */
   readonly projectKey?: string;
   /**
   * Version to promote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#version ReleaseBundleV2Promotion#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#version ReleaseBundleV2Promotion#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion artifactory_release_bundle_v2_promotion}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion artifactory_release_bundle_v2_promotion}
 */
 export class ReleaseBundleV2Promotion extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ReleaseBundleV2Promotion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReleaseBundleV2Promotion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReleaseBundleV2Promotion to import
-  * @param importFromId The id of the existing ReleaseBundleV2Promotion that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReleaseBundleV2Promotion that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReleaseBundleV2Promotion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ReleaseBundleV2Promotion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_promotion artifactory_release_bundle_v2_promotion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/release_bundle_v2_promotion artifactory_release_bundle_v2_promotion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ReleaseBundleV2Promotion extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_release_bundle_v2_promotion',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

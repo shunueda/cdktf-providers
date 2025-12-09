@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataMondooPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Only return enabled policies if set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies#assigned_only DataMondooPolicies#assigned_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies#assigned_only DataMondooPolicies#assigned_only}
   */
   readonly assignedOnly?: boolean | cdktf.IResolvable;
   /**
   * Catalog type of either `ALL`, `POLICY` or `QUERYPACK`. Defaults to `ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies#catalog_type DataMondooPolicies#catalog_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies#catalog_type DataMondooPolicies#catalog_type}
   */
   readonly catalogType?: string;
   /**
   * Space ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies#space_id DataMondooPolicies#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies#space_id DataMondooPolicies#space_id}
   */
   readonly spaceId?: string;
   /**
   * Space MRN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies#space_mrn DataMondooPolicies#space_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies#space_mrn DataMondooPolicies#space_mrn}
   */
   readonly spaceMrn?: string;
 }
@@ -144,7 +144,7 @@ export class DataMondooPoliciesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies mondoo_policies}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies mondoo_policies}
 */
 export class DataMondooPolicies extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataMondooPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMondooPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMondooPolicies to import
-  * @param importFromId The id of the existing DataMondooPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMondooPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMondooPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataMondooPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/data-sources/policies mondoo_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/data-sources/policies mondoo_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataMondooPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'mondoo_policies',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

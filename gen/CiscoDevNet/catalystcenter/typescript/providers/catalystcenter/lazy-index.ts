@@ -44,6 +44,7 @@ Object.defineProperty(exports, 'floor', { get: function () { return require('./f
 Object.defineProperty(exports, 'image', { get: function () { return require('./image'); } });
 Object.defineProperty(exports, 'imageActivation', { get: function () { return require('./image-activation'); } });
 Object.defineProperty(exports, 'imageDistribution', { get: function () { return require('./image-distribution'); } });
+Object.defineProperty(exports, 'integrateIse', { get: function () { return require('./integrate-ise'); } });
 Object.defineProperty(exports, 'ipPool', { get: function () { return require('./ip-pool'); } });
 Object.defineProperty(exports, 'ipPoolReservation', { get: function () { return require('./ip-pool-reservation'); } });
 Object.defineProperty(exports, 'lanAutomation', { get: function () { return require('./lan-automation'); } });

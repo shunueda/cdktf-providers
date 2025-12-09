@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "artifactory": "12.11.0"
+    "artifactory": "12.11.1"
   }
 }

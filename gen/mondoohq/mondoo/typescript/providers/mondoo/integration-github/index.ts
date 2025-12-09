@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationGithubConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#credentials IntegrationGithub#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#credentials IntegrationGithub#credentials}
   */
   readonly credentials: IntegrationGithubCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#discovery IntegrationGithub#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#discovery IntegrationGithub#discovery}
   */
   readonly discovery?: IntegrationGithubDiscovery;
   /**
   * Set to true to force replacement on next apply, useful to refresh credentials when the current value cannot be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#force_replace IntegrationGithub#force_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#force_replace IntegrationGithub#force_replace}
   */
   readonly forceReplace?: boolean | cdktf.IResolvable;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#name IntegrationGithub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#name IntegrationGithub#name}
   */
   readonly name: string;
   /**
   * GitHub owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#owner IntegrationGithub#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#owner IntegrationGithub#owner}
   */
   readonly owner: string;
   /**
   * GitHub repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#repository IntegrationGithub#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#repository IntegrationGithub#repository}
   */
   readonly repository?: string;
   /**
   * List of GitHub repositories to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#repository_allow_list IntegrationGithub#repository_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#repository_allow_list IntegrationGithub#repository_allow_list}
   */
   readonly repositoryAllowList?: string[];
   /**
   * List of GitHub repositories to exclude from scanning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#repository_deny_list IntegrationGithub#repository_deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#repository_deny_list IntegrationGithub#repository_deny_list}
   */
   readonly repositoryDenyList?: string[];
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#space_id IntegrationGithub#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#space_id IntegrationGithub#space_id}
   */
   readonly spaceId?: string;
 }
@@ -62,7 +62,7 @@ export interface IntegrationGithubCredentials {
   /**
   * Token for GitHub integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#token IntegrationGithub#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#token IntegrationGithub#token}
   */
   readonly token: string;
 }
@@ -155,13 +155,13 @@ export interface IntegrationGithubDiscovery {
   /**
   * Enable discovery of Kubernetes manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#k8s_manifests IntegrationGithub#k8s_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#k8s_manifests IntegrationGithub#k8s_manifests}
   */
   readonly k8SManifests?: boolean | cdktf.IResolvable;
   /**
   * Enable discovery of Terraform configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#terraform IntegrationGithub#terraform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#terraform IntegrationGithub#terraform}
   */
   readonly terraform?: boolean | cdktf.IResolvable;
 }
@@ -284,7 +284,7 @@ export class IntegrationGithubDiscoveryOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github mondoo_integration_github}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github mondoo_integration_github}
 */
 export class IntegrationGithub extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class IntegrationGithub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGithub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGithub to import
-  * @param importFromId The id of the existing IntegrationGithub that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGithub that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGithub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class IntegrationGithub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_github mondoo_integration_github} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_github mondoo_integration_github} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class IntegrationGithub extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_github',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

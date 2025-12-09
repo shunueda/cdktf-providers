@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,55 +11,55 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   * When set, you may view content such as HTML or Javadoc files directly from Artifactory.
   * This may not be safe and therefore requires strict content moderation to prevent malicious users from uploading content that may compromise security (e.g., cross-site scripting attacks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#archive_browsing_enabled DataArtifactoryFederatedSbtRepository#archive_browsing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#archive_browsing_enabled DataArtifactoryFederatedSbtRepository#archive_browsing_enabled}
   */
   readonly archiveBrowsingEnabled?: boolean | cdktf.IResolvable;
   /**
   * When set, the repository does not participate in artifact resolution and new artifacts cannot be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#blacked_out DataArtifactoryFederatedSbtRepository#blacked_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#blacked_out DataArtifactoryFederatedSbtRepository#blacked_out}
   */
   readonly blackedOut?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from AWS CloudFront. Available in Enterprise+ and Edge licenses only. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#cdn_redirect DataArtifactoryFederatedSbtRepository#cdn_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#cdn_redirect DataArtifactoryFederatedSbtRepository#cdn_redirect}
   */
   readonly cdnRedirect?: boolean | cdktf.IResolvable;
   /**
   * Checksum policy determines how Artifactory behaves when a client checksum for a deployed resource is missing or conflicts with the locally calculated checksum (bad checksum). Options are: "client-checksums", or "server-generated-checksums". Default: "client-checksums"\n For more details, please refer to Checksum Policy - https://www.jfrog.com/confluence/display/JFROG/Local+Repositories#LocalRepositories-ChecksumPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#checksum_policy_type DataArtifactoryFederatedSbtRepository#checksum_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#checksum_policy_type DataArtifactoryFederatedSbtRepository#checksum_policy_type}
   */
   readonly checksumPolicyType?: string;
   /**
   * Delete all federated members on `terraform destroy` if set to `true`. Caution: it will delete all the repositories in the federation on other Artifactory instances. Set `access_token` attribute if Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#cleanup_on_delete DataArtifactoryFederatedSbtRepository#cleanup_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#cleanup_on_delete DataArtifactoryFederatedSbtRepository#cleanup_on_delete}
   */
   readonly cleanupOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#description DataArtifactoryFederatedSbtRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#description DataArtifactoryFederatedSbtRepository#description}
   */
   readonly description?: string;
   /**
   * When set to `true`, the proxy is disabled, and not returned in the API response body. If there is a default proxy set for the Artifactory instance, it will be ignored, too. Introduced since Artifactory 7.41.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#disable_proxy DataArtifactoryFederatedSbtRepository#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#disable_proxy DataArtifactoryFederatedSbtRepository#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from the cloud storage provider. Available in Enterprise+ and Edge licenses only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#download_direct DataArtifactoryFederatedSbtRepository#download_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#download_direct DataArtifactoryFederatedSbtRepository#download_direct}
   */
   readonly downloadDirect?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#excludes_pattern DataArtifactoryFederatedSbtRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#excludes_pattern DataArtifactoryFederatedSbtRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -67,17 +67,17 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   /**
   * If set, Artifactory allows you to deploy release artifacts into this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#handle_releases DataArtifactoryFederatedSbtRepository#handle_releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#handle_releases DataArtifactoryFederatedSbtRepository#handle_releases}
   */
   readonly handleReleases?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory allows you to deploy snapshot artifacts into this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#handle_snapshots DataArtifactoryFederatedSbtRepository#handle_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#handle_snapshots DataArtifactoryFederatedSbtRepository#handle_snapshots}
   */
   readonly handleSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#id DataArtifactoryFederatedSbtRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#id DataArtifactoryFederatedSbtRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#includes_pattern DataArtifactoryFederatedSbtRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#includes_pattern DataArtifactoryFederatedSbtRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -94,7 +94,7 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#key DataArtifactoryFederatedSbtRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#key DataArtifactoryFederatedSbtRepository#key}
   */
   readonly key: string;
   /**
@@ -102,49 +102,49 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   * Once the number of snapshots exceeds this setting, older versions are removed.
   * A value of 0 (default) indicates there is no limit, and unique snapshots are not cleaned up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#max_unique_snapshots DataArtifactoryFederatedSbtRepository#max_unique_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#max_unique_snapshots DataArtifactoryFederatedSbtRepository#max_unique_snapshots}
   */
   readonly maxUniqueSnapshots?: number;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#notes DataArtifactoryFederatedSbtRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#notes DataArtifactoryFederatedSbtRepository#notes}
   */
   readonly notes?: string;
   /**
   * Setting repositories with priority will cause metadata to be merged only from repositories set with this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#priority_resolution DataArtifactoryFederatedSbtRepository#priority_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#priority_resolution DataArtifactoryFederatedSbtRepository#priority_resolution}
   */
   readonly priorityResolution?: boolean | cdktf.IResolvable;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#project_environments DataArtifactoryFederatedSbtRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#project_environments DataArtifactoryFederatedSbtRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#project_key DataArtifactoryFederatedSbtRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#project_key DataArtifactoryFederatedSbtRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of property set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#property_sets DataArtifactoryFederatedSbtRepository#property_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#property_sets DataArtifactoryFederatedSbtRepository#property_sets}
   */
   readonly propertySets?: string[];
   /**
   * Proxy key from Artifactory Proxies settings. Can't be set if `disable_proxy = true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#proxy DataArtifactoryFederatedSbtRepository#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#proxy DataArtifactoryFederatedSbtRepository#proxy}
   */
   readonly proxy?: string;
   /**
   * Repository layout key for the federated repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#repo_layout_ref DataArtifactoryFederatedSbtRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#repo_layout_ref DataArtifactoryFederatedSbtRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
@@ -154,7 +154,7 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   * non-unique: Version number uses a self-overriding naming pattern of artifactId-version-SNAPSHOT.type
   * deployer: Respects the settings in the Maven client that is deploying the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#snapshot_version_behavior DataArtifactoryFederatedSbtRepository#snapshot_version_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#snapshot_version_behavior DataArtifactoryFederatedSbtRepository#snapshot_version_behavior}
   */
   readonly snapshotVersionBehavior?: string;
   /**
@@ -162,19 +162,19 @@ export interface DataArtifactoryFederatedSbtRepositoryConfig extends cdktf.Terra
   *   If the groupId:artifactId:version information inside the POM does not match the deployed path, Artifactory rejects the deployment with a "409 Conflict" error.
   *   You can disable this behavior by setting the Suppress POM Consistency Checks checkbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#suppress_pom_consistency_checks DataArtifactoryFederatedSbtRepository#suppress_pom_consistency_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#suppress_pom_consistency_checks DataArtifactoryFederatedSbtRepository#suppress_pom_consistency_checks}
   */
   readonly suppressPomConsistencyChecks?: boolean | cdktf.IResolvable;
   /**
   * Enable Indexing In Xray. Repository will be indexed with the default retention period. You will be able to change it via Xray settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#xray_index DataArtifactoryFederatedSbtRepository#xray_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#xray_index DataArtifactoryFederatedSbtRepository#xray_index}
   */
   readonly xrayIndex?: boolean | cdktf.IResolvable;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#member DataArtifactoryFederatedSbtRepository#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#member DataArtifactoryFederatedSbtRepository#member}
   */
   readonly member?: DataArtifactoryFederatedSbtRepositoryMember[] | cdktf.IResolvable;
 }
@@ -182,19 +182,19 @@ export interface DataArtifactoryFederatedSbtRepositoryMember {
   /**
   * Admin access token for this member Artifactory instance. Used in conjunction with `cleanup_on_delete` attribute when Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#access_token DataArtifactoryFederatedSbtRepository#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#access_token DataArtifactoryFederatedSbtRepository#access_token}
   */
   readonly accessToken?: string;
   /**
   * Represents the active state of the federated member. It is supported to change the enabled status of my own member. The config will be updated on the other federated members automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#enabled DataArtifactoryFederatedSbtRepository#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#enabled DataArtifactoryFederatedSbtRepository#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Full URL to ending with the repositoryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#url DataArtifactoryFederatedSbtRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#url DataArtifactoryFederatedSbtRepository#url}
   */
   readonly url: string;
 }
@@ -362,7 +362,7 @@ export class DataArtifactoryFederatedSbtRepositoryMemberList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository artifactory_federated_sbt_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository artifactory_federated_sbt_repository}
 */
 export class DataArtifactoryFederatedSbtRepository extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataArtifactoryFederatedSbtRepository extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataArtifactoryFederatedSbtRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryFederatedSbtRepository to import
-  * @param importFromId The id of the existing DataArtifactoryFederatedSbtRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryFederatedSbtRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryFederatedSbtRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataArtifactoryFederatedSbtRepository extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_sbt_repository artifactory_federated_sbt_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/federated_sbt_repository artifactory_federated_sbt_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataArtifactoryFederatedSbtRepository extends cdktf.TerraformDataSo
       terraformResourceType: 'artifactory_federated_sbt_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

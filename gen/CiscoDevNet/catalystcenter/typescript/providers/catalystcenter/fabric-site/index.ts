@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,25 +11,25 @@ export interface FabricSiteConfig extends cdktf.TerraformMetaArguments {
   * Authentication profile used for this fabric
   *   - Choices: `Closed Authentication`, `Low Impact`, `No Authentication`, `Open Authentication`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site#authentication_profile_name FabricSite#authentication_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site#authentication_profile_name FabricSite#authentication_profile_name}
   */
   readonly authenticationProfileName: string;
   /**
   * Specifies whether this fabric site will use pub/sub for control nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site#pub_sub_enabled FabricSite#pub_sub_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site#pub_sub_enabled FabricSite#pub_sub_enabled}
   */
   readonly pubSubEnabled: boolean | cdktf.IResolvable;
   /**
   * ID of the network hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site#site_id FabricSite#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site#site_id FabricSite#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site catalystcenter_fabric_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site catalystcenter_fabric_site}
 */
 export class FabricSite extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class FabricSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricSite to import
-  * @param importFromId The id of the existing FabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class FabricSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/fabric_site catalystcenter_fabric_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_site catalystcenter_fabric_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class FabricSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

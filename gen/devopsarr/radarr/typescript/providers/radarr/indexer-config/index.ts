@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface IndexerConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow hardcoded subs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#allow_hardcoded_subs IndexerConfigA#allow_hardcoded_subs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#allow_hardcoded_subs IndexerConfigA#allow_hardcoded_subs}
   */
   readonly allowHardcodedSubs: boolean | cdktf.IResolvable;
   /**
   * Availability delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#availability_delay IndexerConfigA#availability_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#availability_delay IndexerConfigA#availability_delay}
   */
   readonly availabilityDelay: number;
   /**
   * Maximum size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#maximum_size IndexerConfigA#maximum_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#maximum_size IndexerConfigA#maximum_size}
   */
   readonly maximumSize: number;
   /**
   * Minimum age.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#minimum_age IndexerConfigA#minimum_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#minimum_age IndexerConfigA#minimum_age}
   */
   readonly minimumAge: number;
   /**
   * Prefer indexer flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#prefer_indexer_flags IndexerConfigA#prefer_indexer_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#prefer_indexer_flags IndexerConfigA#prefer_indexer_flags}
   */
   readonly preferIndexerFlags: boolean | cdktf.IResolvable;
   /**
   * Retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#retention IndexerConfigA#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#retention IndexerConfigA#retention}
   */
   readonly retention: number;
   /**
   * RSS sync interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#rss_sync_interval IndexerConfigA#rss_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#rss_sync_interval IndexerConfigA#rss_sync_interval}
   */
   readonly rssSyncInterval: number;
   /**
   * Whitelisted hardconded subs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#whitelisted_hardcoded_subs IndexerConfigA#whitelisted_hardcoded_subs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#whitelisted_hardcoded_subs IndexerConfigA#whitelisted_hardcoded_subs}
   */
   readonly whitelistedHardcodedSubs: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config radarr_indexer_config}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config radarr_indexer_config}
 */
 export class IndexerConfigA extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class IndexerConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IndexerConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IndexerConfigA to import
-  * @param importFromId The id of the existing IndexerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IndexerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IndexerConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class IndexerConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/indexer_config radarr_indexer_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/indexer_config radarr_indexer_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class IndexerConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_indexer_config',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

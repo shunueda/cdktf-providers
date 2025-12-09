@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProjectRollingReleaseConfig extends cdktf.TerraformMetaArgument
   /**
   * The type of advancement for the rolling release. Must be either 'automatic' or 'manual-approval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#advancement_type ProjectRollingRelease#advancement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#advancement_type ProjectRollingRelease#advancement_type}
   */
   readonly advancementType: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#project_id ProjectRollingRelease#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#project_id ProjectRollingRelease#project_id}
   */
   readonly projectId: string;
   /**
   * The stages for the rolling release configuration. The last stage must have target_percentage = 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#stages ProjectRollingRelease#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#stages ProjectRollingRelease#stages}
   */
   readonly stages: ProjectRollingReleaseStages[] | cdktf.IResolvable;
   /**
   * The ID of the Vercel team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#team_id ProjectRollingRelease#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#team_id ProjectRollingRelease#team_id}
   */
   readonly teamId?: string;
 }
@@ -36,13 +36,13 @@ export interface ProjectRollingReleaseStages {
   /**
   * The duration in minutes to wait before advancing to the next stage. Required for automatic advancement type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#duration ProjectRollingRelease#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#duration ProjectRollingRelease#duration}
   */
   readonly duration?: number;
   /**
   * The percentage of traffic to route to this stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#target_percentage ProjectRollingRelease#target_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#target_percentage ProjectRollingRelease#target_percentage}
   */
   readonly targetPercentage: number;
 }
@@ -184,7 +184,7 @@ export class ProjectRollingReleaseStagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release vercel_project_rolling_release}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release vercel_project_rolling_release}
 */
 export class ProjectRollingRelease extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class ProjectRollingRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectRollingRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectRollingRelease to import
-  * @param importFromId The id of the existing ProjectRollingRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectRollingRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectRollingRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class ProjectRollingRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/project_rolling_release vercel_project_rolling_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project_rolling_release vercel_project_rolling_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class ProjectRollingRelease extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_rolling_release',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

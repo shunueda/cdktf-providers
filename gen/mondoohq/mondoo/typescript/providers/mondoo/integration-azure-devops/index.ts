@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IntegrationAzureDevopsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The AzureDevops AutoCloseTickets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#auto_close_tickets IntegrationAzureDevops#auto_close_tickets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#auto_close_tickets IntegrationAzureDevops#auto_close_tickets}
   */
   readonly autoCloseTickets: boolean | cdktf.IResolvable;
   /**
   * The AzureDevops AutoCreateTickets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#auto_create_tickets IntegrationAzureDevops#auto_create_tickets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#auto_create_tickets IntegrationAzureDevops#auto_create_tickets}
   */
   readonly autoCreateTickets: boolean | cdktf.IResolvable;
   /**
   * The AzureDevops ClientSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#client_secret IntegrationAzureDevops#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#client_secret IntegrationAzureDevops#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The AzureDevops DefaultProjectName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#default_project_name IntegrationAzureDevops#default_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#default_project_name IntegrationAzureDevops#default_project_name}
   */
   readonly defaultProjectName?: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#name IntegrationAzureDevops#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#name IntegrationAzureDevops#name}
   */
   readonly name: string;
   /**
   * The AzureDevops OrganizationUrl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#organization_url IntegrationAzureDevops#organization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#organization_url IntegrationAzureDevops#organization_url}
   */
   readonly organizationUrl: string;
   /**
   * The AzureDevops ServicePrincipalId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#service_principal_id IntegrationAzureDevops#service_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#service_principal_id IntegrationAzureDevops#service_principal_id}
   */
   readonly servicePrincipalId: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#space_id IntegrationAzureDevops#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#space_id IntegrationAzureDevops#space_id}
   */
   readonly spaceId?: string;
   /**
   * The AzureDevops TenantId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#tenant_id IntegrationAzureDevops#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#tenant_id IntegrationAzureDevops#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops mondoo_integration_azure_devops}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops mondoo_integration_azure_devops}
 */
 export class IntegrationAzureDevops extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IntegrationAzureDevops extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAzureDevops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAzureDevops to import
-  * @param importFromId The id of the existing IntegrationAzureDevops that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAzureDevops that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAzureDevops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IntegrationAzureDevops extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_azure_devops mondoo_integration_azure_devops} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure_devops mondoo_integration_azure_devops} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IntegrationAzureDevops extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_azure_devops',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

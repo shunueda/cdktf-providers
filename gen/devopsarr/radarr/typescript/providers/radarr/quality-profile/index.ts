@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface QualityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Quality ID to which cutoff.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#cutoff QualityProfile#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#cutoff QualityProfile#cutoff}
   */
   readonly cutoff?: number;
   /**
   * Cutoff format score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#cutoff_format_score QualityProfile#cutoff_format_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#cutoff_format_score QualityProfile#cutoff_format_score}
   */
   readonly cutoffFormatScore?: number;
   /**
   * Format items. Only the ones with score > 0 are needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#format_items QualityProfile#format_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#format_items QualityProfile#format_items}
   */
   readonly formatItems?: QualityProfileFormatItems[] | cdktf.IResolvable;
   /**
   * Language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#language QualityProfile#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#language QualityProfile#language}
   */
   readonly language: QualityProfileLanguage;
   /**
   * Min format score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#min_format_score QualityProfile#min_format_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#min_format_score QualityProfile#min_format_score}
   */
   readonly minFormatScore?: number;
   /**
   * Min upgrade format score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#min_upgrade_format_score QualityProfile#min_upgrade_format_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#min_upgrade_format_score QualityProfile#min_upgrade_format_score}
   */
   readonly minUpgradeFormatScore?: number;
   /**
   * Quality Profile Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#name QualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#name QualityProfile#name}
   */
   readonly name: string;
   /**
   * Ordered list of allowed quality groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#quality_groups QualityProfile#quality_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#quality_groups QualityProfile#quality_groups}
   */
   readonly qualityGroups: QualityProfileQualityGroups[] | cdktf.IResolvable;
   /**
   * Upgrade allowed flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#upgrade_allowed QualityProfile#upgrade_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#upgrade_allowed QualityProfile#upgrade_allowed}
   */
   readonly upgradeAllowed?: boolean | cdktf.IResolvable;
 }
@@ -66,19 +66,19 @@ export interface QualityProfileFormatItems {
   /**
   * Format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#format QualityProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#format QualityProfile#format}
   */
   readonly format?: number;
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#name QualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#name QualityProfile#name}
   */
   readonly name?: string;
   /**
   * Score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#score QualityProfile#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#score QualityProfile#score}
   */
   readonly score?: number;
 }
@@ -254,7 +254,7 @@ export interface QualityProfileLanguage {
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#id QualityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#id QualityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -263,7 +263,7 @@ export interface QualityProfileLanguage {
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#name QualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#name QualityProfile#name}
   */
   readonly name?: string;
 }
@@ -385,7 +385,7 @@ export interface QualityProfileQualityGroupsQualities {
   /**
   * Quality ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#id QualityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#id QualityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -394,19 +394,19 @@ export interface QualityProfileQualityGroupsQualities {
   /**
   * Quality name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#name QualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#name QualityProfile#name}
   */
   readonly name?: string;
   /**
   * Resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#resolution QualityProfile#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#resolution QualityProfile#resolution}
   */
   readonly resolution?: number;
   /**
   * Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#source QualityProfile#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#source QualityProfile#source}
   */
   readonly source?: string;
 }
@@ -611,7 +611,7 @@ export interface QualityProfileQualityGroups {
   /**
   * Quality group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#id QualityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#id QualityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -620,13 +620,13 @@ export interface QualityProfileQualityGroups {
   /**
   * Quality group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#name QualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#name QualityProfile#name}
   */
   readonly name?: string;
   /**
   * Ordered list of qualities in group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#qualities QualityProfile#qualities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#qualities QualityProfile#qualities}
   */
   readonly qualities: QualityProfileQualityGroupsQualities[] | cdktf.IResolvable;
 }
@@ -797,7 +797,7 @@ export class QualityProfileQualityGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile radarr_quality_profile}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile radarr_quality_profile}
 */
 export class QualityProfile extends cdktf.TerraformResource {
 
@@ -813,7 +813,7 @@ export class QualityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QualityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QualityProfile to import
-  * @param importFromId The id of the existing QualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QualityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -825,7 +825,7 @@ export class QualityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/quality_profile radarr_quality_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/quality_profile radarr_quality_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -836,8 +836,8 @@ export class QualityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_quality_profile',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

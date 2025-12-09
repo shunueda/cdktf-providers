@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface TemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is it composite template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#composite Template#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#composite Template#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
   * Containing templates for composite template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#containing_templates Template#containing_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#containing_templates Template#containing_templates}
   */
   readonly containingTemplates?: TemplateContainingTemplates[] | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#description Template#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#description Template#description}
   */
   readonly description?: string;
   /**
   * List of device types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#device_types Template#device_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#device_types Template#device_types}
   */
   readonly deviceTypes: TemplateDeviceTypes[] | cdktf.IResolvable;
   /**
   * Language of the template
   *   - Choices: `JINJA`, `VELOCITY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#language Template#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#language Template#language}
   */
   readonly language: string;
   /**
   * Name of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#name Template#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#name Template#name}
   */
   readonly name: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#project_id Template#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#project_id Template#project_id}
   */
   readonly projectId: string;
   /**
   * Software type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#software_type Template#software_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#software_type Template#software_type}
   */
   readonly softwareType: string;
   /**
   * Software variant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#software_variant Template#software_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#software_variant Template#software_variant}
   */
   readonly softwareVariant?: string;
   /**
   * Software version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#software_version Template#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#software_version Template#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * Template content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#template_content Template#template_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#template_content Template#template_content}
   */
   readonly templateContent?: string;
   /**
   * List of template parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#template_params Template#template_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#template_params Template#template_params}
   */
   readonly templateParams?: TemplateTemplateParams[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface TemplateContainingTemplates {
   /**
   * Is it composite template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#composite Template#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#composite Template#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
   * ID of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#id Template#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#id Template#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,19 +101,19 @@ export interface TemplateContainingTemplates {
   * Language of the template
   *   - Choices: `JINJA`, `VELOCITY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#language Template#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#language Template#language}
   */
   readonly language: string;
   /**
   * Name of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#name Template#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#name Template#name}
   */
   readonly name: string;
   /**
   * Project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#project_name Template#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#project_name Template#project_name}
   */
   readonly projectName: string;
 }
@@ -335,19 +335,19 @@ export interface TemplateDeviceTypes {
   /**
   * Product family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#product_family Template#product_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#product_family Template#product_family}
   */
   readonly productFamily: string;
   /**
   * Product series
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#product_series Template#product_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#product_series Template#product_series}
   */
   readonly productSeries?: string;
   /**
   * Product type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#product_type Template#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#product_type Template#product_type}
   */
   readonly productType?: string;
 }
@@ -520,13 +520,13 @@ export interface TemplateTemplateParamsRanges {
   /**
   * Max value of range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#max_value Template#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#max_value Template#max_value}
   */
   readonly maxValue?: number;
   /**
   * Min value of range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#min_value Template#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#min_value Template#min_value}
   */
   readonly minValue?: number;
 }
@@ -673,87 +673,87 @@ export interface TemplateTemplateParams {
   /**
   * Bind to source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#binding Template#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#binding Template#binding}
   */
   readonly binding?: string;
   /**
   * Datatype of template parameter
   *   - Choices: `STRING`, `INTEGER`, `IPADDRESS`, `MACADDRESS`, `SECTIONDIVIDER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#data_type Template#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#data_type Template#data_type}
   */
   readonly dataType: string;
   /**
   * Default selection values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#default_selected_values Template#default_selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#default_selected_values Template#default_selected_values}
   */
   readonly defaultSelectedValues?: string[];
   /**
   * Default value of template parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#default_value Template#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#default_value Template#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Description of template parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#description Template#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#description Template#description}
   */
   readonly description?: string;
   /**
   * Display name of template parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#display_name Template#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#display_name Template#display_name}
   */
   readonly displayName?: string;
   /**
   * Instruction text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#instruction_text Template#instruction_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#instruction_text Template#instruction_text}
   */
   readonly instructionText?: string;
   /**
   * Is it not a variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#not_param Template#not_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#not_param Template#not_param}
   */
   readonly notParam?: boolean | cdktf.IResolvable;
   /**
   * Is it an array
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#param_array Template#param_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#param_array Template#param_array}
   */
   readonly paramArray?: boolean | cdktf.IResolvable;
   /**
   * Name of the template parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#parameter_name Template#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#parameter_name Template#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * List of ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#ranges Template#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#ranges Template#ranges}
   */
   readonly ranges?: TemplateTemplateParamsRanges[] | cdktf.IResolvable;
   /**
   * Is parameter required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#required Template#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#required Template#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Type of selection
   *   - Choices: `SINGLE_SELECT`, `MULTI_SELECT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#selection_type Template#selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#selection_type Template#selection_type}
   */
   readonly selectionType?: string;
   /**
   * Selection values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#selection_values Template#selection_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#selection_values Template#selection_values}
   */
   readonly selectionValues?: { [key: string]: string };
 }
@@ -1243,7 +1243,7 @@ export class TemplateTemplateParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template catalystcenter_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template catalystcenter_template}
 */
 export class Template extends cdktf.TerraformResource {
 
@@ -1259,7 +1259,7 @@ export class Template extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Template resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Template to import
-  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Template to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1271,7 +1271,7 @@ export class Template extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/template catalystcenter_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/template catalystcenter_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1282,8 +1282,8 @@ export class Template extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_template',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

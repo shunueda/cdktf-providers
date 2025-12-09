@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface ImportListTmdbPopularConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable automatic add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#enable_auto ImportListTmdbPopular#enable_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#enable_auto ImportListTmdbPopular#enable_auto}
   */
   readonly enableAuto?: boolean | cdktf.IResolvable;
   /**
   * Enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#enabled ImportListTmdbPopular#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#enabled ImportListTmdbPopular#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Exclude genre IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#exclude_genre_ids ImportListTmdbPopular#exclude_genre_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#exclude_genre_ids ImportListTmdbPopular#exclude_genre_ids}
   */
   readonly excludeGenreIds?: string;
   /**
   * Include genre IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#include_genre_ids ImportListTmdbPopular#include_genre_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#include_genre_ids ImportListTmdbPopular#include_genre_ids}
   */
   readonly includeGenreIds?: string;
   /**
   * Language code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#language_code ImportListTmdbPopular#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#language_code ImportListTmdbPopular#language_code}
   */
   readonly languageCode: number;
   /**
   * List order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#list_order ImportListTmdbPopular#list_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#list_order ImportListTmdbPopular#list_order}
   */
   readonly listOrder?: number;
   /**
   * Min vote average.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#min_vote_average ImportListTmdbPopular#min_vote_average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#min_vote_average ImportListTmdbPopular#min_vote_average}
   */
   readonly minVoteAverage?: string;
   /**
   * Min votes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#min_votes ImportListTmdbPopular#min_votes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#min_votes ImportListTmdbPopular#min_votes}
   */
   readonly minVotes?: string;
   /**
   * Minimum availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#minimum_availability ImportListTmdbPopular#minimum_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#minimum_availability ImportListTmdbPopular#minimum_availability}
   */
   readonly minimumAvailability: string;
   /**
   * Should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#monitor ImportListTmdbPopular#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#monitor ImportListTmdbPopular#monitor}
   */
   readonly monitor: string;
   /**
   * Import List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#name ImportListTmdbPopular#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#name ImportListTmdbPopular#name}
   */
   readonly name: string;
   /**
   * Quality profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#quality_profile_id ImportListTmdbPopular#quality_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#quality_profile_id ImportListTmdbPopular#quality_profile_id}
   */
   readonly qualityProfileId: number;
   /**
   * Root folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#root_folder_path ImportListTmdbPopular#root_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#root_folder_path ImportListTmdbPopular#root_folder_path}
   */
   readonly rootFolderPath: string;
   /**
   * Search on add flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#search_on_add ImportListTmdbPopular#search_on_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#search_on_add ImportListTmdbPopular#search_on_add}
   */
   readonly searchOnAdd?: boolean | cdktf.IResolvable;
   /**
   * List of associated tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#tags ImportListTmdbPopular#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#tags ImportListTmdbPopular#tags}
   */
   readonly tags?: number[];
   /**
   * Certification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#tmdb_certification ImportListTmdbPopular#tmdb_certification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#tmdb_certification ImportListTmdbPopular#tmdb_certification}
   */
   readonly tmdbCertification?: string;
   /**
   * TMDB list type. `1` Theaters, `2` Popular, `3` Top, `4` Upcoming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#tmdb_list_type ImportListTmdbPopular#tmdb_list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#tmdb_list_type ImportListTmdbPopular#tmdb_list_type}
   */
   readonly tmdbListType: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular radarr_import_list_tmdb_popular}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular radarr_import_list_tmdb_popular}
 */
 export class ImportListTmdbPopular extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class ImportListTmdbPopular extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportListTmdbPopular resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportListTmdbPopular to import
-  * @param importFromId The id of the existing ImportListTmdbPopular that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportListTmdbPopular that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportListTmdbPopular to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class ImportListTmdbPopular extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/import_list_tmdb_popular radarr_import_list_tmdb_popular} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/import_list_tmdb_popular radarr_import_list_tmdb_popular} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class ImportListTmdbPopular extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list_tmdb_popular',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

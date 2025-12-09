@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host
+// https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface HostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#application_url Host#application_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#application_url Host#application_url}
   */
   readonly applicationUrl: string;
   /**
   * Authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#authentication Host#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#authentication Host#authentication}
   */
   readonly authentication: HostAuthentication;
   /**
   * Backup configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#backup Host#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#backup Host#backup}
   */
   readonly backup: HostBackup;
   /**
   * Bind address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#bind_address Host#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#bind_address Host#bind_address}
   */
   readonly bindAddress: string;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#instance_name Host#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#instance_name Host#instance_name}
   */
   readonly instanceName: string;
   /**
   * Launch browser flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#launch_browser Host#launch_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#launch_browser Host#launch_browser}
   */
   readonly launchBrowser?: boolean | cdktf.IResolvable;
   /**
   * Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#logging Host#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#logging Host#logging}
   */
   readonly logging: HostLogging;
   /**
   * TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#port Host#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#port Host#port}
   */
   readonly port: number;
   /**
   * Proxy configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#proxy Host#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#proxy Host#proxy}
   */
   readonly proxy: HostProxy;
   /**
   * Backup configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#ssl Host#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#ssl Host#ssl}
   */
   readonly ssl: HostSsl;
   /**
   * Update configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#update Host#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#update Host#update}
   */
   readonly update: HostUpdate;
   /**
   * URL base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#url_base Host#url_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#url_base Host#url_base}
   */
   readonly urlBase: string;
 }
@@ -84,25 +84,25 @@ export interface HostAuthentication {
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#method Host#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#method Host#method}
   */
   readonly method: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#password Host#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#password Host#password}
   */
   readonly password?: string;
   /**
   * Required for everyone or disabled for local addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#required Host#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#required Host#required}
   */
   readonly required?: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#username Host#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#username Host#username}
   */
   readonly username?: string;
 }
@@ -287,19 +287,19 @@ export interface HostBackup {
   /**
   * Backup folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#folder Host#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#folder Host#folder}
   */
   readonly folder: string;
   /**
   * Backup interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#interval Host#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#interval Host#interval}
   */
   readonly interval: number;
   /**
   * Backup retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#retention Host#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#retention Host#retention}
   */
   readonly retention: number;
 }
@@ -444,25 +444,25 @@ export interface HostLogging {
   /**
   * Enable analytics flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#analytics_enabled Host#analytics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#analytics_enabled Host#analytics_enabled}
   */
   readonly analyticsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Console log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#console_log_level Host#console_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#console_log_level Host#console_log_level}
   */
   readonly consoleLogLevel?: string;
   /**
   * Log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#log_level Host#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#log_level Host#log_level}
   */
   readonly logLevel: string;
   /**
   * Log size limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#log_size_limit Host#log_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#log_size_limit Host#log_size_limit}
   */
   readonly logSizeLimit: number;
 }
@@ -639,49 +639,49 @@ export interface HostProxy {
   /**
   * Bypass filder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#bypass_filter Host#bypass_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#bypass_filter Host#bypass_filter}
   */
   readonly bypassFilter?: string;
   /**
   * Bypass for local addresses flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#bypass_local_addresses Host#bypass_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#bypass_local_addresses Host#bypass_local_addresses}
   */
   readonly bypassLocalAddresses?: boolean | cdktf.IResolvable;
   /**
   * Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#enabled Host#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#enabled Host#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Proxy hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#hostname Host#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#hostname Host#hostname}
   */
   readonly hostname?: string;
   /**
   * Proxy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#password Host#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#password Host#password}
   */
   readonly password?: string;
   /**
   * Proxy port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#port Host#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#port Host#port}
   */
   readonly port?: number;
   /**
   * Proxy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#type Host#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#type Host#type}
   */
   readonly type?: string;
   /**
   * Proxy username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#username Host#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#username Host#username}
   */
   readonly username?: string;
 }
@@ -977,31 +977,31 @@ export interface HostSsl {
   /**
   * Certificate Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#cert_password Host#cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#cert_password Host#cert_password}
   */
   readonly certPassword?: string;
   /**
   * Certificate path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#cert_path Host#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#cert_path Host#cert_path}
   */
   readonly certPath?: string;
   /**
   * Certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#certificate_validation Host#certificate_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#certificate_validation Host#certificate_validation}
   */
   readonly certificateValidation: string;
   /**
   * Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#enabled Host#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#enabled Host#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * SSL port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#port Host#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#port Host#port}
   */
   readonly port?: number;
 }
@@ -1207,25 +1207,25 @@ export interface HostUpdate {
   /**
   * Branch reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#branch Host#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#branch Host#branch}
   */
   readonly branch: string;
   /**
   * Update mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#mechanism Host#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#mechanism Host#mechanism}
   */
   readonly mechanism: string;
   /**
   * Script path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#script_path Host#script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#script_path Host#script_path}
   */
   readonly scriptPath?: string;
   /**
   * Update automatically flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#update_automatically Host#update_automatically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#update_automatically Host#update_automatically}
   */
   readonly updateAutomatically?: boolean | cdktf.IResolvable;
 }
@@ -1400,7 +1400,7 @@ export class HostUpdateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host radarr_host}
+* Represents a {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host radarr_host}
 */
 export class Host extends cdktf.TerraformResource {
 
@@ -1416,7 +1416,7 @@ export class Host extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Host resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Host to import
-  * @param importFromId The id of the existing Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Host to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1428,7 +1428,7 @@ export class Host extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.3/docs/resources/host radarr_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/devopsarr/radarr/2.3.4/docs/resources/host radarr_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1439,8 +1439,8 @@ export class Host extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_host',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

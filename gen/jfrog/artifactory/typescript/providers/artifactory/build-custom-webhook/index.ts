@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface BuildCustomWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of webhook. Max length 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#description BuildCustomWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#description BuildCustomWebhook#description}
   */
   readonly description?: string;
   /**
   * Status of webhook. Default to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#enabled BuildCustomWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#enabled BuildCustomWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Events in Artifactory, Distribution, Release Bundle that function as the event trigger for the Webhook.
   * Allow values: deployed, deleted, moved, copied, cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#event_types BuildCustomWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#event_types BuildCustomWebhook#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Key of webhook. Must be between 2 and 200 characters. Cannot contain spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#key BuildCustomWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#key BuildCustomWebhook#key}
   */
   readonly key: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#criteria BuildCustomWebhook#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#criteria BuildCustomWebhook#criteria}
   */
   readonly criteria?: BuildCustomWebhookCriteria[] | cdktf.IResolvable;
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#handler BuildCustomWebhook#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#handler BuildCustomWebhook#handler}
   */
   readonly handler?: BuildCustomWebhookHandler[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface BuildCustomWebhookCriteria {
   /**
   * Trigger on any builds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#any_build BuildCustomWebhook#any_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#any_build BuildCustomWebhook#any_build}
   */
   readonly anyBuild: boolean | cdktf.IResolvable;
   /**
@@ -57,7 +57,7 @@ export interface BuildCustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example, an `apache/**` pattern will exclude the `apache` build info from the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#exclude_patterns BuildCustomWebhook#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#exclude_patterns BuildCustomWebhook#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
@@ -65,15 +65,15 @@ export interface BuildCustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example, an `apache/**` pattern will exclude the `apache` build info from the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#include_patterns BuildCustomWebhook#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#include_patterns BuildCustomWebhook#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Trigger on this list of build IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#selected_builds BuildCustomWebhook#selected_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#selected_builds BuildCustomWebhook#selected_builds}
   */
-  readonly selectedBuilds: string[];
+  readonly selectedBuilds?: string[];
 }
 
 export function buildCustomWebhookCriteriaToTerraform(struct?: BuildCustomWebhookCriteria | cdktf.IResolvable): any {
@@ -233,13 +233,16 @@ export class BuildCustomWebhookCriteriaOutputReference extends cdktf.ComplexObje
     return this._includePatterns;
   }
 
-  // selected_builds - computed: false, optional: false, required: true
+  // selected_builds - computed: false, optional: true, required: false
   private _selectedBuilds?: string[]; 
   public get selectedBuilds() {
     return cdktf.Fn.tolist(this.getListAttribute('selected_builds'));
   }
   public set selectedBuilds(value: string[]) {
     this._selectedBuilds = value;
+  }
+  public resetSelectedBuilds() {
+    this._selectedBuilds = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get selectedBuildsInput() {
@@ -270,37 +273,37 @@ export interface BuildCustomWebhookHandler {
   /**
   * HTTP headers you wish to use to invoke the Webhook, comprise of key/value pair. Used in custom webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#http_headers BuildCustomWebhook#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#http_headers BuildCustomWebhook#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * Specifies the HTTP Method for URL that the Webhook invokes. Allowed values are: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#method BuildCustomWebhook#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#method BuildCustomWebhook#method}
   */
   readonly method?: string;
   /**
   * This attribute is used to build the request body. Used in custom webhooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#payload BuildCustomWebhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#payload BuildCustomWebhook#payload}
   */
   readonly payload?: string;
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#proxy BuildCustomWebhook#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#proxy BuildCustomWebhook#proxy}
   */
   readonly proxy?: string;
   /**
   * A set of sensitive values that will be injected in the request (headers and/or payload), comprise of key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#secrets BuildCustomWebhook#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#secrets BuildCustomWebhook#secrets}
   */
   readonly secrets?: { [key: string]: string };
   /**
   * Specifies the URL that the Webhook invokes. This will be the URL that Artifactory will send an HTTP POST request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#url BuildCustomWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#url BuildCustomWebhook#url}
   */
   readonly url: string;
 }
@@ -558,7 +561,7 @@ export class BuildCustomWebhookHandlerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook artifactory_build_custom_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook artifactory_build_custom_webhook}
 */
 export class BuildCustomWebhook extends cdktf.TerraformResource {
 
@@ -574,7 +577,7 @@ export class BuildCustomWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BuildCustomWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuildCustomWebhook to import
-  * @param importFromId The id of the existing BuildCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuildCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuildCustomWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +589,7 @@ export class BuildCustomWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/build_custom_webhook artifactory_build_custom_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/build_custom_webhook artifactory_build_custom_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +600,8 @@ export class BuildCustomWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_build_custom_webhook',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

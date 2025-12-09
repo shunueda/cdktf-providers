@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface BackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, backups will be created within a Zip archive (Slow and CPU intensive). Default value is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#create_archive Backup#create_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#create_archive Backup#create_archive}
   */
   readonly createArchive?: boolean | cdktf.IResolvable;
   /**
   * Cron expression to control the backup frequency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#cron_exp Backup#cron_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#cron_exp Backup#cron_exp}
   */
   readonly cronExp: string;
   /**
   * Flag to enable or disable the backup config. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#enabled Backup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#enabled Backup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When set to true, new repositories will not be automatically added to the backup. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#exclude_new_repositories Backup#exclude_new_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#exclude_new_repositories Backup#exclude_new_repositories}
   */
   readonly excludeNewRepositories?: boolean | cdktf.IResolvable;
   /**
   * List of excluded repositories from the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#excluded_repositories Backup#excluded_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#excluded_repositories Backup#excluded_repositories}
   */
   readonly excludedRepositories?: string[];
   /**
   * When set to true, mission control will not be automatically added to the backup. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#export_mission_control Backup#export_mission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#export_mission_control Backup#export_mission_control}
   */
   readonly exportMissionControl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#key Backup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#key Backup#key}
   */
   readonly key: string;
   /**
   * The number of hours to keep a backup before Artifactory will clean it up to free up disk space. Applicable only to non-incremental backups. Default value is 168 hours i.e. 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#retention_period_hours Backup#retention_period_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#retention_period_hours Backup#retention_period_hours}
   */
   readonly retentionPeriodHours?: number;
   /**
   * If set to true, all Artifactory administrators will be notified by email if any problem is encountered during backup. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#send_mail_on_error Backup#send_mail_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#send_mail_on_error Backup#send_mail_on_error}
   */
   readonly sendMailOnError?: boolean | cdktf.IResolvable;
   /**
   * If set, Artifactory will verify that the backup target location has enough disk space available to hold the backed up data. If there is not enough space available, Artifactory will abort the backup and write a message in the log file. Applicable only to non-incremental backups. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#verify_disk_space Backup#verify_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#verify_disk_space Backup#verify_disk_space}
   */
   readonly verifyDiskSpace?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup artifactory_backup}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup artifactory_backup}
 */
 export class Backup extends cdktf.TerraformResource {
 
@@ -84,7 +84,7 @@ export class Backup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backup to import
-  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -96,7 +96,7 @@ export class Backup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/backup artifactory_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/backup artifactory_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -107,8 +107,8 @@ export class Backup extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_backup',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Custom Environment to deploy to. If not specified, the deployment will use the standard environments (production/preview).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#custom_environment_id Deployment#custom_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#custom_environment_id Deployment#custom_environment_id}
   */
   readonly customEnvironmentId?: string;
   /**
   * Set to true to hard delete the Vercel deployment when destroying the Terraform resource. If unspecified, deployments are retained indefinitely. Note that deleted deployments are not recoverable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#delete_on_destroy Deployment#delete_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#delete_on_destroy Deployment#delete_on_destroy}
   */
   readonly deleteOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * A map of environment variable names to values. These are specific to a Deployment, and can also be configured on the `vercel_project` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#environment Deployment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#environment Deployment#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * A map of files to be uploaded for the deployment. This should be provided by a `vercel_project_directory` or `vercel_file` data source. Required if `git_source` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#files Deployment#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#files Deployment#files}
   */
   readonly files?: { [key: string]: string };
   /**
   * Arbitrary key/value metadata to attach to the deployment (equivalent to the Vercel CLI --meta flags).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#meta Deployment#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#meta Deployment#meta}
   */
   readonly meta?: { [key: string]: string };
   /**
   * If specified then the `path_prefix` will be stripped from the start of file paths as they are uploaded to Vercel. If this is omitted, then any leading `../`s will be stripped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#path_prefix Deployment#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#path_prefix Deployment#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
   * true if the deployment is a production deployment, meaning production aliases will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#production Deployment#production}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#production Deployment#production}
   */
   readonly production?: boolean | cdktf.IResolvable;
   /**
   * The project ID to add the deployment to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#project_id Deployment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#project_id Deployment#project_id}
   */
   readonly projectId: string;
   /**
   * Project settings that will be applied to the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#project_settings Deployment#project_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#project_settings Deployment#project_settings}
   */
   readonly projectSettings?: DeploymentProjectSettings;
   /**
   * The branch or commit hash that should be deployed. Note this will only work if the project is configured to use a Git repository. Required if `files` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#ref Deployment#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#ref Deployment#ref}
   */
   readonly ref?: string;
   /**
   * The team ID to add the deployment to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#team_id Deployment#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#team_id Deployment#team_id}
   */
   readonly teamId?: string;
 }
@@ -78,31 +78,31 @@ export interface DeploymentProjectSettings {
   /**
   * The build command for this deployment. If omitted, this value will be taken from the project or automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#build_command Deployment#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#build_command Deployment#build_command}
   */
   readonly buildCommand?: string;
   /**
   * The framework that is being used for this deployment. If omitted, no framework is selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#framework Deployment#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#framework Deployment#framework}
   */
   readonly framework?: string;
   /**
   * The install command for this deployment. If omitted, this value will be taken from the project or automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#install_command Deployment#install_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#install_command Deployment#install_command}
   */
   readonly installCommand?: string;
   /**
   * The output directory of the deployment. If omitted, this value will be taken from the project or automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#output_directory Deployment#output_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#output_directory Deployment#output_directory}
   */
   readonly outputDirectory?: string;
   /**
   * The name of a directory or relative path to the source code of your project. When null is used it will default to the project root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#root_directory Deployment#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#root_directory Deployment#root_directory}
   */
   readonly rootDirectory?: string;
 }
@@ -312,7 +312,7 @@ export class DeploymentProjectSettingsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment vercel_deployment}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment vercel_deployment}
 */
 export class Deployment extends cdktf.TerraformResource {
 
@@ -328,7 +328,7 @@ export class Deployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deployment to import
-  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class Deployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/resources/deployment vercel_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/deployment vercel_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class Deployment extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_deployment',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterFabricL3HandoffIpTransitsConfig extends cdktf
   /**
   * ID of the fabric this device belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits#fabric_id DataCatalystcenterFabricL3HandoffIpTransits#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits#fabric_id DataCatalystcenterFabricL3HandoffIpTransits#fabric_id}
   */
   readonly fabricId: string;
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits#id DataCatalystcenterFabricL3HandoffIpTransits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits#id DataCatalystcenterFabricL3HandoffIpTransits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCatalystcenterFabricL3HandoffIpTransitsConfig extends cdktf
   /**
   * Network device ID of the fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits#network_device_id DataCatalystcenterFabricL3HandoffIpTransits#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits#network_device_id DataCatalystcenterFabricL3HandoffIpTransits#network_device_id}
   */
   readonly networkDeviceId: string;
 }
@@ -166,7 +166,7 @@ export class DataCatalystcenterFabricL3HandoffIpTransitsL3HandoffsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits catalystcenter_fabric_l3_handoff_ip_transits}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits catalystcenter_fabric_l3_handoff_ip_transits}
 */
 export class DataCatalystcenterFabricL3HandoffIpTransits extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataCatalystcenterFabricL3HandoffIpTransits extends cdktf.Terraform
   * Generates CDKTF code for importing a DataCatalystcenterFabricL3HandoffIpTransits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterFabricL3HandoffIpTransits to import
-  * @param importFromId The id of the existing DataCatalystcenterFabricL3HandoffIpTransits that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterFabricL3HandoffIpTransits that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterFabricL3HandoffIpTransits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataCatalystcenterFabricL3HandoffIpTransits extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/fabric_l3_handoff_ip_transits catalystcenter_fabric_l3_handoff_ip_transits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_handoff_ip_transits catalystcenter_fabric_l3_handoff_ip_transits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataCatalystcenterFabricL3HandoffIpTransits extends cdktf.Terraform
       terraformResourceType: 'catalystcenter_fabric_l3_handoff_ip_transits',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

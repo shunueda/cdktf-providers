@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataArtifactoryVirtualDebianRepositoryConfig extends cdktf.Terr
   /**
   * Whether the virtual repository should search through remote repositories when trying to resolve an artifact requested by another Artifactory instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#artifactory_requests_can_retrieve_remote_artifacts DataArtifactoryVirtualDebianRepository#artifactory_requests_can_retrieve_remote_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#artifactory_requests_can_retrieve_remote_artifacts DataArtifactoryVirtualDebianRepository#artifactory_requests_can_retrieve_remote_artifacts}
   */
   readonly artifactoryRequestsCanRetrieveRemoteArtifacts?: boolean | cdktf.IResolvable;
   /**
   * Specifying  architectures will speed up Artifactory's initial metadata indexing process. The default architecture values are amd64 and i386.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#debian_default_architectures DataArtifactoryVirtualDebianRepository#debian_default_architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#debian_default_architectures DataArtifactoryVirtualDebianRepository#debian_default_architectures}
   */
   readonly debianDefaultArchitectures?: string;
   /**
   * Default repository to deploy artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#default_deployment_repo DataArtifactoryVirtualDebianRepository#default_deployment_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#default_deployment_repo DataArtifactoryVirtualDebianRepository#default_deployment_repo}
   */
   readonly defaultDeploymentRepo?: string;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#description DataArtifactoryVirtualDebianRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#description DataArtifactoryVirtualDebianRepository#description}
   */
   readonly description?: string;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#excludes_pattern DataArtifactoryVirtualDebianRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#excludes_pattern DataArtifactoryVirtualDebianRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#id DataArtifactoryVirtualDebianRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#id DataArtifactoryVirtualDebianRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ export interface DataArtifactoryVirtualDebianRepositoryConfig extends cdktf.Terr
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#includes_pattern DataArtifactoryVirtualDebianRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#includes_pattern DataArtifactoryVirtualDebianRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -57,67 +57,67 @@ export interface DataArtifactoryVirtualDebianRepositoryConfig extends cdktf.Terr
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#key DataArtifactoryVirtualDebianRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#key DataArtifactoryVirtualDebianRepository#key}
   */
   readonly key: string;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#notes DataArtifactoryVirtualDebianRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#notes DataArtifactoryVirtualDebianRepository#notes}
   */
   readonly notes?: string;
   /**
   * Index file formats you would like to create in addition to the default Gzip (.gzip extension). Supported values are 'bz2','lzma' and 'xz'. Default value is 'bz2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#optional_index_compression_formats DataArtifactoryVirtualDebianRepository#optional_index_compression_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#optional_index_compression_formats DataArtifactoryVirtualDebianRepository#optional_index_compression_formats}
   */
   readonly optionalIndexCompressionFormats?: string[];
   /**
   * Primary keypair used to sign artifacts. Default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#primary_keypair_ref DataArtifactoryVirtualDebianRepository#primary_keypair_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#primary_keypair_ref DataArtifactoryVirtualDebianRepository#primary_keypair_ref}
   */
   readonly primaryKeypairRef?: string;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#project_environments DataArtifactoryVirtualDebianRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#project_environments DataArtifactoryVirtualDebianRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#project_key DataArtifactoryVirtualDebianRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#project_key DataArtifactoryVirtualDebianRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * Repository layout key for the virtual repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#repo_layout_ref DataArtifactoryVirtualDebianRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#repo_layout_ref DataArtifactoryVirtualDebianRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * The effective list of actual repositories included in this virtual repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#repositories DataArtifactoryVirtualDebianRepository#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#repositories DataArtifactoryVirtualDebianRepository#repositories}
   */
   readonly repositories?: string[];
   /**
   * This value refers to the number of seconds to cache metadata files before checking for newer versions on aggregated repositories. A value of 0 indicates no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#retrieval_cache_period_seconds DataArtifactoryVirtualDebianRepository#retrieval_cache_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#retrieval_cache_period_seconds DataArtifactoryVirtualDebianRepository#retrieval_cache_period_seconds}
   */
   readonly retrievalCachePeriodSeconds?: number;
   /**
   * Secondary keypair used to sign artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#secondary_keypair_ref DataArtifactoryVirtualDebianRepository#secondary_keypair_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#secondary_keypair_ref DataArtifactoryVirtualDebianRepository#secondary_keypair_ref}
   */
   readonly secondaryKeypairRef?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository artifactory_virtual_debian_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository artifactory_virtual_debian_repository}
 */
 export class DataArtifactoryVirtualDebianRepository extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataArtifactoryVirtualDebianRepository extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataArtifactoryVirtualDebianRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryVirtualDebianRepository to import
-  * @param importFromId The id of the existing DataArtifactoryVirtualDebianRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryVirtualDebianRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryVirtualDebianRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataArtifactoryVirtualDebianRepository extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_debian_repository artifactory_virtual_debian_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_debian_repository artifactory_virtual_debian_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataArtifactoryVirtualDebianRepository extends cdktf.TerraformDataS
       terraformResourceType: 'artifactory_virtual_debian_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

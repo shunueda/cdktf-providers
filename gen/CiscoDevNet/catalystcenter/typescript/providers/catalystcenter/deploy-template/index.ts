@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,50 @@ export interface DeployTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Copy config from running into startup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#copying_config DeployTemplate#copying_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#copying_config DeployTemplate#copying_config}
   */
   readonly copyingConfig?: boolean | cdktf.IResolvable;
   /**
   * Force Push Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#force_push_template DeployTemplate#force_push_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#force_push_template DeployTemplate#force_push_template}
   */
   readonly forcePushTemplate?: boolean | cdktf.IResolvable;
   /**
   * Composite template flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#is_composite DeployTemplate#is_composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#is_composite DeployTemplate#is_composite}
   */
   readonly isComposite?: boolean | cdktf.IResolvable;
   /**
   * Composite Template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#main_template_id DeployTemplate#main_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#main_template_id DeployTemplate#main_template_id}
   */
   readonly mainTemplateId?: string;
   /**
   * Member Template Deployment Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#member_template_deployment_info DeployTemplate#member_template_deployment_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#member_template_deployment_info DeployTemplate#member_template_deployment_info}
   */
   readonly memberTemplateDeploymentInfo?: DeployTemplateMemberTemplateDeploymentInfo[] | cdktf.IResolvable;
   /**
-  * Flag to indicate whether the template should be redeployed. If set to `true`, template will be redeployed on every Terraform apply
+  * Attribute that controls when the template should be redeployed. `ALWAYS` redeploys it on every Terraform apply, `ON_CHANGE` redeploys only when the template’s content changes, and `NEVER` prevents redeployment.
+  *   - Choices: `ALWAYS`, `ON_CHANGE`, `NEVER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#redeploy DeployTemplate#redeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#redeploy DeployTemplate#redeploy}
   */
-  readonly redeploy?: boolean | cdktf.IResolvable;
+  readonly redeploy?: string;
   /**
   * Target info to deploy template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#target_info DeployTemplate#target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#target_info DeployTemplate#target_info}
   */
   readonly targetInfo: DeployTemplateTargetInfo[] | cdktf.IResolvable;
   /**
   * ID of template to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#template_id DeployTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#template_id DeployTemplate#template_id}
   */
   readonly templateId: string;
 }
@@ -60,20 +61,20 @@ export interface DeployTemplateMemberTemplateDeploymentInfoTargetInfoResourcePar
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#scope DeployTemplate#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#scope DeployTemplate#scope}
   */
   readonly scope?: string;
   /**
   * Target type of device
   *   - Choices: `MANAGED_DEVICE_IP`, `MANAGED_DEVICE_UUID`, `PRE_PROVISIONED_SERIAL`, `PRE_PROVISIONED_MAC`, `DEFAULT`, `MANAGED_DEVICE_HOSTNAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#type DeployTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#type DeployTemplate#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#value DeployTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#value DeployTemplate#value}
   */
   readonly value?: string;
 }
@@ -249,13 +250,13 @@ export interface DeployTemplateMemberTemplateDeploymentInfoTargetInfo {
   /**
   * Hostname of device is required if targetType is MANAGED_DEVICE_HOSTNAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#host_name DeployTemplate#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#host_name DeployTemplate#host_name}
   */
   readonly hostName?: string;
   /**
   * ID of device is required if targetType is MANAGED_DEVICE_UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#id DeployTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#id DeployTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -264,26 +265,33 @@ export interface DeployTemplateMemberTemplateDeploymentInfoTargetInfo {
   /**
   * Template params/values to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#params DeployTemplate#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#params DeployTemplate#params}
   */
   readonly params?: { [key: string]: string };
   /**
+  * Attribute that controls when the template should be redeployed. `ALWAYS` redeploys it on every Terraform apply, `ON_CHANGE` redeploys only when the template’s content changes, and `NEVER` prevents redeployment.
+  *   - Choices: `ALWAYS`, `ON_CHANGE`, `NEVER`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#redeploy DeployTemplate#redeploy}
+  */
+  readonly redeploy?: string;
+  /**
   * Resource params to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#resource_params DeployTemplate#resource_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#resource_params DeployTemplate#resource_params}
   */
   readonly resourceParams?: DeployTemplateMemberTemplateDeploymentInfoTargetInfoResourceParams[] | cdktf.IResolvable;
   /**
   * Target type of device
   *   - Choices: `MANAGED_DEVICE_IP`, `MANAGED_DEVICE_UUID`, `PRE_PROVISIONED_SERIAL`, `PRE_PROVISIONED_MAC`, `DEFAULT`, `MANAGED_DEVICE_HOSTNAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#type DeployTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#type DeployTemplate#type}
   */
   readonly type: string;
   /**
   * Versioned template ID to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#versioned_template_id DeployTemplate#versioned_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#versioned_template_id DeployTemplate#versioned_template_id}
   */
   readonly versionedTemplateId?: string;
 }
@@ -297,6 +305,7 @@ export function deployTemplateMemberTemplateDeploymentInfoTargetInfoToTerraform(
     host_name: cdktf.stringToTerraform(struct!.hostName),
     id: cdktf.stringToTerraform(struct!.id),
     params: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.params),
+    redeploy: cdktf.stringToTerraform(struct!.redeploy),
     resource_params: cdktf.listMapper(deployTemplateMemberTemplateDeploymentInfoTargetInfoResourceParamsToTerraform, false)(struct!.resourceParams),
     type: cdktf.stringToTerraform(struct!.type),
     versioned_template_id: cdktf.stringToTerraform(struct!.versionedTemplateId),
@@ -327,6 +336,12 @@ export function deployTemplateMemberTemplateDeploymentInfoTargetInfoToHclTerrafo
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    redeploy: {
+      value: cdktf.stringToHclTerraform(struct!.redeploy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     resource_params: {
       value: cdktf.listMapperHcl(deployTemplateMemberTemplateDeploymentInfoTargetInfoResourceParamsToHclTerraform, false)(struct!.resourceParams),
@@ -384,6 +399,10 @@ export class DeployTemplateMemberTemplateDeploymentInfoTargetInfoOutputReference
       hasAnyValues = true;
       internalValueResult.params = this._params;
     }
+    if (this._redeploy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.redeploy = this._redeploy;
+    }
     if (this._resourceParams?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.resourceParams = this._resourceParams?.internalValue;
@@ -406,6 +425,7 @@ export class DeployTemplateMemberTemplateDeploymentInfoTargetInfoOutputReference
       this._hostName = undefined;
       this._id = undefined;
       this._params = undefined;
+      this._redeploy = undefined;
       this._resourceParams.internalValue = undefined;
       this._type = undefined;
       this._versionedTemplateId = undefined;
@@ -420,6 +440,7 @@ export class DeployTemplateMemberTemplateDeploymentInfoTargetInfoOutputReference
       this._hostName = value.hostName;
       this._id = value.id;
       this._params = value.params;
+      this._redeploy = value.redeploy;
       this._resourceParams.internalValue = value.resourceParams;
       this._type = value.type;
       this._versionedTemplateId = value.versionedTemplateId;
@@ -472,6 +493,22 @@ export class DeployTemplateMemberTemplateDeploymentInfoTargetInfoOutputReference
   // Temporarily expose input value. Use with caution.
   public get paramsInput() {
     return this._params;
+  }
+
+  // redeploy - computed: false, optional: true, required: false
+  private _redeploy?: string; 
+  public get redeploy() {
+    return this.getStringAttribute('redeploy');
+  }
+  public set redeploy(value: string) {
+    this._redeploy = value;
+  }
+  public resetRedeploy() {
+    this._redeploy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redeployInput() {
+    return this._redeploy;
   }
 
   // resource_params - computed: false, optional: true, required: false
@@ -543,37 +580,37 @@ export interface DeployTemplateMemberTemplateDeploymentInfo {
   /**
   * Copy config from running into startup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#copying_config DeployTemplate#copying_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#copying_config DeployTemplate#copying_config}
   */
   readonly copyingConfig?: boolean | cdktf.IResolvable;
   /**
   * Force Push Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#force_push_template DeployTemplate#force_push_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#force_push_template DeployTemplate#force_push_template}
   */
   readonly forcePushTemplate?: boolean | cdktf.IResolvable;
   /**
   * Composite template flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#is_composite DeployTemplate#is_composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#is_composite DeployTemplate#is_composite}
   */
   readonly isComposite?: boolean | cdktf.IResolvable;
   /**
   * Template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#main_template_id DeployTemplate#main_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#main_template_id DeployTemplate#main_template_id}
   */
   readonly mainTemplateId?: string;
   /**
   * Target info to deploy template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#target_info DeployTemplate#target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#target_info DeployTemplate#target_info}
   */
   readonly targetInfo: DeployTemplateMemberTemplateDeploymentInfoTargetInfo[] | cdktf.IResolvable;
   /**
   * Versioned Template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#template_id DeployTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#template_id DeployTemplate#template_id}
   */
   readonly templateId: string;
 }
@@ -627,7 +664,7 @@ export function deployTemplateMemberTemplateDeploymentInfoToHclTerraform(struct?
     target_info: {
       value: cdktf.listMapperHcl(deployTemplateMemberTemplateDeploymentInfoTargetInfoToHclTerraform, false)(struct!.targetInfo),
       isBlock: true,
-      type: "list",
+      type: "set",
       storageClassType: "DeployTemplateMemberTemplateDeploymentInfoTargetInfoList",
     },
     template_id: {
@@ -781,7 +818,7 @@ export class DeployTemplateMemberTemplateDeploymentInfoOutputReference extends c
   }
 
   // target_info - computed: false, optional: false, required: true
-  private _targetInfo = new DeployTemplateMemberTemplateDeploymentInfoTargetInfoList(this, "target_info", false);
+  private _targetInfo = new DeployTemplateMemberTemplateDeploymentInfoTargetInfoList(this, "target_info", true);
   public get targetInfo() {
     return this._targetInfo;
   }
@@ -830,20 +867,20 @@ export interface DeployTemplateTargetInfoResourceParams {
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#scope DeployTemplate#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#scope DeployTemplate#scope}
   */
   readonly scope?: string;
   /**
   * Target type of device
   *   - Choices: `MANAGED_DEVICE_IP`, `MANAGED_DEVICE_UUID`, `PRE_PROVISIONED_SERIAL`, `PRE_PROVISIONED_MAC`, `DEFAULT`, `MANAGED_DEVICE_HOSTNAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#type DeployTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#type DeployTemplate#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#value DeployTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#value DeployTemplate#value}
   */
   readonly value?: string;
 }
@@ -1019,13 +1056,13 @@ export interface DeployTemplateTargetInfo {
   /**
   * Hostname of device is required if targetType is MANAGED_DEVICE_HOSTNAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#host_name DeployTemplate#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#host_name DeployTemplate#host_name}
   */
   readonly hostName?: string;
   /**
   * ID of device is required if `type` is MANAGED_DEVICE_UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#id DeployTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#id DeployTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1034,26 +1071,33 @@ export interface DeployTemplateTargetInfo {
   /**
   * Template params/values to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#params DeployTemplate#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#params DeployTemplate#params}
   */
   readonly params?: { [key: string]: string };
   /**
+  * Flag to indicate whether the template should be redeployed. If set to `true`, template will be redeployed on every Terraform apply
+  *   - Choices: `ALWAYS`, `ON_CHANGE`, `NEVER`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#redeploy DeployTemplate#redeploy}
+  */
+  readonly redeploy?: string;
+  /**
   * Resource params to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#resource_params DeployTemplate#resource_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#resource_params DeployTemplate#resource_params}
   */
   readonly resourceParams?: DeployTemplateTargetInfoResourceParams[] | cdktf.IResolvable;
   /**
   * Target type of device
   *   - Choices: `MANAGED_DEVICE_IP`, `MANAGED_DEVICE_UUID`, `PRE_PROVISIONED_SERIAL`, `PRE_PROVISIONED_MAC`, `DEFAULT`, `MANAGED_DEVICE_HOSTNAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#type DeployTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#type DeployTemplate#type}
   */
   readonly type: string;
   /**
   * Versioned template ID to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#versioned_template_id DeployTemplate#versioned_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#versioned_template_id DeployTemplate#versioned_template_id}
   */
   readonly versionedTemplateId?: string;
 }
@@ -1067,6 +1111,7 @@ export function deployTemplateTargetInfoToTerraform(struct?: DeployTemplateTarge
     host_name: cdktf.stringToTerraform(struct!.hostName),
     id: cdktf.stringToTerraform(struct!.id),
     params: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.params),
+    redeploy: cdktf.stringToTerraform(struct!.redeploy),
     resource_params: cdktf.listMapper(deployTemplateTargetInfoResourceParamsToTerraform, false)(struct!.resourceParams),
     type: cdktf.stringToTerraform(struct!.type),
     versioned_template_id: cdktf.stringToTerraform(struct!.versionedTemplateId),
@@ -1097,6 +1142,12 @@ export function deployTemplateTargetInfoToHclTerraform(struct?: DeployTemplateTa
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    redeploy: {
+      value: cdktf.stringToHclTerraform(struct!.redeploy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     resource_params: {
       value: cdktf.listMapperHcl(deployTemplateTargetInfoResourceParamsToHclTerraform, false)(struct!.resourceParams),
@@ -1154,6 +1205,10 @@ export class DeployTemplateTargetInfoOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.params = this._params;
     }
+    if (this._redeploy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.redeploy = this._redeploy;
+    }
     if (this._resourceParams?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.resourceParams = this._resourceParams?.internalValue;
@@ -1176,6 +1231,7 @@ export class DeployTemplateTargetInfoOutputReference extends cdktf.ComplexObject
       this._hostName = undefined;
       this._id = undefined;
       this._params = undefined;
+      this._redeploy = undefined;
       this._resourceParams.internalValue = undefined;
       this._type = undefined;
       this._versionedTemplateId = undefined;
@@ -1190,6 +1246,7 @@ export class DeployTemplateTargetInfoOutputReference extends cdktf.ComplexObject
       this._hostName = value.hostName;
       this._id = value.id;
       this._params = value.params;
+      this._redeploy = value.redeploy;
       this._resourceParams.internalValue = value.resourceParams;
       this._type = value.type;
       this._versionedTemplateId = value.versionedTemplateId;
@@ -1242,6 +1299,22 @@ export class DeployTemplateTargetInfoOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get paramsInput() {
     return this._params;
+  }
+
+  // redeploy - computed: false, optional: true, required: false
+  private _redeploy?: string; 
+  public get redeploy() {
+    return this.getStringAttribute('redeploy');
+  }
+  public set redeploy(value: string) {
+    this._redeploy = value;
+  }
+  public resetRedeploy() {
+    this._redeploy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redeployInput() {
+    return this._redeploy;
   }
 
   // resource_params - computed: false, optional: true, required: false
@@ -1311,7 +1384,7 @@ export class DeployTemplateTargetInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template catalystcenter_deploy_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template catalystcenter_deploy_template}
 */
 export class DeployTemplate extends cdktf.TerraformResource {
 
@@ -1327,7 +1400,7 @@ export class DeployTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeployTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeployTemplate to import
-  * @param importFromId The id of the existing DeployTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeployTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeployTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1339,7 +1412,7 @@ export class DeployTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/deploy_template catalystcenter_deploy_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/deploy_template catalystcenter_deploy_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1350,8 +1423,8 @@ export class DeployTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_deploy_template',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.3',
-        providerVersionConstraint: '0.4.3'
+        providerVersion: '0.4.4',
+        providerVersionConstraint: '0.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1461,11 +1534,11 @@ export class DeployTemplate extends cdktf.TerraformResource {
   }
 
   // redeploy - computed: false, optional: true, required: false
-  private _redeploy?: boolean | cdktf.IResolvable; 
+  private _redeploy?: string; 
   public get redeploy() {
-    return this.getBooleanAttribute('redeploy');
+    return this.getStringAttribute('redeploy');
   }
-  public set redeploy(value: boolean | cdktf.IResolvable) {
+  public set redeploy(value: string) {
     this._redeploy = value;
   }
   public resetRedeploy() {
@@ -1477,7 +1550,7 @@ export class DeployTemplate extends cdktf.TerraformResource {
   }
 
   // target_info - computed: false, optional: false, required: true
-  private _targetInfo = new DeployTemplateTargetInfoList(this, "target_info", false);
+  private _targetInfo = new DeployTemplateTargetInfoList(this, "target_info", true);
   public get targetInfo() {
     return this._targetInfo;
   }
@@ -1513,7 +1586,7 @@ export class DeployTemplate extends cdktf.TerraformResource {
       is_composite: cdktf.booleanToTerraform(this._isComposite),
       main_template_id: cdktf.stringToTerraform(this._mainTemplateId),
       member_template_deployment_info: cdktf.listMapper(deployTemplateMemberTemplateDeploymentInfoToTerraform, false)(this._memberTemplateDeploymentInfo.internalValue),
-      redeploy: cdktf.booleanToTerraform(this._redeploy),
+      redeploy: cdktf.stringToTerraform(this._redeploy),
       target_info: cdktf.listMapper(deployTemplateTargetInfoToTerraform, false)(this._targetInfo.internalValue),
       template_id: cdktf.stringToTerraform(this._templateId),
     };
@@ -1552,15 +1625,15 @@ export class DeployTemplate extends cdktf.TerraformResource {
         storageClassType: "DeployTemplateMemberTemplateDeploymentInfoList",
       },
       redeploy: {
-        value: cdktf.booleanToHclTerraform(this._redeploy),
+        value: cdktf.stringToHclTerraform(this._redeploy),
         isBlock: false,
         type: "simple",
-        storageClassType: "boolean",
+        storageClassType: "string",
       },
       target_info: {
         value: cdktf.listMapperHcl(deployTemplateTargetInfoToHclTerraform, false)(this._targetInfo.internalValue),
         isBlock: true,
-        type: "list",
+        type: "set",
         storageClassType: "DeployTemplateTargetInfoList",
       },
       template_id: {

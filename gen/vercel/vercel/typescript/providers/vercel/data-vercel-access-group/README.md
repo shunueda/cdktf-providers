@@ -1,3 +1,3 @@
 # `data_vercel_access_group`
 
-Refer to the Terraform Registry for docs: [`data_vercel_access_group`](https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs/data-sources/access_group).
+Refer to the Terraform Registry for docs: [`data_vercel_access_group`](https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group).

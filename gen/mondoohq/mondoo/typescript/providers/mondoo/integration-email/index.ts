@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto close tickets (defaults to false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#auto_close IntegrationEmail#auto_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#auto_close IntegrationEmail#auto_close}
   */
   readonly autoClose?: boolean | cdktf.IResolvable;
   /**
   * Auto create tickets (defaults to false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#auto_create IntegrationEmail#auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#auto_create IntegrationEmail#auto_create}
   */
   readonly autoCreate?: boolean | cdktf.IResolvable;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#name IntegrationEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#name IntegrationEmail#name}
   */
   readonly name: string;
   /**
   * List of email recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#recipients IntegrationEmail#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#recipients IntegrationEmail#recipients}
   */
   readonly recipients: IntegrationEmailRecipients[] | cdktf.IResolvable;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#space_id IntegrationEmail#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#space_id IntegrationEmail#space_id}
   */
   readonly spaceId?: string;
 }
@@ -42,25 +42,25 @@ export interface IntegrationEmailRecipients {
   /**
   * Recipient email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#email IntegrationEmail#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#email IntegrationEmail#email}
   */
   readonly email: string;
   /**
   * Mark this recipient as default. This must be set if auto_create is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#is_default IntegrationEmail#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#is_default IntegrationEmail#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Recipient name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#name IntegrationEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#name IntegrationEmail#name}
   */
   readonly name: string;
   /**
   * Optional reference URL for the recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#reference_url IntegrationEmail#reference_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#reference_url IntegrationEmail#reference_url}
   */
   readonly referenceUrl?: string;
 }
@@ -257,7 +257,7 @@ export class IntegrationEmailRecipientsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email mondoo_integration_email}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email mondoo_integration_email}
 */
 export class IntegrationEmail extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class IntegrationEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationEmail to import
-  * @param importFromId The id of the existing IntegrationEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class IntegrationEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/integration_email mondoo_integration_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_email mondoo_integration_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class IntegrationEmail extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_email',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

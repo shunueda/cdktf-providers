@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CustomFrameworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * URL to the custom compliance framework data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework#data_url CustomFramework#data_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework#data_url CustomFramework#data_url}
   */
   readonly dataUrl: string;
   /**
   * Mondoo space identifier. If there's no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework#space_id CustomFramework#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework#space_id CustomFramework#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework mondoo_custom_framework}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework mondoo_custom_framework}
 */
 export class CustomFramework extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class CustomFramework extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFramework resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFramework to import
-  * @param importFromId The id of the existing CustomFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFramework to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CustomFramework extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.34.0/docs/resources/custom_framework mondoo_custom_framework} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/custom_framework mondoo_custom_framework} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class CustomFramework extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_custom_framework',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0',
-        providerVersionConstraint: '0.34.0'
+        providerVersion: '0.35.0',
+        providerVersionConstraint: '0.35.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

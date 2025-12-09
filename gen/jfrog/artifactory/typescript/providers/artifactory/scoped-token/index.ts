@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ScopedTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of the other instances or services that should accept this token identified by their Service-IDs. Limited to total 255 characters. Default to '*@*' if not set. Service ID must begin with valid JFrog service type. Options: jfrt, jfxr, jfpip, jfds, jfmc, jfac, jfevt, jfmd, jfcon, or *. For instructions to retrieve the Artifactory Service ID see this [documentation](https://jfrog.com/help/r/jfrog-rest-apis/get-service-id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#audiences ScopedToken#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#audiences ScopedToken#audiences}
   */
   readonly audiences?: string[];
   /**
   * Free text token description. Useful for filtering and managing tokens. Limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#description ScopedToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#description ScopedToken#description}
   */
   readonly description?: string;
   /**
   * The amount of time, in seconds, it would take for the token to expire. An admin shall be able to set whether expiry is mandatory, what is the default expiry, and what is the maximum expiry allowed. Must be non-negative. Default value is based on configuration in 'access.config.yaml'. See [API documentation](https://jfrog.com/help/r/jfrog-rest-apis/revoke-token-by-id) for details. Access Token would not be saved by Artifactory if this is less than the persistence threshold value (default to 10800 seconds) set in Access configuration. See [official documentation](https://jfrog.com/help/r/jfrog-platform-administration-documentation/persistency-threshold) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#expires_in ScopedToken#expires_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#expires_in ScopedToken#expires_in}
   */
   readonly expiresIn?: number;
   /**
   * The grant type used to authenticate the request. In this case, the only value supported is `client_credentials` which is also the default value if this parameter is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#grant_type ScopedToken#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#grant_type ScopedToken#grant_type}
   */
   readonly grantType?: string;
   /**
   * Toggle to ignore warning message when token was missing or not created and stored by Artifactory. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#ignore_missing_token_warning ScopedToken#ignore_missing_token_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#ignore_missing_token_warning ScopedToken#ignore_missing_token_warning}
   */
   readonly ignoreMissingTokenWarning?: boolean | cdktf.IResolvable;
   /**
   * Also create a reference token which can be used like an API key. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#include_reference_token ScopedToken#include_reference_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#include_reference_token ScopedToken#include_reference_token}
   */
   readonly includeReferenceToken?: boolean | cdktf.IResolvable;
   /**
   * The project for which this token is created. Enter the project name on which you want to apply this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#project_key ScopedToken#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#project_key ScopedToken#project_key}
   */
   readonly projectKey?: string;
   /**
   * Is this token refreshable? Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#refreshable ScopedToken#refreshable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#refreshable ScopedToken#refreshable}
   */
   readonly refreshable?: boolean | cdktf.IResolvable;
   /**
@@ -80,19 +80,19 @@ export interface ScopedTokenConfig extends cdktf.TerraformMetaArguments {
   * ->The scope to assign to the token should be provided as a list of scope tokens, limited to 500 characters in total.
   * From Artifactory 7.84.3, [project admins](https://jfrog.com/help/r/jfrog-platform-administration-documentation/access-token-creation-by-project-admins) can create access tokens that are tied to the projects in which they hold administrative privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#scopes ScopedToken#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#scopes ScopedToken#scopes}
   */
   readonly scopes?: string[];
   /**
   * The user name for which this token is created. The username is based on the authenticated user - either from the user of the authenticated token or based on the username (if basic auth was used). The username is then used to set the subject of the token: <service-id>/users/<username>. Limited to 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#username ScopedToken#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#username ScopedToken#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token artifactory_scoped_token}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token artifactory_scoped_token}
 */
 export class ScopedToken extends cdktf.TerraformResource {
 
@@ -108,7 +108,7 @@ export class ScopedToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScopedToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScopedToken to import
-  * @param importFromId The id of the existing ScopedToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScopedToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScopedToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class ScopedToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/scoped_token artifactory_scoped_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/scoped_token artifactory_scoped_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,8 +131,8 @@ export class ScopedToken extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_scoped_token',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

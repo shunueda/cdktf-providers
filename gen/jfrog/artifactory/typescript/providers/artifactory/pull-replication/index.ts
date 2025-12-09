@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface PullReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * When true, enables distributed checksum storage. For more information, see [Optimizing Repository Replication with Checksum-Based Storage](https://www.jfrog.com/confluence/display/JFROG/Repository+Replication#RepositoryReplication-OptimizingRepositoryReplicationUsingStorageLevelSynchronizationOptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#check_binary_existence_in_filestore PullReplication#check_binary_existence_in_filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#check_binary_existence_in_filestore PullReplication#check_binary_existence_in_filestore}
   */
   readonly checkBinaryExistenceInFilestore?: boolean | cdktf.IResolvable;
   /**
   * The Cron expression that determines when the next replication will be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#cron_exp PullReplication#cron_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#cron_exp PullReplication#cron_exp}
   */
   readonly cronExp?: string;
   /**
   * When set, each event will trigger replication of the artifacts changed in this event. This can be any type of event on artifact, e.g. add, deleted or property change. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#enable_event_replication PullReplication#enable_event_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#enable_event_replication PullReplication#enable_event_replication}
   */
   readonly enableEventReplication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#enabled PullReplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#enabled PullReplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#id PullReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#id PullReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,57 +39,57 @@ export interface PullReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password for local repository replication. Required for local repository, but not needed for remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#password PullReplication#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#password PullReplication#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#path_prefix PullReplication#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#path_prefix PullReplication#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#proxy PullReplication#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#proxy PullReplication#proxy}
   */
   readonly proxy?: string;
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#repo_key PullReplication#repo_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#repo_key PullReplication#repo_key}
   */
   readonly repoKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#socket_timeout_millis PullReplication#socket_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#socket_timeout_millis PullReplication#socket_timeout_millis}
   */
   readonly socketTimeoutMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#sync_deletes PullReplication#sync_deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#sync_deletes PullReplication#sync_deletes}
   */
   readonly syncDeletes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#sync_properties PullReplication#sync_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#sync_properties PullReplication#sync_properties}
   */
   readonly syncProperties?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#sync_statistics PullReplication#sync_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#sync_statistics PullReplication#sync_statistics}
   */
   readonly syncStatistics?: boolean | cdktf.IResolvable;
   /**
   * URL for local repository replication. Required for local repository, but not needed for remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#url PullReplication#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#url PullReplication#url}
   */
   readonly url?: string;
   /**
   * Username for local repository replication. Required for local repository, but not needed for remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#username PullReplication#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#username PullReplication#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication artifactory_pull_replication}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication artifactory_pull_replication}
 */
 export class PullReplication extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class PullReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullReplication to import
-  * @param importFromId The id of the existing PullReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class PullReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/pull_replication artifactory_pull_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/pull_replication artifactory_pull_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class PullReplication extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_pull_replication',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

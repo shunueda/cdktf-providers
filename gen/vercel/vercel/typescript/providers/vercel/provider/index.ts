@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs
+// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VercelProviderConfig {
   /**
   * The Vercel API Token to use. This can also be specified with the `VERCEL_API_TOKEN` shell environment variable. Tokens can be created from your [Vercel settings](https://vercel.com/account/tokens).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs#api_token VercelProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs#api_token VercelProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * The default Vercel Team to use when creating resources or reading data sources. This can be provided as either a team slug, or team ID. The slug and ID are both available from the Team Settings page in the Vercel dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs#team VercelProvider#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs#team VercelProvider#team}
   */
   readonly team?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs#alias VercelProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs#alias VercelProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs vercel}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs vercel}
 */
 export class VercelProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class VercelProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VercelProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VercelProvider to import
-  * @param importFromId The id of the existing VercelProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VercelProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VercelProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class VercelProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.2/docs vercel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs vercel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class VercelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vercel',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.2',
-        providerVersionConstraint: '4.0.2'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       terraformProviderSource: 'vercel/vercel'
     });

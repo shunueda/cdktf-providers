@@ -1,3 +1,3 @@
 # `catalystcenter_project`
 
-Refer to the Terraform Registry for docs: [`catalystcenter_project`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/project).
+Refer to the Terraform Registry for docs: [`catalystcenter_project`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/project).

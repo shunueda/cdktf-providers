@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataArtifactoryVirtualRpmRepositoryConfig extends cdktf.Terrafo
   /**
   * Whether the virtual repository should search through remote repositories when trying to resolve an artifact requested by another Artifactory instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#artifactory_requests_can_retrieve_remote_artifacts DataArtifactoryVirtualRpmRepository#artifactory_requests_can_retrieve_remote_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#artifactory_requests_can_retrieve_remote_artifacts DataArtifactoryVirtualRpmRepository#artifactory_requests_can_retrieve_remote_artifacts}
   */
   readonly artifactoryRequestsCanRetrieveRemoteArtifacts?: boolean | cdktf.IResolvable;
   /**
   * Default repository to deploy artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#default_deployment_repo DataArtifactoryVirtualRpmRepository#default_deployment_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#default_deployment_repo DataArtifactoryVirtualRpmRepository#default_deployment_repo}
   */
   readonly defaultDeploymentRepo?: string;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#description DataArtifactoryVirtualRpmRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#description DataArtifactoryVirtualRpmRepository#description}
   */
   readonly description?: string;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#excludes_pattern DataArtifactoryVirtualRpmRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#excludes_pattern DataArtifactoryVirtualRpmRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#id DataArtifactoryVirtualRpmRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#id DataArtifactoryVirtualRpmRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ export interface DataArtifactoryVirtualRpmRepositoryConfig extends cdktf.Terrafo
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#includes_pattern DataArtifactoryVirtualRpmRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#includes_pattern DataArtifactoryVirtualRpmRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -51,55 +51,55 @@ export interface DataArtifactoryVirtualRpmRepositoryConfig extends cdktf.Terrafo
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#key DataArtifactoryVirtualRpmRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#key DataArtifactoryVirtualRpmRepository#key}
   */
   readonly key: string;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#notes DataArtifactoryVirtualRpmRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#notes DataArtifactoryVirtualRpmRepository#notes}
   */
   readonly notes?: string;
   /**
   * Primary keypair used to sign artifacts. Default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#primary_keypair_ref DataArtifactoryVirtualRpmRepository#primary_keypair_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#primary_keypair_ref DataArtifactoryVirtualRpmRepository#primary_keypair_ref}
   */
   readonly primaryKeypairRef?: string;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#project_environments DataArtifactoryVirtualRpmRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#project_environments DataArtifactoryVirtualRpmRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#project_key DataArtifactoryVirtualRpmRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#project_key DataArtifactoryVirtualRpmRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * Repository layout key for the virtual repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#repo_layout_ref DataArtifactoryVirtualRpmRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#repo_layout_ref DataArtifactoryVirtualRpmRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * The effective list of actual repositories included in this virtual repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#repositories DataArtifactoryVirtualRpmRepository#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#repositories DataArtifactoryVirtualRpmRepository#repositories}
   */
   readonly repositories?: string[];
   /**
   * Secondary keypair used to sign artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#secondary_keypair_ref DataArtifactoryVirtualRpmRepository#secondary_keypair_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#secondary_keypair_ref DataArtifactoryVirtualRpmRepository#secondary_keypair_ref}
   */
   readonly secondaryKeypairRef?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository artifactory_virtual_rpm_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository artifactory_virtual_rpm_repository}
 */
 export class DataArtifactoryVirtualRpmRepository extends cdktf.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataArtifactoryVirtualRpmRepository extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataArtifactoryVirtualRpmRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryVirtualRpmRepository to import
-  * @param importFromId The id of the existing DataArtifactoryVirtualRpmRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryVirtualRpmRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryVirtualRpmRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataArtifactoryVirtualRpmRepository extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/virtual_rpm_repository artifactory_virtual_rpm_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/data-sources/virtual_rpm_repository artifactory_virtual_rpm_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,8 +138,8 @@ export class DataArtifactoryVirtualRpmRepository extends cdktf.TerraformDataSour
       terraformResourceType: 'artifactory_virtual_rpm_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

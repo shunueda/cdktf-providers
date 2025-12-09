@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PasswordExpirationPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Enable Password Expiration Policy. This only applies to internal user passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy#enabled PasswordExpirationPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy#enabled PasswordExpirationPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of the resource. Only used for importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy#name PasswordExpirationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy#name PasswordExpirationPolicy#name}
   */
   readonly name: string;
   /**
   * Send mail notification before password expiration. Users will receive an email notification a few days before password will expire. Mail server must be enabled and configured correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy#notify_by_email PasswordExpirationPolicy#notify_by_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy#notify_by_email PasswordExpirationPolicy#notify_by_email}
   */
   readonly notifyByEmail: boolean | cdktf.IResolvable;
   /**
   * Password expires every N days. The time interval in which users will be obligated to change their password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy#password_max_age PasswordExpirationPolicy#password_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy#password_max_age PasswordExpirationPolicy#password_max_age}
   */
   readonly passwordMaxAge: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy artifactory_password_expiration_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy artifactory_password_expiration_policy}
 */
 export class PasswordExpirationPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PasswordExpirationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PasswordExpirationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PasswordExpirationPolicy to import
-  * @param importFromId The id of the existing PasswordExpirationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PasswordExpirationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PasswordExpirationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PasswordExpirationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/password_expiration_policy artifactory_password_expiration_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.1/docs/resources/password_expiration_policy artifactory_password_expiration_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PasswordExpirationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_password_expiration_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.11.0',
-        providerVersionConstraint: '12.11.0'
+        providerVersion: '12.11.1',
+        providerVersionConstraint: '12.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

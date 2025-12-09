@@ -88,6 +88,7 @@ Object.defineProperty(exports, 'localGoRepository', { get: function () { return 
 Object.defineProperty(exports, 'localGradleRepository', { get: function () { return require('./local-gradle-repository'); } });
 Object.defineProperty(exports, 'localHelmRepository', { get: function () { return require('./local-helm-repository'); } });
 Object.defineProperty(exports, 'localHelmociRepository', { get: function () { return require('./local-helmoci-repository'); } });
+Object.defineProperty(exports, 'localHexRepository', { get: function () { return require('./local-hex-repository'); } });
 Object.defineProperty(exports, 'localHuggingfacemlRepository', { get: function () { return require('./local-huggingfaceml-repository'); } });
 Object.defineProperty(exports, 'localIvyRepository', { get: function () { return require('./local-ivy-repository'); } });
 Object.defineProperty(exports, 'localMachinelearningRepository', { get: function () { return require('./local-machinelearning-repository'); } });
@@ -146,6 +147,7 @@ Object.defineProperty(exports, 'remoteGoRepository', { get: function () { return
 Object.defineProperty(exports, 'remoteGradleRepository', { get: function () { return require('./remote-gradle-repository'); } });
 Object.defineProperty(exports, 'remoteHelmRepository', { get: function () { return require('./remote-helm-repository'); } });
 Object.defineProperty(exports, 'remoteHelmociRepository', { get: function () { return require('./remote-helmoci-repository'); } });
+Object.defineProperty(exports, 'remoteHexRepository', { get: function () { return require('./remote-hex-repository'); } });
 Object.defineProperty(exports, 'remoteHuggingfacemlRepository', { get: function () { return require('./remote-huggingfaceml-repository'); } });
 Object.defineProperty(exports, 'remoteIvyRepository', { get: function () { return require('./remote-ivy-repository'); } });
 Object.defineProperty(exports, 'remoteMavenRepository', { get: function () { return require('./remote-maven-repository'); } });
@@ -190,6 +192,7 @@ Object.defineProperty(exports, 'virtualGoRepository', { get: function () { retur
 Object.defineProperty(exports, 'virtualGradleRepository', { get: function () { return require('./virtual-gradle-repository'); } });
 Object.defineProperty(exports, 'virtualHelmRepository', { get: function () { return require('./virtual-helm-repository'); } });
 Object.defineProperty(exports, 'virtualHelmociRepository', { get: function () { return require('./virtual-helmoci-repository'); } });
+Object.defineProperty(exports, 'virtualHexRepository', { get: function () { return require('./virtual-hex-repository'); } });
 Object.defineProperty(exports, 'virtualIvyRepository', { get: function () { return require('./virtual-ivy-repository'); } });
 Object.defineProperty(exports, 'virtualMavenRepository', { get: function () { return require('./virtual-maven-repository'); } });
 Object.defineProperty(exports, 'virtualNpmRepository', { get: function () { return require('./virtual-npm-repository'); } });
@@ -263,6 +266,7 @@ Object.defineProperty(exports, 'dataArtifactoryLocalGitlfsRepository', { get: fu
 Object.defineProperty(exports, 'dataArtifactoryLocalGoRepository', { get: function () { return require('./data-artifactory-local-go-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryLocalGradleRepository', { get: function () { return require('./data-artifactory-local-gradle-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryLocalHelmociRepository', { get: function () { return require('./data-artifactory-local-helmoci-repository'); } });
+Object.defineProperty(exports, 'dataArtifactoryLocalHexRepository', { get: function () { return require('./data-artifactory-local-hex-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryLocalHuggingfacemlRepository', { get: function () { return require('./data-artifactory-local-huggingfaceml-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryLocalIvyRepository', { get: function () { return require('./data-artifactory-local-ivy-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryLocalMavenRepository', { get: function () { return require('./data-artifactory-local-maven-repository'); } });
@@ -299,6 +303,7 @@ Object.defineProperty(exports, 'dataArtifactoryRemoteGoRepository', { get: funct
 Object.defineProperty(exports, 'dataArtifactoryRemoteGradleRepository', { get: function () { return require('./data-artifactory-remote-gradle-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryRemoteHelmRepository', { get: function () { return require('./data-artifactory-remote-helm-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryRemoteHelmociRepository', { get: function () { return require('./data-artifactory-remote-helmoci-repository'); } });
+Object.defineProperty(exports, 'dataArtifactoryRemoteHexRepository', { get: function () { return require('./data-artifactory-remote-hex-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryRemoteIvyRepository', { get: function () { return require('./data-artifactory-remote-ivy-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryRemoteMavenRepository', { get: function () { return require('./data-artifactory-remote-maven-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryRemoteNpmRepository', { get: function () { return require('./data-artifactory-remote-npm-repository'); } });
@@ -334,6 +339,7 @@ Object.defineProperty(exports, 'dataArtifactoryVirtualGoRepository', { get: func
 Object.defineProperty(exports, 'dataArtifactoryVirtualGradleRepository', { get: function () { return require('./data-artifactory-virtual-gradle-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryVirtualHelmRepository', { get: function () { return require('./data-artifactory-virtual-helm-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryVirtualHelmociRepository', { get: function () { return require('./data-artifactory-virtual-helmoci-repository'); } });
+Object.defineProperty(exports, 'dataArtifactoryVirtualHexRepository', { get: function () { return require('./data-artifactory-virtual-hex-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryVirtualIvyRepository', { get: function () { return require('./data-artifactory-virtual-ivy-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryVirtualMavenRepository', { get: function () { return require('./data-artifactory-virtual-maven-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryVirtualNpmRepository', { get: function () { return require('./data-artifactory-virtual-npm-repository'); } });
