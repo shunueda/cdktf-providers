@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateFilterEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#arp_flag SchemaTemplateFilterEntry#arp_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#arp_flag SchemaTemplateFilterEntry#arp_flag}
   */
   readonly arpFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#destination_from SchemaTemplateFilterEntry#destination_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#destination_from SchemaTemplateFilterEntry#destination_from}
   */
   readonly destinationFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#destination_to SchemaTemplateFilterEntry#destination_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#destination_to SchemaTemplateFilterEntry#destination_to}
   */
   readonly destinationTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#display_name SchemaTemplateFilterEntry#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#display_name SchemaTemplateFilterEntry#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#entry_description SchemaTemplateFilterEntry#entry_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#entry_description SchemaTemplateFilterEntry#entry_description}
   */
   readonly entryDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#entry_display_name SchemaTemplateFilterEntry#entry_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#entry_display_name SchemaTemplateFilterEntry#entry_display_name}
   */
   readonly entryDisplayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#entry_name SchemaTemplateFilterEntry#entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#entry_name SchemaTemplateFilterEntry#entry_name}
   */
   readonly entryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#ether_type SchemaTemplateFilterEntry#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#ether_type SchemaTemplateFilterEntry#ether_type}
   */
   readonly etherType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#id SchemaTemplateFilterEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#id SchemaTemplateFilterEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#ip_protocol SchemaTemplateFilterEntry#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#ip_protocol SchemaTemplateFilterEntry#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#match_only_fragments SchemaTemplateFilterEntry#match_only_fragments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#match_only_fragments SchemaTemplateFilterEntry#match_only_fragments}
   */
   readonly matchOnlyFragments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#name SchemaTemplateFilterEntry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#name SchemaTemplateFilterEntry#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#schema_id SchemaTemplateFilterEntry#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#schema_id SchemaTemplateFilterEntry#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#source_from SchemaTemplateFilterEntry#source_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#source_from SchemaTemplateFilterEntry#source_from}
   */
   readonly sourceFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#source_to SchemaTemplateFilterEntry#source_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#source_to SchemaTemplateFilterEntry#source_to}
   */
   readonly sourceTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#stateful SchemaTemplateFilterEntry#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#stateful SchemaTemplateFilterEntry#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#tcp_session_rules SchemaTemplateFilterEntry#tcp_session_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#tcp_session_rules SchemaTemplateFilterEntry#tcp_session_rules}
   */
   readonly tcpSessionRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#template_name SchemaTemplateFilterEntry#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#template_name SchemaTemplateFilterEntry#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry mso_schema_template_filter_entry}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry mso_schema_template_filter_entry}
 */
 export class SchemaTemplateFilterEntry extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class SchemaTemplateFilterEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateFilterEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateFilterEntry to import
-  * @param importFromId The id of the existing SchemaTemplateFilterEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateFilterEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateFilterEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class SchemaTemplateFilterEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_filter_entry mso_schema_template_filter_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_filter_entry mso_schema_template_filter_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class SchemaTemplateFilterEntry extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_filter_entry',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

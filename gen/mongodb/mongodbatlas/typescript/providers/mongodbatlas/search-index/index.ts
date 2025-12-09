@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface SearchIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#analyzer SearchIndex#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#analyzer SearchIndex#analyzer}
   */
   readonly analyzer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#analyzers SearchIndex#analyzers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#analyzers SearchIndex#analyzers}
   */
   readonly analyzers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#cluster_name SearchIndex#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#cluster_name SearchIndex#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#collection_name SearchIndex#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#collection_name SearchIndex#collection_name}
   */
   readonly collectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#database SearchIndex#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#database SearchIndex#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#fields SearchIndex#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#fields SearchIndex#fields}
   */
   readonly fields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#id SearchIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#id SearchIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#mappings_dynamic SearchIndex#mappings_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#mappings_dynamic SearchIndex#mappings_dynamic}
   */
   readonly mappingsDynamic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#mappings_fields SearchIndex#mappings_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#mappings_dynamic_config SearchIndex#mappings_dynamic_config}
+  */
+  readonly mappingsDynamicConfig?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#mappings_fields SearchIndex#mappings_fields}
   */
   readonly mappingsFields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#name SearchIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#name SearchIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#project_id SearchIndex#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#project_id SearchIndex#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#search_analyzer SearchIndex#search_analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#search_analyzer SearchIndex#search_analyzer}
   */
   readonly searchAnalyzer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#stored_source SearchIndex#stored_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#stored_source SearchIndex#stored_source}
   */
   readonly storedSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#type SearchIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#type SearchIndex#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#wait_for_index_build_completion SearchIndex#wait_for_index_build_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#wait_for_index_build_completion SearchIndex#wait_for_index_build_completion}
   */
   readonly waitForIndexBuildCompletion?: boolean | cdktf.IResolvable;
   /**
   * synonyms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#synonyms SearchIndex#synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#synonyms SearchIndex#synonyms}
   */
   readonly synonyms?: SearchIndexSynonyms[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#timeouts SearchIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#timeouts SearchIndex#timeouts}
   */
   readonly timeouts?: SearchIndexTimeouts;
+  /**
+  * type_sets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#type_sets SearchIndex#type_sets}
+  */
+  readonly typeSets?: SearchIndexTypeSets[] | cdktf.IResolvable;
 }
 export interface SearchIndexSynonyms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#analyzer SearchIndex#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#analyzer SearchIndex#analyzer}
   */
   readonly analyzer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#name SearchIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#name SearchIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#source_collection SearchIndex#source_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#source_collection SearchIndex#source_collection}
   */
   readonly sourceCollection: string;
 }
@@ -258,15 +268,15 @@ export class SearchIndexSynonymsList extends cdktf.ComplexList {
 }
 export interface SearchIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#create SearchIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#create SearchIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#delete SearchIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#delete SearchIndex#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#update SearchIndex#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#update SearchIndex#update}
   */
   readonly update?: string;
 }
@@ -416,9 +426,155 @@ export class SearchIndexTimeoutsOutputReference extends cdktf.ComplexObject {
     return this._update;
   }
 }
+export interface SearchIndexTypeSets {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#name SearchIndex#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#types SearchIndex#types}
+  */
+  readonly types?: string;
+}
+
+export function searchIndexTypeSetsToTerraform(struct?: SearchIndexTypeSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    types: cdktf.stringToTerraform(struct!.types),
+  }
+}
+
+
+export function searchIndexTypeSetsToHclTerraform(struct?: SearchIndexTypeSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    types: {
+      value: cdktf.stringToHclTerraform(struct!.types),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SearchIndexTypeSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SearchIndexTypeSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._types !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.types = this._types;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SearchIndexTypeSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._types = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._types = value.types;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // types - computed: false, optional: true, required: false
+  private _types?: string; 
+  public get types() {
+    return this.getStringAttribute('types');
+  }
+  public set types(value: string) {
+    this._types = value;
+  }
+  public resetTypes() {
+    this._types = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typesInput() {
+    return this._types;
+  }
+}
+
+export class SearchIndexTypeSetsList extends cdktf.ComplexList {
+  public internalValue? : SearchIndexTypeSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SearchIndexTypeSetsOutputReference {
+    return new SearchIndexTypeSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index mongodbatlas_search_index}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index mongodbatlas_search_index}
 */
 export class SearchIndex extends cdktf.TerraformResource {
 
@@ -434,7 +590,7 @@ export class SearchIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchIndex to import
-  * @param importFromId The id of the existing SearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +602,7 @@ export class SearchIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/search_index mongodbatlas_search_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/search_index mongodbatlas_search_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +613,8 @@ export class SearchIndex extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_search_index',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -476,6 +632,7 @@ export class SearchIndex extends cdktf.TerraformResource {
     this._fields = config.fields;
     this._id = config.id;
     this._mappingsDynamic = config.mappingsDynamic;
+    this._mappingsDynamicConfig = config.mappingsDynamicConfig;
     this._mappingsFields = config.mappingsFields;
     this._name = config.name;
     this._projectId = config.projectId;
@@ -485,6 +642,7 @@ export class SearchIndex extends cdktf.TerraformResource {
     this._waitForIndexBuildCompletion = config.waitForIndexBuildCompletion;
     this._synonyms.internalValue = config.synonyms;
     this._timeouts.internalValue = config.timeouts;
+    this._typeSets.internalValue = config.typeSets;
   }
 
   // ==========
@@ -613,6 +771,22 @@ export class SearchIndex extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get mappingsDynamicInput() {
     return this._mappingsDynamic;
+  }
+
+  // mappings_dynamic_config - computed: false, optional: true, required: false
+  private _mappingsDynamicConfig?: string; 
+  public get mappingsDynamicConfig() {
+    return this.getStringAttribute('mappings_dynamic_config');
+  }
+  public set mappingsDynamicConfig(value: string) {
+    this._mappingsDynamicConfig = value;
+  }
+  public resetMappingsDynamicConfig() {
+    this._mappingsDynamicConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mappingsDynamicConfigInput() {
+    return this._mappingsDynamicConfig;
   }
 
   // mappings_fields - computed: false, optional: true, required: false
@@ -758,6 +932,22 @@ export class SearchIndex extends cdktf.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // type_sets - computed: false, optional: true, required: false
+  private _typeSets = new SearchIndexTypeSetsList(this, "type_sets", true);
+  public get typeSets() {
+    return this._typeSets;
+  }
+  public putTypeSets(value: SearchIndexTypeSets[] | cdktf.IResolvable) {
+    this._typeSets.internalValue = value;
+  }
+  public resetTypeSets() {
+    this._typeSets.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeSetsInput() {
+    return this._typeSets.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -772,6 +962,7 @@ export class SearchIndex extends cdktf.TerraformResource {
       fields: cdktf.stringToTerraform(this._fields),
       id: cdktf.stringToTerraform(this._id),
       mappings_dynamic: cdktf.booleanToTerraform(this._mappingsDynamic),
+      mappings_dynamic_config: cdktf.stringToTerraform(this._mappingsDynamicConfig),
       mappings_fields: cdktf.stringToTerraform(this._mappingsFields),
       name: cdktf.stringToTerraform(this._name),
       project_id: cdktf.stringToTerraform(this._projectId),
@@ -781,6 +972,7 @@ export class SearchIndex extends cdktf.TerraformResource {
       wait_for_index_build_completion: cdktf.booleanToTerraform(this._waitForIndexBuildCompletion),
       synonyms: cdktf.listMapper(searchIndexSynonymsToTerraform, true)(this._synonyms.internalValue),
       timeouts: searchIndexTimeoutsToTerraform(this._timeouts.internalValue),
+      type_sets: cdktf.listMapper(searchIndexTypeSetsToTerraform, true)(this._typeSets.internalValue),
     };
   }
 
@@ -833,6 +1025,12 @@ export class SearchIndex extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      mappings_dynamic_config: {
+        value: cdktf.stringToHclTerraform(this._mappingsDynamicConfig),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       mappings_fields: {
         value: cdktf.stringToHclTerraform(this._mappingsFields),
@@ -887,6 +1085,12 @@ export class SearchIndex extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "SearchIndexTimeouts",
+      },
+      type_sets: {
+        value: cdktf.listMapperHcl(searchIndexTypeSetsToHclTerraform, true)(this._typeSets.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "SearchIndexTypeSetsList",
       },
     };
 

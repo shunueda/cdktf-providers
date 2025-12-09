@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BmServerVdcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Admin account for this bare-metal server OS. For linux, this must be 'root'. For Windows, this must not be 'administrator'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#admin_account BmServerVdc#admin_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#admin_account BmServerVdc#admin_account}
   */
   readonly adminAccount?: string;
   /**
   * Admin account password for this bare-metal server OS. (CAUTION) The actual plain-text password will be sent to your email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#admin_password BmServerVdc#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#admin_password BmServerVdc#admin_password}
   */
   readonly adminPassword: string;
   /**
   * BLOCK ID of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#block_id BmServerVdc#block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#block_id BmServerVdc#block_id}
   */
   readonly blockId: string;
   /**
   * Contract : None, 1 Year, 3 Year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#contract_discount BmServerVdc#contract_discount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#contract_discount BmServerVdc#contract_discount}
   */
   readonly contractDiscount: string;
   /**
   * CPU core count(8, 16, ..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#cpu_count BmServerVdc#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#cpu_count BmServerVdc#cpu_count}
   */
   readonly cpuCount: number;
   /**
   * Enable delete protection for this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#delete_protection BmServerVdc#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#delete_protection BmServerVdc#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#id BmServerVdc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#id BmServerVdc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,59 +53,59 @@ export interface BmServerVdcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image name of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#image_name BmServerVdc#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#image_name BmServerVdc#image_name}
   */
   readonly imageName: string;
   /**
   * Initialization script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#initial_script BmServerVdc#initial_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#initial_script BmServerVdc#initial_script}
   */
   readonly initialScript?: string;
   /**
   * Memory size in gigabytes(16, 32,..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#memory_size BmServerVdc#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#memory_size BmServerVdc#memory_size}
   */
   readonly memorySize: number;
   /**
   * SERVICE ZONE ID of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#service_zone_id BmServerVdc#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#service_zone_id BmServerVdc#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this bare-metal server. Subnet must be a valid subnet resource which is attached to the VDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#subnet_id BmServerVdc#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#subnet_id BmServerVdc#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#tags BmServerVdc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#tags BmServerVdc#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VDC ID of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#vdc_id BmServerVdc#vdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#vdc_id BmServerVdc#vdc_id}
   */
   readonly vdcId: string;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#block_storages BmServerVdc#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#block_storages BmServerVdc#block_storages}
   */
   readonly blockStorages?: BmServerVdcBlockStorages[] | cdktf.IResolvable;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#servers BmServerVdc#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#servers BmServerVdc#servers}
   */
   readonly servers: BmServerVdcServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#timeouts BmServerVdc#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#timeouts BmServerVdc#timeouts}
   */
   readonly timeouts?: BmServerVdcTimeouts;
 }
@@ -113,25 +113,25 @@ export interface BmServerVdcBlockStorages {
   /**
   * Use encryption for this storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#encrypted BmServerVdc#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#encrypted BmServerVdc#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * Block storage name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#name BmServerVdc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#name BmServerVdc#name}
   */
   readonly name: string;
   /**
   * Storage product name : SSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#product_name BmServerVdc#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#product_name BmServerVdc#product_name}
   */
   readonly productName?: string;
   /**
   * Storage size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#storage_size_gb BmServerVdc#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#storage_size_gb BmServerVdc#storage_size_gb}
   */
   readonly storageSizeGb: number;
 }
@@ -330,25 +330,25 @@ export interface BmServerVdcServers {
   /**
   * Enable DNS feature for this bare-metal server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#dns_enabled BmServerVdc#dns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#dns_enabled BmServerVdc#dns_enabled}
   */
   readonly dnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * IP address of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#ip_address BmServerVdc#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#ip_address BmServerVdc#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#name BmServerVdc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#name BmServerVdc#name}
   */
   readonly name: string;
   /**
   * Enable hyper-threading feature for this bare-metal server.(ex Y, N)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#use_hyper_threading BmServerVdc#use_hyper_threading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#use_hyper_threading BmServerVdc#use_hyper_threading}
   */
   readonly useHyperThreading?: string;
 }
@@ -548,15 +548,15 @@ export class BmServerVdcServersList extends cdktf.ComplexList {
 }
 export interface BmServerVdcTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#create BmServerVdc#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#create BmServerVdc#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#delete BmServerVdc#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#delete BmServerVdc#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#update BmServerVdc#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#update BmServerVdc#update}
   */
   readonly update?: string;
 }
@@ -708,7 +708,7 @@ export class BmServerVdcTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc samsungcloudplatform_bm_server_vdc}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc samsungcloudplatform_bm_server_vdc}
 */
 export class BmServerVdc extends cdktf.TerraformResource {
 
@@ -724,7 +724,7 @@ export class BmServerVdc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmServerVdc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmServerVdc to import
-  * @param importFromId The id of the existing BmServerVdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmServerVdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmServerVdc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -736,7 +736,7 @@ export class BmServerVdc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server_vdc samsungcloudplatform_bm_server_vdc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server_vdc samsungcloudplatform_bm_server_vdc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,8 +747,8 @@ export class BmServerVdc extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_bm_server_vdc',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

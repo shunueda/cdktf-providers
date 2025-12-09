@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateAnpEpgContractConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#anp_name SchemaTemplateAnpEpgContract#anp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#anp_name SchemaTemplateAnpEpgContract#anp_name}
   */
   readonly anpName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#contract_name SchemaTemplateAnpEpgContract#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#contract_name SchemaTemplateAnpEpgContract#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#contract_schema_id SchemaTemplateAnpEpgContract#contract_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#contract_schema_id SchemaTemplateAnpEpgContract#contract_schema_id}
   */
   readonly contractSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#contract_template_name SchemaTemplateAnpEpgContract#contract_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#contract_template_name SchemaTemplateAnpEpgContract#contract_template_name}
   */
   readonly contractTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#epg_name SchemaTemplateAnpEpgContract#epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#epg_name SchemaTemplateAnpEpgContract#epg_name}
   */
   readonly epgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#id SchemaTemplateAnpEpgContract#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#id SchemaTemplateAnpEpgContract#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#relationship_type SchemaTemplateAnpEpgContract#relationship_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#relationship_type SchemaTemplateAnpEpgContract#relationship_type}
   */
   readonly relationshipType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#schema_id SchemaTemplateAnpEpgContract#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#schema_id SchemaTemplateAnpEpgContract#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#template_name SchemaTemplateAnpEpgContract#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#template_name SchemaTemplateAnpEpgContract#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract mso_schema_template_anp_epg_contract}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract mso_schema_template_anp_epg_contract}
 */
 export class SchemaTemplateAnpEpgContract extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SchemaTemplateAnpEpgContract extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateAnpEpgContract resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateAnpEpgContract to import
-  * @param importFromId The id of the existing SchemaTemplateAnpEpgContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateAnpEpgContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateAnpEpgContract to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SchemaTemplateAnpEpgContract extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_contract mso_schema_template_anp_epg_contract} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_contract mso_schema_template_anp_epg_contract} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SchemaTemplateAnpEpgContract extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_anp_epg_contract',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

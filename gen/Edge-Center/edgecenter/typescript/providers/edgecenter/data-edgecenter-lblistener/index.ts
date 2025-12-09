@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterLblistenerConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the load balancer listener. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#id DataEdgecenterLblistener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#id DataEdgecenterLblistener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,43 +19,43 @@ export interface DataEdgecenterLblistenerConfig extends cdktf.TerraformMetaArgum
   /**
   * The uuid for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#loadbalancer_id DataEdgecenterLblistener#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#loadbalancer_id DataEdgecenterLblistener#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * The name of the load balancer listener. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#name DataEdgecenterLblistener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#name DataEdgecenterLblistener#name}
   */
   readonly name?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#project_id DataEdgecenterLblistener#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#project_id DataEdgecenterLblistener#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#project_name DataEdgecenterLblistener#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#project_name DataEdgecenterLblistener#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#region_id DataEdgecenterLblistener#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#region_id DataEdgecenterLblistener#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#region_name DataEdgecenterLblistener#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#region_name DataEdgecenterLblistener#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener edgecenter_lblistener}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener edgecenter_lblistener}
 */
 export class DataEdgecenterLblistener extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataEdgecenterLblistener extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterLblistener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterLblistener to import
-  * @param importFromId The id of the existing DataEdgecenterLblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterLblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterLblistener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataEdgecenterLblistener extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lblistener edgecenter_lblistener} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lblistener edgecenter_lblistener} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataEdgecenterLblistener extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_lblistener',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

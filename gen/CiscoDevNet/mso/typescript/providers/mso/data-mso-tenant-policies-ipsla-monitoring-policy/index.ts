@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataMsoTenantPoliciesIpslaMonitoringPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#id DataMsoTenantPoliciesIpslaMonitoringPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#id DataMsoTenantPoliciesIpslaMonitoringPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#name DataMsoTenantPoliciesIpslaMonitoringPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#name DataMsoTenantPoliciesIpslaMonitoringPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#template_id DataMsoTenantPoliciesIpslaMonitoringPolicy#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#template_id DataMsoTenantPoliciesIpslaMonitoringPolicy#template_id}
   */
   readonly templateId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy mso_tenant_policies_ipsla_monitoring_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy mso_tenant_policies_ipsla_monitoring_policy}
 */
 export class DataMsoTenantPoliciesIpslaMonitoringPolicy extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMsoTenantPoliciesIpslaMonitoringPolicy extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataMsoTenantPoliciesIpslaMonitoringPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsoTenantPoliciesIpslaMonitoringPolicy to import
-  * @param importFromId The id of the existing DataMsoTenantPoliciesIpslaMonitoringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsoTenantPoliciesIpslaMonitoringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsoTenantPoliciesIpslaMonitoringPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMsoTenantPoliciesIpslaMonitoringPolicy extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy mso_tenant_policies_ipsla_monitoring_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/tenant_policies_ipsla_monitoring_policy mso_tenant_policies_ipsla_monitoring_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMsoTenantPoliciesIpslaMonitoringPolicy extends cdktf.TerraformD
       terraformResourceType: 'mso_tenant_policies_ipsla_monitoring_policy',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

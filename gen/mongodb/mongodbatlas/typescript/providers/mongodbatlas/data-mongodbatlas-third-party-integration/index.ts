@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataMongodbatlasThirdPartyIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration#project_id DataMongodbatlasThirdPartyIntegration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration#project_id DataMongodbatlasThirdPartyIntegration#project_id}
   */
   readonly projectId: string;
   /**
   * Third-party service integration identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration#type DataMongodbatlasThirdPartyIntegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration#type DataMongodbatlasThirdPartyIntegration#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration mongodbatlas_third_party_integration}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration mongodbatlas_third_party_integration}
 */
 export class DataMongodbatlasThirdPartyIntegration extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataMongodbatlasThirdPartyIntegration extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataMongodbatlasThirdPartyIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasThirdPartyIntegration to import
-  * @param importFromId The id of the existing DataMongodbatlasThirdPartyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasThirdPartyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasThirdPartyIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataMongodbatlasThirdPartyIntegration extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/third_party_integration mongodbatlas_third_party_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/third_party_integration mongodbatlas_third_party_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataMongodbatlasThirdPartyIntegration extends cdktf.TerraformDataSo
       terraformResourceType: 'mongodbatlas_third_party_integration',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

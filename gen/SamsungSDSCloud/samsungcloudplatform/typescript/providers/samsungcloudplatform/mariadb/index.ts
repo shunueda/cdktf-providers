@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,47 @@ export interface MariadbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to use database audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#audit_enabled Mariadb#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#audit_enabled Mariadb#audit_enabled}
   */
   readonly auditEnabled: boolean | cdktf.IResolvable;
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#contract_period Mariadb#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Mariadb encoding. (utf8|utf8mb4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#database_character_set Mariadb#database_character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#database_character_set Mariadb#database_character_set}
   */
   readonly databaseCharacterSet: string;
   /**
   * Name of database. (only English alphabets or numbers between 3 and 20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#database_name Mariadb#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#database_name Mariadb#database_name}
   */
   readonly databaseName: string;
   /**
   * Port number of database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#database_port Mariadb#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#database_port Mariadb#database_port}
   */
   readonly databasePort: number;
   /**
   * User account id of database. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#database_user_name Mariadb#database_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#database_user_name Mariadb#database_user_name}
   */
   readonly databaseUserName: string;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#database_user_password Mariadb#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#database_user_password Mariadb#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#encryption_enabled Mariadb#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#encryption_enabled Mariadb#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#id Mariadb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#id Mariadb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,95 +59,89 @@ export interface MariadbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mariadb virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#image_id Mariadb#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#image_id Mariadb#image_id}
   */
   readonly imageId: string;
   /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#mariadb_cluster_name Mariadb#mariadb_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#mariadb_cluster_name Mariadb#mariadb_cluster_name}
   */
   readonly mariadbClusterName: string;
   /**
   * Mariadb cluster state (RUNNING|STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#mariadb_cluster_state Mariadb#mariadb_cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#mariadb_cluster_state Mariadb#mariadb_cluster_state}
   */
   readonly mariadbClusterState: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#nat_enabled Mariadb#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#nat_enabled Mariadb#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#nat_public_ip_id Mariadb#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#nat_public_ip_id Mariadb#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
-  * Next contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#next_contract_period Mariadb#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Security-Group ids of this Mariadb DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#security_group_ids Mariadb#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#security_group_ids Mariadb#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#server_type Mariadb#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#server_type Mariadb#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#service_zone_id Mariadb#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#service_zone_id Mariadb#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#subnet_id Mariadb#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#subnet_id Mariadb#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#tags Mariadb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#tags Mariadb#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#timezone Mariadb#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#timezone Mariadb#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#backup Mariadb#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#backup Mariadb#backup}
   */
   readonly backup?: MariadbBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#block_storages Mariadb#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#block_storages Mariadb#block_storages}
   */
   readonly blockStorages: MariadbBlockStorages[] | cdktf.IResolvable;
   /**
   * mariadb_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#mariadb_servers Mariadb#mariadb_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#mariadb_servers Mariadb#mariadb_servers}
   */
   readonly mariadbServers: MariadbMariadbServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#timeouts Mariadb#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#timeouts Mariadb#timeouts}
   */
   readonly timeouts?: MariadbTimeouts;
 }
@@ -161,25 +149,25 @@ export interface MariadbBackup {
   /**
   * Backup File Schedule Frequency.(5M|10M|30M|1H) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#archive_backup_schedule_frequency Mariadb#archive_backup_schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#archive_backup_schedule_frequency Mariadb#archive_backup_schedule_frequency}
   */
   readonly archiveBackupScheduleFrequency: string;
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#backup_retention_period Mariadb#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#backup_retention_period Mariadb#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#backup_start_hour Mariadb#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#backup_start_hour Mariadb#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#object_storage_id Mariadb#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#object_storage_id Mariadb#object_storage_id}
   */
   readonly objectStorageId?: string;
 }
@@ -343,19 +331,19 @@ export interface MariadbBlockStorages {
   /**
   * Storage usage. (DATA|ARCHIVE|TEMP|BACKUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#block_storage_role_type Mariadb#block_storage_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#block_storage_role_type Mariadb#block_storage_role_type}
   */
   readonly blockStorageRoleType: string;
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#block_storage_size Mariadb#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#block_storage_size Mariadb#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#block_storage_type Mariadb#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#block_storage_type Mariadb#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -527,19 +515,19 @@ export interface MariadbMariadbServers {
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#availability_zone_name Mariadb#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#availability_zone_name Mariadb#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * MariaDB database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#mariadb_server_name Mariadb#mariadb_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#mariadb_server_name Mariadb#mariadb_server_name}
   */
   readonly mariadbServerName: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | STANDBY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#server_role_type Mariadb#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#server_role_type Mariadb#server_role_type}
   */
   readonly serverRoleType: string;
 }
@@ -707,15 +695,15 @@ export class MariadbMariadbServersList extends cdktf.ComplexList {
 }
 export interface MariadbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#create Mariadb#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#create Mariadb#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#delete Mariadb#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#delete Mariadb#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#update Mariadb#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#update Mariadb#update}
   */
   readonly update?: string;
 }
@@ -867,7 +855,7 @@ export class MariadbTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb samsungcloudplatform_mariadb}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb samsungcloudplatform_mariadb}
 */
 export class Mariadb extends cdktf.TerraformResource {
 
@@ -883,7 +871,7 @@ export class Mariadb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mariadb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mariadb to import
-  * @param importFromId The id of the existing Mariadb that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mariadb that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mariadb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -895,7 +883,7 @@ export class Mariadb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mariadb samsungcloudplatform_mariadb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mariadb samsungcloudplatform_mariadb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -906,8 +894,8 @@ export class Mariadb extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_mariadb',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -918,7 +906,6 @@ export class Mariadb extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._auditEnabled = config.auditEnabled;
-    this._contractPeriod = config.contractPeriod;
     this._databaseCharacterSet = config.databaseCharacterSet;
     this._databaseName = config.databaseName;
     this._databasePort = config.databasePort;
@@ -931,7 +918,6 @@ export class Mariadb extends cdktf.TerraformResource {
     this._mariadbClusterState = config.mariadbClusterState;
     this._natEnabled = config.natEnabled;
     this._natPublicIpId = config.natPublicIpId;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._securityGroupIds = config.securityGroupIds;
     this._serverType = config.serverType;
     this._serviceZoneId = config.serviceZoneId;
@@ -959,19 +945,6 @@ export class Mariadb extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get auditEnabledInput() {
     return this._auditEnabled;
-  }
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
   }
 
   // database_character_set - computed: false, optional: false, required: true
@@ -1144,22 +1117,6 @@ export class Mariadb extends cdktf.TerraformResource {
     return this._natPublicIpId;
   }
 
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
-  }
-
   // security_group_ids - computed: false, optional: false, required: true
   private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
@@ -1316,7 +1273,6 @@ export class Mariadb extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       audit_enabled: cdktf.booleanToTerraform(this._auditEnabled),
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_character_set: cdktf.stringToTerraform(this._databaseCharacterSet),
       database_name: cdktf.stringToTerraform(this._databaseName),
       database_port: cdktf.numberToTerraform(this._databasePort),
@@ -1329,7 +1285,6 @@ export class Mariadb extends cdktf.TerraformResource {
       mariadb_cluster_state: cdktf.stringToTerraform(this._mariadbClusterState),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
       nat_public_ip_id: cdktf.stringToTerraform(this._natPublicIpId),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       server_type: cdktf.stringToTerraform(this._serverType),
       service_zone_id: cdktf.stringToTerraform(this._serviceZoneId),
@@ -1350,12 +1305,6 @@ export class Mariadb extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       database_character_set: {
         value: cdktf.stringToHclTerraform(this._databaseCharacterSet),
@@ -1425,12 +1374,6 @@ export class Mariadb extends cdktf.TerraformResource {
       },
       nat_public_ip_id: {
         value: cdktf.stringToHclTerraform(this._natPublicIpId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

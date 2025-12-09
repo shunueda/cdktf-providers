@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataMsoSchemaTemplateAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template#id DataMsoSchemaTemplateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template#id DataMsoSchemaTemplateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template#name DataMsoSchemaTemplateA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template#name DataMsoSchemaTemplateA#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template#schema_id DataMsoSchemaTemplateA#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template#schema_id DataMsoSchemaTemplateA#schema_id}
   */
   readonly schemaId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template mso_schema_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template mso_schema_template}
 */
 export class DataMsoSchemaTemplateA extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMsoSchemaTemplateA extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMsoSchemaTemplateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsoSchemaTemplateA to import
-  * @param importFromId The id of the existing DataMsoSchemaTemplateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsoSchemaTemplateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsoSchemaTemplateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMsoSchemaTemplateA extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template mso_schema_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template mso_schema_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMsoSchemaTemplateA extends cdktf.TerraformDataSource {
       terraformResourceType: 'mso_schema_template',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

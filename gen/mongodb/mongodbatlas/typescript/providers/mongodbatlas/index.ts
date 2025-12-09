@@ -57,6 +57,7 @@ export * as streamConnection from './stream-connection';
 export * as streamInstance from './stream-instance';
 export * as streamPrivatelinkEndpoint from './stream-privatelink-endpoint';
 export * as streamProcessor from './stream-processor';
+export * as streamWorkspace from './stream-workspace';
 export * as team from './team';
 export * as teamProjectAssignment from './team-project-assignment';
 export * as thirdPartyIntegration from './third-party-integration';
@@ -167,6 +168,8 @@ export * as dataMongodbatlasStreamPrivatelinkEndpoint from './data-mongodbatlas-
 export * as dataMongodbatlasStreamPrivatelinkEndpoints from './data-mongodbatlas-stream-privatelink-endpoints';
 export * as dataMongodbatlasStreamProcessor from './data-mongodbatlas-stream-processor';
 export * as dataMongodbatlasStreamProcessors from './data-mongodbatlas-stream-processors';
+export * as dataMongodbatlasStreamWorkspace from './data-mongodbatlas-stream-workspace';
+export * as dataMongodbatlasStreamWorkspaces from './data-mongodbatlas-stream-workspaces';
 export * as dataMongodbatlasTeam from './data-mongodbatlas-team';
 export * as dataMongodbatlasTeamProjectAssignment from './data-mongodbatlas-team-project-assignment';
 export * as dataMongodbatlasThirdPartyIntegration from './data-mongodbatlas-third-party-integration';

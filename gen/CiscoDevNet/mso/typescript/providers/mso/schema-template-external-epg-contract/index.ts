@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateExternalEpgContractConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#contract_name SchemaTemplateExternalEpgContract#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#contract_name SchemaTemplateExternalEpgContract#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#contract_schema_id SchemaTemplateExternalEpgContract#contract_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#contract_schema_id SchemaTemplateExternalEpgContract#contract_schema_id}
   */
   readonly contractSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#contract_template_name SchemaTemplateExternalEpgContract#contract_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#contract_template_name SchemaTemplateExternalEpgContract#contract_template_name}
   */
   readonly contractTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#external_epg_name SchemaTemplateExternalEpgContract#external_epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#external_epg_name SchemaTemplateExternalEpgContract#external_epg_name}
   */
   readonly externalEpgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#id SchemaTemplateExternalEpgContract#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#id SchemaTemplateExternalEpgContract#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#relationship_type SchemaTemplateExternalEpgContract#relationship_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#relationship_type SchemaTemplateExternalEpgContract#relationship_type}
   */
   readonly relationshipType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#schema_id SchemaTemplateExternalEpgContract#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#schema_id SchemaTemplateExternalEpgContract#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#template_name SchemaTemplateExternalEpgContract#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#template_name SchemaTemplateExternalEpgContract#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract mso_schema_template_external_epg_contract}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract mso_schema_template_external_epg_contract}
 */
 export class SchemaTemplateExternalEpgContract extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SchemaTemplateExternalEpgContract extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateExternalEpgContract resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateExternalEpgContract to import
-  * @param importFromId The id of the existing SchemaTemplateExternalEpgContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateExternalEpgContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateExternalEpgContract to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SchemaTemplateExternalEpgContract extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_contract mso_schema_template_external_epg_contract} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_contract mso_schema_template_external_epg_contract} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SchemaTemplateExternalEpgContract extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_external_epg_contract',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

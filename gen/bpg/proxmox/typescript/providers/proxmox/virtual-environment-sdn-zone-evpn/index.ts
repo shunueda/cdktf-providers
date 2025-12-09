@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface VirtualEnvironmentSdnZoneEvpnConfig extends cdktf.TerraformMeta
   /**
   * Enable subnet advertisement for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#advertise_subnets VirtualEnvironmentSdnZoneEvpn#advertise_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#advertise_subnets VirtualEnvironmentSdnZoneEvpn#advertise_subnets}
   */
   readonly advertiseSubnets?: boolean | cdktf.IResolvable;
   /**
   * EVPN controller address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#controller VirtualEnvironmentSdnZoneEvpn#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#controller VirtualEnvironmentSdnZoneEvpn#controller}
   */
   readonly controller: string;
   /**
   * Disable ARP/ND suppression for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#disable_arp_nd_suppression VirtualEnvironmentSdnZoneEvpn#disable_arp_nd_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#disable_arp_nd_suppression VirtualEnvironmentSdnZoneEvpn#disable_arp_nd_suppression}
   */
   readonly disableArpNdSuppression?: boolean | cdktf.IResolvable;
   /**
   * DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#dns VirtualEnvironmentSdnZoneEvpn#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#dns VirtualEnvironmentSdnZoneEvpn#dns}
   */
   readonly dns?: string;
   /**
   * DNS domain name. Used to register hostnames, such as `<hostname>.<domain>`. The DNS zone must already exist on the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#dns_zone VirtualEnvironmentSdnZoneEvpn#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#dns_zone VirtualEnvironmentSdnZoneEvpn#dns_zone}
   */
   readonly dnsZone?: string;
   /**
   * List of exit nodes for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#exit_nodes VirtualEnvironmentSdnZoneEvpn#exit_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#exit_nodes VirtualEnvironmentSdnZoneEvpn#exit_nodes}
   */
   readonly exitNodes?: string[];
   /**
   * Enable local routing for EVPN exit nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#exit_nodes_local_routing VirtualEnvironmentSdnZoneEvpn#exit_nodes_local_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#exit_nodes_local_routing VirtualEnvironmentSdnZoneEvpn#exit_nodes_local_routing}
   */
   readonly exitNodesLocalRouting?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier of the SDN zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#id VirtualEnvironmentSdnZoneEvpn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#id VirtualEnvironmentSdnZoneEvpn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,49 +61,49 @@ export interface VirtualEnvironmentSdnZoneEvpnConfig extends cdktf.TerraformMeta
   /**
   * IP Address Management system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#ipam VirtualEnvironmentSdnZoneEvpn#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#ipam VirtualEnvironmentSdnZoneEvpn#ipam}
   */
   readonly ipam?: string;
   /**
   * MTU value for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#mtu VirtualEnvironmentSdnZoneEvpn#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#mtu VirtualEnvironmentSdnZoneEvpn#mtu}
   */
   readonly mtu?: number;
   /**
   * The Proxmox nodes which the zone and associated VNets should be deployed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#nodes VirtualEnvironmentSdnZoneEvpn#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#nodes VirtualEnvironmentSdnZoneEvpn#nodes}
   */
   readonly nodes?: string[];
   /**
   * Primary exit node for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#primary_exit_node VirtualEnvironmentSdnZoneEvpn#primary_exit_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#primary_exit_node VirtualEnvironmentSdnZoneEvpn#primary_exit_node}
   */
   readonly primaryExitNode?: string;
   /**
   * Reverse DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#reverse_dns VirtualEnvironmentSdnZoneEvpn#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#reverse_dns VirtualEnvironmentSdnZoneEvpn#reverse_dns}
   */
   readonly reverseDns?: string;
   /**
   * Route target import for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#rt_import VirtualEnvironmentSdnZoneEvpn#rt_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#rt_import VirtualEnvironmentSdnZoneEvpn#rt_import}
   */
   readonly rtImport?: string;
   /**
   * VRF VXLAN-ID used for dedicated routing interconnect between VNets. It must be different than the VXLAN-ID of the VNets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#vrf_vxlan VirtualEnvironmentSdnZoneEvpn#vrf_vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#vrf_vxlan VirtualEnvironmentSdnZoneEvpn#vrf_vxlan}
   */
   readonly vrfVxlan: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn proxmox_virtual_environment_sdn_zone_evpn}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn proxmox_virtual_environment_sdn_zone_evpn}
 */
 export class VirtualEnvironmentSdnZoneEvpn extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class VirtualEnvironmentSdnZoneEvpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnZoneEvpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnZoneEvpn to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnZoneEvpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class VirtualEnvironmentSdnZoneEvpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_evpn proxmox_virtual_environment_sdn_zone_evpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_evpn proxmox_virtual_environment_sdn_zone_evpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class VirtualEnvironmentSdnZoneEvpn extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_zone_evpn',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.0',
-        providerVersionConstraint: '0.89.0'
+        providerVersion: '0.89.1',
+        providerVersionConstraint: '0.89.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

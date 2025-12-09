@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformLbServicesConfig extends cdktf.Terrafor
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#created_by DataSamsungcloudplatformLbServices#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#created_by DataSamsungcloudplatformLbServices#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#id DataSamsungcloudplatformLbServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#id DataSamsungcloudplatformLbServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface DataSamsungcloudplatformLbServicesConfig extends cdktf.Terrafor
   /**
   * Protocol layer type (L4, L7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#layer_type DataSamsungcloudplatformLbServices#layer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#layer_type DataSamsungcloudplatformLbServices#layer_type}
   */
   readonly layerType?: string;
   /**
   * Load balancer service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#lb_service_name DataSamsungcloudplatformLbServices#lb_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#lb_service_name DataSamsungcloudplatformLbServices#lb_service_name}
   */
   readonly lbServiceName?: string;
   /**
   * Load balancer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#load_balancer_id DataSamsungcloudplatformLbServices#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#load_balancer_id DataSamsungcloudplatformLbServices#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * Load balancer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#load_balancer_name DataSamsungcloudplatformLbServices#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#load_balancer_name DataSamsungcloudplatformLbServices#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#page DataSamsungcloudplatformLbServices#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#page DataSamsungcloudplatformLbServices#page}
   */
   readonly page?: number;
   /**
   * The file storage protocol type to create (NFS, CIFS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#protocol DataSamsungcloudplatformLbServices#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#protocol DataSamsungcloudplatformLbServices#protocol}
   */
   readonly protocol?: string;
   /**
   * Service ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#service_ip_address DataSamsungcloudplatformLbServices#service_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#service_ip_address DataSamsungcloudplatformLbServices#service_ip_address}
   */
   readonly serviceIpAddress?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#size DataSamsungcloudplatformLbServices#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#size DataSamsungcloudplatformLbServices#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#sort DataSamsungcloudplatformLbServices#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#sort DataSamsungcloudplatformLbServices#sort}
   */
   readonly sort?: string;
   /**
   * check status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#status_check DataSamsungcloudplatformLbServices#status_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#status_check DataSamsungcloudplatformLbServices#status_check}
   */
   readonly statusCheck?: boolean | cdktf.IResolvable;
 }
@@ -238,7 +238,7 @@ export class DataSamsungcloudplatformLbServicesContentsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services samsungcloudplatform_lb_services}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services samsungcloudplatform_lb_services}
 */
 export class DataSamsungcloudplatformLbServices extends cdktf.TerraformDataSource {
 
@@ -254,7 +254,7 @@ export class DataSamsungcloudplatformLbServices extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataSamsungcloudplatformLbServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformLbServices to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformLbServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformLbServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformLbServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class DataSamsungcloudplatformLbServices extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_services samsungcloudplatform_lb_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_services samsungcloudplatform_lb_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class DataSamsungcloudplatformLbServices extends cdktf.TerraformDataSourc
       terraformResourceType: 'samsungcloudplatform_lb_services',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

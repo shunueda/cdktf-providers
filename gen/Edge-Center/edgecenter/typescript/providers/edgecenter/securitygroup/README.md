@@ -1,3 +1,3 @@
 # `edgecenter_securitygroup`
 
-Refer to the Terraform Registry for docs: [`edgecenter_securitygroup`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/securitygroup).
+Refer to the Terraform Registry for docs: [`edgecenter_securitygroup`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/securitygroup).

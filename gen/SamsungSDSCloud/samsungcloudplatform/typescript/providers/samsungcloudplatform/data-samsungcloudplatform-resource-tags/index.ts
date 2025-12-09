@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformResourceTagsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#id DataSamsungcloudplatformResourceTagsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#id DataSamsungcloudplatformResourceTagsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSamsungcloudplatformResourceTagsAConfig extends cdktf.Terra
   /**
   * Resource Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#resource_id DataSamsungcloudplatformResourceTagsA#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#resource_id DataSamsungcloudplatformResourceTagsA#resource_id}
   */
   readonly resourceId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#filter DataSamsungcloudplatformResourceTagsA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#filter DataSamsungcloudplatformResourceTagsA#filter}
   */
   readonly filter?: DataSamsungcloudplatformResourceTagsFilter[] | cdktf.IResolvable;
 }
@@ -111,19 +111,19 @@ export interface DataSamsungcloudplatformResourceTagsFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#name DataSamsungcloudplatformResourceTagsA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#name DataSamsungcloudplatformResourceTagsA#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#use_regex DataSamsungcloudplatformResourceTagsA#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#use_regex DataSamsungcloudplatformResourceTagsA#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#values DataSamsungcloudplatformResourceTagsA#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#values DataSamsungcloudplatformResourceTagsA#values}
   */
   readonly values: string[];
 }
@@ -291,7 +291,7 @@ export class DataSamsungcloudplatformResourceTagsFilterList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags samsungcloudplatform_resource_tags}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags samsungcloudplatform_resource_tags}
 */
 export class DataSamsungcloudplatformResourceTagsA extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataSamsungcloudplatformResourceTagsA extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSamsungcloudplatformResourceTagsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformResourceTagsA to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformResourceTagsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformResourceTagsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformResourceTagsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataSamsungcloudplatformResourceTagsA extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_tags samsungcloudplatform_resource_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_tags samsungcloudplatform_resource_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataSamsungcloudplatformResourceTagsA extends cdktf.TerraformDataSo
       terraformResourceType: 'samsungcloudplatform_resource_tags',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

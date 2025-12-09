@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SamsungcloudplatformProviderConfig {
   /**
   * SCP account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#access_key SamsungcloudplatformProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#access_key SamsungcloudplatformProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * Auth method (access-key or id-token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#auth_method SamsungcloudplatformProvider#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#auth_method SamsungcloudplatformProvider#auth_method}
   */
   readonly authMethod?: string;
   /**
   * SCP user email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#email SamsungcloudplatformProvider#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#email SamsungcloudplatformProvider#email}
   */
   readonly email?: string;
   /**
   * SCP Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#host SamsungcloudplatformProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#host SamsungcloudplatformProvider#host}
   */
   readonly host?: string;
   /**
   * SCP account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#password SamsungcloudplatformProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#password SamsungcloudplatformProvider#password}
   */
   readonly password?: string;
   /**
   * SCP target project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#project_id SamsungcloudplatformProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#project_id SamsungcloudplatformProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * SCP account secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#secret_key SamsungcloudplatformProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#secret_key SamsungcloudplatformProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * SCP user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#user_id SamsungcloudplatformProvider#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#user_id SamsungcloudplatformProvider#user_id}
   */
   readonly userId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#alias SamsungcloudplatformProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#alias SamsungcloudplatformProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs samsungcloudplatform}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs samsungcloudplatform}
 */
 export class SamsungcloudplatformProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class SamsungcloudplatformProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SamsungcloudplatformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamsungcloudplatformProvider to import
-  * @param importFromId The id of the existing SamsungcloudplatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamsungcloudplatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamsungcloudplatformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SamsungcloudplatformProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs samsungcloudplatform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs samsungcloudplatform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SamsungcloudplatformProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'samsungcloudplatform',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       terraformProviderSource: 'SamsungSDSCloud/samsungcloudplatform'
     });

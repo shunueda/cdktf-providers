@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformPostgresqlsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#id DataSamsungcloudplatformPostgresqls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#id DataSamsungcloudplatformPostgresqls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataSamsungcloudplatformPostgresqlsConfig extends cdktf.Terrafo
   /**
   * Page start number from which to get the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#page DataSamsungcloudplatformPostgresqls#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#page DataSamsungcloudplatformPostgresqls#page}
   */
   readonly page?: number;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#postgresql_cluster_name DataSamsungcloudplatformPostgresqls#postgresql_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#postgresql_cluster_name DataSamsungcloudplatformPostgresqls#postgresql_cluster_name}
   */
   readonly postgresqlClusterName?: string;
   /**
   * Size to get list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#size DataSamsungcloudplatformPostgresqls#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#size DataSamsungcloudplatformPostgresqls#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#sort DataSamsungcloudplatformPostgresqls#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#sort DataSamsungcloudplatformPostgresqls#sort}
   */
   readonly sort?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#contents DataSamsungcloudplatformPostgresqls#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#contents DataSamsungcloudplatformPostgresqls#contents}
   */
   readonly contents?: DataSamsungcloudplatformPostgresqlsContents[] | cdktf.IResolvable;
 }
@@ -178,7 +178,7 @@ export class DataSamsungcloudplatformPostgresqlsContentsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls samsungcloudplatform_postgresqls}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls samsungcloudplatform_postgresqls}
 */
 export class DataSamsungcloudplatformPostgresqls extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataSamsungcloudplatformPostgresqls extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSamsungcloudplatformPostgresqls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformPostgresqls to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformPostgresqls that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformPostgresqls that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformPostgresqls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataSamsungcloudplatformPostgresqls extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/postgresqls samsungcloudplatform_postgresqls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/postgresqls samsungcloudplatform_postgresqls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataSamsungcloudplatformPostgresqls extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_postgresqls',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

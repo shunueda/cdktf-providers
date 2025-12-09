@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface GlobalSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#artifact_directories GlobalSettings#artifact_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#artifact_directories GlobalSettings#artifact_directories}
   */
   readonly artifactDirectories?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#artifacts_domain_isolation GlobalSettings#artifacts_domain_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#artifacts_domain_isolation GlobalSettings#artifacts_domain_isolation}
   */
   readonly artifactsDomainIsolation?: GlobalSettingsArtifactsDomainIsolation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#default_execution_timeout GlobalSettings#default_execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#default_execution_timeout GlobalSettings#default_execution_timeout}
   */
   readonly defaultExecutionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#default_quiet_period GlobalSettings#default_quiet_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#default_quiet_period GlobalSettings#default_quiet_period}
   */
   readonly defaultQuietPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#default_vcs_check_interval GlobalSettings#default_vcs_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#default_vcs_check_interval GlobalSettings#default_vcs_check_interval}
   */
   readonly defaultVcsCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#encryption GlobalSettings#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#encryption GlobalSettings#encryption}
   */
   readonly encryption?: GlobalSettingsEncryption;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#enforce_default_vcs_check_interval GlobalSettings#enforce_default_vcs_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#enforce_default_vcs_check_interval GlobalSettings#enforce_default_vcs_check_interval}
   */
   readonly enforceDefaultVcsCheckInterval?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#max_artifact_number GlobalSettings#max_artifact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#max_artifact_number GlobalSettings#max_artifact_number}
   */
   readonly maxArtifactNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#max_artifact_size GlobalSettings#max_artifact_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#max_artifact_size GlobalSettings#max_artifact_size}
   */
   readonly maxArtifactSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#root_url GlobalSettings#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#root_url GlobalSettings#root_url}
   */
   readonly rootUrl?: string;
 }
 export interface GlobalSettingsArtifactsDomainIsolation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#artifacts_url GlobalSettings#artifacts_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#artifacts_url GlobalSettings#artifacts_url}
   */
   readonly artifactsUrl?: string;
   /**
   * Enabled by default, set false if it needs to be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#enabled GlobalSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#enabled GlobalSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -179,7 +179,7 @@ export class GlobalSettingsArtifactsDomainIsolationOutputReference extends cdktf
 }
 export interface GlobalSettingsEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#key GlobalSettings#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#key GlobalSettings#key}
   */
   readonly key: string;
 }
@@ -270,7 +270,7 @@ export class GlobalSettingsEncryptionOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings teamcity_global_settings}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings teamcity_global_settings}
 */
 export class GlobalSettings extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class GlobalSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalSettings to import
-  * @param importFromId The id of the existing GlobalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class GlobalSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/global_settings teamcity_global_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/global_settings teamcity_global_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class GlobalSettings extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_global_settings',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

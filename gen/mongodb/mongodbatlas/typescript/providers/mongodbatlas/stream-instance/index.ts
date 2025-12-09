@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface StreamInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#data_process_region StreamInstance#data_process_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#data_process_region StreamInstance#data_process_region}
   */
   readonly dataProcessRegion: StreamInstanceDataProcessRegion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#instance_name StreamInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#instance_name StreamInstance#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#project_id StreamInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#project_id StreamInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#stream_config StreamInstance#stream_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#stream_config StreamInstance#stream_config}
   */
   readonly streamConfig?: StreamInstanceStreamConfig;
 }
 export interface StreamInstanceDataProcessRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#cloud_provider StreamInstance#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#cloud_provider StreamInstance#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#region StreamInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#region StreamInstance#region}
   */
   readonly region: string;
 }
@@ -147,7 +147,11 @@ export class StreamInstanceDataProcessRegionOutputReference extends cdktf.Comple
 }
 export interface StreamInstanceStreamConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#tier StreamInstance#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#max_tier_size StreamInstance#max_tier_size}
+  */
+  readonly maxTierSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#tier StreamInstance#tier}
   */
   readonly tier?: string;
 }
@@ -158,6 +162,7 @@ export function streamInstanceStreamConfigToTerraform(struct?: StreamInstanceStr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_tier_size: cdktf.stringToTerraform(struct!.maxTierSize),
     tier: cdktf.stringToTerraform(struct!.tier),
   }
 }
@@ -169,6 +174,12 @@ export function streamInstanceStreamConfigToHclTerraform(struct?: StreamInstance
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    max_tier_size: {
+      value: cdktf.stringToHclTerraform(struct!.maxTierSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     tier: {
       value: cdktf.stringToHclTerraform(struct!.tier),
       isBlock: false,
@@ -199,6 +210,10 @@ export class StreamInstanceStreamConfigOutputReference extends cdktf.ComplexObje
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxTierSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTierSize = this._maxTierSize;
+    }
     if (this._tier !== undefined) {
       hasAnyValues = true;
       internalValueResult.tier = this._tier;
@@ -210,6 +225,7 @@ export class StreamInstanceStreamConfigOutputReference extends cdktf.ComplexObje
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxTierSize = undefined;
       this._tier = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -219,8 +235,25 @@ export class StreamInstanceStreamConfigOutputReference extends cdktf.ComplexObje
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxTierSize = value.maxTierSize;
       this._tier = value.tier;
     }
+  }
+
+  // max_tier_size - computed: true, optional: true, required: false
+  private _maxTierSize?: string; 
+  public get maxTierSize() {
+    return this.getStringAttribute('max_tier_size');
+  }
+  public set maxTierSize(value: string) {
+    this._maxTierSize = value;
+  }
+  public resetMaxTierSize() {
+    this._maxTierSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTierSizeInput() {
+    return this._maxTierSize;
   }
 
   // tier - computed: true, optional: true, required: false
@@ -241,7 +274,7 @@ export class StreamInstanceStreamConfigOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance mongodbatlas_stream_instance}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance mongodbatlas_stream_instance}
 */
 export class StreamInstance extends cdktf.TerraformResource {
 
@@ -257,7 +290,7 @@ export class StreamInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamInstance to import
-  * @param importFromId The id of the existing StreamInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +302,7 @@ export class StreamInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_instance mongodbatlas_stream_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_instance mongodbatlas_stream_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +313,8 @@ export class StreamInstance extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_stream_instance',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

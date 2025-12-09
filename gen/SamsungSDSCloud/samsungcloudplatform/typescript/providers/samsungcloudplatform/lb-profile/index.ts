@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LbProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Category of profile. (PERSISTENCE or APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#category LbProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#category LbProfile#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#id LbProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#id LbProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,71 +23,71 @@ export interface LbProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Protocol layer type (Only application category). (L4, L7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#layer_type LbProfile#layer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#layer_type LbProfile#layer_type}
   */
   readonly layerType?: string;
   /**
   * Target Load Balancer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#lb_id LbProfile#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#lb_id LbProfile#lb_id}
   */
   readonly lbId: string;
   /**
   * Name of profile. (3 to 20 with dash in middle)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#name LbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#name LbProfile#name}
   */
   readonly name: string;
   /**
   * Persistence type. (SOURCE_IP, COOKIE) (Only persistence category)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#persistence_type LbProfile#persistence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#persistence_type LbProfile#persistence_type}
   */
   readonly persistenceType?: string;
   /**
   * HTTP redirection option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#redirect_type LbProfile#redirect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#redirect_type LbProfile#redirect_type}
   */
   readonly redirectType?: string;
   /**
   * Request header size (Only application category with L7 layer. Recommend: 1024). (1 to 65536)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#request_header_size LbProfile#request_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#request_header_size LbProfile#request_header_size}
   */
   readonly requestHeaderSize?: number;
   /**
   * Response header size (Only application category with L7 layer. Recommend: 4096). (1 to 65536)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#response_header_size LbProfile#response_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#response_header_size LbProfile#response_header_size}
   */
   readonly responseHeaderSize?: number;
   /**
   * Request header size (Only application category with L7 layer. Recommend: 60). (1 to 2147483647)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#response_timeout LbProfile#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#response_timeout LbProfile#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Session timeout value (Only application category. Recommend: 300). (30 to 5400)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#session_timeout LbProfile#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#session_timeout LbProfile#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#tags LbProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#tags LbProfile#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Forwarded for value (Only application category with L7 layer). (None, INSERT, REPLACE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#x_forwarded_for LbProfile#x_forwarded_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#x_forwarded_for LbProfile#x_forwarded_for}
   */
   readonly xForwardedFor?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile samsungcloudplatform_lb_profile}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile samsungcloudplatform_lb_profile}
 */
 export class LbProfile extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class LbProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbProfile to import
-  * @param importFromId The id of the existing LbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class LbProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_profile samsungcloudplatform_lb_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_profile samsungcloudplatform_lb_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class LbProfile extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_lb_profile',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The block storage whether to use encryption. This can be enabled when the virtual server is encryption enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#encrypt_enable BlockStorage#encrypt_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#encrypt_enable BlockStorage#encrypt_enable}
   */
   readonly encryptEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#id BlockStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#id BlockStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,47 +23,47 @@ export interface BlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The block storage name to create. (3 to 28 characters with -)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#name BlockStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#name BlockStorage#name}
   */
   readonly name: string;
   /**
   * You can use by selecting SSD or HDD based storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#product_name BlockStorage#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#product_name BlockStorage#product_name}
   */
   readonly productName: string;
   /**
   * You can use by selecting DEDICATED or SHARED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#shared_type BlockStorage#shared_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#shared_type BlockStorage#shared_type}
   */
   readonly sharedType: string;
   /**
   * The storage size(GB) of the block storage to create. (4 to  12288 GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#storage_size_gb BlockStorage#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#storage_size_gb BlockStorage#storage_size_gb}
   */
   readonly storageSizeGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#tags BlockStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#tags BlockStorage#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Virtual server ID to which you want to assign the block storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#virtual_server_id BlockStorage#virtual_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#virtual_server_id BlockStorage#virtual_server_id}
   */
   readonly virtualServerId?: string;
   /**
   * Virtual server IDs to which you want to assign the block storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#virtual_server_ids BlockStorage#virtual_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#virtual_server_ids BlockStorage#virtual_server_ids}
   */
   readonly virtualServerIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage samsungcloudplatform_block_storage}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage samsungcloudplatform_block_storage}
 */
 export class BlockStorage extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class BlockStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorage to import
-  * @param importFromId The id of the existing BlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class BlockStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/block_storage samsungcloudplatform_block_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/block_storage samsungcloudplatform_block_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class BlockStorage extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_block_storage',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

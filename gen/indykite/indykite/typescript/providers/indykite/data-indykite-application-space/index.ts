@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space
+// https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIndykiteApplicationSpaceConfig extends cdktf.TerraformMetaA
   /**
   * Identifier of Application Space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#app_space_id DataIndykiteApplicationSpace#app_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#app_space_id DataIndykiteApplicationSpace#app_space_id}
   */
   readonly appSpaceId?: string;
   /**
   * Identifier of Customer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#customer_id DataIndykiteApplicationSpace#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#customer_id DataIndykiteApplicationSpace#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
+  * Your own description of the resource. Must be less than or equal to 65000 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#description DataIndykiteApplicationSpace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#description DataIndykiteApplicationSpace#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#display_name DataIndykiteApplicationSpace#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#display_name DataIndykiteApplicationSpace#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#id DataIndykiteApplicationSpace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#id DataIndykiteApplicationSpace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface DataIndykiteApplicationSpaceConfig extends cdktf.TerraformMetaA
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#name DataIndykiteApplicationSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#name DataIndykiteApplicationSpace#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#timeouts DataIndykiteApplicationSpace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#timeouts DataIndykiteApplicationSpace#timeouts}
   */
   readonly timeouts?: DataIndykiteApplicationSpaceTimeouts;
 }
@@ -143,11 +143,11 @@ export class DataIndykiteApplicationSpaceDbConnectionList extends cdktf.ComplexL
 }
 export interface DataIndykiteApplicationSpaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#default DataIndykiteApplicationSpace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#default DataIndykiteApplicationSpace#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#read DataIndykiteApplicationSpace#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#read DataIndykiteApplicationSpace#read}
   */
   readonly read?: string;
 }
@@ -270,7 +270,7 @@ export class DataIndykiteApplicationSpaceTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space indykite_application_space}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space indykite_application_space}
 */
 export class DataIndykiteApplicationSpace extends cdktf.TerraformDataSource {
 
@@ -286,7 +286,7 @@ export class DataIndykiteApplicationSpace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIndykiteApplicationSpace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIndykiteApplicationSpace to import
-  * @param importFromId The id of the existing DataIndykiteApplicationSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIndykiteApplicationSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIndykiteApplicationSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class DataIndykiteApplicationSpace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/application_space indykite_application_space} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/data-sources/application_space indykite_application_space} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class DataIndykiteApplicationSpace extends cdktf.TerraformDataSource {
       terraformResourceType: 'indykite_application_space',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.28.0',
-        providerVersionConstraint: '0.28.0'
+        providerVersion: '0.29.0',
+        providerVersionConstraint: '0.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

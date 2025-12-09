@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,58 +10,46 @@ export interface DataEdgecenterFloatingipConfig extends cdktf.TerraformMetaArgum
   /**
   * The floating IP address assigned to the resource. It must be a valid IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#floating_ip_address DataEdgecenterFloatingip#floating_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#floating_ip_address DataEdgecenterFloatingip#floating_ip_address}
   */
   readonly floatingIpAddress?: string;
   /**
   * floating IP uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#id DataEdgecenterFloatingip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#id DataEdgecenterFloatingip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Filtration query opts (only key).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#metadata_k DataEdgecenterFloatingip#metadata_k}
-  */
-  readonly metadataK?: string;
-  /**
-  * Filtration query opts, for example, {offset = "10", limit = "10"}.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#metadata_kv DataEdgecenterFloatingip#metadata_kv}
-  */
-  readonly metadataKv?: { [key: string]: string };
-  /**
   * The ID (uuid) of the network port that the floating IP is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#port_id DataEdgecenterFloatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#port_id DataEdgecenterFloatingip#port_id}
   */
   readonly portId?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#project_id DataEdgecenterFloatingip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#project_id DataEdgecenterFloatingip#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#project_name DataEdgecenterFloatingip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#project_name DataEdgecenterFloatingip#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#region_id DataEdgecenterFloatingip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#region_id DataEdgecenterFloatingip#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#region_name DataEdgecenterFloatingip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#region_name DataEdgecenterFloatingip#region_name}
   */
   readonly regionName?: string;
 }
@@ -152,7 +140,7 @@ export class DataEdgecenterFloatingipMetadataReadOnlyList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip edgecenter_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip edgecenter_floatingip}
 */
 export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
 
@@ -168,7 +156,7 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterFloatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterFloatingip to import
-  * @param importFromId The id of the existing DataEdgecenterFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterFloatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -180,7 +168,7 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/floatingip edgecenter_floatingip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/floatingip edgecenter_floatingip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -191,8 +179,8 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -204,8 +192,6 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
     });
     this._floatingIpAddress = config.floatingIpAddress;
     this._id = config.id;
-    this._metadataK = config.metadataK;
-    this._metadataKv = config.metadataKv;
     this._portId = config.portId;
     this._projectId = config.projectId;
     this._projectName = config.projectName;
@@ -262,38 +248,6 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
   // load_balancers_id_attached_to - computed: true, optional: false, required: false
   public get loadBalancersIdAttachedTo() {
     return this.getStringAttribute('load_balancers_id_attached_to');
-  }
-
-  // metadata_k - computed: false, optional: true, required: false
-  private _metadataK?: string; 
-  public get metadataK() {
-    return this.getStringAttribute('metadata_k');
-  }
-  public set metadataK(value: string) {
-    this._metadataK = value;
-  }
-  public resetMetadataK() {
-    this._metadataK = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get metadataKInput() {
-    return this._metadataK;
-  }
-
-  // metadata_kv - computed: false, optional: true, required: false
-  private _metadataKv?: { [key: string]: string }; 
-  public get metadataKv() {
-    return this.getStringMapAttribute('metadata_kv');
-  }
-  public set metadataKv(value: { [key: string]: string }) {
-    this._metadataKv = value;
-  }
-  public resetMetadataKv() {
-    this._metadataKv = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get metadataKvInput() {
-    return this._metadataKv;
   }
 
   // metadata_read_only - computed: true, optional: false, required: false
@@ -400,8 +354,6 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
     return {
       floating_ip_address: cdktf.stringToTerraform(this._floatingIpAddress),
       id: cdktf.stringToTerraform(this._id),
-      metadata_k: cdktf.stringToTerraform(this._metadataK),
-      metadata_kv: cdktf.hashMapper(cdktf.stringToTerraform)(this._metadataKv),
       port_id: cdktf.stringToTerraform(this._portId),
       project_id: cdktf.numberToTerraform(this._projectId),
       project_name: cdktf.stringToTerraform(this._projectName),
@@ -423,18 +375,6 @@ export class DataEdgecenterFloatingip extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      metadata_k: {
-        value: cdktf.stringToHclTerraform(this._metadataK),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      metadata_kv: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadataKv),
-        isBlock: false,
-        type: "map",
-        storageClassType: "stringMap",
       },
       port_id: {
         value: cdktf.stringToHclTerraform(this._portId),

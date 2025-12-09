@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterSubnetConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the subnet. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#id DataEdgecenterSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#id DataEdgecenterSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,49 +19,49 @@ export interface DataEdgecenterSubnetConfig extends cdktf.TerraformMetaArguments
   /**
   * Filtration query opts (only key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#metadata_k DataEdgecenterSubnet#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#metadata_k DataEdgecenterSubnet#metadata_k}
   */
   readonly metadataK?: string;
   /**
   * Filtration query opts, for example, {offset = "10", limit = "10"}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#metadata_kv DataEdgecenterSubnet#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#metadata_kv DataEdgecenterSubnet#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * The name of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#name DataEdgecenterSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#name DataEdgecenterSubnet#name}
   */
   readonly name?: string;
   /**
   * The ID of the network to which this subnet belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#network_id DataEdgecenterSubnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#network_id DataEdgecenterSubnet#network_id}
   */
   readonly networkId?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#project_id DataEdgecenterSubnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#project_id DataEdgecenterSubnet#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#project_name DataEdgecenterSubnet#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#project_name DataEdgecenterSubnet#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#region_id DataEdgecenterSubnet#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#region_id DataEdgecenterSubnet#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#region_name DataEdgecenterSubnet#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#region_name DataEdgecenterSubnet#region_name}
   */
   readonly regionName?: string;
 }
@@ -312,7 +312,7 @@ export class DataEdgecenterSubnetMetadataReadOnlyList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet edgecenter_subnet}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet edgecenter_subnet}
 */
 export class DataEdgecenterSubnet extends cdktf.TerraformDataSource {
 
@@ -328,7 +328,7 @@ export class DataEdgecenterSubnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterSubnet to import
-  * @param importFromId The id of the existing DataEdgecenterSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DataEdgecenterSubnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/subnet edgecenter_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/subnet edgecenter_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DataEdgecenterSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_subnet',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformResourcesConfig extends cdktf.Terraform
   /**
   * Creator's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#created_by_id DataSamsungcloudplatformResources#created_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#created_by_id DataSamsungcloudplatformResources#created_by_id}
   */
   readonly createdById?: string;
   /**
   * Display service names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#display_service_names DataSamsungcloudplatformResources#display_service_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#display_service_names DataSamsungcloudplatformResources#display_service_names}
   */
   readonly displayServiceNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#id DataSamsungcloudplatformResources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#id DataSamsungcloudplatformResources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface DataSamsungcloudplatformResourcesConfig extends cdktf.Terraform
   /**
   * Includes deleted resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#include_deleted DataSamsungcloudplatformResources#include_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#include_deleted DataSamsungcloudplatformResources#include_deleted}
   */
   readonly includeDeleted?: string;
   /**
   * Location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#location DataSamsungcloudplatformResources#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#location DataSamsungcloudplatformResources#location}
   */
   readonly location?: string;
   /**
   * Modifier's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#modified_by_id DataSamsungcloudplatformResources#modified_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#modified_by_id DataSamsungcloudplatformResources#modified_by_id}
   */
   readonly modifiedById?: string;
   /**
   * Whether I created it or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#my_create DataSamsungcloudplatformResources#my_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#my_create DataSamsungcloudplatformResources#my_create}
   */
   readonly myCreate?: string;
   /**
   * Partition list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#partitions DataSamsungcloudplatformResources#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#partitions DataSamsungcloudplatformResources#partitions}
   */
   readonly partitions?: string[];
   /**
   * Region list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#regions DataSamsungcloudplatformResources#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#regions DataSamsungcloudplatformResources#regions}
   */
   readonly regions?: string[];
   /**
   * Resource ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#resource_id DataSamsungcloudplatformResources#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#resource_id DataSamsungcloudplatformResources#resource_id}
   */
   readonly resourceId?: string;
   /**
   * Resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#resource_name DataSamsungcloudplatformResources#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#resource_name DataSamsungcloudplatformResources#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Resource type list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#resource_types DataSamsungcloudplatformResources#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#resource_types DataSamsungcloudplatformResources#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
   * Service type list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#service_types DataSamsungcloudplatformResources#service_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#service_types DataSamsungcloudplatformResources#service_types}
   */
   readonly serviceTypes?: string[];
   /**
   * Service zone list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#service_zones DataSamsungcloudplatformResources#service_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#service_zones DataSamsungcloudplatformResources#service_zones}
   */
   readonly serviceZones?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#filter DataSamsungcloudplatformResources#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#filter DataSamsungcloudplatformResources#filter}
   */
   readonly filter?: DataSamsungcloudplatformResourcesFilter[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#tags DataSamsungcloudplatformResources#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#tags DataSamsungcloudplatformResources#tags}
   */
   readonly tags?: DataSamsungcloudplatformResourcesTags[] | cdktf.IResolvable;
 }
@@ -355,19 +355,19 @@ export interface DataSamsungcloudplatformResourcesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#name DataSamsungcloudplatformResources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#name DataSamsungcloudplatformResources#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#use_regex DataSamsungcloudplatformResources#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#use_regex DataSamsungcloudplatformResources#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#values DataSamsungcloudplatformResources#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#values DataSamsungcloudplatformResources#values}
   */
   readonly values: string[];
 }
@@ -537,13 +537,13 @@ export interface DataSamsungcloudplatformResourcesTags {
   /**
   * Tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#tag_key DataSamsungcloudplatformResources#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#tag_key DataSamsungcloudplatformResources#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#tag_value DataSamsungcloudplatformResources#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#tag_value DataSamsungcloudplatformResources#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -685,7 +685,7 @@ export class DataSamsungcloudplatformResourcesTagsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources samsungcloudplatform_resources}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources samsungcloudplatform_resources}
 */
 export class DataSamsungcloudplatformResources extends cdktf.TerraformDataSource {
 
@@ -701,7 +701,7 @@ export class DataSamsungcloudplatformResources extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataSamsungcloudplatformResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformResources to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class DataSamsungcloudplatformResources extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resources samsungcloudplatform_resources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resources samsungcloudplatform_resources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class DataSamsungcloudplatformResources extends cdktf.TerraformDataSource
       terraformResourceType: 'samsungcloudplatform_resources',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

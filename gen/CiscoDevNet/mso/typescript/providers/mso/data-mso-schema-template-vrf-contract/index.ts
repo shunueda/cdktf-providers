@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataMsoSchemaTemplateVrfContractConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#contract_name DataMsoSchemaTemplateVrfContract#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#contract_name DataMsoSchemaTemplateVrfContract#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#contract_schema_id DataMsoSchemaTemplateVrfContract#contract_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#contract_schema_id DataMsoSchemaTemplateVrfContract#contract_schema_id}
   */
   readonly contractSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#contract_template_name DataMsoSchemaTemplateVrfContract#contract_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#contract_template_name DataMsoSchemaTemplateVrfContract#contract_template_name}
   */
   readonly contractTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#id DataMsoSchemaTemplateVrfContract#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#id DataMsoSchemaTemplateVrfContract#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#relationship_type DataMsoSchemaTemplateVrfContract#relationship_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#relationship_type DataMsoSchemaTemplateVrfContract#relationship_type}
   */
   readonly relationshipType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#schema_id DataMsoSchemaTemplateVrfContract#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#schema_id DataMsoSchemaTemplateVrfContract#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#template_name DataMsoSchemaTemplateVrfContract#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#template_name DataMsoSchemaTemplateVrfContract#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#vrf_name DataMsoSchemaTemplateVrfContract#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#vrf_name DataMsoSchemaTemplateVrfContract#vrf_name}
   */
   readonly vrfName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract mso_schema_template_vrf_contract}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract mso_schema_template_vrf_contract}
 */
 export class DataMsoSchemaTemplateVrfContract extends cdktf.TerraformDataSource {
 
@@ -61,7 +61,7 @@ export class DataMsoSchemaTemplateVrfContract extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataMsoSchemaTemplateVrfContract resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsoSchemaTemplateVrfContract to import
-  * @param importFromId The id of the existing DataMsoSchemaTemplateVrfContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsoSchemaTemplateVrfContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsoSchemaTemplateVrfContract to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class DataMsoSchemaTemplateVrfContract extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_vrf_contract mso_schema_template_vrf_contract} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_vrf_contract mso_schema_template_vrf_contract} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class DataMsoSchemaTemplateVrfContract extends cdktf.TerraformDataSource 
       terraformResourceType: 'mso_schema_template_vrf_contract',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

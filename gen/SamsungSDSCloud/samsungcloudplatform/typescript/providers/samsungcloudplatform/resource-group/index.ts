@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ResourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user id which created the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#created_by_id ResourceGroup#created_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#created_by_id ResourceGroup#created_by_id}
   */
   readonly createdById?: string;
   /**
   * The user name which created the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#created_by_name ResourceGroup#created_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#created_by_name ResourceGroup#created_by_name}
   */
   readonly createdByName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#id ResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#id ResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface ResourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user id which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#modified_by_id ResourceGroup#modified_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#modified_by_id ResourceGroup#modified_by_id}
   */
   readonly modifiedById?: string;
   /**
   * The user name which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#modified_by_name ResourceGroup#modified_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#modified_by_name ResourceGroup#modified_by_name}
   */
   readonly modifiedByName?: string;
   /**
   * Resource group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#name ResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#name ResourceGroup#name}
   */
   readonly name: string;
   /**
   * Resource group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#resource_group_description ResourceGroup#resource_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#resource_group_description ResourceGroup#resource_group_description}
   */
   readonly resourceGroupDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#target_resource_tags ResourceGroup#target_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#target_resource_tags ResourceGroup#target_resource_tags}
   */
   readonly targetResourceTags?: { [key: string]: string };
   /**
   * Resource group types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#target_resource_types ResourceGroup#target_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#target_resource_types ResourceGroup#target_resource_types}
   */
   readonly targetResourceTypes?: string[];
 }
@@ -143,7 +143,7 @@ export class ResourceGroupTargetResourceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group samsungcloudplatform_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group samsungcloudplatform_resource_group}
 */
 export class ResourceGroup extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class ResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceGroup to import
-  * @param importFromId The id of the existing ResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class ResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/resource_group samsungcloudplatform_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/resource_group samsungcloudplatform_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class ResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

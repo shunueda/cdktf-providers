@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,65 @@ export interface EpasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to use database audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#audit_enabled Epas#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#audit_enabled Epas#audit_enabled}
   */
   readonly auditEnabled: boolean | cdktf.IResolvable;
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#contract_period Epas#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Epas encoding. (Only 'UTF8' for now)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_encoding Epas#database_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_encoding Epas#database_encoding}
   */
   readonly databaseEncoding: string;
   /**
   * Epas locale. (Only 'C' for now)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_locale Epas#database_locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_locale Epas#database_locale}
   */
   readonly databaseLocale: string;
   /**
   * Name of database. (only English alphabets or numbers between 3 and 20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_name Epas#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_name Epas#database_name}
   */
   readonly databaseName: string;
   /**
   * Port number of database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_port Epas#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_port Epas#database_port}
   */
   readonly databasePort: number;
   /**
   * User account id of database. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_user_name Epas#database_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_user_name Epas#database_user_name}
   */
   readonly databaseUserName: string;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#database_user_password Epas#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#database_user_password Epas#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#encryption_enabled Epas#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#encryption_enabled Epas#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#epas_cluster_name Epas#epas_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#epas_cluster_name Epas#epas_cluster_name}
   */
   readonly epasClusterName: string;
   /**
   * epas cluster state (RUNNING|STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#epas_cluster_state Epas#epas_cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#epas_cluster_state Epas#epas_cluster_state}
   */
   readonly epasClusterState: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#id Epas#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#id Epas#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,83 +77,77 @@ export interface EpasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Epas virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#image_id Epas#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#image_id Epas#image_id}
   */
   readonly imageId: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#nat_enabled Epas#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#nat_enabled Epas#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#nat_public_ip_id Epas#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#nat_public_ip_id Epas#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
-  * Next contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#next_contract_period Epas#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Security-Group ids of this EPAS DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#security_group_ids Epas#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#security_group_ids Epas#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#server_type Epas#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#server_type Epas#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#service_zone_id Epas#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#service_zone_id Epas#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#subnet_id Epas#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#subnet_id Epas#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#tags Epas#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#tags Epas#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#timezone Epas#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#timezone Epas#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#backup Epas#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#backup Epas#backup}
   */
   readonly backup?: EpasBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#block_storages Epas#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#block_storages Epas#block_storages}
   */
   readonly blockStorages: EpasBlockStorages[] | cdktf.IResolvable;
   /**
   * epas_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#epas_servers Epas#epas_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#epas_servers Epas#epas_servers}
   */
   readonly epasServers: EpasEpasServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#timeouts Epas#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#timeouts Epas#timeouts}
   */
   readonly timeouts?: EpasTimeouts;
 }
@@ -167,25 +155,25 @@ export interface EpasBackup {
   /**
   * Backup File Schedule Frequency.(5M|10M|30M|1H) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#archive_backup_schedule_frequency Epas#archive_backup_schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#archive_backup_schedule_frequency Epas#archive_backup_schedule_frequency}
   */
   readonly archiveBackupScheduleFrequency: string;
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#backup_retention_period Epas#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#backup_retention_period Epas#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#backup_start_hour Epas#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#backup_start_hour Epas#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#object_storage_id Epas#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#object_storage_id Epas#object_storage_id}
   */
   readonly objectStorageId?: string;
 }
@@ -349,19 +337,19 @@ export interface EpasBlockStorages {
   /**
   * Storage usage. (DATA|ARCHIVE|TEMP|BACKUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#block_storage_role_type Epas#block_storage_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#block_storage_role_type Epas#block_storage_role_type}
   */
   readonly blockStorageRoleType: string;
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#block_storage_size Epas#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#block_storage_size Epas#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#block_storage_type Epas#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#block_storage_type Epas#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -533,19 +521,19 @@ export interface EpasEpasServers {
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#availability_zone_name Epas#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#availability_zone_name Epas#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Epas database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#epas_server_name Epas#epas_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#epas_server_name Epas#epas_server_name}
   */
   readonly epasServerName: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | STANDBY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#server_role_type Epas#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#server_role_type Epas#server_role_type}
   */
   readonly serverRoleType: string;
 }
@@ -713,15 +701,15 @@ export class EpasEpasServersList extends cdktf.ComplexList {
 }
 export interface EpasTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#create Epas#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#create Epas#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#delete Epas#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#delete Epas#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#update Epas#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#update Epas#update}
   */
   readonly update?: string;
 }
@@ -873,7 +861,7 @@ export class EpasTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas samsungcloudplatform_epas}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas samsungcloudplatform_epas}
 */
 export class Epas extends cdktf.TerraformResource {
 
@@ -889,7 +877,7 @@ export class Epas extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Epas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Epas to import
-  * @param importFromId The id of the existing Epas that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Epas that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Epas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -901,7 +889,7 @@ export class Epas extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/epas samsungcloudplatform_epas} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/epas samsungcloudplatform_epas} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -912,8 +900,8 @@ export class Epas extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_epas',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -924,7 +912,6 @@ export class Epas extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._auditEnabled = config.auditEnabled;
-    this._contractPeriod = config.contractPeriod;
     this._databaseEncoding = config.databaseEncoding;
     this._databaseLocale = config.databaseLocale;
     this._databaseName = config.databaseName;
@@ -938,7 +925,6 @@ export class Epas extends cdktf.TerraformResource {
     this._imageId = config.imageId;
     this._natEnabled = config.natEnabled;
     this._natPublicIpId = config.natPublicIpId;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._securityGroupIds = config.securityGroupIds;
     this._serverType = config.serverType;
     this._serviceZoneId = config.serviceZoneId;
@@ -966,19 +952,6 @@ export class Epas extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get auditEnabledInput() {
     return this._auditEnabled;
-  }
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
   }
 
   // database_encoding - computed: false, optional: false, required: true
@@ -1164,22 +1137,6 @@ export class Epas extends cdktf.TerraformResource {
     return this._natPublicIpId;
   }
 
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
-  }
-
   // security_group_ids - computed: false, optional: false, required: true
   private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
@@ -1336,7 +1293,6 @@ export class Epas extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       audit_enabled: cdktf.booleanToTerraform(this._auditEnabled),
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_encoding: cdktf.stringToTerraform(this._databaseEncoding),
       database_locale: cdktf.stringToTerraform(this._databaseLocale),
       database_name: cdktf.stringToTerraform(this._databaseName),
@@ -1350,7 +1306,6 @@ export class Epas extends cdktf.TerraformResource {
       image_id: cdktf.stringToTerraform(this._imageId),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
       nat_public_ip_id: cdktf.stringToTerraform(this._natPublicIpId),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       server_type: cdktf.stringToTerraform(this._serverType),
       service_zone_id: cdktf.stringToTerraform(this._serviceZoneId),
@@ -1371,12 +1326,6 @@ export class Epas extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       database_encoding: {
         value: cdktf.stringToHclTerraform(this._databaseEncoding),
@@ -1452,12 +1401,6 @@ export class Epas extends cdktf.TerraformResource {
       },
       nat_public_ip_id: {
         value: cdktf.stringToHclTerraform(this._natPublicIpId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,3 +1,3 @@
 # `edgecenter_cdn_rule`
 
-Refer to the Terraform Registry for docs: [`edgecenter_cdn_rule`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_rule).
+Refer to the Terraform Registry for docs: [`edgecenter_cdn_rule`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_rule).

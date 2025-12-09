@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnLecertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Флаг отмены активного процесса выдачи SSL-сертификата Let's Encrypt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert#active CdnLecert#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert#active CdnLecert#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert#id CdnLecert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert#id CdnLecert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CdnLecertConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID ресурса CDN, к которому привязывается Let's Encrypt сертификат
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert#resource_id CdnLecert#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert#resource_id CdnLecert#resource_id}
   */
   readonly resourceId: number;
   /**
   * Флаг обновления Let's Encrypt сертификата
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert#update CdnLecert#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert#update CdnLecert#update}
   */
   readonly update?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert edgecenter_cdn_lecert}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert edgecenter_cdn_lecert}
 */
 export class CdnLecert extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CdnLecert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnLecert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnLecert to import
-  * @param importFromId The id of the existing CdnLecert that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnLecert that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnLecert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CdnLecert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_lecert edgecenter_cdn_lecert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_lecert edgecenter_cdn_lecert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CdnLecert extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_cdn_lecert',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

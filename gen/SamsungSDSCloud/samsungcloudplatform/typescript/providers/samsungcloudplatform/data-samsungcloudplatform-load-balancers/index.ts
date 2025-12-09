@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformLoadBalancersConfig extends cdktf.Terra
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#created_by DataSamsungcloudplatformLoadBalancers#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#created_by DataSamsungcloudplatformLoadBalancers#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#id DataSamsungcloudplatformLoadBalancers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#id DataSamsungcloudplatformLoadBalancers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataSamsungcloudplatformLoadBalancersConfig extends cdktf.Terra
   /**
   * Load balancer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#load_balancer_name DataSamsungcloudplatformLoadBalancers#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#load_balancer_name DataSamsungcloudplatformLoadBalancers#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * Size of load balancer to be created (SMALL,MEDIUM,LARGE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#load_balancer_size DataSamsungcloudplatformLoadBalancers#load_balancer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#load_balancer_size DataSamsungcloudplatformLoadBalancers#load_balancer_size}
   */
   readonly loadBalancerSize?: string;
   /**
   * Load balancer status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#load_balancer_state DataSamsungcloudplatformLoadBalancers#load_balancer_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#load_balancer_state DataSamsungcloudplatformLoadBalancers#load_balancer_state}
   */
   readonly loadBalancerState?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#page DataSamsungcloudplatformLoadBalancers#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#page DataSamsungcloudplatformLoadBalancers#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#size DataSamsungcloudplatformLoadBalancers#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#size DataSamsungcloudplatformLoadBalancers#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#sort DataSamsungcloudplatformLoadBalancers#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#sort DataSamsungcloudplatformLoadBalancers#sort}
   */
   readonly sort?: string;
   /**
   * Vpc name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#vpc_name DataSamsungcloudplatformLoadBalancers#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#vpc_name DataSamsungcloudplatformLoadBalancers#vpc_name}
   */
   readonly vpcName?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#contents DataSamsungcloudplatformLoadBalancers#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#contents DataSamsungcloudplatformLoadBalancers#contents}
   */
   readonly contents?: DataSamsungcloudplatformLoadBalancersContents[] | cdktf.IResolvable;
 }
@@ -212,7 +212,7 @@ export class DataSamsungcloudplatformLoadBalancersContentsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers samsungcloudplatform_load_balancers}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers samsungcloudplatform_load_balancers}
 */
 export class DataSamsungcloudplatformLoadBalancers extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataSamsungcloudplatformLoadBalancers extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSamsungcloudplatformLoadBalancers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformLoadBalancers to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformLoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformLoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformLoadBalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataSamsungcloudplatformLoadBalancers extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/load_balancers samsungcloudplatform_load_balancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/load_balancers samsungcloudplatform_load_balancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataSamsungcloudplatformLoadBalancers extends cdktf.TerraformDataSo
       terraformResourceType: 'samsungcloudplatform_load_balancers',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

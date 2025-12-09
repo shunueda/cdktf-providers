@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformIamRolePoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#id DataSamsungcloudplatformIamRolePolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#id DataSamsungcloudplatformIamRolePolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataSamsungcloudplatformIamRolePoliciesConfig extends cdktf.Ter
   /**
   * Modifier's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#policy_name DataSamsungcloudplatformIamRolePolicies#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#policy_name DataSamsungcloudplatformIamRolePolicies#policy_name}
   */
   readonly policyName?: string;
   /**
   * Role name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#policy_type DataSamsungcloudplatformIamRolePolicies#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#policy_type DataSamsungcloudplatformIamRolePolicies#policy_type}
   */
   readonly policyType?: string;
   /**
   * Role ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#role_id DataSamsungcloudplatformIamRolePolicies#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#role_id DataSamsungcloudplatformIamRolePolicies#role_id}
   */
   readonly roleId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#filter DataSamsungcloudplatformIamRolePolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#filter DataSamsungcloudplatformIamRolePolicies#filter}
   */
   readonly filter?: DataSamsungcloudplatformIamRolePoliciesFilter[] | cdktf.IResolvable;
 }
@@ -173,19 +173,19 @@ export interface DataSamsungcloudplatformIamRolePoliciesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#name DataSamsungcloudplatformIamRolePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#name DataSamsungcloudplatformIamRolePolicies#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#use_regex DataSamsungcloudplatformIamRolePolicies#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#use_regex DataSamsungcloudplatformIamRolePolicies#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#values DataSamsungcloudplatformIamRolePolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#values DataSamsungcloudplatformIamRolePolicies#values}
   */
   readonly values: string[];
 }
@@ -353,7 +353,7 @@ export class DataSamsungcloudplatformIamRolePoliciesFilterList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies samsungcloudplatform_iam_role_policies}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies samsungcloudplatform_iam_role_policies}
 */
 export class DataSamsungcloudplatformIamRolePolicies extends cdktf.TerraformDataSource {
 
@@ -369,7 +369,7 @@ export class DataSamsungcloudplatformIamRolePolicies extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSamsungcloudplatformIamRolePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformIamRolePolicies to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformIamRolePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformIamRolePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformIamRolePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class DataSamsungcloudplatformIamRolePolicies extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_role_policies samsungcloudplatform_iam_role_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_role_policies samsungcloudplatform_iam_role_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class DataSamsungcloudplatformIamRolePolicies extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_iam_role_policies',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

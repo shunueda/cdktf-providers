@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Multi AZ Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#az_code Backup#az_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#az_code Backup#az_code}
   */
   readonly azCode?: string;
   /**
   * Backup(DR) Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#backup_dr_zone_id Backup#backup_dr_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#backup_dr_zone_id Backup#backup_dr_zone_id}
   */
   readonly backupDrZoneId?: string;
   /**
   * Backup Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#backup_name Backup#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#backup_name Backup#backup_name}
   */
   readonly backupName: string;
   /**
   * Backup Policy Type Category (VM, FILESYSTEM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#backup_policy_type_category Backup#backup_policy_type_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#backup_policy_type_category Backup#backup_policy_type_category}
   */
   readonly backupPolicyTypeCategory: string;
   /**
   * Backup Repository (SD_STORAGE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#backup_repository Backup#backup_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#backup_repository Backup#backup_repository}
   */
   readonly backupRepository: string;
   /**
   * Multi AZ(DR) Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#dr_az_code Backup#dr_az_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#dr_az_code Backup#dr_az_code}
   */
   readonly drAzCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#id Backup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#id Backup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,65 +53,65 @@ export interface BackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Incremental Backup Retention Period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#incremental_retention_period Backup#incremental_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#incremental_retention_period Backup#incremental_retention_period}
   */
   readonly incrementalRetentionPeriod?: string;
   /**
   * IF 'Y', Destroy DR replica together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#is_backup_dr_destroy_enabled Backup#is_backup_dr_destroy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#is_backup_dr_destroy_enabled Backup#is_backup_dr_destroy_enabled}
   */
   readonly isBackupDrDestroyEnabled?: boolean | cdktf.IResolvable;
   /**
   * Backup(DR) Activation (If 'Y', Backup(DR) will be activated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#is_backup_dr_enabled Backup#is_backup_dr_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#is_backup_dr_enabled Backup#is_backup_dr_enabled}
   */
   readonly isBackupDrEnabled?: string;
   /**
   * Backup Object ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#object_id Backup#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#object_id Backup#object_id}
   */
   readonly objectId: string;
   /**
   * Backup Object Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#object_type Backup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#object_type Backup#object_type}
   */
   readonly objectType: string;
   /**
   * Backup Policy Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#policy_type Backup#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#policy_type Backup#policy_type}
   */
   readonly policyType: string;
   /**
   * Product Names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#product_names Backup#product_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#product_names Backup#product_names}
   */
   readonly productNames: string[];
   /**
   * Full Backup Retention Period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#retention_period Backup#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#retention_period Backup#retention_period}
   */
   readonly retentionPeriod?: string;
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#service_zone_id Backup#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#service_zone_id Backup#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#tags Backup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#tags Backup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#schedules Backup#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#schedules Backup#schedules}
   */
   readonly schedules: BackupSchedules[] | cdktf.IResolvable;
 }
@@ -119,25 +119,25 @@ export interface BackupSchedules {
   /**
   * Backup Schedule Frequency (MONTHLY, WEEKLY, DAYS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#schedule_frequency Backup#schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#schedule_frequency Backup#schedule_frequency}
   */
   readonly scheduleFrequency: string;
   /**
   * Backup Schedule Frequency details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#schedule_frequency_detail Backup#schedule_frequency_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#schedule_frequency_detail Backup#schedule_frequency_detail}
   */
   readonly scheduleFrequencyDetail: string;
   /**
   * Backup Schedule Type (FULL, INCREMENTAL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#schedule_type Backup#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#schedule_type Backup#schedule_type}
   */
   readonly scheduleType: string;
   /**
   * Backup Start Time (format:HH:mm±hh:mm)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#start_time Backup#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#start_time Backup#start_time}
   */
   readonly startTime: string;
 }
@@ -338,7 +338,7 @@ export class BackupSchedulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup samsungcloudplatform_backup}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup samsungcloudplatform_backup}
 */
 export class Backup extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class Backup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backup to import
-  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class Backup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/backup samsungcloudplatform_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/backup samsungcloudplatform_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class Backup extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_backup',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

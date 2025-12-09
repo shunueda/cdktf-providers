@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEdgecenterReservedfixedipConfig extends cdktf.TerraformMeta
   /**
   * The IP address that is associated with the reserved IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#fixed_ip_address DataEdgecenterReservedfixedip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#fixed_ip_address DataEdgecenterReservedfixedip#fixed_ip_address}
   */
   readonly fixedIpAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#id DataEdgecenterReservedfixedip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#id DataEdgecenterReservedfixedip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataEdgecenterReservedfixedipConfig extends cdktf.TerraformMeta
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#project_id DataEdgecenterReservedfixedip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#project_id DataEdgecenterReservedfixedip#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#project_name DataEdgecenterReservedfixedip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#project_name DataEdgecenterReservedfixedip#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#region_id DataEdgecenterReservedfixedip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#region_id DataEdgecenterReservedfixedip#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#region_name DataEdgecenterReservedfixedip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#region_name DataEdgecenterReservedfixedip#region_name}
   */
   readonly regionName?: string;
 }
@@ -127,7 +127,7 @@ export class DataEdgecenterReservedfixedipAllowedAddressPairsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip edgecenter_reservedfixedip}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip edgecenter_reservedfixedip}
 */
 export class DataEdgecenterReservedfixedip extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataEdgecenterReservedfixedip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterReservedfixedip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterReservedfixedip to import
-  * @param importFromId The id of the existing DataEdgecenterReservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterReservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterReservedfixedip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataEdgecenterReservedfixedip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip edgecenter_reservedfixedip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip edgecenter_reservedfixedip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataEdgecenterReservedfixedip extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_reservedfixedip',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

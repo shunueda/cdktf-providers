@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformLoggingauditsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#id DataSamsungcloudplatformLoggingaudits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#id DataSamsungcloudplatformLoggingaudits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,89 +17,89 @@ export interface DataSamsungcloudplatformLoggingauditsConfig extends cdktf.Terra
   /**
   * Logging object ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#object_id DataSamsungcloudplatformLoggingaudits#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#object_id DataSamsungcloudplatformLoggingaudits#object_id}
   */
   readonly objectId?: string;
   /**
   * Logging object name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#object_name DataSamsungcloudplatformLoggingaudits#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#object_name DataSamsungcloudplatformLoggingaudits#object_name}
   */
   readonly objectName?: string;
   /**
   * Request page number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#page DataSamsungcloudplatformLoggingaudits#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#page DataSamsungcloudplatformLoggingaudits#page}
   */
   readonly page?: number;
   /**
   * Offering scope. One of ALL, PUBLIC, PRIVATE, GOV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#product_offering DataSamsungcloudplatformLoggingaudits#product_offering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#product_offering DataSamsungcloudplatformLoggingaudits#product_offering}
   */
   readonly productOffering?: string;
   /**
   * requesting client type. One of Console, Api, System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#request_client_type DataSamsungcloudplatformLoggingaudits#request_client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#request_client_type DataSamsungcloudplatformLoggingaudits#request_client_type}
   */
   readonly requestClientType?: string;
   /**
   * Request start date. Default : date 3 months ago
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#request_end_dt DataSamsungcloudplatformLoggingaudits#request_end_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#request_end_dt DataSamsungcloudplatformLoggingaudits#request_end_dt}
   */
   readonly requestEndDt?: string;
   /**
   * Request start date. Default : current date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#request_start_dt DataSamsungcloudplatformLoggingaudits#request_start_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#request_start_dt DataSamsungcloudplatformLoggingaudits#request_start_dt}
   */
   readonly requestStartDt?: string;
   /**
   * Page count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#size DataSamsungcloudplatformLoggingaudits#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#size DataSamsungcloudplatformLoggingaudits#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#sort DataSamsungcloudplatformLoggingaudits#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#sort DataSamsungcloudplatformLoggingaudits#sort}
   */
   readonly sort?: string[];
   /**
   * Job result's state. Success or Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#state DataSamsungcloudplatformLoggingaudits#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#state DataSamsungcloudplatformLoggingaudits#state}
   */
   readonly state?: string;
   /**
   * Name of logging target products
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#target_product_names DataSamsungcloudplatformLoggingaudits#target_product_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#target_product_names DataSamsungcloudplatformLoggingaudits#target_product_names}
   */
   readonly targetProductNames?: string[];
   /**
   * Logging target regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#target_regions DataSamsungcloudplatformLoggingaudits#target_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#target_regions DataSamsungcloudplatformLoggingaudits#target_regions}
   */
   readonly targetRegions?: string[];
   /**
   * Logging target resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#target_resources DataSamsungcloudplatformLoggingaudits#target_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#target_resources DataSamsungcloudplatformLoggingaudits#target_resources}
   */
   readonly targetResources?: string[];
   /**
   * User name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#user_name DataSamsungcloudplatformLoggingaudits#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#user_name DataSamsungcloudplatformLoggingaudits#user_name}
   */
   readonly userName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#filter DataSamsungcloudplatformLoggingaudits#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#filter DataSamsungcloudplatformLoggingaudits#filter}
   */
   readonly filter?: DataSamsungcloudplatformLoggingauditsFilter[] | cdktf.IResolvable;
 }
@@ -277,19 +277,19 @@ export interface DataSamsungcloudplatformLoggingauditsFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#name DataSamsungcloudplatformLoggingaudits#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#name DataSamsungcloudplatformLoggingaudits#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#use_regex DataSamsungcloudplatformLoggingaudits#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#use_regex DataSamsungcloudplatformLoggingaudits#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#values DataSamsungcloudplatformLoggingaudits#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#values DataSamsungcloudplatformLoggingaudits#values}
   */
   readonly values: string[];
 }
@@ -457,7 +457,7 @@ export class DataSamsungcloudplatformLoggingauditsFilterList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits samsungcloudplatform_loggingaudits}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits samsungcloudplatform_loggingaudits}
 */
 export class DataSamsungcloudplatformLoggingaudits extends cdktf.TerraformDataSource {
 
@@ -473,7 +473,7 @@ export class DataSamsungcloudplatformLoggingaudits extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSamsungcloudplatformLoggingaudits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformLoggingaudits to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformLoggingaudits that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformLoggingaudits that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformLoggingaudits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -485,7 +485,7 @@ export class DataSamsungcloudplatformLoggingaudits extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudits samsungcloudplatform_loggingaudits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudits samsungcloudplatform_loggingaudits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,8 +496,8 @@ export class DataSamsungcloudplatformLoggingaudits extends cdktf.TerraformDataSo
       terraformResourceType: 'samsungcloudplatform_loggingaudits',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

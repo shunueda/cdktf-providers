@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile
+// https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface TrustScoreProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
+  * Your own description of the resource. Must be less than or equal to 65000 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#description TrustScoreProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#description TrustScoreProfile#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#display_name TrustScoreProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#display_name TrustScoreProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#id TrustScoreProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#id TrustScoreProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface TrustScoreProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of Location, where to create resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#location TrustScoreProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#location TrustScoreProfile#location}
   */
   readonly location: string;
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#name TrustScoreProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#name TrustScoreProfile#name}
   */
   readonly name: string;
   /**
   * NodeClassification is a node label in PascalCase, cannot be modified once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#node_classification TrustScoreProfile#node_classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#node_classification TrustScoreProfile#node_classification}
   */
   readonly nodeClassification: string;
   /**
   * Schedule sets the time between re-calculations. Possible values are: `UPDATE_FREQUENCY_DAILY`, `UPDATE_FREQUENCY_INVALID`, `UPDATE_FREQUENCY_SIX_HOURS`, `UPDATE_FREQUENCY_THREE_HOURS`, `UPDATE_FREQUENCY_TWELVE_HOURS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#schedule TrustScoreProfile#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#schedule TrustScoreProfile#schedule}
   */
   readonly schedule: string;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#dimension TrustScoreProfile#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#dimension TrustScoreProfile#dimension}
   */
   readonly dimension: TrustScoreProfileDimension[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#timeouts TrustScoreProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#timeouts TrustScoreProfile#timeouts}
   */
   readonly timeouts?: TrustScoreProfileTimeouts;
 }
@@ -67,13 +67,13 @@ export interface TrustScoreProfileDimension {
   /**
   * Name of the trust score dimensions. Possible values are: `NAME_COMPLETENESS`, `NAME_FRESHNESS`, `NAME_ORIGIN`, `NAME_VALIDITY`, `NAME_VERIFICATION`.  `Origin`: Identifies where the data comes from, ensuring its source is transparent and trustworthy.  `Validity`: Checks whether the data is in the correct format and follows expected rules.  `Completeness`: Confirms that no critical information is missing from the data.  `Freshness`: Measures how up-to-date the data is to ensure it's still relevant.  `Verification`: Ensures the data has been reviewed and confirmed as accurate by a trusted source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#name TrustScoreProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#name TrustScoreProfile#name}
   */
   readonly name: string;
   /**
   * Weight represents how relevant the dimension is in the trust score calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#weight TrustScoreProfile#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#weight TrustScoreProfile#weight}
   */
   readonly weight: number;
 }
@@ -212,23 +212,23 @@ export class TrustScoreProfileDimensionList extends cdktf.ComplexList {
 }
 export interface TrustScoreProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#create TrustScoreProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#create TrustScoreProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#default TrustScoreProfile#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#default TrustScoreProfile#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#delete TrustScoreProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#delete TrustScoreProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#read TrustScoreProfile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#read TrustScoreProfile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#update TrustScoreProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#update TrustScoreProfile#update}
   */
   readonly update?: string;
 }
@@ -438,7 +438,7 @@ export class TrustScoreProfileTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile indykite_trust_score_profile}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile indykite_trust_score_profile}
 */
 export class TrustScoreProfile extends cdktf.TerraformResource {
 
@@ -454,7 +454,7 @@ export class TrustScoreProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustScoreProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustScoreProfile to import
-  * @param importFromId The id of the existing TrustScoreProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustScoreProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustScoreProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class TrustScoreProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/trust_score_profile indykite_trust_score_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/trust_score_profile indykite_trust_score_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class TrustScoreProfile extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_trust_score_profile',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.28.0',
-        providerVersionConstraint: '0.28.0'
+        providerVersion: '0.29.0',
+        providerVersionConstraint: '0.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

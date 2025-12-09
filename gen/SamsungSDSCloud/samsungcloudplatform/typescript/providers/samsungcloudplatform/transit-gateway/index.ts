@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TransitGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bandwidth Gbps(UplinkEnable=false : 1, UplinkEnable=true : 1 or 10, Reserved for designated: 20 or 40)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#bandwidth_gbps TransitGateway#bandwidth_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#bandwidth_gbps TransitGateway#bandwidth_gbps}
   */
   readonly bandwidthGbps: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#id TransitGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#id TransitGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface TransitGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Region Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#region TransitGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#region TransitGateway#region}
   */
   readonly region: string;
   /**
   * Transit Gateway description. (Up to 50 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#transit_gateway_description TransitGateway#transit_gateway_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#transit_gateway_description TransitGateway#transit_gateway_description}
   */
   readonly transitGatewayDescription?: string;
   /**
   * Transit Gateway Name. ( 3 to 20 characters consist of alphabets and numbers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#transit_gateway_name TransitGateway#transit_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#transit_gateway_name TransitGateway#transit_gateway_name}
   */
   readonly transitGatewayName: string;
   /**
   * Option for Uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#uplink_enabled TransitGateway#uplink_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#uplink_enabled TransitGateway#uplink_enabled}
   */
   readonly uplinkEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway samsungcloudplatform_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway samsungcloudplatform_transit_gateway}
 */
 export class TransitGateway extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TransitGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGateway to import
-  * @param importFromId The id of the existing TransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TransitGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway samsungcloudplatform_transit_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway samsungcloudplatform_transit_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TransitGateway extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

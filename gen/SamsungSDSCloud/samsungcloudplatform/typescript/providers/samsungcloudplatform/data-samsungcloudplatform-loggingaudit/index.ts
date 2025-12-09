@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudit
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSamsungcloudplatformLoggingauditConfig extends cdktf.Terraf
   /**
   * Logging ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudit#logging_id DataSamsungcloudplatformLoggingaudit#logging_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudit#logging_id DataSamsungcloudplatformLoggingaudit#logging_id}
   */
   readonly loggingId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudit samsungcloudplatform_loggingaudit}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudit samsungcloudplatform_loggingaudit}
 */
 export class DataSamsungcloudplatformLoggingaudit extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataSamsungcloudplatformLoggingaudit extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSamsungcloudplatformLoggingaudit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformLoggingaudit to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformLoggingaudit that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformLoggingaudit that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformLoggingaudit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataSamsungcloudplatformLoggingaudit extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/loggingaudit samsungcloudplatform_loggingaudit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/loggingaudit samsungcloudplatform_loggingaudit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataSamsungcloudplatformLoggingaudit extends cdktf.TerraformDataSou
       terraformResourceType: 'samsungcloudplatform_loggingaudit',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

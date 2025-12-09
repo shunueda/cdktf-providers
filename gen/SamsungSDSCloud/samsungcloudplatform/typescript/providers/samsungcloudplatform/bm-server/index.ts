@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface BmServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Admin account for this bare-metal server OS. For linux, this must be 'root'. For Windows, this must not be 'administrator'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#admin_account BmServer#admin_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#admin_account BmServer#admin_account}
   */
   readonly adminAccount?: string;
   /**
   * Admin account password for this bare-metal server OS. (CAUTION) The actual plain-text password will be sent to your email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#admin_password BmServer#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#admin_password BmServer#admin_password}
   */
   readonly adminPassword: string;
   /**
   * Contract : None, 1-year, 3-year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#contract_discount BmServer#contract_discount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#contract_discount BmServer#contract_discount}
   */
   readonly contractDiscount: string;
   /**
   * CPU core count(8, 16, ..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#cpu_count BmServer#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#cpu_count BmServer#cpu_count}
   */
   readonly cpuCount: number;
   /**
   * Enable delete protection for this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#delete_protection BmServer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#delete_protection BmServer#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#id BmServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#id BmServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,53 +47,53 @@ export interface BmServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image id of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#image_id BmServer#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#image_id BmServer#image_id}
   */
   readonly imageId: string;
   /**
   * Initialization script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#initial_script BmServer#initial_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#initial_script BmServer#initial_script}
   */
   readonly initialScript?: string;
   /**
   * Memory size in gigabytes(16, 32,..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#memory_size_gb BmServer#memory_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#memory_size_gb BmServer#memory_size_gb}
   */
   readonly memorySizeGb: number;
   /**
   * Subnet id of this bare-metal server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#subnet_id BmServer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#subnet_id BmServer#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#tags BmServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#tags BmServer#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VPC id of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#vpc_id BmServer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#vpc_id BmServer#vpc_id}
   */
   readonly vpcId: string;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#block_storages BmServer#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#block_storages BmServer#block_storages}
   */
   readonly blockStorages?: BmServerBlockStorages[] | cdktf.IResolvable;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#servers BmServer#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#servers BmServer#servers}
   */
   readonly servers: BmServerServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#timeouts BmServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#timeouts BmServer#timeouts}
   */
   readonly timeouts?: BmServerTimeouts;
 }
@@ -101,25 +101,25 @@ export interface BmServerBlockStorages {
   /**
   * Use encryption for this storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#encrypted BmServer#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#encrypted BmServer#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * Block storage name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#name BmServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#name BmServer#name}
   */
   readonly name: string;
   /**
   * Storage product name : SSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#product_name BmServer#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#product_name BmServer#product_name}
   */
   readonly productName?: string;
   /**
   * Storage size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#storage_size_gb BmServer#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#storage_size_gb BmServer#storage_size_gb}
   */
   readonly storageSizeGb: number;
 }
@@ -318,61 +318,61 @@ export interface BmServerServers {
   /**
   * Bare-metal server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#bm_server_name BmServer#bm_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#bm_server_name BmServer#bm_server_name}
   */
   readonly bmServerName: string;
   /**
   * IP address of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#ipv4 BmServer#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#ipv4 BmServer#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Enable local subnet for this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#local_subnet_enabled BmServer#local_subnet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#local_subnet_enabled BmServer#local_subnet_enabled}
   */
   readonly localSubnetEnabled?: boolean | cdktf.IResolvable;
   /**
   * Local Subnet id of this bare-metal server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#local_subnet_id BmServer#local_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#local_subnet_id BmServer#local_subnet_id}
   */
   readonly localSubnetId?: string;
   /**
   * Local IP address of this bare-metal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#local_subnet_ipv4 BmServer#local_subnet_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#local_subnet_ipv4 BmServer#local_subnet_ipv4}
   */
   readonly localSubnetIpv4?: string;
   /**
   * Enable NAT feature for this bare-metal server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#nat_enabled BmServer#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#nat_enabled BmServer#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP id of this bare-metal server. Public-IP must be a valid public-ip resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#public_ip_id BmServer#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#public_ip_id BmServer#public_ip_id}
   */
   readonly publicIpId?: string;
   /**
   * Baremetal Server State(ex. RUNNING, STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#state BmServer#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#state BmServer#state}
   */
   readonly state: string;
   /**
   * Enable DNS feature for this bare-metal server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#use_dns BmServer#use_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#use_dns BmServer#use_dns}
   */
   readonly useDns?: boolean | cdktf.IResolvable;
   /**
   * Enable hyper-threading feature for this bare-metal server.(ex. Y, N)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#use_hyper_threading BmServer#use_hyper_threading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#use_hyper_threading BmServer#use_hyper_threading}
   */
   readonly useHyperThreading?: string;
 }
@@ -743,15 +743,15 @@ export class BmServerServersList extends cdktf.ComplexList {
 }
 export interface BmServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#create BmServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#create BmServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#delete BmServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#delete BmServer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#update BmServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#update BmServer#update}
   */
   readonly update?: string;
 }
@@ -903,7 +903,7 @@ export class BmServerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server samsungcloudplatform_bm_server}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server samsungcloudplatform_bm_server}
 */
 export class BmServer extends cdktf.TerraformResource {
 
@@ -919,7 +919,7 @@ export class BmServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmServer to import
-  * @param importFromId The id of the existing BmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -931,7 +931,7 @@ export class BmServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_server samsungcloudplatform_bm_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_server samsungcloudplatform_bm_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -942,8 +942,8 @@ export class BmServer extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_bm_server',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

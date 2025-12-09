@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DataMsoSchemaSiteAnpEpgStaticPortConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#anp_name DataMsoSchemaSiteAnpEpgStaticPort#anp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#anp_name DataMsoSchemaSiteAnpEpgStaticPort#anp_name}
   */
   readonly anpName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#epg_name DataMsoSchemaSiteAnpEpgStaticPort#epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#epg_name DataMsoSchemaSiteAnpEpgStaticPort#epg_name}
   */
   readonly epgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#fex DataMsoSchemaSiteAnpEpgStaticPort#fex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#fex DataMsoSchemaSiteAnpEpgStaticPort#fex}
   */
   readonly fex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#id DataMsoSchemaSiteAnpEpgStaticPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#id DataMsoSchemaSiteAnpEpgStaticPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#leaf DataMsoSchemaSiteAnpEpgStaticPort#leaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#leaf DataMsoSchemaSiteAnpEpgStaticPort#leaf}
   */
   readonly leaf: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#path DataMsoSchemaSiteAnpEpgStaticPort#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#path DataMsoSchemaSiteAnpEpgStaticPort#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#path_type DataMsoSchemaSiteAnpEpgStaticPort#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#path_type DataMsoSchemaSiteAnpEpgStaticPort#path_type}
   */
   readonly pathType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#pod DataMsoSchemaSiteAnpEpgStaticPort#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#pod DataMsoSchemaSiteAnpEpgStaticPort#pod}
   */
   readonly pod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#schema_id DataMsoSchemaSiteAnpEpgStaticPort#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#schema_id DataMsoSchemaSiteAnpEpgStaticPort#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#site_id DataMsoSchemaSiteAnpEpgStaticPort#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#site_id DataMsoSchemaSiteAnpEpgStaticPort#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#template_name DataMsoSchemaSiteAnpEpgStaticPort#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#template_name DataMsoSchemaSiteAnpEpgStaticPort#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port mso_schema_site_anp_epg_static_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port mso_schema_site_anp_epg_static_port}
 */
 export class DataMsoSchemaSiteAnpEpgStaticPort extends cdktf.TerraformDataSource {
 
@@ -73,7 +73,7 @@ export class DataMsoSchemaSiteAnpEpgStaticPort extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataMsoSchemaSiteAnpEpgStaticPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsoSchemaSiteAnpEpgStaticPort to import
-  * @param importFromId The id of the existing DataMsoSchemaSiteAnpEpgStaticPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsoSchemaSiteAnpEpgStaticPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsoSchemaSiteAnpEpgStaticPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class DataMsoSchemaSiteAnpEpgStaticPort extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_site_anp_epg_static_port mso_schema_site_anp_epg_static_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_site_anp_epg_static_port mso_schema_site_anp_epg_static_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class DataMsoSchemaSiteAnpEpgStaticPort extends cdktf.TerraformDataSource
       terraformResourceType: 'mso_schema_site_anp_epg_static_port',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Loadbalancerv2Config extends cdktf.TerraformMetaArguments {
   /**
   * The flavor or specification of the load balancer to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#flavor Loadbalancerv2#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#flavor Loadbalancerv2#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#id Loadbalancerv2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#id Loadbalancerv2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface Loadbalancerv2Config extends cdktf.TerraformMetaArguments {
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#last_updated Loadbalancerv2#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#last_updated Loadbalancerv2#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * A map containing metadata, for example tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#metadata_map Loadbalancerv2#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#metadata_map Loadbalancerv2#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
   * The name of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#name Loadbalancerv2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#name Loadbalancerv2#name}
   */
   readonly name: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#project_id Loadbalancerv2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#project_id Loadbalancerv2#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#project_name Loadbalancerv2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#project_name Loadbalancerv2#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#region_id Loadbalancerv2#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#region_id Loadbalancerv2#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#region_name Loadbalancerv2#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#region_name Loadbalancerv2#region_name}
   */
   readonly regionName?: string;
   /**
   * Attaches the created network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#vip_network_id Loadbalancerv2#vip_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#vip_network_id Loadbalancerv2#vip_network_id}
   */
   readonly vipNetworkId?: string;
   /**
   * Attaches the created reserved IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#vip_port_id Loadbalancerv2#vip_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#vip_port_id Loadbalancerv2#vip_port_id}
   */
   readonly vipPortId?: string;
   /**
   * The ID of the subnet in which to allocate the VIP address for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#vip_subnet_id Loadbalancerv2#vip_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#vip_subnet_id Loadbalancerv2#vip_subnet_id}
   */
   readonly vipSubnetId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#timeouts Loadbalancerv2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#timeouts Loadbalancerv2#timeouts}
   */
   readonly timeouts?: Loadbalancerv2Timeouts;
 }
@@ -174,11 +174,11 @@ export class Loadbalancerv2MetadataReadOnlyList extends cdktf.ComplexList {
 }
 export interface Loadbalancerv2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#create Loadbalancerv2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#create Loadbalancerv2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#delete Loadbalancerv2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#delete Loadbalancerv2#delete}
   */
   readonly delete?: string;
 }
@@ -301,7 +301,7 @@ export class Loadbalancerv2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2 edgecenter_loadbalancerv2}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2 edgecenter_loadbalancerv2}
 */
 export class Loadbalancerv2 extends cdktf.TerraformResource {
 
@@ -317,7 +317,7 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Loadbalancerv2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Loadbalancerv2 to import
-  * @param importFromId The id of the existing Loadbalancerv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Loadbalancerv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Loadbalancerv2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/loadbalancerv2 edgecenter_loadbalancerv2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/loadbalancerv2 edgecenter_loadbalancerv2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,8 +340,8 @@ export class Loadbalancerv2 extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_loadbalancerv2',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

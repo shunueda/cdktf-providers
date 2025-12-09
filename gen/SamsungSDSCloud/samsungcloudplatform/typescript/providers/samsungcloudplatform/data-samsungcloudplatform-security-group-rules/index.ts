@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformSecurityGroupRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#id DataSamsungcloudplatformSecurityGroupRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#id DataSamsungcloudplatformSecurityGroupRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSamsungcloudplatformSecurityGroupRulesConfig extends cdktf.
   /**
   * Security Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#security_group_id DataSamsungcloudplatformSecurityGroupRules#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#security_group_id DataSamsungcloudplatformSecurityGroupRules#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#contents DataSamsungcloudplatformSecurityGroupRules#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#contents DataSamsungcloudplatformSecurityGroupRules#contents}
   */
   readonly contents?: DataSamsungcloudplatformSecurityGroupRulesContents[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#filter DataSamsungcloudplatformSecurityGroupRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#filter DataSamsungcloudplatformSecurityGroupRules#filter}
   */
   readonly filter?: DataSamsungcloudplatformSecurityGroupRulesFilter[] | cdktf.IResolvable;
 }
@@ -208,19 +208,19 @@ export interface DataSamsungcloudplatformSecurityGroupRulesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#name DataSamsungcloudplatformSecurityGroupRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#name DataSamsungcloudplatformSecurityGroupRules#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#use_regex DataSamsungcloudplatformSecurityGroupRules#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#use_regex DataSamsungcloudplatformSecurityGroupRules#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#values DataSamsungcloudplatformSecurityGroupRules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#values DataSamsungcloudplatformSecurityGroupRules#values}
   */
   readonly values: string[];
 }
@@ -388,7 +388,7 @@ export class DataSamsungcloudplatformSecurityGroupRulesFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules samsungcloudplatform_security_group_rules}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules samsungcloudplatform_security_group_rules}
 */
 export class DataSamsungcloudplatformSecurityGroupRules extends cdktf.TerraformDataSource {
 
@@ -404,7 +404,7 @@ export class DataSamsungcloudplatformSecurityGroupRules extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataSamsungcloudplatformSecurityGroupRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformSecurityGroupRules to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformSecurityGroupRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformSecurityGroupRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformSecurityGroupRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +416,7 @@ export class DataSamsungcloudplatformSecurityGroupRules extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_rules samsungcloudplatform_security_group_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_rules samsungcloudplatform_security_group_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +427,8 @@ export class DataSamsungcloudplatformSecurityGroupRules extends cdktf.TerraformD
       terraformResourceType: 'samsungcloudplatform_security_group_rules',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

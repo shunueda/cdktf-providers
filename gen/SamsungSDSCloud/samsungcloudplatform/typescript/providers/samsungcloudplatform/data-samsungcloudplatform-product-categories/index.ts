@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSamsungcloudplatformProductCategoriesConfig extends cdktf.T
   /**
   * Product category id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#category_id DataSamsungcloudplatformProductCategories#category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#category_id DataSamsungcloudplatformProductCategories#category_id}
   */
   readonly categoryId?: string;
   /**
   * Product category status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#category_state DataSamsungcloudplatformProductCategories#category_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#category_state DataSamsungcloudplatformProductCategories#category_state}
   */
   readonly categoryState?: string;
   /**
   * Exposure scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#exposure_scope DataSamsungcloudplatformProductCategories#exposure_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#exposure_scope DataSamsungcloudplatformProductCategories#exposure_scope}
   */
   readonly exposureScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#id DataSamsungcloudplatformProductCategories#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#id DataSamsungcloudplatformProductCategories#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataSamsungcloudplatformProductCategoriesConfig extends cdktf.T
   /**
   * Language code (ko_KR, en_US)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#language_code DataSamsungcloudplatformProductCategories#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#language_code DataSamsungcloudplatformProductCategories#language_code}
   */
   readonly languageCode: string;
   /**
   * Product id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#product_id DataSamsungcloudplatformProductCategories#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#product_id DataSamsungcloudplatformProductCategories#product_id}
   */
   readonly productId?: string;
   /**
   * Product status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#product_state DataSamsungcloudplatformProductCategories#product_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#product_state DataSamsungcloudplatformProductCategories#product_state}
   */
   readonly productState?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#contents DataSamsungcloudplatformProductCategories#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#contents DataSamsungcloudplatformProductCategories#contents}
   */
   readonly contents?: DataSamsungcloudplatformProductCategoriesContents[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#filter DataSamsungcloudplatformProductCategories#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#filter DataSamsungcloudplatformProductCategories#filter}
   */
   readonly filter?: DataSamsungcloudplatformProductCategoriesFilter[] | cdktf.IResolvable;
 }
@@ -183,19 +183,19 @@ export interface DataSamsungcloudplatformProductCategoriesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#name DataSamsungcloudplatformProductCategories#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#name DataSamsungcloudplatformProductCategories#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#use_regex DataSamsungcloudplatformProductCategories#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#use_regex DataSamsungcloudplatformProductCategories#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#values DataSamsungcloudplatformProductCategories#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#values DataSamsungcloudplatformProductCategories#values}
   */
   readonly values: string[];
 }
@@ -363,7 +363,7 @@ export class DataSamsungcloudplatformProductCategoriesFilterList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories samsungcloudplatform_product_categories}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories samsungcloudplatform_product_categories}
 */
 export class DataSamsungcloudplatformProductCategories extends cdktf.TerraformDataSource {
 
@@ -379,7 +379,7 @@ export class DataSamsungcloudplatformProductCategories extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataSamsungcloudplatformProductCategories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformProductCategories to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformProductCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformProductCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformProductCategories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class DataSamsungcloudplatformProductCategories extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/product_categories samsungcloudplatform_product_categories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/product_categories samsungcloudplatform_product_categories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class DataSamsungcloudplatformProductCategories extends cdktf.TerraformDa
       terraformResourceType: 'samsungcloudplatform_product_categories',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

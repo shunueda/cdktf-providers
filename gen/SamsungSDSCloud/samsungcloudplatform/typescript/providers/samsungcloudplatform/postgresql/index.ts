@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,53 @@ export interface PostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to use database audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#audit_enabled Postgresql#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#audit_enabled Postgresql#audit_enabled}
   */
   readonly auditEnabled: boolean | cdktf.IResolvable;
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#contract_period Postgresql#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Postgresql encoding. (Only 'UTF8' for now)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_encoding Postgresql#database_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_encoding Postgresql#database_encoding}
   */
   readonly databaseEncoding: string;
   /**
   * Postgresql locale. (Only 'C' for now)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_locale Postgresql#database_locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_locale Postgresql#database_locale}
   */
   readonly databaseLocale: string;
   /**
   * Name of database. (only English alphabets or numbers between 3 and 20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_name Postgresql#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_name Postgresql#database_name}
   */
   readonly databaseName: string;
   /**
   * Port number of database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_port Postgresql#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_port Postgresql#database_port}
   */
   readonly databasePort: number;
   /**
   * User account id of database. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_user_name Postgresql#database_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_user_name Postgresql#database_user_name}
   */
   readonly databaseUserName: string;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#database_user_password Postgresql#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#database_user_password Postgresql#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#encryption_enabled Postgresql#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#encryption_enabled Postgresql#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#id Postgresql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#id Postgresql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,95 +65,89 @@ export interface PostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Postgresql virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#image_id Postgresql#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#image_id Postgresql#image_id}
   */
   readonly imageId: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#nat_enabled Postgresql#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#nat_enabled Postgresql#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#nat_public_ip_id Postgresql#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#nat_public_ip_id Postgresql#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
-  * Next contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#next_contract_period Postgresql#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#postgresql_cluster_name Postgresql#postgresql_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#postgresql_cluster_name Postgresql#postgresql_cluster_name}
   */
   readonly postgresqlClusterName: string;
   /**
   * postgresql cluster state (RUNNING|STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#postgresql_cluster_state Postgresql#postgresql_cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#postgresql_cluster_state Postgresql#postgresql_cluster_state}
   */
   readonly postgresqlClusterState: string;
   /**
   * Security-Group ids of this postgresql DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#security_group_ids Postgresql#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#security_group_ids Postgresql#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#server_type Postgresql#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#server_type Postgresql#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#service_zone_id Postgresql#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#service_zone_id Postgresql#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#subnet_id Postgresql#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#subnet_id Postgresql#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#tags Postgresql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#tags Postgresql#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#timezone Postgresql#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#timezone Postgresql#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#backup Postgresql#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#backup Postgresql#backup}
   */
   readonly backup?: PostgresqlBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#block_storages Postgresql#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#block_storages Postgresql#block_storages}
   */
   readonly blockStorages: PostgresqlBlockStorages[] | cdktf.IResolvable;
   /**
   * postgresql_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#postgresql_servers Postgresql#postgresql_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#postgresql_servers Postgresql#postgresql_servers}
   */
   readonly postgresqlServers: PostgresqlPostgresqlServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#timeouts Postgresql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#timeouts Postgresql#timeouts}
   */
   readonly timeouts?: PostgresqlTimeouts;
 }
@@ -167,25 +155,25 @@ export interface PostgresqlBackup {
   /**
   * Backup File Schedule Frequency.(5M|10M|30M|1H) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#archive_backup_schedule_frequency Postgresql#archive_backup_schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#archive_backup_schedule_frequency Postgresql#archive_backup_schedule_frequency}
   */
   readonly archiveBackupScheduleFrequency: string;
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#backup_retention_period Postgresql#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#backup_retention_period Postgresql#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#backup_start_hour Postgresql#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#backup_start_hour Postgresql#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#object_storage_id Postgresql#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#object_storage_id Postgresql#object_storage_id}
   */
   readonly objectStorageId?: string;
 }
@@ -349,19 +337,19 @@ export interface PostgresqlBlockStorages {
   /**
   * Storage usage. (DATA|ARCHIVE|TEMP|BACKUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#block_storage_role_type Postgresql#block_storage_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#block_storage_role_type Postgresql#block_storage_role_type}
   */
   readonly blockStorageRoleType: string;
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#block_storage_size Postgresql#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#block_storage_size Postgresql#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#block_storage_type Postgresql#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#block_storage_type Postgresql#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -533,19 +521,19 @@ export interface PostgresqlPostgresqlServers {
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#availability_zone_name Postgresql#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#availability_zone_name Postgresql#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Postgresql database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#postgresql_server_name Postgresql#postgresql_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#postgresql_server_name Postgresql#postgresql_server_name}
   */
   readonly postgresqlServerName: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | STANDBY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#server_role_type Postgresql#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#server_role_type Postgresql#server_role_type}
   */
   readonly serverRoleType: string;
 }
@@ -713,15 +701,15 @@ export class PostgresqlPostgresqlServersList extends cdktf.ComplexList {
 }
 export interface PostgresqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#create Postgresql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#create Postgresql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#delete Postgresql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#delete Postgresql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#update Postgresql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#update Postgresql#update}
   */
   readonly update?: string;
 }
@@ -873,7 +861,7 @@ export class PostgresqlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql samsungcloudplatform_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql samsungcloudplatform_postgresql}
 */
 export class Postgresql extends cdktf.TerraformResource {
 
@@ -889,7 +877,7 @@ export class Postgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Postgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Postgresql to import
-  * @param importFromId The id of the existing Postgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Postgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Postgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -901,7 +889,7 @@ export class Postgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/postgresql samsungcloudplatform_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/postgresql samsungcloudplatform_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -912,8 +900,8 @@ export class Postgresql extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -924,7 +912,6 @@ export class Postgresql extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._auditEnabled = config.auditEnabled;
-    this._contractPeriod = config.contractPeriod;
     this._databaseEncoding = config.databaseEncoding;
     this._databaseLocale = config.databaseLocale;
     this._databaseName = config.databaseName;
@@ -936,7 +923,6 @@ export class Postgresql extends cdktf.TerraformResource {
     this._imageId = config.imageId;
     this._natEnabled = config.natEnabled;
     this._natPublicIpId = config.natPublicIpId;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._postgresqlClusterName = config.postgresqlClusterName;
     this._postgresqlClusterState = config.postgresqlClusterState;
     this._securityGroupIds = config.securityGroupIds;
@@ -966,19 +952,6 @@ export class Postgresql extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get auditEnabledInput() {
     return this._auditEnabled;
-  }
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
   }
 
   // database_encoding - computed: false, optional: false, required: true
@@ -1136,22 +1109,6 @@ export class Postgresql extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get natPublicIpIdInput() {
     return this._natPublicIpId;
-  }
-
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
   }
 
   // postgresql_cluster_name - computed: false, optional: false, required: true
@@ -1336,7 +1293,6 @@ export class Postgresql extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       audit_enabled: cdktf.booleanToTerraform(this._auditEnabled),
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_encoding: cdktf.stringToTerraform(this._databaseEncoding),
       database_locale: cdktf.stringToTerraform(this._databaseLocale),
       database_name: cdktf.stringToTerraform(this._databaseName),
@@ -1348,7 +1304,6 @@ export class Postgresql extends cdktf.TerraformResource {
       image_id: cdktf.stringToTerraform(this._imageId),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
       nat_public_ip_id: cdktf.stringToTerraform(this._natPublicIpId),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       postgresql_cluster_name: cdktf.stringToTerraform(this._postgresqlClusterName),
       postgresql_cluster_state: cdktf.stringToTerraform(this._postgresqlClusterState),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
@@ -1371,12 +1326,6 @@ export class Postgresql extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       database_encoding: {
         value: cdktf.stringToHclTerraform(this._databaseEncoding),
@@ -1440,12 +1389,6 @@ export class Postgresql extends cdktf.TerraformResource {
       },
       nat_public_ip_id: {
         value: cdktf.stringToHclTerraform(this._natPublicIpId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface DataSamsungcloudplatformCertificateConfig extends cdktf.Terrafo
   /**
   * Certificate Chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_chain DataSamsungcloudplatformCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_chain DataSamsungcloudplatformCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
   * Expiration Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_expiration_date DataSamsungcloudplatformCertificate#certificate_expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_expiration_date DataSamsungcloudplatformCertificate#certificate_expiration_date}
   */
   readonly certificateExpirationDate?: string;
   /**
   * Certificate id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_id DataSamsungcloudplatformCertificate#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_id DataSamsungcloudplatformCertificate#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Certificate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_name DataSamsungcloudplatformCertificate#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_name DataSamsungcloudplatformCertificate#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Start Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_start_date DataSamsungcloudplatformCertificate#certificate_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_start_date DataSamsungcloudplatformCertificate#certificate_start_date}
   */
   readonly certificateStartDate?: string;
   /**
   * Certificate State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_state DataSamsungcloudplatformCertificate#certificate_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_state DataSamsungcloudplatformCertificate#certificate_state}
   */
   readonly certificateState?: string;
   /**
   * Certificate Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_type DataSamsungcloudplatformCertificate#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_type DataSamsungcloudplatformCertificate#certificate_type}
   */
   readonly certificateType?: string;
   /**
   * Certificate Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#certificate_version DataSamsungcloudplatformCertificate#certificate_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#certificate_version DataSamsungcloudplatformCertificate#certificate_version}
   */
   readonly certificateVersion?: string;
   /**
   * Common Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#common_name DataSamsungcloudplatformCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#common_name DataSamsungcloudplatformCertificate#common_name}
   */
   readonly commonName?: string;
   /**
   * Created By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#created_by DataSamsungcloudplatformCertificate#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#created_by DataSamsungcloudplatformCertificate#created_by}
   */
   readonly createdBy?: string;
   /**
   * Certificate Created By Email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#created_by_email DataSamsungcloudplatformCertificate#created_by_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#created_by_email DataSamsungcloudplatformCertificate#created_by_email}
   */
   readonly createdByEmail?: string;
   /**
   * Certificate Created By Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#created_by_name DataSamsungcloudplatformCertificate#created_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#created_by_name DataSamsungcloudplatformCertificate#created_by_name}
   */
   readonly createdByName?: string;
   /**
   * Creation date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#created_dt DataSamsungcloudplatformCertificate#created_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#created_dt DataSamsungcloudplatformCertificate#created_dt}
   */
   readonly createdDt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#id DataSamsungcloudplatformCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#id DataSamsungcloudplatformCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,61 +95,61 @@ export interface DataSamsungcloudplatformCertificateConfig extends cdktf.Terrafo
   /**
   * Key Bit Size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#key_bit_size DataSamsungcloudplatformCertificate#key_bit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#key_bit_size DataSamsungcloudplatformCertificate#key_bit_size}
   */
   readonly keyBitSize?: number;
   /**
   * Modified By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#modified_by DataSamsungcloudplatformCertificate#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#modified_by DataSamsungcloudplatformCertificate#modified_by}
   */
   readonly modifiedBy?: string;
   /**
   * Modified date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#modified_dt DataSamsungcloudplatformCertificate#modified_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#modified_dt DataSamsungcloudplatformCertificate#modified_dt}
   */
   readonly modifiedDt?: string;
   /**
   * Organization Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#organization_name DataSamsungcloudplatformCertificate#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#organization_name DataSamsungcloudplatformCertificate#organization_name}
   */
   readonly organizationName?: string;
   /**
   * Certificate Private Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#private_key DataSamsungcloudplatformCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#private_key DataSamsungcloudplatformCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
   * Project Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#project_id DataSamsungcloudplatformCertificate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#project_id DataSamsungcloudplatformCertificate#project_id}
   */
   readonly projectId?: string;
   /**
   * Certificate Public(Body)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#public_certificate DataSamsungcloudplatformCertificate#public_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#public_certificate DataSamsungcloudplatformCertificate#public_certificate}
   */
   readonly publicCertificate?: string;
   /**
   * Purpose Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#purpose_type DataSamsungcloudplatformCertificate#purpose_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#purpose_type DataSamsungcloudplatformCertificate#purpose_type}
   */
   readonly purposeType?: string;
   /**
   * Used Resource Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#used_resource_count DataSamsungcloudplatformCertificate#used_resource_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#used_resource_count DataSamsungcloudplatformCertificate#used_resource_count}
   */
   readonly usedResourceCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate samsungcloudplatform_certificate}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate samsungcloudplatform_certificate}
 */
 export class DataSamsungcloudplatformCertificate extends cdktf.TerraformDataSource {
 
@@ -165,7 +165,7 @@ export class DataSamsungcloudplatformCertificate extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSamsungcloudplatformCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformCertificate to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DataSamsungcloudplatformCertificate extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/certificate samsungcloudplatform_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/certificate samsungcloudplatform_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DataSamsungcloudplatformCertificate extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_certificate',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

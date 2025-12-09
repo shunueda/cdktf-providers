@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectionResourceHeaderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header#id ProtectionResourceHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header#id ProtectionResourceHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ProtectionResourceHeaderConfig extends cdktf.TerraformMetaArgum
   /**
   * HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header#key ProtectionResourceHeader#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header#key ProtectionResourceHeader#key}
   */
   readonly key: string;
   /**
   * ID of the DDoS protection resource to add header to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header#resource ProtectionResourceHeader#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header#resource ProtectionResourceHeader#resource}
   */
   readonly resource: string;
   /**
   * HTTP header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header#value ProtectionResourceHeader#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header#value ProtectionResourceHeader#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header edgecenter_protection_resource_header}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header edgecenter_protection_resource_header}
 */
 export class ProtectionResourceHeader extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ProtectionResourceHeader extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionResourceHeader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionResourceHeader to import
-  * @param importFromId The id of the existing ProtectionResourceHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionResourceHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionResourceHeader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ProtectionResourceHeader extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_header edgecenter_protection_resource_header} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_header edgecenter_protection_resource_header} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ProtectionResourceHeader extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_protection_resource_header',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

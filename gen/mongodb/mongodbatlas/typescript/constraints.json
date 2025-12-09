@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "mongodbatlas": "2.1.0"
+    "mongodbatlas": "2.3.0"
   }
 }

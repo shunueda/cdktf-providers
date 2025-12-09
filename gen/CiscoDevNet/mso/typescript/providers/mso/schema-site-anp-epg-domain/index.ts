@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaSiteAnpEpgDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#allow_micro_segmentation SchemaSiteAnpEpgDomain#allow_micro_segmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#allow_micro_segmentation SchemaSiteAnpEpgDomain#allow_micro_segmentation}
   */
   readonly allowMicroSegmentation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#allow_promiscuous SchemaSiteAnpEpgDomain#allow_promiscuous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#allow_promiscuous SchemaSiteAnpEpgDomain#allow_promiscuous}
   */
   readonly allowPromiscuous?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#anp_name SchemaSiteAnpEpgDomain#anp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#anp_name SchemaSiteAnpEpgDomain#anp_name}
   */
   readonly anpName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#binding_type SchemaSiteAnpEpgDomain#binding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#binding_type SchemaSiteAnpEpgDomain#binding_type}
   */
   readonly bindingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#custom_epg_name SchemaSiteAnpEpgDomain#custom_epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#custom_epg_name SchemaSiteAnpEpgDomain#custom_epg_name}
   */
   readonly customEpgName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#delimiter SchemaSiteAnpEpgDomain#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#delimiter SchemaSiteAnpEpgDomain#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#deploy_immediacy SchemaSiteAnpEpgDomain#deploy_immediacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#deploy_immediacy SchemaSiteAnpEpgDomain#deploy_immediacy}
   */
   readonly deployImmediacy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#dn SchemaSiteAnpEpgDomain#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#dn SchemaSiteAnpEpgDomain#dn}
   */
   readonly dn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#domain_dn SchemaSiteAnpEpgDomain#domain_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#domain_dn SchemaSiteAnpEpgDomain#domain_dn}
   */
   readonly domainDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#domain_name SchemaSiteAnpEpgDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#domain_name SchemaSiteAnpEpgDomain#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#domain_type SchemaSiteAnpEpgDomain#domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#domain_type SchemaSiteAnpEpgDomain#domain_type}
   */
   readonly domainType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#enhanced_lag_policy_dn SchemaSiteAnpEpgDomain#enhanced_lag_policy_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#enhanced_lag_policy_dn SchemaSiteAnpEpgDomain#enhanced_lag_policy_dn}
   */
   readonly enhancedLagPolicyDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#enhanced_lag_policy_name SchemaSiteAnpEpgDomain#enhanced_lag_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#enhanced_lag_policy_name SchemaSiteAnpEpgDomain#enhanced_lag_policy_name}
   */
   readonly enhancedLagPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#epg_name SchemaSiteAnpEpgDomain#epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#epg_name SchemaSiteAnpEpgDomain#epg_name}
   */
   readonly epgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#forged_transmits SchemaSiteAnpEpgDomain#forged_transmits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#forged_transmits SchemaSiteAnpEpgDomain#forged_transmits}
   */
   readonly forgedTransmits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#id SchemaSiteAnpEpgDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#id SchemaSiteAnpEpgDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#mac_changes SchemaSiteAnpEpgDomain#mac_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#mac_changes SchemaSiteAnpEpgDomain#mac_changes}
   */
   readonly macChanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#micro_seg_vlan SchemaSiteAnpEpgDomain#micro_seg_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#micro_seg_vlan SchemaSiteAnpEpgDomain#micro_seg_vlan}
   */
   readonly microSegVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#micro_seg_vlan_type SchemaSiteAnpEpgDomain#micro_seg_vlan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#micro_seg_vlan_type SchemaSiteAnpEpgDomain#micro_seg_vlan_type}
   */
   readonly microSegVlanType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#netflow SchemaSiteAnpEpgDomain#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#netflow SchemaSiteAnpEpgDomain#netflow}
   */
   readonly netflow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#num_ports SchemaSiteAnpEpgDomain#num_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#num_ports SchemaSiteAnpEpgDomain#num_ports}
   */
   readonly numPorts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#port_allocation SchemaSiteAnpEpgDomain#port_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#port_allocation SchemaSiteAnpEpgDomain#port_allocation}
   */
   readonly portAllocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#port_encap_vlan SchemaSiteAnpEpgDomain#port_encap_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#port_encap_vlan SchemaSiteAnpEpgDomain#port_encap_vlan}
   */
   readonly portEncapVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#port_encap_vlan_type SchemaSiteAnpEpgDomain#port_encap_vlan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#port_encap_vlan_type SchemaSiteAnpEpgDomain#port_encap_vlan_type}
   */
   readonly portEncapVlanType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#resolution_immediacy SchemaSiteAnpEpgDomain#resolution_immediacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#resolution_immediacy SchemaSiteAnpEpgDomain#resolution_immediacy}
   */
   readonly resolutionImmediacy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#schema_id SchemaSiteAnpEpgDomain#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#schema_id SchemaSiteAnpEpgDomain#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#site_id SchemaSiteAnpEpgDomain#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#site_id SchemaSiteAnpEpgDomain#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#switch_type SchemaSiteAnpEpgDomain#switch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#switch_type SchemaSiteAnpEpgDomain#switch_type}
   */
   readonly switchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#switching_mode SchemaSiteAnpEpgDomain#switching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#switching_mode SchemaSiteAnpEpgDomain#switching_mode}
   */
   readonly switchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#template_name SchemaSiteAnpEpgDomain#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#template_name SchemaSiteAnpEpgDomain#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#vlan_encap_mode SchemaSiteAnpEpgDomain#vlan_encap_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#vlan_encap_mode SchemaSiteAnpEpgDomain#vlan_encap_mode}
   */
   readonly vlanEncapMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#vmm_domain_type SchemaSiteAnpEpgDomain#vmm_domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#vmm_domain_type SchemaSiteAnpEpgDomain#vmm_domain_type}
   */
   readonly vmmDomainType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain mso_schema_site_anp_epg_domain}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain mso_schema_site_anp_epg_domain}
 */
 export class SchemaSiteAnpEpgDomain extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class SchemaSiteAnpEpgDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaSiteAnpEpgDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaSiteAnpEpgDomain to import
-  * @param importFromId The id of the existing SchemaSiteAnpEpgDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaSiteAnpEpgDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaSiteAnpEpgDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class SchemaSiteAnpEpgDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_anp_epg_domain mso_schema_site_anp_epg_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_anp_epg_domain mso_schema_site_anp_epg_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class SchemaSiteAnpEpgDomain extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_site_anp_epg_domain',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

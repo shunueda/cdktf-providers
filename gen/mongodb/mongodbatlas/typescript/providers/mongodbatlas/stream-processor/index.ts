@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface StreamProcessorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether to delete the resource being created if a timeout is reached when waiting for completion. When set to `true` and timeout occurs, it triggers the deletion and returns immediately without waiting for deletion to complete. When set to `false`, the timeout will not trigger resource deletion. If you suspect a transient error when the value is `true`, wait before retrying to allow resource deletion to finish. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#delete_on_create_timeout StreamProcessor#delete_on_create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#delete_on_create_timeout StreamProcessor#delete_on_create_timeout}
   */
   readonly deleteOnCreateTimeout?: boolean | cdktf.IResolvable;
   /**
   * Label that identifies the stream processing workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#instance_name StreamProcessor#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#instance_name StreamProcessor#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Optional configuration for the stream processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#options StreamProcessor#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#options StreamProcessor#options}
   */
   readonly options?: StreamProcessorOptions;
   /**
   * Stream aggregation pipeline you want to apply to your streaming data. [MongoDB Atlas Docs](https://www.mongodb.com/docs/atlas/atlas-stream-processing/stream-aggregation/#std-label-stream-aggregation) contain more information. Using [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) is recommended when setting this attribute. For more details see the [Aggregation Pipelines Documentation](https://www.mongodb.com/docs/atlas/atlas-stream-processing/stream-aggregation/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#pipeline StreamProcessor#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#pipeline StreamProcessor#pipeline}
   */
   readonly pipeline: string;
   /**
   * Label that identifies the stream processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#processor_name StreamProcessor#processor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#processor_name StreamProcessor#processor_name}
   */
   readonly processorName: string;
   /**
@@ -42,7 +42,7 @@ export interface StreamProcessorConfig extends cdktf.TerraformMetaArguments {
   * 
   * **NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group/project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#project_id StreamProcessor#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#project_id StreamProcessor#project_id}
   */
   readonly projectId: string;
   /**
@@ -50,17 +50,17 @@ export interface StreamProcessorConfig extends cdktf.TerraformMetaArguments {
   * 
   * **NOTE** When a Stream Processor is updated without specifying the state, it is stopped and then restored to previous state upon update completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#state StreamProcessor#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#state StreamProcessor#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#timeouts StreamProcessor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#timeouts StreamProcessor#timeouts}
   */
   readonly timeouts?: StreamProcessorTimeouts;
   /**
   * Label that identifies the stream processing workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#workspace_name StreamProcessor#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#workspace_name StreamProcessor#workspace_name}
   */
   readonly workspaceName?: string;
 }
@@ -68,19 +68,19 @@ export interface StreamProcessorOptionsDlq {
   /**
   * Name of the collection to use for the DLQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#coll StreamProcessor#coll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#coll StreamProcessor#coll}
   */
   readonly coll: string;
   /**
   * Name of the connection to write DLQ messages to. Must be an Atlas connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#connection_name StreamProcessor#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#connection_name StreamProcessor#connection_name}
   */
   readonly connectionName: string;
   /**
   * Name of the database to use for the DLQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#db StreamProcessor#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#db StreamProcessor#db}
   */
   readonly db: string;
 }
@@ -225,7 +225,7 @@ export interface StreamProcessorOptions {
   /**
   * Dead letter queue for the stream processor. Refer to the [MongoDB Atlas Docs](https://www.mongodb.com/docs/atlas/reference/glossary/#std-term-dead-letter-queue) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#dlq StreamProcessor#dlq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#dlq StreamProcessor#dlq}
   */
   readonly dlq: StreamProcessorOptionsDlq;
 }
@@ -318,7 +318,7 @@ export interface StreamProcessorTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#create StreamProcessor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#create StreamProcessor#create}
   */
   readonly create?: string;
 }
@@ -412,7 +412,7 @@ export class StreamProcessorTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor mongodbatlas_stream_processor}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor mongodbatlas_stream_processor}
 */
 export class StreamProcessor extends cdktf.TerraformResource {
 
@@ -428,7 +428,7 @@ export class StreamProcessor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamProcessor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamProcessor to import
-  * @param importFromId The id of the existing StreamProcessor that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamProcessor that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamProcessor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class StreamProcessor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_processor mongodbatlas_stream_processor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_processor mongodbatlas_stream_processor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,8 +451,8 @@ export class StreamProcessor extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_stream_processor',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -477,7 +477,7 @@ export class StreamProcessor extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // delete_on_create_timeout - computed: false, optional: true, required: false
+  // delete_on_create_timeout - computed: true, optional: true, required: false
   private _deleteOnCreateTimeout?: boolean | cdktf.IResolvable; 
   public get deleteOnCreateTimeout() {
     return this.getBooleanAttribute('delete_on_create_timeout');

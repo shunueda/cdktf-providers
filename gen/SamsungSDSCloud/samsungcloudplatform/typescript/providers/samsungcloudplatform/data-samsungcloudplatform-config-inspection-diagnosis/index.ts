@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformConfigInspectionDiagnosisConfig extends
   /**
   * DiagnosisId is obtained through Config Inspection List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis#diagnosis_id DataSamsungcloudplatformConfigInspectionDiagnosis#diagnosis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis#diagnosis_id DataSamsungcloudplatformConfigInspectionDiagnosis#diagnosis_id}
   */
   readonly diagnosisId: string;
   /**
   * KAFKA Request Sequence is obtained through Report Diagnosis result list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis#diagnosis_request_sequence DataSamsungcloudplatformConfigInspectionDiagnosis#diagnosis_request_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis#diagnosis_request_sequence DataSamsungcloudplatformConfigInspectionDiagnosis#diagnosis_request_sequence}
   */
   readonly diagnosisRequestSequence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis#id DataSamsungcloudplatformConfigInspectionDiagnosis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis#id DataSamsungcloudplatformConfigInspectionDiagnosis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ export class DataSamsungcloudplatformConfigInspectionDiagnosisResultDetailListSt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis samsungcloudplatform_config_inspection_diagnosis}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis samsungcloudplatform_config_inspection_diagnosis}
 */
 export class DataSamsungcloudplatformConfigInspectionDiagnosis extends cdktf.TerraformDataSource {
 
@@ -165,7 +165,7 @@ export class DataSamsungcloudplatformConfigInspectionDiagnosis extends cdktf.Ter
   * Generates CDKTF code for importing a DataSamsungcloudplatformConfigInspectionDiagnosis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformConfigInspectionDiagnosis to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformConfigInspectionDiagnosis that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformConfigInspectionDiagnosis that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformConfigInspectionDiagnosis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DataSamsungcloudplatformConfigInspectionDiagnosis extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/config_inspection_diagnosis samsungcloudplatform_config_inspection_diagnosis} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/config_inspection_diagnosis samsungcloudplatform_config_inspection_diagnosis} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DataSamsungcloudplatformConfigInspectionDiagnosis extends cdktf.Ter
       terraformResourceType: 'samsungcloudplatform_config_inspection_diagnosis',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

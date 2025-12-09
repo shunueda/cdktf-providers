@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateAnpEpgConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#access_type SchemaTemplateAnpEpg#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#access_type SchemaTemplateAnpEpg#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#anp_name SchemaTemplateAnpEpg#anp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#anp_name SchemaTemplateAnpEpg#anp_name}
   */
   readonly anpName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#bd_name SchemaTemplateAnpEpg#bd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#bd_name SchemaTemplateAnpEpg#bd_name}
   */
   readonly bdName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#bd_schema_id SchemaTemplateAnpEpg#bd_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#bd_schema_id SchemaTemplateAnpEpg#bd_schema_id}
   */
   readonly bdSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#bd_template_name SchemaTemplateAnpEpg#bd_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#bd_template_name SchemaTemplateAnpEpg#bd_template_name}
   */
   readonly bdTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#custom_service_type SchemaTemplateAnpEpg#custom_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#custom_service_type SchemaTemplateAnpEpg#custom_service_type}
   */
   readonly customServiceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#deployment_type SchemaTemplateAnpEpg#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#deployment_type SchemaTemplateAnpEpg#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#description SchemaTemplateAnpEpg#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#description SchemaTemplateAnpEpg#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#display_name SchemaTemplateAnpEpg#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#display_name SchemaTemplateAnpEpg#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#epg_type SchemaTemplateAnpEpg#epg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#epg_type SchemaTemplateAnpEpg#epg_type}
   */
   readonly epgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#id SchemaTemplateAnpEpg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#id SchemaTemplateAnpEpg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#intersite_multicast_source SchemaTemplateAnpEpg#intersite_multicast_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#intersite_multicast_source SchemaTemplateAnpEpg#intersite_multicast_source}
   */
   readonly intersiteMulticastSource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#intra_epg SchemaTemplateAnpEpg#intra_epg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#intra_epg SchemaTemplateAnpEpg#intra_epg}
   */
   readonly intraEpg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#name SchemaTemplateAnpEpg#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#name SchemaTemplateAnpEpg#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#preferred_group SchemaTemplateAnpEpg#preferred_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#preferred_group SchemaTemplateAnpEpg#preferred_group}
   */
   readonly preferredGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#proxy_arp SchemaTemplateAnpEpg#proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#proxy_arp SchemaTemplateAnpEpg#proxy_arp}
   */
   readonly proxyArp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#schema_id SchemaTemplateAnpEpg#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#schema_id SchemaTemplateAnpEpg#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#service_type SchemaTemplateAnpEpg#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#service_type SchemaTemplateAnpEpg#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#template_name SchemaTemplateAnpEpg#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#template_name SchemaTemplateAnpEpg#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#useg_epg SchemaTemplateAnpEpg#useg_epg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#useg_epg SchemaTemplateAnpEpg#useg_epg}
   */
   readonly usegEpg?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#vrf_name SchemaTemplateAnpEpg#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#vrf_name SchemaTemplateAnpEpg#vrf_name}
   */
   readonly vrfName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#vrf_schema_id SchemaTemplateAnpEpg#vrf_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#vrf_schema_id SchemaTemplateAnpEpg#vrf_schema_id}
   */
   readonly vrfSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#vrf_template_name SchemaTemplateAnpEpg#vrf_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#vrf_template_name SchemaTemplateAnpEpg#vrf_template_name}
   */
   readonly vrfTemplateName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg mso_schema_template_anp_epg}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg mso_schema_template_anp_epg}
 */
 export class SchemaTemplateAnpEpg extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class SchemaTemplateAnpEpg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateAnpEpg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateAnpEpg to import
-  * @param importFromId The id of the existing SchemaTemplateAnpEpg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateAnpEpg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateAnpEpg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class SchemaTemplateAnpEpg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg mso_schema_template_anp_epg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg mso_schema_template_anp_epg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class SchemaTemplateAnpEpg extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_anp_epg',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

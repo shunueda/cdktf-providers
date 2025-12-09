@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformTransitGatewayPeeringsConfig extends cd
   /**
   * Approver Transit Gateway ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#approver_transit_gateway_id DataSamsungcloudplatformTransitGatewayPeerings#approver_transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#approver_transit_gateway_id DataSamsungcloudplatformTransitGatewayPeerings#approver_transit_gateway_id}
   */
   readonly approverTransitGatewayId?: string;
   /**
   * User ID who create the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#created_by DataSamsungcloudplatformTransitGatewayPeerings#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#created_by DataSamsungcloudplatformTransitGatewayPeerings#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#id DataSamsungcloudplatformTransitGatewayPeerings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#id DataSamsungcloudplatformTransitGatewayPeerings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataSamsungcloudplatformTransitGatewayPeeringsConfig extends cd
   /**
   * Page number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#page DataSamsungcloudplatformTransitGatewayPeerings#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#page DataSamsungcloudplatformTransitGatewayPeerings#page}
   */
   readonly page?: number;
   /**
   * Requester Transit Gateway ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#requester_transit_gateway_id DataSamsungcloudplatformTransitGatewayPeerings#requester_transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#requester_transit_gateway_id DataSamsungcloudplatformTransitGatewayPeerings#requester_transit_gateway_id}
   */
   readonly requesterTransitGatewayId?: string;
   /**
   * List size per a page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#size DataSamsungcloudplatformTransitGatewayPeerings#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#size DataSamsungcloudplatformTransitGatewayPeerings#size}
   */
   readonly size?: number;
   /**
   * Transit Gateway Peering Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#transit_gateway_peering_name DataSamsungcloudplatformTransitGatewayPeerings#transit_gateway_peering_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#transit_gateway_peering_name DataSamsungcloudplatformTransitGatewayPeerings#transit_gateway_peering_name}
   */
   readonly transitGatewayPeeringName?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#contents DataSamsungcloudplatformTransitGatewayPeerings#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#contents DataSamsungcloudplatformTransitGatewayPeerings#contents}
   */
   readonly contents?: DataSamsungcloudplatformTransitGatewayPeeringsContents[] | cdktf.IResolvable;
 }
@@ -215,7 +215,7 @@ export class DataSamsungcloudplatformTransitGatewayPeeringsContentsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings samsungcloudplatform_transit_gateway_peerings}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings samsungcloudplatform_transit_gateway_peerings}
 */
 export class DataSamsungcloudplatformTransitGatewayPeerings extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataSamsungcloudplatformTransitGatewayPeerings extends cdktf.Terraf
   * Generates CDKTF code for importing a DataSamsungcloudplatformTransitGatewayPeerings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformTransitGatewayPeerings to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGatewayPeerings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGatewayPeerings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformTransitGatewayPeerings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataSamsungcloudplatformTransitGatewayPeerings extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_peerings samsungcloudplatform_transit_gateway_peerings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_peerings samsungcloudplatform_transit_gateway_peerings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataSamsungcloudplatformTransitGatewayPeerings extends cdktf.Terraf
       terraformResourceType: 'samsungcloudplatform_transit_gateway_peerings',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

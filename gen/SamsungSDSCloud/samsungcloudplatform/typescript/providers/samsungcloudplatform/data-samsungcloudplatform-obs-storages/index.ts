@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformObsStoragesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#id DataSamsungcloudplatformObsStorages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#id DataSamsungcloudplatformObsStorages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataSamsungcloudplatformObsStoragesConfig extends cdktf.Terrafo
   /**
   * Is Multi Availability Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#is_multi_availability_zone DataSamsungcloudplatformObsStorages#is_multi_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#is_multi_availability_zone DataSamsungcloudplatformObsStorages#is_multi_availability_zone}
   */
   readonly isMultiAvailabilityZone?: boolean | cdktf.IResolvable;
   /**
   * Object Storage Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#object_storage_name DataSamsungcloudplatformObsStorages#object_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#object_storage_name DataSamsungcloudplatformObsStorages#object_storage_name}
   */
   readonly objectStorageName?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#page DataSamsungcloudplatformObsStorages#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#page DataSamsungcloudplatformObsStorages#page}
   */
   readonly page?: number;
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#service_zone_id DataSamsungcloudplatformObsStorages#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#service_zone_id DataSamsungcloudplatformObsStorages#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#size DataSamsungcloudplatformObsStorages#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#size DataSamsungcloudplatformObsStorages#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#sort DataSamsungcloudplatformObsStorages#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#sort DataSamsungcloudplatformObsStorages#sort}
   */
   readonly sort?: string[];
 }
@@ -178,7 +178,7 @@ export class DataSamsungcloudplatformObsStoragesContentsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages samsungcloudplatform_obs_storages}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages samsungcloudplatform_obs_storages}
 */
 export class DataSamsungcloudplatformObsStorages extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataSamsungcloudplatformObsStorages extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSamsungcloudplatformObsStorages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformObsStorages to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformObsStorages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformObsStorages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformObsStorages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataSamsungcloudplatformObsStorages extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_storages samsungcloudplatform_obs_storages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_storages samsungcloudplatform_obs_storages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataSamsungcloudplatformObsStorages extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_obs_storages',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

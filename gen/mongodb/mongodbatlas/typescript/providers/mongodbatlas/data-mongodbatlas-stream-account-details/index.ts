@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMongodbatlasStreamAccountDetailsConfig extends cdktf.Terraf
   /**
   * One of `aws` or `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details#cloud_provider DataMongodbatlasStreamAccountDetails#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details#cloud_provider DataMongodbatlasStreamAccountDetails#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
@@ -18,19 +18,19 @@ export interface DataMongodbatlasStreamAccountDetailsConfig extends cdktf.Terraf
   * 
   * **NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group/project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details#project_id DataMongodbatlasStreamAccountDetails#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details#project_id DataMongodbatlasStreamAccountDetails#project_id}
   */
   readonly projectId: string;
   /**
   * The cloud provider specific region name, i.e. `US_EAST_1` for cloud provider `aws`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details#region_name DataMongodbatlasStreamAccountDetails#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details#region_name DataMongodbatlasStreamAccountDetails#region_name}
   */
   readonly regionName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details mongodbatlas_stream_account_details}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details mongodbatlas_stream_account_details}
 */
 export class DataMongodbatlasStreamAccountDetails extends cdktf.TerraformDataSource {
 
@@ -46,7 +46,7 @@ export class DataMongodbatlasStreamAccountDetails extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataMongodbatlasStreamAccountDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasStreamAccountDetails to import
-  * @param importFromId The id of the existing DataMongodbatlasStreamAccountDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasStreamAccountDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasStreamAccountDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DataMongodbatlasStreamAccountDetails extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_account_details mongodbatlas_stream_account_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_account_details mongodbatlas_stream_account_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DataMongodbatlasStreamAccountDetails extends cdktf.TerraformDataSou
       terraformResourceType: 'mongodbatlas_stream_account_details',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

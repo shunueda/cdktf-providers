@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMongodbatlasFlexClusterConfig extends cdktf.TerraformMetaAr
   /**
   * Human-readable label that identifies the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster#name DataMongodbatlasFlexCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster#name DataMongodbatlasFlexCluster#name}
   */
   readonly name: string;
   /**
   * Unique 24-hexadecimal character string that identifies the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster#project_id DataMongodbatlasFlexCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster#project_id DataMongodbatlasFlexCluster#project_id}
   */
   readonly projectId: string;
 }
@@ -204,7 +204,7 @@ export class DataMongodbatlasFlexClusterProviderSettingsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster mongodbatlas_flex_cluster}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster mongodbatlas_flex_cluster}
 */
 export class DataMongodbatlasFlexCluster extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataMongodbatlasFlexCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMongodbatlasFlexCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasFlexCluster to import
-  * @param importFromId The id of the existing DataMongodbatlasFlexCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasFlexCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasFlexCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataMongodbatlasFlexCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/flex_cluster mongodbatlas_flex_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/flex_cluster mongodbatlas_flex_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataMongodbatlasFlexCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'mongodbatlas_flex_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface TenantPoliciesRouteMapPolicyMulticastConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#description TenantPoliciesRouteMapPolicyMulticast#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#description TenantPoliciesRouteMapPolicyMulticast#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#id TenantPoliciesRouteMapPolicyMulticast#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#id TenantPoliciesRouteMapPolicyMulticast#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#name TenantPoliciesRouteMapPolicyMulticast#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#name TenantPoliciesRouteMapPolicyMulticast#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#template_id TenantPoliciesRouteMapPolicyMulticast#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#template_id TenantPoliciesRouteMapPolicyMulticast#template_id}
   */
   readonly templateId: string;
   /**
   * route_map_multicast_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#route_map_multicast_entries TenantPoliciesRouteMapPolicyMulticast#route_map_multicast_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#route_map_multicast_entries TenantPoliciesRouteMapPolicyMulticast#route_map_multicast_entries}
   */
   readonly routeMapMulticastEntries: TenantPoliciesRouteMapPolicyMulticastRouteMapMulticastEntries[] | cdktf.IResolvable;
 }
 export interface TenantPoliciesRouteMapPolicyMulticastRouteMapMulticastEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#action TenantPoliciesRouteMapPolicyMulticast#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#action TenantPoliciesRouteMapPolicyMulticast#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#group_ip TenantPoliciesRouteMapPolicyMulticast#group_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#group_ip TenantPoliciesRouteMapPolicyMulticast#group_ip}
   */
   readonly groupIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#order TenantPoliciesRouteMapPolicyMulticast#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#order TenantPoliciesRouteMapPolicyMulticast#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#rendezvous_point_ip TenantPoliciesRouteMapPolicyMulticast#rendezvous_point_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#rendezvous_point_ip TenantPoliciesRouteMapPolicyMulticast#rendezvous_point_ip}
   */
   readonly rendezvousPointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#source_ip TenantPoliciesRouteMapPolicyMulticast#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#source_ip TenantPoliciesRouteMapPolicyMulticast#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -280,7 +280,7 @@ export class TenantPoliciesRouteMapPolicyMulticastRouteMapMulticastEntriesList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast mso_tenant_policies_route_map_policy_multicast}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast mso_tenant_policies_route_map_policy_multicast}
 */
 export class TenantPoliciesRouteMapPolicyMulticast extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class TenantPoliciesRouteMapPolicyMulticast extends cdktf.TerraformResour
   * Generates CDKTF code for importing a TenantPoliciesRouteMapPolicyMulticast resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantPoliciesRouteMapPolicyMulticast to import
-  * @param importFromId The id of the existing TenantPoliciesRouteMapPolicyMulticast that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantPoliciesRouteMapPolicyMulticast that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantPoliciesRouteMapPolicyMulticast to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class TenantPoliciesRouteMapPolicyMulticast extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/tenant_policies_route_map_policy_multicast mso_tenant_policies_route_map_policy_multicast} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/tenant_policies_route_map_policy_multicast mso_tenant_policies_route_map_policy_multicast} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class TenantPoliciesRouteMapPolicyMulticast extends cdktf.TerraformResour
       terraformResourceType: 'mso_tenant_policies_route_map_policy_multicast',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

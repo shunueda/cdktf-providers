@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIFS volume id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#cifs_volume_id KubernetesEngine#cifs_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#cifs_volume_id KubernetesEngine#cifs_volume_id}
   */
   readonly cifsVolumeId?: string;
   /**
   * Enable cloud logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#cloud_logging_enabled KubernetesEngine#cloud_logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#cloud_logging_enabled KubernetesEngine#cloud_logging_enabled}
   */
   readonly cloudLoggingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#id KubernetesEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#id KubernetesEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface KubernetesEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kubernetes version (Contact administrator to check supported version)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#kubernetes_version KubernetesEngine#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#kubernetes_version KubernetesEngine#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * Load balancer ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#load_balancer_id KubernetesEngine#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#load_balancer_id KubernetesEngine#load_balancer_id}
   */
   readonly loadBalancerId?: string;
   /**
   * Kubernetes engine name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#name KubernetesEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#name KubernetesEngine#name}
   */
   readonly name: string;
   /**
   * List of comma separated IP addresses (CIDR or Single IP) for access control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#public_acl_ip_address KubernetesEngine#public_acl_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#public_acl_ip_address KubernetesEngine#public_acl_ip_address}
   */
   readonly publicAclIpAddress?: string;
   /**
   * Security group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#security_group_id KubernetesEngine#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#security_group_id KubernetesEngine#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * Subnet ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#subnet_id KubernetesEngine#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#subnet_id KubernetesEngine#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#tags KubernetesEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#tags KubernetesEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * File storage volume ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#volume_id KubernetesEngine#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#volume_id KubernetesEngine#volume_id}
   */
   readonly volumeId: string;
   /**
   * VPC ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#vpc_id KubernetesEngine#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#vpc_id KubernetesEngine#vpc_id}
   */
   readonly vpcId: string;
   /**
   * private_acl_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#private_acl_resources KubernetesEngine#private_acl_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#private_acl_resources KubernetesEngine#private_acl_resources}
   */
   readonly privateAclResources?: KubernetesEnginePrivateAclResources[] | cdktf.IResolvable;
 }
@@ -89,19 +89,19 @@ export interface KubernetesEnginePrivateAclResources {
   /**
   * Resource ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#resource_id KubernetesEngine#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#resource_id KubernetesEngine#resource_id}
   */
   readonly resourceId?: string;
   /**
   * Resource Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#resource_type KubernetesEngine#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#resource_type KubernetesEngine#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Resource Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#resource_value KubernetesEngine#resource_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#resource_value KubernetesEngine#resource_value}
   */
   readonly resourceValue?: string;
 }
@@ -275,7 +275,7 @@ export class KubernetesEnginePrivateAclResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine samsungcloudplatform_kubernetes_engine}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine samsungcloudplatform_kubernetes_engine}
 */
 export class KubernetesEngine extends cdktf.TerraformResource {
 
@@ -291,7 +291,7 @@ export class KubernetesEngine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesEngine to import
-  * @param importFromId The id of the existing KubernetesEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -303,7 +303,7 @@ export class KubernetesEngine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_engine samsungcloudplatform_kubernetes_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_engine samsungcloudplatform_kubernetes_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,8 +314,8 @@ export class KubernetesEngine extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_kubernetes_engine',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -390,11 +390,6 @@ export class KubernetesEngine extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // kube_config - computed: true, optional: false, required: false
-  public get kubeConfig() {
-    return this.getStringAttribute('kube_config');
   }
 
   // kubernetes_version - computed: false, optional: false, required: true

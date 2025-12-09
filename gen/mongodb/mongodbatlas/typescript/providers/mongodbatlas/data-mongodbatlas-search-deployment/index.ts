@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMongodbatlasSearchDeploymentConfig extends cdktf.TerraformM
   /**
   * Label that identifies the cluster to return the search nodes for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment#cluster_name DataMongodbatlasSearchDeployment#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment#cluster_name DataMongodbatlasSearchDeployment#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Unique 24-hexadecimal digit string that identifies your project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment#project_id DataMongodbatlasSearchDeployment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment#project_id DataMongodbatlasSearchDeployment#project_id}
   */
   readonly projectId: string;
 }
@@ -102,7 +102,7 @@ export class DataMongodbatlasSearchDeploymentSpecsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment mongodbatlas_search_deployment}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment mongodbatlas_search_deployment}
 */
 export class DataMongodbatlasSearchDeployment extends cdktf.TerraformDataSource {
 
@@ -118,7 +118,7 @@ export class DataMongodbatlasSearchDeployment extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataMongodbatlasSearchDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasSearchDeployment to import
-  * @param importFromId The id of the existing DataMongodbatlasSearchDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasSearchDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasSearchDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class DataMongodbatlasSearchDeployment extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/search_deployment mongodbatlas_search_deployment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/search_deployment mongodbatlas_search_deployment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class DataMongodbatlasSearchDeployment extends cdktf.TerraformDataSource 
       terraformResourceType: 'mongodbatlas_search_deployment',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

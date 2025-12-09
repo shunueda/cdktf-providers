@@ -57,6 +57,7 @@ Object.defineProperty(exports, 'streamConnection', { get: function () { return r
 Object.defineProperty(exports, 'streamInstance', { get: function () { return require('./stream-instance'); } });
 Object.defineProperty(exports, 'streamPrivatelinkEndpoint', { get: function () { return require('./stream-privatelink-endpoint'); } });
 Object.defineProperty(exports, 'streamProcessor', { get: function () { return require('./stream-processor'); } });
+Object.defineProperty(exports, 'streamWorkspace', { get: function () { return require('./stream-workspace'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'teamProjectAssignment', { get: function () { return require('./team-project-assignment'); } });
 Object.defineProperty(exports, 'thirdPartyIntegration', { get: function () { return require('./third-party-integration'); } });
@@ -167,6 +168,8 @@ Object.defineProperty(exports, 'dataMongodbatlasStreamPrivatelinkEndpoint', { ge
 Object.defineProperty(exports, 'dataMongodbatlasStreamPrivatelinkEndpoints', { get: function () { return require('./data-mongodbatlas-stream-privatelink-endpoints'); } });
 Object.defineProperty(exports, 'dataMongodbatlasStreamProcessor', { get: function () { return require('./data-mongodbatlas-stream-processor'); } });
 Object.defineProperty(exports, 'dataMongodbatlasStreamProcessors', { get: function () { return require('./data-mongodbatlas-stream-processors'); } });
+Object.defineProperty(exports, 'dataMongodbatlasStreamWorkspace', { get: function () { return require('./data-mongodbatlas-stream-workspace'); } });
+Object.defineProperty(exports, 'dataMongodbatlasStreamWorkspaces', { get: function () { return require('./data-mongodbatlas-stream-workspaces'); } });
 Object.defineProperty(exports, 'dataMongodbatlasTeam', { get: function () { return require('./data-mongodbatlas-team'); } });
 Object.defineProperty(exports, 'dataMongodbatlasTeamProjectAssignment', { get: function () { return require('./data-mongodbatlas-team-project-assignment'); } });
 Object.defineProperty(exports, 'dataMongodbatlasThirdPartyIntegration', { get: function () { return require('./data-mongodbatlas-third-party-integration'); } });

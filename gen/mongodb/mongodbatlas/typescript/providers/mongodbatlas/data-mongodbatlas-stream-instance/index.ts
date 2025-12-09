@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataMongodbatlasStreamInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance#instance_name DataMongodbatlasStreamInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance#instance_name DataMongodbatlasStreamInstance#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance#project_id DataMongodbatlasStreamInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance#project_id DataMongodbatlasStreamInstance#project_id}
   */
   readonly projectId: string;
 }
@@ -124,6 +124,11 @@ export class DataMongodbatlasStreamInstanceStreamConfigOutputReference extends c
     }
   }
 
+  // max_tier_size - computed: true, optional: false, required: false
+  public get maxTierSize() {
+    return this.getStringAttribute('max_tier_size');
+  }
+
   // tier - computed: true, optional: false, required: false
   public get tier() {
     return this.getStringAttribute('tier');
@@ -131,7 +136,7 @@ export class DataMongodbatlasStreamInstanceStreamConfigOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance mongodbatlas_stream_instance}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance mongodbatlas_stream_instance}
 */
 export class DataMongodbatlasStreamInstance extends cdktf.TerraformDataSource {
 
@@ -147,7 +152,7 @@ export class DataMongodbatlasStreamInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMongodbatlasStreamInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasStreamInstance to import
-  * @param importFromId The id of the existing DataMongodbatlasStreamInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasStreamInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasStreamInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +164,7 @@ export class DataMongodbatlasStreamInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/stream_instance mongodbatlas_stream_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/stream_instance mongodbatlas_stream_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +175,8 @@ export class DataMongodbatlasStreamInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'mongodbatlas_stream_instance',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

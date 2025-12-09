@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformTransitGatewayRoutingRulesConfig extend
   /**
   * Destination Network Cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#destination_network_cidr DataSamsungcloudplatformTransitGatewayRoutingRules#destination_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#destination_network_cidr DataSamsungcloudplatformTransitGatewayRoutingRules#destination_network_cidr}
   */
   readonly destinationNetworkCidr?: string;
   /**
   * is Editable (true | false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#editable DataSamsungcloudplatformTransitGatewayRoutingRules#editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#editable DataSamsungcloudplatformTransitGatewayRoutingRules#editable}
   */
   readonly editable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#id DataSamsungcloudplatformTransitGatewayRoutingRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#id DataSamsungcloudplatformTransitGatewayRoutingRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataSamsungcloudplatformTransitGatewayRoutingRulesConfig extend
   /**
   * Routing Rule Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#routing_rule_id DataSamsungcloudplatformTransitGatewayRoutingRules#routing_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#routing_rule_id DataSamsungcloudplatformTransitGatewayRoutingRules#routing_rule_id}
   */
   readonly routingRuleId?: string;
   /**
   * Routing Table ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#routing_table_id DataSamsungcloudplatformTransitGatewayRoutingRules#routing_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#routing_table_id DataSamsungcloudplatformTransitGatewayRoutingRules#routing_table_id}
   */
   readonly routingTableId?: string;
   /**
   * Source Interface Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#source_service_interface_id DataSamsungcloudplatformTransitGatewayRoutingRules#source_service_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#source_service_interface_id DataSamsungcloudplatformTransitGatewayRoutingRules#source_service_interface_id}
   */
   readonly sourceServiceInterfaceId?: string;
   /**
   * Total List size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#total_counts DataSamsungcloudplatformTransitGatewayRoutingRules#total_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#total_counts DataSamsungcloudplatformTransitGatewayRoutingRules#total_counts}
   */
   readonly totalCounts?: number;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#contents DataSamsungcloudplatformTransitGatewayRoutingRules#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#contents DataSamsungcloudplatformTransitGatewayRoutingRules#contents}
   */
   readonly contents?: DataSamsungcloudplatformTransitGatewayRoutingRulesContents[] | cdktf.IResolvable;
 }
@@ -200,7 +200,7 @@ export class DataSamsungcloudplatformTransitGatewayRoutingRulesContentsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules samsungcloudplatform_transit_gateway_routing_rules}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules samsungcloudplatform_transit_gateway_routing_rules}
 */
 export class DataSamsungcloudplatformTransitGatewayRoutingRules extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataSamsungcloudplatformTransitGatewayRoutingRules extends cdktf.Te
   * Generates CDKTF code for importing a DataSamsungcloudplatformTransitGatewayRoutingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformTransitGatewayRoutingRules to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGatewayRoutingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGatewayRoutingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformTransitGatewayRoutingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataSamsungcloudplatformTransitGatewayRoutingRules extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateway_routing_rules samsungcloudplatform_transit_gateway_routing_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateway_routing_rules samsungcloudplatform_transit_gateway_routing_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataSamsungcloudplatformTransitGatewayRoutingRules extends cdktf.Te
       terraformResourceType: 'samsungcloudplatform_transit_gateway_routing_rules',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

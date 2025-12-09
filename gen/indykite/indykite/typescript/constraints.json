@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "indykite": "0.28.0"
+    "indykite": "0.29.0"
   }
 }

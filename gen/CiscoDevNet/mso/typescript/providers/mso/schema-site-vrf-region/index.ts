@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaSiteVrfRegionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#hub_network SchemaSiteVrfRegion#hub_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#hub_network SchemaSiteVrfRegion#hub_network}
   */
   readonly hubNetwork?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#hub_network_enable SchemaSiteVrfRegion#hub_network_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#hub_network_enable SchemaSiteVrfRegion#hub_network_enable}
   */
   readonly hubNetworkEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#id SchemaSiteVrfRegion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#id SchemaSiteVrfRegion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#region_name SchemaSiteVrfRegion#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#region_name SchemaSiteVrfRegion#region_name}
   */
   readonly regionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#schema_id SchemaSiteVrfRegion#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#schema_id SchemaSiteVrfRegion#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#site_id SchemaSiteVrfRegion#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#site_id SchemaSiteVrfRegion#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#template_name SchemaSiteVrfRegion#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#template_name SchemaSiteVrfRegion#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#vpn_gateway SchemaSiteVrfRegion#vpn_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#vpn_gateway SchemaSiteVrfRegion#vpn_gateway}
   */
   readonly vpnGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#vrf_name SchemaSiteVrfRegion#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#vrf_name SchemaSiteVrfRegion#vrf_name}
   */
   readonly vrfName: string;
   /**
   * cidr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#cidr SchemaSiteVrfRegion#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#cidr SchemaSiteVrfRegion#cidr}
   */
   readonly cidr?: SchemaSiteVrfRegionCidr[] | cdktf.IResolvable;
 }
 export interface SchemaSiteVrfRegionCidrSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#ip SchemaSiteVrfRegion#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#ip SchemaSiteVrfRegion#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#name SchemaSiteVrfRegion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#name SchemaSiteVrfRegion#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#subnet_group SchemaSiteVrfRegion#subnet_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#subnet_group SchemaSiteVrfRegion#subnet_group}
   */
   readonly subnetGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#usage SchemaSiteVrfRegion#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#usage SchemaSiteVrfRegion#usage}
   */
   readonly usage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#zone SchemaSiteVrfRegion#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#zone SchemaSiteVrfRegion#zone}
   */
   readonly zone?: string;
 }
@@ -300,17 +300,17 @@ export class SchemaSiteVrfRegionCidrSubnetList extends cdktf.ComplexList {
 }
 export interface SchemaSiteVrfRegionCidr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#cidr_ip SchemaSiteVrfRegion#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#cidr_ip SchemaSiteVrfRegion#cidr_ip}
   */
   readonly cidrIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#primary SchemaSiteVrfRegion#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#primary SchemaSiteVrfRegion#primary}
   */
   readonly primary: boolean | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#subnet SchemaSiteVrfRegion#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#subnet SchemaSiteVrfRegion#subnet}
   */
   readonly subnet: SchemaSiteVrfRegionCidrSubnet[] | cdktf.IResolvable;
 }
@@ -475,7 +475,7 @@ export class SchemaSiteVrfRegionCidrList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region mso_schema_site_vrf_region}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region mso_schema_site_vrf_region}
 */
 export class SchemaSiteVrfRegion extends cdktf.TerraformResource {
 
@@ -491,7 +491,7 @@ export class SchemaSiteVrfRegion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaSiteVrfRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaSiteVrfRegion to import
-  * @param importFromId The id of the existing SchemaSiteVrfRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaSiteVrfRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaSiteVrfRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class SchemaSiteVrfRegion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_region mso_schema_site_vrf_region} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_region mso_schema_site_vrf_region} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class SchemaSiteVrfRegion extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_site_vrf_region',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

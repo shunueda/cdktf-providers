@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformPublicIpConfig extends cdktf.TerraformM
   /**
   * Name of object with public ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#attached_object_name DataSamsungcloudplatformPublicIp#attached_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#attached_object_name DataSamsungcloudplatformPublicIp#attached_object_name}
   */
   readonly attachedObjectName?: string;
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#created_by DataSamsungcloudplatformPublicIp#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#created_by DataSamsungcloudplatformPublicIp#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#id DataSamsungcloudplatformPublicIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#id DataSamsungcloudplatformPublicIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DataSamsungcloudplatformPublicIpConfig extends cdktf.TerraformM
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#ip_address DataSamsungcloudplatformPublicIp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#ip_address DataSamsungcloudplatformPublicIp#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Ip address Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#ip_address_id DataSamsungcloudplatformPublicIp#ip_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#ip_address_id DataSamsungcloudplatformPublicIp#ip_address_id}
   */
   readonly ipAddressId?: string;
   /**
   * Public ip Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#public_ip_address_description DataSamsungcloudplatformPublicIp#public_ip_address_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#public_ip_address_description DataSamsungcloudplatformPublicIp#public_ip_address_description}
   */
   readonly publicIpAddressDescription?: string;
   /**
   * Public ip Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#public_ip_id DataSamsungcloudplatformPublicIp#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#public_ip_id DataSamsungcloudplatformPublicIp#public_ip_id}
   */
   readonly publicIpId: string;
   /**
   * The reason to make public ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#public_ip_purpose DataSamsungcloudplatformPublicIp#public_ip_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#public_ip_purpose DataSamsungcloudplatformPublicIp#public_ip_purpose}
   */
   readonly publicIpPurpose?: string;
   /**
   * Public ip status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#public_ip_state DataSamsungcloudplatformPublicIp#public_ip_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#public_ip_state DataSamsungcloudplatformPublicIp#public_ip_state}
   */
   readonly publicIpState?: string;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#service_zone_id DataSamsungcloudplatformPublicIp#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#service_zone_id DataSamsungcloudplatformPublicIp#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Uplink type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#uplink_type DataSamsungcloudplatformPublicIp#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#uplink_type DataSamsungcloudplatformPublicIp#uplink_type}
   */
   readonly uplinkType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip samsungcloudplatform_public_ip}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip samsungcloudplatform_public_ip}
 */
 export class DataSamsungcloudplatformPublicIp extends cdktf.TerraformDataSource {
 
@@ -93,7 +93,7 @@ export class DataSamsungcloudplatformPublicIp extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSamsungcloudplatformPublicIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformPublicIp to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformPublicIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformPublicIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformPublicIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class DataSamsungcloudplatformPublicIp extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ip samsungcloudplatform_public_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ip samsungcloudplatform_public_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class DataSamsungcloudplatformPublicIp extends cdktf.TerraformDataSource 
       terraformResourceType: 'samsungcloudplatform_public_ip',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

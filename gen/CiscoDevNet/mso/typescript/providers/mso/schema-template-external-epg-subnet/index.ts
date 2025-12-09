@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateExternalEpgSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#aggregate SchemaTemplateExternalEpgSubnet#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#aggregate SchemaTemplateExternalEpgSubnet#aggregate}
   */
   readonly aggregate?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#external_epg_name SchemaTemplateExternalEpgSubnet#external_epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#external_epg_name SchemaTemplateExternalEpgSubnet#external_epg_name}
   */
   readonly externalEpgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#id SchemaTemplateExternalEpgSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#id SchemaTemplateExternalEpgSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#ip SchemaTemplateExternalEpgSubnet#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#ip SchemaTemplateExternalEpgSubnet#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#name SchemaTemplateExternalEpgSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#name SchemaTemplateExternalEpgSubnet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#schema_id SchemaTemplateExternalEpgSubnet#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#schema_id SchemaTemplateExternalEpgSubnet#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#scope SchemaTemplateExternalEpgSubnet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#scope SchemaTemplateExternalEpgSubnet#scope}
   */
   readonly scope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#template_name SchemaTemplateExternalEpgSubnet#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#template_name SchemaTemplateExternalEpgSubnet#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet mso_schema_template_external_epg_subnet}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet mso_schema_template_external_epg_subnet}
 */
 export class SchemaTemplateExternalEpgSubnet extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SchemaTemplateExternalEpgSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateExternalEpgSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateExternalEpgSubnet to import
-  * @param importFromId The id of the existing SchemaTemplateExternalEpgSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateExternalEpgSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateExternalEpgSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SchemaTemplateExternalEpgSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_external_epg_subnet mso_schema_template_external_epg_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_external_epg_subnet mso_schema_template_external_epg_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SchemaTemplateExternalEpgSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_external_epg_subnet',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

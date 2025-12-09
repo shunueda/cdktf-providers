@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformKubernetesAppsImagesConfig extends cdkt
   /**
   * App image category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#category DataSamsungcloudplatformKubernetesAppsImages#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#category DataSamsungcloudplatformKubernetesAppsImages#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#id DataSamsungcloudplatformKubernetesAppsImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#id DataSamsungcloudplatformKubernetesAppsImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface DataSamsungcloudplatformKubernetesAppsImagesConfig extends cdkt
   /**
   * App image id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#image_id DataSamsungcloudplatformKubernetesAppsImages#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#image_id DataSamsungcloudplatformKubernetesAppsImages#image_id}
   */
   readonly imageId?: string;
   /**
   * App image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#image_name DataSamsungcloudplatformKubernetesAppsImages#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#image_name DataSamsungcloudplatformKubernetesAppsImages#image_name}
   */
   readonly imageName?: string;
   /**
   * Check whether it is carepack or not 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#is_carepack DataSamsungcloudplatformKubernetesAppsImages#is_carepack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#is_carepack DataSamsungcloudplatformKubernetesAppsImages#is_carepack}
   */
   readonly isCarepack?: string;
   /**
   * Check whether it is new image or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#is_new DataSamsungcloudplatformKubernetesAppsImages#is_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#is_new DataSamsungcloudplatformKubernetesAppsImages#is_new}
   */
   readonly isNew?: string;
   /**
   * Check whether it is recommendation image or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#is_recommended DataSamsungcloudplatformKubernetesAppsImages#is_recommended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#is_recommended DataSamsungcloudplatformKubernetesAppsImages#is_recommended}
   */
   readonly isRecommended?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#page DataSamsungcloudplatformKubernetesAppsImages#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#page DataSamsungcloudplatformKubernetesAppsImages#page}
   */
   readonly page?: number;
   /**
   * Price policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#price_policy DataSamsungcloudplatformKubernetesAppsImages#price_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#price_policy DataSamsungcloudplatformKubernetesAppsImages#price_policy}
   */
   readonly pricePolicy?: string;
   /**
   * Product group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#product_group_name DataSamsungcloudplatformKubernetesAppsImages#product_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#product_group_name DataSamsungcloudplatformKubernetesAppsImages#product_group_name}
   */
   readonly productGroupName?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#size DataSamsungcloudplatformKubernetesAppsImages#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#size DataSamsungcloudplatformKubernetesAppsImages#size}
   */
   readonly size?: number;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#contents DataSamsungcloudplatformKubernetesAppsImages#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#contents DataSamsungcloudplatformKubernetesAppsImages#contents}
   */
   readonly contents?: DataSamsungcloudplatformKubernetesAppsImagesContents[] | cdktf.IResolvable;
 }
@@ -256,7 +256,7 @@ export class DataSamsungcloudplatformKubernetesAppsImagesContentsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images samsungcloudplatform_kubernetes_apps_images}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images samsungcloudplatform_kubernetes_apps_images}
 */
 export class DataSamsungcloudplatformKubernetesAppsImages extends cdktf.TerraformDataSource {
 
@@ -272,7 +272,7 @@ export class DataSamsungcloudplatformKubernetesAppsImages extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataSamsungcloudplatformKubernetesAppsImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformKubernetesAppsImages to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformKubernetesAppsImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformKubernetesAppsImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformKubernetesAppsImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class DataSamsungcloudplatformKubernetesAppsImages extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/kubernetes_apps_images samsungcloudplatform_kubernetes_apps_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/kubernetes_apps_images samsungcloudplatform_kubernetes_apps_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class DataSamsungcloudplatformKubernetesAppsImages extends cdktf.Terrafor
       terraformResourceType: 'samsungcloudplatform_kubernetes_apps_images',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterLbL7RuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The uuid of l7rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#id DataEdgecenterLbL7Rule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#id DataEdgecenterLbL7Rule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,43 +19,43 @@ export interface DataEdgecenterLbL7RuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the L7 policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#l7policy_id DataEdgecenterLbL7Rule#l7policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#l7policy_id DataEdgecenterLbL7Rule#l7policy_id}
   */
   readonly l7PolicyId?: string;
   /**
   * The name of the L7 policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#l7policy_name DataEdgecenterLbL7Rule#l7policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#l7policy_name DataEdgecenterLbL7Rule#l7policy_name}
   */
   readonly l7PolicyName?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#project_id DataEdgecenterLbL7Rule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#project_id DataEdgecenterLbL7Rule#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#project_name DataEdgecenterLbL7Rule#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#project_name DataEdgecenterLbL7Rule#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#region_id DataEdgecenterLbL7Rule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#region_id DataEdgecenterLbL7Rule#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#region_name DataEdgecenterLbL7Rule#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#region_name DataEdgecenterLbL7Rule#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule edgecenter_lb_l7rule}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule edgecenter_lb_l7rule}
 */
 export class DataEdgecenterLbL7Rule extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataEdgecenterLbL7Rule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterLbL7Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterLbL7Rule to import
-  * @param importFromId The id of the existing DataEdgecenterLbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterLbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterLbL7Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataEdgecenterLbL7Rule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7rule edgecenter_lb_l7rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/lb_l7rule edgecenter_lb_l7rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataEdgecenterLbL7Rule extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_lb_l7rule',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

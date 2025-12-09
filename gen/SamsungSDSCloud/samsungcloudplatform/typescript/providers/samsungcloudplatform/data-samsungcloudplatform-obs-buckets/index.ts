@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformObsBucketsConfig extends cdktf.Terrafor
   /**
   * Created By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#created_by DataSamsungcloudplatformObsBuckets#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#created_by DataSamsungcloudplatformObsBuckets#created_by}
   */
   readonly createdBy?: string;
   /**
   * Object Storage Bucket Query End Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#end_modified_dt DataSamsungcloudplatformObsBuckets#end_modified_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#end_modified_dt DataSamsungcloudplatformObsBuckets#end_modified_dt}
   */
   readonly endModifiedDt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#id DataSamsungcloudplatformObsBuckets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#id DataSamsungcloudplatformObsBuckets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface DataSamsungcloudplatformObsBucketsConfig extends cdktf.Terrafor
   /**
   * Object Storage Bucket ID List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_ids DataSamsungcloudplatformObsBuckets#object_storage_bucket_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_ids DataSamsungcloudplatformObsBuckets#object_storage_bucket_ids}
   */
   readonly objectStorageBucketIds?: string[];
   /**
   * Object Storage Bucket Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_name DataSamsungcloudplatformObsBuckets#object_storage_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_name DataSamsungcloudplatformObsBuckets#object_storage_bucket_name}
   */
   readonly objectStorageBucketName?: string;
   /**
   * Object Storage Bucket Purpose Type List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_purposes DataSamsungcloudplatformObsBuckets#object_storage_bucket_purposes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_purposes DataSamsungcloudplatformObsBuckets#object_storage_bucket_purposes}
   */
   readonly objectStorageBucketPurposes?: string[];
   /**
   * Object Storage Bucket State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_state DataSamsungcloudplatformObsBuckets#object_storage_bucket_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_state DataSamsungcloudplatformObsBuckets#object_storage_bucket_state}
   */
   readonly objectStorageBucketState?: string;
   /**
   * Object Storage Bucket State List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_states DataSamsungcloudplatformObsBuckets#object_storage_bucket_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_states DataSamsungcloudplatformObsBuckets#object_storage_bucket_states}
   */
   readonly objectStorageBucketStates?: string[];
   /**
   * Object Storage Bucket User Purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_bucket_user_purpose DataSamsungcloudplatformObsBuckets#object_storage_bucket_user_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_bucket_user_purpose DataSamsungcloudplatformObsBuckets#object_storage_bucket_user_purpose}
   */
   readonly objectStorageBucketUserPurpose?: string;
   /**
   * Object Storage ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_id DataSamsungcloudplatformObsBuckets#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_id DataSamsungcloudplatformObsBuckets#object_storage_id}
   */
   readonly objectStorageId?: string;
   /**
   * Object Storage Quota ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_quota_id DataSamsungcloudplatformObsBuckets#object_storage_quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_quota_id DataSamsungcloudplatformObsBuckets#object_storage_quota_id}
   */
   readonly objectStorageQuotaId?: string;
   /**
   * Object Storage System Bucket Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#object_storage_system_bucket_enabled DataSamsungcloudplatformObsBuckets#object_storage_system_bucket_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#object_storage_system_bucket_enabled DataSamsungcloudplatformObsBuckets#object_storage_system_bucket_enabled}
   */
   readonly objectStorageSystemBucketEnabled?: boolean | cdktf.IResolvable;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#page DataSamsungcloudplatformObsBuckets#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#page DataSamsungcloudplatformObsBuckets#page}
   */
   readonly page?: number;
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#service_zone_id DataSamsungcloudplatformObsBuckets#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#service_zone_id DataSamsungcloudplatformObsBuckets#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#size DataSamsungcloudplatformObsBuckets#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#size DataSamsungcloudplatformObsBuckets#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#sort DataSamsungcloudplatformObsBuckets#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#sort DataSamsungcloudplatformObsBuckets#sort}
   */
   readonly sort?: string[];
   /**
   * Object Storage Bucket Query Start Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#start_modified_dt DataSamsungcloudplatformObsBuckets#start_modified_dt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#start_modified_dt DataSamsungcloudplatformObsBuckets#start_modified_dt}
   */
   readonly startModifiedDt?: string;
 }
@@ -288,7 +288,7 @@ export class DataSamsungcloudplatformObsBucketsContentsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets samsungcloudplatform_obs_buckets}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets samsungcloudplatform_obs_buckets}
 */
 export class DataSamsungcloudplatformObsBuckets extends cdktf.TerraformDataSource {
 
@@ -304,7 +304,7 @@ export class DataSamsungcloudplatformObsBuckets extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataSamsungcloudplatformObsBuckets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformObsBuckets to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformObsBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformObsBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformObsBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -316,7 +316,7 @@ export class DataSamsungcloudplatformObsBuckets extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/obs_buckets samsungcloudplatform_obs_buckets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/obs_buckets samsungcloudplatform_obs_buckets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -327,8 +327,8 @@ export class DataSamsungcloudplatformObsBuckets extends cdktf.TerraformDataSourc
       terraformResourceType: 'samsungcloudplatform_obs_buckets',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

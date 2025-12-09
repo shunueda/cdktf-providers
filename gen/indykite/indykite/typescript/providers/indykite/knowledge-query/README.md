@@ -1,3 +1,3 @@
 # `indykite_knowledge_query`
 
-Refer to the Terraform Registry for docs: [`indykite_knowledge_query`](https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/knowledge_query).
+Refer to the Terraform Registry for docs: [`indykite_knowledge_query`](https://registry.terraform.io/providers/indykite/indykite/0.29.0/docs/resources/knowledge_query).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ResellerImagesV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#entity_id ResellerImagesV2#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#entity_id ResellerImagesV2#entity_id}
   */
   readonly entityId: number;
   /**
   * The entity type. Available values are 'reseller', 'client', 'project'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#entity_type ResellerImagesV2#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#entity_type ResellerImagesV2#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#id ResellerImagesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#id ResellerImagesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface ResellerImagesV2Config extends cdktf.TerraformMetaArguments {
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#options ResellerImagesV2#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#options ResellerImagesV2#options}
   */
   readonly options: ResellerImagesV2Options[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface ResellerImagesV2Options {
   /**
   * Flag to indicate that all public images are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#all_public_images_are_available ResellerImagesV2#all_public_images_are_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#all_public_images_are_available ResellerImagesV2#all_public_images_are_available}
   */
   readonly allPublicImagesAreAvailable?: boolean | cdktf.IResolvable;
   /**
   * A list of image IDs available for clients of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#image_ids ResellerImagesV2#image_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#image_ids ResellerImagesV2#image_ids}
   */
   readonly imageIds?: string[];
   /**
   * The ID of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#region_id ResellerImagesV2#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#region_id ResellerImagesV2#region_id}
   */
   readonly regionId: number;
 }
@@ -230,7 +230,7 @@ export class ResellerImagesV2OptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2 edgecenter_reseller_imagesV2}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2 edgecenter_reseller_imagesV2}
 */
 export class ResellerImagesV2 extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class ResellerImagesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResellerImagesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResellerImagesV2 to import
-  * @param importFromId The id of the existing ResellerImagesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResellerImagesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResellerImagesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class ResellerImagesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reseller_images_v2 edgecenter_reseller_imagesV2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images_v2 edgecenter_reseller_imagesV2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class ResellerImagesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_reseller_imagesV2',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

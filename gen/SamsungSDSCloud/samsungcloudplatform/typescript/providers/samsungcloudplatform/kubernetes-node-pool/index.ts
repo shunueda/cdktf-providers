@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface KubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable auto recovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#auto_recovery KubernetesNodePool#auto_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#auto_recovery KubernetesNodePool#auto_recovery}
   */
   readonly autoRecovery?: boolean | cdktf.IResolvable;
   /**
   * Enable auto scale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#auto_scale KubernetesNodePool#auto_scale}
   */
   readonly autoScale?: boolean | cdktf.IResolvable;
   /**
   * Availability zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#availability_zone_name KubernetesNodePool#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#availability_zone_name KubernetesNodePool#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Desired node count in the pool (Desired node count is 0 when auto_scale is enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#desired_node_count KubernetesNodePool#desired_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#desired_node_count KubernetesNodePool#desired_node_count}
   */
   readonly desiredNodeCount?: number;
   /**
   * Encrypt enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#encrypt_enabled KubernetesNodePool#encrypt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#encrypt_enabled KubernetesNodePool#encrypt_enabled}
   */
   readonly encryptEnabled?: boolean | cdktf.IResolvable;
   /**
   * ID of scp_kubernetes_engine resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#engine_id KubernetesNodePool#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#engine_id KubernetesNodePool#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#id KubernetesNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface KubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID (use scp_standard_image data source)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#image_id KubernetesNodePool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#image_id KubernetesNodePool#image_id}
   */
   readonly imageId: string;
   /**
   * Maximum node count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#max_node_count KubernetesNodePool#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#max_node_count KubernetesNodePool#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * Minimum node count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#min_node_count KubernetesNodePool#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#min_node_count KubernetesNodePool#min_node_count}
   */
   readonly minNodeCount?: number;
   /**
   * Node pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#name KubernetesNodePool#name}
   */
   readonly name: string;
   /**
   * Scale name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#scale_name KubernetesNodePool#scale_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#scale_name KubernetesNodePool#scale_name}
   */
   readonly scaleName?: string;
   /**
   * Storage name (Currently only SSD is supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#storage_name KubernetesNodePool#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#storage_name KubernetesNodePool#storage_name}
   */
   readonly storageName?: string;
   /**
   * Storage size in GB (default 100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#storage_size_gb KubernetesNodePool#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#storage_size_gb KubernetesNodePool#storage_size_gb}
   */
   readonly storageSizeGb?: string;
   /**
   * advanced_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#advanced_settings KubernetesNodePool#advanced_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#advanced_settings KubernetesNodePool#advanced_settings}
   */
   readonly advancedSettings?: KubernetesNodePoolAdvancedSettings[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#labels KubernetesNodePool#labels}
   */
   readonly labels?: KubernetesNodePoolLabels[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#taints KubernetesNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#taints KubernetesNodePool#taints}
   */
   readonly taints?: KubernetesNodePoolTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#timeouts KubernetesNodePool#timeouts}
   */
   readonly timeouts?: KubernetesNodePoolTimeouts;
 }
@@ -121,43 +121,43 @@ export interface KubernetesNodePoolAdvancedSettings {
   /**
   * Allowed Unsafe Sysctls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#allowed_unsafe_sysctls KubernetesNodePool#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#allowed_unsafe_sysctls KubernetesNodePool#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string;
   /**
   * Container Log Max Files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#container_log_max_files KubernetesNodePool#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#container_log_max_files KubernetesNodePool#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * Container Log Max Size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#container_log_max_size KubernetesNodePool#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#container_log_max_size KubernetesNodePool#container_log_max_size}
   */
   readonly containerLogMaxSize?: number;
   /**
   * ImageGc High Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#image_gc_high_threshold KubernetesNodePool#image_gc_high_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#image_gc_high_threshold KubernetesNodePool#image_gc_high_threshold}
   */
   readonly imageGcHighThreshold?: number;
   /**
   * Image Gc Low Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#image_gc_low_threshold KubernetesNodePool#image_gc_low_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#image_gc_low_threshold KubernetesNodePool#image_gc_low_threshold}
   */
   readonly imageGcLowThreshold?: number;
   /**
   * Max Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#max_pods KubernetesNodePool#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#max_pods KubernetesNodePool#max_pods}
   */
   readonly maxPods?: number;
   /**
   * Pod Max Pids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#pod_max_pids KubernetesNodePool#pod_max_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#pod_max_pids KubernetesNodePool#pod_max_pids}
   */
   readonly podMaxPids?: number;
 }
@@ -449,13 +449,13 @@ export interface KubernetesNodePoolLabels {
   /**
   * Label Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
   */
   readonly key?: string;
   /**
   * Label Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -602,19 +602,19 @@ export interface KubernetesNodePoolTaints {
   /**
   * Taint Effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#effect KubernetesNodePool#effect}
   */
   readonly effect?: string;
   /**
   * Taint Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#key KubernetesNodePool#key}
   */
   readonly key?: string;
   /**
   * Taint Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#value KubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -788,15 +788,15 @@ export class KubernetesNodePoolTaintsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#create KubernetesNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#create KubernetesNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#delete KubernetesNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#delete KubernetesNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#update KubernetesNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#update KubernetesNodePool#update}
   */
   readonly update?: string;
 }
@@ -948,7 +948,7 @@ export class KubernetesNodePoolTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool samsungcloudplatform_kubernetes_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool samsungcloudplatform_kubernetes_node_pool}
 */
 export class KubernetesNodePool extends cdktf.TerraformResource {
 
@@ -964,7 +964,7 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodePool to import
-  * @param importFromId The id of the existing KubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -976,7 +976,7 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kubernetes_node_pool samsungcloudplatform_kubernetes_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kubernetes_node_pool samsungcloudplatform_kubernetes_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -987,8 +987,8 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

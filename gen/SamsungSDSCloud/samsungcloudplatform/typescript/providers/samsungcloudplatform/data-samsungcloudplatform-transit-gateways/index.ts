@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformTransitGatewaysConfig extends cdktf.Ter
   /**
   * User ID who create the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#created_by DataSamsungcloudplatformTransitGateways#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#created_by DataSamsungcloudplatformTransitGateways#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#id DataSamsungcloudplatformTransitGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#id DataSamsungcloudplatformTransitGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataSamsungcloudplatformTransitGatewaysConfig extends cdktf.Ter
   /**
   * Page number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#page DataSamsungcloudplatformTransitGateways#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#page DataSamsungcloudplatformTransitGateways#page}
   */
   readonly page?: number;
   /**
   * List size per a page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#size DataSamsungcloudplatformTransitGateways#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#size DataSamsungcloudplatformTransitGateways#size}
   */
   readonly size?: number;
   /**
   * Transit Gateway ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#transit_gateway_id DataSamsungcloudplatformTransitGateways#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#transit_gateway_id DataSamsungcloudplatformTransitGateways#transit_gateway_id}
   */
   readonly transitGatewayId?: string;
   /**
   * Transit Gateway Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#transit_gateway_name DataSamsungcloudplatformTransitGateways#transit_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#transit_gateway_name DataSamsungcloudplatformTransitGateways#transit_gateway_name}
   */
   readonly transitGatewayName?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#contents DataSamsungcloudplatformTransitGateways#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#contents DataSamsungcloudplatformTransitGateways#contents}
   */
   readonly contents?: DataSamsungcloudplatformTransitGatewaysContents[] | cdktf.IResolvable;
 }
@@ -204,7 +204,7 @@ export class DataSamsungcloudplatformTransitGatewaysContentsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways samsungcloudplatform_transit_gateways}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways samsungcloudplatform_transit_gateways}
 */
 export class DataSamsungcloudplatformTransitGateways extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataSamsungcloudplatformTransitGateways extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSamsungcloudplatformTransitGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformTransitGateways to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformTransitGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformTransitGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataSamsungcloudplatformTransitGateways extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/transit_gateways samsungcloudplatform_transit_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/transit_gateways samsungcloudplatform_transit_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataSamsungcloudplatformTransitGateways extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_transit_gateways',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface VcsrootConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#git Vcsroot#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#git Vcsroot#git}
   */
   readonly git: VcsrootGit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#id Vcsroot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#id Vcsroot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#name Vcsroot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#name Vcsroot#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#polling_interval Vcsroot#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#polling_interval Vcsroot#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#project_id Vcsroot#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#project_id Vcsroot#project_id}
   */
   readonly projectId: string;
 }
 export interface VcsrootGit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#auth_method Vcsroot#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#auth_method Vcsroot#auth_method}
   */
   readonly authMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#branch Vcsroot#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#branch Vcsroot#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#branch_spec Vcsroot#branch_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#branch_spec Vcsroot#branch_spec}
   */
   readonly branchSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#checkout_policy Vcsroot#checkout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#checkout_policy Vcsroot#checkout_policy}
   */
   readonly checkoutPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#clean_files_policy Vcsroot#clean_files_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#clean_files_policy Vcsroot#clean_files_policy}
   */
   readonly cleanFilesPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#clean_policy Vcsroot#clean_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#clean_policy Vcsroot#clean_policy}
   */
   readonly cleanPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#convert_crlf Vcsroot#convert_crlf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#convert_crlf Vcsroot#convert_crlf}
   */
   readonly convertCrlf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#ignore_known_hosts Vcsroot#ignore_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#ignore_known_hosts Vcsroot#ignore_known_hosts}
   */
   readonly ignoreKnownHosts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#passphrase Vcsroot#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#passphrase Vcsroot#passphrase}
   */
   readonly passphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#password Vcsroot#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#password Vcsroot#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#path_to_git Vcsroot#path_to_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#path_to_git Vcsroot#path_to_git}
   */
   readonly pathToGit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#private_key_path Vcsroot#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#private_key_path Vcsroot#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#push_url Vcsroot#push_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#push_url Vcsroot#push_url}
   */
   readonly pushUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#submodules Vcsroot#submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#submodules Vcsroot#submodules}
   */
   readonly submodules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#tags_as_branches Vcsroot#tags_as_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#tags_as_branches Vcsroot#tags_as_branches}
   */
   readonly tagsAsBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#token_id Vcsroot#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#token_id Vcsroot#token_id}
   */
   readonly tokenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#uploaded_key Vcsroot#uploaded_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#uploaded_key Vcsroot#uploaded_key}
   */
   readonly uploadedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#url Vcsroot#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#url Vcsroot#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#username Vcsroot#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#username Vcsroot#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#username_for_tags Vcsroot#username_for_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#username_for_tags Vcsroot#username_for_tags}
   */
   readonly usernameForTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#username_style Vcsroot#username_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#username_style Vcsroot#username_style}
   */
   readonly usernameStyle?: string;
 }
@@ -781,7 +781,7 @@ export class VcsrootGitOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot teamcity_vcsroot}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot teamcity_vcsroot}
 */
 export class Vcsroot extends cdktf.TerraformResource {
 
@@ -797,7 +797,7 @@ export class Vcsroot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vcsroot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vcsroot to import
-  * @param importFromId The id of the existing Vcsroot that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vcsroot that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vcsroot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -809,7 +809,7 @@ export class Vcsroot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/vcsroot teamcity_vcsroot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/vcsroot teamcity_vcsroot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,8 +820,8 @@ export class Vcsroot extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_vcsroot',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

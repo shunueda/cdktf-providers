@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformVpcPeeringsConfig extends cdktf.Terrafo
   /**
   * Approver VPC Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#approver_vpc_id DataSamsungcloudplatformVpcPeerings#approver_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#approver_vpc_id DataSamsungcloudplatformVpcPeerings#approver_vpc_id}
   */
   readonly approverVpcId?: string;
   /**
   * Created By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#created_by DataSamsungcloudplatformVpcPeerings#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#created_by DataSamsungcloudplatformVpcPeerings#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#id DataSamsungcloudplatformVpcPeerings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#id DataSamsungcloudplatformVpcPeerings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataSamsungcloudplatformVpcPeeringsConfig extends cdktf.Terrafo
   /**
   * Page Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#page DataSamsungcloudplatformVpcPeerings#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#page DataSamsungcloudplatformVpcPeerings#page}
   */
   readonly page?: number;
   /**
   * Requester VPC Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#requester_vpc_id DataSamsungcloudplatformVpcPeerings#requester_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#requester_vpc_id DataSamsungcloudplatformVpcPeerings#requester_vpc_id}
   */
   readonly requesterVpcId?: string;
   /**
   * Size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#size DataSamsungcloudplatformVpcPeerings#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#size DataSamsungcloudplatformVpcPeerings#size}
   */
   readonly size?: number;
   /**
   * VPC Peering Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#vpc_peering_name DataSamsungcloudplatformVpcPeerings#vpc_peering_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#vpc_peering_name DataSamsungcloudplatformVpcPeerings#vpc_peering_name}
   */
   readonly vpcPeeringName?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#contents DataSamsungcloudplatformVpcPeerings#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#contents DataSamsungcloudplatformVpcPeerings#contents}
   */
   readonly contents?: DataSamsungcloudplatformVpcPeeringsContents[] | cdktf.IResolvable;
 }
@@ -215,7 +215,7 @@ export class DataSamsungcloudplatformVpcPeeringsContentsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings samsungcloudplatform_vpc_peerings}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings samsungcloudplatform_vpc_peerings}
 */
 export class DataSamsungcloudplatformVpcPeerings extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataSamsungcloudplatformVpcPeerings extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSamsungcloudplatformVpcPeerings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformVpcPeerings to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformVpcPeerings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformVpcPeerings that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformVpcPeerings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataSamsungcloudplatformVpcPeerings extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/vpc_peerings samsungcloudplatform_vpc_peerings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/vpc_peerings samsungcloudplatform_vpc_peerings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataSamsungcloudplatformVpcPeerings extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_vpc_peerings',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

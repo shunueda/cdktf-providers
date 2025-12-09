@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSamsungcloudplatformDirectConnectsConfig extends cdktf.Terr
   /**
   * Person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#created_by DataSamsungcloudplatformDirectConnects#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#created_by DataSamsungcloudplatformDirectConnects#created_by}
   */
   readonly createdBy?: string;
   /**
   * Direct connect id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#direct_connect_id DataSamsungcloudplatformDirectConnects#direct_connect_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#direct_connect_id DataSamsungcloudplatformDirectConnects#direct_connect_id}
   */
   readonly directConnectId?: string;
   /**
   * Direct connect name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#direct_connect_name DataSamsungcloudplatformDirectConnects#direct_connect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#direct_connect_name DataSamsungcloudplatformDirectConnects#direct_connect_name}
   */
   readonly directConnectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#id DataSamsungcloudplatformDirectConnects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#id DataSamsungcloudplatformDirectConnects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataSamsungcloudplatformDirectConnectsConfig extends cdktf.Terr
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#page DataSamsungcloudplatformDirectConnects#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#page DataSamsungcloudplatformDirectConnects#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#size DataSamsungcloudplatformDirectConnects#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#size DataSamsungcloudplatformDirectConnects#size}
   */
   readonly size?: number;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#contents DataSamsungcloudplatformDirectConnects#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#contents DataSamsungcloudplatformDirectConnects#contents}
   */
   readonly contents?: DataSamsungcloudplatformDirectConnectsContents[] | cdktf.IResolvable;
 }
@@ -199,7 +199,7 @@ export class DataSamsungcloudplatformDirectConnectsContentsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects samsungcloudplatform_direct_connects}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects samsungcloudplatform_direct_connects}
 */
 export class DataSamsungcloudplatformDirectConnects extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataSamsungcloudplatformDirectConnects extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataSamsungcloudplatformDirectConnects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformDirectConnects to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformDirectConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformDirectConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformDirectConnects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataSamsungcloudplatformDirectConnects extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connects samsungcloudplatform_direct_connects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connects samsungcloudplatform_direct_connects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataSamsungcloudplatformDirectConnects extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_direct_connects',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

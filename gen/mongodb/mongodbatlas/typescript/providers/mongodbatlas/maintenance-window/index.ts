@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface MaintenanceWindowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#auto_defer MaintenanceWindow#auto_defer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#auto_defer MaintenanceWindow#auto_defer}
   */
   readonly autoDefer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#auto_defer_once_enabled MaintenanceWindow#auto_defer_once_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#auto_defer_once_enabled MaintenanceWindow#auto_defer_once_enabled}
   */
   readonly autoDeferOnceEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#day_of_week MaintenanceWindow#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#day_of_week MaintenanceWindow#day_of_week}
   */
   readonly dayOfWeek: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#defer MaintenanceWindow#defer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#defer MaintenanceWindow#defer}
   */
   readonly defer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#hour_of_day MaintenanceWindow#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#hour_of_day MaintenanceWindow#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#id MaintenanceWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#id MaintenanceWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#project_id MaintenanceWindow#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#project_id MaintenanceWindow#project_id}
   */
   readonly projectId: string;
   /**
   * protected_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#protected_hours MaintenanceWindow#protected_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#protected_hours MaintenanceWindow#protected_hours}
   */
   readonly protectedHours?: MaintenanceWindowProtectedHours;
 }
 export interface MaintenanceWindowProtectedHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#end_hour_of_day MaintenanceWindow#end_hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#end_hour_of_day MaintenanceWindow#end_hour_of_day}
   */
   readonly endHourOfDay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#start_hour_of_day MaintenanceWindow#start_hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#start_hour_of_day MaintenanceWindow#start_hour_of_day}
   */
   readonly startHourOfDay: number;
 }
@@ -158,7 +158,7 @@ export class MaintenanceWindowProtectedHoursOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window mongodbatlas_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window mongodbatlas_maintenance_window}
 */
 export class MaintenanceWindow extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class MaintenanceWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaintenanceWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaintenanceWindow to import
-  * @param importFromId The id of the existing MaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class MaintenanceWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/maintenance_window mongodbatlas_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/maintenance_window mongodbatlas_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class MaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

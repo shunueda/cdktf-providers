@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformResourceGroupsInMyProjectsConfig extend
   /**
   * The user id which created the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#created_by_id DataSamsungcloudplatformResourceGroupsInMyProjects#created_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#created_by_id DataSamsungcloudplatformResourceGroupsInMyProjects#created_by_id}
   */
   readonly createdById?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#id DataSamsungcloudplatformResourceGroupsInMyProjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#id DataSamsungcloudplatformResourceGroupsInMyProjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataSamsungcloudplatformResourceGroupsInMyProjectsConfig extend
   /**
   * The user email which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#modified_by_email DataSamsungcloudplatformResourceGroupsInMyProjects#modified_by_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#modified_by_email DataSamsungcloudplatformResourceGroupsInMyProjects#modified_by_email}
   */
   readonly modifiedByEmail?: string;
   /**
   * The user id which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#modified_by_id DataSamsungcloudplatformResourceGroupsInMyProjects#modified_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#modified_by_id DataSamsungcloudplatformResourceGroupsInMyProjects#modified_by_id}
   */
   readonly modifiedById?: string;
   /**
   * Project id list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#project_ids DataSamsungcloudplatformResourceGroupsInMyProjects#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#project_ids DataSamsungcloudplatformResourceGroupsInMyProjects#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * Resource group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#resource_group_name DataSamsungcloudplatformResourceGroupsInMyProjects#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#resource_group_name DataSamsungcloudplatformResourceGroupsInMyProjects#resource_group_name}
   */
   readonly resourceGroupName?: string;
 }
@@ -187,7 +187,7 @@ export class DataSamsungcloudplatformResourceGroupsInMyProjectsContentsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects samsungcloudplatform_resource_groups_in_my_projects}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects samsungcloudplatform_resource_groups_in_my_projects}
 */
 export class DataSamsungcloudplatformResourceGroupsInMyProjects extends cdktf.TerraformDataSource {
 
@@ -203,7 +203,7 @@ export class DataSamsungcloudplatformResourceGroupsInMyProjects extends cdktf.Te
   * Generates CDKTF code for importing a DataSamsungcloudplatformResourceGroupsInMyProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformResourceGroupsInMyProjects to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformResourceGroupsInMyProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformResourceGroupsInMyProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformResourceGroupsInMyProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class DataSamsungcloudplatformResourceGroupsInMyProjects extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_groups_in_my_projects samsungcloudplatform_resource_groups_in_my_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_groups_in_my_projects samsungcloudplatform_resource_groups_in_my_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class DataSamsungcloudplatformResourceGroupsInMyProjects extends cdktf.Te
       terraformResourceType: 'samsungcloudplatform_resource_groups_in_my_projects',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface GslbConfig extends cdktf.TerraformMetaArguments {
   /**
   * GSLB Algorithm. One of RATIO, RTT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_algorithm Gslb#gslb_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_algorithm Gslb#gslb_algorithm}
   */
   readonly gslbAlgorithm: string;
   /**
   * GSLB Environment Usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_env_usage Gslb#gslb_env_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_env_usage Gslb#gslb_env_usage}
   */
   readonly gslbEnvUsage: string;
   /**
   * GSLB Health Check Interval. (5 to 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_health_check_interval Gslb#gslb_health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_health_check_interval Gslb#gslb_health_check_interval}
   */
   readonly gslbHealthCheckInterval: number;
   /**
   * GSLB Health Check Timeout. (5 to 300, greater than gslb_health_check_interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_health_check_timeout Gslb#gslb_health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_health_check_timeout Gslb#gslb_health_check_timeout}
   */
   readonly gslbHealthCheckTimeout: number;
   /**
   * GSLB Health Check User Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_health_check_user_id Gslb#gslb_health_check_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_health_check_user_id Gslb#gslb_health_check_user_id}
   */
   readonly gslbHealthCheckUserId?: string;
   /**
   * GSLB Health Check User Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_health_check_user_password Gslb#gslb_health_check_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_health_check_user_password Gslb#gslb_health_check_user_password}
   */
   readonly gslbHealthCheckUserPassword?: string;
   /**
   * GSLB Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_name Gslb#gslb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_name Gslb#gslb_name}
   */
   readonly gslbName: string;
   /**
   * GSLB Health Check Response String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_response_string Gslb#gslb_response_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_response_string Gslb#gslb_response_string}
   */
   readonly gslbResponseString?: string;
   /**
   * GSLB Health Check Send String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_send_string Gslb#gslb_send_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_send_string Gslb#gslb_send_string}
   */
   readonly gslbSendString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#id Gslb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#id Gslb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,35 +71,35 @@ export interface GslbConfig extends cdktf.TerraformMetaArguments {
   /**
   * GSLB Health Check Probe Timeout. (5 to 300),  It must be greater than the Heath Check Interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#probe_timeout Gslb#probe_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#probe_timeout Gslb#probe_timeout}
   */
   readonly probeTimeout: number;
   /**
   * GSLB Health Check Protocol. One of ICMP, TCP, HTTP, HTTPS, NONE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#protocol Gslb#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#protocol Gslb#protocol}
   */
   readonly protocol: string;
   /**
   * GSLB Health Check Service Port. (5 to 300),  It must be greater than the Heath Check Interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#service_port Gslb#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#service_port Gslb#service_port}
   */
   readonly servicePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#tags Gslb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#tags Gslb#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * gslb_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_resources Gslb#gslb_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_resources Gslb#gslb_resources}
   */
   readonly gslbResources: GslbGslbResources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#timeouts Gslb#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#timeouts Gslb#timeouts}
   */
   readonly timeouts?: GslbTimeouts;
 }
@@ -107,31 +107,31 @@ export interface GslbGslbResources {
   /**
   * Gslb Resource Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_destination Gslb#gslb_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_destination Gslb#gslb_destination}
   */
   readonly gslbDestination: string;
   /**
   * Gslb Resource Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_region Gslb#gslb_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_region Gslb#gslb_region}
   */
   readonly gslbRegion: string;
   /**
   * Gslb Resource Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_resource_description Gslb#gslb_resource_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_resource_description Gslb#gslb_resource_description}
   */
   readonly gslbResourceDescription?: string;
   /**
   * Gslb Resource Disabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_resource_disable Gslb#gslb_resource_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_resource_disable Gslb#gslb_resource_disable}
   */
   readonly gslbResourceDisable?: boolean | cdktf.IResolvable;
   /**
   * Gslb Resource Weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#gslb_resource_weight Gslb#gslb_resource_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#gslb_resource_weight Gslb#gslb_resource_weight}
   */
   readonly gslbResourceWeight?: number;
 }
@@ -357,15 +357,15 @@ export class GslbGslbResourcesList extends cdktf.ComplexList {
 }
 export interface GslbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#create Gslb#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#create Gslb#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#delete Gslb#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#delete Gslb#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#update Gslb#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#update Gslb#update}
   */
   readonly update?: string;
 }
@@ -517,7 +517,7 @@ export class GslbTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb samsungcloudplatform_gslb}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb samsungcloudplatform_gslb}
 */
 export class Gslb extends cdktf.TerraformResource {
 
@@ -533,7 +533,7 @@ export class Gslb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslb to import
-  * @param importFromId The id of the existing Gslb that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslb that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -545,7 +545,7 @@ export class Gslb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/gslb samsungcloudplatform_gslb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/gslb samsungcloudplatform_gslb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -556,8 +556,8 @@ export class Gslb extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_gslb',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

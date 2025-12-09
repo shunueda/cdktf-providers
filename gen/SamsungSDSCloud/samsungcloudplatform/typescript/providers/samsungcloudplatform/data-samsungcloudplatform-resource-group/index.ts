@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformResourceGroupConfig extends cdktf.Terra
   /**
   * The user id which created the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#created_by_id DataSamsungcloudplatformResourceGroup#created_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#created_by_id DataSamsungcloudplatformResourceGroup#created_by_id}
   */
   readonly createdById?: string;
   /**
   * The user name which created the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#created_by_name DataSamsungcloudplatformResourceGroup#created_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#created_by_name DataSamsungcloudplatformResourceGroup#created_by_name}
   */
   readonly createdByName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#id DataSamsungcloudplatformResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#id DataSamsungcloudplatformResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataSamsungcloudplatformResourceGroupConfig extends cdktf.Terra
   /**
   * The user id which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#modified_by_id DataSamsungcloudplatformResourceGroup#modified_by_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#modified_by_id DataSamsungcloudplatformResourceGroup#modified_by_id}
   */
   readonly modifiedById?: string;
   /**
   * The user name which modified the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#modified_by_name DataSamsungcloudplatformResourceGroup#modified_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#modified_by_name DataSamsungcloudplatformResourceGroup#modified_by_name}
   */
   readonly modifiedByName?: string;
   /**
   * Resource group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#resource_group_description DataSamsungcloudplatformResourceGroup#resource_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#resource_group_description DataSamsungcloudplatformResourceGroup#resource_group_description}
   */
   readonly resourceGroupDescription?: string;
   /**
   * Resource group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#resource_group_id DataSamsungcloudplatformResourceGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#resource_group_id DataSamsungcloudplatformResourceGroup#resource_group_id}
   */
   readonly resourceGroupId: string;
   /**
   * Resource group types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#target_resource_types DataSamsungcloudplatformResourceGroup#target_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#target_resource_types DataSamsungcloudplatformResourceGroup#target_resource_types}
   */
   readonly targetResourceTypes?: string[];
 }
@@ -139,7 +139,7 @@ export class DataSamsungcloudplatformResourceGroupTargetResourceTagList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group samsungcloudplatform_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group samsungcloudplatform_resource_group}
 */
 export class DataSamsungcloudplatformResourceGroup extends cdktf.TerraformDataSource {
 
@@ -155,7 +155,7 @@ export class DataSamsungcloudplatformResourceGroup extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSamsungcloudplatformResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformResourceGroup to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class DataSamsungcloudplatformResourceGroup extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource_group samsungcloudplatform_resource_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource_group samsungcloudplatform_resource_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class DataSamsungcloudplatformResourceGroup extends cdktf.TerraformDataSo
       terraformResourceType: 'samsungcloudplatform_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

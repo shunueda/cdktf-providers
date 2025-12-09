@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * If reconfiguration is necessary to regain a primary due to a regional outage, submit this field alongside your topology reconfiguration to request a new regional outage resistant topology. Forced reconfigurations during an outage of the majority of electable nodes carry a risk of data loss if replicated writes (even majority committed writes) have not been replicated to the new primary node. MongoDB Atlas docs contain more information. To proceed with an operation which carries that risk, set **acceptDataRisksAndForceReplicaSetReconfig** to the current date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#accept_data_risks_and_force_replica_set_reconfig AdvancedCluster#accept_data_risks_and_force_replica_set_reconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#accept_data_risks_and_force_replica_set_reconfig AdvancedCluster#accept_data_risks_and_force_replica_set_reconfig}
   */
   readonly acceptDataRisksAndForceReplicaSetReconfig?: string;
   /**
   * Additional settings for an Atlas cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#advanced_configuration AdvancedCluster#advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#advanced_configuration AdvancedCluster#advanced_configuration}
   */
   readonly advancedConfiguration?: AdvancedClusterAdvancedConfiguration;
   /**
   * Flag that indicates whether the cluster can perform backups. If set to `true`, the cluster can perform backups. You must set this value to `true` for NVMe clusters. Backup uses [Cloud Backups](https://docs.atlas.mongodb.com/backup/cloud-backup/overview/) for dedicated clusters and [Shared Cluster Backups](https://docs.atlas.mongodb.com/backup/shared-tier/overview/) for tenant clusters. If set to `false`, the cluster doesn't use backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#backup_enabled AdvancedCluster#backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#backup_enabled AdvancedCluster#backup_enabled}
   */
   readonly backupEnabled?: boolean | cdktf.IResolvable;
   /**
   * Settings needed to configure the MongoDB Connector for Business Intelligence for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#bi_connector_config AdvancedCluster#bi_connector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#bi_connector_config AdvancedCluster#bi_connector_config}
   */
   readonly biConnectorConfig?: AdvancedClusterBiConnectorConfig;
   /**
   * Configuration of nodes that comprise the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#cluster_type AdvancedCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#cluster_type AdvancedCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
@@ -44,19 +44,19 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * When configured as FIXED_TO_DEDICATED, the cluster will always use a dedicated config server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#config_server_management_mode AdvancedCluster#config_server_management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#config_server_management_mode AdvancedCluster#config_server_management_mode}
   */
   readonly configServerManagementMode?: string;
   /**
   * Indicates whether to delete the resource being created if a timeout is reached when waiting for completion. When set to `true` and timeout occurs, it triggers the deletion and returns immediately without waiting for deletion to complete. When set to `false`, the timeout will not trigger resource deletion. If you suspect a transient error when the value is `true`, wait before retrying to allow resource deletion to finish. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#delete_on_create_timeout AdvancedCluster#delete_on_create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#delete_on_create_timeout AdvancedCluster#delete_on_create_timeout}
   */
   readonly deleteOnCreateTimeout?: boolean | cdktf.IResolvable;
   /**
   * Cloud service provider that manages your customer keys to provide an additional layer of encryption at rest for the cluster. To enable customer key management for encryption at rest, the cluster **replicationSpecs[n].regionConfigs[m].{type}Specs.instanceSize** setting must be `M10` or higher and `"backupEnabled" : false` or omitted entirely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#encryption_at_rest_provider AdvancedCluster#encryption_at_rest_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#encryption_at_rest_provider AdvancedCluster#encryption_at_rest_provider}
   */
   readonly encryptionAtRestProvider?: string;
   /**
@@ -68,7 +68,7 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * This setting cannot be changed once the cluster is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#global_cluster_self_managed_sharding AdvancedCluster#global_cluster_self_managed_sharding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#global_cluster_self_managed_sharding AdvancedCluster#global_cluster_self_managed_sharding}
   */
   readonly globalClusterSelfManagedSharding?: boolean | cdktf.IResolvable;
   /**
@@ -76,7 +76,7 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * Cluster labels are deprecated and will be removed in a future release. We strongly recommend that you use [resource tags](https://dochub.mongodb.org/core/add-cluster-tag-atlas) instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#labels AdvancedCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#labels AdvancedCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -86,31 +86,31 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   *  On update: Increase version only by 1 major version at a time. If the cluster is pinned to a MongoDB feature compatibility version exactly one major version below the current MongoDB version, the MongoDB version can be downgraded to the previous major version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#mongo_db_major_version AdvancedCluster#mongo_db_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#mongo_db_major_version AdvancedCluster#mongo_db_major_version}
   */
   readonly mongoDbMajorVersion?: string;
   /**
   * Human-readable label that identifies this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#name AdvancedCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#name AdvancedCluster#name}
   */
   readonly name: string;
   /**
   * Flag that indicates whether the cluster is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#paused AdvancedCluster#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#paused AdvancedCluster#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Pins the Feature Compatibility Version (FCV) to the current MongoDB version with a provided expiration date. To unpin the FCV the `pinned_fcv` attribute must be removed. This operation can take several minutes as the request processes through the MongoDB data plane. Once FCV is unpinned it will not be possible to downgrade the `mongo_db_major_version`. It is advised that updates to `pinned_fcv` are done isolated from other cluster changes. If a plan contains multiple changes, the FCV change will be applied first. If FCV is unpinned past the expiration date the `pinned_fcv` attribute must be removed. The following [knowledge hub article](https://kb.corp.mongodb.com/article/000021785/) and [FCV documentation](https://www.mongodb.com/docs/atlas/tutorial/major-version-change/#manage-feature-compatibility--fcv--during-upgrades) can be referenced for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#pinned_fcv AdvancedCluster#pinned_fcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#pinned_fcv AdvancedCluster#pinned_fcv}
   */
   readonly pinnedFcv?: AdvancedClusterPinnedFcv;
   /**
   * Flag that indicates whether the cluster uses continuous cloud backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#pit_enabled AdvancedCluster#pit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#pit_enabled AdvancedCluster#pit_enabled}
   */
   readonly pitEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -118,7 +118,7 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * **NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group/project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#project_id AdvancedCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#project_id AdvancedCluster#project_id}
   */
   readonly projectId: string;
   /**
@@ -130,7 +130,7 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * *Note*: changing this setting on a cluster will trigger a rolling restart as soon as the cluster is updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#redact_client_log_data AdvancedCluster#redact_client_log_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#redact_client_log_data AdvancedCluster#redact_client_log_data}
   */
   readonly redactClientLogData?: boolean | cdktf.IResolvable;
   /**
@@ -142,47 +142,53 @@ export interface AdvancedClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   * When configured as NODE_TYPE, Atlas scales your electable nodes in parallel with your read-only and analytics nodes. This mode is intended for large, dynamic workloads requiring frequent and timely cluster tier scaling. This is the fastest scaling strategy, but it might impact latency of workloads when performing extensive secondary reads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#replica_set_scaling_strategy AdvancedCluster#replica_set_scaling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#replica_set_scaling_strategy AdvancedCluster#replica_set_scaling_strategy}
   */
   readonly replicaSetScalingStrategy?: string;
   /**
   * List of settings that configure your cluster regions. This array has one object per shard representing node configurations in each shard. For replica sets there is only one object representing node configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#replication_specs AdvancedCluster#replication_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#replication_specs AdvancedCluster#replication_specs}
   */
   readonly replicationSpecs: AdvancedClusterReplicationSpecs[] | cdktf.IResolvable;
   /**
   * Flag that indicates whether to retain backup snapshots for the deleted dedicated cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#retain_backups_enabled AdvancedCluster#retain_backups_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#retain_backups_enabled AdvancedCluster#retain_backups_enabled}
   */
   readonly retainBackupsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Root Certificate Authority that MongoDB Cloud cluster uses. MongoDB Cloud supports Internet Security Research Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#root_cert_type AdvancedCluster#root_cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#root_cert_type AdvancedCluster#root_cert_type}
   */
   readonly rootCertType?: string;
   /**
   * Map that contains key-value pairs between 1 to 255 characters in length for tagging and categorizing the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#tags AdvancedCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#tags AdvancedCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Flag that indicates whether termination protection is enabled on the cluster. If set to `true`, MongoDB Cloud won't delete the cluster. If set to `false`, MongoDB Cloud will delete the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#termination_protection_enabled AdvancedCluster#termination_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#termination_protection_enabled AdvancedCluster#termination_protection_enabled}
   */
   readonly terminationProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#timeouts AdvancedCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#timeouts AdvancedCluster#timeouts}
   */
   readonly timeouts?: AdvancedClusterTimeouts;
   /**
+  * Controls how hardware specification fields are returned in the response. When set to true, the non-effective specs (`electable_specs`, `read_only_specs`, `analytics_specs`) fields return the hardware specifications that the client provided. When set to false (default), the non-effective specs fields show the **current** hardware specifications. Cluster auto-scaling is the primary cause for differences between initial and current hardware specifications.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#use_effective_fields AdvancedCluster#use_effective_fields}
+  */
+  readonly useEffectiveFields?: boolean | cdktf.IResolvable;
+  /**
   * Method by which the cluster maintains the MongoDB versions. If value is `CONTINUOUS`, you must not specify **mongoDBMajorVersion**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#version_release_system AdvancedCluster#version_release_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#version_release_system AdvancedCluster#version_release_system}
   */
   readonly versionReleaseSystem?: string;
 }
@@ -190,79 +196,85 @@ export interface AdvancedClusterAdvancedConfiguration {
   /**
   * The minimum pre- and post-image retention time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#change_stream_options_pre_and_post_images_expire_after_seconds AdvancedCluster#change_stream_options_pre_and_post_images_expire_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#change_stream_options_pre_and_post_images_expire_after_seconds AdvancedCluster#change_stream_options_pre_and_post_images_expire_after_seconds}
   */
   readonly changeStreamOptionsPreAndPostImagesExpireAfterSeconds?: number;
   /**
   * The custom OpenSSL cipher suite list for TLS 1.2. This field is only valid when `tls_cipher_config_mode` is set to `CUSTOM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#custom_openssl_cipher_config_tls12 AdvancedCluster#custom_openssl_cipher_config_tls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#custom_openssl_cipher_config_tls12 AdvancedCluster#custom_openssl_cipher_config_tls12}
   */
   readonly customOpensslCipherConfigTls12?: string[];
   /**
+  * The custom OpenSSL cipher suite list for TLS 1.3. This field is only valid when `tls_cipher_config_mode` is set to `CUSTOM`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#custom_openssl_cipher_config_tls13 AdvancedCluster#custom_openssl_cipher_config_tls13}
+  */
+  readonly customOpensslCipherConfigTls13?: string[];
+  /**
   * Default time limit in milliseconds for individual read operations to complete. This parameter is supported only for MongoDB version 8.0 and above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#default_max_time_ms AdvancedCluster#default_max_time_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#default_max_time_ms AdvancedCluster#default_max_time_ms}
   */
   readonly defaultMaxTimeMs?: number;
   /**
   * Default level of acknowledgment requested from MongoDB for write operations when none is specified by the driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#default_write_concern AdvancedCluster#default_write_concern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#default_write_concern AdvancedCluster#default_write_concern}
   */
   readonly defaultWriteConcern?: string;
   /**
   * Flag that indicates whether the cluster allows execution of operations that perform server-side executions of JavaScript. When using 8.0+, we recommend disabling server-side JavaScript and using operators of aggregation pipeline as more performant alternative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#javascript_enabled AdvancedCluster#javascript_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#javascript_enabled AdvancedCluster#javascript_enabled}
   */
   readonly javascriptEnabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum Transport Layer Security (TLS) version that the cluster accepts for incoming connections. Clusters using TLS 1.0 or 1.1 should consider setting TLS 1.2 as the minimum TLS protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#minimum_enabled_tls_protocol AdvancedCluster#minimum_enabled_tls_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#minimum_enabled_tls_protocol AdvancedCluster#minimum_enabled_tls_protocol}
   */
   readonly minimumEnabledTlsProtocol?: string;
   /**
   * Flag that indicates whether the cluster disables executing any query that requires a collection scan to return results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#no_table_scan AdvancedCluster#no_table_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#no_table_scan AdvancedCluster#no_table_scan}
   */
   readonly noTableScan?: boolean | cdktf.IResolvable;
   /**
   * Minimum retention window for cluster's oplog expressed in hours. A value of null indicates that the cluster uses the default minimum oplog window that MongoDB Cloud calculates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#oplog_min_retention_hours AdvancedCluster#oplog_min_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#oplog_min_retention_hours AdvancedCluster#oplog_min_retention_hours}
   */
   readonly oplogMinRetentionHours?: number;
   /**
   * Storage limit of cluster's oplog expressed in megabytes. A value of null indicates that the cluster uses the default oplog size that MongoDB Cloud calculates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#oplog_size_mb AdvancedCluster#oplog_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#oplog_size_mb AdvancedCluster#oplog_size_mb}
   */
   readonly oplogSizeMb?: number;
   /**
   * Interval in seconds at which the mongosqld process re-samples data to create its relational schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#sample_refresh_interval_bi_connector AdvancedCluster#sample_refresh_interval_bi_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#sample_refresh_interval_bi_connector AdvancedCluster#sample_refresh_interval_bi_connector}
   */
   readonly sampleRefreshIntervalBiConnector?: number;
   /**
   * Number of documents per database to sample when gathering schema information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#sample_size_bi_connector AdvancedCluster#sample_size_bi_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#sample_size_bi_connector AdvancedCluster#sample_size_bi_connector}
   */
   readonly sampleSizeBiConnector?: number;
   /**
   * The TLS cipher suite configuration mode. Valid values include `CUSTOM` or `DEFAULT`. The `DEFAULT` mode uses the default cipher suites. The `CUSTOM` mode allows you to specify custom cipher suites for both TLS 1.2 and TLS 1.3. To unset, this should be set back to `DEFAULT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#tls_cipher_config_mode AdvancedCluster#tls_cipher_config_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#tls_cipher_config_mode AdvancedCluster#tls_cipher_config_mode}
   */
   readonly tlsCipherConfigMode?: string;
   /**
   * Lifetime, in seconds, of multi-document transactions. Atlas considers the transactions that exceed this limit as expired and so aborts them through a periodic cleanup process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#transaction_lifetime_limit_seconds AdvancedCluster#transaction_lifetime_limit_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#transaction_lifetime_limit_seconds AdvancedCluster#transaction_lifetime_limit_seconds}
   */
   readonly transactionLifetimeLimitSeconds?: number;
 }
@@ -275,6 +287,7 @@ export function advancedClusterAdvancedConfigurationToTerraform(struct?: Advance
   return {
     change_stream_options_pre_and_post_images_expire_after_seconds: cdktf.numberToTerraform(struct!.changeStreamOptionsPreAndPostImagesExpireAfterSeconds),
     custom_openssl_cipher_config_tls12: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.customOpensslCipherConfigTls12),
+    custom_openssl_cipher_config_tls13: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.customOpensslCipherConfigTls13),
     default_max_time_ms: cdktf.numberToTerraform(struct!.defaultMaxTimeMs),
     default_write_concern: cdktf.stringToTerraform(struct!.defaultWriteConcern),
     javascript_enabled: cdktf.booleanToTerraform(struct!.javascriptEnabled),
@@ -304,6 +317,12 @@ export function advancedClusterAdvancedConfigurationToHclTerraform(struct?: Adva
     },
     custom_openssl_cipher_config_tls12: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.customOpensslCipherConfigTls12),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    custom_openssl_cipher_config_tls13: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.customOpensslCipherConfigTls13),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -406,6 +425,10 @@ export class AdvancedClusterAdvancedConfigurationOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.customOpensslCipherConfigTls12 = this._customOpensslCipherConfigTls12;
     }
+    if (this._customOpensslCipherConfigTls13 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customOpensslCipherConfigTls13 = this._customOpensslCipherConfigTls13;
+    }
     if (this._defaultMaxTimeMs !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultMaxTimeMs = this._defaultMaxTimeMs;
@@ -459,6 +482,7 @@ export class AdvancedClusterAdvancedConfigurationOutputReference extends cdktf.C
       this.resolvableValue = undefined;
       this._changeStreamOptionsPreAndPostImagesExpireAfterSeconds = undefined;
       this._customOpensslCipherConfigTls12 = undefined;
+      this._customOpensslCipherConfigTls13 = undefined;
       this._defaultMaxTimeMs = undefined;
       this._defaultWriteConcern = undefined;
       this._javascriptEnabled = undefined;
@@ -480,6 +504,7 @@ export class AdvancedClusterAdvancedConfigurationOutputReference extends cdktf.C
       this.resolvableValue = undefined;
       this._changeStreamOptionsPreAndPostImagesExpireAfterSeconds = value.changeStreamOptionsPreAndPostImagesExpireAfterSeconds;
       this._customOpensslCipherConfigTls12 = value.customOpensslCipherConfigTls12;
+      this._customOpensslCipherConfigTls13 = value.customOpensslCipherConfigTls13;
       this._defaultMaxTimeMs = value.defaultMaxTimeMs;
       this._defaultWriteConcern = value.defaultWriteConcern;
       this._javascriptEnabled = value.javascriptEnabled;
@@ -524,6 +549,22 @@ export class AdvancedClusterAdvancedConfigurationOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get customOpensslCipherConfigTls12Input() {
     return this._customOpensslCipherConfigTls12;
+  }
+
+  // custom_openssl_cipher_config_tls13 - computed: true, optional: true, required: false
+  private _customOpensslCipherConfigTls13?: string[]; 
+  public get customOpensslCipherConfigTls13() {
+    return cdktf.Fn.tolist(this.getListAttribute('custom_openssl_cipher_config_tls13'));
+  }
+  public set customOpensslCipherConfigTls13(value: string[]) {
+    this._customOpensslCipherConfigTls13 = value;
+  }
+  public resetCustomOpensslCipherConfigTls13() {
+    this._customOpensslCipherConfigTls13 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customOpensslCipherConfigTls13Input() {
+    return this._customOpensslCipherConfigTls13;
   }
 
   // default_max_time_ms - computed: true, optional: true, required: false
@@ -706,13 +747,13 @@ export interface AdvancedClusterBiConnectorConfig {
   /**
   * Flag that indicates whether MongoDB Connector for Business Intelligence is enabled on the specified cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#enabled AdvancedCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#enabled AdvancedCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Data source node designated for the MongoDB Connector for Business Intelligence on MongoDB Cloud. The MongoDB Connector for Business Intelligence on MongoDB Cloud reads data from the primary, secondary, or analytics node based on your read preferences. Defaults to `ANALYTICS` node, or `SECONDARY` if there are no `ANALYTICS` nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#read_preference AdvancedCluster#read_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#read_preference AdvancedCluster#read_preference}
   */
   readonly readPreference?: string;
 }
@@ -1093,7 +1134,7 @@ export interface AdvancedClusterPinnedFcv {
   /**
   * Expiration date of the fixed FCV. This value is in the ISO 8601 timestamp format (e.g. 2024-12-04T16:25:00Z). Note that this field cannot exceed 4 weeks from the pinned date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#expiration_date AdvancedCluster#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#expiration_date AdvancedCluster#expiration_date}
   */
   readonly expirationDate: string;
 }
@@ -1194,31 +1235,31 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsAnalyticsAutoScalin
   * - Set to `true` to enable instance size auto-scaling. If enabled, you must specify a value for **replicationSpecs[n].regionConfigs[m].autoScaling.compute.maxInstanceSize**.
   * - Set to `false` to disable instance size automatic scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_enabled AdvancedCluster#compute_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_enabled AdvancedCluster#compute_enabled}
   */
   readonly computeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum instance size to which your cluster can automatically scale. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.scaleDownEnabled" : true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_max_instance_size AdvancedCluster#compute_max_instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_max_instance_size AdvancedCluster#compute_max_instance_size}
   */
   readonly computeMaxInstanceSize?: string;
   /**
   * Minimum instance size to which your cluster can automatically scale. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.scaleDownEnabled" : true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_min_instance_size AdvancedCluster#compute_min_instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_min_instance_size AdvancedCluster#compute_min_instance_size}
   */
   readonly computeMinInstanceSize?: string;
   /**
   * Flag that indicates whether the instance size may scale down. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.enabled" : true`. If you enable this option, specify a value for **replicationSpecs[n].regionConfigs[m].autoScaling.compute.minInstanceSize**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_scale_down_enabled AdvancedCluster#compute_scale_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_scale_down_enabled AdvancedCluster#compute_scale_down_enabled}
   */
   readonly computeScaleDownEnabled?: boolean | cdktf.IResolvable;
   /**
   * Flag that indicates whether this cluster enables disk auto-scaling. The maximum memory allowed for the selected cluster tier and the oplog size can limit storage auto-scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_gb_enabled AdvancedCluster#disk_gb_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_gb_enabled AdvancedCluster#disk_gb_enabled}
   */
   readonly diskGbEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1437,7 +1478,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsAnalyticsSpecs {
   * This parameter defaults to the cluster tier's standard IOPS value.
   * Changing this value impacts cluster cost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
   */
   readonly diskIops?: number;
   /**
@@ -1455,7 +1496,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsAnalyticsSpecs {
   * 
   *  The maximum value for disk storage cannot exceed 50 times the maximum RAM for the selected cluster. If you require more storage space, consider upgrading your cluster to a higher tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
@@ -1465,19 +1506,19 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsAnalyticsSpecs {
   * 
   * - `PROVISIONED` volume types must fall within the allowable IOPS range for the selected volume size. You must set this value to (`PROVISIONED`) for NVMe clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
   */
   readonly ebsVolumeType?: string;
   /**
   * Hardware specification for the instance sizes in this region in this shard. Each instance size has a default storage and memory capacity. Electable nodes and read-only nodes (known as "base nodes") within a single shard must use the same instance size. Analytics nodes can scale independently from base nodes within a shard. Both base nodes and analytics nodes can scale independently from their equivalents in other shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
   */
   readonly instanceSize?: string;
   /**
   * Number of nodes of the given type for MongoDB Cloud to deploy to the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
   */
   readonly nodeCount?: number;
 }
@@ -1692,31 +1733,31 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsAutoScaling {
   * - Set to `true` to enable instance size auto-scaling. If enabled, you must specify a value for **replicationSpecs[n].regionConfigs[m].autoScaling.compute.maxInstanceSize**.
   * - Set to `false` to disable instance size automatic scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_enabled AdvancedCluster#compute_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_enabled AdvancedCluster#compute_enabled}
   */
   readonly computeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum instance size to which your cluster can automatically scale. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.scaleDownEnabled" : true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_max_instance_size AdvancedCluster#compute_max_instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_max_instance_size AdvancedCluster#compute_max_instance_size}
   */
   readonly computeMaxInstanceSize?: string;
   /**
   * Minimum instance size to which your cluster can automatically scale. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.scaleDownEnabled" : true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_min_instance_size AdvancedCluster#compute_min_instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_min_instance_size AdvancedCluster#compute_min_instance_size}
   */
   readonly computeMinInstanceSize?: string;
   /**
   * Flag that indicates whether the instance size may scale down. MongoDB Cloud requires this parameter if `"replicationSpecs[n].regionConfigs[m].autoScaling.compute.enabled" : true`. If you enable this option, specify a value for **replicationSpecs[n].regionConfigs[m].autoScaling.compute.minInstanceSize**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#compute_scale_down_enabled AdvancedCluster#compute_scale_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#compute_scale_down_enabled AdvancedCluster#compute_scale_down_enabled}
   */
   readonly computeScaleDownEnabled?: boolean | cdktf.IResolvable;
   /**
   * Flag that indicates whether this cluster enables disk auto-scaling. The maximum memory allowed for the selected cluster tier and the oplog size can limit storage auto-scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_gb_enabled AdvancedCluster#disk_gb_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_gb_enabled AdvancedCluster#disk_gb_enabled}
   */
   readonly diskGbEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1935,7 +1976,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsElectableSpecs {
   * This parameter defaults to the cluster tier's standard IOPS value.
   * Changing this value impacts cluster cost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
   */
   readonly diskIops?: number;
   /**
@@ -1953,7 +1994,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsElectableSpecs {
   * 
   *  The maximum value for disk storage cannot exceed 50 times the maximum RAM for the selected cluster. If you require more storage space, consider upgrading your cluster to a higher tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
@@ -1963,19 +2004,19 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsElectableSpecs {
   * 
   * - `PROVISIONED` volume types must fall within the allowable IOPS range for the selected volume size. You must set this value to (`PROVISIONED`) for NVMe clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
   */
   readonly ebsVolumeType?: string;
   /**
   * Hardware specification for the instance sizes in this region in this shard. Each instance size has a default storage and memory capacity. Electable nodes and read-only nodes (known as "base nodes") within a single shard must use the same instance size. Analytics nodes can scale independently from base nodes within a shard. Both base nodes and analytics nodes can scale independently from their equivalents in other shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
   */
   readonly instanceSize?: string;
   /**
   * Number of nodes of the given type for MongoDB Cloud to deploy to the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
   */
   readonly nodeCount?: number;
 }
@@ -2194,7 +2235,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsReadOnlySpecs {
   * This parameter defaults to the cluster tier's standard IOPS value.
   * Changing this value impacts cluster cost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_iops AdvancedCluster#disk_iops}
   */
   readonly diskIops?: number;
   /**
@@ -2212,7 +2253,7 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsReadOnlySpecs {
   * 
   *  The maximum value for disk storage cannot exceed 50 times the maximum RAM for the selected cluster. If you require more storage space, consider upgrading your cluster to a higher tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#disk_size_gb AdvancedCluster#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
@@ -2222,19 +2263,19 @@ export interface AdvancedClusterReplicationSpecsRegionConfigsReadOnlySpecs {
   * 
   * - `PROVISIONED` volume types must fall within the allowable IOPS range for the selected volume size. You must set this value to (`PROVISIONED`) for NVMe clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#ebs_volume_type AdvancedCluster#ebs_volume_type}
   */
   readonly ebsVolumeType?: string;
   /**
   * Hardware specification for the instance sizes in this region in this shard. Each instance size has a default storage and memory capacity. Electable nodes and read-only nodes (known as "base nodes") within a single shard must use the same instance size. Analytics nodes can scale independently from base nodes within a shard. Both base nodes and analytics nodes can scale independently from their equivalents in other shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#instance_size AdvancedCluster#instance_size}
   */
   readonly instanceSize?: string;
   /**
   * Number of nodes of the given type for MongoDB Cloud to deploy to the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#node_count AdvancedCluster#node_count}
   */
   readonly nodeCount?: number;
 }
@@ -2446,31 +2487,31 @@ export interface AdvancedClusterReplicationSpecsRegionConfigs {
   /**
   * Options that determine how this cluster handles resource scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#analytics_auto_scaling AdvancedCluster#analytics_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#analytics_auto_scaling AdvancedCluster#analytics_auto_scaling}
   */
   readonly analyticsAutoScaling?: AdvancedClusterReplicationSpecsRegionConfigsAnalyticsAutoScaling;
   /**
-  * Hardware specifications for read-only nodes in the region. Read-only nodes can never become the primary member, but can enable local reads. If you don't specify this parameter, no read-only nodes are deployed to the region.
+  * Hardware specifications for nodes deployed in the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#analytics_specs AdvancedCluster#analytics_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#analytics_specs AdvancedCluster#analytics_specs}
   */
   readonly analyticsSpecs?: AdvancedClusterReplicationSpecsRegionConfigsAnalyticsSpecs;
   /**
   * Options that determine how this cluster handles resource scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#auto_scaling AdvancedCluster#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#auto_scaling AdvancedCluster#auto_scaling}
   */
   readonly autoScaling?: AdvancedClusterReplicationSpecsRegionConfigsAutoScaling;
   /**
   * Cloud service provider on which MongoDB Cloud provisioned the multi-tenant cluster. The resource returns this parameter when **providerName** is `TENANT` and **electableSpecs.instanceSize** is `M0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#backing_provider_name AdvancedCluster#backing_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#backing_provider_name AdvancedCluster#backing_provider_name}
   */
   readonly backingProviderName?: string;
   /**
-  * Hardware specifications for all electable nodes deployed in the region. Electable nodes can become the primary and can enable local reads. If you don't specify this option, MongoDB Cloud deploys no electable nodes to the region.
+  * Hardware specifications for nodes deployed in the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#electable_specs AdvancedCluster#electable_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#electable_specs AdvancedCluster#electable_specs}
   */
   readonly electableSpecs?: AdvancedClusterReplicationSpecsRegionConfigsElectableSpecs;
   /**
@@ -2478,25 +2519,25 @@ export interface AdvancedClusterReplicationSpecsRegionConfigs {
   * 
   * **Example:** If you have three regions, their priorities would be `7`, `6`, and `5` respectively. If you added two more regions for supporting electable nodes, the priorities of those regions would be `4` and `3` respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#priority AdvancedCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#priority AdvancedCluster#priority}
   */
   readonly priority: number;
   /**
   * Cloud service provider on which MongoDB Cloud provisions the hosts. Set dedicated clusters to `AWS`, `GCP`, `AZURE` or `TENANT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#provider_name AdvancedCluster#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#provider_name AdvancedCluster#provider_name}
   */
   readonly providerName: string;
   /**
-  * Hardware specifications for read-only nodes in the region. Read-only nodes can never become the primary member, but can enable local reads. If you don't specify this parameter, no read-only nodes are deployed to the region.
+  * Hardware specifications for nodes deployed in the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#read_only_specs AdvancedCluster#read_only_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#read_only_specs AdvancedCluster#read_only_specs}
   */
   readonly readOnlySpecs?: AdvancedClusterReplicationSpecsRegionConfigsReadOnlySpecs;
   /**
   * Physical location of your MongoDB cluster nodes. The region you choose can affect network latency for clients accessing your databases. The region name is only returned in the response for single-region clusters. When MongoDB Cloud deploys a dedicated cluster, it checks if a VPC or VPC connection exists for that provider and region. If not, MongoDB Cloud creates them as part of the deployment. It assigns the VPC a Classless Inter-Domain Routing (CIDR) block. To limit a new VPC peering connection to one Classless Inter-Domain Routing (CIDR) block and region, create the connection first. Deploy the cluster after the connection starts. GCP Clusters and Multi-region clusters require one VPC peering connection for each region. MongoDB nodes can use only the peering connection that resides in the same region as the nodes to communicate with the peered VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#region_name AdvancedCluster#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#region_name AdvancedCluster#region_name}
   */
   readonly regionName: string;
 }
@@ -2841,13 +2882,13 @@ export interface AdvancedClusterReplicationSpecs {
   * 
   * If you set `"replicationSpecs[n].regionConfigs[m].analyticsSpecs.instanceSize" : "M30"`, set `"replicationSpecs[n].regionConfigs[m].electableSpecs.instanceSize" : `"M30"` if you have electable nodes and `"replicationSpecs[n].regionConfigs[m].readOnlySpecs.instanceSize" : `"M30"` if you have read-only nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#region_configs AdvancedCluster#region_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#region_configs AdvancedCluster#region_configs}
   */
   readonly regionConfigs: AdvancedClusterReplicationSpecsRegionConfigs[] | cdktf.IResolvable;
   /**
   * Human-readable label that describes the zone this shard belongs to in a Global Cluster. Provide this value only if "clusterType" : "GEOSHARDED" but not "selfManagedSharding" : true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#zone_name AdvancedCluster#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#zone_name AdvancedCluster#zone_name}
   */
   readonly zoneName?: string;
 }
@@ -3007,19 +3048,19 @@ export interface AdvancedClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#create AdvancedCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#create AdvancedCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#delete AdvancedCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#delete AdvancedCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#update AdvancedCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#update AdvancedCluster#update}
   */
   readonly update?: string;
 }
@@ -3171,7 +3212,7 @@ export class AdvancedClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster mongodbatlas_advanced_cluster}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster mongodbatlas_advanced_cluster}
 */
 export class AdvancedCluster extends cdktf.TerraformResource {
 
@@ -3187,7 +3228,7 @@ export class AdvancedCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvancedCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvancedCluster to import
-  * @param importFromId The id of the existing AdvancedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvancedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvancedCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3199,7 +3240,7 @@ export class AdvancedCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/advanced_cluster mongodbatlas_advanced_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/advanced_cluster mongodbatlas_advanced_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3210,8 +3251,8 @@ export class AdvancedCluster extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_advanced_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3245,6 +3286,7 @@ export class AdvancedCluster extends cdktf.TerraformResource {
     this._tags = config.tags;
     this._terminationProtectionEnabled = config.terminationProtectionEnabled;
     this._timeouts.internalValue = config.timeouts;
+    this._useEffectiveFields = config.useEffectiveFields;
     this._versionReleaseSystem = config.versionReleaseSystem;
   }
 
@@ -3366,7 +3408,7 @@ export class AdvancedCluster extends cdktf.TerraformResource {
     return this.getStringAttribute('create_date');
   }
 
-  // delete_on_create_timeout - computed: false, optional: true, required: false
+  // delete_on_create_timeout - computed: true, optional: true, required: false
   private _deleteOnCreateTimeout?: boolean | cdktf.IResolvable; 
   public get deleteOnCreateTimeout() {
     return this.getBooleanAttribute('delete_on_create_timeout');
@@ -3655,6 +3697,22 @@ export class AdvancedCluster extends cdktf.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // use_effective_fields - computed: false, optional: true, required: false
+  private _useEffectiveFields?: boolean | cdktf.IResolvable; 
+  public get useEffectiveFields() {
+    return this.getBooleanAttribute('use_effective_fields');
+  }
+  public set useEffectiveFields(value: boolean | cdktf.IResolvable) {
+    this._useEffectiveFields = value;
+  }
+  public resetUseEffectiveFields() {
+    this._useEffectiveFields = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useEffectiveFieldsInput() {
+    return this._useEffectiveFields;
+  }
+
   // version_release_system - computed: true, optional: true, required: false
   private _versionReleaseSystem?: string; 
   public get versionReleaseSystem() {
@@ -3701,6 +3759,7 @@ export class AdvancedCluster extends cdktf.TerraformResource {
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       termination_protection_enabled: cdktf.booleanToTerraform(this._terminationProtectionEnabled),
       timeouts: advancedClusterTimeoutsToTerraform(this._timeouts.internalValue),
+      use_effective_fields: cdktf.booleanToTerraform(this._useEffectiveFields),
       version_release_system: cdktf.stringToTerraform(this._versionReleaseSystem),
     };
   }
@@ -3850,6 +3909,12 @@ export class AdvancedCluster extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "AdvancedClusterTimeouts",
+      },
+      use_effective_fields: {
+        value: cdktf.booleanToHclTerraform(this._useEffectiveFields),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       version_release_system: {
         value: cdktf.stringToHclTerraform(this._versionReleaseSystem),

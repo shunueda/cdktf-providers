@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataSamsungcloudplatformEndpointsConfig extends cdktf.Terraform
   /**
   * Person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#created_by DataSamsungcloudplatformEndpoints#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#created_by DataSamsungcloudplatformEndpoints#created_by}
   */
   readonly createdBy?: string;
   /**
   * Endpoint id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#endpoint_id DataSamsungcloudplatformEndpoints#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#endpoint_id DataSamsungcloudplatformEndpoints#endpoint_id}
   */
   readonly endpointId?: string;
   /**
   * Endpoint Ip Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#endpoint_ip_address DataSamsungcloudplatformEndpoints#endpoint_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#endpoint_ip_address DataSamsungcloudplatformEndpoints#endpoint_ip_address}
   */
   readonly endpointIpAddress?: string;
   /**
   * Endpoint name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#endpoint_name DataSamsungcloudplatformEndpoints#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#endpoint_name DataSamsungcloudplatformEndpoints#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * Endpoint status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#endpoint_states DataSamsungcloudplatformEndpoints#endpoint_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#endpoint_states DataSamsungcloudplatformEndpoints#endpoint_states}
   */
   readonly endpointStates?: string;
   /**
   * Endpoint type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#endpoint_type DataSamsungcloudplatformEndpoints#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#endpoint_type DataSamsungcloudplatformEndpoints#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#id DataSamsungcloudplatformEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#id DataSamsungcloudplatformEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface DataSamsungcloudplatformEndpointsConfig extends cdktf.Terraform
   /**
   * Endpoint id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#object_id DataSamsungcloudplatformEndpoints#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#object_id DataSamsungcloudplatformEndpoints#object_id}
   */
   readonly objectId?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#page DataSamsungcloudplatformEndpoints#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#page DataSamsungcloudplatformEndpoints#page}
   */
   readonly page?: number;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#service_zone_id DataSamsungcloudplatformEndpoints#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#service_zone_id DataSamsungcloudplatformEndpoints#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#size DataSamsungcloudplatformEndpoints#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#size DataSamsungcloudplatformEndpoints#size}
   */
   readonly size?: number;
   /**
   * Vpc id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#vpc_id DataSamsungcloudplatformEndpoints#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#vpc_id DataSamsungcloudplatformEndpoints#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#contents DataSamsungcloudplatformEndpoints#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#contents DataSamsungcloudplatformEndpoints#contents}
   */
   readonly contents?: DataSamsungcloudplatformEndpointsContents[] | cdktf.IResolvable;
 }
@@ -235,7 +235,7 @@ export class DataSamsungcloudplatformEndpointsContentsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints samsungcloudplatform_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints samsungcloudplatform_endpoints}
 */
 export class DataSamsungcloudplatformEndpoints extends cdktf.TerraformDataSource {
 
@@ -251,7 +251,7 @@ export class DataSamsungcloudplatformEndpoints extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataSamsungcloudplatformEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformEndpoints to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class DataSamsungcloudplatformEndpoints extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/endpoints samsungcloudplatform_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/endpoints samsungcloudplatform_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class DataSamsungcloudplatformEndpoints extends cdktf.TerraformDataSource
       terraformResourceType: 'samsungcloudplatform_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

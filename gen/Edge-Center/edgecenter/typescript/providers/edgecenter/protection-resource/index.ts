@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProtectionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable DDoS protection resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#active ProtectionResource#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#active ProtectionResource#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * List of countries to apply geoip_mode policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#geoip_list ProtectionResource#geoip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#geoip_list ProtectionResource#geoip_list}
   */
   readonly geoipList?: string[];
   /**
   * Manage country access policy to control access to DDoS resource from the specified countries. Available values are `no`, `allow`, `block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#geoip_mode ProtectionResource#geoip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#geoip_mode ProtectionResource#geoip_mode}
   */
   readonly geoipMode?: string;
   /**
   * Whether to use HTTP to make requests to the origin. If set to false (default), HTTPS is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#http_to_origin ProtectionResource#http_to_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#http_to_origin ProtectionResource#http_to_origin}
   */
   readonly httpToOrigin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#id ProtectionResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#id ProtectionResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface ProtectionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sets load balancing type. Available values are `Round Robin`, `Round Robin with session persistence`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#load_balancing_type ProtectionResource#load_balancing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#load_balancing_type ProtectionResource#load_balancing_type}
   */
   readonly loadBalancingType?: string;
   /**
   * Enable or disable Multiple origins feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#multiple_origins ProtectionResource#multiple_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#multiple_origins ProtectionResource#multiple_origins}
   */
   readonly multipleOrigins?: boolean | cdktf.IResolvable;
   /**
   * The DNS name of the DDoS protection resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#name ProtectionResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#name ProtectionResource#name}
   */
   readonly name: string;
   /**
   * Enable or disable from HTTP to HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#redirect_to_https ProtectionResource#redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#redirect_to_https ProtectionResource#redirect_to_https}
   */
   readonly redirectToHttps?: boolean | cdktf.IResolvable;
   /**
   * The list of supported TLS versions. Available value: `1`, `1.1`, `1.2`, `1.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#tls ProtectionResource#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#tls ProtectionResource#tls}
   */
   readonly tls: string[];
   /**
   * Enable or disable WAF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#waf ProtectionResource#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#waf ProtectionResource#waf}
   */
   readonly waf?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable Wildcard aliases feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#wildcard_aliases ProtectionResource#wildcard_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#wildcard_aliases ProtectionResource#wildcard_aliases}
   */
   readonly wildcardAliases?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable redirect from WWW to the primary domain option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#www_redirect ProtectionResource#www_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#www_redirect ProtectionResource#www_redirect}
   */
   readonly wwwRedirect?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource edgecenter_protection_resource}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource edgecenter_protection_resource}
 */
 export class ProtectionResource extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class ProtectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionResource to import
-  * @param importFromId The id of the existing ProtectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class ProtectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource edgecenter_protection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource edgecenter_protection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class ProtectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_protection_resource',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

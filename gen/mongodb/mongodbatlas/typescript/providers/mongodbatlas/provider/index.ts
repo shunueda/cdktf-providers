@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface MongodbatlasProviderConfig {
   /**
   * MongoDB Atlas Access Token for Service Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#access_token MongodbatlasProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#access_token MongodbatlasProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * AWS API Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#aws_access_key_id MongodbatlasProvider#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#aws_access_key_id MongodbatlasProvider#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * AWS API Access Secret Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#aws_secret_access_key MongodbatlasProvider#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#aws_secret_access_key MongodbatlasProvider#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * AWS Security Token Service provided session token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#aws_session_token MongodbatlasProvider#aws_session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#aws_session_token MongodbatlasProvider#aws_session_token}
   */
   readonly awsSessionToken?: string;
   /**
   * MongoDB Atlas Base URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#base_url MongodbatlasProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#base_url MongodbatlasProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * MongoDB Atlas Client ID for Service Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#client_id MongodbatlasProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#client_id MongodbatlasProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * MongoDB Atlas Client Secret for Service Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#client_secret MongodbatlasProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#client_secret MongodbatlasProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * MongoDB Atlas Base URL default to gov
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#is_mongodbgov_cloud MongodbatlasProvider#is_mongodbgov_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#is_mongodbgov_cloud MongodbatlasProvider#is_mongodbgov_cloud}
   */
   readonly isMongodbgovCloud?: boolean | cdktf.IResolvable;
   /**
   * MongoDB Atlas Programmatic Private Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#private_key MongodbatlasProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#private_key MongodbatlasProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * MongoDB Atlas Programmatic Public Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#public_key MongodbatlasProvider#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#public_key MongodbatlasProvider#public_key}
   */
   readonly publicKey?: string;
   /**
   * MongoDB Realm Base URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#realm_base_url MongodbatlasProvider#realm_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#realm_base_url MongodbatlasProvider#realm_base_url}
   */
   readonly realmBaseUrl?: string;
   /**
   * Region where secret is stored as part of AWS Secret Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#region MongodbatlasProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#region MongodbatlasProvider#region}
   */
   readonly region?: string;
   /**
   * Name of secret stored in AWS Secret Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#secret_name MongodbatlasProvider#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#secret_name MongodbatlasProvider#secret_name}
   */
   readonly secretName?: string;
   /**
   * AWS Security Token Service endpoint. Required for cross-AWS region or cross-AWS account secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#sts_endpoint MongodbatlasProvider#sts_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#sts_endpoint MongodbatlasProvider#sts_endpoint}
   */
   readonly stsEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#alias MongodbatlasProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#alias MongodbatlasProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#assume_role MongodbatlasProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#assume_role MongodbatlasProvider#assume_role}
   */
   readonly assumeRole?: MongodbatlasProviderAssumeRole[] | cdktf.IResolvable;
 }
@@ -108,7 +108,7 @@ export interface MongodbatlasProviderAssumeRole {
   /**
   * Amazon Resource Name (ARN) of an IAM Role to assume prior to making API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#role_arn MongodbatlasProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#role_arn MongodbatlasProvider#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -144,7 +144,7 @@ export function mongodbatlasProviderAssumeRoleToHclTerraform(struct?: Mongodbatl
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs mongodbatlas}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs mongodbatlas}
 */
 export class MongodbatlasProvider extends cdktf.TerraformProvider {
 
@@ -160,7 +160,7 @@ export class MongodbatlasProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MongodbatlasProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbatlasProvider to import
-  * @param importFromId The id of the existing MongodbatlasProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbatlasProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbatlasProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class MongodbatlasProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs mongodbatlas} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs mongodbatlas} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class MongodbatlasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mongodbatlas',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       terraformProviderSource: 'mongodb/mongodbatlas'
     });

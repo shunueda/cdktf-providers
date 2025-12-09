@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSamsungcloudplatformDirectConnectRoutingRulesConfig extends
   /**
   * Destination Network Cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#destination_network_cidr DataSamsungcloudplatformDirectConnectRoutingRules#destination_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#destination_network_cidr DataSamsungcloudplatformDirectConnectRoutingRules#destination_network_cidr}
   */
   readonly destinationNetworkCidr?: string;
   /**
   * is Editable (true | false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#editable DataSamsungcloudplatformDirectConnectRoutingRules#editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#editable DataSamsungcloudplatformDirectConnectRoutingRules#editable}
   */
   readonly editable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#id DataSamsungcloudplatformDirectConnectRoutingRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#id DataSamsungcloudplatformDirectConnectRoutingRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataSamsungcloudplatformDirectConnectRoutingRulesConfig extends
   /**
   * Routing Rule Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#routing_rule_id DataSamsungcloudplatformDirectConnectRoutingRules#routing_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#routing_rule_id DataSamsungcloudplatformDirectConnectRoutingRules#routing_rule_id}
   */
   readonly routingRuleId?: string;
   /**
   * Routing Table Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#routing_table_id DataSamsungcloudplatformDirectConnectRoutingRules#routing_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#routing_table_id DataSamsungcloudplatformDirectConnectRoutingRules#routing_table_id}
   */
   readonly routingTableId: string;
   /**
   * Source Interface Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#source_service_interface_id DataSamsungcloudplatformDirectConnectRoutingRules#source_service_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#source_service_interface_id DataSamsungcloudplatformDirectConnectRoutingRules#source_service_interface_id}
   */
   readonly sourceServiceInterfaceId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#contents DataSamsungcloudplatformDirectConnectRoutingRules#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#contents DataSamsungcloudplatformDirectConnectRoutingRules#contents}
   */
   readonly contents?: DataSamsungcloudplatformDirectConnectRoutingRulesContents[] | cdktf.IResolvable;
 }
@@ -194,7 +194,7 @@ export class DataSamsungcloudplatformDirectConnectRoutingRulesContentsList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules samsungcloudplatform_direct_connect_routing_rules}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules samsungcloudplatform_direct_connect_routing_rules}
 */
 export class DataSamsungcloudplatformDirectConnectRoutingRules extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataSamsungcloudplatformDirectConnectRoutingRules extends cdktf.Ter
   * Generates CDKTF code for importing a DataSamsungcloudplatformDirectConnectRoutingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformDirectConnectRoutingRules to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformDirectConnectRoutingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformDirectConnectRoutingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformDirectConnectRoutingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataSamsungcloudplatformDirectConnectRoutingRules extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/direct_connect_routing_rules samsungcloudplatform_direct_connect_routing_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/direct_connect_routing_rules samsungcloudplatform_direct_connect_routing_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataSamsungcloudplatformDirectConnectRoutingRules extends cdktf.Ter
       terraformResourceType: 'samsungcloudplatform_direct_connect_routing_rules',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

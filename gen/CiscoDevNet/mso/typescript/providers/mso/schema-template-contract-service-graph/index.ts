@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateContractServiceGraphConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#contract_name SchemaTemplateContractServiceGraph#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#contract_name SchemaTemplateContractServiceGraph#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#id SchemaTemplateContractServiceGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#id SchemaTemplateContractServiceGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#schema_id SchemaTemplateContractServiceGraph#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#schema_id SchemaTemplateContractServiceGraph#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#service_graph_name SchemaTemplateContractServiceGraph#service_graph_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#service_graph_name SchemaTemplateContractServiceGraph#service_graph_name}
   */
   readonly serviceGraphName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#service_graph_schema_id SchemaTemplateContractServiceGraph#service_graph_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#service_graph_schema_id SchemaTemplateContractServiceGraph#service_graph_schema_id}
   */
   readonly serviceGraphSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#service_graph_template_name SchemaTemplateContractServiceGraph#service_graph_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#service_graph_template_name SchemaTemplateContractServiceGraph#service_graph_template_name}
   */
   readonly serviceGraphTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#template_name SchemaTemplateContractServiceGraph#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#template_name SchemaTemplateContractServiceGraph#template_name}
   */
   readonly templateName: string;
   /**
   * node_relationship block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#node_relationship SchemaTemplateContractServiceGraph#node_relationship}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#node_relationship SchemaTemplateContractServiceGraph#node_relationship}
   */
   readonly nodeRelationship: SchemaTemplateContractServiceGraphNodeRelationship[] | cdktf.IResolvable;
 }
 export interface SchemaTemplateContractServiceGraphNodeRelationship {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_name SchemaTemplateContractServiceGraph#consumer_connector_bd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_name SchemaTemplateContractServiceGraph#consumer_connector_bd_name}
   */
   readonly consumerConnectorBdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_schema_id SchemaTemplateContractServiceGraph#consumer_connector_bd_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_schema_id SchemaTemplateContractServiceGraph#consumer_connector_bd_schema_id}
   */
   readonly consumerConnectorBdSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_template_name SchemaTemplateContractServiceGraph#consumer_connector_bd_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#consumer_connector_bd_template_name SchemaTemplateContractServiceGraph#consumer_connector_bd_template_name}
   */
   readonly consumerConnectorBdTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_name SchemaTemplateContractServiceGraph#provider_connector_bd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_name SchemaTemplateContractServiceGraph#provider_connector_bd_name}
   */
   readonly providerConnectorBdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_schema_id SchemaTemplateContractServiceGraph#provider_connector_bd_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_schema_id SchemaTemplateContractServiceGraph#provider_connector_bd_schema_id}
   */
   readonly providerConnectorBdSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_template_name SchemaTemplateContractServiceGraph#provider_connector_bd_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#provider_connector_bd_template_name SchemaTemplateContractServiceGraph#provider_connector_bd_template_name}
   */
   readonly providerConnectorBdTemplateName?: string;
 }
@@ -322,7 +322,7 @@ export class SchemaTemplateContractServiceGraphNodeRelationshipList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph mso_schema_template_contract_service_graph}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph mso_schema_template_contract_service_graph}
 */
 export class SchemaTemplateContractServiceGraph extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class SchemaTemplateContractServiceGraph extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SchemaTemplateContractServiceGraph resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateContractServiceGraph to import
-  * @param importFromId The id of the existing SchemaTemplateContractServiceGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateContractServiceGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateContractServiceGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class SchemaTemplateContractServiceGraph extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_contract_service_graph mso_schema_template_contract_service_graph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_contract_service_graph mso_schema_template_contract_service_graph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class SchemaTemplateContractServiceGraph extends cdktf.TerraformResource 
       terraformResourceType: 'mso_schema_template_contract_service_graph',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

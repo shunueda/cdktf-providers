@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LbServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Balancing algorithm. (ROUND_ROBIN, WEIGHTED_ROUND_ROBIN, LEAST_CONNECTION, WEIGHTED_LEAST_CONNECTION, IP_HASH)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#algorithm LbServerGroup#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#algorithm LbServerGroup#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#id LbServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#id LbServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,83 +23,83 @@ export interface LbServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Load-Balancer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#lb_id LbServerGroup#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#lb_id LbServerGroup#lb_id}
   */
   readonly lbId: string;
   /**
   * Monitor count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_count LbServerGroup#monitor_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_count LbServerGroup#monitor_count}
   */
   readonly monitorCount: number;
   /**
   * Monitor http method. (Only HTTP monitor_protocol. GET, POST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_http_method LbServerGroup#monitor_http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_http_method LbServerGroup#monitor_http_method}
   */
   readonly monitorHttpMethod?: string;
   /**
   * Request body content. (Only POST monitor_http_method. 0 to 300 byte characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_http_request_body LbServerGroup#monitor_http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_http_request_body LbServerGroup#monitor_http_request_body}
   */
   readonly monitorHttpRequestBody?: string;
   /**
   * Response body content. (Only HTTP monitor_protocol. 0 to 300 byte characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_http_response_body LbServerGroup#monitor_http_response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_http_response_body LbServerGroup#monitor_http_response_body}
   */
   readonly monitorHttpResponseBody?: string;
   /**
   * Monitor http url path. (Only HTTP monitor_protocol. 0 to 50 alpha-numeric characters with period, dash, underscore)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_http_url LbServerGroup#monitor_http_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_http_url LbServerGroup#monitor_http_url}
   */
   readonly monitorHttpUrl?: string;
   /**
   * Monitor http version. (Only HTTP monitor_protocol. 1.0, 1.1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_http_version LbServerGroup#monitor_http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_http_version LbServerGroup#monitor_http_version}
   */
   readonly monitorHttpVersion?: string;
   /**
   * Monitor interval time(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_interval_sec LbServerGroup#monitor_interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_interval_sec LbServerGroup#monitor_interval_sec}
   */
   readonly monitorIntervalSec: number;
   /**
   * Monitor port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_port LbServerGroup#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_port LbServerGroup#monitor_port}
   */
   readonly monitorPort: number;
   /**
   * Monitor protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_protocol LbServerGroup#monitor_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_protocol LbServerGroup#monitor_protocol}
   */
   readonly monitorProtocol: string;
   /**
   * Monitor timeout second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#monitor_timeout_sec LbServerGroup#monitor_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#monitor_timeout_sec LbServerGroup#monitor_timeout_sec}
   */
   readonly monitorTimeoutSec: number;
   /**
   * Load-Balancer server group name. (3 to 20 characters with dash in middle)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#name LbServerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#name LbServerGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#tags LbServerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#tags LbServerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * server_group_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#server_group_member LbServerGroup#server_group_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#server_group_member LbServerGroup#server_group_member}
   */
   readonly serverGroupMember?: LbServerGroupServerGroupMember[] | cdktf.IResolvable;
 }
@@ -107,37 +107,37 @@ export interface LbServerGroupServerGroupMember {
   /**
   * Target service joining state. (ENABLED, DISABLED, GRACEFUL_DISABLED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#join_state LbServerGroup#join_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#join_state LbServerGroup#join_state}
   */
   readonly joinState: string;
   /**
   * Target object id (VM server or BareMetal server). This can not be set with 'object_ipv4'. Input resource should be in the same VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#object_id LbServerGroup#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#object_id LbServerGroup#object_id}
   */
   readonly objectId?: string;
   /**
   * Target object ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#object_ip_address LbServerGroup#object_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#object_ip_address LbServerGroup#object_ip_address}
   */
   readonly objectIpAddress?: string;
   /**
   * Target object port for manual setting. (1 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#object_port LbServerGroup#object_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#object_port LbServerGroup#object_port}
   */
   readonly objectPort?: number;
   /**
   * Target object type. (INSTANCE, BAREMETAL, MANUAL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#object_type LbServerGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#object_type LbServerGroup#object_type}
   */
   readonly objectType: string;
   /**
   * Balancing weight. This is used with when weighted algorithm is set. (1 to 256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#weight LbServerGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#weight LbServerGroup#weight}
   */
   readonly weight: number;
 }
@@ -389,7 +389,7 @@ export class LbServerGroupServerGroupMemberList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group samsungcloudplatform_lb_server_group}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group samsungcloudplatform_lb_server_group}
 */
 export class LbServerGroup extends cdktf.TerraformResource {
 
@@ -405,7 +405,7 @@ export class LbServerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbServerGroup to import
-  * @param importFromId The id of the existing LbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class LbServerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_server_group samsungcloudplatform_lb_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_server_group samsungcloudplatform_lb_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class LbServerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_lb_server_group',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

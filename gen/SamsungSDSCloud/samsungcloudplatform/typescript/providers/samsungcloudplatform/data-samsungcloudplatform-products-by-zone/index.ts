@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformProductsByZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone#id DataSamsungcloudplatformProductsByZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone#id DataSamsungcloudplatformProductsByZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSamsungcloudplatformProductsByZoneConfig extends cdktf.Terr
   /**
   * Product group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone#product_group_id DataSamsungcloudplatformProductsByZone#product_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone#product_group_id DataSamsungcloudplatformProductsByZone#product_group_id}
   */
   readonly productGroupId?: string;
   /**
   * Product type (SCALE, DISK, ...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone#product_type DataSamsungcloudplatformProductsByZone#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone#product_type DataSamsungcloudplatformProductsByZone#product_type}
   */
   readonly productType?: string;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone#service_zone_id DataSamsungcloudplatformProductsByZone#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone#service_zone_id DataSamsungcloudplatformProductsByZone#service_zone_id}
   */
   readonly serviceZoneId: string;
 }
@@ -140,7 +140,7 @@ export class DataSamsungcloudplatformProductsByZoneContentsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone samsungcloudplatform_products_by_zone}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone samsungcloudplatform_products_by_zone}
 */
 export class DataSamsungcloudplatformProductsByZone extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataSamsungcloudplatformProductsByZone extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataSamsungcloudplatformProductsByZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformProductsByZone to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformProductsByZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformProductsByZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformProductsByZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataSamsungcloudplatformProductsByZone extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/products_by_zone samsungcloudplatform_products_by_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/products_by_zone samsungcloudplatform_products_by_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class DataSamsungcloudplatformProductsByZone extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_products_by_zone',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

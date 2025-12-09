@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectParameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter#name ProjectParameter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter#name ProjectParameter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter#project_id ProjectParameter#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter#project_id ProjectParameter#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter#value ProjectParameter#value}
+  * Parameter type. Use 'password' to create a secure (hidden) parameter. Defaults to 'text' if omitted.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter#type ProjectParameter#type}
+  */
+  readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter#value ProjectParameter#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter teamcity_project_parameter}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter teamcity_project_parameter}
 */
 export class ProjectParameter extends cdktf.TerraformResource {
 
@@ -38,7 +44,7 @@ export class ProjectParameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectParameter to import
-  * @param importFromId The id of the existing ProjectParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +56,7 @@ export class ProjectParameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/project_parameter teamcity_project_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/project_parameter teamcity_project_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +67,8 @@ export class ProjectParameter extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_project_parameter',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -74,12 +80,18 @@ export class ProjectParameter extends cdktf.TerraformResource {
     });
     this._name = config.name;
     this._projectId = config.projectId;
+    this._type = config.type;
     this._value = config.value;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
 
   // name - computed: false, optional: false, required: true
   private _name?: string; 
@@ -107,6 +119,22 @@ export class ProjectParameter extends cdktf.TerraformResource {
     return this._projectId;
   }
 
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
   // value - computed: false, optional: false, required: true
   private _value?: string; 
   public get value() {
@@ -128,6 +156,7 @@ export class ProjectParameter extends cdktf.TerraformResource {
     return {
       name: cdktf.stringToTerraform(this._name),
       project_id: cdktf.stringToTerraform(this._projectId),
+      type: cdktf.stringToTerraform(this._type),
       value: cdktf.stringToTerraform(this._value),
     };
   }
@@ -142,6 +171,12 @@ export class ProjectParameter extends cdktf.TerraformResource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      type: {
+        value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformAutoScalingGroupPoliciesConfig extends 
   /**
   * Auto-Scaling Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#asg_id DataSamsungcloudplatformAutoScalingGroupPolicies#asg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#asg_id DataSamsungcloudplatformAutoScalingGroupPolicies#asg_id}
   */
   readonly asgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#id DataSamsungcloudplatformAutoScalingGroupPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#id DataSamsungcloudplatformAutoScalingGroupPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataSamsungcloudplatformAutoScalingGroupPoliciesConfig extends 
   /**
   * Metric method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#metric_method DataSamsungcloudplatformAutoScalingGroupPolicies#metric_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#metric_method DataSamsungcloudplatformAutoScalingGroupPolicies#metric_method}
   */
   readonly metricMethod?: string;
   /**
   * Metric type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#metric_type DataSamsungcloudplatformAutoScalingGroupPolicies#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#metric_type DataSamsungcloudplatformAutoScalingGroupPolicies#metric_type}
   */
   readonly metricType?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#page DataSamsungcloudplatformAutoScalingGroupPolicies#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#page DataSamsungcloudplatformAutoScalingGroupPolicies#page}
   */
   readonly page?: number;
   /**
   * Policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#policy_name DataSamsungcloudplatformAutoScalingGroupPolicies#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#policy_name DataSamsungcloudplatformAutoScalingGroupPolicies#policy_name}
   */
   readonly policyName?: string;
   /**
   * Scale type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#scale_type DataSamsungcloudplatformAutoScalingGroupPolicies#scale_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#scale_type DataSamsungcloudplatformAutoScalingGroupPolicies#scale_type}
   */
   readonly scaleType?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#size DataSamsungcloudplatformAutoScalingGroupPolicies#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#size DataSamsungcloudplatformAutoScalingGroupPolicies#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#sort DataSamsungcloudplatformAutoScalingGroupPolicies#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#sort DataSamsungcloudplatformAutoScalingGroupPolicies#sort}
   */
   readonly sort?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#filter DataSamsungcloudplatformAutoScalingGroupPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#filter DataSamsungcloudplatformAutoScalingGroupPolicies#filter}
   */
   readonly filter?: DataSamsungcloudplatformAutoScalingGroupPoliciesFilter[] | cdktf.IResolvable;
 }
@@ -233,19 +233,19 @@ export interface DataSamsungcloudplatformAutoScalingGroupPoliciesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#name DataSamsungcloudplatformAutoScalingGroupPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#name DataSamsungcloudplatformAutoScalingGroupPolicies#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#use_regex DataSamsungcloudplatformAutoScalingGroupPolicies#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#use_regex DataSamsungcloudplatformAutoScalingGroupPolicies#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#values DataSamsungcloudplatformAutoScalingGroupPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#values DataSamsungcloudplatformAutoScalingGroupPolicies#values}
   */
   readonly values: string[];
 }
@@ -413,7 +413,7 @@ export class DataSamsungcloudplatformAutoScalingGroupPoliciesFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies samsungcloudplatform_auto_scaling_group_policies}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies samsungcloudplatform_auto_scaling_group_policies}
 */
 export class DataSamsungcloudplatformAutoScalingGroupPolicies extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataSamsungcloudplatformAutoScalingGroupPolicies extends cdktf.Terr
   * Generates CDKTF code for importing a DataSamsungcloudplatformAutoScalingGroupPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformAutoScalingGroupPolicies to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformAutoScalingGroupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformAutoScalingGroupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformAutoScalingGroupPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataSamsungcloudplatformAutoScalingGroupPolicies extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_policies samsungcloudplatform_auto_scaling_group_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_policies samsungcloudplatform_auto_scaling_group_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataSamsungcloudplatformAutoScalingGroupPolicies extends cdktf.Terr
       terraformResourceType: 'samsungcloudplatform_auto_scaling_group_policies',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

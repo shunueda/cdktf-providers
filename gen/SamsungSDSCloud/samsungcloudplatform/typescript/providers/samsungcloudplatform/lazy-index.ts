@@ -33,6 +33,7 @@ Object.defineProperty(exports, 'iamRole', { get: function () { return require('.
 Object.defineProperty(exports, 'internetGateway', { get: function () { return require('./internet-gateway'); } });
 Object.defineProperty(exports, 'kafka', { get: function () { return require('./kafka'); } });
 Object.defineProperty(exports, 'keyPair', { get: function () { return require('./key-pair'); } });
+Object.defineProperty(exports, 'kubernetesAdminKubeconfig', { get: function () { return require('./kubernetes-admin-kubeconfig'); } });
 Object.defineProperty(exports, 'kubernetesApps', { get: function () { return require('./kubernetes-apps'); } });
 Object.defineProperty(exports, 'kubernetesEngine', { get: function () { return require('./kubernetes-engine'); } });
 Object.defineProperty(exports, 'kubernetesNamespace', { get: function () { return require('./kubernetes-namespace'); } });
@@ -142,7 +143,6 @@ Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesAppsImages', {
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesEngine', { get: function () { return require('./data-samsungcloudplatform-kubernetes-engine'); } });
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesEngineVersions', { get: function () { return require('./data-samsungcloudplatform-kubernetes-engine-versions'); } });
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesEngines', { get: function () { return require('./data-samsungcloudplatform-kubernetes-engines'); } });
-Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesKubeconfig', { get: function () { return require('./data-samsungcloudplatform-kubernetes-kubeconfig'); } });
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesNodePool', { get: function () { return require('./data-samsungcloudplatform-kubernetes-node-pool'); } });
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesNodePools', { get: function () { return require('./data-samsungcloudplatform-kubernetes-node-pools'); } });
 Object.defineProperty(exports, 'dataSamsungcloudplatformKubernetesSubnet', { get: function () { return require('./data-samsungcloudplatform-kubernetes-subnet'); } });

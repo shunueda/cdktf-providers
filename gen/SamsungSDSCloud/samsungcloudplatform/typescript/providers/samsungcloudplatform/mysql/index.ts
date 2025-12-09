@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#contract_period Mysql#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Mysql database case sensitivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_case_sensitivity Mysql#database_case_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_case_sensitivity Mysql#database_case_sensitivity}
   */
   readonly databaseCaseSensitivity: boolean | cdktf.IResolvable;
   /**
   * Mysql encoding. (utf8mb3|utf8mb4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_character_set Mysql#database_character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_character_set Mysql#database_character_set}
   */
   readonly databaseCharacterSet: string;
   /**
   * Name of database. (only English alphabets or numbers between 3 and 20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_name Mysql#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_name Mysql#database_name}
   */
   readonly databaseName: string;
   /**
   * Port number of database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_port Mysql#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_port Mysql#database_port}
   */
   readonly databasePort: number;
   /**
   * User account id of database. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_user_name Mysql#database_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_user_name Mysql#database_user_name}
   */
   readonly databaseUserName: string;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#database_user_password Mysql#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#database_user_password Mysql#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#encryption_enabled Mysql#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#encryption_enabled Mysql#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#id Mysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#id Mysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,95 +59,89 @@ export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mysql virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#image_id Mysql#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#image_id Mysql#image_id}
   */
   readonly imageId: string;
   /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#mysql_cluster_name Mysql#mysql_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#mysql_cluster_name Mysql#mysql_cluster_name}
   */
   readonly mysqlClusterName: string;
   /**
   * Mysql cluster state (RUNNING|STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#mysql_cluster_state Mysql#mysql_cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#mysql_cluster_state Mysql#mysql_cluster_state}
   */
   readonly mysqlClusterState: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#nat_enabled Mysql#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#nat_enabled Mysql#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#nat_public_ip_id Mysql#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#nat_public_ip_id Mysql#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
-  * Next contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#next_contract_period Mysql#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Security-Group ids of this Mysql DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#security_group_ids Mysql#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#security_group_ids Mysql#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#server_type Mysql#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#server_type Mysql#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#service_zone_id Mysql#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#service_zone_id Mysql#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#subnet_id Mysql#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#subnet_id Mysql#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#tags Mysql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#tags Mysql#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#timezone Mysql#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#timezone Mysql#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#backup Mysql#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#backup Mysql#backup}
   */
   readonly backup?: MysqlBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#block_storages Mysql#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#block_storages Mysql#block_storages}
   */
   readonly blockStorages: MysqlBlockStorages[] | cdktf.IResolvable;
   /**
   * mysql_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#mysql_servers Mysql#mysql_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#mysql_servers Mysql#mysql_servers}
   */
   readonly mysqlServers: MysqlMysqlServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#timeouts Mysql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#timeouts Mysql#timeouts}
   */
   readonly timeouts?: MysqlTimeouts;
 }
@@ -161,25 +149,25 @@ export interface MysqlBackup {
   /**
   * Backup File Schedule Frequency.(5M|10M|30M|1H) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#archive_backup_schedule_frequency Mysql#archive_backup_schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#archive_backup_schedule_frequency Mysql#archive_backup_schedule_frequency}
   */
   readonly archiveBackupScheduleFrequency: string;
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#backup_retention_period Mysql#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#backup_retention_period Mysql#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#backup_start_hour Mysql#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#backup_start_hour Mysql#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#object_storage_id Mysql#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#object_storage_id Mysql#object_storage_id}
   */
   readonly objectStorageId?: string;
 }
@@ -343,19 +331,19 @@ export interface MysqlBlockStorages {
   /**
   * Storage usage. (DATA|ARCHIVE|TEMP|BACKUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#block_storage_role_type Mysql#block_storage_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#block_storage_role_type Mysql#block_storage_role_type}
   */
   readonly blockStorageRoleType: string;
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#block_storage_size Mysql#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#block_storage_size Mysql#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#block_storage_type Mysql#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#block_storage_type Mysql#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -527,19 +515,19 @@ export interface MysqlMysqlServers {
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#availability_zone_name Mysql#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#availability_zone_name Mysql#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Mysql database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#mysql_server_name Mysql#mysql_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#mysql_server_name Mysql#mysql_server_name}
   */
   readonly mysqlServerName: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | STANDBY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#server_role_type Mysql#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#server_role_type Mysql#server_role_type}
   */
   readonly serverRoleType: string;
 }
@@ -707,15 +695,15 @@ export class MysqlMysqlServersList extends cdktf.ComplexList {
 }
 export interface MysqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#create Mysql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#create Mysql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#delete Mysql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#delete Mysql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#update Mysql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#update Mysql#update}
   */
   readonly update?: string;
 }
@@ -867,7 +855,7 @@ export class MysqlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql samsungcloudplatform_mysql}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql samsungcloudplatform_mysql}
 */
 export class Mysql extends cdktf.TerraformResource {
 
@@ -883,7 +871,7 @@ export class Mysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mysql to import
-  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -895,7 +883,7 @@ export class Mysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/mysql samsungcloudplatform_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/mysql samsungcloudplatform_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -906,8 +894,8 @@ export class Mysql extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_mysql',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -917,7 +905,6 @@ export class Mysql extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._contractPeriod = config.contractPeriod;
     this._databaseCaseSensitivity = config.databaseCaseSensitivity;
     this._databaseCharacterSet = config.databaseCharacterSet;
     this._databaseName = config.databaseName;
@@ -931,7 +918,6 @@ export class Mysql extends cdktf.TerraformResource {
     this._mysqlClusterState = config.mysqlClusterState;
     this._natEnabled = config.natEnabled;
     this._natPublicIpId = config.natPublicIpId;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._securityGroupIds = config.securityGroupIds;
     this._serverType = config.serverType;
     this._serviceZoneId = config.serviceZoneId;
@@ -947,19 +933,6 @@ export class Mysql extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
-  }
 
   // database_case_sensitivity - computed: false, optional: false, required: true
   private _databaseCaseSensitivity?: boolean | cdktf.IResolvable; 
@@ -1144,22 +1117,6 @@ export class Mysql extends cdktf.TerraformResource {
     return this._natPublicIpId;
   }
 
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
-  }
-
   // security_group_ids - computed: false, optional: false, required: true
   private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
@@ -1315,7 +1272,6 @@ export class Mysql extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_case_sensitivity: cdktf.booleanToTerraform(this._databaseCaseSensitivity),
       database_character_set: cdktf.stringToTerraform(this._databaseCharacterSet),
       database_name: cdktf.stringToTerraform(this._databaseName),
@@ -1329,7 +1285,6 @@ export class Mysql extends cdktf.TerraformResource {
       mysql_cluster_state: cdktf.stringToTerraform(this._mysqlClusterState),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
       nat_public_ip_id: cdktf.stringToTerraform(this._natPublicIpId),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       server_type: cdktf.stringToTerraform(this._serverType),
       service_zone_id: cdktf.stringToTerraform(this._serviceZoneId),
@@ -1345,12 +1300,6 @@ export class Mysql extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       database_case_sensitivity: {
         value: cdktf.booleanToHclTerraform(this._databaseCaseSensitivity),
         isBlock: false,
@@ -1425,12 +1374,6 @@ export class Mysql extends cdktf.TerraformResource {
       },
       nat_public_ip_id: {
         value: cdktf.stringToHclTerraform(this._natPublicIpId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

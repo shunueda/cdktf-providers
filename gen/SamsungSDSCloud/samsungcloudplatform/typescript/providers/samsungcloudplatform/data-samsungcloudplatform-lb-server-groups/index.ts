@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformLbServerGroupsConfig extends cdktf.Terr
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#created_by DataSamsungcloudplatformLbServerGroups#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#created_by DataSamsungcloudplatformLbServerGroups#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#id DataSamsungcloudplatformLbServerGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#id DataSamsungcloudplatformLbServerGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataSamsungcloudplatformLbServerGroupsConfig extends cdktf.Terr
   /**
   * Load balancer server group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#lb_server_group_name DataSamsungcloudplatformLbServerGroups#lb_server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#lb_server_group_name DataSamsungcloudplatformLbServerGroups#lb_server_group_name}
   */
   readonly lbServerGroupName?: string;
   /**
   * Load balancer Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#lb_service_name DataSamsungcloudplatformLbServerGroups#lb_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#lb_service_name DataSamsungcloudplatformLbServerGroups#lb_service_name}
   */
   readonly lbServiceName?: string;
   /**
   * Load balancer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#load_balancer_id DataSamsungcloudplatformLbServerGroups#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#load_balancer_id DataSamsungcloudplatformLbServerGroups#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * Load balancer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#load_balancer_name DataSamsungcloudplatformLbServerGroups#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#load_balancer_name DataSamsungcloudplatformLbServerGroups#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * Member ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#member_ip_address DataSamsungcloudplatformLbServerGroups#member_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#member_ip_address DataSamsungcloudplatformLbServerGroups#member_ip_address}
   */
   readonly memberIpAddress?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#page DataSamsungcloudplatformLbServerGroups#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#page DataSamsungcloudplatformLbServerGroups#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#size DataSamsungcloudplatformLbServerGroups#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#size DataSamsungcloudplatformLbServerGroups#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#sort DataSamsungcloudplatformLbServerGroups#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#sort DataSamsungcloudplatformLbServerGroups#sort}
   */
   readonly sort?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#contents DataSamsungcloudplatformLbServerGroups#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#contents DataSamsungcloudplatformLbServerGroups#contents}
   */
   readonly contents?: DataSamsungcloudplatformLbServerGroupsContents[] | cdktf.IResolvable;
 }
@@ -233,7 +233,7 @@ export class DataSamsungcloudplatformLbServerGroupsContentsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups samsungcloudplatform_lb_server_groups}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups samsungcloudplatform_lb_server_groups}
 */
 export class DataSamsungcloudplatformLbServerGroups extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataSamsungcloudplatformLbServerGroups extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataSamsungcloudplatformLbServerGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformLbServerGroups to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformLbServerGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformLbServerGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformLbServerGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataSamsungcloudplatformLbServerGroups extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/lb_server_groups samsungcloudplatform_lb_server_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/lb_server_groups samsungcloudplatform_lb_server_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataSamsungcloudplatformLbServerGroups extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_lb_server_groups',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

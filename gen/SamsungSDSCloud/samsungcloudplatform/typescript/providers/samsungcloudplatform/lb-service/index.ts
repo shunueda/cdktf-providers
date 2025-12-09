@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LbServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application Profile ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#app_profile_id LbService#app_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#app_profile_id LbService#app_profile_id}
   */
   readonly appProfileId: string;
   /**
   * SSL client certification id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#client_certificate_id LbService#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#client_certificate_id LbService#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * SSL client security level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#client_ssl_security_level LbService#client_ssl_security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#client_ssl_security_level LbService#client_ssl_security_level}
   */
   readonly clientSslSecurityLevel?: string;
   /**
   * Forwarding port numbers. Multiple ports can be inserted using comma and dash. (e.g. 8000-8100,8200)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#forwarding_ports LbService#forwarding_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#forwarding_ports LbService#forwarding_ports}
   */
   readonly forwardingPorts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#id LbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#id LbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,109 +41,109 @@ export interface LbServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Servicing protocol layer. (L4 for TCP, L7 for HTTP or HTTPS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#layer_type LbService#layer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#layer_type LbService#layer_type}
   */
   readonly layerType: string;
   /**
   * Target Load-Balancer id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#lb_id LbService#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#lb_id LbService#lb_id}
   */
   readonly lbId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#lb_service_ip_id LbService#lb_service_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#lb_service_ip_id LbService#lb_service_ip_id}
   */
   readonly lbServiceIpId?: string;
   /**
   * Name of Load-Balancer Service. (3 to 20 characters with dash in middle)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#name LbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#name LbService#name}
   */
   readonly name: string;
   /**
   * Wheter to use NAT IP (public IP) or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#nat_active LbService#nat_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#nat_active LbService#nat_active}
   */
   readonly natActive?: boolean | cdktf.IResolvable;
   /**
   * Persistence option. (DISABLED, SOURCE_IP, COOKIE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#persistence LbService#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#persistence LbService#persistence}
   */
   readonly persistence: string;
   /**
   * Persistence target profile id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#persistence_profile_id LbService#persistence_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#persistence_profile_id LbService#persistence_profile_id}
   */
   readonly persistenceProfileId?: string;
   /**
   * Servicing protocol. (TCP, HTTP, HTTPS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#protocol LbService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#protocol LbService#protocol}
   */
   readonly protocol: string;
   /**
   * NAT IP attached to LB service IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#public_ip_id LbService#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#public_ip_id LbService#public_ip_id}
   */
   readonly publicIpId?: string;
   /**
   * SSL server certification id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#server_certificate_id LbService#server_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#server_certificate_id LbService#server_certificate_id}
   */
   readonly serverCertificateId?: string;
   /**
   * SSL server security level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#server_ssl_security_level LbService#server_ssl_security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#server_ssl_security_level LbService#server_ssl_security_level}
   */
   readonly serverSslSecurityLevel?: string;
   /**
   * Servicing IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#service_ipv4 LbService#service_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#service_ipv4 LbService#service_ipv4}
   */
   readonly serviceIpv4?: string;
   /**
   * Servicing port numbers. Multiple ports can be inserted using comma and dash. (e.g. 8000-8100,8200)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#service_ports LbService#service_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#service_ports LbService#service_ports}
   */
   readonly servicePorts: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#tags LbService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#tags LbService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#use_access_log LbService#use_access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#use_access_log LbService#use_access_log}
   */
   readonly useAccessLog?: boolean | cdktf.IResolvable;
   /**
   * lb_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#lb_rules LbService#lb_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#lb_rules LbService#lb_rules}
   */
   readonly lbRules?: LbServiceLbRules[] | cdktf.IResolvable;
 }
 export interface LbServiceLbRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#lb_rule_seq LbService#lb_rule_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#lb_rule_seq LbService#lb_rule_seq}
   */
   readonly lbRuleSeq: number;
   /**
   * Target server-group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#lb_server_group_id LbService#lb_server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#lb_server_group_id LbService#lb_server_group_id}
   */
   readonly lbServerGroupId?: string;
   /**
   * Pattern URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#pattern_url LbService#pattern_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#pattern_url LbService#pattern_url}
   */
   readonly patternUrl?: string;
 }
@@ -319,7 +319,7 @@ export class LbServiceLbRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service samsungcloudplatform_lb_service}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service samsungcloudplatform_lb_service}
 */
 export class LbService extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class LbService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbService to import
-  * @param importFromId The id of the existing LbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class LbService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/lb_service samsungcloudplatform_lb_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/lb_service samsungcloudplatform_lb_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class LbService extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_lb_service',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

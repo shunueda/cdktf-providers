@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface MsoProviderConfig {
   /**
   * Domain name for remote user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#domain MsoProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#domain MsoProvider#domain}
   */
   readonly domain?: string;
   /**
   * Allow insecure HTTPS client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#insecure MsoProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#insecure MsoProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password for the MSO Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#password MsoProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#password MsoProvider#password}
   */
   readonly password: string;
   /**
   * Parameter that specifies where MSO is installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#platform MsoProvider#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#platform MsoProvider#platform}
   */
   readonly platform?: string;
   /**
   * Proxy Server URL with port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#proxy_url MsoProvider#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#proxy_url MsoProvider#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Number of retries for REST API calls. Defaults to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#retries MsoProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#retries MsoProvider#retries}
   */
   readonly retries?: string;
   /**
   * URL of the Cisco MSO web interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#url MsoProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#url MsoProvider#url}
   */
   readonly url: string;
   /**
   * Username for the MSO Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#username MsoProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#username MsoProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#alias MsoProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#alias MsoProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs mso}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs mso}
 */
 export class MsoProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class MsoProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MsoProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsoProvider to import
-  * @param importFromId The id of the existing MsoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsoProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class MsoProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs mso} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs mso} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class MsoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mso',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       terraformProviderSource: 'CiscoDevNet/mso'
     });

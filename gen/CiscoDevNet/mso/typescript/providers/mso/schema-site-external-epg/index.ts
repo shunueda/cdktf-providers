@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaSiteExternalEpgConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#external_epg_name SchemaSiteExternalEpg#external_epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#external_epg_name SchemaSiteExternalEpg#external_epg_name}
   */
   readonly externalEpgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#id SchemaSiteExternalEpg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#id SchemaSiteExternalEpg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#l3out_name SchemaSiteExternalEpg#l3out_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#l3out_name SchemaSiteExternalEpg#l3out_name}
   */
   readonly l3OutName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#l3out_on_apic SchemaSiteExternalEpg#l3out_on_apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#l3out_on_apic SchemaSiteExternalEpg#l3out_on_apic}
   */
   readonly l3OutOnApic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#l3out_schema_id SchemaSiteExternalEpg#l3out_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#l3out_schema_id SchemaSiteExternalEpg#l3out_schema_id}
   */
   readonly l3OutSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#l3out_template_name SchemaSiteExternalEpg#l3out_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#l3out_template_name SchemaSiteExternalEpg#l3out_template_name}
   */
   readonly l3OutTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#schema_id SchemaSiteExternalEpg#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#schema_id SchemaSiteExternalEpg#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#site_id SchemaSiteExternalEpg#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#site_id SchemaSiteExternalEpg#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#template_name SchemaSiteExternalEpg#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#template_name SchemaSiteExternalEpg#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg mso_schema_site_external_epg}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg mso_schema_site_external_epg}
 */
 export class SchemaSiteExternalEpg extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SchemaSiteExternalEpg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaSiteExternalEpg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaSiteExternalEpg to import
-  * @param importFromId The id of the existing SchemaSiteExternalEpg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaSiteExternalEpg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaSiteExternalEpg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SchemaSiteExternalEpg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_external_epg mso_schema_site_external_epg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_external_epg mso_schema_site_external_epg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SchemaSiteExternalEpg extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_site_external_epg',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

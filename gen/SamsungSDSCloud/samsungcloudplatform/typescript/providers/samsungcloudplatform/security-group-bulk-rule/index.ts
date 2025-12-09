@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityGroupBulkRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#id SecurityGroupBulkRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#id SecurityGroupBulkRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SecurityGroupBulkRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Target SecurityGroup id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#security_group_id SecurityGroupBulkRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#security_group_id SecurityGroupBulkRule#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#rule SecurityGroupBulkRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#rule SecurityGroupBulkRule#rule}
   */
   readonly rule: SecurityGroupBulkRuleRule[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface SecurityGroupBulkRuleRuleService {
   /**
   * Protocol type. (TCP, UDP, ICMP, ALL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#type SecurityGroupBulkRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#type SecurityGroupBulkRule#type}
   */
   readonly type: string;
   /**
   * Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#value SecurityGroupBulkRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#value SecurityGroupBulkRule#value}
   */
   readonly value?: string;
 }
@@ -181,25 +181,25 @@ export interface SecurityGroupBulkRuleRule {
   /**
   * SecurityGroup Rule target cidr addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#addresses_ipv4 SecurityGroupBulkRule#addresses_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#addresses_ipv4 SecurityGroupBulkRule#addresses_ipv4}
   */
   readonly addressesIpv4: string[];
   /**
   * SecurityGroup Rule description. (Up to 50 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#description SecurityGroupBulkRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#description SecurityGroupBulkRule#description}
   */
   readonly description?: string;
   /**
   * SecurityGroup Rule direction (Can be 'in' or 'out')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#direction SecurityGroupBulkRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#direction SecurityGroupBulkRule#direction}
   */
   readonly direction: string;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#service SecurityGroupBulkRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#service SecurityGroupBulkRule#service}
   */
   readonly service: SecurityGroupBulkRuleRuleService[] | cdktf.IResolvable;
 }
@@ -393,7 +393,7 @@ export class SecurityGroupBulkRuleRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule samsungcloudplatform_security_group_bulk_rule}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule samsungcloudplatform_security_group_bulk_rule}
 */
 export class SecurityGroupBulkRule extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class SecurityGroupBulkRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupBulkRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupBulkRule to import
-  * @param importFromId The id of the existing SecurityGroupBulkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupBulkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupBulkRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class SecurityGroupBulkRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_bulk_rule samsungcloudplatform_security_group_bulk_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_bulk_rule samsungcloudplatform_security_group_bulk_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class SecurityGroupBulkRule extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_security_group_bulk_rule',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

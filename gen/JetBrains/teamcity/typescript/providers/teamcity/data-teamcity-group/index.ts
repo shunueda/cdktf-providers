@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTeamcityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The key (identifier) of the group to retrieve. Either key or name must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group#key DataTeamcityGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group#key DataTeamcityGroup#key}
   */
   readonly key?: string;
   /**
   * The name of the group to retrieve. Either key or name must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group#name DataTeamcityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group#name DataTeamcityGroup#name}
   */
   readonly name?: string;
 }
@@ -107,7 +107,7 @@ export class DataTeamcityGroupRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group teamcity_group}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group teamcity_group}
 */
 export class DataTeamcityGroup extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataTeamcityGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTeamcityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTeamcityGroup to import
-  * @param importFromId The id of the existing DataTeamcityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTeamcityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTeamcityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataTeamcityGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/group teamcity_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/group teamcity_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataTeamcityGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'teamcity_group',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

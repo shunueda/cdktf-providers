@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BmBlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Baremetal server IDs to which you want to assign the block storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#bm_server_ids BmBlockStorage#bm_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#bm_server_ids BmBlockStorage#bm_server_ids}
   */
   readonly bmServerIds?: string[];
   /**
   * Encrypt the volume to be created and create it. When encryption is applied, performance degradation of around 10% occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#encrypted BmBlockStorage#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#encrypted BmBlockStorage#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#id BmBlockStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#id BmBlockStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,47 +29,47 @@ export interface BmBlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The block storage name to create. (3 to 28 characters with -)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#name BmBlockStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#name BmBlockStorage#name}
   */
   readonly name: string;
   /**
   * You can use by selecting SSD or HDD based storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#product_name BmBlockStorage#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#product_name BmBlockStorage#product_name}
   */
   readonly productName?: string;
   /**
   * schedule for snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#snap_shot_schedule BmBlockStorage#snap_shot_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#snap_shot_schedule BmBlockStorage#snap_shot_schedule}
   */
   readonly snapShotSchedule?: { [key: string]: string };
   /**
   * snapshot capacity rate(100 ~ 500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#snapshot_capacity_rate BmBlockStorage#snapshot_capacity_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#snapshot_capacity_rate BmBlockStorage#snapshot_capacity_rate}
   */
   readonly snapshotCapacityRate?: number;
   /**
   * Use an additional 100-300% of the Block Storage capacity you created. If auto-creation is set, snapshots are created and saved automatically according to the specified cycle. You can restore using the saved snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#snapshot_policy BmBlockStorage#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#snapshot_policy BmBlockStorage#snapshot_policy}
   */
   readonly snapshotPolicy?: boolean | cdktf.IResolvable;
   /**
   * The storage size(GB) of the block storage to create. (10 to  16384 GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#storage_size_gb BmBlockStorage#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#storage_size_gb BmBlockStorage#storage_size_gb}
   */
   readonly storageSizeGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#tags BmBlockStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#tags BmBlockStorage#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage samsungcloudplatform_bm_block_storage}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage samsungcloudplatform_bm_block_storage}
 */
 export class BmBlockStorage extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class BmBlockStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmBlockStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmBlockStorage to import
-  * @param importFromId The id of the existing BmBlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmBlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmBlockStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class BmBlockStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/bm_block_storage samsungcloudplatform_bm_block_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/bm_block_storage samsungcloudplatform_bm_block_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class BmBlockStorage extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_bm_block_storage',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

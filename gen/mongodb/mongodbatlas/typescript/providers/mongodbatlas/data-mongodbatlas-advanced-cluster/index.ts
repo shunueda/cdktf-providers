@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMongodbatlasAdvancedClusterConfig extends cdktf.TerraformMe
   /**
   * Human-readable label that identifies this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster#name DataMongodbatlasAdvancedCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster#name DataMongodbatlasAdvancedCluster#name}
   */
   readonly name: string;
   /**
@@ -18,9 +18,15 @@ export interface DataMongodbatlasAdvancedClusterConfig extends cdktf.TerraformMe
   * 
   * **NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group/project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster#project_id DataMongodbatlasAdvancedCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster#project_id DataMongodbatlasAdvancedCluster#project_id}
   */
   readonly projectId: string;
+  /**
+  * Controls how hardware specification fields are returned in the response. When set to true, the non-effective specs (`electable_specs`, `read_only_specs`, `analytics_specs`) fields return the hardware specifications that the client provided. When set to false (default), the non-effective specs fields show the **current** hardware specifications. Cluster auto-scaling is the primary cause for differences between initial and current hardware specifications.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster#use_effective_fields DataMongodbatlasAdvancedCluster#use_effective_fields}
+  */
+  readonly useEffectiveFields?: boolean | cdktf.IResolvable;
 }
 export interface DataMongodbatlasAdvancedClusterAdvancedConfiguration {
 }
@@ -79,6 +85,11 @@ export class DataMongodbatlasAdvancedClusterAdvancedConfigurationOutputReference
   // custom_openssl_cipher_config_tls12 - computed: true, optional: false, required: false
   public get customOpensslCipherConfigTls12() {
     return cdktf.Fn.tolist(this.getListAttribute('custom_openssl_cipher_config_tls12'));
+  }
+
+  // custom_openssl_cipher_config_tls13 - computed: true, optional: false, required: false
+  public get customOpensslCipherConfigTls13() {
+    return cdktf.Fn.tolist(this.getListAttribute('custom_openssl_cipher_config_tls13'));
   }
 
   // default_max_time_ms - computed: true, optional: false, required: false
@@ -732,6 +743,228 @@ export class DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsAutoSca
     return this.getBooleanAttribute('disk_gb_enabled');
   }
 }
+export interface DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecs {
+}
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecsToTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecsToHclTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // disk_iops - computed: true, optional: false, required: false
+  public get diskIops() {
+    return this.getNumberAttribute('disk_iops');
+  }
+
+  // disk_size_gb - computed: true, optional: false, required: false
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+
+  // ebs_volume_type - computed: true, optional: false, required: false
+  public get ebsVolumeType() {
+    return this.getStringAttribute('ebs_volume_type');
+  }
+
+  // instance_size - computed: true, optional: false, required: false
+  public get instanceSize() {
+    return this.getStringAttribute('instance_size');
+  }
+
+  // node_count - computed: true, optional: false, required: false
+  public get nodeCount() {
+    return this.getNumberAttribute('node_count');
+  }
+}
+export interface DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecs {
+}
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecsToTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecsToHclTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // disk_iops - computed: true, optional: false, required: false
+  public get diskIops() {
+    return this.getNumberAttribute('disk_iops');
+  }
+
+  // disk_size_gb - computed: true, optional: false, required: false
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+
+  // ebs_volume_type - computed: true, optional: false, required: false
+  public get ebsVolumeType() {
+    return this.getStringAttribute('ebs_volume_type');
+  }
+
+  // instance_size - computed: true, optional: false, required: false
+  public get instanceSize() {
+    return this.getStringAttribute('instance_size');
+  }
+
+  // node_count - computed: true, optional: false, required: false
+  public get nodeCount() {
+    return this.getNumberAttribute('node_count');
+  }
+}
+export interface DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecs {
+}
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecsToTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecsToHclTerraform(struct?: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // disk_iops - computed: true, optional: false, required: false
+  public get diskIops() {
+    return this.getNumberAttribute('disk_iops');
+  }
+
+  // disk_size_gb - computed: true, optional: false, required: false
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+
+  // ebs_volume_type - computed: true, optional: false, required: false
+  public get ebsVolumeType() {
+    return this.getStringAttribute('ebs_volume_type');
+  }
+
+  // instance_size - computed: true, optional: false, required: false
+  public get instanceSize() {
+    return this.getStringAttribute('instance_size');
+  }
+
+  // node_count - computed: true, optional: false, required: false
+  public get nodeCount() {
+    return this.getNumberAttribute('node_count');
+  }
+}
 export interface DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsElectableSpecs {
 }
 
@@ -954,6 +1187,24 @@ export class DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsOutputR
     return this.getStringAttribute('backing_provider_name');
   }
 
+  // effective_analytics_specs - computed: true, optional: false, required: false
+  private _effectiveAnalyticsSpecs = new DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveAnalyticsSpecsOutputReference(this, "effective_analytics_specs");
+  public get effectiveAnalyticsSpecs() {
+    return this._effectiveAnalyticsSpecs;
+  }
+
+  // effective_electable_specs - computed: true, optional: false, required: false
+  private _effectiveElectableSpecs = new DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveElectableSpecsOutputReference(this, "effective_electable_specs");
+  public get effectiveElectableSpecs() {
+    return this._effectiveElectableSpecs;
+  }
+
+  // effective_read_only_specs - computed: true, optional: false, required: false
+  private _effectiveReadOnlySpecs = new DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsEffectiveReadOnlySpecsOutputReference(this, "effective_read_only_specs");
+  public get effectiveReadOnlySpecs() {
+    return this._effectiveReadOnlySpecs;
+  }
+
   // electable_specs - computed: true, optional: false, required: false
   private _electableSpecs = new DataMongodbatlasAdvancedClusterReplicationSpecsRegionConfigsElectableSpecsOutputReference(this, "electable_specs");
   public get electableSpecs() {
@@ -1099,7 +1350,7 @@ export class DataMongodbatlasAdvancedClusterReplicationSpecsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster mongodbatlas_advanced_cluster}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster mongodbatlas_advanced_cluster}
 */
 export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
 
@@ -1115,7 +1366,7 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMongodbatlasAdvancedCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasAdvancedCluster to import
-  * @param importFromId The id of the existing DataMongodbatlasAdvancedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasAdvancedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasAdvancedCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1127,7 +1378,7 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/advanced_cluster mongodbatlas_advanced_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/advanced_cluster mongodbatlas_advanced_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,8 +1389,8 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'mongodbatlas_advanced_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1151,6 +1402,7 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
     });
     this._name = config.name;
     this._projectId = config.projectId;
+    this._useEffectiveFields = config.useEffectiveFields;
   }
 
   // ==========
@@ -1289,11 +1541,6 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
     return this._replicationSpecs;
   }
 
-  // retain_backups_enabled - computed: true, optional: false, required: false
-  public get retainBackupsEnabled() {
-    return this.getBooleanAttribute('retain_backups_enabled');
-  }
-
   // root_cert_type - computed: true, optional: false, required: false
   public get rootCertType() {
     return this.getStringAttribute('root_cert_type');
@@ -1315,6 +1562,22 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('termination_protection_enabled');
   }
 
+  // use_effective_fields - computed: false, optional: true, required: false
+  private _useEffectiveFields?: boolean | cdktf.IResolvable; 
+  public get useEffectiveFields() {
+    return this.getBooleanAttribute('use_effective_fields');
+  }
+  public set useEffectiveFields(value: boolean | cdktf.IResolvable) {
+    this._useEffectiveFields = value;
+  }
+  public resetUseEffectiveFields() {
+    this._useEffectiveFields = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useEffectiveFieldsInput() {
+    return this._useEffectiveFields;
+  }
+
   // version_release_system - computed: true, optional: false, required: false
   public get versionReleaseSystem() {
     return this.getStringAttribute('version_release_system');
@@ -1328,6 +1591,7 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
     return {
       name: cdktf.stringToTerraform(this._name),
       project_id: cdktf.stringToTerraform(this._projectId),
+      use_effective_fields: cdktf.booleanToTerraform(this._useEffectiveFields),
     };
   }
 
@@ -1344,6 +1608,12 @@ export class DataMongodbatlasAdvancedCluster extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      use_effective_fields: {
+        value: cdktf.booleanToHclTerraform(this._useEffectiveFields),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AutoScalingGroupLoadBalancerConfig extends cdktf.TerraformMetaA
   /**
   * Auto-Scaling Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer#asg_id AutoScalingGroupLoadBalancer#asg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer#asg_id AutoScalingGroupLoadBalancer#asg_id}
   */
   readonly asgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer#id AutoScalingGroupLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer#id AutoScalingGroupLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface AutoScalingGroupLoadBalancerConfig extends cdktf.TerraformMetaA
   /**
   * LB rule ID list connected to Auto-Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer#lb_rule_ids AutoScalingGroupLoadBalancer#lb_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer#lb_rule_ids AutoScalingGroupLoadBalancer#lb_rule_ids}
   */
   readonly lbRuleIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer samsungcloudplatform_auto_scaling_group_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer samsungcloudplatform_auto_scaling_group_load_balancer}
 */
 export class AutoScalingGroupLoadBalancer extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class AutoScalingGroupLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoScalingGroupLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoScalingGroupLoadBalancer to import
-  * @param importFromId The id of the existing AutoScalingGroupLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoScalingGroupLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoScalingGroupLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class AutoScalingGroupLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/auto_scaling_group_load_balancer samsungcloudplatform_auto_scaling_group_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/auto_scaling_group_load_balancer samsungcloudplatform_auto_scaling_group_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class AutoScalingGroupLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_auto_scaling_group_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface UserRoleAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the role to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment#role_id UserRoleAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment#role_id UserRoleAssignment#role_id}
   */
   readonly roleId: string;
   /**
   * The scope of the role assignment. Use 'g' for global scope or 'p:PROJECT_ID' for project-specific scope. Defaults to global if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment#scope UserRoleAssignment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment#scope UserRoleAssignment#scope}
   */
   readonly scope?: string;
   /**
   * The ID of the user to assign the role to. Either user_id or username must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment#user_id UserRoleAssignment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment#user_id UserRoleAssignment#user_id}
   */
   readonly userId?: string;
   /**
   * The username of the user to assign the role to. Either user_id or username must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment#username UserRoleAssignment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment#username UserRoleAssignment#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment teamcity_user_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment teamcity_user_role_assignment}
 */
 export class UserRoleAssignment extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class UserRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserRoleAssignment to import
-  * @param importFromId The id of the existing UserRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class UserRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/user_role_assignment teamcity_user_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/user_role_assignment teamcity_user_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class UserRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_user_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

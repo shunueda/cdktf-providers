@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TransitGatewayPeeringCancelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel#id TransitGatewayPeeringCancel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel#id TransitGatewayPeeringCancel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TransitGatewayPeeringCancelConfig extends cdktf.TerraformMetaAr
   /**
   * Transit Gateway Peering Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel#transit_gateway_peering_id TransitGatewayPeeringCancel#transit_gateway_peering_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel#transit_gateway_peering_id TransitGatewayPeeringCancel#transit_gateway_peering_id}
   */
   readonly transitGatewayPeeringId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel samsungcloudplatform_transit_gateway_peering_cancel}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel samsungcloudplatform_transit_gateway_peering_cancel}
 */
 export class TransitGatewayPeeringCancel extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class TransitGatewayPeeringCancel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayPeeringCancel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayPeeringCancel to import
-  * @param importFromId The id of the existing TransitGatewayPeeringCancel that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayPeeringCancel that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayPeeringCancel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class TransitGatewayPeeringCancel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_peering_cancel samsungcloudplatform_transit_gateway_peering_cancel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_peering_cancel samsungcloudplatform_transit_gateway_peering_cancel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class TransitGatewayPeeringCancel extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_transit_gateway_peering_cancel',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_edgecenter_reservedfixedip`
 
-Refer to the Terraform Registry for docs: [`data_edgecenter_reservedfixedip`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/reservedfixedip).
+Refer to the Terraform Registry for docs: [`data_edgecenter_reservedfixedip`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reservedfixedip).

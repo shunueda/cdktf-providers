@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "edgecenter": "0.10.5"
+    "edgecenter": "0.10.6"
   }
 }

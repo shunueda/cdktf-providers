@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface FabricPoliciesSynceInterfacePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#admin_state FabricPoliciesSynceInterfacePolicy#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#admin_state FabricPoliciesSynceInterfacePolicy#admin_state}
   */
   readonly adminState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#description FabricPoliciesSynceInterfacePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#description FabricPoliciesSynceInterfacePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#id FabricPoliciesSynceInterfacePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#id FabricPoliciesSynceInterfacePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#name FabricPoliciesSynceInterfacePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#name FabricPoliciesSynceInterfacePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#selection_input FabricPoliciesSynceInterfacePolicy#selection_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#selection_input FabricPoliciesSynceInterfacePolicy#selection_input}
   */
   readonly selectionInput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#src_priority FabricPoliciesSynceInterfacePolicy#src_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#src_priority FabricPoliciesSynceInterfacePolicy#src_priority}
   */
   readonly srcPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#sync_state_msg FabricPoliciesSynceInterfacePolicy#sync_state_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#sync_state_msg FabricPoliciesSynceInterfacePolicy#sync_state_msg}
   */
   readonly syncStateMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#template_id FabricPoliciesSynceInterfacePolicy#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#template_id FabricPoliciesSynceInterfacePolicy#template_id}
   */
   readonly templateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#wait_to_restore FabricPoliciesSynceInterfacePolicy#wait_to_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#wait_to_restore FabricPoliciesSynceInterfacePolicy#wait_to_restore}
   */
   readonly waitToRestore?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy mso_fabric_policies_synce_interface_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy mso_fabric_policies_synce_interface_policy}
 */
 export class FabricPoliciesSynceInterfacePolicy extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class FabricPoliciesSynceInterfacePolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a FabricPoliciesSynceInterfacePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricPoliciesSynceInterfacePolicy to import
-  * @param importFromId The id of the existing FabricPoliciesSynceInterfacePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricPoliciesSynceInterfacePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricPoliciesSynceInterfacePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class FabricPoliciesSynceInterfacePolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/fabric_policies_synce_interface_policy mso_fabric_policies_synce_interface_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/fabric_policies_synce_interface_policy mso_fabric_policies_synce_interface_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class FabricPoliciesSynceInterfacePolicy extends cdktf.TerraformResource 
       terraformResourceType: 'mso_fabric_policies_synce_interface_policy',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TransitGatewayConnectionConfig extends cdktf.TerraformMetaArgum
   /**
   * Approver VPC ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#approver_vpc_id TransitGatewayConnection#approver_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#approver_vpc_id TransitGatewayConnection#approver_vpc_id}
   */
   readonly approverVpcId: string;
   /**
   * Activate Firewall or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#firewall_enable TransitGatewayConnection#firewall_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#firewall_enable TransitGatewayConnection#firewall_enable}
   */
   readonly firewallEnable: boolean | cdktf.IResolvable;
   /**
   * Activate Firewall Logging or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#firewall_loggable TransitGatewayConnection#firewall_loggable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#firewall_loggable TransitGatewayConnection#firewall_loggable}
   */
   readonly firewallLoggable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#id TransitGatewayConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#id TransitGatewayConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,23 +35,23 @@ export interface TransitGatewayConnectionConfig extends cdktf.TerraformMetaArgum
   /**
   * Requester TGW ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#requester_transit_gateway_id TransitGatewayConnection#requester_transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#requester_transit_gateway_id TransitGatewayConnection#requester_transit_gateway_id}
   */
   readonly requesterTransitGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#tags TransitGatewayConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#tags TransitGatewayConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * TGW - VPC Connection description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#transit_gateway_connection_description TransitGatewayConnection#transit_gateway_connection_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#transit_gateway_connection_description TransitGatewayConnection#transit_gateway_connection_description}
   */
   readonly transitGatewayConnectionDescription?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection samsungcloudplatform_transit_gateway_connection}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection samsungcloudplatform_transit_gateway_connection}
 */
 export class TransitGatewayConnection extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class TransitGatewayConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayConnection to import
-  * @param importFromId The id of the existing TransitGatewayConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class TransitGatewayConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/transit_gateway_connection samsungcloudplatform_transit_gateway_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/transit_gateway_connection samsungcloudplatform_transit_gateway_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class TransitGatewayConnection extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_transit_gateway_connection',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

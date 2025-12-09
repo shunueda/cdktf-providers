@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualEnvironmentRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role#id VirtualEnvironmentRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role#id VirtualEnvironmentRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface VirtualEnvironmentRoleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The role privileges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role#privileges VirtualEnvironmentRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role#privileges VirtualEnvironmentRole#privileges}
   */
   readonly privileges: string[];
   /**
   * The role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role#role_id VirtualEnvironmentRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role#role_id VirtualEnvironmentRole#role_id}
   */
   readonly roleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role proxmox_virtual_environment_role}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role proxmox_virtual_environment_role}
 */
 export class VirtualEnvironmentRole extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VirtualEnvironmentRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentRole to import
-  * @param importFromId The id of the existing VirtualEnvironmentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VirtualEnvironmentRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_role proxmox_virtual_environment_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_role proxmox_virtual_environment_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VirtualEnvironmentRole extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_role',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.0',
-        providerVersionConstraint: '0.89.0'
+        providerVersion: '0.89.1',
+        providerVersionConstraint: '0.89.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

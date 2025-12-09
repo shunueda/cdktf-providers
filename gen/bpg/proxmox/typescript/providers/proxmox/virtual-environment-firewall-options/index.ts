@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VirtualEnvironmentFirewallOptionsConfig extends cdktf.Terraform
   /**
   * The ID of the container to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#container_id VirtualEnvironmentFirewallOptions#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#container_id VirtualEnvironmentFirewallOptions#container_id}
   */
   readonly containerId?: number;
   /**
   * Enable DHCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#dhcp VirtualEnvironmentFirewallOptions#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#dhcp VirtualEnvironmentFirewallOptions#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#enabled VirtualEnvironmentFirewallOptions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#enabled VirtualEnvironmentFirewallOptions#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#id VirtualEnvironmentFirewallOptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#id VirtualEnvironmentFirewallOptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface VirtualEnvironmentFirewallOptionsConfig extends cdktf.Terraform
   /**
   * Default policy for incoming traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#input_policy VirtualEnvironmentFirewallOptions#input_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#input_policy VirtualEnvironmentFirewallOptions#input_policy}
   */
   readonly inputPolicy?: string;
   /**
   * Enable default IP filters. This is equivalent to adding an empty ipfilter-net<id> ipset for every interface. Such ipsets implicitly contain sane default restrictions such as restricting IPv6 link local addresses to the one derived from the interface's MAC address. For containers the configured IP addresses will be implicitly added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#ipfilter VirtualEnvironmentFirewallOptions#ipfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#ipfilter VirtualEnvironmentFirewallOptions#ipfilter}
   */
   readonly ipfilter?: boolean | cdktf.IResolvable;
   /**
   * Log level for incoming traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#log_level_in VirtualEnvironmentFirewallOptions#log_level_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#log_level_in VirtualEnvironmentFirewallOptions#log_level_in}
   */
   readonly logLevelIn?: string;
   /**
   * Log level for outgoing traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#log_level_out VirtualEnvironmentFirewallOptions#log_level_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#log_level_out VirtualEnvironmentFirewallOptions#log_level_out}
   */
   readonly logLevelOut?: string;
   /**
   * Enable MAC address filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#macfilter VirtualEnvironmentFirewallOptions#macfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#macfilter VirtualEnvironmentFirewallOptions#macfilter}
   */
   readonly macfilter?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP (Neighbor Discovery Protocol)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#ndp VirtualEnvironmentFirewallOptions#ndp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#ndp VirtualEnvironmentFirewallOptions#ndp}
   */
   readonly ndp?: boolean | cdktf.IResolvable;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#node_name VirtualEnvironmentFirewallOptions#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#node_name VirtualEnvironmentFirewallOptions#node_name}
   */
   readonly nodeName: string;
   /**
   * Default policy for outgoing traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#output_policy VirtualEnvironmentFirewallOptions#output_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#output_policy VirtualEnvironmentFirewallOptions#output_policy}
   */
   readonly outputPolicy?: string;
   /**
   * Allow sending Router Advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#radv VirtualEnvironmentFirewallOptions#radv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#radv VirtualEnvironmentFirewallOptions#radv}
   */
   readonly radv?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VM to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#vm_id VirtualEnvironmentFirewallOptions#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#vm_id VirtualEnvironmentFirewallOptions#vm_id}
   */
   readonly vmId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options proxmox_virtual_environment_firewall_options}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options proxmox_virtual_environment_firewall_options}
 */
 export class VirtualEnvironmentFirewallOptions extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class VirtualEnvironmentFirewallOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentFirewallOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentFirewallOptions to import
-  * @param importFromId The id of the existing VirtualEnvironmentFirewallOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentFirewallOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentFirewallOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class VirtualEnvironmentFirewallOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_options proxmox_virtual_environment_firewall_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_options proxmox_virtual_environment_firewall_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class VirtualEnvironmentFirewallOptions extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_firewall_options',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.0',
-        providerVersionConstraint: '0.89.0'
+        providerVersion: '0.89.1',
+        providerVersionConstraint: '0.89.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

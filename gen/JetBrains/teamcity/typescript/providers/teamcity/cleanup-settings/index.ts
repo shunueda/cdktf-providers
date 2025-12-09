@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface CleanupSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#cron CleanupSettings#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#cron CleanupSettings#cron}
   */
   readonly cron?: CleanupSettingsCron;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#daily CleanupSettings#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#daily CleanupSettings#daily}
   */
   readonly daily?: CleanupSettingsDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#enabled CleanupSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#enabled CleanupSettings#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#max_duration CleanupSettings#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#max_duration CleanupSettings#max_duration}
   */
   readonly maxDuration: number;
 }
 export interface CleanupSettingsCron {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#day CleanupSettings#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#day CleanupSettings#day}
   */
   readonly day: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#day_week CleanupSettings#day_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#day_week CleanupSettings#day_week}
   */
   readonly dayWeek: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#hour CleanupSettings#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#hour CleanupSettings#hour}
   */
   readonly hour: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#minute CleanupSettings#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#minute CleanupSettings#minute}
   */
   readonly minute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#month CleanupSettings#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#month CleanupSettings#month}
   */
   readonly month: string;
 }
@@ -237,11 +237,11 @@ export class CleanupSettingsCronOutputReference extends cdktf.ComplexObject {
 }
 export interface CleanupSettingsDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#hour CleanupSettings#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#hour CleanupSettings#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#minute CleanupSettings#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#minute CleanupSettings#minute}
   */
   readonly minute: number;
 }
@@ -358,7 +358,7 @@ export class CleanupSettingsDailyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings teamcity_cleanup_settings}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings teamcity_cleanup_settings}
 */
 export class CleanupSettings extends cdktf.TerraformResource {
 
@@ -374,7 +374,7 @@ export class CleanupSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CleanupSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanupSettings to import
-  * @param importFromId The id of the existing CleanupSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanupSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanupSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class CleanupSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/resources/cleanup_settings teamcity_cleanup_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/resources/cleanup_settings teamcity_cleanup_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class CleanupSettings extends cdktf.TerraformResource {
       terraformResourceType: 'teamcity_cleanup_settings',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

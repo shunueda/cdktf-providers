@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VirtualEnvironmentFirewallIpsetConfig extends cdktf.TerraformMe
   /**
   * IPSet comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#comment VirtualEnvironmentFirewallIpset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#comment VirtualEnvironmentFirewallIpset#comment}
   */
   readonly comment?: string;
   /**
   * The ID of the container to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#container_id VirtualEnvironmentFirewallIpset#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#container_id VirtualEnvironmentFirewallIpset#container_id}
   */
   readonly containerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#id VirtualEnvironmentFirewallIpset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#id VirtualEnvironmentFirewallIpset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface VirtualEnvironmentFirewallIpsetConfig extends cdktf.TerraformMe
   /**
   * IPSet name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#name VirtualEnvironmentFirewallIpset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#name VirtualEnvironmentFirewallIpset#name}
   */
   readonly name: string;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#node_name VirtualEnvironmentFirewallIpset#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#node_name VirtualEnvironmentFirewallIpset#node_name}
   */
   readonly nodeName?: string;
   /**
   * The ID of the VM to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#vm_id VirtualEnvironmentFirewallIpset#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#vm_id VirtualEnvironmentFirewallIpset#vm_id}
   */
   readonly vmId?: number;
   /**
   * cidr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#cidr VirtualEnvironmentFirewallIpset#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#cidr VirtualEnvironmentFirewallIpset#cidr}
   */
   readonly cidr?: VirtualEnvironmentFirewallIpsetCidr[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface VirtualEnvironmentFirewallIpsetCidr {
   /**
   * IP/CIDR comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#comment VirtualEnvironmentFirewallIpset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#comment VirtualEnvironmentFirewallIpset#comment}
   */
   readonly comment?: string;
   /**
   * Network/IP specification in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#name VirtualEnvironmentFirewallIpset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#name VirtualEnvironmentFirewallIpset#name}
   */
   readonly name: string;
   /**
   * No match this IP/CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#nomatch VirtualEnvironmentFirewallIpset#nomatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#nomatch VirtualEnvironmentFirewallIpset#nomatch}
   */
   readonly nomatch?: boolean | cdktf.IResolvable;
 }
@@ -238,7 +238,7 @@ export class VirtualEnvironmentFirewallIpsetCidrList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset proxmox_virtual_environment_firewall_ipset}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset proxmox_virtual_environment_firewall_ipset}
 */
 export class VirtualEnvironmentFirewallIpset extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class VirtualEnvironmentFirewallIpset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentFirewallIpset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentFirewallIpset to import
-  * @param importFromId The id of the existing VirtualEnvironmentFirewallIpset that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentFirewallIpset that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentFirewallIpset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class VirtualEnvironmentFirewallIpset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_firewall_ipset proxmox_virtual_environment_firewall_ipset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_firewall_ipset proxmox_virtual_environment_firewall_ipset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class VirtualEnvironmentFirewallIpset extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_firewall_ipset',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.0',
-        providerVersionConstraint: '0.89.0'
+        providerVersion: '0.89.1',
+        providerVersionConstraint: '0.89.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

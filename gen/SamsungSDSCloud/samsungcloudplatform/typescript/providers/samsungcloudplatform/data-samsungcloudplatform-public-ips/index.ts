@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformPublicIpsConfig extends cdktf.Terraform
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#created_by DataSamsungcloudplatformPublicIps#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#created_by DataSamsungcloudplatformPublicIps#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#id DataSamsungcloudplatformPublicIps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#id DataSamsungcloudplatformPublicIps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface DataSamsungcloudplatformPublicIpsConfig extends cdktf.Terraform
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#ip_address DataSamsungcloudplatformPublicIps#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#ip_address DataSamsungcloudplatformPublicIps#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Enable bill
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#is_billable DataSamsungcloudplatformPublicIps#is_billable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#is_billable DataSamsungcloudplatformPublicIps#is_billable}
   */
   readonly isBillable?: boolean | cdktf.IResolvable;
   /**
   * Enable view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#is_viewable DataSamsungcloudplatformPublicIps#is_viewable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#is_viewable DataSamsungcloudplatformPublicIps#is_viewable}
   */
   readonly isViewable?: boolean | cdktf.IResolvable;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#page DataSamsungcloudplatformPublicIps#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#page DataSamsungcloudplatformPublicIps#page}
   */
   readonly page?: number;
   /**
   * The reason to make public ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#public_ip_purpose DataSamsungcloudplatformPublicIps#public_ip_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#public_ip_purpose DataSamsungcloudplatformPublicIps#public_ip_purpose}
   */
   readonly publicIpPurpose?: string;
   /**
   * Public ip status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#public_ip_state DataSamsungcloudplatformPublicIps#public_ip_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#public_ip_state DataSamsungcloudplatformPublicIps#public_ip_state}
   */
   readonly publicIpState?: string;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#service_zone_id DataSamsungcloudplatformPublicIps#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#service_zone_id DataSamsungcloudplatformPublicIps#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#size DataSamsungcloudplatformPublicIps#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#size DataSamsungcloudplatformPublicIps#size}
   */
   readonly size?: number;
   /**
   * Uplink type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#uplink_type DataSamsungcloudplatformPublicIps#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#uplink_type DataSamsungcloudplatformPublicIps#uplink_type}
   */
   readonly uplinkType?: string;
   /**
   * VPC id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#vpc_id DataSamsungcloudplatformPublicIps#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#vpc_id DataSamsungcloudplatformPublicIps#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#contents DataSamsungcloudplatformPublicIps#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#contents DataSamsungcloudplatformPublicIps#contents}
   */
   readonly contents?: DataSamsungcloudplatformPublicIpsContents[] | cdktf.IResolvable;
 }
@@ -245,7 +245,7 @@ export class DataSamsungcloudplatformPublicIpsContentsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips samsungcloudplatform_public_ips}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips samsungcloudplatform_public_ips}
 */
 export class DataSamsungcloudplatformPublicIps extends cdktf.TerraformDataSource {
 
@@ -261,7 +261,7 @@ export class DataSamsungcloudplatformPublicIps extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataSamsungcloudplatformPublicIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformPublicIps to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformPublicIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformPublicIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformPublicIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class DataSamsungcloudplatformPublicIps extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/public_ips samsungcloudplatform_public_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/public_ips samsungcloudplatform_public_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class DataSamsungcloudplatformPublicIps extends cdktf.TerraformDataSource
       terraformResourceType: 'samsungcloudplatform_public_ips',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

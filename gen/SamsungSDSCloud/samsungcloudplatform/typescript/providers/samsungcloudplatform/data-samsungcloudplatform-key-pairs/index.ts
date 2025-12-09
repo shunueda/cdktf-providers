@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformKeyPairsConfig extends cdktf.TerraformM
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#created_by DataSamsungcloudplatformKeyPairs#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#created_by DataSamsungcloudplatformKeyPairs#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#id DataSamsungcloudplatformKeyPairs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#id DataSamsungcloudplatformKeyPairs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataSamsungcloudplatformKeyPairsConfig extends cdktf.TerraformM
   /**
   * Key Pair Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#key_pair_id DataSamsungcloudplatformKeyPairs#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#key_pair_id DataSamsungcloudplatformKeyPairs#key_pair_id}
   */
   readonly keyPairId?: string;
   /**
   * Key Pair Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#key_pair_name DataSamsungcloudplatformKeyPairs#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#key_pair_name DataSamsungcloudplatformKeyPairs#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#page DataSamsungcloudplatformKeyPairs#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#page DataSamsungcloudplatformKeyPairs#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#size DataSamsungcloudplatformKeyPairs#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#size DataSamsungcloudplatformKeyPairs#size}
   */
   readonly size?: number;
   /**
   * Sorting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#sort DataSamsungcloudplatformKeyPairs#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#sort DataSamsungcloudplatformKeyPairs#sort}
   */
   readonly sort?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#contents DataSamsungcloudplatformKeyPairs#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#contents DataSamsungcloudplatformKeyPairs#contents}
   */
   readonly contents?: DataSamsungcloudplatformKeyPairsContents[] | cdktf.IResolvable;
 }
@@ -190,7 +190,7 @@ export class DataSamsungcloudplatformKeyPairsContentsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs samsungcloudplatform_key_pairs}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs samsungcloudplatform_key_pairs}
 */
 export class DataSamsungcloudplatformKeyPairs extends cdktf.TerraformDataSource {
 
@@ -206,7 +206,7 @@ export class DataSamsungcloudplatformKeyPairs extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSamsungcloudplatformKeyPairs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformKeyPairs to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformKeyPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformKeyPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformKeyPairs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class DataSamsungcloudplatformKeyPairs extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/key_pairs samsungcloudplatform_key_pairs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/key_pairs samsungcloudplatform_key_pairs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class DataSamsungcloudplatformKeyPairs extends cdktf.TerraformDataSource 
       terraformResourceType: 'samsungcloudplatform_key_pairs',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

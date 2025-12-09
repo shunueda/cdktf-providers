@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnOrigingroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Consistent load balancing (consistent hashing) for the source group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#consistent_balancing CdnOrigingroup#consistent_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#consistent_balancing CdnOrigingroup#consistent_balancing}
   */
   readonly consistentBalancing: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#id CdnOrigingroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#id CdnOrigingroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface CdnOrigingroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add the source group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#name CdnOrigingroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#name CdnOrigingroup#name}
   */
   readonly name: string;
   /**
   * Specify whether or not the CDN will use the next source in the list if your source responds with an HTTP status code of 4XX or 5XX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#use_next CdnOrigingroup#use_next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#use_next CdnOrigingroup#use_next}
   */
   readonly useNext: boolean | cdktf.IResolvable;
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#authorization CdnOrigingroup#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#authorization CdnOrigingroup#authorization}
   */
   readonly authorization?: CdnOrigingroupAuthorization;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#origin CdnOrigingroup#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#origin CdnOrigingroup#origin}
   */
   readonly origin: CdnOrigingroupOrigin[] | cdktf.IResolvable;
 }
@@ -49,37 +49,37 @@ export interface CdnOrigingroupAuthorization {
   /**
   * Specify the access key ID in 20 alphanumeric characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#access_key_id CdnOrigingroup#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#access_key_id CdnOrigingroup#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The addressing style for S3 requests. Supported values: path, virtual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#addressing_style CdnOrigingroup#addressing_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#addressing_style CdnOrigingroup#addressing_style}
   */
   readonly addressingStyle?: string;
   /**
   * The type of authorization on the source. It can take two values - aws_signature_v2 or aws_signature_v4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#auth_type CdnOrigingroup#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#auth_type CdnOrigingroup#auth_type}
   */
   readonly authType: string;
   /**
   * The AWS region name.The name is restricted to 255 symbols and can contain lowercase latin letters (a-z), digits (0-9), and hyphens. Region name cannot start or end with a hyphen and cannot contain double hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#aws_region CdnOrigingroup#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#aws_region CdnOrigingroup#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * Specify the bucket name. The name is restricted to 255 symbols and may include alphanumeric characters, slashes, pluses, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#bucket_name CdnOrigingroup#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#bucket_name CdnOrigingroup#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Specify the secret access key. The value must be between 32 and 40 characters and may include alphanumeric characters, slashes, pluses, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#secret_key CdnOrigingroup#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#secret_key CdnOrigingroup#secret_key}
   */
   readonly secretKey: string;
 }
@@ -298,19 +298,19 @@ export interface CdnOrigingroupOrigin {
   /**
   * If set to "true", this source will not be used until one of the active sources becomes unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#backup CdnOrigingroup#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#backup CdnOrigingroup#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the source. The source group must contain at least one enabled source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#enabled CdnOrigingroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#enabled CdnOrigingroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enter the source’s domain name or the IP address with a custom port (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#source CdnOrigingroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#source CdnOrigingroup#source}
   */
   readonly source: string;
 }
@@ -486,7 +486,7 @@ export class CdnOrigingroupOriginList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup edgecenter_cdn_origingroup}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup edgecenter_cdn_origingroup}
 */
 export class CdnOrigingroup extends cdktf.TerraformResource {
 
@@ -502,7 +502,7 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnOrigingroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnOrigingroup to import
-  * @param importFromId The id of the existing CdnOrigingroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnOrigingroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnOrigingroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -514,7 +514,7 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_origingroup edgecenter_cdn_origingroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/cdn_origingroup edgecenter_cdn_origingroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,8 +525,8 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_cdn_origingroup',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

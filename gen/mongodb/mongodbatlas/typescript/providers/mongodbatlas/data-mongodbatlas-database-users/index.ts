@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/database_users
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/database_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataMongodbatlasDatabaseUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/database_users#project_id DataMongodbatlasDatabaseUsers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/database_users#project_id DataMongodbatlasDatabaseUsers#project_id}
   */
   readonly projectId: string;
 }
@@ -392,7 +392,7 @@ export class DataMongodbatlasDatabaseUsersResultsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/database_users mongodbatlas_database_users}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/database_users mongodbatlas_database_users}
 */
 export class DataMongodbatlasDatabaseUsers extends cdktf.TerraformDataSource {
 
@@ -408,7 +408,7 @@ export class DataMongodbatlasDatabaseUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMongodbatlasDatabaseUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMongodbatlasDatabaseUsers to import
-  * @param importFromId The id of the existing DataMongodbatlasDatabaseUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/database_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMongodbatlasDatabaseUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/database_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMongodbatlasDatabaseUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -420,7 +420,7 @@ export class DataMongodbatlasDatabaseUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/database_users mongodbatlas_database_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/data-sources/database_users mongodbatlas_database_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,8 +431,8 @@ export class DataMongodbatlasDatabaseUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'mongodbatlas_database_users',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

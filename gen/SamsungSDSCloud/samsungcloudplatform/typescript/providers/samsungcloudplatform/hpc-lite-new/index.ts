@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HpcLiteNewConfig extends cdktf.TerraformMetaArguments {
   /**
   * HPC Lite(New) CO Pool ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#co_service_zone_id HpcLiteNew#co_service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#co_service_zone_id HpcLiteNew#co_service_zone_id}
   */
   readonly coServiceZoneId: string;
   /**
   * HPC Lite(New) Contract
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#contract HpcLiteNew#contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#contract HpcLiteNew#contract}
   */
   readonly contract: string;
   /**
   * HPC Lite(New) HT Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#hyper_threading_enabled HpcLiteNew#hyper_threading_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#hyper_threading_enabled HpcLiteNew#hyper_threading_enabled}
   */
   readonly hyperThreadingEnabled: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#id HpcLiteNew#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#id HpcLiteNew#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,71 +35,71 @@ export interface HpcLiteNewConfig extends cdktf.TerraformMetaArguments {
   /**
   * HPC Lite(New) Image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#image_id HpcLiteNew#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#image_id HpcLiteNew#image_id}
   */
   readonly imageId: string;
   /**
   * HPC Lite(New) Init Script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#init_script HpcLiteNew#init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#init_script HpcLiteNew#init_script}
   */
   readonly initScript?: string;
   /**
   * HPC Lite(New) OS User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#os_user_id HpcLiteNew#os_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#os_user_id HpcLiteNew#os_user_id}
   */
   readonly osUserId: string;
   /**
   * HPC Lite(New) OS User PWD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#os_user_password HpcLiteNew#os_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#os_user_password HpcLiteNew#os_user_password}
   */
   readonly osUserPassword: string;
   /**
   * HPC Lite(New) Product Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#product_group_id HpcLiteNew#product_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#product_group_id HpcLiteNew#product_group_id}
   */
   readonly productGroupId: string;
   /**
   * HPC Lite(New) block Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#resource_pool_id HpcLiteNew#resource_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#resource_pool_id HpcLiteNew#resource_pool_id}
   */
   readonly resourcePoolId: string;
   /**
   * HPC Lite(New) Server Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#server_type HpcLiteNew#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#server_type HpcLiteNew#server_type}
   */
   readonly serverType: string;
   /**
   * HPC Lite(New) Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#service_zone_id HpcLiteNew#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#service_zone_id HpcLiteNew#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#tags HpcLiteNew#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#tags HpcLiteNew#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * HPC Lite(New) Vlan Pool CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#vlan_pool_cidr HpcLiteNew#vlan_pool_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#vlan_pool_cidr HpcLiteNew#vlan_pool_cidr}
   */
   readonly vlanPoolCidr: string;
   /**
   * server_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#server_details HpcLiteNew#server_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#server_details HpcLiteNew#server_details}
   */
   readonly serverDetails: HpcLiteNewServerDetails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#timeouts HpcLiteNew#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#timeouts HpcLiteNew#timeouts}
   */
   readonly timeouts?: HpcLiteNewTimeouts;
 }
@@ -107,13 +107,13 @@ export interface HpcLiteNewServerDetails {
   /**
   * HPC Lite(New) Server Detail ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#ip_address HpcLiteNew#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#ip_address HpcLiteNew#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * HPC Lite(New) Server Detail Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#server_name HpcLiteNew#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#server_name HpcLiteNew#server_name}
   */
   readonly serverName: string;
 }
@@ -260,15 +260,15 @@ export class HpcLiteNewServerDetailsList extends cdktf.ComplexList {
 }
 export interface HpcLiteNewTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#create HpcLiteNew#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#create HpcLiteNew#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#delete HpcLiteNew#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#delete HpcLiteNew#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#update HpcLiteNew#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#update HpcLiteNew#update}
   */
   readonly update?: string;
 }
@@ -420,7 +420,7 @@ export class HpcLiteNewTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new samsungcloudplatform_hpc_lite_new}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new samsungcloudplatform_hpc_lite_new}
 */
 export class HpcLiteNew extends cdktf.TerraformResource {
 
@@ -436,7 +436,7 @@ export class HpcLiteNew extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HpcLiteNew resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HpcLiteNew to import
-  * @param importFromId The id of the existing HpcLiteNew that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HpcLiteNew that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HpcLiteNew to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +448,7 @@ export class HpcLiteNew extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/hpc_lite_new samsungcloudplatform_hpc_lite_new} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/hpc_lite_new samsungcloudplatform_hpc_lite_new} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +459,8 @@ export class HpcLiteNew extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_hpc_lite_new',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

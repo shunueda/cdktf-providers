@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaSiteVrfRouteLeakConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#id SchemaSiteVrfRouteLeak#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#id SchemaSiteVrfRouteLeak#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#schema_id SchemaSiteVrfRouteLeak#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#schema_id SchemaSiteVrfRouteLeak#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#site_id SchemaSiteVrfRouteLeak#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#site_id SchemaSiteVrfRouteLeak#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#subnet_ips SchemaSiteVrfRouteLeak#subnet_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#subnet_ips SchemaSiteVrfRouteLeak#subnet_ips}
   */
   readonly subnetIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#target_vrf_name SchemaSiteVrfRouteLeak#target_vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#target_vrf_name SchemaSiteVrfRouteLeak#target_vrf_name}
   */
   readonly targetVrfName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#target_vrf_schema_id SchemaSiteVrfRouteLeak#target_vrf_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#target_vrf_schema_id SchemaSiteVrfRouteLeak#target_vrf_schema_id}
   */
   readonly targetVrfSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#target_vrf_template_name SchemaSiteVrfRouteLeak#target_vrf_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#target_vrf_template_name SchemaSiteVrfRouteLeak#target_vrf_template_name}
   */
   readonly targetVrfTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#template_name SchemaSiteVrfRouteLeak#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#template_name SchemaSiteVrfRouteLeak#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#tenant_name SchemaSiteVrfRouteLeak#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#tenant_name SchemaSiteVrfRouteLeak#tenant_name}
   */
   readonly tenantName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#type SchemaSiteVrfRouteLeak#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#type SchemaSiteVrfRouteLeak#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#vrf_name SchemaSiteVrfRouteLeak#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#vrf_name SchemaSiteVrfRouteLeak#vrf_name}
   */
   readonly vrfName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak mso_schema_site_vrf_route_leak}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak mso_schema_site_vrf_route_leak}
 */
 export class SchemaSiteVrfRouteLeak extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class SchemaSiteVrfRouteLeak extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaSiteVrfRouteLeak resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaSiteVrfRouteLeak to import
-  * @param importFromId The id of the existing SchemaSiteVrfRouteLeak that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaSiteVrfRouteLeak that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaSiteVrfRouteLeak to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class SchemaSiteVrfRouteLeak extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_site_vrf_route_leak mso_schema_site_vrf_route_leak} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_site_vrf_route_leak mso_schema_site_vrf_route_leak} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class SchemaSiteVrfRouteLeak extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_site_vrf_route_leak',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

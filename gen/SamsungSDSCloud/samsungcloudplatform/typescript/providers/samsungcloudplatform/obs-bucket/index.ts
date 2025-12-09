@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ObsBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#id ObsBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#id ObsBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,71 +17,71 @@ export interface ObsBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Object Storage Bucket Access Control Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_access_control_enabled ObsBucket#object_storage_bucket_access_control_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_access_control_enabled ObsBucket#object_storage_bucket_access_control_enabled}
   */
   readonly objectStorageBucketAccessControlEnabled?: boolean | cdktf.IResolvable;
   /**
   * Object Storage Bucket DR Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_dr_enabled ObsBucket#object_storage_bucket_dr_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_dr_enabled ObsBucket#object_storage_bucket_dr_enabled}
   */
   readonly objectStorageBucketDrEnabled?: boolean | cdktf.IResolvable;
   /**
   * Object Storage Bucket File Encryption Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_file_encryption_enabled ObsBucket#object_storage_bucket_file_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_file_encryption_enabled ObsBucket#object_storage_bucket_file_encryption_enabled}
   */
   readonly objectStorageBucketFileEncryptionEnabled: boolean | cdktf.IResolvable;
   /**
   * Object Storage Bucket Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_name ObsBucket#object_storage_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_name ObsBucket#object_storage_bucket_name}
   */
   readonly objectStorageBucketName: string;
   /**
   * Object Storage Bucket User Purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_user_purpose ObsBucket#object_storage_bucket_user_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_user_purpose ObsBucket#object_storage_bucket_user_purpose}
   */
   readonly objectStorageBucketUserPurpose?: string;
   /**
   * Object Storage Bucket Version Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_bucket_version_enabled ObsBucket#object_storage_bucket_version_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_bucket_version_enabled ObsBucket#object_storage_bucket_version_enabled}
   */
   readonly objectStorageBucketVersionEnabled: boolean | cdktf.IResolvable;
   /**
   * Object Storage ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#object_storage_id ObsBucket#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#object_storage_id ObsBucket#object_storage_id}
   */
   readonly objectStorageId: string;
   /**
   * Product Names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#product_names ObsBucket#product_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#product_names ObsBucket#product_names}
   */
   readonly productNames: string[];
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#service_zone_id ObsBucket#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#service_zone_id ObsBucket#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Sync Object Storage Bucket ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#sync_object_storage_bucket_id ObsBucket#sync_object_storage_bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#sync_object_storage_bucket_id ObsBucket#sync_object_storage_bucket_id}
   */
   readonly syncObjectStorageBucketId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#tags ObsBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#tags ObsBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * access_control_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#access_control_rules ObsBucket#access_control_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#access_control_rules ObsBucket#access_control_rules}
   */
   readonly accessControlRules?: ObsBucketAccessControlRules[] | cdktf.IResolvable;
 }
@@ -89,13 +89,13 @@ export interface ObsBucketAccessControlRules {
   /**
   * Access Control Rule Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#rule_type ObsBucket#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#rule_type ObsBucket#rule_type}
   */
   readonly ruleType?: string;
   /**
   * Access Control Rule Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#rule_value ObsBucket#rule_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#rule_value ObsBucket#rule_value}
   */
   readonly ruleValue?: string;
 }
@@ -240,7 +240,7 @@ export class ObsBucketAccessControlRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket samsungcloudplatform_obs_bucket}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket samsungcloudplatform_obs_bucket}
 */
 export class ObsBucket extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class ObsBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObsBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObsBucket to import
-  * @param importFromId The id of the existing ObsBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObsBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObsBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class ObsBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/obs_bucket samsungcloudplatform_obs_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/obs_bucket samsungcloudplatform_obs_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class ObsBucket extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_obs_bucket',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

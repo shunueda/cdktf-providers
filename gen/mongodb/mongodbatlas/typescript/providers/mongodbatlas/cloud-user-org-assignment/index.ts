@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudUserOrgAssignmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique 24-hexadecimal digit string that identifies the organization that contains your projects. Use the [/orgs](https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/group/endpoint-organizations) endpoint to retrieve all organizations to which the authenticated user has access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment#org_id CloudUserOrgAssignment#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment#org_id CloudUserOrgAssignment#org_id}
   */
   readonly orgId: string;
   /**
   * Organization and project level roles to assign the MongoDB Cloud user within one organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment#roles CloudUserOrgAssignment#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment#roles CloudUserOrgAssignment#roles}
   */
   readonly roles: CloudUserOrgAssignmentRoles;
   /**
   * Email address that represents the username of the MongoDB Cloud user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment#username CloudUserOrgAssignment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment#username CloudUserOrgAssignment#username}
   */
   readonly username: string;
 }
@@ -110,7 +110,7 @@ export interface CloudUserOrgAssignmentRoles {
   /**
   * One or more organization level roles to assign the MongoDB Cloud user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment#org_roles CloudUserOrgAssignment#org_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment#org_roles CloudUserOrgAssignment#org_roles}
   */
   readonly orgRoles?: string[];
 }
@@ -210,7 +210,7 @@ export class CloudUserOrgAssignmentRolesOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment mongodbatlas_cloud_user_org_assignment}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment mongodbatlas_cloud_user_org_assignment}
 */
 export class CloudUserOrgAssignment extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class CloudUserOrgAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudUserOrgAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudUserOrgAssignment to import
-  * @param importFromId The id of the existing CloudUserOrgAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudUserOrgAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudUserOrgAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class CloudUserOrgAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/cloud_user_org_assignment mongodbatlas_cloud_user_org_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/cloud_user_org_assignment mongodbatlas_cloud_user_org_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class CloudUserOrgAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_cloud_user_org_assignment',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

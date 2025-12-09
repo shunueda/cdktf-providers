@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,53 @@ export interface SqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to use database audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#audit_enabled Sqlserver#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#audit_enabled Sqlserver#audit_enabled}
   */
   readonly auditEnabled: boolean | cdktf.IResolvable;
   /**
-  * Contract : None, 1-year, 3-year
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#contract_period Sqlserver#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Commands that specify how to sort and compare data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_collation Sqlserver#database_collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_collation Sqlserver#database_collation}
   */
   readonly databaseCollation: string;
   /**
   * Database Name List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_names Sqlserver#database_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_names Sqlserver#database_names}
   */
   readonly databaseNames: string[];
   /**
   * Port number of this database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_port Sqlserver#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_port Sqlserver#database_port}
   */
   readonly databasePort: number;
   /**
   * MS SQL Server Database Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_service_name Sqlserver#database_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_service_name Sqlserver#database_service_name}
   */
   readonly databaseServiceName: string;
   /**
   * User account id of database. (2 to 20 alpha-numerics)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_user_name Sqlserver#database_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_user_name Sqlserver#database_user_name}
   */
   readonly databaseUserName: string;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#database_user_password Sqlserver#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#database_user_password Sqlserver#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#encryption_enabled Sqlserver#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#encryption_enabled Sqlserver#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#id Sqlserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#id Sqlserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,107 +65,101 @@ export interface SqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * SQL Server standard image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#image_id Sqlserver#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#image_id Sqlserver#image_id}
   */
   readonly imageId: string;
   /**
   * License key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#license Sqlserver#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#license Sqlserver#license}
   */
   readonly license: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#nat_enabled Sqlserver#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#nat_enabled Sqlserver#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#nat_public_ip_id Sqlserver#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#nat_public_ip_id Sqlserver#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
-  * Next contract : None, 1-year, 3-year
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#next_contract_period Sqlserver#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Security-Group ids of this MS SQL Server DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#security_group_ids Sqlserver#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#security_group_ids Sqlserver#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#server_type Sqlserver#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#server_type Sqlserver#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#service_zone_id Sqlserver#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#service_zone_id Sqlserver#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#sqlserver_cluster_name Sqlserver#sqlserver_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#sqlserver_cluster_name Sqlserver#sqlserver_cluster_name}
   */
   readonly sqlserverClusterName: string;
   /**
   * MS SQL Server cluster state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#sqlserver_cluster_state Sqlserver#sqlserver_cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#sqlserver_cluster_state Sqlserver#sqlserver_cluster_state}
   */
   readonly sqlserverClusterState: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#subnet_id Sqlserver#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#subnet_id Sqlserver#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#tags Sqlserver#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#tags Sqlserver#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#timezone Sqlserver#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#timezone Sqlserver#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#backup Sqlserver#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#backup Sqlserver#backup}
   */
   readonly backup?: SqlserverBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#block_storages Sqlserver#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#block_storages Sqlserver#block_storages}
   */
   readonly blockStorages: SqlserverBlockStorages[] | cdktf.IResolvable;
   /**
   * sqlserver_active_directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#sqlserver_active_directory Sqlserver#sqlserver_active_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#sqlserver_active_directory Sqlserver#sqlserver_active_directory}
   */
   readonly sqlserverActiveDirectory?: SqlserverSqlserverActiveDirectory[] | cdktf.IResolvable;
   /**
   * sqlserver_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#sqlserver_servers Sqlserver#sqlserver_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#sqlserver_servers Sqlserver#sqlserver_servers}
   */
   readonly sqlserverServers: SqlserverSqlserverServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#timeouts Sqlserver#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#timeouts Sqlserver#timeouts}
   */
   readonly timeouts?: SqlserverTimeouts;
 }
@@ -179,31 +167,31 @@ export interface SqlserverBackup {
   /**
   * Backup File Schedule Frequency.(5M, 10M, 30M, 1H) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#archive_backup_schedule_frequency Sqlserver#archive_backup_schedule_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#archive_backup_schedule_frequency Sqlserver#archive_backup_schedule_frequency}
   */
   readonly archiveBackupScheduleFrequency: string;
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#backup_retention_period Sqlserver#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#backup_retention_period Sqlserver#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#backup_start_hour Sqlserver#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#backup_start_hour Sqlserver#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Full backup schedule(Day). (MONDAY to SUNDAY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#full_backup_day_of_week Sqlserver#full_backup_day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#full_backup_day_of_week Sqlserver#full_backup_day_of_week}
   */
   readonly fullBackupDayOfWeek: string;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#object_storage_id Sqlserver#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#object_storage_id Sqlserver#object_storage_id}
   */
   readonly objectStorageId: string;
 }
@@ -390,13 +378,13 @@ export interface SqlserverBlockStorages {
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#block_storage_size Sqlserver#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#block_storage_size Sqlserver#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#block_storage_type Sqlserver#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#block_storage_type Sqlserver#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -542,37 +530,37 @@ export interface SqlserverSqlserverActiveDirectory {
   /**
   * Active Directory Server User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#ad_server_user_id Sqlserver#ad_server_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#ad_server_user_id Sqlserver#ad_server_user_id}
   */
   readonly adServerUserId?: string;
   /**
   * Active Directory Server User password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#ad_server_user_password Sqlserver#ad_server_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#ad_server_user_password Sqlserver#ad_server_user_password}
   */
   readonly adServerUserPassword?: string;
   /**
   * Active Directory DNS Server IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#dns_server_ips Sqlserver#dns_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#dns_server_ips Sqlserver#dns_server_ips}
   */
   readonly dnsServerIps?: string[];
   /**
   * Active Directory Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#domain_name Sqlserver#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#domain_name Sqlserver#domain_name}
   */
   readonly domainName?: string;
   /**
   * Active Directory NetBios name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#domain_net_bios_name Sqlserver#domain_net_bios_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#domain_net_bios_name Sqlserver#domain_net_bios_name}
   */
   readonly domainNetBiosName?: string;
   /**
   * Active Directory Failover Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#failover_cluster_name Sqlserver#failover_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#failover_cluster_name Sqlserver#failover_cluster_name}
   */
   readonly failoverClusterName?: string;
 }
@@ -835,19 +823,19 @@ export interface SqlserverSqlserverServers {
   /**
   * Availability Zone Name. (AZ1 | AZ2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#availability_zone_name Sqlserver#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#availability_zone_name Sqlserver#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | PRIMARY | SECONDARY)",
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#server_role_type Sqlserver#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#server_role_type Sqlserver#server_role_type}
   */
   readonly serverRoleType: string;
   /**
   * MS SQL Server database server names. (3 to 15 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#sqlserver_server_name Sqlserver#sqlserver_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#sqlserver_server_name Sqlserver#sqlserver_server_name}
   */
   readonly sqlserverServerName: string;
 }
@@ -1015,15 +1003,15 @@ export class SqlserverSqlserverServersList extends cdktf.ComplexList {
 }
 export interface SqlserverTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#create Sqlserver#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#create Sqlserver#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#delete Sqlserver#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#delete Sqlserver#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#update Sqlserver#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#update Sqlserver#update}
   */
   readonly update?: string;
 }
@@ -1175,7 +1163,7 @@ export class SqlserverTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver samsungcloudplatform_sqlserver}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver samsungcloudplatform_sqlserver}
 */
 export class Sqlserver extends cdktf.TerraformResource {
 
@@ -1191,7 +1179,7 @@ export class Sqlserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sqlserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sqlserver to import
-  * @param importFromId The id of the existing Sqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sqlserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1203,7 +1191,7 @@ export class Sqlserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/sqlserver samsungcloudplatform_sqlserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/sqlserver samsungcloudplatform_sqlserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1214,8 +1202,8 @@ export class Sqlserver extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_sqlserver',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1226,7 +1214,6 @@ export class Sqlserver extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._auditEnabled = config.auditEnabled;
-    this._contractPeriod = config.contractPeriod;
     this._databaseCollation = config.databaseCollation;
     this._databaseNames = config.databaseNames;
     this._databasePort = config.databasePort;
@@ -1239,7 +1226,6 @@ export class Sqlserver extends cdktf.TerraformResource {
     this._license = config.license;
     this._natEnabled = config.natEnabled;
     this._natPublicIpId = config.natPublicIpId;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._securityGroupIds = config.securityGroupIds;
     this._serverType = config.serverType;
     this._serviceZoneId = config.serviceZoneId;
@@ -1270,19 +1256,6 @@ export class Sqlserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get auditEnabledInput() {
     return this._auditEnabled;
-  }
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
   }
 
   // database_collation - computed: false, optional: false, required: true
@@ -1453,22 +1426,6 @@ export class Sqlserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get natPublicIpIdInput() {
     return this._natPublicIpId;
-  }
-
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
   }
 
   // security_group_ids - computed: false, optional: false, required: true
@@ -1669,7 +1626,6 @@ export class Sqlserver extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       audit_enabled: cdktf.booleanToTerraform(this._auditEnabled),
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_collation: cdktf.stringToTerraform(this._databaseCollation),
       database_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._databaseNames),
       database_port: cdktf.numberToTerraform(this._databasePort),
@@ -1682,7 +1638,6 @@ export class Sqlserver extends cdktf.TerraformResource {
       license: cdktf.stringToTerraform(this._license),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
       nat_public_ip_id: cdktf.stringToTerraform(this._natPublicIpId),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       server_type: cdktf.stringToTerraform(this._serverType),
       service_zone_id: cdktf.stringToTerraform(this._serviceZoneId),
@@ -1706,12 +1661,6 @@ export class Sqlserver extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       database_collation: {
         value: cdktf.stringToHclTerraform(this._databaseCollation),
@@ -1781,12 +1730,6 @@ export class Sqlserver extends cdktf.TerraformResource {
       },
       nat_public_ip_id: {
         value: cdktf.stringToHclTerraform(this._natPublicIpId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

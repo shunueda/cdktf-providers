@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformInternetGatewaysConfig extends cdktf.Te
   /**
   * Person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#created_by DataSamsungcloudplatformInternetGateways#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#created_by DataSamsungcloudplatformInternetGateways#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#id DataSamsungcloudplatformInternetGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#id DataSamsungcloudplatformInternetGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataSamsungcloudplatformInternetGatewaysConfig extends cdktf.Te
   /**
   * Description of internet gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#internet_gateway_description DataSamsungcloudplatformInternetGateways#internet_gateway_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#internet_gateway_description DataSamsungcloudplatformInternetGateways#internet_gateway_description}
   */
   readonly internetGatewayDescription?: string;
   /**
   * Internet Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#internet_gateway_id DataSamsungcloudplatformInternetGateways#internet_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#internet_gateway_id DataSamsungcloudplatformInternetGateways#internet_gateway_id}
   */
   readonly internetGatewayId?: string;
   /**
   * Internet Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#internet_gateway_name DataSamsungcloudplatformInternetGateways#internet_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#internet_gateway_name DataSamsungcloudplatformInternetGateways#internet_gateway_name}
   */
   readonly internetGatewayName?: string;
   /**
   * Internet Gateway status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#internet_gateway_state DataSamsungcloudplatformInternetGateways#internet_gateway_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#internet_gateway_state DataSamsungcloudplatformInternetGateways#internet_gateway_state}
   */
   readonly internetGatewayState?: number;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#page DataSamsungcloudplatformInternetGateways#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#page DataSamsungcloudplatformInternetGateways#page}
   */
   readonly page?: number;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#service_zone_id DataSamsungcloudplatformInternetGateways#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#service_zone_id DataSamsungcloudplatformInternetGateways#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#size DataSamsungcloudplatformInternetGateways#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#size DataSamsungcloudplatformInternetGateways#size}
   */
   readonly size?: number;
   /**
   * VPC id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#vpc_id DataSamsungcloudplatformInternetGateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#vpc_id DataSamsungcloudplatformInternetGateways#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#contents DataSamsungcloudplatformInternetGateways#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#contents DataSamsungcloudplatformInternetGateways#contents}
   */
   readonly contents?: DataSamsungcloudplatformInternetGatewaysContents[] | cdktf.IResolvable;
 }
@@ -213,7 +213,7 @@ export class DataSamsungcloudplatformInternetGatewaysContentsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways samsungcloudplatform_internet_gateways}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways samsungcloudplatform_internet_gateways}
 */
 export class DataSamsungcloudplatformInternetGateways extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataSamsungcloudplatformInternetGateways extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataSamsungcloudplatformInternetGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformInternetGateways to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformInternetGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformInternetGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformInternetGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataSamsungcloudplatformInternetGateways extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/internet_gateways samsungcloudplatform_internet_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/internet_gateways samsungcloudplatform_internet_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataSamsungcloudplatformInternetGateways extends cdktf.TerraformDat
       terraformResourceType: 'samsungcloudplatform_internet_gateways',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

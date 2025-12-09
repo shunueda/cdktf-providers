@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformStandardImagesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#id DataSamsungcloudplatformStandardImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#id DataSamsungcloudplatformStandardImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataSamsungcloudplatformStandardImagesConfig extends cdktf.Terr
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#region DataSamsungcloudplatformStandardImages#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#region DataSamsungcloudplatformStandardImages#region}
   */
   readonly region: string;
   /**
   * Service (Baremetal Server, EPAS, Elasticsearch, GPU Server, Kubeflow, Kubernetes Apps, Kubernetes Engine, Kubernetes Engine GPU VM, Kubernetes Engine VM, MariaDB, Microsoft SQL Server, MySQL, PostgreSQL, Redis, Tibero, Vertica, Virtual Server)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#service DataSamsungcloudplatformStandardImages#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#service DataSamsungcloudplatformStandardImages#service}
   */
   readonly service: string;
   /**
   * Service group (COMPUTE, DATABASE, EXTENSION, MIDDLEWARE, STORAGE, AI Service, CONTAINER)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#service_group DataSamsungcloudplatformStandardImages#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#service_group DataSamsungcloudplatformStandardImages#service_group}
   */
   readonly serviceGroup: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#filter DataSamsungcloudplatformStandardImages#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#filter DataSamsungcloudplatformStandardImages#filter}
   */
   readonly filter?: DataSamsungcloudplatformStandardImagesFilter[] | cdktf.IResolvable;
   /**
   * standard_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#standard_images DataSamsungcloudplatformStandardImages#standard_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#standard_images DataSamsungcloudplatformStandardImages#standard_images}
   */
   readonly standardImages?: DataSamsungcloudplatformStandardImagesStandardImages[] | cdktf.IResolvable;
 }
@@ -49,19 +49,19 @@ export interface DataSamsungcloudplatformStandardImagesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#name DataSamsungcloudplatformStandardImages#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#name DataSamsungcloudplatformStandardImages#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#use_regex DataSamsungcloudplatformStandardImages#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#use_regex DataSamsungcloudplatformStandardImages#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#values DataSamsungcloudplatformStandardImages#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#values DataSamsungcloudplatformStandardImages#values}
   */
   readonly values: string[];
 }
@@ -360,7 +360,7 @@ export class DataSamsungcloudplatformStandardImagesStandardImagesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images samsungcloudplatform_standard_images}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images samsungcloudplatform_standard_images}
 */
 export class DataSamsungcloudplatformStandardImages extends cdktf.TerraformDataSource {
 
@@ -376,7 +376,7 @@ export class DataSamsungcloudplatformStandardImages extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataSamsungcloudplatformStandardImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformStandardImages to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformStandardImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformStandardImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformStandardImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class DataSamsungcloudplatformStandardImages extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/standard_images samsungcloudplatform_standard_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/standard_images samsungcloudplatform_standard_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class DataSamsungcloudplatformStandardImages extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_standard_images',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

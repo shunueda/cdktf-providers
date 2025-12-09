@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualEnvironmentSdnZoneSimpleConfig extends cdktf.TerraformMe
   /**
   * The type of the DHCP backend for this zone. Currently the only supported value is `dnsmasq`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#dhcp VirtualEnvironmentSdnZoneSimple#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#dhcp VirtualEnvironmentSdnZoneSimple#dhcp}
   */
   readonly dhcp?: string;
   /**
   * DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#dns VirtualEnvironmentSdnZoneSimple#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#dns VirtualEnvironmentSdnZoneSimple#dns}
   */
   readonly dns?: string;
   /**
   * DNS domain name. Used to register hostnames, such as `<hostname>.<domain>`. The DNS zone must already exist on the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#dns_zone VirtualEnvironmentSdnZoneSimple#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#dns_zone VirtualEnvironmentSdnZoneSimple#dns_zone}
   */
   readonly dnsZone?: string;
   /**
   * The unique identifier of the SDN zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#id VirtualEnvironmentSdnZoneSimple#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#id VirtualEnvironmentSdnZoneSimple#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,31 +37,31 @@ export interface VirtualEnvironmentSdnZoneSimpleConfig extends cdktf.TerraformMe
   /**
   * IP Address Management system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#ipam VirtualEnvironmentSdnZoneSimple#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#ipam VirtualEnvironmentSdnZoneSimple#ipam}
   */
   readonly ipam?: string;
   /**
   * MTU value for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#mtu VirtualEnvironmentSdnZoneSimple#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#mtu VirtualEnvironmentSdnZoneSimple#mtu}
   */
   readonly mtu?: number;
   /**
   * The Proxmox nodes which the zone and associated VNets should be deployed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#nodes VirtualEnvironmentSdnZoneSimple#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#nodes VirtualEnvironmentSdnZoneSimple#nodes}
   */
   readonly nodes?: string[];
   /**
   * Reverse DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#reverse_dns VirtualEnvironmentSdnZoneSimple#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#reverse_dns VirtualEnvironmentSdnZoneSimple#reverse_dns}
   */
   readonly reverseDns?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple proxmox_virtual_environment_sdn_zone_simple}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple proxmox_virtual_environment_sdn_zone_simple}
 */
 export class VirtualEnvironmentSdnZoneSimple extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class VirtualEnvironmentSdnZoneSimple extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnZoneSimple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnZoneSimple to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnZoneSimple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class VirtualEnvironmentSdnZoneSimple extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_simple proxmox_virtual_environment_sdn_zone_simple} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_simple proxmox_virtual_environment_sdn_zone_simple} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class VirtualEnvironmentSdnZoneSimple extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_zone_simple',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.0',
-        providerVersionConstraint: '0.89.0'
+        providerVersion: '0.89.1',
+        providerVersionConstraint: '0.89.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

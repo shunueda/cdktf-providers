@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,47 @@ export interface KafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account of AKHQ. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_account Kafka#akhq_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_account Kafka#akhq_account}
   */
   readonly akhqAccount?: string;
   /**
   * Whether to use AKHQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_enabled Kafka#akhq_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_enabled Kafka#akhq_enabled}
   */
   readonly akhqEnabled: boolean | cdktf.IResolvable;
   /**
   * Password of AKHQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_password Kafka#akhq_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_password Kafka#akhq_password}
   */
   readonly akhqPassword?: string;
   /**
   * Port number of broker. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_port Kafka#broker_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_port Kafka#broker_port}
   */
   readonly brokerPort?: number;
   /**
   * SASL account of broker. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_sasl_account Kafka#broker_sasl_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_sasl_account Kafka#broker_sasl_account}
   */
   readonly brokerSaslAccount: string;
   /**
   * SASL account password of broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_sasl_password Kafka#broker_sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_sasl_password Kafka#broker_sasl_password}
   */
   readonly brokerSaslPassword: string;
   /**
   * Broker Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_server_type Kafka#broker_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_server_type Kafka#broker_server_type}
   */
   readonly brokerServerType: string;
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#contract_period Kafka#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#id Kafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#id Kafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,113 +59,113 @@ export interface KafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kafka virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#image_id Kafka#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#image_id Kafka#image_id}
   */
   readonly imageId: string;
   /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#kafka_cluster_name Kafka#kafka_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#kafka_cluster_name Kafka#kafka_cluster_name}
   */
   readonly kafkaClusterName: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#nat_enabled Kafka#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#nat_enabled Kafka#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * Security-Group ids of this Kafka. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#security_group_ids Kafka#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#security_group_ids Kafka#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#service_zone_id Kafka#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#service_zone_id Kafka#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#subnet_id Kafka#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#subnet_id Kafka#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#tags Kafka#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#tags Kafka#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#timezone Kafka#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#timezone Kafka#timezone}
   */
   readonly timezone: string;
   /**
   * Port number of zookeeper. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_port Kafka#zookeeper_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_port Kafka#zookeeper_port}
   */
   readonly zookeeperPort?: number;
   /**
   * SASL account of zookeeper. (2 to 20 lowercase alphabets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_sasl_account Kafka#zookeeper_sasl_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_sasl_account Kafka#zookeeper_sasl_account}
   */
   readonly zookeeperSaslAccount: string;
   /**
   * SASL account password of zookeeper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_sasl_password Kafka#zookeeper_sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_sasl_password Kafka#zookeeper_sasl_password}
   */
   readonly zookeeperSaslPassword: string;
   /**
   * Zookeeper server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_server_type Kafka#zookeeper_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_server_type Kafka#zookeeper_server_type}
   */
   readonly zookeeperServerType?: string;
   /**
   * akhq_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_node Kafka#akhq_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_node Kafka#akhq_node}
   */
   readonly akhqNode?: KafkaAkhqNode;
   /**
   * availability_zone_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#availability_zone_config Kafka#availability_zone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#availability_zone_config Kafka#availability_zone_config}
   */
   readonly availabilityZoneConfig?: KafkaAvailabilityZoneConfig[] | cdktf.IResolvable;
   /**
   * broker_block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_block_storages Kafka#broker_block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_block_storages Kafka#broker_block_storages}
   */
   readonly brokerBlockStorages: KafkaBrokerBlockStorages;
   /**
   * broker_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_nodes Kafka#broker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_nodes Kafka#broker_nodes}
   */
   readonly brokerNodes: KafkaBrokerNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#timeouts Kafka#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#timeouts Kafka#timeouts}
   */
   readonly timeouts?: KafkaTimeouts;
   /**
   * zookeeper_block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_block_storages Kafka#zookeeper_block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_block_storages Kafka#zookeeper_block_storages}
   */
   readonly zookeeperBlockStorages?: KafkaZookeeperBlockStorages;
   /**
   * zookeeper_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_nodes Kafka#zookeeper_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_nodes Kafka#zookeeper_nodes}
   */
   readonly zookeeperNodes?: KafkaZookeeperNodes[] | cdktf.IResolvable;
 }
@@ -179,19 +173,19 @@ export interface KafkaAkhqNode {
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2|AZ3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_availability_zone_name Kafka#akhq_availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_availability_zone_name Kafka#akhq_availability_zone_name}
   */
   readonly akhqAvailabilityZoneName?: string;
   /**
   * AKHQ node names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#akhq_node_name Kafka#akhq_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#akhq_node_name Kafka#akhq_node_name}
   */
   readonly akhqNodeName: string;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
 }
@@ -337,13 +331,13 @@ export interface KafkaAvailabilityZoneConfig {
   /**
   * Availability Zone Deployment Type. UNIFORM is only available for 3AZ. (DESIGNATED|UNIFORM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#availability_zone_deployment_type Kafka#availability_zone_deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#availability_zone_deployment_type Kafka#availability_zone_deployment_type}
   */
   readonly availabilityZoneDeploymentType: string;
   /**
   * Availability Zone Name. The single server does not input anything. (AZ1|AZ2|AZ3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#availability_zone_name Kafka#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#availability_zone_name Kafka#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
 }
@@ -487,13 +481,13 @@ export interface KafkaBrokerBlockStorages {
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#block_storage_size Kafka#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#block_storage_size Kafka#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#block_storage_type Kafka#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#block_storage_type Kafka#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -607,13 +601,13 @@ export interface KafkaBrokerNodes {
   /**
   * Broker node names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#broker_node_name Kafka#broker_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#broker_node_name Kafka#broker_node_name}
   */
   readonly brokerNodeName: string;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
 }
@@ -760,15 +754,15 @@ export class KafkaBrokerNodesList extends cdktf.ComplexList {
 }
 export interface KafkaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#create Kafka#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#create Kafka#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#delete Kafka#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#delete Kafka#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#update Kafka#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#update Kafka#update}
   */
   readonly update?: string;
 }
@@ -922,13 +916,13 @@ export interface KafkaZookeeperBlockStorages {
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#block_storage_size Kafka#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#block_storage_size Kafka#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#block_storage_type Kafka#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#block_storage_type Kafka#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -1042,13 +1036,13 @@ export interface KafkaZookeeperNodes {
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#nat_public_ip_id Kafka#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
   * Zookeeper node names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#zookeeper_node_name Kafka#zookeeper_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#zookeeper_node_name Kafka#zookeeper_node_name}
   */
   readonly zookeeperNodeName: string;
 }
@@ -1195,7 +1189,7 @@ export class KafkaZookeeperNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka samsungcloudplatform_kafka}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka samsungcloudplatform_kafka}
 */
 export class Kafka extends cdktf.TerraformResource {
 
@@ -1211,7 +1205,7 @@ export class Kafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Kafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Kafka to import
-  * @param importFromId The id of the existing Kafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Kafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Kafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1223,7 +1217,7 @@ export class Kafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/kafka samsungcloudplatform_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/kafka samsungcloudplatform_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1234,8 +1228,8 @@ export class Kafka extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_kafka',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1252,7 +1246,6 @@ export class Kafka extends cdktf.TerraformResource {
     this._brokerSaslAccount = config.brokerSaslAccount;
     this._brokerSaslPassword = config.brokerSaslPassword;
     this._brokerServerType = config.brokerServerType;
-    this._contractPeriod = config.contractPeriod;
     this._id = config.id;
     this._imageId = config.imageId;
     this._kafkaClusterName = config.kafkaClusterName;
@@ -1382,19 +1375,6 @@ export class Kafka extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get brokerServerTypeInput() {
     return this._brokerServerType;
-  }
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
   }
 
   // id - computed: true, optional: true, required: false
@@ -1710,7 +1690,6 @@ export class Kafka extends cdktf.TerraformResource {
       broker_sasl_account: cdktf.stringToTerraform(this._brokerSaslAccount),
       broker_sasl_password: cdktf.stringToTerraform(this._brokerSaslPassword),
       broker_server_type: cdktf.stringToTerraform(this._brokerServerType),
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       kafka_cluster_name: cdktf.stringToTerraform(this._kafkaClusterName),
@@ -1774,12 +1753,6 @@ export class Kafka extends cdktf.TerraformResource {
       },
       broker_server_type: {
         value: cdktf.stringToHclTerraform(this._brokerServerType),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

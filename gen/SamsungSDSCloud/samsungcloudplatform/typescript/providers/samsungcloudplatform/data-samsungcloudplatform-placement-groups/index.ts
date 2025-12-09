@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformPlacementGroupsConfig extends cdktf.Ter
   /**
   * Created By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#created_by DataSamsungcloudplatformPlacementGroups#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#created_by DataSamsungcloudplatformPlacementGroups#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#id DataSamsungcloudplatformPlacementGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#id DataSamsungcloudplatformPlacementGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataSamsungcloudplatformPlacementGroupsConfig extends cdktf.Ter
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#page DataSamsungcloudplatformPlacementGroups#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#page DataSamsungcloudplatformPlacementGroups#page}
   */
   readonly page?: number;
   /**
   * Placement Group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#placement_group_id DataSamsungcloudplatformPlacementGroups#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#placement_group_id DataSamsungcloudplatformPlacementGroups#placement_group_id}
   */
   readonly placementGroupId?: string;
   /**
   * Placement Group Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#placement_group_name DataSamsungcloudplatformPlacementGroups#placement_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#placement_group_name DataSamsungcloudplatformPlacementGroups#placement_group_name}
   */
   readonly placementGroupName?: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#service_zone_id DataSamsungcloudplatformPlacementGroups#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#service_zone_id DataSamsungcloudplatformPlacementGroups#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#size DataSamsungcloudplatformPlacementGroups#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#size DataSamsungcloudplatformPlacementGroups#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#sort DataSamsungcloudplatformPlacementGroups#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#sort DataSamsungcloudplatformPlacementGroups#sort}
   */
   readonly sort?: string;
   /**
   * Virtual Server Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#virtual_server_type DataSamsungcloudplatformPlacementGroups#virtual_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#virtual_server_type DataSamsungcloudplatformPlacementGroups#virtual_server_type}
   */
   readonly virtualServerType?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#filter DataSamsungcloudplatformPlacementGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#filter DataSamsungcloudplatformPlacementGroups#filter}
   */
   readonly filter?: DataSamsungcloudplatformPlacementGroupsFilter[] | cdktf.IResolvable;
 }
@@ -208,19 +208,19 @@ export interface DataSamsungcloudplatformPlacementGroupsFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#name DataSamsungcloudplatformPlacementGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#name DataSamsungcloudplatformPlacementGroups#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#use_regex DataSamsungcloudplatformPlacementGroups#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#use_regex DataSamsungcloudplatformPlacementGroups#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#values DataSamsungcloudplatformPlacementGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#values DataSamsungcloudplatformPlacementGroups#values}
   */
   readonly values: string[];
 }
@@ -388,7 +388,7 @@ export class DataSamsungcloudplatformPlacementGroupsFilterList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups samsungcloudplatform_placement_groups}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups samsungcloudplatform_placement_groups}
 */
 export class DataSamsungcloudplatformPlacementGroups extends cdktf.TerraformDataSource {
 
@@ -404,7 +404,7 @@ export class DataSamsungcloudplatformPlacementGroups extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSamsungcloudplatformPlacementGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformPlacementGroups to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformPlacementGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformPlacementGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformPlacementGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +416,7 @@ export class DataSamsungcloudplatformPlacementGroups extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/placement_groups samsungcloudplatform_placement_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/placement_groups samsungcloudplatform_placement_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +427,8 @@ export class DataSamsungcloudplatformPlacementGroups extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_placement_groups',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

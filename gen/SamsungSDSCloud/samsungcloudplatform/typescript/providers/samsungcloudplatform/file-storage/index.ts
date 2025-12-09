@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface FileStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIFS Password is only available for CIFS Protocol. (6 to 20 alphabet and numeric characters without following special characters ($, %, {, }, [, ], ", \)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#cifs_password FileStorage#cifs_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#cifs_password FileStorage#cifs_password}
   */
   readonly cifsPassword?: string;
   /**
   * Snapshot schedule dayOfWeek must be one of "SUN", "MON", "TUE", "WED", "THU", "FRI" or "SAT"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#day_of_week FileStorage#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#day_of_week FileStorage#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * File Storage Disk Type (HDD, SSD, HP_SSD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#disk_type FileStorage#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#disk_type FileStorage#disk_type}
   */
   readonly diskType: string;
   /**
   * File Storage Name (3 to 21 lower alphabet and numeric characters with '_' symbol are available, but it must be started with lower alphabet)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#file_storage_name FileStorage#file_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#file_storage_name FileStorage#file_storage_name}
   */
   readonly fileStorageName: string;
   /**
   * File Storage Protocol (NFS, CIFS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#file_storage_protocol FileStorage#file_storage_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#file_storage_protocol FileStorage#file_storage_protocol}
   */
   readonly fileStorageProtocol: string;
   /**
   * File Unit Recovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#file_unit_recovery_enabled FileStorage#file_unit_recovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#file_unit_recovery_enabled FileStorage#file_unit_recovery_enabled}
   */
   readonly fileUnitRecoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * Snapshot schedule frequency must be one of "DAILY" or "WEEKLY"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#frequency FileStorage#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#frequency FileStorage#frequency}
   */
   readonly frequency?: string;
   /**
   * Snapshot schedule hour (0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#hour FileStorage#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#hour FileStorage#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#id FileStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#id FileStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,59 +65,59 @@ export interface FileStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Multi AZ (If null, default value is false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#multi_availability_zone FileStorage#multi_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#multi_availability_zone FileStorage#multi_availability_zone}
   */
   readonly multiAvailabilityZone?: boolean | cdktf.IResolvable;
   /**
   * Product Names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#product_names FileStorage#product_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#product_names FileStorage#product_names}
   */
   readonly productNames: string[];
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#service_zone_id FileStorage#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#service_zone_id FileStorage#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Snapshot retention count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#snapshot_retention_count FileStorage#snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#snapshot_retention_count FileStorage#snapshot_retention_count}
   */
   readonly snapshotRetentionCount?: number;
   /**
   * Snapshot schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#snapshot_schedule FileStorage#snapshot_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#snapshot_schedule FileStorage#snapshot_schedule}
   */
   readonly snapshotSchedule?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#tags FileStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#tags FileStorage#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VPC Endpoint Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#vpc_endpoint_info FileStorage#vpc_endpoint_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#vpc_endpoint_info FileStorage#vpc_endpoint_info}
   */
   readonly vpcEndpointInfo?: string;
   /**
   * VPC Endpoint Volume Pool ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#vpc_endpoint_volume_pool_id FileStorage#vpc_endpoint_volume_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#vpc_endpoint_volume_pool_id FileStorage#vpc_endpoint_volume_pool_id}
   */
   readonly vpcEndpointVolumePoolId?: string;
   /**
   * link_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#link_objects FileStorage#link_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#link_objects FileStorage#link_objects}
   */
   readonly linkObjects?: FileStorageLinkObjects[] | cdktf.IResolvable;
   /**
   * unlink_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#unlink_objects FileStorage#unlink_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#unlink_objects FileStorage#unlink_objects}
   */
   readonly unlinkObjects?: FileStorageUnlinkObjects[] | cdktf.IResolvable;
 }
@@ -125,13 +125,13 @@ export interface FileStorageLinkObjects {
   /**
   * Link object ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#link_object_id FileStorage#link_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#link_object_id FileStorage#link_object_id}
   */
   readonly linkObjectId?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#type FileStorage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#type FileStorage#type}
   */
   readonly type?: string;
 }
@@ -278,13 +278,13 @@ export interface FileStorageUnlinkObjects {
   /**
   * Link object ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#link_object_id FileStorage#link_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#link_object_id FileStorage#link_object_id}
   */
   readonly linkObjectId?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#type FileStorage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#type FileStorage#type}
   */
   readonly type?: string;
 }
@@ -429,7 +429,7 @@ export class FileStorageUnlinkObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage samsungcloudplatform_file_storage}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage samsungcloudplatform_file_storage}
 */
 export class FileStorage extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class FileStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileStorage to import
-  * @param importFromId The id of the existing FileStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class FileStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/file_storage samsungcloudplatform_file_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/file_storage samsungcloudplatform_file_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class FileStorage extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_file_storage',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

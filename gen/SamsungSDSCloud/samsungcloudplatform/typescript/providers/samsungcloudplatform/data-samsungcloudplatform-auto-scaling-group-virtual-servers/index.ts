@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformAutoScalingGroupVirtualServersConfig ex
   /**
   * Auto-Scaling Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#asg_id DataSamsungcloudplatformAutoScalingGroupVirtualServers#asg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#asg_id DataSamsungcloudplatformAutoScalingGroupVirtualServers#asg_id}
   */
   readonly asgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#id DataSamsungcloudplatformAutoScalingGroupVirtualServers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#id DataSamsungcloudplatformAutoScalingGroupVirtualServers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataSamsungcloudplatformAutoScalingGroupVirtualServersConfig ex
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#page DataSamsungcloudplatformAutoScalingGroupVirtualServers#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#page DataSamsungcloudplatformAutoScalingGroupVirtualServers#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#size DataSamsungcloudplatformAutoScalingGroupVirtualServers#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#size DataSamsungcloudplatformAutoScalingGroupVirtualServers#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#sort DataSamsungcloudplatformAutoScalingGroupVirtualServers#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#sort DataSamsungcloudplatformAutoScalingGroupVirtualServers#sort}
   */
   readonly sort?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#filter DataSamsungcloudplatformAutoScalingGroupVirtualServers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#filter DataSamsungcloudplatformAutoScalingGroupVirtualServers#filter}
   */
   readonly filter?: DataSamsungcloudplatformAutoScalingGroupVirtualServersFilter[] | cdktf.IResolvable;
 }
@@ -281,19 +281,19 @@ export interface DataSamsungcloudplatformAutoScalingGroupVirtualServersFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#name DataSamsungcloudplatformAutoScalingGroupVirtualServers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#name DataSamsungcloudplatformAutoScalingGroupVirtualServers#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#use_regex DataSamsungcloudplatformAutoScalingGroupVirtualServers#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#use_regex DataSamsungcloudplatformAutoScalingGroupVirtualServers#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#values DataSamsungcloudplatformAutoScalingGroupVirtualServers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#values DataSamsungcloudplatformAutoScalingGroupVirtualServers#values}
   */
   readonly values: string[];
 }
@@ -461,7 +461,7 @@ export class DataSamsungcloudplatformAutoScalingGroupVirtualServersFilterList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers samsungcloudplatform_auto_scaling_group_virtual_servers}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers samsungcloudplatform_auto_scaling_group_virtual_servers}
 */
 export class DataSamsungcloudplatformAutoScalingGroupVirtualServers extends cdktf.TerraformDataSource {
 
@@ -477,7 +477,7 @@ export class DataSamsungcloudplatformAutoScalingGroupVirtualServers extends cdkt
   * Generates CDKTF code for importing a DataSamsungcloudplatformAutoScalingGroupVirtualServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformAutoScalingGroupVirtualServers to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformAutoScalingGroupVirtualServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformAutoScalingGroupVirtualServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformAutoScalingGroupVirtualServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class DataSamsungcloudplatformAutoScalingGroupVirtualServers extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/auto_scaling_group_virtual_servers samsungcloudplatform_auto_scaling_group_virtual_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/auto_scaling_group_virtual_servers samsungcloudplatform_auto_scaling_group_virtual_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,8 +500,8 @@ export class DataSamsungcloudplatformAutoScalingGroupVirtualServers extends cdkt
       terraformResourceType: 'samsungcloudplatform_auto_scaling_group_virtual_servers',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

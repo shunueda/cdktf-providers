@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectionResourceWhitelistEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry#id ProtectionResourceWhitelistEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry#id ProtectionResourceWhitelistEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ProtectionResourceWhitelistEntryConfig extends cdktf.TerraformM
   /**
   * Allowed IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry#ip ProtectionResourceWhitelistEntry#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry#ip ProtectionResourceWhitelistEntry#ip}
   */
   readonly ip: string;
   /**
   * ID of the DDoS protection resource to add header to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry#resource ProtectionResourceWhitelistEntry#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry#resource ProtectionResourceWhitelistEntry#resource}
   */
   readonly resource: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry edgecenter_protection_resource_whitelist_entry}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry edgecenter_protection_resource_whitelist_entry}
 */
 export class ProtectionResourceWhitelistEntry extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ProtectionResourceWhitelistEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionResourceWhitelistEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionResourceWhitelistEntry to import
-  * @param importFromId The id of the existing ProtectionResourceWhitelistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionResourceWhitelistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionResourceWhitelistEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ProtectionResourceWhitelistEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/protection_resource_whitelist_entry edgecenter_protection_resource_whitelist_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_whitelist_entry edgecenter_protection_resource_whitelist_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ProtectionResourceWhitelistEntry extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_protection_resource_whitelist_entry',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

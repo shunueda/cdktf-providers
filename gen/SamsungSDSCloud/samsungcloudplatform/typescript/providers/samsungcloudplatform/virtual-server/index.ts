@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,41 @@ export interface VirtualServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Admin account for this virtual server OS. For linux, this must be 'root'. For Windows, this must not be 'administrator'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#admin_account VirtualServer#admin_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#admin_account VirtualServer#admin_account}
   */
   readonly adminAccount?: string;
   /**
   * Admin account password for this virtual server OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#admin_password VirtualServer#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#admin_password VirtualServer#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Enable anti-affinity feature for this virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#anti_affinity VirtualServer#anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#anti_affinity VirtualServer#anti_affinity}
   */
   readonly antiAffinity?: boolean | cdktf.IResolvable;
   /**
   * Availability Zone Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#availability_zone_name VirtualServer#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#availability_zone_name VirtualServer#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
-  * Contract : None, 1 Year, 3 Year
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#contract_discount VirtualServer#contract_discount}
-  */
-  readonly contractDiscount: string;
-  /**
   * CPU core count(2, 4, 8,..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#cpu_count VirtualServer#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#cpu_count VirtualServer#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * Enable delete protection for this virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#delete_protection VirtualServer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#delete_protection VirtualServer#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#id VirtualServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#id VirtualServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,143 +53,137 @@ export interface VirtualServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image id of this virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#image_id VirtualServer#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#image_id VirtualServer#image_id}
   */
   readonly imageId: string;
   /**
   * Initialization script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#initial_script_content VirtualServer#initial_script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#initial_script_content VirtualServer#initial_script_content}
   */
   readonly initialScriptContent?: string;
   /**
   * IP address for internal IP assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#internal_ip_address VirtualServer#internal_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#internal_ip_address VirtualServer#internal_ip_address}
   */
   readonly internalIpAddress?: string;
   /**
   * Key Pair Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#key_pair_id VirtualServer#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#key_pair_id VirtualServer#key_pair_id}
   */
   readonly keyPairId?: string;
   /**
   * Memory size in gigabytes(4, 8, 16,..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#memory_size_gb VirtualServer#memory_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#memory_size_gb VirtualServer#memory_size_gb}
   */
   readonly memorySizeGb?: number;
   /**
   * Enable NAT IP feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#nat_enabled VirtualServer#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#nat_enabled VirtualServer#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Next Contract : None, 1 Year, 3 Year
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#next_contract_discount VirtualServer#next_contract_discount}
-  */
-  readonly nextContractDiscount?: string;
-  /**
   * Enable encryption feature in OS(Boot) storage. (WARNING) This option can not be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#os_storage_encrypted VirtualServer#os_storage_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#os_storage_encrypted VirtualServer#os_storage_encrypted}
   */
   readonly osStorageEncrypted?: boolean | cdktf.IResolvable;
   /**
   * OS(Boot) storage name. 3 to 28 alpha-numeric characters with space and dash starting with alphabet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#os_storage_name VirtualServer#os_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#os_storage_name VirtualServer#os_storage_name}
   */
   readonly osStorageName: string;
   /**
   * OS(Boot) storage size in gigabytes. (At least 100 GB required and size must be multiple of 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#os_storage_size_gb VirtualServer#os_storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#os_storage_size_gb VirtualServer#os_storage_size_gb}
   */
   readonly osStorageSizeGb: number;
   /**
   * Placement Group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#placement_group_id VirtualServer#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#placement_group_id VirtualServer#placement_group_id}
   */
   readonly placementGroupId?: string;
   /**
   * Public IP id of this virtual server. Public-IP must be a valid public-ip resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#public_ip_id VirtualServer#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#public_ip_id VirtualServer#public_ip_id}
   */
   readonly publicIpId?: string;
   /**
   * Role Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#role_id VirtualServer#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#role_id VirtualServer#role_id}
   */
   readonly roleId?: string;
   /**
   * Security-Group ids of this virtual server. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#security_group_ids VirtualServer#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#security_group_ids VirtualServer#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server Group Id for Anti-affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#server_group_id VirtualServer#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#server_group_id VirtualServer#server_group_id}
   */
   readonly serverGroupId?: string;
   /**
   * Server Type (s1v1m2,..)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#server_type VirtualServer#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#server_type VirtualServer#server_type}
   */
   readonly serverType?: string;
   /**
   * Virtual Server State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#state VirtualServer#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#state VirtualServer#state}
   */
   readonly state: string;
   /**
   * Subnet id of this virtual server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#subnet_id VirtualServer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#subnet_id VirtualServer#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#tags VirtualServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#tags VirtualServer#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Enable DNS feature for this virtual server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#use_dns VirtualServer#use_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#use_dns VirtualServer#use_dns}
   */
   readonly useDns?: boolean | cdktf.IResolvable;
   /**
   * Virtual server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#virtual_server_name VirtualServer#virtual_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#virtual_server_name VirtualServer#virtual_server_name}
   */
   readonly virtualServerName: string;
   /**
   * VPC id of this virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#vpc_id VirtualServer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#vpc_id VirtualServer#vpc_id}
   */
   readonly vpcId: string;
   /**
   * external_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#external_storage VirtualServer#external_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#external_storage VirtualServer#external_storage}
   */
   readonly externalStorage?: VirtualServerExternalStorage[] | cdktf.IResolvable;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#local_subnet VirtualServer#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#local_subnet VirtualServer#local_subnet}
   */
   readonly localSubnet?: VirtualServerLocalSubnet[] | cdktf.IResolvable;
 }
@@ -203,37 +191,37 @@ export interface VirtualServerExternalStorage {
   /**
   * Use encryption for this storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#encrypted VirtualServer#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#encrypted VirtualServer#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * External storage name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#name VirtualServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#name VirtualServer#name}
   */
   readonly name: string;
   /**
   * Storage product name : SSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#product_name VirtualServer#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#product_name VirtualServer#product_name}
   */
   readonly productName?: string;
   /**
   * SHARED/DEDICATED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#shared_type VirtualServer#shared_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#shared_type VirtualServer#shared_type}
   */
   readonly sharedType?: string;
   /**
   * Storage size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#storage_size_gb VirtualServer#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#storage_size_gb VirtualServer#storage_size_gb}
   */
   readonly storageSizeGb: number;
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#tags VirtualServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#tags VirtualServer#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -500,13 +488,13 @@ export interface VirtualServerLocalSubnet {
   /**
   * Subnet ip address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#ipv4 VirtualServer#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#ipv4 VirtualServer#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Subnet Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#subnet_id VirtualServer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#subnet_id VirtualServer#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -653,7 +641,7 @@ export class VirtualServerLocalSubnetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server samsungcloudplatform_virtual_server}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server samsungcloudplatform_virtual_server}
 */
 export class VirtualServer extends cdktf.TerraformResource {
 
@@ -669,7 +657,7 @@ export class VirtualServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualServer to import
-  * @param importFromId The id of the existing VirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -681,7 +669,7 @@ export class VirtualServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/virtual_server samsungcloudplatform_virtual_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/virtual_server samsungcloudplatform_virtual_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -692,8 +680,8 @@ export class VirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -707,7 +695,6 @@ export class VirtualServer extends cdktf.TerraformResource {
     this._adminPassword = config.adminPassword;
     this._antiAffinity = config.antiAffinity;
     this._availabilityZoneName = config.availabilityZoneName;
-    this._contractDiscount = config.contractDiscount;
     this._cpuCount = config.cpuCount;
     this._deleteProtection = config.deleteProtection;
     this._id = config.id;
@@ -717,7 +704,6 @@ export class VirtualServer extends cdktf.TerraformResource {
     this._keyPairId = config.keyPairId;
     this._memorySizeGb = config.memorySizeGb;
     this._natEnabled = config.natEnabled;
-    this._nextContractDiscount = config.nextContractDiscount;
     this._osStorageEncrypted = config.osStorageEncrypted;
     this._osStorageName = config.osStorageName;
     this._osStorageSizeGb = config.osStorageSizeGb;
@@ -803,19 +789,6 @@ export class VirtualServer extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get availabilityZoneNameInput() {
     return this._availabilityZoneName;
-  }
-
-  // contract_discount - computed: false, optional: false, required: true
-  private _contractDiscount?: string; 
-  public get contractDiscount() {
-    return this.getStringAttribute('contract_discount');
-  }
-  public set contractDiscount(value: string) {
-    this._contractDiscount = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractDiscountInput() {
-    return this._contractDiscount;
   }
 
   // cpu_count - computed: false, optional: true, required: false
@@ -967,22 +940,6 @@ export class VirtualServer extends cdktf.TerraformResource {
   // nat_ipv4 - computed: true, optional: false, required: false
   public get natIpv4() {
     return this.getStringAttribute('nat_ipv4');
-  }
-
-  // next_contract_discount - computed: false, optional: true, required: false
-  private _nextContractDiscount?: string; 
-  public get nextContractDiscount() {
-    return this.getStringAttribute('next_contract_discount');
-  }
-  public set nextContractDiscount(value: string) {
-    this._nextContractDiscount = value;
-  }
-  public resetNextContractDiscount() {
-    this._nextContractDiscount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractDiscountInput() {
-    return this._nextContractDiscount;
   }
 
   // os_storage_encrypted - computed: false, optional: true, required: false
@@ -1246,7 +1203,6 @@ export class VirtualServer extends cdktf.TerraformResource {
       admin_password: cdktf.stringToTerraform(this._adminPassword),
       anti_affinity: cdktf.booleanToTerraform(this._antiAffinity),
       availability_zone_name: cdktf.stringToTerraform(this._availabilityZoneName),
-      contract_discount: cdktf.stringToTerraform(this._contractDiscount),
       cpu_count: cdktf.numberToTerraform(this._cpuCount),
       delete_protection: cdktf.booleanToTerraform(this._deleteProtection),
       id: cdktf.stringToTerraform(this._id),
@@ -1256,7 +1212,6 @@ export class VirtualServer extends cdktf.TerraformResource {
       key_pair_id: cdktf.stringToTerraform(this._keyPairId),
       memory_size_gb: cdktf.numberToTerraform(this._memorySizeGb),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
-      next_contract_discount: cdktf.stringToTerraform(this._nextContractDiscount),
       os_storage_encrypted: cdktf.booleanToTerraform(this._osStorageEncrypted),
       os_storage_name: cdktf.stringToTerraform(this._osStorageName),
       os_storage_size_gb: cdktf.numberToTerraform(this._osStorageSizeGb),
@@ -1299,12 +1254,6 @@ export class VirtualServer extends cdktf.TerraformResource {
       },
       availability_zone_name: {
         value: cdktf.stringToHclTerraform(this._availabilityZoneName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      contract_discount: {
-        value: cdktf.stringToHclTerraform(this._contractDiscount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1362,12 +1311,6 @@ export class VirtualServer extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      next_contract_discount: {
-        value: cdktf.stringToHclTerraform(this._nextContractDiscount),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       os_storage_encrypted: {
         value: cdktf.booleanToHclTerraform(this._osStorageEncrypted),

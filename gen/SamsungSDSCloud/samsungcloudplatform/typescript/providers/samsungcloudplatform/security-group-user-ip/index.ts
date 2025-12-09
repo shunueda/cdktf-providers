@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityGroupUserIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#id SecurityGroupUserIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#id SecurityGroupUserIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface SecurityGroupUserIpConfig extends cdktf.TerraformMetaArguments 
   /**
   * Target SecurityGroup id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#security_group_id SecurityGroupUserIp#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#security_group_id SecurityGroupUserIp#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * Address of Directly Attached IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#user_ip_address SecurityGroupUserIp#user_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#user_ip_address SecurityGroupUserIp#user_ip_address}
   */
   readonly userIpAddress: string;
   /**
   * Description of Directly Attached IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#user_ip_description SecurityGroupUserIp#user_ip_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#user_ip_description SecurityGroupUserIp#user_ip_description}
   */
   readonly userIpDescription: string;
   /**
   * Type of Directly Attached IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#user_ip_type SecurityGroupUserIp#user_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#user_ip_type SecurityGroupUserIp#user_ip_type}
   */
   readonly userIpType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip samsungcloudplatform_security_group_user_ip}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip samsungcloudplatform_security_group_user_ip}
 */
 export class SecurityGroupUserIp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SecurityGroupUserIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupUserIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupUserIp to import
-  * @param importFromId The id of the existing SecurityGroupUserIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupUserIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupUserIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SecurityGroupUserIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/security_group_user_ip samsungcloudplatform_security_group_user_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/security_group_user_ip samsungcloudplatform_security_group_user_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SecurityGroupUserIp extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_security_group_user_ip',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

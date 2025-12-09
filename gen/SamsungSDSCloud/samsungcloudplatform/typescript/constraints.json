@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "samsungcloudplatform": "3.15.0"
+    "samsungcloudplatform": "3.16.0"
   }
 }

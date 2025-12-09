@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaTemplateAnpEpgUsegAttrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#anp_name SchemaTemplateAnpEpgUsegAttr#anp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#anp_name SchemaTemplateAnpEpgUsegAttr#anp_name}
   */
   readonly anpName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#category SchemaTemplateAnpEpgUsegAttr#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#category SchemaTemplateAnpEpgUsegAttr#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#description SchemaTemplateAnpEpgUsegAttr#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#description SchemaTemplateAnpEpgUsegAttr#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#epg_name SchemaTemplateAnpEpgUsegAttr#epg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#epg_name SchemaTemplateAnpEpgUsegAttr#epg_name}
   */
   readonly epgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#id SchemaTemplateAnpEpgUsegAttr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#id SchemaTemplateAnpEpgUsegAttr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#name SchemaTemplateAnpEpgUsegAttr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#name SchemaTemplateAnpEpgUsegAttr#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#operator SchemaTemplateAnpEpgUsegAttr#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#operator SchemaTemplateAnpEpgUsegAttr#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#schema_id SchemaTemplateAnpEpgUsegAttr#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#schema_id SchemaTemplateAnpEpgUsegAttr#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#template_name SchemaTemplateAnpEpgUsegAttr#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#template_name SchemaTemplateAnpEpgUsegAttr#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#useg_subnet SchemaTemplateAnpEpgUsegAttr#useg_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#useg_subnet SchemaTemplateAnpEpgUsegAttr#useg_subnet}
   */
   readonly usegSubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#useg_type SchemaTemplateAnpEpgUsegAttr#useg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#useg_type SchemaTemplateAnpEpgUsegAttr#useg_type}
   */
   readonly usegType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#value SchemaTemplateAnpEpgUsegAttr#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#value SchemaTemplateAnpEpgUsegAttr#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr mso_schema_template_anp_epg_useg_attr}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr mso_schema_template_anp_epg_useg_attr}
 */
 export class SchemaTemplateAnpEpgUsegAttr extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class SchemaTemplateAnpEpgUsegAttr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaTemplateAnpEpgUsegAttr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaTemplateAnpEpgUsegAttr to import
-  * @param importFromId The id of the existing SchemaTemplateAnpEpgUsegAttr that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaTemplateAnpEpgUsegAttr that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaTemplateAnpEpgUsegAttr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class SchemaTemplateAnpEpgUsegAttr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/resources/schema_template_anp_epg_useg_attr mso_schema_template_anp_epg_useg_attr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/resources/schema_template_anp_epg_useg_attr mso_schema_template_anp_epg_useg_attr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class SchemaTemplateAnpEpgUsegAttr extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_anp_epg_useg_attr',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

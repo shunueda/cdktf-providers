@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/pool
+// https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataTeamcityPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/pool#name DataTeamcityPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/pool#name DataTeamcityPool#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/pool teamcity_pool}
+* Represents a {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/pool teamcity_pool}
 */
 export class DataTeamcityPool extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataTeamcityPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTeamcityPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTeamcityPool to import
-  * @param importFromId The id of the existing DataTeamcityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTeamcityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTeamcityPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataTeamcityPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.86/docs/data-sources/pool teamcity_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jetbrains/teamcity/0.0.87/docs/data-sources/pool teamcity_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataTeamcityPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'teamcity_pool',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.86',
-        providerVersionConstraint: '0.0.86'
+        providerVersion: '0.0.87',
+        providerVersionConstraint: '0.0.87'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

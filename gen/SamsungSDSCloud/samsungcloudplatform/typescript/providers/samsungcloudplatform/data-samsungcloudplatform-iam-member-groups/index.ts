@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformIamMemberGroupsConfig extends cdktf.Ter
   /**
   * Member's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#group_name DataSamsungcloudplatformIamMemberGroups#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#group_name DataSamsungcloudplatformIamMemberGroups#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#id DataSamsungcloudplatformIamMemberGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#id DataSamsungcloudplatformIamMemberGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSamsungcloudplatformIamMemberGroupsConfig extends cdktf.Ter
   /**
   * Company name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#member_id DataSamsungcloudplatformIamMemberGroups#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#member_id DataSamsungcloudplatformIamMemberGroups#member_id}
   */
   readonly memberId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#filter DataSamsungcloudplatformIamMemberGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#filter DataSamsungcloudplatformIamMemberGroups#filter}
   */
   readonly filter?: DataSamsungcloudplatformIamMemberGroupsFilter[] | cdktf.IResolvable;
 }
@@ -167,19 +167,19 @@ export interface DataSamsungcloudplatformIamMemberGroupsFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#name DataSamsungcloudplatformIamMemberGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#name DataSamsungcloudplatformIamMemberGroups#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#use_regex DataSamsungcloudplatformIamMemberGroups#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#use_regex DataSamsungcloudplatformIamMemberGroups#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#values DataSamsungcloudplatformIamMemberGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#values DataSamsungcloudplatformIamMemberGroups#values}
   */
   readonly values: string[];
 }
@@ -347,7 +347,7 @@ export class DataSamsungcloudplatformIamMemberGroupsFilterList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups samsungcloudplatform_iam_member_groups}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups samsungcloudplatform_iam_member_groups}
 */
 export class DataSamsungcloudplatformIamMemberGroups extends cdktf.TerraformDataSource {
 
@@ -363,7 +363,7 @@ export class DataSamsungcloudplatformIamMemberGroups extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSamsungcloudplatformIamMemberGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformIamMemberGroups to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformIamMemberGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformIamMemberGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformIamMemberGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class DataSamsungcloudplatformIamMemberGroups extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/iam_member_groups samsungcloudplatform_iam_member_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/iam_member_groups samsungcloudplatform_iam_member_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class DataSamsungcloudplatformIamMemberGroups extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_iam_member_groups',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

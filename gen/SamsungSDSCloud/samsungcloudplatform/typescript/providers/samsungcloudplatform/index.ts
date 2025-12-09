@@ -33,6 +33,7 @@ export * as iamRole from './iam-role';
 export * as internetGateway from './internet-gateway';
 export * as kafka from './kafka';
 export * as keyPair from './key-pair';
+export * as kubernetesAdminKubeconfig from './kubernetes-admin-kubeconfig';
 export * as kubernetesApps from './kubernetes-apps';
 export * as kubernetesEngine from './kubernetes-engine';
 export * as kubernetesNamespace from './kubernetes-namespace';
@@ -142,7 +143,6 @@ export * as dataSamsungcloudplatformKubernetesAppsImages from './data-samsungclo
 export * as dataSamsungcloudplatformKubernetesEngine from './data-samsungcloudplatform-kubernetes-engine';
 export * as dataSamsungcloudplatformKubernetesEngineVersions from './data-samsungcloudplatform-kubernetes-engine-versions';
 export * as dataSamsungcloudplatformKubernetesEngines from './data-samsungcloudplatform-kubernetes-engines';
-export * as dataSamsungcloudplatformKubernetesKubeconfig from './data-samsungcloudplatform-kubernetes-kubeconfig';
 export * as dataSamsungcloudplatformKubernetesNodePool from './data-samsungcloudplatform-kubernetes-node-pool';
 export * as dataSamsungcloudplatformKubernetesNodePools from './data-samsungcloudplatform-kubernetes-node-pools';
 export * as dataSamsungcloudplatformKubernetesSubnet from './data-samsungcloudplatform-kubernetes-subnet';

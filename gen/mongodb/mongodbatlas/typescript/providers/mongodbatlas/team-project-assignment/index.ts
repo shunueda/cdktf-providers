@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,25 +12,25 @@ export interface TeamProjectAssignmentConfig extends cdktf.TerraformMetaArgument
   * 
   * **NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group/project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment#project_id TeamProjectAssignment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment#project_id TeamProjectAssignment#project_id}
   */
   readonly projectId: string;
   /**
   * One or more project-level roles assigned to the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment#role_names TeamProjectAssignment#role_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment#role_names TeamProjectAssignment#role_names}
   */
   readonly roleNames: string[];
   /**
   * Unique 24-hexadecimal character string that identifies the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment#team_id TeamProjectAssignment#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment#team_id TeamProjectAssignment#team_id}
   */
   readonly teamId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment mongodbatlas_team_project_assignment}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment mongodbatlas_team_project_assignment}
 */
 export class TeamProjectAssignment extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class TeamProjectAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamProjectAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamProjectAssignment to import
-  * @param importFromId The id of the existing TeamProjectAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamProjectAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamProjectAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class TeamProjectAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/team_project_assignment mongodbatlas_team_project_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/team_project_assignment mongodbatlas_team_project_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class TeamProjectAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_team_project_assignment',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ConfigInspectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * CSP Type (SCP, AWS, Azure)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#csp_type ConfigInspection#csp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#csp_type ConfigInspection#csp_type}
   */
   readonly cspType?: string;
   /**
   * BP or SSI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_check_type ConfigInspection#diagnosis_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_check_type ConfigInspection#diagnosis_check_type}
   */
   readonly diagnosisCheckType?: string;
   /**
   * Diagnosis Type(Console, SSI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_type ConfigInspection#diagnosis_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_type ConfigInspection#diagnosis_type}
   */
   readonly diagnosisType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#id ConfigInspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#id ConfigInspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,29 +35,29 @@ export interface ConfigInspectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Plan Type (STANDARD, MONTHLY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#plan_type ConfigInspection#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#plan_type ConfigInspection#plan_type}
   */
   readonly planType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#tags ConfigInspection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#tags ConfigInspection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * auth_key_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#auth_key_request ConfigInspection#auth_key_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#auth_key_request ConfigInspection#auth_key_request}
   */
   readonly authKeyRequest?: ConfigInspectionAuthKeyRequest;
   /**
   * diagnosis_object_request_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_object_request_list ConfigInspection#diagnosis_object_request_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_object_request_list ConfigInspection#diagnosis_object_request_list}
   */
   readonly diagnosisObjectRequestList: ConfigInspectionDiagnosisObjectRequestListStruct[] | cdktf.IResolvable;
   /**
   * schedule_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#schedule_request ConfigInspection#schedule_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#schedule_request ConfigInspection#schedule_request}
   */
   readonly scheduleRequest?: ConfigInspectionScheduleRequest;
 }
@@ -65,7 +65,7 @@ export interface ConfigInspectionAuthKeyRequest {
   /**
   * Auth Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#auth_key_id ConfigInspection#auth_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#auth_key_id ConfigInspection#auth_key_id}
   */
   readonly authKeyId?: string;
 }
@@ -151,19 +151,19 @@ export interface ConfigInspectionDiagnosisObjectRequestListStruct {
   /**
   * Diagnosis Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_account_id ConfigInspection#diagnosis_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_account_id ConfigInspection#diagnosis_account_id}
   */
   readonly diagnosisAccountId: string;
   /**
   * Diagnosis ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_id ConfigInspection#diagnosis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_id ConfigInspection#diagnosis_id}
   */
   readonly diagnosisId?: string;
   /**
   * Diagnosis Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_name ConfigInspection#diagnosis_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_name ConfigInspection#diagnosis_name}
   */
   readonly diagnosisName: string;
 }
@@ -333,31 +333,31 @@ export interface ConfigInspectionScheduleRequest {
   /**
   * Diagnosis Start Time (5-minute interval, 00~23 hours, 00~55 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#diagnosis_start_time_pattern ConfigInspection#diagnosis_start_time_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#diagnosis_start_time_pattern ConfigInspection#diagnosis_start_time_pattern}
   */
   readonly diagnosisStartTimePattern?: string;
   /**
   * Diagnosis Schedule Type (Monthly, Weekly, Daily)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#frequency_type ConfigInspection#frequency_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#frequency_type ConfigInspection#frequency_type}
   */
   readonly frequencyType?: string;
   /**
   * Diagnosis Schedule (0131, MondaySunday, everyDay)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#frequency_value ConfigInspection#frequency_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#frequency_value ConfigInspection#frequency_value}
   */
   readonly frequencyValue?: string;
   /**
   * Use Best Practice Checklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#use_diagnosis_check_type_bp ConfigInspection#use_diagnosis_check_type_bp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#use_diagnosis_check_type_bp ConfigInspection#use_diagnosis_check_type_bp}
   */
   readonly useDiagnosisCheckTypeBp?: string;
   /**
   * Use SSI Checklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#use_diagnosis_check_type_ssi ConfigInspection#use_diagnosis_check_type_ssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#use_diagnosis_check_type_ssi ConfigInspection#use_diagnosis_check_type_ssi}
   */
   readonly useDiagnosisCheckTypeSsi?: string;
 }
@@ -557,7 +557,7 @@ export class ConfigInspectionScheduleRequestOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection samsungcloudplatform_config_inspection}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection samsungcloudplatform_config_inspection}
 */
 export class ConfigInspection extends cdktf.TerraformResource {
 
@@ -573,7 +573,7 @@ export class ConfigInspection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigInspection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigInspection to import
-  * @param importFromId The id of the existing ConfigInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigInspection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -585,7 +585,7 @@ export class ConfigInspection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/config_inspection samsungcloudplatform_config_inspection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/config_inspection samsungcloudplatform_config_inspection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -596,8 +596,8 @@ export class ConfigInspection extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_config_inspection',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

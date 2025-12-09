@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ReservedfixedipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address that is associated with the reserved IP. Required if 'type' is 'ip_address', computed otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#fixed_ip_address Reservedfixedip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#fixed_ip_address Reservedfixedip#fixed_ip_address}
   */
   readonly fixedIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#id Reservedfixedip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#id Reservedfixedip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,77 +23,77 @@ export interface ReservedfixedipConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance ports that share a VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#instance_ports_that_share_vip Reservedfixedip#instance_ports_that_share_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#instance_ports_that_share_vip Reservedfixedip#instance_ports_that_share_vip}
   */
   readonly instancePortsThatShareVip?: string[];
   /**
   * Flag to determine if the reserved fixed IP should be treated as a Virtual IP (VIP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#is_vip Reservedfixedip#is_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#is_vip Reservedfixedip#is_vip}
   */
   readonly isVip?: boolean | cdktf.IResolvable;
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#last_updated Reservedfixedip#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#last_updated Reservedfixedip#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * ID of the network to which the reserved fixed IP is associated. Required if 'type' is 'ip_address' or 'any_subnet', computed otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#network_id Reservedfixedip#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#network_id Reservedfixedip#network_id}
   */
   readonly networkId?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#project_id Reservedfixedip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#project_id Reservedfixedip#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#project_name Reservedfixedip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#project_name Reservedfixedip#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#region_id Reservedfixedip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#region_id Reservedfixedip#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#region_name Reservedfixedip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#region_name Reservedfixedip#region_name}
   */
   readonly regionName?: string;
   /**
   * ID of the subnet from which the fixed IP should be reserved. Required if 'type' is 'subnet', computed otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#subnet_id Reservedfixedip#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#subnet_id Reservedfixedip#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The type of reserved fixed IP. Valid values are 'external', 'subnet', 'any_subnet', and 'ip_address'. Refer optional parameters description to determine which are required for each type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#type Reservedfixedip#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#type Reservedfixedip#type}
   */
   readonly type: string;
   /**
   * allowed_address_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#allowed_address_pairs Reservedfixedip#allowed_address_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#allowed_address_pairs Reservedfixedip#allowed_address_pairs}
   */
   readonly allowedAddressPairs?: ReservedfixedipAllowedAddressPairs[] | cdktf.IResolvable;
 }
 export interface ReservedfixedipAllowedAddressPairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#ip_address Reservedfixedip#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#ip_address Reservedfixedip#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#mac_address Reservedfixedip#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#mac_address Reservedfixedip#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -238,7 +238,7 @@ export class ReservedfixedipAllowedAddressPairsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip edgecenter_reservedfixedip}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip edgecenter_reservedfixedip}
 */
 export class Reservedfixedip extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class Reservedfixedip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Reservedfixedip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Reservedfixedip to import
-  * @param importFromId The id of the existing Reservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Reservedfixedip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Reservedfixedip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class Reservedfixedip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/reservedfixedip edgecenter_reservedfixedip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reservedfixedip edgecenter_reservedfixedip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class Reservedfixedip extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_reservedfixedip',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.5',
-        providerVersionConstraint: '0.10.5'
+        providerVersion: '0.10.6',
+        providerVersionConstraint: '0.10.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformSecurityGroupUserIpsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#id DataSamsungcloudplatformSecurityGroupUserIps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#id DataSamsungcloudplatformSecurityGroupUserIps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSamsungcloudplatformSecurityGroupUserIpsConfig extends cdkt
   /**
   * Security Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#security_group_id DataSamsungcloudplatformSecurityGroupUserIps#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#security_group_id DataSamsungcloudplatformSecurityGroupUserIps#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#contents DataSamsungcloudplatformSecurityGroupUserIps#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#contents DataSamsungcloudplatformSecurityGroupUserIps#contents}
   */
   readonly contents?: DataSamsungcloudplatformSecurityGroupUserIpsContents[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#filter DataSamsungcloudplatformSecurityGroupUserIps#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#filter DataSamsungcloudplatformSecurityGroupUserIps#filter}
   */
   readonly filter?: DataSamsungcloudplatformSecurityGroupUserIpsFilter[] | cdktf.IResolvable;
 }
@@ -138,19 +138,19 @@ export interface DataSamsungcloudplatformSecurityGroupUserIpsFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#name DataSamsungcloudplatformSecurityGroupUserIps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#name DataSamsungcloudplatformSecurityGroupUserIps#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#use_regex DataSamsungcloudplatformSecurityGroupUserIps#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#use_regex DataSamsungcloudplatformSecurityGroupUserIps#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#values DataSamsungcloudplatformSecurityGroupUserIps#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#values DataSamsungcloudplatformSecurityGroupUserIps#values}
   */
   readonly values: string[];
 }
@@ -318,7 +318,7 @@ export class DataSamsungcloudplatformSecurityGroupUserIpsFilterList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips samsungcloudplatform_security_group_user_ips}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips samsungcloudplatform_security_group_user_ips}
 */
 export class DataSamsungcloudplatformSecurityGroupUserIps extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataSamsungcloudplatformSecurityGroupUserIps extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataSamsungcloudplatformSecurityGroupUserIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformSecurityGroupUserIps to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformSecurityGroupUserIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformSecurityGroupUserIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformSecurityGroupUserIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataSamsungcloudplatformSecurityGroupUserIps extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/security_group_user_ips samsungcloudplatform_security_group_user_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/security_group_user_ips samsungcloudplatform_security_group_user_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataSamsungcloudplatformSecurityGroupUserIps extends cdktf.Terrafor
       terraformResourceType: 'samsungcloudplatform_security_group_user_ips',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

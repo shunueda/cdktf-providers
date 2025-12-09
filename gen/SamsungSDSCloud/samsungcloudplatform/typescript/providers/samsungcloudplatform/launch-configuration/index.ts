@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LaunchConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#id LaunchConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#id LaunchConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface LaunchConfigurationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#image_id LaunchConfiguration#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#image_id LaunchConfiguration#image_id}
   */
   readonly imageId: string;
   /**
   * Virtual Server's initial script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#initial_script LaunchConfiguration#initial_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#initial_script LaunchConfiguration#initial_script}
   */
   readonly initialScript?: string;
   /**
   * Key pair ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#key_pair_id LaunchConfiguration#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#key_pair_id LaunchConfiguration#key_pair_id}
   */
   readonly keyPairId: string;
   /**
   * Launch Configuration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#lc_name LaunchConfiguration#lc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#lc_name LaunchConfiguration#lc_name}
   */
   readonly lcName: string;
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#server_type LaunchConfiguration#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#server_type LaunchConfiguration#server_type}
   */
   readonly serverType: string;
   /**
   * Service zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#service_zone_id LaunchConfiguration#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#service_zone_id LaunchConfiguration#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#tags LaunchConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#tags LaunchConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#block_storages LaunchConfiguration#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#block_storages LaunchConfiguration#block_storages}
   */
   readonly blockStorages: LaunchConfigurationBlockStorages[] | cdktf.IResolvable;
 }
@@ -65,25 +65,25 @@ export interface LaunchConfigurationBlockStorages {
   /**
   * Block Storage size (GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#block_storage_size LaunchConfiguration#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#block_storage_size LaunchConfiguration#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Block Storage product (default value : SSD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#disk_type LaunchConfiguration#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#disk_type LaunchConfiguration#disk_type}
   */
   readonly diskType: string;
   /**
   * Encryption enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#encryption_enabled LaunchConfiguration#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#encryption_enabled LaunchConfiguration#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
   * Is boot disk or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#is_boot_disk LaunchConfiguration#is_boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#is_boot_disk LaunchConfiguration#is_boot_disk}
   */
   readonly isBootDisk: boolean | cdktf.IResolvable;
 }
@@ -279,7 +279,7 @@ export class LaunchConfigurationBlockStoragesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration samsungcloudplatform_launch_configuration}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration samsungcloudplatform_launch_configuration}
 */
 export class LaunchConfiguration extends cdktf.TerraformResource {
 
@@ -295,7 +295,7 @@ export class LaunchConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LaunchConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LaunchConfiguration to import
-  * @param importFromId The id of the existing LaunchConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LaunchConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LaunchConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class LaunchConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/launch_configuration samsungcloudplatform_launch_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/launch_configuration samsungcloudplatform_launch_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class LaunchConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_launch_configuration',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

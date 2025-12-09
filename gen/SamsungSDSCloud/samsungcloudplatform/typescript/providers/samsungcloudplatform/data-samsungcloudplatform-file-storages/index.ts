@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataSamsungcloudplatformFileStoragesConfig extends cdktf.Terraf
   /**
   * Block ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#block_id DataSamsungcloudplatformFileStorages#block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#block_id DataSamsungcloudplatformFileStorages#block_id}
   */
   readonly blockId?: string;
   /**
   * Created By
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#created_by DataSamsungcloudplatformFileStorages#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#created_by DataSamsungcloudplatformFileStorages#created_by}
   */
   readonly createdBy?: string;
   /**
   * File Storage ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#file_storage_id DataSamsungcloudplatformFileStorages#file_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#file_storage_id DataSamsungcloudplatformFileStorages#file_storage_id}
   */
   readonly fileStorageId?: string;
   /**
   * File Storage Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#file_storage_name DataSamsungcloudplatformFileStorages#file_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#file_storage_name DataSamsungcloudplatformFileStorages#file_storage_name}
   */
   readonly fileStorageName?: string;
   /**
   * File Storage Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#file_storage_protocol DataSamsungcloudplatformFileStorages#file_storage_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#file_storage_protocol DataSamsungcloudplatformFileStorages#file_storage_protocol}
   */
   readonly fileStorageProtocol?: string;
   /**
   * File Storage State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#file_storage_state DataSamsungcloudplatformFileStorages#file_storage_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#file_storage_state DataSamsungcloudplatformFileStorages#file_storage_state}
   */
   readonly fileStorageState?: string;
   /**
   * File Storage States
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#file_storage_states DataSamsungcloudplatformFileStorages#file_storage_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#file_storage_states DataSamsungcloudplatformFileStorages#file_storage_states}
   */
   readonly fileStorageStates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#id DataSamsungcloudplatformFileStorages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#id DataSamsungcloudplatformFileStorages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,25 +59,25 @@ export interface DataSamsungcloudplatformFileStoragesConfig extends cdktf.Terraf
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#page DataSamsungcloudplatformFileStorages#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#page DataSamsungcloudplatformFileStorages#page}
   */
   readonly page?: number;
   /**
   * Service Zone ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#service_zone_id DataSamsungcloudplatformFileStorages#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#service_zone_id DataSamsungcloudplatformFileStorages#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#size DataSamsungcloudplatformFileStorages#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#size DataSamsungcloudplatformFileStorages#size}
   */
   readonly size?: number;
   /**
   * Sort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#sort DataSamsungcloudplatformFileStorages#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#sort DataSamsungcloudplatformFileStorages#sort}
   */
   readonly sort?: string[];
 }
@@ -155,6 +155,11 @@ export class DataSamsungcloudplatformFileStoragesContentsOutputReference extends
   // encryption_enabled - computed: true, optional: false, required: false
   public get encryptionEnabled() {
     return this.getBooleanAttribute('encryption_enabled');
+  }
+
+  // file_storage_category - computed: true, optional: false, required: false
+  public get fileStorageCategory() {
+    return this.getStringAttribute('file_storage_category');
   }
 
   // file_storage_id - computed: true, optional: false, required: false
@@ -238,7 +243,7 @@ export class DataSamsungcloudplatformFileStoragesContentsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages samsungcloudplatform_file_storages}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages samsungcloudplatform_file_storages}
 */
 export class DataSamsungcloudplatformFileStorages extends cdktf.TerraformDataSource {
 
@@ -254,7 +259,7 @@ export class DataSamsungcloudplatformFileStorages extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSamsungcloudplatformFileStorages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformFileStorages to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformFileStorages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformFileStorages that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformFileStorages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +271,7 @@ export class DataSamsungcloudplatformFileStorages extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/file_storages samsungcloudplatform_file_storages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/file_storages samsungcloudplatform_file_storages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +282,8 @@ export class DataSamsungcloudplatformFileStorages extends cdktf.TerraformDataSou
       terraformResourceType: 'samsungcloudplatform_file_storages',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

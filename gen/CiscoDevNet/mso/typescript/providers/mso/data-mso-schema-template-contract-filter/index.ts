@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter
+// https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataMsoSchemaTemplateContractFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#contract_name DataMsoSchemaTemplateContractFilter#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#contract_name DataMsoSchemaTemplateContractFilter#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#filter_name DataMsoSchemaTemplateContractFilter#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#filter_name DataMsoSchemaTemplateContractFilter#filter_name}
   */
   readonly filterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#filter_schema_id DataMsoSchemaTemplateContractFilter#filter_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#filter_schema_id DataMsoSchemaTemplateContractFilter#filter_schema_id}
   */
   readonly filterSchemaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#filter_template_name DataMsoSchemaTemplateContractFilter#filter_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#filter_template_name DataMsoSchemaTemplateContractFilter#filter_template_name}
   */
   readonly filterTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#filter_type DataMsoSchemaTemplateContractFilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#filter_type DataMsoSchemaTemplateContractFilter#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#id DataMsoSchemaTemplateContractFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#id DataMsoSchemaTemplateContractFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#schema_id DataMsoSchemaTemplateContractFilter#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#schema_id DataMsoSchemaTemplateContractFilter#schema_id}
   */
   readonly schemaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#template_name DataMsoSchemaTemplateContractFilter#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#template_name DataMsoSchemaTemplateContractFilter#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter mso_schema_template_contract_filter}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter mso_schema_template_contract_filter}
 */
 export class DataMsoSchemaTemplateContractFilter extends cdktf.TerraformDataSource {
 
@@ -61,7 +61,7 @@ export class DataMsoSchemaTemplateContractFilter extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataMsoSchemaTemplateContractFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsoSchemaTemplateContractFilter to import
-  * @param importFromId The id of the existing DataMsoSchemaTemplateContractFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsoSchemaTemplateContractFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsoSchemaTemplateContractFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class DataMsoSchemaTemplateContractFilter extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.6.0/docs/data-sources/schema_template_contract_filter mso_schema_template_contract_filter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/mso/1.7.0/docs/data-sources/schema_template_contract_filter mso_schema_template_contract_filter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class DataMsoSchemaTemplateContractFilter extends cdktf.TerraformDataSour
       terraformResourceType: 'mso_schema_template_contract_filter',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

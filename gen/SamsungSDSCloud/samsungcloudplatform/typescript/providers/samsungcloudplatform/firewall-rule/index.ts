@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface FirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule action. (ALLOW, DROP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#action FirewallRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#action FirewallRule#action}
   */
   readonly action: string;
   /**
   * Rule description. (0 to 100 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#description FirewallRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#description FirewallRule#description}
   */
   readonly description?: string;
   /**
   * Destination ip addresses list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#destination_addresses_ipv4 FirewallRule#destination_addresses_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#destination_addresses_ipv4 FirewallRule#destination_addresses_ipv4}
   */
   readonly destinationAddressesIpv4: string[];
   /**
   * Rule direction. (IN, OUT, IN_OUT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#direction FirewallRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#direction FirewallRule#direction}
   */
   readonly direction: string;
   /**
   * Rule enabled state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#enabled FirewallRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#enabled FirewallRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Firewall id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#firewall_id FirewallRule#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#firewall_id FirewallRule#firewall_id}
   */
   readonly firewallId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#id FirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#id FirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface FirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location Rule id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#location_rule_id FirewallRule#location_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#location_rule_id FirewallRule#location_rule_id}
   */
   readonly locationRuleId?: string;
   /**
   * Rule location type. (FIRST, BEFORE, AFTER, LAST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#rule_location_type FirewallRule#rule_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#rule_location_type FirewallRule#rule_location_type}
   */
   readonly ruleLocationType?: string;
   /**
   * Source ip addresses list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#source_addresses_ipv4 FirewallRule#source_addresses_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#source_addresses_ipv4 FirewallRule#source_addresses_ipv4}
   */
   readonly sourceAddressesIpv4: string[];
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#service FirewallRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#service FirewallRule#service}
   */
   readonly service: FirewallRuleService[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface FirewallRuleService {
   /**
   * Protocol type. (TCP, UDP, ICMP, ALL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#type FirewallRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#type FirewallRule#type}
   */
   readonly type: string;
   /**
   * Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#value FirewallRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#value FirewallRule#value}
   */
   readonly value?: string;
 }
@@ -227,7 +227,7 @@ export class FirewallRuleServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule samsungcloudplatform_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule samsungcloudplatform_firewall_rule}
 */
 export class FirewallRule extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class FirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallRule to import
-  * @param importFromId The id of the existing FirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class FirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/firewall_rule samsungcloudplatform_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/firewall_rule samsungcloudplatform_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class FirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

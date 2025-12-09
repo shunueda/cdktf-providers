@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface RedisConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#contract_period Redis#contract_period}
-  */
-  readonly contractPeriod: string;
-  /**
   * Port number of database. (1024 to 65535)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#database_port Redis#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#database_port Redis#database_port}
   */
   readonly databasePort: number;
   /**
   * User account password of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#database_user_password Redis#database_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#database_user_password Redis#database_user_password}
   */
   readonly databaseUserPassword: string;
   /**
   * Whether to use storage encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#encryption_enabled Redis#encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#encryption_enabled Redis#encryption_enabled}
   */
   readonly encryptionEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#id Redis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#id Redis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,95 +35,89 @@ export interface RedisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Redis virtual server image id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#image_id Redis#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#image_id Redis#image_id}
   */
   readonly imageId: string;
   /**
   * Whether to use nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#nat_enabled Redis#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#nat_enabled Redis#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Next contract (None|1 Year|3 Year)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#next_contract_period Redis#next_contract_period}
-  */
-  readonly nextContractPeriod?: string;
-  /**
   * Name of database cluster. (3 to 20 characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#redis_name Redis#redis_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#redis_name Redis#redis_name}
   */
   readonly redisName: string;
   /**
   * redis state (RUNNING|STOPPED)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#redis_state Redis#redis_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#redis_state Redis#redis_state}
   */
   readonly redisState: string;
   /**
   * Security-Group ids of this redis DB. Each security-group must be a valid security-group resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#security_group_ids Redis#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#security_group_ids Redis#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#server_type Redis#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#server_type Redis#server_type}
   */
   readonly serverType: string;
   /**
   * Service Zone Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#service_zone_id Redis#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#service_zone_id Redis#service_zone_id}
   */
   readonly serviceZoneId: string;
   /**
   * Subnet id of this database server. Subnet must be a valid subnet resource which is attached to the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#subnet_id Redis#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#subnet_id Redis#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#tags Redis#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#tags Redis#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timezone setting of this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#timezone Redis#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#timezone Redis#timezone}
   */
   readonly timezone: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#backup Redis#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#backup Redis#backup}
   */
   readonly backup?: RedisBackup;
   /**
   * block_storages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#block_storages Redis#block_storages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#block_storages Redis#block_storages}
   */
   readonly blockStorages: RedisBlockStorages;
   /**
   * redis_sentinel_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#redis_sentinel_server Redis#redis_sentinel_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#redis_sentinel_server Redis#redis_sentinel_server}
   */
   readonly redisSentinelServer?: RedisRedisSentinelServer[] | cdktf.IResolvable;
   /**
   * redis_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#redis_servers Redis#redis_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#redis_servers Redis#redis_servers}
   */
   readonly redisServers: RedisRedisServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#timeouts Redis#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#timeouts Redis#timeouts}
   */
   readonly timeouts?: RedisTimeouts;
 }
@@ -137,19 +125,19 @@ export interface RedisBackup {
   /**
   * Backup File Retention Day.(7D <= day <= 35D) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#backup_retention_period Redis#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#backup_retention_period Redis#backup_retention_period}
   */
   readonly backupRetentionPeriod: string;
   /**
   * The time at which the backup starts. (from 0 to 23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#backup_start_hour Redis#backup_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#backup_start_hour Redis#backup_start_hour}
   */
   readonly backupStartHour: number;
   /**
   * Object storage ID where backup files will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#object_storage_id Redis#object_storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#object_storage_id Redis#object_storage_id}
   */
   readonly objectStorageId?: string;
 }
@@ -287,13 +275,13 @@ export interface RedisBlockStorages {
   /**
   * Block Storage Size (10 to 5120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#block_storage_size Redis#block_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#block_storage_size Redis#block_storage_size}
   */
   readonly blockStorageSize: number;
   /**
   * Storage product name. (SSD|HDD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#block_storage_type Redis#block_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#block_storage_type Redis#block_storage_type}
   */
   readonly blockStorageType: string;
 }
@@ -407,25 +395,25 @@ export interface RedisRedisSentinelServer {
   /**
   * Availability zone name set in a Multi AZ environment. If it is null, it is automatically allocated as AZ1. (AZ1 | AZ2 | AZ3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#availability_zone_name Redis#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#availability_zone_name Redis#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * ublic IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#sentinel_nat_public_ip_id Redis#sentinel_nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#sentinel_nat_public_ip_id Redis#sentinel_nat_public_ip_id}
   */
   readonly sentinelNatPublicIpId?: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (ACTIVE | STANDBY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#sentinel_port Redis#sentinel_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#sentinel_port Redis#sentinel_port}
   */
   readonly sentinelPort: number;
   /**
   * Redis database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#sentinel_server_name Redis#sentinel_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#sentinel_server_name Redis#sentinel_server_name}
   */
   readonly sentinelServerName: string;
 }
@@ -629,25 +617,25 @@ export interface RedisRedisServers {
   /**
   * Availability zone name set in a Multi AZ environment. If it is null, it is automatically allocated as AZ1. (AZ1 | AZ2 | AZ3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#availability_zone_name Redis#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#availability_zone_name Redis#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Public IP for NAT. If it is null, it is automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#nat_public_ip_id Redis#nat_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#nat_public_ip_id Redis#nat_public_ip_id}
   */
   readonly natPublicIpId?: string;
   /**
   * Redis database server names. (3 to 20 lowercase and number with dash and the first character should be an lowercase letter.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#redis_server_name Redis#redis_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#redis_server_name Redis#redis_server_name}
   */
   readonly redisServerName: string;
   /**
   * Server role type Enter 'ACTIVE' for a single server configuration. (MASTER | REPLICA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#server_role_type Redis#server_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#server_role_type Redis#server_role_type}
   */
   readonly serverRoleType: string;
 }
@@ -849,15 +837,15 @@ export class RedisRedisServersList extends cdktf.ComplexList {
 }
 export interface RedisTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#create Redis#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#create Redis#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#delete Redis#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#delete Redis#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#update Redis#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#update Redis#update}
   */
   readonly update?: string;
 }
@@ -1009,7 +997,7 @@ export class RedisTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis samsungcloudplatform_redis}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis samsungcloudplatform_redis}
 */
 export class Redis extends cdktf.TerraformResource {
 
@@ -1025,7 +1013,7 @@ export class Redis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Redis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Redis to import
-  * @param importFromId The id of the existing Redis that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Redis that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Redis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1037,7 +1025,7 @@ export class Redis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/resources/redis samsungcloudplatform_redis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/resources/redis samsungcloudplatform_redis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1048,8 +1036,8 @@ export class Redis extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_redis',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1059,14 +1047,12 @@ export class Redis extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._contractPeriod = config.contractPeriod;
     this._databasePort = config.databasePort;
     this._databaseUserPassword = config.databaseUserPassword;
     this._encryptionEnabled = config.encryptionEnabled;
     this._id = config.id;
     this._imageId = config.imageId;
     this._natEnabled = config.natEnabled;
-    this._nextContractPeriod = config.nextContractPeriod;
     this._redisName = config.redisName;
     this._redisState = config.redisState;
     this._securityGroupIds = config.securityGroupIds;
@@ -1085,19 +1071,6 @@ export class Redis extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // contract_period - computed: false, optional: false, required: true
-  private _contractPeriod?: string; 
-  public get contractPeriod() {
-    return this.getStringAttribute('contract_period');
-  }
-  public set contractPeriod(value: string) {
-    this._contractPeriod = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get contractPeriodInput() {
-    return this._contractPeriod;
-  }
 
   // database_port - computed: false, optional: false, required: true
   private _databasePort?: number; 
@@ -1181,22 +1154,6 @@ export class Redis extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get natEnabledInput() {
     return this._natEnabled;
-  }
-
-  // next_contract_period - computed: false, optional: true, required: false
-  private _nextContractPeriod?: string; 
-  public get nextContractPeriod() {
-    return this.getStringAttribute('next_contract_period');
-  }
-  public set nextContractPeriod(value: string) {
-    this._nextContractPeriod = value;
-  }
-  public resetNextContractPeriod() {
-    this._nextContractPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nextContractPeriodInput() {
-    return this._nextContractPeriod;
   }
 
   // redis_name - computed: false, optional: false, required: true
@@ -1391,14 +1348,12 @@ export class Redis extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      contract_period: cdktf.stringToTerraform(this._contractPeriod),
       database_port: cdktf.numberToTerraform(this._databasePort),
       database_user_password: cdktf.stringToTerraform(this._databaseUserPassword),
       encryption_enabled: cdktf.booleanToTerraform(this._encryptionEnabled),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       nat_enabled: cdktf.booleanToTerraform(this._natEnabled),
-      next_contract_period: cdktf.stringToTerraform(this._nextContractPeriod),
       redis_name: cdktf.stringToTerraform(this._redisName),
       redis_state: cdktf.stringToTerraform(this._redisState),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
@@ -1417,12 +1372,6 @@ export class Redis extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      contract_period: {
-        value: cdktf.stringToHclTerraform(this._contractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       database_port: {
         value: cdktf.numberToHclTerraform(this._databasePort),
         isBlock: false,
@@ -1458,12 +1407,6 @@ export class Redis extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      next_contract_period: {
-        value: cdktf.stringToHclTerraform(this._nextContractPeriod),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       redis_name: {
         value: cdktf.stringToHclTerraform(this._redisName),

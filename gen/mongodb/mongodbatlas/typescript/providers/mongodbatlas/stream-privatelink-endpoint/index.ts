@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface StreamPrivatelinkEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * Amazon Resource Name (ARN). Required for AWS Provider and MSK vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#arn StreamPrivatelinkEndpoint#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#arn StreamPrivatelinkEndpoint#arn}
   */
   readonly arn?: string;
   /**
@@ -20,37 +20,43 @@ export interface StreamPrivatelinkEndpointConfig extends cdktf.TerraformMetaArgu
   * 
   * 	* AZURE provider with EVENTHUB or CONFLUENT vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#dns_domain StreamPrivatelinkEndpoint#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#dns_domain StreamPrivatelinkEndpoint#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
   * Sub-Domain name of Confluent cluster. These are typically your availability zones. Required for AWS Provider and CONFLUENT vendor. If your AWS CONFLUENT cluster doesn't use subdomains, you must set this to the empty array [].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#dns_sub_domain StreamPrivatelinkEndpoint#dns_sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#dns_sub_domain StreamPrivatelinkEndpoint#dns_sub_domain}
   */
   readonly dnsSubDomain?: string[];
   /**
   * Unique 24-hexadecimal digit string that identifies your project. Use the [/groups](#tag/Projects/operation/listProjects) endpoint to retrieve all projects to which the authenticated user has access.<br>**NOTE**: Groups and projects are synonymous terms. Your group id is the same as your project id. For existing groups, your group or project id remains the same. The resource and corresponding endpoints use the term groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#project_id StreamPrivatelinkEndpoint#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#project_id StreamPrivatelinkEndpoint#project_id}
   */
   readonly projectId: string;
   /**
-  * Provider where the endpoint is deployed. Valid values are AWS and AZURE.
+  * Provider where the endpoint is deployed. Valid values are AWS, AZURE, and GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#provider_name StreamPrivatelinkEndpoint#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#provider_name StreamPrivatelinkEndpoint#provider_name}
   */
   readonly providerName: string;
   /**
   * The region of the Provider’s cluster. See [AZURE](https://www.mongodb.com/docs/atlas/reference/microsoft-azure/#stream-processing-instances) and [AWS](https://www.mongodb.com/docs/atlas/reference/amazon-aws/#stream-processing-instances) supported regions. When the vendor is `CONFLUENT`, this is the domain name of Confluent cluster. When the vendor is `MSK`, this is computed by the API from the provided `arn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#region StreamPrivatelinkEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#region StreamPrivatelinkEndpoint#region}
   */
   readonly region?: string;
   /**
+  * List of GCP service attachment URIs for Confluent vendor. Required for GCP provider with CONFLUENT vendor.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#service_attachment_uris StreamPrivatelinkEndpoint#service_attachment_uris}
+  */
+  readonly serviceAttachmentUris?: string[];
+  /**
   * For AZURE EVENTHUB, this is the [namespace endpoint ID](https://learn.microsoft.com/en-us/rest/api/eventhub/namespaces/get). For AWS CONFLUENT cluster, this is the [VPC Endpoint service name](https://docs.confluent.io/cloud/current/networking/private-links/aws-privatelink.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#service_endpoint_id StreamPrivatelinkEndpoint#service_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#service_endpoint_id StreamPrivatelinkEndpoint#service_endpoint_id}
   */
   readonly serviceEndpointId?: string;
   /**
@@ -59,14 +65,16 @@ export interface StreamPrivatelinkEndpointConfig extends cdktf.TerraformMetaArgu
   * 	* **AWS**: MSK, CONFLUENT, and S3
   * 
   * 	* **Azure**: EVENTHUB and CONFLUENT
+  * 
+  * 	* **GCP**: CONFLUENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#vendor StreamPrivatelinkEndpoint#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#vendor StreamPrivatelinkEndpoint#vendor}
   */
   readonly vendor: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint mongodbatlas_stream_privatelink_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint mongodbatlas_stream_privatelink_endpoint}
 */
 export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
 
@@ -82,7 +90,7 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamPrivatelinkEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamPrivatelinkEndpoint to import
-  * @param importFromId The id of the existing StreamPrivatelinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamPrivatelinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamPrivatelinkEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -94,7 +102,7 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/resources/stream_privatelink_endpoint mongodbatlas_stream_privatelink_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.3.0/docs/resources/stream_privatelink_endpoint mongodbatlas_stream_privatelink_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -105,8 +113,8 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_stream_privatelink_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -122,6 +130,7 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
     this._projectId = config.projectId;
     this._providerName = config.providerName;
     this._region = config.region;
+    this._serviceAttachmentUris = config.serviceAttachmentUris;
     this._serviceEndpointId = config.serviceEndpointId;
     this._vendor = config.vendor;
   }
@@ -245,6 +254,22 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
     return this._region;
   }
 
+  // service_attachment_uris - computed: false, optional: true, required: false
+  private _serviceAttachmentUris?: string[]; 
+  public get serviceAttachmentUris() {
+    return this.getListAttribute('service_attachment_uris');
+  }
+  public set serviceAttachmentUris(value: string[]) {
+    this._serviceAttachmentUris = value;
+  }
+  public resetServiceAttachmentUris() {
+    this._serviceAttachmentUris = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAttachmentUrisInput() {
+    return this._serviceAttachmentUris;
+  }
+
   // service_endpoint_id - computed: false, optional: true, required: false
   private _serviceEndpointId?: string; 
   public get serviceEndpointId() {
@@ -291,6 +316,7 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
       project_id: cdktf.stringToTerraform(this._projectId),
       provider_name: cdktf.stringToTerraform(this._providerName),
       region: cdktf.stringToTerraform(this._region),
+      service_attachment_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(this._serviceAttachmentUris),
       service_endpoint_id: cdktf.stringToTerraform(this._serviceEndpointId),
       vendor: cdktf.stringToTerraform(this._vendor),
     };
@@ -333,6 +359,12 @@ export class StreamPrivatelinkEndpoint extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      service_attachment_uris: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._serviceAttachmentUris),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       service_endpoint_id: {
         value: cdktf.stringToHclTerraform(this._serviceEndpointId),

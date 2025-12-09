@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSamsungcloudplatformProjectProductResourcesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#id DataSamsungcloudplatformProjectProductResources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#id DataSamsungcloudplatformProjectProductResources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSamsungcloudplatformProjectProductResourcesConfig extends c
   /**
   * Product category ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#product_category_id DataSamsungcloudplatformProjectProductResources#product_category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#product_category_id DataSamsungcloudplatformProjectProductResources#product_category_id}
   */
   readonly productCategoryId?: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#project_id DataSamsungcloudplatformProjectProductResources#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#project_id DataSamsungcloudplatformProjectProductResources#project_id}
   */
   readonly projectId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#filter DataSamsungcloudplatformProjectProductResources#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#filter DataSamsungcloudplatformProjectProductResources#filter}
   */
   readonly filter?: DataSamsungcloudplatformProjectProductResourcesFilter[] | cdktf.IResolvable;
 }
@@ -198,19 +198,19 @@ export interface DataSamsungcloudplatformProjectProductResourcesFilter {
   /**
   * Filtering target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#name DataSamsungcloudplatformProjectProductResources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#name DataSamsungcloudplatformProjectProductResources#name}
   */
   readonly name: string;
   /**
   * Enable regex match for values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#use_regex DataSamsungcloudplatformProjectProductResources#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#use_regex DataSamsungcloudplatformProjectProductResources#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * Filtering values. Each matching value is appended. (OR rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#values DataSamsungcloudplatformProjectProductResources#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#values DataSamsungcloudplatformProjectProductResources#values}
   */
   readonly values: string[];
 }
@@ -378,7 +378,7 @@ export class DataSamsungcloudplatformProjectProductResourcesFilterList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources samsungcloudplatform_project_product_resources}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources samsungcloudplatform_project_product_resources}
 */
 export class DataSamsungcloudplatformProjectProductResources extends cdktf.TerraformDataSource {
 
@@ -394,7 +394,7 @@ export class DataSamsungcloudplatformProjectProductResources extends cdktf.Terra
   * Generates CDKTF code for importing a DataSamsungcloudplatformProjectProductResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformProjectProductResources to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformProjectProductResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformProjectProductResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformProjectProductResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class DataSamsungcloudplatformProjectProductResources extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/project_product_resources samsungcloudplatform_project_product_resources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/project_product_resources samsungcloudplatform_project_product_resources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class DataSamsungcloudplatformProjectProductResources extends cdktf.Terra
       terraformResourceType: 'samsungcloudplatform_project_product_resources',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

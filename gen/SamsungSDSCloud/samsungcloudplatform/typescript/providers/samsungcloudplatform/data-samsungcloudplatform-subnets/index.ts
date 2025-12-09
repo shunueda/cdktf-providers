@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformSubnetsConfig extends cdktf.TerraformMe
   /**
   * The person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#created_by DataSamsungcloudplatformSubnets#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#created_by DataSamsungcloudplatformSubnets#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#id DataSamsungcloudplatformSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#id DataSamsungcloudplatformSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataSamsungcloudplatformSubnetsConfig extends cdktf.TerraformMe
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#page DataSamsungcloudplatformSubnets#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#page DataSamsungcloudplatformSubnets#page}
   */
   readonly page?: number;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#size DataSamsungcloudplatformSubnets#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#size DataSamsungcloudplatformSubnets#size}
   */
   readonly size?: number;
   /**
   * Subnet CIDR block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#subnet_cidr_block DataSamsungcloudplatformSubnets#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#subnet_cidr_block DataSamsungcloudplatformSubnets#subnet_cidr_block}
   */
   readonly subnetCidrBlock?: string;
   /**
   * Subnet id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#subnet_id DataSamsungcloudplatformSubnets#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#subnet_id DataSamsungcloudplatformSubnets#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Subnet name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#subnet_name DataSamsungcloudplatformSubnets#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#subnet_name DataSamsungcloudplatformSubnets#subnet_name}
   */
   readonly subnetName?: string;
   /**
   * Subnet states (ACTIVE, ERROR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#subnet_states DataSamsungcloudplatformSubnets#subnet_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#subnet_states DataSamsungcloudplatformSubnets#subnet_states}
   */
   readonly subnetStates?: string;
   /**
   * Subnet types (PUBLIC, PRIVATE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#subnet_types DataSamsungcloudplatformSubnets#subnet_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#subnet_types DataSamsungcloudplatformSubnets#subnet_types}
   */
   readonly subnetTypes?: string;
   /**
   * VPC id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#vpc_id DataSamsungcloudplatformSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#vpc_id DataSamsungcloudplatformSubnets#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#contents DataSamsungcloudplatformSubnets#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#contents DataSamsungcloudplatformSubnets#contents}
   */
   readonly contents?: DataSamsungcloudplatformSubnetsContents[] | cdktf.IResolvable;
 }
@@ -203,7 +203,7 @@ export class DataSamsungcloudplatformSubnetsContentsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets samsungcloudplatform_subnets}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets samsungcloudplatform_subnets}
 */
 export class DataSamsungcloudplatformSubnets extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataSamsungcloudplatformSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSamsungcloudplatformSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformSubnets to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataSamsungcloudplatformSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/subnets samsungcloudplatform_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/subnets samsungcloudplatform_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataSamsungcloudplatformSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'samsungcloudplatform_subnets',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

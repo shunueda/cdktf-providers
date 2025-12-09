@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways
+// https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSamsungcloudplatformNatGatewaysConfig extends cdktf.Terrafo
   /**
   * Person who created the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#created_by DataSamsungcloudplatformNatGateways#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#created_by DataSamsungcloudplatformNatGateways#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#id DataSamsungcloudplatformNatGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#id DataSamsungcloudplatformNatGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataSamsungcloudplatformNatGatewaysConfig extends cdktf.Terrafo
   /**
   * Nat Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#nat_gateway_id DataSamsungcloudplatformNatGateways#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#nat_gateway_id DataSamsungcloudplatformNatGateways#nat_gateway_id}
   */
   readonly natGatewayId?: string;
   /**
   * Nat Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#nat_gateway_name DataSamsungcloudplatformNatGateways#nat_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#nat_gateway_name DataSamsungcloudplatformNatGateways#nat_gateway_name}
   */
   readonly natGatewayName?: string;
   /**
   * Nat Gateway status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#nat_gateway_state DataSamsungcloudplatformNatGateways#nat_gateway_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#nat_gateway_state DataSamsungcloudplatformNatGateways#nat_gateway_state}
   */
   readonly natGatewayState?: string;
   /**
   * Page start number from which to get the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#page DataSamsungcloudplatformNatGateways#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#page DataSamsungcloudplatformNatGateways#page}
   */
   readonly page?: number;
   /**
   * Service zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#service_zone_id DataSamsungcloudplatformNatGateways#service_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#service_zone_id DataSamsungcloudplatformNatGateways#service_zone_id}
   */
   readonly serviceZoneId?: string;
   /**
   * Size to get list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#size DataSamsungcloudplatformNatGateways#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#size DataSamsungcloudplatformNatGateways#size}
   */
   readonly size?: number;
   /**
   * Subnet id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#subnet_id DataSamsungcloudplatformNatGateways#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#subnet_id DataSamsungcloudplatformNatGateways#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#vpc_id DataSamsungcloudplatformNatGateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#vpc_id DataSamsungcloudplatformNatGateways#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#contents DataSamsungcloudplatformNatGateways#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#contents DataSamsungcloudplatformNatGateways#contents}
   */
   readonly contents?: DataSamsungcloudplatformNatGatewaysContents[] | cdktf.IResolvable;
 }
@@ -218,7 +218,7 @@ export class DataSamsungcloudplatformNatGatewaysContentsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways samsungcloudplatform_nat_gateways}
+* Represents a {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways samsungcloudplatform_nat_gateways}
 */
 export class DataSamsungcloudplatformNatGateways extends cdktf.TerraformDataSource {
 
@@ -234,7 +234,7 @@ export class DataSamsungcloudplatformNatGateways extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSamsungcloudplatformNatGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSamsungcloudplatformNatGateways to import
-  * @param importFromId The id of the existing DataSamsungcloudplatformNatGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSamsungcloudplatformNatGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSamsungcloudplatformNatGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class DataSamsungcloudplatformNatGateways extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/nat_gateways samsungcloudplatform_nat_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/nat_gateways samsungcloudplatform_nat_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class DataSamsungcloudplatformNatGateways extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_nat_gateways',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0',
-        providerVersionConstraint: '3.15.0'
+        providerVersion: '3.16.0',
+        providerVersionConstraint: '3.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

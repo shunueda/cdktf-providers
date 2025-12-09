@@ -1,3 +1,3 @@
 # `data_samsungcloudplatform_resource`
 
-Refer to the Terraform Registry for docs: [`data_samsungcloudplatform_resource`](https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.15.0/docs/data-sources/resource).
+Refer to the Terraform Registry for docs: [`data_samsungcloudplatform_resource`](https://registry.terraform.io/providers/samsungsdscloud/samsungcloudplatform/3.16.0/docs/data-sources/resource).
