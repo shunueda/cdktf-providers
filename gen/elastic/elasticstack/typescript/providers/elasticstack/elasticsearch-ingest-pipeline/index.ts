@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ElasticsearchIngestPipelineConfig extends cdktf.TerraformMetaAr
   /**
   * Description of the ingest pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#description ElasticsearchIngestPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#description ElasticsearchIngestPipeline#description}
   */
   readonly description?: string;
   /**
   * Optional user metadata about the index template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#metadata ElasticsearchIngestPipeline#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#metadata ElasticsearchIngestPipeline#metadata}
   */
   readonly metadata?: string;
   /**
   * The name of the ingest pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#name ElasticsearchIngestPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#name ElasticsearchIngestPipeline#name}
   */
   readonly name: string;
   /**
   * Processors to run immediately after a processor failure. Each processor supports a processor-level `on_failure` value. If a processor without an `on_failure` value fails, Elasticsearch uses this pipeline-level parameter as a fallback. The processors in this parameter run sequentially in the order specified. Elasticsearch will not attempt to run the pipeline’s remaining processors. See: https://www.elastic.co/guide/en/elasticsearch/reference/current/processors.html. Each record must be a valid JSON document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#on_failure ElasticsearchIngestPipeline#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#on_failure ElasticsearchIngestPipeline#on_failure}
   */
   readonly onFailure?: string[];
   /**
   * Processors used to perform transformations on documents before indexing. Processors run sequentially in the order specified. See: https://www.elastic.co/guide/en/elasticsearch/reference/current/processors.html. Each record must be a valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#processors ElasticsearchIngestPipeline#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#processors ElasticsearchIngestPipeline#processors}
   */
   readonly processors: string[];
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#elasticsearch_connection ElasticsearchIngestPipeline#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#elasticsearch_connection ElasticsearchIngestPipeline#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchIngestPipelineElasticsearchConnection;
 }
@@ -48,85 +48,85 @@ export interface ElasticsearchIngestPipelineElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#api_key ElasticsearchIngestPipeline#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#api_key ElasticsearchIngestPipeline#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#bearer_token ElasticsearchIngestPipeline#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#bearer_token ElasticsearchIngestPipeline#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#ca_data ElasticsearchIngestPipeline#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#ca_data ElasticsearchIngestPipeline#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#ca_file ElasticsearchIngestPipeline#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#ca_file ElasticsearchIngestPipeline#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#cert_data ElasticsearchIngestPipeline#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#cert_data ElasticsearchIngestPipeline#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#cert_file ElasticsearchIngestPipeline#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#cert_file ElasticsearchIngestPipeline#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#endpoints ElasticsearchIngestPipeline#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#endpoints ElasticsearchIngestPipeline#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#es_client_authentication ElasticsearchIngestPipeline#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#es_client_authentication ElasticsearchIngestPipeline#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#headers ElasticsearchIngestPipeline#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#headers ElasticsearchIngestPipeline#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#insecure ElasticsearchIngestPipeline#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#insecure ElasticsearchIngestPipeline#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#key_data ElasticsearchIngestPipeline#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#key_data ElasticsearchIngestPipeline#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#key_file ElasticsearchIngestPipeline#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#key_file ElasticsearchIngestPipeline#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#password ElasticsearchIngestPipeline#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#password ElasticsearchIngestPipeline#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#username ElasticsearchIngestPipeline#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#username ElasticsearchIngestPipeline#username}
   */
   readonly username?: string;
 }
@@ -587,7 +587,7 @@ export class ElasticsearchIngestPipelineElasticsearchConnectionOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline elasticstack_elasticsearch_ingest_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline elasticstack_elasticsearch_ingest_pipeline}
 */
 export class ElasticsearchIngestPipeline extends cdktf.TerraformResource {
 
@@ -603,7 +603,7 @@ export class ElasticsearchIngestPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchIngestPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchIngestPipeline to import
-  * @param importFromId The id of the existing ElasticsearchIngestPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchIngestPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchIngestPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -615,7 +615,7 @@ export class ElasticsearchIngestPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_ingest_pipeline elasticstack_elasticsearch_ingest_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ingest_pipeline elasticstack_elasticsearch_ingest_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,8 +626,8 @@ export class ElasticsearchIngestPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_ingest_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

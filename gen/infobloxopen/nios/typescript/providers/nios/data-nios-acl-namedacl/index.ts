@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosAclNamedaclConfig extends cdktf.TerraformMetaArguments 
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#extattrfilters DataNiosAclNamedacl#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#extattrfilters DataNiosAclNamedacl#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#filters DataNiosAclNamedacl#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#filters DataNiosAclNamedacl#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#max_results DataNiosAclNamedacl#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#max_results DataNiosAclNamedacl#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#paging DataNiosAclNamedacl#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#paging DataNiosAclNamedacl#paging}
   */
   readonly paging?: number;
 }
@@ -36,37 +36,37 @@ export interface DataNiosAclNamedaclResultAccessListStruct {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#address DataNiosAclNamedacl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#address DataNiosAclNamedacl#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#permission DataNiosAclNamedacl#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#permission DataNiosAclNamedacl#permission}
   */
   readonly permission?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#struct DataNiosAclNamedacl#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#struct DataNiosAclNamedacl#struct}
   */
   readonly struct: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#tsig_key DataNiosAclNamedacl#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#tsig_key DataNiosAclNamedacl#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#tsig_key_alg DataNiosAclNamedacl#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#tsig_key_alg DataNiosAclNamedacl#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#tsig_key_name DataNiosAclNamedacl#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#tsig_key_name DataNiosAclNamedacl#tsig_key_name}
   */
   readonly tsigKeyName?: string;
 }
@@ -436,25 +436,25 @@ export interface DataNiosAclNamedaclResult {
   /**
   * The access control list of IPv4/IPv6 addresses, networks, TSIG-based anonymous access controls, and other named ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#access_list DataNiosAclNamedacl#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#access_list DataNiosAclNamedacl#access_list}
   */
   readonly accessList?: DataNiosAclNamedaclResultAccessListStruct[] | cdktf.IResolvable;
   /**
   * Comment for the named ACL; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#comment DataNiosAclNamedacl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#comment DataNiosAclNamedacl#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#extattrs DataNiosAclNamedacl#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#extattrs DataNiosAclNamedacl#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the named ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#name DataNiosAclNamedacl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#name DataNiosAclNamedacl#name}
   */
   readonly name: string;
 }
@@ -661,7 +661,7 @@ export class DataNiosAclNamedaclResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl nios_acl_namedacl}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl nios_acl_namedacl}
 */
 export class DataNiosAclNamedacl extends cdktf.TerraformDataSource {
 
@@ -677,7 +677,7 @@ export class DataNiosAclNamedacl extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosAclNamedacl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosAclNamedacl to import
-  * @param importFromId The id of the existing DataNiosAclNamedacl that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosAclNamedacl that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosAclNamedacl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -689,7 +689,7 @@ export class DataNiosAclNamedacl extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/acl_namedacl nios_acl_namedacl} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/acl_namedacl nios_acl_namedacl} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,8 +700,8 @@ export class DataNiosAclNamedacl extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_acl_namedacl',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -38,6 +38,7 @@ Object.defineProperty(exports, 'kafkaUserV2', { get: function () { return requir
 Object.defineProperty(exports, 'kafkaUserV3', { get: function () { return require('./kafka-user-v3'); } });
 Object.defineProperty(exports, 'kafkaUserV4', { get: function () { return require('./kafka-user-v4'); } });
 Object.defineProperty(exports, 'kafkaUserV5', { get: function () { return require('./kafka-user-v5'); } });
+Object.defineProperty(exports, 'mcpGatewayClusterV2', { get: function () { return require('./mcp-gateway-cluster-v2'); } });
 Object.defineProperty(exports, 'mongodbClusterV2', { get: function () { return require('./mongodb-cluster-v2'); } });
 Object.defineProperty(exports, 'opensearchClusterV2', { get: function () { return require('./opensearch-cluster-v2'); } });
 Object.defineProperty(exports, 'opensearchEgressRuleV2', { get: function () { return require('./opensearch-egress-rule-v2'); } });
@@ -113,6 +114,7 @@ Object.defineProperty(exports, 'dataInstaclustrKafkaUserV5Instance', { get: func
 Object.defineProperty(exports, 'dataInstaclustrKafkaUsersUserCertificatesV2', { get: function () { return require('./data-instaclustr-kafka-users-user-certificates-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrKarapaceRestProxyClusterUsersV2', { get: function () { return require('./data-instaclustr-karapace-rest-proxy-cluster-users-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrKarapaceSchemaRegistryClusterUsersV2', { get: function () { return require('./data-instaclustr-karapace-schema-registry-cluster-users-v2'); } });
+Object.defineProperty(exports, 'dataInstaclustrMcpGatewayClusterV2Instance', { get: function () { return require('./data-instaclustr-mcp-gateway-cluster-v2-instance'); } });
 Object.defineProperty(exports, 'dataInstaclustrMongodbClusterV2Instance', { get: function () { return require('./data-instaclustr-mongodb-cluster-v2-instance'); } });
 Object.defineProperty(exports, 'dataInstaclustrOpensearchClusterEgressRulesV2', { get: function () { return require('./data-instaclustr-opensearch-cluster-egress-rules-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrOpensearchClusterV2Instance', { get: function () { return require('./data-instaclustr-opensearch-cluster-v2-instance'); } });

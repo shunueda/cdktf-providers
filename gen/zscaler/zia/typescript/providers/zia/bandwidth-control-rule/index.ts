@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface BandwidthControlRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the bandwidth control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#description BandwidthControlRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#description BandwidthControlRule#description}
   */
   readonly description?: string;
   /**
   * The maximum percentage of a location's bandwidth you want to be guaranteed for each selected bandwidth control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#max_bandwidth BandwidthControlRule#max_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#max_bandwidth BandwidthControlRule#max_bandwidth}
   */
   readonly maxBandwidth?: number;
   /**
   * The minimum percentage of a location's bandwidth you want to be guaranteed for each selected bandwidth control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#min_bandwidth BandwidthControlRule#min_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#min_bandwidth BandwidthControlRule#min_bandwidth}
   */
   readonly minBandwidth?: number;
   /**
   * The bandwidth control rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#name BandwidthControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#name BandwidthControlRule#name}
   */
   readonly name?: string;
   /**
   * The order of the bandwidth control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#order BandwidthControlRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#order BandwidthControlRule#order}
   */
   readonly order: number;
   /**
   * Supported Protocol criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#protocols BandwidthControlRule#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#protocols BandwidthControlRule#protocols}
   */
   readonly protocols: string[];
   /**
   * Admin rank of the Bandwidth Control policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#rank BandwidthControlRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#rank BandwidthControlRule#rank}
   */
   readonly rank?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#state BandwidthControlRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#state BandwidthControlRule#state}
   */
   readonly state?: string;
   /**
   * bandwidth_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#bandwidth_classes BandwidthControlRule#bandwidth_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#bandwidth_classes BandwidthControlRule#bandwidth_classes}
   */
   readonly bandwidthClasses?: BandwidthControlRuleBandwidthClasses;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#labels BandwidthControlRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#labels BandwidthControlRule#labels}
   */
   readonly labels?: BandwidthControlRuleLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#location_groups BandwidthControlRule#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#location_groups BandwidthControlRule#location_groups}
   */
   readonly locationGroups?: BandwidthControlRuleLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#locations BandwidthControlRule#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#locations BandwidthControlRule#locations}
   */
   readonly locations?: BandwidthControlRuleLocations;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#time_windows BandwidthControlRule#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#time_windows BandwidthControlRule#time_windows}
   */
   readonly timeWindows?: BandwidthControlRuleTimeWindows;
 }
 export interface BandwidthControlRuleBandwidthClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ export class BandwidthControlRuleBandwidthClassesOutputReference extends cdktf.C
 }
 export interface BandwidthControlRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -260,7 +260,7 @@ export class BandwidthControlRuleLabelsOutputReference extends cdktf.ComplexObje
 }
 export interface BandwidthControlRuleLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -347,7 +347,7 @@ export class BandwidthControlRuleLocationGroupsOutputReference extends cdktf.Com
 }
 export interface BandwidthControlRuleLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -434,7 +434,7 @@ export class BandwidthControlRuleLocationsOutputReference extends cdktf.ComplexO
 }
 export interface BandwidthControlRuleTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#id BandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -521,7 +521,7 @@ export class BandwidthControlRuleTimeWindowsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule zia_bandwidth_control_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule zia_bandwidth_control_rule}
 */
 export class BandwidthControlRule extends cdktf.TerraformResource {
 
@@ -537,7 +537,7 @@ export class BandwidthControlRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BandwidthControlRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BandwidthControlRule to import
-  * @param importFromId The id of the existing BandwidthControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BandwidthControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BandwidthControlRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class BandwidthControlRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_control_rule zia_bandwidth_control_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_control_rule zia_bandwidth_control_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class BandwidthControlRule extends cdktf.TerraformResource {
       terraformResourceType: 'zia_bandwidth_control_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

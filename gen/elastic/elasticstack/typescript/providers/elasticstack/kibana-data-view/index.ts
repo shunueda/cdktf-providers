@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface KibanaDataViewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#data_view KibanaDataView#data_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#data_view KibanaDataView#data_view}
   */
   readonly dataView: KibanaDataViewDataView;
   /**
   * Overrides an existing data view if a data view with the provided title already exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#override KibanaDataView#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#override KibanaDataView#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#space_id KibanaDataView#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#space_id KibanaDataView#space_id}
   */
   readonly spaceId?: string;
 }
@@ -28,13 +28,13 @@ export interface KibanaDataViewDataViewFieldAttrs {
   /**
   * Popularity count for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#count KibanaDataView#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#count KibanaDataView#count}
   */
   readonly count?: number;
   /**
   * Custom label for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#custom_label KibanaDataView#custom_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#custom_label KibanaDataView#custom_label}
   */
   readonly customLabel?: string;
 }
@@ -179,25 +179,25 @@ export interface KibanaDataViewDataViewFieldFormatsParamsColors {
   /**
   * Background color in hex format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#background KibanaDataView#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#background KibanaDataView#background}
   */
   readonly background?: string;
   /**
   * Range for the color rule (e.g., `-Infinity:Infinity`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#range KibanaDataView#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#range KibanaDataView#range}
   */
   readonly range?: string;
   /**
   * Regex pattern for the color rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#regex KibanaDataView#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#regex KibanaDataView#regex}
   */
   readonly regex?: string;
   /**
   * Text color in hex format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#text KibanaDataView#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#text KibanaDataView#text}
   */
   readonly text?: string;
 }
@@ -402,13 +402,13 @@ export interface KibanaDataViewDataViewFieldFormatsParamsLookupEntries {
   /**
   * Key for the lookup entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#key KibanaDataView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#key KibanaDataView#key}
   */
   readonly key: string;
   /**
   * Value for the lookup entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#value KibanaDataView#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#value KibanaDataView#value}
   */
   readonly value: string;
 }
@@ -549,109 +549,109 @@ export interface KibanaDataViewDataViewFieldFormatsParams {
   /**
   * Color rules for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#colors KibanaDataView#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#colors KibanaDataView#colors}
   */
   readonly colors?: KibanaDataViewDataViewFieldFormatsParamsColors[] | cdktf.IResolvable;
   /**
   * Length to truncate the field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#field_length KibanaDataView#field_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#field_length KibanaDataView#field_length}
   */
   readonly fieldLength?: number;
   /**
   * Field type for color formatting (e.g., `string`, `number`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#field_type KibanaDataView#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#field_type KibanaDataView#field_type}
   */
   readonly fieldType?: string;
   /**
   * Height for image type URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#height KibanaDataView#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#height KibanaDataView#height}
   */
   readonly height?: number;
   /**
   * Whether to include a space before the suffix in duration format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#include_space_with_suffix KibanaDataView#include_space_with_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#include_space_with_suffix KibanaDataView#include_space_with_suffix}
   */
   readonly includeSpaceWithSuffix?: boolean | cdktf.IResolvable;
   /**
   * Input format for duration fields (e.g., `hours`, `minutes`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#input_format KibanaDataView#input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#input_format KibanaDataView#input_format}
   */
   readonly inputFormat?: string;
   /**
   * Label template for the field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#labeltemplate KibanaDataView#labeltemplate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#labeltemplate KibanaDataView#labeltemplate}
   */
   readonly labeltemplate?: string;
   /**
   * Key-value pairs for static lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#lookup_entries KibanaDataView#lookup_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#lookup_entries KibanaDataView#lookup_entries}
   */
   readonly lookupEntries?: KibanaDataViewDataViewFieldFormatsParamsLookupEntries[] | cdktf.IResolvable;
   /**
   * Output format for duration fields (e.g., `humanizePrecise`, `humanize`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#output_format KibanaDataView#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#output_format KibanaDataView#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Precision for duration output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#output_precision KibanaDataView#output_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#output_precision KibanaDataView#output_precision}
   */
   readonly outputPrecision?: number;
   /**
   * Pattern for formatting the field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#pattern KibanaDataView#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#pattern KibanaDataView#pattern}
   */
   readonly pattern?: string;
   /**
   * Timezone for date formatting (e.g., `America/New_York`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#timezone KibanaDataView#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#timezone KibanaDataView#timezone}
   */
   readonly timezone?: string;
   /**
   * Transform to apply to string fields (e.g., `upper`, `lower`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#transform KibanaDataView#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#transform KibanaDataView#transform}
   */
   readonly transform?: string;
   /**
   * Type of URL format (e.g., `a`, `img`, `audio`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#type KibanaDataView#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#type KibanaDataView#type}
   */
   readonly type?: string;
   /**
   * Value to display when key is not found in lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#unknown_key_value KibanaDataView#unknown_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#unknown_key_value KibanaDataView#unknown_key_value}
   */
   readonly unknownKeyValue?: string;
   /**
   * URL template for the field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#urltemplate KibanaDataView#urltemplate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#urltemplate KibanaDataView#urltemplate}
   */
   readonly urltemplate?: string;
   /**
   * Whether to use short suffixes in duration format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#use_short_suffix KibanaDataView#use_short_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#use_short_suffix KibanaDataView#use_short_suffix}
   */
   readonly useShortSuffix?: boolean | cdktf.IResolvable;
   /**
   * Width for image type URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#width KibanaDataView#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#width KibanaDataView#width}
   */
   readonly width?: number;
 }
@@ -1240,14 +1240,14 @@ export interface KibanaDataViewDataViewFieldFormats {
   /**
   * The ID of the field format. Valid values include: `boolean`, `color`, `date`, `duration`, `number`, `percent`, `relative_date`, `static_lookup`, `string`, `truncate`, `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#id KibanaDataView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#id KibanaDataView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#params KibanaDataView#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#params KibanaDataView#params}
   */
   readonly params?: KibanaDataViewDataViewFieldFormatsParams;
 }
@@ -1389,13 +1389,13 @@ export interface KibanaDataViewDataViewRuntimeFieldMap {
   /**
   * Script of the runtime field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#script_source KibanaDataView#script_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#script_source KibanaDataView#script_source}
   */
   readonly scriptSource: string;
   /**
   * Mapping type of the runtime field. For more information, check [Field data types](https://www.elastic.co/guide/en/elasticsearch/reference/8.11/mapping-types.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#type KibanaDataView#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#type KibanaDataView#type}
   */
   readonly type: string;
 }
@@ -1534,25 +1534,25 @@ export interface KibanaDataViewDataView {
   /**
   * Allows the Data view saved object to exist before the data is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#allow_no_index KibanaDataView#allow_no_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#allow_no_index KibanaDataView#allow_no_index}
   */
   readonly allowNoIndex?: boolean | cdktf.IResolvable;
   /**
   * Map of field attributes by field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#field_attrs KibanaDataView#field_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#field_attrs KibanaDataView#field_attrs}
   */
   readonly fieldAttrs?: { [key: string]: KibanaDataViewDataViewFieldAttrs } | cdktf.IResolvable;
   /**
   * Map of field formats by field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#field_formats KibanaDataView#field_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#field_formats KibanaDataView#field_formats}
   */
   readonly fieldFormats?: { [key: string]: KibanaDataViewDataViewFieldFormats } | cdktf.IResolvable;
   /**
   * Saved object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#id KibanaDataView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#id KibanaDataView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1561,37 +1561,37 @@ export interface KibanaDataViewDataView {
   /**
   * The Data view name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#name KibanaDataView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#name KibanaDataView#name}
   */
   readonly name?: string;
   /**
   * Array of space IDs for sharing the Data view between multiple spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#namespaces KibanaDataView#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#namespaces KibanaDataView#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of runtime field definitions by field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#runtime_field_map KibanaDataView#runtime_field_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#runtime_field_map KibanaDataView#runtime_field_map}
   */
   readonly runtimeFieldMap?: { [key: string]: KibanaDataViewDataViewRuntimeFieldMap } | cdktf.IResolvable;
   /**
   * List of field names you want to filter out in Discover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#source_filters KibanaDataView#source_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#source_filters KibanaDataView#source_filters}
   */
   readonly sourceFilters?: string[];
   /**
   * Timestamp field name, which you use for time-based Data views.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#time_field_name KibanaDataView#time_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#time_field_name KibanaDataView#time_field_name}
   */
   readonly timeFieldName?: string;
   /**
   * Comma-separated list of data streams, indices, and aliases that you want to search. Supports wildcards (*).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#title KibanaDataView#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#title KibanaDataView#title}
   */
   readonly title: string;
 }
@@ -1943,7 +1943,7 @@ export class KibanaDataViewDataViewOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view elasticstack_kibana_data_view}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view elasticstack_kibana_data_view}
 */
 export class KibanaDataView extends cdktf.TerraformResource {
 
@@ -1959,7 +1959,7 @@ export class KibanaDataView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaDataView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaDataView to import
-  * @param importFromId The id of the existing KibanaDataView that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaDataView that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaDataView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1971,7 +1971,7 @@ export class KibanaDataView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_data_view elasticstack_kibana_data_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_data_view elasticstack_kibana_data_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1982,8 +1982,8 @@ export class KibanaDataView extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_data_view',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

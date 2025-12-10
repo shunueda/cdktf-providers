@@ -1,3 +1,3 @@
 # `data_iosxe_bgp_ipv4_unicast_vrf_neighbor`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_bgp_ipv4_unicast_vrf_neighbor`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_ipv4_unicast_vrf_neighbor).
+Refer to the Terraform Registry for docs: [`data_iosxe_bgp_ipv4_unicast_vrf_neighbor`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_ipv4_unicast_vrf_neighbor).

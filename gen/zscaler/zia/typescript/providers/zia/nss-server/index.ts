@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NssServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ICAP server ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server#icap_svr_id NssServer#icap_svr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server#icap_svr_id NssServer#icap_svr_id}
   */
   readonly icapSvrId?: number;
   /**
   * The NSS server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server#name NssServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server#name NssServer#name}
   */
   readonly name: string;
   /**
   * Enables or disables the status of the NSS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server#status NssServer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server#status NssServer#status}
   */
   readonly status?: string;
   /**
   * The type of the NSS Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server#type NssServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server#type NssServer#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server zia_nss_server}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server zia_nss_server}
 */
 export class NssServer extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NssServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NssServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NssServer to import
-  * @param importFromId The id of the existing NssServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NssServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NssServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NssServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/nss_server zia_nss_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/nss_server zia_nss_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NssServer extends cdktf.TerraformResource {
       terraformResourceType: 'zia_nss_server',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

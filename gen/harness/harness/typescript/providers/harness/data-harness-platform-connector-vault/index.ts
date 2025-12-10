@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformConnectorVaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#id DataHarnessPlatformConnectorVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#id DataHarnessPlatformConnectorVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataHarnessPlatformConnectorVaultConfig extends cdktf.Terraform
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#identifier DataHarnessPlatformConnectorVault#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#identifier DataHarnessPlatformConnectorVault#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#name DataHarnessPlatformConnectorVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#name DataHarnessPlatformConnectorVault#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#org_id DataHarnessPlatformConnectorVault#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#org_id DataHarnessPlatformConnectorVault#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#project_id DataHarnessPlatformConnectorVault#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#project_id DataHarnessPlatformConnectorVault#project_id}
   */
   readonly projectId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault harness_platform_connector_vault}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault harness_platform_connector_vault}
 */
 export class DataHarnessPlatformConnectorVault extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataHarnessPlatformConnectorVault extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorVault to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataHarnessPlatformConnectorVault extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_vault harness_platform_connector_vault} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_vault harness_platform_connector_vault} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataHarnessPlatformConnectorVault extends cdktf.TerraformDataSource
       terraformResourceType: 'harness_platform_connector_vault',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

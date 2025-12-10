@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformSecretSshkeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#id DataHarnessPlatformSecretSshkey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#id DataHarnessPlatformSecretSshkey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataHarnessPlatformSecretSshkeyConfig extends cdktf.TerraformMe
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#identifier DataHarnessPlatformSecretSshkey#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#identifier DataHarnessPlatformSecretSshkey#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#name DataHarnessPlatformSecretSshkey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#name DataHarnessPlatformSecretSshkey#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#org_id DataHarnessPlatformSecretSshkey#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#org_id DataHarnessPlatformSecretSshkey#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#project_id DataHarnessPlatformSecretSshkey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#project_id DataHarnessPlatformSecretSshkey#project_id}
   */
   readonly projectId?: string;
 }
@@ -631,7 +631,7 @@ export class DataHarnessPlatformSecretSshkeySshList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey harness_platform_secret_sshkey}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey harness_platform_secret_sshkey}
 */
 export class DataHarnessPlatformSecretSshkey extends cdktf.TerraformDataSource {
 
@@ -647,7 +647,7 @@ export class DataHarnessPlatformSecretSshkey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformSecretSshkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformSecretSshkey to import
-  * @param importFromId The id of the existing DataHarnessPlatformSecretSshkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformSecretSshkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformSecretSshkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class DataHarnessPlatformSecretSshkey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_sshkey harness_platform_secret_sshkey} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_secret_sshkey harness_platform_secret_sshkey} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class DataHarnessPlatformSecretSshkey extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_secret_sshkey',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

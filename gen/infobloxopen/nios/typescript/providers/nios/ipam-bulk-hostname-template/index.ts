@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface IpamBulkHostnameTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * The format of bulk host name template. It should follow certain rules (please use Administration Guide as reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template#template_format IpamBulkHostnameTemplate#template_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template#template_format IpamBulkHostnameTemplate#template_format}
   */
   readonly templateFormat: string;
   /**
   * The name of bulk host name template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template#template_name IpamBulkHostnameTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template#template_name IpamBulkHostnameTemplate#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template}
 */
 export class IpamBulkHostnameTemplate extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class IpamBulkHostnameTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpamBulkHostnameTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpamBulkHostnameTemplate to import
-  * @param importFromId The id of the existing IpamBulkHostnameTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpamBulkHostnameTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpamBulkHostnameTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class IpamBulkHostnameTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class IpamBulkHostnameTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'nios_ipam_bulk_hostname_template',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

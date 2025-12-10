@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsNsgroupStubmemberConfig extends cdktf.TerraformMetaA
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#extattrfilters DataNiosDnsNsgroupStubmember#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#extattrfilters DataNiosDnsNsgroupStubmember#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#filters DataNiosDnsNsgroupStubmember#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#filters DataNiosDnsNsgroupStubmember#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#max_results DataNiosDnsNsgroupStubmember#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#max_results DataNiosDnsNsgroupStubmember#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#paging DataNiosDnsNsgroupStubmember#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#paging DataNiosDnsNsgroupStubmember#paging}
   */
   readonly paging?: number;
 }
@@ -146,7 +146,7 @@ export interface DataNiosDnsNsgroupStubmemberResultStubMembers {
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#name DataNiosDnsNsgroupStubmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#name DataNiosDnsNsgroupStubmember#name}
   */
   readonly name: string;
 }
@@ -277,25 +277,25 @@ export interface DataNiosDnsNsgroupStubmemberResult {
   /**
   * Comment for the Stub Member Name Server Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#comment DataNiosDnsNsgroupStubmember#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#comment DataNiosDnsNsgroupStubmember#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#extattrs DataNiosDnsNsgroupStubmember#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#extattrs DataNiosDnsNsgroupStubmember#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the Stub Member Name Server Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#name DataNiosDnsNsgroupStubmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#name DataNiosDnsNsgroupStubmember#name}
   */
   readonly name: string;
   /**
   * The Grid member servers of this stub zone. Note that the lead/stealth/grid_replicate/ preferred_primaries/override_preferred_primaries fields of the struct will be ignored when set in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#stub_members DataNiosDnsNsgroupStubmember#stub_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#stub_members DataNiosDnsNsgroupStubmember#stub_members}
   */
   readonly stubMembers: DataNiosDnsNsgroupStubmemberResultStubMembers[] | cdktf.IResolvable;
 }
@@ -493,7 +493,7 @@ export class DataNiosDnsNsgroupStubmemberResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember}
 */
 export class DataNiosDnsNsgroupStubmember extends cdktf.TerraformDataSource {
 
@@ -509,7 +509,7 @@ export class DataNiosDnsNsgroupStubmember extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsNsgroupStubmember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsNsgroupStubmember to import
-  * @param importFromId The id of the existing DataNiosDnsNsgroupStubmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsNsgroupStubmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsNsgroupStubmember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class DataNiosDnsNsgroupStubmember extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class DataNiosDnsNsgroupStubmember extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_nsgroup_stubmember',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

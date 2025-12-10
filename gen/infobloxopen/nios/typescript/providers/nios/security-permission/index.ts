@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SecurityPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the admin group this permission applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#group SecurityPermission#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#group SecurityPermission#group}
   */
   readonly group?: string;
   /**
   * A reference to a WAPI object, which will be the object this permission applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#object SecurityPermission#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#object SecurityPermission#object}
   */
   readonly object?: string;
   /**
   * The type of permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#permission SecurityPermission#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#permission SecurityPermission#permission}
   */
   readonly permission: string;
   /**
   * The type of resource this permission applies to. If 'object' is set, the permission is going to apply to child objects of the specified type, for example if 'object' was set to an authoritative zone reference and 'resource_type' was set to 'A', the permission would apply to A Resource Records within the specified zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#resource_type SecurityPermission#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#resource_type SecurityPermission#resource_type}
   */
   readonly resourceType?: string;
   /**
   * The name of the role this permission applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#role SecurityPermission#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#role SecurityPermission#role}
   */
   readonly role?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission nios_security_permission}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission nios_security_permission}
 */
 export class SecurityPermission extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SecurityPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityPermission to import
-  * @param importFromId The id of the existing SecurityPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SecurityPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_permission nios_security_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_permission nios_security_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SecurityPermission extends cdktf.TerraformResource {
       terraformResourceType: 'nios_security_permission',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

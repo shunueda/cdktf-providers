@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,503 +10,503 @@ export interface TemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable closed access on port (disabled by default, i.e. open access)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_closed Template#access_session_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_closed Template#access_session_closed}
   */
   readonly accessSessionClosed?: boolean | cdktf.IResolvable;
   /**
   * Set the control-direction on the interface
   *   - Choices: `both`, `in`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_control_direction Template#access_session_control_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_control_direction Template#access_session_control_direction}
   */
   readonly accessSessionControlDirection?: string;
   /**
   * Set the Host mode for authentication on this interface
   *   - Choices: `multi-auth`, `multi-domain`, `multi-host`, `single-host`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_host_mode Template#access_session_host_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_host_mode Template#access_session_host_mode}
   */
   readonly accessSessionHostMode?: string;
   /**
   * Interface templates set to sticky
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_interface_template_sticky Template#access_session_interface_template_sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_interface_template_sticky Template#access_session_interface_template_sticky}
   */
   readonly accessSessionInterfaceTemplateSticky?: boolean | cdktf.IResolvable;
   /**
   * Sticky timer value
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_interface_template_sticky_timer Template#access_session_interface_template_sticky_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_interface_template_sticky_timer Template#access_session_interface_template_sticky_timer}
   */
   readonly accessSessionInterfaceTemplateStickyTimer?: number;
   /**
   * Apply template to monitor access sessions on the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_monitor Template#access_session_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_monitor Template#access_session_monitor}
   */
   readonly accessSessionMonitor?: boolean | cdktf.IResolvable;
   /**
   * Set the port-control value
   *   - Choices: `auto`, `force-authorized`, `force-unauthorized`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_session_port_control Template#access_session_port_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_session_port_control Template#access_session_port_control}
   */
   readonly accessSessionPortControl?: string;
   /**
   * Enable or Disable Reauthentication for this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#authentication_periodic Template#authentication_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#authentication_periodic Template#authentication_periodic}
   */
   readonly authenticationPeriodic?: boolean | cdktf.IResolvable;
   /**
   * Enter a value between 1 and 1073741823
   *   - Range: `1`-`1073741823`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#authentication_timer_reauthenticate_range Template#authentication_timer_reauthenticate_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#authentication_timer_reauthenticate_range Template#authentication_timer_reauthenticate_range}
   */
   readonly authenticationTimerReauthenticateRange?: number;
   /**
   * Obtain re-authentication timeout value from the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#authentication_timer_reauthenticate_server Template#authentication_timer_reauthenticate_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#authentication_timer_reauthenticate_server Template#authentication_timer_reauthenticate_server}
   */
   readonly authenticationTimerReauthenticateServer?: boolean | cdktf.IResolvable;
   /**
   * Supply local configuration for CTS parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#cts_manual Template#cts_manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#cts_manual Template#cts_manual}
   */
   readonly ctsManual?: boolean | cdktf.IResolvable;
   /**
   * Source Security Group Tag to apply to untagged or non-trusted incoming traffic
   *   - Range: `2`-`65519`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#cts_manual_policy_static_sgt Template#cts_manual_policy_static_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#cts_manual_policy_static_sgt Template#cts_manual_policy_static_sgt}
   */
   readonly ctsManualPolicyStaticSgt?: number;
   /**
   * Trust the Source Group Tags (SGT) that the peer uses for sending
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#cts_manual_policy_static_trusted Template#cts_manual_policy_static_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#cts_manual_policy_static_trusted Template#cts_manual_policy_static_trusted}
   */
   readonly ctsManualPolicyStaticTrusted?: boolean | cdktf.IResolvable;
   /**
   * CTS SGT Propagation configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#cts_manual_propagate_sgt Template#cts_manual_propagate_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#cts_manual_propagate_sgt Template#cts_manual_propagate_sgt}
   */
   readonly ctsManualPropagateSgt?: boolean | cdktf.IResolvable;
   /**
   * Enable Role-based Access Control enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#cts_role_based_enforcement Template#cts_role_based_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#cts_role_based_enforcement Template#cts_role_based_enforcement}
   */
   readonly ctsRoleBasedEnforcement?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#delete_mode Template#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#delete_mode Template#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#device Template#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#device Template#device}
   */
   readonly device?: string;
   /**
   * Configure device-tracking on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#device_tracking Template#device_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#device_tracking Template#device_tracking}
   */
   readonly deviceTracking?: boolean | cdktf.IResolvable;
   /**
   * policy name for device tracking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#device_tracking_attach_policy Template#device_tracking_attach_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#device_tracking_attach_policy Template#device_tracking_attach_policy}
   */
   readonly deviceTrackingAttachPolicy?: TemplateDeviceTrackingAttachPolicy[] | cdktf.IResolvable;
   /**
   * VLAN IDs of the VLANs for which this policy applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#device_tracking_vlan_range Template#device_tracking_vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#device_tracking_vlan_range Template#device_tracking_vlan_range}
   */
   readonly deviceTrackingVlanRange?: string;
   /**
   * Max No. of Reauthentication Attempts
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_max_reauth_req Template#dot1x_max_reauth_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_max_reauth_req Template#dot1x_max_reauth_req}
   */
   readonly dot1XMaxReauthReq?: number;
   /**
   * Max No. of Retries
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_max_req Template#dot1x_max_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_max_req Template#dot1x_max_req}
   */
   readonly dot1XMaxReq?: number;
   /**
   * Set 802.1x interface pae type
   *   - Choices: `authenticator`, `both`, `supplicant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_pae Template#dot1x_pae}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_pae Template#dot1x_pae}
   */
   readonly dot1XPae?: string;
   /**
   * QuietPeriod in Seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_timeout_quiet_period Template#dot1x_timeout_quiet_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_timeout_quiet_period Template#dot1x_timeout_quiet_period}
   */
   readonly dot1XTimeoutQuietPeriod?: number;
   /**
   * Ratelimit Period in seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_timeout_ratelimit_period Template#dot1x_timeout_ratelimit_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_timeout_ratelimit_period Template#dot1x_timeout_ratelimit_period}
   */
   readonly dot1XTimeoutRatelimitPeriod?: number;
   /**
   * Timeout for Radius Retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_timeout_server_timeout Template#dot1x_timeout_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_timeout_server_timeout Template#dot1x_timeout_server_timeout}
   */
   readonly dot1XTimeoutServerTimeout?: number;
   /**
   * Timeout for supplicant reply
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_timeout_supp_timeout Template#dot1x_timeout_supp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_timeout_supp_timeout Template#dot1x_timeout_supp_timeout}
   */
   readonly dot1XTimeoutSuppTimeout?: number;
   /**
   * Timeout for supplicant retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#dot1x_timeout_tx_period Template#dot1x_timeout_tx_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#dot1x_timeout_tx_period Template#dot1x_timeout_tx_period}
   */
   readonly dot1XTimeoutTxPeriod?: number;
   /**
   * Access control list for IP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#ip_access_group Template#ip_access_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#ip_access_group Template#ip_access_group}
   */
   readonly ipAccessGroup?: TemplateIpAccessGroup[] | cdktf.IResolvable;
   /**
   * DHCP snooping rate limit
   *   - Range: `1`-`2048`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#ip_dhcp_snooping_limit_rate Template#ip_dhcp_snooping_limit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#ip_dhcp_snooping_limit_rate Template#ip_dhcp_snooping_limit_rate}
   */
   readonly ipDhcpSnoopingLimitRate?: number;
   /**
   * DHCP Snooping trust config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#ip_dhcp_snooping_trust Template#ip_dhcp_snooping_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#ip_dhcp_snooping_trust Template#ip_dhcp_snooping_trust}
   */
   readonly ipDhcpSnoopingTrust?: boolean | cdktf.IResolvable;
   /**
   * Load interval delay in seconds
   *   - Range: `30`-`600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#load_interval Template#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#load_interval Template#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * MAC Authentication Bypass Interface Config Commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#mab Template#mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#mab Template#mab}
   */
   readonly mab?: boolean | cdktf.IResolvable;
   /**
   * Use EAP authentication for MAC Auth Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#mab_eap Template#mab_eap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#mab_eap Template#mab_eap}
   */
   readonly mabEap?: boolean | cdktf.IResolvable;
   /**
   * policy-map name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#service_policy_input Template#service_policy_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#service_policy_input Template#service_policy_input}
   */
   readonly servicePolicyInput?: string;
   /**
   * policy-map name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#service_policy_output Template#service_policy_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#service_policy_output Template#service_policy_output}
   */
   readonly servicePolicyOutput?: string;
   /**
   * Apply a subscriber control policy to the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#service_policy_type_control_subscriber Template#service_policy_type_control_subscriber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#service_policy_type_control_subscriber Template#service_policy_type_control_subscriber}
   */
   readonly servicePolicyTypeControlSubscriber?: string;
   /**
   * Get config from a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#source_template Template#source_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#source_template Template#source_template}
   */
   readonly sourceTemplate?: string;
   /**
   * Enable BPDU guard for this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_bpduguard_enable Template#spanning_tree_bpduguard_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_bpduguard_enable Template#spanning_tree_bpduguard_enable}
   */
   readonly spanningTreeBpduguardEnable?: boolean | cdktf.IResolvable;
   /**
   * Portfast options for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_portfast Template#spanning_tree_portfast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_portfast Template#spanning_tree_portfast}
   */
   readonly spanningTreePortfast?: boolean | cdktf.IResolvable;
   /**
   * Disable portfast for this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_portfast_disable Template#spanning_tree_portfast_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_portfast_disable Template#spanning_tree_portfast_disable}
   */
   readonly spanningTreePortfastDisable?: boolean | cdktf.IResolvable;
   /**
   * Enable portfast edge on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_portfast_edge Template#spanning_tree_portfast_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_portfast_edge Template#spanning_tree_portfast_edge}
   */
   readonly spanningTreePortfastEdge?: boolean | cdktf.IResolvable;
   /**
   * Enable portfast network on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_portfast_network Template#spanning_tree_portfast_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_portfast_network Template#spanning_tree_portfast_network}
   */
   readonly spanningTreePortfastNetwork?: boolean | cdktf.IResolvable;
   /**
   * help
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#spanning_tree_service_policy Template#spanning_tree_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#spanning_tree_service_policy Template#spanning_tree_service_policy}
   */
   readonly spanningTreeServicePolicy?: boolean | cdktf.IResolvable;
   /**
   * Shutdown this interface if a storm occurs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_action_shutdown Template#storm_control_action_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_action_shutdown Template#storm_control_action_shutdown}
   */
   readonly stormControlActionShutdown?: boolean | cdktf.IResolvable;
   /**
   * Send SNMP trap if a storm occurs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_action_trap Template#storm_control_action_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_action_trap Template#storm_control_action_trap}
   */
   readonly stormControlActionTrap?: boolean | cdktf.IResolvable;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_broadcast_level_bps_threshold Template#storm_control_broadcast_level_bps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_broadcast_level_bps_threshold Template#storm_control_broadcast_level_bps_threshold}
   */
   readonly stormControlBroadcastLevelBpsThreshold?: number;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_broadcast_level_pps_threshold Template#storm_control_broadcast_level_pps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_broadcast_level_pps_threshold Template#storm_control_broadcast_level_pps_threshold}
   */
   readonly stormControlBroadcastLevelPpsThreshold?: string;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_broadcast_level_threshold Template#storm_control_broadcast_level_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_broadcast_level_threshold Template#storm_control_broadcast_level_threshold}
   */
   readonly stormControlBroadcastLevelThreshold?: number;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_multicast_level_bps_threshold Template#storm_control_multicast_level_bps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_multicast_level_bps_threshold Template#storm_control_multicast_level_bps_threshold}
   */
   readonly stormControlMulticastLevelBpsThreshold?: number;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_multicast_level_pps_threshold Template#storm_control_multicast_level_pps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_multicast_level_pps_threshold Template#storm_control_multicast_level_pps_threshold}
   */
   readonly stormControlMulticastLevelPpsThreshold?: string;
   /**
   * Enter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#storm_control_multicast_level_threshold Template#storm_control_multicast_level_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#storm_control_multicast_level_threshold Template#storm_control_multicast_level_threshold}
   */
   readonly stormControlMulticastLevelThreshold?: number;
   /**
   * ARP probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#subscriber_aging_inactivity_timer_probe Template#subscriber_aging_inactivity_timer_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#subscriber_aging_inactivity_timer_probe Template#subscriber_aging_inactivity_timer_probe}
   */
   readonly subscriberAgingInactivityTimerProbe?: boolean | cdktf.IResolvable;
   /**
   * Enter a value between 1 and 65535 in seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#subscriber_aging_inactivity_timer_value Template#subscriber_aging_inactivity_timer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#subscriber_aging_inactivity_timer_value Template#subscriber_aging_inactivity_timer_value}
   */
   readonly subscriberAgingInactivityTimerValue?: number;
   /**
   * ARP probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#subscriber_aging_probe Template#subscriber_aging_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#subscriber_aging_probe Template#subscriber_aging_probe}
   */
   readonly subscriberAgingProbe?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID of the VLAN when this port is in access mode
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_access_vlan Template#switchport_access_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_access_vlan Template#switchport_access_vlan}
   */
   readonly switchportAccessVlan?: number;
   /**
   * Block unknown unicast addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_block_unicast Template#switchport_block_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_block_unicast Template#switchport_block_unicast}
   */
   readonly switchportBlockUnicast?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to ACCESS unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_mode_access Template#switchport_mode_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_mode_access Template#switchport_mode_access}
   */
   readonly switchportModeAccess?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to TRUNK unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_mode_trunk Template#switchport_mode_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_mode_trunk Template#switchport_mode_trunk}
   */
   readonly switchportModeTrunk?: boolean | cdktf.IResolvable;
   /**
   * Device will not engage in negotiation protocol on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_nonegotiate Template#switchport_nonegotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_nonegotiate Template#switchport_nonegotiate}
   */
   readonly switchportNonegotiate?: boolean | cdktf.IResolvable;
   /**
   * Security related command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security Template#switchport_port_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security Template#switchport_port_security}
   */
   readonly switchportPortSecurity?: boolean | cdktf.IResolvable;
   /**
   * Enable aging for configured secure addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_aging_static Template#switchport_port_security_aging_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_aging_static Template#switchport_port_security_aging_static}
   */
   readonly switchportPortSecurityAgingStatic?: boolean | cdktf.IResolvable;
   /**
   * Port-security aging time
   *   - Range: `1`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_aging_time Template#switchport_port_security_aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_aging_time Template#switchport_port_security_aging_time}
   */
   readonly switchportPortSecurityAgingTime?: number;
   /**
   * Port-security aging type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_aging_type Template#switchport_port_security_aging_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_aging_type Template#switchport_port_security_aging_type}
   */
   readonly switchportPortSecurityAgingType?: boolean | cdktf.IResolvable;
   /**
   * Aging based on inactivity time period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_aging_type_inactivity Template#switchport_port_security_aging_type_inactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_aging_type_inactivity Template#switchport_port_security_aging_type_inactivity}
   */
   readonly switchportPortSecurityAgingTypeInactivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_maximum_range Template#switchport_port_security_maximum_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_maximum_range Template#switchport_port_security_maximum_range}
   */
   readonly switchportPortSecurityMaximumRange?: TemplateSwitchportPortSecurityMaximumRange[] | cdktf.IResolvable;
   /**
   * Security violation protect mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_violation_protect Template#switchport_port_security_violation_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_violation_protect Template#switchport_port_security_violation_protect}
   */
   readonly switchportPortSecurityViolationProtect?: boolean | cdktf.IResolvable;
   /**
   * Security violation restrict mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_violation_restrict Template#switchport_port_security_violation_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_violation_restrict Template#switchport_port_security_violation_restrict}
   */
   readonly switchportPortSecurityViolationRestrict?: boolean | cdktf.IResolvable;
   /**
   * Security violation shutdown mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_port_security_violation_shutdown Template#switchport_port_security_violation_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_port_security_violation_shutdown Template#switchport_port_security_violation_shutdown}
   */
   readonly switchportPortSecurityViolationShutdown?: boolean | cdktf.IResolvable;
   /**
   * Primary normal range VLAN ID of the private VLAN port association
   *   - Range: `2`-`1001`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_private_vlan_host_association_primary_range Template#switchport_private_vlan_host_association_primary_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_private_vlan_host_association_primary_range Template#switchport_private_vlan_host_association_primary_range}
   */
   readonly switchportPrivateVlanHostAssociationPrimaryRange?: number;
   /**
   * Secondary normal range VLAN ID of the private VLAN host port association
   *   - Range: `2`-`1001`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_private_vlan_host_association_secondary_range Template#switchport_private_vlan_host_association_secondary_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_private_vlan_host_association_secondary_range Template#switchport_private_vlan_host_association_secondary_range}
   */
   readonly switchportPrivateVlanHostAssociationSecondaryRange?: number;
   /**
   * VLAN IDs of the allowed VLANs when this port is in trunking mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_trunk_allowed_vlans Template#switchport_trunk_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_trunk_allowed_vlans Template#switchport_trunk_allowed_vlans}
   */
   readonly switchportTrunkAllowedVlans?: string;
   /**
   * all VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_trunk_allowed_vlans_all Template#switchport_trunk_allowed_vlans_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_trunk_allowed_vlans_all Template#switchport_trunk_allowed_vlans_all}
   */
   readonly switchportTrunkAllowedVlansAll?: boolean | cdktf.IResolvable;
   /**
   * no VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_trunk_allowed_vlans_none Template#switchport_trunk_allowed_vlans_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_trunk_allowed_vlans_none Template#switchport_trunk_allowed_vlans_none}
   */
   readonly switchportTrunkAllowedVlansNone?: boolean | cdktf.IResolvable;
   /**
   * Set native VLAN tagging state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_trunk_native_vlan_tag Template#switchport_trunk_native_vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_trunk_native_vlan_tag Template#switchport_trunk_native_vlan_tag}
   */
   readonly switchportTrunkNativeVlanTag?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID of the native VLAN when this port is in trunking mode
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_trunk_native_vlan_vlan_id Template#switchport_trunk_native_vlan_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_trunk_native_vlan_vlan_id Template#switchport_trunk_native_vlan_vlan_id}
   */
   readonly switchportTrunkNativeVlanVlanId?: number;
   /**
   * Vlan for voice traffic
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#switchport_voice_vlan Template#switchport_voice_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#switchport_voice_vlan Template#switchport_voice_vlan}
   */
   readonly switchportVoiceVlan?: number;
   /**
   * Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#template_name Template#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#template_name Template#template_name}
   */
   readonly templateName: string;
 }
 export interface TemplateDeviceTrackingAttachPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#policy_name Template#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#policy_name Template#policy_name}
   */
   readonly policyName: string;
   /**
   * VLAN IDs of the VLANs for which this policy applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#vlan_range Template#vlan_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#vlan_range Template#vlan_range}
   */
   readonly vlanRange?: string;
 }
@@ -650,14 +650,14 @@ export interface TemplateIpAccessGroup {
   /**
   * Access control list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#access_list Template#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#access_list Template#access_list}
   */
   readonly accessList?: string;
   /**
   * packet flow direction
   *   - Choices: `in`, `out`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#direction Template#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#direction Template#direction}
   */
   readonly direction: string;
 }
@@ -802,19 +802,19 @@ export interface TemplateSwitchportPortSecurityMaximumRange {
   * Maximum addresses
   *   - Range: `1`-`3072`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#range Template#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#range Template#range}
   */
   readonly range: number;
   /**
   * Max secure addresses per vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#vlan Template#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#vlan Template#vlan}
   */
   readonly vlan?: boolean | cdktf.IResolvable;
   /**
   * access vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#vlan_access Template#vlan_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#vlan_access Template#vlan_access}
   */
   readonly vlanAccess?: boolean | cdktf.IResolvable;
 }
@@ -985,7 +985,7 @@ export class TemplateSwitchportPortSecurityMaximumRangeList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template iosxe_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template iosxe_template}
 */
 export class Template extends cdktf.TerraformResource {
 
@@ -1001,7 +1001,7 @@ export class Template extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Template resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Template to import
-  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Template to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1013,7 +1013,7 @@ export class Template extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/template iosxe_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/template iosxe_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1024,8 +1024,8 @@ export class Template extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_template',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

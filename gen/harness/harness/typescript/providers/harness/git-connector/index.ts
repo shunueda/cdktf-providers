@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface GitConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The branch of the git connector to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#branch GitConnector#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#branch GitConnector#branch}
   */
   readonly branch?: string;
   /**
   * Delegate selectors to apply to this git connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#delegate_selectors GitConnector#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#delegate_selectors GitConnector#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Boolean indicating whether or not to generate a webhook url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#generate_webhook_url GitConnector#generate_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#generate_webhook_url GitConnector#generate_webhook_url}
   */
   readonly generateWebhookUrl?: boolean | cdktf.IResolvable;
   /**
   * Name of the git connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#name GitConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#name GitConnector#name}
   */
   readonly name: string;
   /**
   * The id of the secret for connecting to the git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#password_secret_id GitConnector#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#password_secret_id GitConnector#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
   * The id of the SSH secret to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#ssh_setting_id GitConnector#ssh_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#ssh_setting_id GitConnector#ssh_setting_id}
   */
   readonly sshSettingId?: string;
   /**
   * The URL of the git repository or account/organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#url GitConnector#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#url GitConnector#url}
   */
   readonly url: string;
   /**
   * The type of git url being used. Options are `ACCOUNT`, and `REPO.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#url_type GitConnector#url_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#url_type GitConnector#url_type}
   */
   readonly urlType: string;
   /**
   * The name of the user used to connect to the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#username GitConnector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#username GitConnector#username}
   */
   readonly username?: string;
   /**
   * commit_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#commit_details GitConnector#commit_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#commit_details GitConnector#commit_details}
   */
   readonly commitDetails?: GitConnectorCommitDetails;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#usage_scope GitConnector#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#usage_scope GitConnector#usage_scope}
   */
   readonly usageScope?: GitConnectorUsageScope[] | cdktf.IResolvable;
 }
@@ -78,19 +78,19 @@ export interface GitConnectorCommitDetails {
   /**
   * The email id of the author
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#author_email_id GitConnector#author_email_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#author_email_id GitConnector#author_email_id}
   */
   readonly authorEmailId?: string;
   /**
   * The name of the author
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#author_name GitConnector#author_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#author_name GitConnector#author_name}
   */
   readonly authorName?: string;
   /**
   * Commit message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#message GitConnector#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#message GitConnector#message}
   */
   readonly message?: string;
 }
@@ -234,19 +234,19 @@ export interface GitConnectorUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#application_id GitConnector#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#application_id GitConnector#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#environment_filter_type GitConnector#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#environment_filter_type GitConnector#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#environment_id GitConnector#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#environment_id GitConnector#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -420,7 +420,7 @@ export class GitConnectorUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector harness_git_connector}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector harness_git_connector}
 */
 export class GitConnector extends cdktf.TerraformResource {
 
@@ -436,7 +436,7 @@ export class GitConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitConnector to import
-  * @param importFromId The id of the existing GitConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +448,7 @@ export class GitConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/git_connector harness_git_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/git_connector harness_git_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +459,8 @@ export class GitConnector extends cdktf.TerraformResource {
       terraformResourceType: 'harness_git_connector',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

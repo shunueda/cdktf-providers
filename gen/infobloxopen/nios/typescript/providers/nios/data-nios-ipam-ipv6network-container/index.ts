@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosIpamIpv6NetworkContainerConfig extends cdktf.TerraformM
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#extattrfilters DataNiosIpamIpv6NetworkContainer#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#extattrfilters DataNiosIpamIpv6NetworkContainer#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#filters DataNiosIpamIpv6NetworkContainer#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#filters DataNiosIpamIpv6NetworkContainer#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#max_results DataNiosIpamIpv6NetworkContainer#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#max_results DataNiosIpamIpv6NetworkContainer#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#paging DataNiosIpamIpv6NetworkContainer#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#paging DataNiosIpamIpv6NetworkContainer#paging}
   */
   readonly paging?: number;
 }
@@ -36,19 +36,19 @@ export interface DataNiosIpamIpv6NetworkContainerResultCloudInfoDelegatedMember 
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ipv4addr DataNiosIpamIpv6NetworkContainer#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ipv4addr DataNiosIpamIpv6NetworkContainer#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ipv6addr DataNiosIpamIpv6NetworkContainer#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ipv6addr DataNiosIpamIpv6NetworkContainer#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
   */
   readonly name?: string;
 }
@@ -202,7 +202,7 @@ export interface DataNiosIpamIpv6NetworkContainerResultCloudInfo {
   /**
   * The delegated member information for the IPv6 network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#delegated_member DataNiosIpamIpv6NetworkContainer#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#delegated_member DataNiosIpamIpv6NetworkContainer#delegated_member}
   */
   readonly delegatedMember?: DataNiosIpamIpv6NetworkContainerResultCloudInfoDelegatedMember;
 }
@@ -333,73 +333,73 @@ export interface DataNiosIpamIpv6NetworkContainerResultDiscoveryBasicPollSetting
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
   */
   readonly year?: number;
 }
@@ -814,85 +814,85 @@ export interface DataNiosIpamIpv6NetworkContainerResultDiscoveryBasicPollSetting
   /**
   * Determines whether auto ARP refresh before switch port polling is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#auto_arp_refresh_before_switch_port_polling DataNiosIpamIpv6NetworkContainer#auto_arp_refresh_before_switch_port_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#auto_arp_refresh_before_switch_port_polling DataNiosIpamIpv6NetworkContainer#auto_arp_refresh_before_switch_port_polling}
   */
   readonly autoArpRefreshBeforeSwitchPortPolling?: boolean | cdktf.IResolvable;
   /**
   * Determines whether CLI collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#cli_collection DataNiosIpamIpv6NetworkContainer#cli_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#cli_collection DataNiosIpamIpv6NetworkContainer#cli_collection}
   */
   readonly cliCollection?: boolean | cdktf.IResolvable;
   /**
   * Determines whether complete ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#complete_ping_sweep DataNiosIpamIpv6NetworkContainer#complete_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#complete_ping_sweep DataNiosIpamIpv6NetworkContainer#complete_ping_sweep}
   */
   readonly completePingSweep?: boolean | cdktf.IResolvable;
   /**
   * Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#credential_group DataNiosIpamIpv6NetworkContainer#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#credential_group DataNiosIpamIpv6NetworkContainer#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Determines whether device profile is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#device_profile DataNiosIpamIpv6NetworkContainer#device_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#device_profile DataNiosIpamIpv6NetworkContainer#device_profile}
   */
   readonly deviceProfile?: boolean | cdktf.IResolvable;
   /**
   * Determines whether netbios scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#netbios_scanning DataNiosIpamIpv6NetworkContainer#netbios_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#netbios_scanning DataNiosIpamIpv6NetworkContainer#netbios_scanning}
   */
   readonly netbiosScanning?: boolean | cdktf.IResolvable;
   /**
   * Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#polling_frequency_modifier DataNiosIpamIpv6NetworkContainer#polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#polling_frequency_modifier DataNiosIpamIpv6NetworkContainer#polling_frequency_modifier}
   */
   readonly pollingFrequencyModifier?: string;
   /**
   * Determines whether port scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#port_scanning DataNiosIpamIpv6NetworkContainer#port_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#port_scanning DataNiosIpamIpv6NetworkContainer#port_scanning}
   */
   readonly portScanning?: boolean | cdktf.IResolvable;
   /**
   * Determines whether smart subnet ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#smart_subnet_ping_sweep DataNiosIpamIpv6NetworkContainer#smart_subnet_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#smart_subnet_ping_sweep DataNiosIpamIpv6NetworkContainer#smart_subnet_ping_sweep}
   */
   readonly smartSubnetPingSweep?: boolean | cdktf.IResolvable;
   /**
   * Determines whether SNMP collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#snmp_collection DataNiosIpamIpv6NetworkContainer#snmp_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#snmp_collection DataNiosIpamIpv6NetworkContainer#snmp_collection}
   */
   readonly snmpCollection?: boolean | cdktf.IResolvable;
   /**
   * A switch port data collection polling mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling}
   */
   readonly switchPortDataCollectionPolling?: string;
   /**
   * Indicates the interval for switch port data collection polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling_interval DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling_interval DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling_interval}
   */
   readonly switchPortDataCollectionPollingInterval?: number;
   /**
   * The switch port data collection polling schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling_schedule DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#switch_port_data_collection_polling_schedule DataNiosIpamIpv6NetworkContainer#switch_port_data_collection_polling_schedule}
   */
   readonly switchPortDataCollectionPollingSchedule?: DataNiosIpamIpv6NetworkContainerResultDiscoveryBasicPollSettingsSwitchPortDataCollectionPollingSchedule;
   /**
   * Use Global Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_global_polling_frequency_modifier DataNiosIpamIpv6NetworkContainer#use_global_polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_global_polling_frequency_modifier DataNiosIpamIpv6NetworkContainer#use_global_polling_frequency_modifier}
   */
   readonly useGlobalPollingFrequencyModifier?: boolean | cdktf.IResolvable;
 }
@@ -1365,73 +1365,73 @@ export interface DataNiosIpamIpv6NetworkContainerResultDiscoveryBlackoutSettingB
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
   */
   readonly year?: number;
 }
@@ -1846,19 +1846,19 @@ export interface DataNiosIpamIpv6NetworkContainerResultDiscoveryBlackoutSetting 
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#blackout_duration DataNiosIpamIpv6NetworkContainer#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#blackout_duration DataNiosIpamIpv6NetworkContainer#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#blackout_schedule DataNiosIpamIpv6NetworkContainer#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#blackout_schedule DataNiosIpamIpv6NetworkContainer#blackout_schedule}
   */
   readonly blackoutSchedule?: DataNiosIpamIpv6NetworkContainerResultDiscoveryBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enable_blackout DataNiosIpamIpv6NetworkContainer#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enable_blackout DataNiosIpamIpv6NetworkContainer#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -2012,7 +2012,7 @@ export interface DataNiosIpamIpv6NetworkContainerResultFederatedRealms {
   /**
   * The federated realm id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#id DataNiosIpamIpv6NetworkContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#id DataNiosIpamIpv6NetworkContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2021,7 +2021,7 @@ export interface DataNiosIpamIpv6NetworkContainerResultFederatedRealms {
   /**
   * The federated realm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
   */
   readonly name: string;
 }
@@ -2162,37 +2162,37 @@ export interface DataNiosIpamIpv6NetworkContainerResultFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#attribute_name DataNiosIpamIpv6NetworkContainer#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#attribute_name DataNiosIpamIpv6NetworkContainer#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#object DataNiosIpamIpv6NetworkContainer#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#object DataNiosIpamIpv6NetworkContainer#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#object_function DataNiosIpamIpv6NetworkContainer#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#object_function DataNiosIpamIpv6NetworkContainer#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#object_parameters DataNiosIpamIpv6NetworkContainer#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#object_parameters DataNiosIpamIpv6NetworkContainer#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#parameters DataNiosIpamIpv6NetworkContainer#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#parameters DataNiosIpamIpv6NetworkContainer#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#result_field DataNiosIpamIpv6NetworkContainer#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#result_field DataNiosIpamIpv6NetworkContainer#result_field}
   */
   readonly resultField?: string;
 }
@@ -2430,13 +2430,13 @@ export interface DataNiosIpamIpv6NetworkContainerResultLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#filter DataNiosIpamIpv6NetworkContainer#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#filter DataNiosIpamIpv6NetworkContainer#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#type DataNiosIpamIpv6NetworkContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#type DataNiosIpamIpv6NetworkContainer#type}
   */
   readonly type: string;
 }
@@ -2631,31 +2631,31 @@ export interface DataNiosIpamIpv6NetworkContainerResultOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#num DataNiosIpamIpv6NetworkContainer#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#num DataNiosIpamIpv6NetworkContainer#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_option DataNiosIpamIpv6NetworkContainer#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_option DataNiosIpamIpv6NetworkContainer#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#value DataNiosIpamIpv6NetworkContainer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#value DataNiosIpamIpv6NetworkContainer#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#vendor_class DataNiosIpamIpv6NetworkContainer#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#vendor_class DataNiosIpamIpv6NetworkContainer#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -2889,73 +2889,73 @@ export interface DataNiosIpamIpv6NetworkContainerResultPortControlBlackoutSettin
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#day_of_month DataNiosIpamIpv6NetworkContainer#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#disable DataNiosIpamIpv6NetworkContainer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#every DataNiosIpamIpv6NetworkContainer#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#frequency DataNiosIpamIpv6NetworkContainer#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#hour_of_day DataNiosIpamIpv6NetworkContainer#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#minutes_past_hour DataNiosIpamIpv6NetworkContainer#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#month DataNiosIpamIpv6NetworkContainer#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#recurring_time DataNiosIpamIpv6NetworkContainer#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#repeat DataNiosIpamIpv6NetworkContainer#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#time_zone DataNiosIpamIpv6NetworkContainer#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#weekdays DataNiosIpamIpv6NetworkContainer#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#year DataNiosIpamIpv6NetworkContainer#year}
   */
   readonly year?: number;
 }
@@ -3370,19 +3370,19 @@ export interface DataNiosIpamIpv6NetworkContainerResultPortControlBlackoutSettin
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#blackout_duration DataNiosIpamIpv6NetworkContainer#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#blackout_duration DataNiosIpamIpv6NetworkContainer#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#blackout_schedule DataNiosIpamIpv6NetworkContainer#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#blackout_schedule DataNiosIpamIpv6NetworkContainer#blackout_schedule}
   */
   readonly blackoutSchedule?: DataNiosIpamIpv6NetworkContainerResultPortControlBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enable_blackout DataNiosIpamIpv6NetworkContainer#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enable_blackout DataNiosIpamIpv6NetworkContainer#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -3536,13 +3536,13 @@ export interface DataNiosIpamIpv6NetworkContainerResultSubscribeSettingsMappedEa
   /**
   * The name of the extensible attribute definition object the Cisco ISE attribute that is enabled for subscription is mapped on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#mapped_ea DataNiosIpamIpv6NetworkContainer#mapped_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#mapped_ea DataNiosIpamIpv6NetworkContainer#mapped_ea}
   */
   readonly mappedEa: string;
   /**
   * The Cisco ISE attribute name that is enabled for publishsing from a Cisco ISE endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#name DataNiosIpamIpv6NetworkContainer#name}
   */
   readonly name: string;
 }
@@ -3681,13 +3681,13 @@ export class DataNiosIpamIpv6NetworkContainerResultSubscribeSettingsMappedEaAttr
 }
 export interface DataNiosIpamIpv6NetworkContainerResultSubscribeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enabled_attributes DataNiosIpamIpv6NetworkContainer#enabled_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enabled_attributes DataNiosIpamIpv6NetworkContainer#enabled_attributes}
   */
   readonly enabledAttributes?: string[];
   /**
   * The list of NIOS extensible attributes to Cisco ISE attributes mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#mapped_ea_attributes DataNiosIpamIpv6NetworkContainer#mapped_ea_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#mapped_ea_attributes DataNiosIpamIpv6NetworkContainer#mapped_ea_attributes}
   */
   readonly mappedEaAttributes?: DataNiosIpamIpv6NetworkContainerResultSubscribeSettingsMappedEaAttributes[] | cdktf.IResolvable;
 }
@@ -3812,19 +3812,19 @@ export interface DataNiosIpamIpv6NetworkContainerResultZoneAssociations {
   /**
   * The FQDN of the authoritative forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#fqdn DataNiosIpamIpv6NetworkContainer#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#fqdn DataNiosIpamIpv6NetworkContainer#fqdn}
   */
   readonly fqdn?: string;
   /**
   * True if this is the default zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#is_default DataNiosIpamIpv6NetworkContainer#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#is_default DataNiosIpamIpv6NetworkContainer#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The view to which the zone belongs. If a view is not specified, the default view is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#view DataNiosIpamIpv6NetworkContainer#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#view DataNiosIpamIpv6NetworkContainer#view}
   */
   readonly view?: string;
 }
@@ -4000,325 +4000,325 @@ export interface DataNiosIpamIpv6NetworkContainerResult {
   /**
   * This flag controls whether reverse zones are automatically created when the network is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#auto_create_reversezone DataNiosIpamIpv6NetworkContainer#auto_create_reversezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#auto_create_reversezone DataNiosIpamIpv6NetworkContainer#auto_create_reversezone}
   */
   readonly autoCreateReversezone?: boolean | cdktf.IResolvable;
   /**
   * Structure containing all cloud API related information for this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#cloud_info DataNiosIpamIpv6NetworkContainer#cloud_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#cloud_info DataNiosIpamIpv6NetworkContainer#cloud_info}
   */
   readonly cloudInfo?: DataNiosIpamIpv6NetworkContainerResultCloudInfo;
   /**
   * Comment for the network; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#comment DataNiosIpamIpv6NetworkContainer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#comment DataNiosIpamIpv6NetworkContainer#comment}
   */
   readonly comment?: string;
   /**
   * The dynamic DNS domain name the appliance uses specifically for DDNS updates for this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ddns_domainname DataNiosIpamIpv6NetworkContainer#ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ddns_domainname DataNiosIpamIpv6NetworkContainer#ddns_domainname}
   */
   readonly ddnsDomainname?: string;
   /**
   * Use this method to set or retrieve the ddns_enable_option_fqdn flag of a DHCP IPv6 Network Container object. This method controls whether the FQDN option sent by the client is to be used, or if the server can automatically generate the FQDN. This setting overrides the upper-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ddns_enable_option_fqdn DataNiosIpamIpv6NetworkContainer#ddns_enable_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ddns_enable_option_fqdn DataNiosIpamIpv6NetworkContainer#ddns_enable_option_fqdn}
   */
   readonly ddnsEnableOptionFqdn?: boolean | cdktf.IResolvable;
   /**
   * If this field is set to True, the DHCP server generates a hostname and updates DNS with it when the DHCP client request does not contain a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ddns_generate_hostname DataNiosIpamIpv6NetworkContainer#ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ddns_generate_hostname DataNiosIpamIpv6NetworkContainer#ddns_generate_hostname}
   */
   readonly ddnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether the DHCP server is allowed to update DNS, regardless of the DHCP client requests. Note that changes for this field take effect only if ddns_enable_option_fqdn is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ddns_server_always_updates DataNiosIpamIpv6NetworkContainer#ddns_server_always_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ddns_server_always_updates DataNiosIpamIpv6NetworkContainer#ddns_server_always_updates}
   */
   readonly ddnsServerAlwaysUpdates?: boolean | cdktf.IResolvable;
   /**
   * The DNS update Time to Live (TTL) value of a DHCP network container object. The TTL is a 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#ddns_ttl DataNiosIpamIpv6NetworkContainer#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#ddns_ttl DataNiosIpamIpv6NetworkContainer#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
   * The reason for deleting the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#delete_reason DataNiosIpamIpv6NetworkContainer#delete_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#delete_reason DataNiosIpamIpv6NetworkContainer#delete_reason}
   */
   readonly deleteReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#discovery_basic_poll_settings DataNiosIpamIpv6NetworkContainer#discovery_basic_poll_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#discovery_basic_poll_settings DataNiosIpamIpv6NetworkContainer#discovery_basic_poll_settings}
   */
   readonly discoveryBasicPollSettings?: DataNiosIpamIpv6NetworkContainerResultDiscoveryBasicPollSettings;
   /**
   * The discovery blackout setting for this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#discovery_blackout_setting DataNiosIpamIpv6NetworkContainer#discovery_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#discovery_blackout_setting DataNiosIpamIpv6NetworkContainer#discovery_blackout_setting}
   */
   readonly discoveryBlackoutSetting?: DataNiosIpamIpv6NetworkContainerResultDiscoveryBlackoutSetting;
   /**
   * The member that will run discovery for this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#discovery_member DataNiosIpamIpv6NetworkContainer#discovery_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#discovery_member DataNiosIpamIpv6NetworkContainer#discovery_member}
   */
   readonly discoveryMember?: string;
   /**
   * Use this method to set or retrieve the dynamic DNS updates flag of a DHCP IPv6 Network Container object. The DHCP server can send DDNS updates to DNS servers in the same Grid and to external DNS servers. This setting overrides the member level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#domain_name_servers DataNiosIpamIpv6NetworkContainer#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#domain_name_servers DataNiosIpamIpv6NetworkContainer#domain_name_servers}
   */
   readonly domainNameServers?: string[];
   /**
   * The dynamic DNS updates flag of a DHCP IPv6 network container object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enable_ddns DataNiosIpamIpv6NetworkContainer#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enable_ddns DataNiosIpamIpv6NetworkContainer#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a discovery is enabled or not for this network container. When this is set to False, the network container discovery is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enable_discovery DataNiosIpamIpv6NetworkContainer#enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enable_discovery DataNiosIpamIpv6NetworkContainer#enable_discovery}
   */
   readonly enableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the network container should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#enable_immediate_discovery DataNiosIpamIpv6NetworkContainer#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#enable_immediate_discovery DataNiosIpamIpv6NetworkContainer#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#extattrs DataNiosIpamIpv6NetworkContainer#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#extattrs DataNiosIpamIpv6NetworkContainer#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * This field contains the federated realms associated to this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#federated_realms DataNiosIpamIpv6NetworkContainer#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#federated_realms DataNiosIpamIpv6NetworkContainer#federated_realms}
   */
   readonly federatedRealms?: DataNiosIpamIpv6NetworkContainerResultFederatedRealms[] | cdktf.IResolvable;
   /**
   * Specifies the function call to execute. The `next_available_network` function is supported for IPv6 Network Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#func_call DataNiosIpamIpv6NetworkContainer#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#func_call DataNiosIpamIpv6NetworkContainer#func_call}
   */
   readonly funcCall?: DataNiosIpamIpv6NetworkContainerResultFuncCall;
   /**
   * This field contains the logic filters to be applied on the this network container. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#logic_filter_rules DataNiosIpamIpv6NetworkContainer#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#logic_filter_rules DataNiosIpamIpv6NetworkContainer#logic_filter_rules}
   */
   readonly logicFilterRules?: DataNiosIpamIpv6NetworkContainerResultLogicFilterRules[] | cdktf.IResolvable;
   /**
   * This field controls whether this object is synchronized with the Multi-Grid Master. If this field is set to True, objects are not synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#mgm_private DataNiosIpamIpv6NetworkContainer#mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#mgm_private DataNiosIpamIpv6NetworkContainer#mgm_private}
   */
   readonly mgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * The network address in IPv6 Address/CIDR format. For regular expression searches, only the IPv6 Address portion is supported. Searches for the CIDR portion is always an exact match. For example, both network containers 16::0/28 and 26::0/24 are matched by expression '.6' and only 26::0/24 is matched by '.6/24'. This field is `required` unless a `func_call` is specified to invoke `next_available_network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#network DataNiosIpamIpv6NetworkContainer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#network DataNiosIpamIpv6NetworkContainer#network}
   */
   readonly network?: string;
   /**
   * The name of the network view in which this network resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#network_view DataNiosIpamIpv6NetworkContainer#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#network_view DataNiosIpamIpv6NetworkContainer#network_view}
   */
   readonly networkView?: string;
   /**
   * An array of DHCP option structs that lists the DHCP options associated with the object. The option `dhcp-lease-time` cannot be configured for this object and instead 'valid_lifetime' attribute should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#options DataNiosIpamIpv6NetworkContainer#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#options DataNiosIpamIpv6NetworkContainer#options}
   */
   readonly options?: DataNiosIpamIpv6NetworkContainerResultOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#port_control_blackout_setting DataNiosIpamIpv6NetworkContainer#port_control_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#port_control_blackout_setting DataNiosIpamIpv6NetworkContainer#port_control_blackout_setting}
   */
   readonly portControlBlackoutSetting?: DataNiosIpamIpv6NetworkContainerResultPortControlBlackoutSetting;
   /**
   * Use this method to set or retrieve the preferred lifetime value of a DHCP IPv6 Network Container object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#preferred_lifetime DataNiosIpamIpv6NetworkContainer#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#preferred_lifetime DataNiosIpamIpv6NetworkContainer#preferred_lifetime}
   */
   readonly preferredLifetime?: number;
   /**
   * Remove subnets delete option. Determines whether all child objects should be removed alongside with the IPv6 network container or child objects should be assigned to another parental container. By default child objects are deleted with this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#remove_subnets DataNiosIpamIpv6NetworkContainer#remove_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#remove_subnets DataNiosIpamIpv6NetworkContainer#remove_subnets}
   */
   readonly removeSubnets?: boolean | cdktf.IResolvable;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#restart_if_needed DataNiosIpamIpv6NetworkContainer#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#restart_if_needed DataNiosIpamIpv6NetworkContainer#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The RIR organization associated with the IPv6 network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#rir_organization DataNiosIpamIpv6NetworkContainer#rir_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#rir_organization DataNiosIpamIpv6NetworkContainer#rir_organization}
   */
   readonly rirOrganization?: string;
   /**
   * The RIR registration action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#rir_registration_action DataNiosIpamIpv6NetworkContainer#rir_registration_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#rir_registration_action DataNiosIpamIpv6NetworkContainer#rir_registration_action}
   */
   readonly rirRegistrationAction?: string;
   /**
   * The registration status of the IPv6 network container in RIR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#rir_registration_status DataNiosIpamIpv6NetworkContainer#rir_registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#rir_registration_status DataNiosIpamIpv6NetworkContainer#rir_registration_status}
   */
   readonly rirRegistrationStatus?: string;
   /**
   * If the field is set to True, the discovery blackout setting will be used for port control blackout setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#same_port_control_discovery_blackout DataNiosIpamIpv6NetworkContainer#same_port_control_discovery_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#same_port_control_discovery_blackout DataNiosIpamIpv6NetworkContainer#same_port_control_discovery_blackout}
   */
   readonly samePortControlDiscoveryBlackout?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to send the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#send_rir_request DataNiosIpamIpv6NetworkContainer#send_rir_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#send_rir_request DataNiosIpamIpv6NetworkContainer#send_rir_request}
   */
   readonly sendRirRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#subscribe_settings DataNiosIpamIpv6NetworkContainer#subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#subscribe_settings DataNiosIpamIpv6NetworkContainer#subscribe_settings}
   */
   readonly subscribeSettings?: DataNiosIpamIpv6NetworkContainerResultSubscribeSettings;
   /**
   * Determines whether the network container is unmanaged or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#unmanaged DataNiosIpamIpv6NetworkContainer#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#unmanaged DataNiosIpamIpv6NetworkContainer#unmanaged}
   */
   readonly unmanaged?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether the DHCP server updates DNS when a DHCP lease is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#update_dns_on_lease_renewal DataNiosIpamIpv6NetworkContainer#update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#update_dns_on_lease_renewal DataNiosIpamIpv6NetworkContainer#update_dns_on_lease_renewal}
   */
   readonly updateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_blackout_setting , port_control_blackout_setting, same_port_control_discovery_blackout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_blackout_setting DataNiosIpamIpv6NetworkContainer#use_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_blackout_setting DataNiosIpamIpv6NetworkContainer#use_blackout_setting}
   */
   readonly useBlackoutSetting?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_domainname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_ddns_domainname DataNiosIpamIpv6NetworkContainer#use_ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_ddns_domainname DataNiosIpamIpv6NetworkContainer#use_ddns_domainname}
   */
   readonly useDdnsDomainname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_enable_option_fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_ddns_enable_option_fqdn DataNiosIpamIpv6NetworkContainer#use_ddns_enable_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_ddns_enable_option_fqdn DataNiosIpamIpv6NetworkContainer#use_ddns_enable_option_fqdn}
   */
   readonly useDdnsEnableOptionFqdn?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_generate_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_ddns_generate_hostname DataNiosIpamIpv6NetworkContainer#use_ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_ddns_generate_hostname DataNiosIpamIpv6NetworkContainer#use_ddns_generate_hostname}
   */
   readonly useDdnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_ddns_ttl DataNiosIpamIpv6NetworkContainer#use_ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_ddns_ttl DataNiosIpamIpv6NetworkContainer#use_ddns_ttl}
   */
   readonly useDdnsTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_basic_poll_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_discovery_basic_polling_settings DataNiosIpamIpv6NetworkContainer#use_discovery_basic_polling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_discovery_basic_polling_settings DataNiosIpamIpv6NetworkContainer#use_discovery_basic_polling_settings}
   */
   readonly useDiscoveryBasicPollingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: domain_name_servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_domain_name_servers DataNiosIpamIpv6NetworkContainer#use_domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_domain_name_servers DataNiosIpamIpv6NetworkContainer#use_domain_name_servers}
   */
   readonly useDomainNameServers?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_enable_ddns DataNiosIpamIpv6NetworkContainer#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_enable_ddns DataNiosIpamIpv6NetworkContainer#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_member , enable_discovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_enable_discovery DataNiosIpamIpv6NetworkContainer#use_enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_enable_discovery DataNiosIpamIpv6NetworkContainer#use_enable_discovery}
   */
   readonly useEnableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_logic_filter_rules DataNiosIpamIpv6NetworkContainer#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_logic_filter_rules DataNiosIpamIpv6NetworkContainer#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: mgm_private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_mgm_private DataNiosIpamIpv6NetworkContainer#use_mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_mgm_private DataNiosIpamIpv6NetworkContainer#use_mgm_private}
   */
   readonly useMgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_options DataNiosIpamIpv6NetworkContainer#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_options DataNiosIpamIpv6NetworkContainer#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: preferred_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_preferred_lifetime DataNiosIpamIpv6NetworkContainer#use_preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_preferred_lifetime DataNiosIpamIpv6NetworkContainer#use_preferred_lifetime}
   */
   readonly usePreferredLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: subscribe_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_subscribe_settings DataNiosIpamIpv6NetworkContainer#use_subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_subscribe_settings DataNiosIpamIpv6NetworkContainer#use_subscribe_settings}
   */
   readonly useSubscribeSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: update_dns_on_lease_renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_update_dns_on_lease_renewal DataNiosIpamIpv6NetworkContainer#use_update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_update_dns_on_lease_renewal DataNiosIpamIpv6NetworkContainer#use_update_dns_on_lease_renewal}
   */
   readonly useUpdateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: valid_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_valid_lifetime DataNiosIpamIpv6NetworkContainer#use_valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_valid_lifetime DataNiosIpamIpv6NetworkContainer#use_valid_lifetime}
   */
   readonly useValidLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: zone_associations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#use_zone_associations DataNiosIpamIpv6NetworkContainer#use_zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#use_zone_associations DataNiosIpamIpv6NetworkContainer#use_zone_associations}
   */
   readonly useZoneAssociations?: boolean | cdktf.IResolvable;
   /**
   * Use this method to set or retrieve the valid lifetime value of a DHCP IPv6 Network Container object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#valid_lifetime DataNiosIpamIpv6NetworkContainer#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#valid_lifetime DataNiosIpamIpv6NetworkContainer#valid_lifetime}
   */
   readonly validLifetime?: number;
   /**
   * The list of zones associated with this network container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#zone_associations DataNiosIpamIpv6NetworkContainer#zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#zone_associations DataNiosIpamIpv6NetworkContainer#zone_associations}
   */
   readonly zoneAssociations?: DataNiosIpamIpv6NetworkContainerResultZoneAssociations[] | cdktf.IResolvable;
 }
@@ -6052,7 +6052,7 @@ export class DataNiosIpamIpv6NetworkContainerResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container nios_ipam_ipv6network_container}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container nios_ipam_ipv6network_container}
 */
 export class DataNiosIpamIpv6NetworkContainer extends cdktf.TerraformDataSource {
 
@@ -6068,7 +6068,7 @@ export class DataNiosIpamIpv6NetworkContainer extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosIpamIpv6NetworkContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosIpamIpv6NetworkContainer to import
-  * @param importFromId The id of the existing DataNiosIpamIpv6NetworkContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosIpamIpv6NetworkContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosIpamIpv6NetworkContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6080,7 +6080,7 @@ export class DataNiosIpamIpv6NetworkContainer extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network_container nios_ipam_ipv6network_container} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_ipv6network_container nios_ipam_ipv6network_container} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6091,8 +6091,8 @@ export class DataNiosIpamIpv6NetworkContainer extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_ipam_ipv6network_container',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformRoleAssignmentsConfig extends cdktf.TerraformMetaArgume
   /**
   * Disabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#disabled PlatformRoleAssignments#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#disabled PlatformRoleAssignments#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#id PlatformRoleAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#id PlatformRoleAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface PlatformRoleAssignmentsConfig extends cdktf.TerraformMetaArgume
   /**
   * Identifier for role assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#identifier PlatformRoleAssignments#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#identifier PlatformRoleAssignments#identifier}
   */
   readonly identifier?: string;
   /**
   * Managed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#managed PlatformRoleAssignments#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#managed PlatformRoleAssignments#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Org identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#org_id PlatformRoleAssignments#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#org_id PlatformRoleAssignments#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#project_id PlatformRoleAssignments#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#project_id PlatformRoleAssignments#project_id}
   */
   readonly projectId?: string;
   /**
   * Resource group identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#resource_group_identifier PlatformRoleAssignments#resource_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#resource_group_identifier PlatformRoleAssignments#resource_group_identifier}
   */
   readonly resourceGroupIdentifier: string;
   /**
   * Role identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#role_identifier PlatformRoleAssignments#role_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#role_identifier PlatformRoleAssignments#role_identifier}
   */
   readonly roleIdentifier: string;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#principal PlatformRoleAssignments#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#principal PlatformRoleAssignments#principal}
   */
   readonly principal: PlatformRoleAssignmentsPrincipal[] | cdktf.IResolvable;
 }
@@ -67,19 +67,19 @@ export interface PlatformRoleAssignmentsPrincipal {
   /**
   * Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#identifier PlatformRoleAssignments#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#identifier PlatformRoleAssignments#identifier}
   */
   readonly identifier?: string;
   /**
   * Scope level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#scope_level PlatformRoleAssignments#scope_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#scope_level PlatformRoleAssignments#scope_level}
   */
   readonly scopeLevel?: string;
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#type PlatformRoleAssignments#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#type PlatformRoleAssignments#type}
   */
   readonly type: string;
 }
@@ -250,7 +250,7 @@ export class PlatformRoleAssignmentsPrincipalList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments harness_platform_role_assignments}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments harness_platform_role_assignments}
 */
 export class PlatformRoleAssignments extends cdktf.TerraformResource {
 
@@ -266,7 +266,7 @@ export class PlatformRoleAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformRoleAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformRoleAssignments to import
-  * @param importFromId The id of the existing PlatformRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformRoleAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class PlatformRoleAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_role_assignments harness_platform_role_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_role_assignments harness_platform_role_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class PlatformRoleAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_role_assignments',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

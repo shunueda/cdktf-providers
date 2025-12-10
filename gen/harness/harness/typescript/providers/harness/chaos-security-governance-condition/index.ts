@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ChaosSecurityGovernanceConditionConfig extends cdktf.TerraformM
   /**
   * Description of the security governance condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#description ChaosSecurityGovernanceCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#description ChaosSecurityGovernanceCondition#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#id ChaosSecurityGovernanceCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#id ChaosSecurityGovernanceCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface ChaosSecurityGovernanceConditionConfig extends cdktf.TerraformM
   /**
   * Type of infrastructure (Kubernetes, KubernetesV2, Linux, Windows, CloudFoundry, Container)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#infra_type ChaosSecurityGovernanceCondition#infra_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#infra_type ChaosSecurityGovernanceCondition#infra_type}
   */
   readonly infraType: string;
   /**
   * Name of the security governance condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#name ChaosSecurityGovernanceCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#name ChaosSecurityGovernanceCondition#name}
   */
   readonly name: string;
   /**
   * The organization ID of the security governance condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#org_id ChaosSecurityGovernanceCondition#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#org_id ChaosSecurityGovernanceCondition#org_id}
   */
   readonly orgId: string;
   /**
   * The project ID of the security governance condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#project_id ChaosSecurityGovernanceCondition#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#project_id ChaosSecurityGovernanceCondition#project_id}
   */
   readonly projectId: string;
   /**
   * Tags for the security governance condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#tags ChaosSecurityGovernanceCondition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#tags ChaosSecurityGovernanceCondition#tags}
   */
   readonly tags?: string[];
   /**
   * fault_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#fault_spec ChaosSecurityGovernanceCondition#fault_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#fault_spec ChaosSecurityGovernanceCondition#fault_spec}
   */
   readonly faultSpec: ChaosSecurityGovernanceConditionFaultSpec;
   /**
   * k8s_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#k8s_spec ChaosSecurityGovernanceCondition#k8s_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#k8s_spec ChaosSecurityGovernanceCondition#k8s_spec}
   */
   readonly k8SSpec?: ChaosSecurityGovernanceConditionK8SSpec;
   /**
   * machine_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#machine_spec ChaosSecurityGovernanceCondition#machine_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#machine_spec ChaosSecurityGovernanceCondition#machine_spec}
   */
   readonly machineSpec?: ChaosSecurityGovernanceConditionMachineSpec;
 }
@@ -73,13 +73,13 @@ export interface ChaosSecurityGovernanceConditionFaultSpecFaults {
   /**
   * Type of the fault (FAULT or FAULT_GROUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#fault_type ChaosSecurityGovernanceCondition#fault_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#fault_type ChaosSecurityGovernanceCondition#fault_type}
   */
   readonly faultType: string;
   /**
   * Name of the fault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#name ChaosSecurityGovernanceCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#name ChaosSecurityGovernanceCondition#name}
   */
   readonly name: string;
 }
@@ -220,13 +220,13 @@ export interface ChaosSecurityGovernanceConditionFaultSpec {
   /**
   * Operator for comparing faults (EQUAL_TO or NOT_EQUAL_TO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
   */
   readonly operator: string;
   /**
   * faults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#faults ChaosSecurityGovernanceCondition#faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#faults ChaosSecurityGovernanceCondition#faults}
   */
   readonly faults: ChaosSecurityGovernanceConditionFaultSpecFaults[] | cdktf.IResolvable;
 }
@@ -335,31 +335,31 @@ export interface ChaosSecurityGovernanceConditionK8SSpecApplicationSpecWorkloads
   /**
   * ID for the application map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#application_map_id ChaosSecurityGovernanceCondition#application_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#application_map_id ChaosSecurityGovernanceCondition#application_map_id}
   */
   readonly applicationMapId?: string;
   /**
   * Kind of the workload (e.g., deployment, statefulset)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#kind ChaosSecurityGovernanceCondition#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#kind ChaosSecurityGovernanceCondition#kind}
   */
   readonly kind?: string;
   /**
   * Label selector for the workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#label ChaosSecurityGovernanceCondition#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#label ChaosSecurityGovernanceCondition#label}
   */
   readonly label?: string;
   /**
   * Namespace of the workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#namespace ChaosSecurityGovernanceCondition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#namespace ChaosSecurityGovernanceCondition#namespace}
   */
   readonly namespace: string;
   /**
   * List of services associated with the workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#services ChaosSecurityGovernanceCondition#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#services ChaosSecurityGovernanceCondition#services}
   */
   readonly services?: string[];
 }
@@ -590,13 +590,13 @@ export interface ChaosSecurityGovernanceConditionK8SSpecApplicationSpec {
   /**
   * Operator for application matching (EQUAL_TO or NOT_EQUAL_TO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
   */
   readonly operator: string;
   /**
   * workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#workloads ChaosSecurityGovernanceCondition#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#workloads ChaosSecurityGovernanceCondition#workloads}
   */
   readonly workloads?: ChaosSecurityGovernanceConditionK8SSpecApplicationSpecWorkloads[] | cdktf.IResolvable;
 }
@@ -708,13 +708,13 @@ export interface ChaosSecurityGovernanceConditionK8SSpecChaosServiceAccountSpec 
   /**
   * Operator for service account matching (EQUAL_TO or NOT_EQUAL_TO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
   */
   readonly operator: string;
   /**
   * List of service accounts to include/exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#service_accounts ChaosSecurityGovernanceCondition#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#service_accounts ChaosSecurityGovernanceCondition#service_accounts}
   */
   readonly serviceAccounts: string[];
 }
@@ -823,13 +823,13 @@ export interface ChaosSecurityGovernanceConditionK8SSpecInfraSpec {
   /**
   * List of infrastructure IDs to apply the condition to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#infra_ids ChaosSecurityGovernanceCondition#infra_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#infra_ids ChaosSecurityGovernanceCondition#infra_ids}
   */
   readonly infraIds: string[];
   /**
   * Operator for comparing infrastructure IDs (EQUAL_TO or NOT_EQUAL_TO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
   */
   readonly operator: string;
 }
@@ -938,19 +938,19 @@ export interface ChaosSecurityGovernanceConditionK8SSpec {
   /**
   * application_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#application_spec ChaosSecurityGovernanceCondition#application_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#application_spec ChaosSecurityGovernanceCondition#application_spec}
   */
   readonly applicationSpec?: ChaosSecurityGovernanceConditionK8SSpecApplicationSpec;
   /**
   * chaos_service_account_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#chaos_service_account_spec ChaosSecurityGovernanceCondition#chaos_service_account_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#chaos_service_account_spec ChaosSecurityGovernanceCondition#chaos_service_account_spec}
   */
   readonly chaosServiceAccountSpec?: ChaosSecurityGovernanceConditionK8SSpecChaosServiceAccountSpec;
   /**
   * infra_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#infra_spec ChaosSecurityGovernanceCondition#infra_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#infra_spec ChaosSecurityGovernanceCondition#infra_spec}
   */
   readonly infraSpec?: ChaosSecurityGovernanceConditionK8SSpecInfraSpec;
 }
@@ -1094,13 +1094,13 @@ export interface ChaosSecurityGovernanceConditionMachineSpecInfraSpec {
   /**
   * List of infrastructure IDs to apply the condition to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#infra_ids ChaosSecurityGovernanceCondition#infra_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#infra_ids ChaosSecurityGovernanceCondition#infra_ids}
   */
   readonly infraIds: string[];
   /**
   * Operator for comparing infrastructure IDs (EQUAL_TO or NOT_EQUAL_TO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#operator ChaosSecurityGovernanceCondition#operator}
   */
   readonly operator: string;
 }
@@ -1209,7 +1209,7 @@ export interface ChaosSecurityGovernanceConditionMachineSpec {
   /**
   * infra_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#infra_spec ChaosSecurityGovernanceCondition#infra_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#infra_spec ChaosSecurityGovernanceCondition#infra_spec}
   */
   readonly infraSpec?: ChaosSecurityGovernanceConditionMachineSpecInfraSpec;
 }
@@ -1293,7 +1293,7 @@ export class ChaosSecurityGovernanceConditionMachineSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition harness_chaos_security_governance_condition}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition harness_chaos_security_governance_condition}
 */
 export class ChaosSecurityGovernanceCondition extends cdktf.TerraformResource {
 
@@ -1309,7 +1309,7 @@ export class ChaosSecurityGovernanceCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChaosSecurityGovernanceCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChaosSecurityGovernanceCondition to import
-  * @param importFromId The id of the existing ChaosSecurityGovernanceCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChaosSecurityGovernanceCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChaosSecurityGovernanceCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1321,7 +1321,7 @@ export class ChaosSecurityGovernanceCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_security_governance_condition harness_chaos_security_governance_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/chaos_security_governance_condition harness_chaos_security_governance_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1332,8 +1332,8 @@ export class ChaosSecurityGovernanceCondition extends cdktf.TerraformResource {
       terraformResourceType: 'harness_chaos_security_governance_condition',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

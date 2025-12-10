@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaBandwidthControlRuleConfig extends cdktf.TerraformMetaAr
   /**
   * The unique identifier for the rule label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule#id DataZiaBandwidthControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule#id DataZiaBandwidthControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaBandwidthControlRuleConfig extends cdktf.TerraformMetaAr
   /**
   * The bandwidth control rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule#name DataZiaBandwidthControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule#name DataZiaBandwidthControlRule#name}
   */
   readonly name?: string;
 }
@@ -541,7 +541,7 @@ export class DataZiaBandwidthControlRuleTimeWindowsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule zia_bandwidth_control_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule zia_bandwidth_control_rule}
 */
 export class DataZiaBandwidthControlRule extends cdktf.TerraformDataSource {
 
@@ -557,7 +557,7 @@ export class DataZiaBandwidthControlRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaBandwidthControlRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaBandwidthControlRule to import
-  * @param importFromId The id of the existing DataZiaBandwidthControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaBandwidthControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaBandwidthControlRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -569,7 +569,7 @@ export class DataZiaBandwidthControlRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/bandwidth_control_rule zia_bandwidth_control_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/bandwidth_control_rule zia_bandwidth_control_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -580,8 +580,8 @@ export class DataZiaBandwidthControlRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_bandwidth_control_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

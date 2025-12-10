@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface DnsZoneStubConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the zone; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#comment DnsZoneStub#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#comment DnsZoneStub#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether a zone is disabled or not. When this is set to False, the zone is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#disable DnsZoneStub#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#disable DnsZoneStub#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines if the name servers that host the zone should not forward queries that end with the domain name of the zone to any configured forwarders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#disable_forwarding DnsZoneStub#disable_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#disable_forwarding DnsZoneStub#disable_forwarding}
   */
   readonly disableForwarding?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#extattrs DnsZoneStub#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#extattrs DnsZoneStub#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * A forward stub server name server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#external_ns_group DnsZoneStub#external_ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#external_ns_group DnsZoneStub#external_ns_group}
   */
   readonly externalNsGroup?: string;
   /**
   * The name of this DNS zone. For a reverse zone, this is in "address/cidr" format. For other zones, this is in FQDN format. This value can be in unicode format. Note that for a reverse zone, the corresponding zone_format value should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#fqdn DnsZoneStub#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#fqdn DnsZoneStub#fqdn}
   */
   readonly fqdn: string;
   /**
   * If you enable this flag, other administrators cannot make conflicting changes. This is for administration purposes only. The zone will continue to serve DNS data even when it is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#locked DnsZoneStub#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#locked DnsZoneStub#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The flag that determines whether Active Directory is integrated or not. This field is valid only when ms_managed is "STUB", "AUTH_PRIMARY", or "AUTH_BOTH".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#ms_ad_integrated DnsZoneStub#ms_ad_integrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#ms_ad_integrated DnsZoneStub#ms_ad_integrated}
   */
   readonly msAdIntegrated?: boolean | cdktf.IResolvable;
   /**
   * Determines whether an Active Directory-integrated zone with a Microsoft DNS server as primary allows dynamic updates. Valid values are: "SECURE" if the zone allows secure updates only. "NONE" if the zone forbids dynamic updates. "ANY" if the zone accepts both secure and nonsecure updates. This field is valid only if ms_managed is either "AUTH_PRIMARY" or "AUTH_BOTH". If the flag ms_ad_integrated is false, the value "SECURE" is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#ms_ddns_mode DnsZoneStub#ms_ddns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#ms_ddns_mode DnsZoneStub#ms_ddns_mode}
   */
   readonly msDdnsMode?: string;
   /**
   * A stub member name server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#ns_group DnsZoneStub#ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#ns_group DnsZoneStub#ns_group}
   */
   readonly nsGroup?: string;
   /**
   * The RFC2317 prefix value of this DNS zone. Use this field only when the netmask is greater than 24 bits; that is, for a mask between 25 and 31 bits. Enter a prefix, such as the name of the allocated address block. The prefix can be alphanumeric characters, such as 128/26 , 128-189 , or sub-B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#prefix DnsZoneStub#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#prefix DnsZoneStub#prefix}
   */
   readonly prefix?: string;
   /**
   * The primary servers (masters) of this stub zone.Note that the stealth/tsig_key/tsig_key_alg/tsig_key_name/use_tsig_key_name fields of the struct will be ignored when set in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#stub_from DnsZoneStub#stub_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#stub_from DnsZoneStub#stub_from}
   */
   readonly stubFrom?: DnsZoneStubStubFrom[] | cdktf.IResolvable;
   /**
   * The Grid member servers of this stub zone. Note that the lead/stealth/grid_replicate/ preferred_primaries/enable_preferred_primaries fields of the struct will be ignored when set in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#stub_members DnsZoneStub#stub_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#stub_members DnsZoneStub#stub_members}
   */
   readonly stubMembers?: DnsZoneStubStubMembers[] | cdktf.IResolvable;
   /**
   * The Microsoft DNS servers of this stub zone. Note that the stealth field of the struct will be ignored when set in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#stub_msservers DnsZoneStub#stub_msservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#stub_msservers DnsZoneStub#stub_msservers}
   */
   readonly stubMsservers?: DnsZoneStubStubMsservers[] | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the zone resides. Example "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#view DnsZoneStub#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#view DnsZoneStub#view}
   */
   readonly view?: string;
   /**
   * Determines the format of this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#zone_format DnsZoneStub#zone_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#zone_format DnsZoneStub#zone_format}
   */
   readonly zoneFormat?: string;
 }
@@ -108,13 +108,13 @@ export interface DnsZoneStubStubFrom {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#address DnsZoneStub#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#address DnsZoneStub#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#name DnsZoneStub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#name DnsZoneStub#name}
   */
   readonly name: string;
 }
@@ -395,13 +395,13 @@ export interface DnsZoneStubStubMembers {
   /**
   * The flag represents DNS zone transfers if set to False, and ID Grid Replication if set to True. This flag is ignored if the struct is specified as part of a stub zone or if it is set as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#grid_replicate DnsZoneStub#grid_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#grid_replicate DnsZoneStub#grid_replicate}
   */
   readonly gridReplicate?: boolean | cdktf.IResolvable;
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#name DnsZoneStub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#name DnsZoneStub#name}
   */
   readonly name: string;
 }
@@ -566,31 +566,31 @@ export interface DnsZoneStubStubMsservers {
   /**
   * The address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#address DnsZoneStub#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#address DnsZoneStub#address}
   */
   readonly address: string;
   /**
   * This flag indicates if this server is a synchronization master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#is_master DnsZoneStub#is_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#is_master DnsZoneStub#is_master}
   */
   readonly isMaster?: boolean | cdktf.IResolvable;
   /**
   * This address is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#ns_ip DnsZoneStub#ns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#ns_ip DnsZoneStub#ns_ip}
   */
   readonly nsIp: string;
   /**
   * This name is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#ns_name DnsZoneStub#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#ns_name DnsZoneStub#ns_name}
   */
   readonly nsName: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#stealth DnsZoneStub#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#stealth DnsZoneStub#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -818,7 +818,7 @@ export class DnsZoneStubStubMsserversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub nios_dns_zone_stub}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub nios_dns_zone_stub}
 */
 export class DnsZoneStub extends cdktf.TerraformResource {
 
@@ -834,7 +834,7 @@ export class DnsZoneStub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZoneStub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZoneStub to import
-  * @param importFromId The id of the existing DnsZoneStub that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZoneStub that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZoneStub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -846,7 +846,7 @@ export class DnsZoneStub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_stub nios_dns_zone_stub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_stub nios_dns_zone_stub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -857,8 +857,8 @@ export class DnsZoneStub extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_zone_stub',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

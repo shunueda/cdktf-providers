@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,337 +10,337 @@ export interface DhcpFixedAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The agent circuit ID for the fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#agent_circuit_id DhcpFixedAddress#agent_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#agent_circuit_id DhcpFixedAddress#agent_circuit_id}
   */
   readonly agentCircuitId?: string;
   /**
   * The agent remote ID for the fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#agent_remote_id DhcpFixedAddress#agent_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#agent_remote_id DhcpFixedAddress#agent_remote_id}
   */
   readonly agentRemoteId?: string;
   /**
   * This field controls whether the credential is used for both the Telnet and SSH credentials. If set to False, the credential is used only for SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#allow_telnet DhcpFixedAddress#allow_telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#allow_telnet DhcpFixedAddress#allow_telnet}
   */
   readonly allowTelnet?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether only the DHCP server is allowed to update DNS, regardless of the DHCP client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#always_update_dns DhcpFixedAddress#always_update_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#always_update_dns DhcpFixedAddress#always_update_dns}
   */
   readonly alwaysUpdateDns?: boolean | cdktf.IResolvable;
   /**
   * The bootfile name for the fixed address. You can configure the DHCP server to support clients that use the boot file name option in their DHCPREQUEST messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#bootfile DhcpFixedAddress#bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#bootfile DhcpFixedAddress#bootfile}
   */
   readonly bootfile?: string;
   /**
   * The bootserver address for the fixed address. You can specify the name and/or IP address of the boot server that the host needs to boot. The boot server IPv4 Address or name in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#bootserver DhcpFixedAddress#bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#bootserver DhcpFixedAddress#bootserver}
   */
   readonly bootserver?: string;
   /**
   * The CLI credentials for the fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#cli_credentials DhcpFixedAddress#cli_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#cli_credentials DhcpFixedAddress#cli_credentials}
   */
   readonly cliCredentials?: DhcpFixedAddressCliCredentials[] | cdktf.IResolvable;
   /**
   * This field controls whether there is a prepend for the dhcp-client-identifier of a fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#client_identifier_prepend_zero DhcpFixedAddress#client_identifier_prepend_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#client_identifier_prepend_zero DhcpFixedAddress#client_identifier_prepend_zero}
   */
   readonly clientIdentifierPrependZero?: boolean | cdktf.IResolvable;
   /**
   * Comment for the fixed address; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
   */
   readonly comment?: string;
   /**
   * The dynamic DNS domain name the appliance uses specifically for DDNS updates for this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ddns_domainname DhcpFixedAddress#ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ddns_domainname DhcpFixedAddress#ddns_domainname}
   */
   readonly ddnsDomainname?: string;
   /**
   * The DDNS host name for this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ddns_hostname DhcpFixedAddress#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ddns_hostname DhcpFixedAddress#ddns_hostname}
   */
   readonly ddnsHostname?: string;
   /**
   * If set to true, BOOTP settings are disabled and BOOTP requests will be denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#deny_bootp DhcpFixedAddress#deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#deny_bootp DhcpFixedAddress#deny_bootp}
   */
   readonly denyBootp?: boolean | cdktf.IResolvable;
   /**
   * The description of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#device_description DhcpFixedAddress#device_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#device_description DhcpFixedAddress#device_description}
   */
   readonly deviceDescription?: string;
   /**
   * The location of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#device_location DhcpFixedAddress#device_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#device_location DhcpFixedAddress#device_location}
   */
   readonly deviceLocation?: string;
   /**
   * The type of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#device_type DhcpFixedAddress#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#device_type DhcpFixedAddress#device_type}
   */
   readonly deviceType?: string;
   /**
   * The vendor of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#device_vendor DhcpFixedAddress#device_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#device_vendor DhcpFixedAddress#device_vendor}
   */
   readonly deviceVendor?: string;
   /**
   * The DHCP client ID for the fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#dhcp_client_identifier DhcpFixedAddress#dhcp_client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#dhcp_client_identifier DhcpFixedAddress#dhcp_client_identifier}
   */
   readonly dhcpClientIdentifier?: string;
   /**
   * Determines whether a fixed address is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#disable DhcpFixedAddress#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#disable DhcpFixedAddress#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for this fixed address is disabled or not. False means that the discovery is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#disable_discovery DhcpFixedAddress#disable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#disable_discovery DhcpFixedAddress#disable_discovery}
   */
   readonly disableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * The dynamic DNS updates flag of a DHCP Fixed Address object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#enable_ddns DhcpFixedAddress#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#enable_ddns DhcpFixedAddress#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the fixed address should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#enable_immediate_discovery DhcpFixedAddress#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#enable_immediate_discovery DhcpFixedAddress#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Set this to True if you want the DHCP server to use a different lease time for PXE clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#enable_pxe_lease_time DhcpFixedAddress#enable_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#enable_pxe_lease_time DhcpFixedAddress#enable_pxe_lease_time}
   */
   readonly enablePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#extattrs DhcpFixedAddress#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#extattrs DhcpFixedAddress#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * Specifies the function call to execute. The `next_available_ip` function is supported for Fixed Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#func_call DhcpFixedAddress#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#func_call DhcpFixedAddress#func_call}
   */
   readonly funcCall?: DhcpFixedAddressFuncCall;
   /**
   * If this field is set to False, the appliance returns all DHCP options the client is eligible to receive, rather than only the list of options the client has requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ignore_dhcp_option_list_request DhcpFixedAddress#ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ignore_dhcp_option_list_request DhcpFixedAddress#ignore_dhcp_option_list_request}
   */
   readonly ignoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * The IPv4 address for the Fixed Address. This field is `required` unless a `func_call` is specified to invoke `next_available_ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ipv4addr DhcpFixedAddress#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ipv4addr DhcpFixedAddress#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * This field contains the logic filters to be applied on the this fixed address. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#logic_filter_rules DhcpFixedAddress#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#logic_filter_rules DhcpFixedAddress#logic_filter_rules}
   */
   readonly logicFilterRules?: DhcpFixedAddressLogicFilterRules[] | cdktf.IResolvable;
   /**
   * The MAC address value for this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#mac DhcpFixedAddress#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#mac DhcpFixedAddress#mac}
   */
   readonly mac?: string;
   /**
   * The match_client value for this fixed address. Valid values are: "MAC_ADDRESS": The fixed IP address is leased to the matching MAC address. "CLIENT_ID": The fixed IP address is leased to the matching DHCP client identifier. "RESERVED": The fixed IP address is reserved for later use with a MAC address that only has zeros. "CIRCUIT_ID": The fixed IP address is leased to the DHCP client with a matching circuit ID. Note that the "agent_circuit_id" field must be set in this case. "REMOTE_ID": The fixed IP address is leased to the DHCP client with a matching remote ID. Note that the "agent_remote_id" field must be set in this case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#match_client DhcpFixedAddress#match_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#match_client DhcpFixedAddress#match_client}
   */
   readonly matchClient?: string;
   /**
   * This field contains the Microsoft DHCP options for this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ms_options DhcpFixedAddress#ms_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ms_options DhcpFixedAddress#ms_options}
   */
   readonly msOptions?: DhcpFixedAddressMsOptions[] | cdktf.IResolvable;
   /**
   * The Microsoft server associated with this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ms_server DhcpFixedAddress#ms_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ms_server DhcpFixedAddress#ms_server}
   */
   readonly msServer?: DhcpFixedAddressMsServer;
   /**
   * This field contains the name of this fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
   */
   readonly name?: string;
   /**
   * The network to which this fixed address belongs, in IPv4 Address/CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#network DhcpFixedAddress#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#network DhcpFixedAddress#network}
   */
   readonly network?: string;
   /**
   * The name of the network view in which this fixed address resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#network_view DhcpFixedAddress#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#network_view DhcpFixedAddress#network_view}
   */
   readonly networkView?: string;
   /**
   * The name in FQDN and/or IPv4 Address format of the next server that the host needs to boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#nextserver DhcpFixedAddress#nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#nextserver DhcpFixedAddress#nextserver}
   */
   readonly nextserver?: string;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#options DhcpFixedAddress#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#options DhcpFixedAddress#options}
   */
   readonly options?: DhcpFixedAddressOptions[] | cdktf.IResolvable;
   /**
   * The PXE lease time value for a DHCP Fixed Address object. Some hosts use PXE (Preboot Execution Environment) to boot remotely from a server. To better manage your IP resources, set a different lease time for PXE boot requests. You can configure the DHCP server to allocate an IP address with a shorter lease time to hosts that send PXE boot requests, so IP addresses are not leased longer than necessary. A 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#pxe_lease_time DhcpFixedAddress#pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#pxe_lease_time DhcpFixedAddress#pxe_lease_time}
   */
   readonly pxeLeaseTime?: number;
   /**
   * The ref to the reserved interface to which the device belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#reserved_interface DhcpFixedAddress#reserved_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#reserved_interface DhcpFixedAddress#reserved_interface}
   */
   readonly reservedInterface?: string;
   /**
   * Restarts the member service. The restart_if_needed flag can trigger a restart on DHCP services only when it is enabled on CP member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#restart_if_needed DhcpFixedAddress#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#restart_if_needed DhcpFixedAddress#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The SNMPv3 credential for this fixed address.For SNMP3 Credentials to be applied to this fixed address,use_snmp3_credential and use_cli_credentials must be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#snmp3_credential DhcpFixedAddress#snmp3_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#snmp3_credential DhcpFixedAddress#snmp3_credential}
   */
   readonly snmp3Credential?: DhcpFixedAddressSnmp3Credential;
   /**
   * The SNMP credential for this fixed address. If set to true, the SNMP credential will override member-level settings..For SNMP Credentials to be applied to this fixed address,use_snmp_credential must be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#snmp_credential DhcpFixedAddress#snmp_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#snmp_credential DhcpFixedAddress#snmp_credential}
   */
   readonly snmpCredential?: DhcpFixedAddressSnmpCredential;
   /**
   * If set on creation, the fixed address will be created according to the values specified in the named template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#template DhcpFixedAddress#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#template DhcpFixedAddress#template}
   */
   readonly template?: string;
   /**
   * Use flag for: bootfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_bootfile DhcpFixedAddress#use_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_bootfile DhcpFixedAddress#use_bootfile}
   */
   readonly useBootfile?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_bootserver DhcpFixedAddress#use_bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_bootserver DhcpFixedAddress#use_bootserver}
   */
   readonly useBootserver?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the CLI credential will override member-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_cli_credentials DhcpFixedAddress#use_cli_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_cli_credentials DhcpFixedAddress#use_cli_credentials}
   */
   readonly useCliCredentials?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_domainname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_ddns_domainname DhcpFixedAddress#use_ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_ddns_domainname DhcpFixedAddress#use_ddns_domainname}
   */
   readonly useDdnsDomainname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: deny_bootp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_deny_bootp DhcpFixedAddress#use_deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_deny_bootp DhcpFixedAddress#use_deny_bootp}
   */
   readonly useDenyBootp?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_enable_ddns DhcpFixedAddress#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_enable_ddns DhcpFixedAddress#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_dhcp_option_list_request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_ignore_dhcp_option_list_request DhcpFixedAddress#use_ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_ignore_dhcp_option_list_request DhcpFixedAddress#use_ignore_dhcp_option_list_request}
   */
   readonly useIgnoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_logic_filter_rules DhcpFixedAddress#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_logic_filter_rules DhcpFixedAddress#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ms_options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_ms_options DhcpFixedAddress#use_ms_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_ms_options DhcpFixedAddress#use_ms_options}
   */
   readonly useMsOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nextserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_nextserver DhcpFixedAddress#use_nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_nextserver DhcpFixedAddress#use_nextserver}
   */
   readonly useNextserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_options DhcpFixedAddress#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_options DhcpFixedAddress#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: pxe_lease_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_pxe_lease_time DhcpFixedAddress#use_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_pxe_lease_time DhcpFixedAddress#use_pxe_lease_time}
   */
   readonly usePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Determines if the SNMPv3 credential should be used for the fixed address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_snmp3_credential DhcpFixedAddress#use_snmp3_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_snmp3_credential DhcpFixedAddress#use_snmp3_credential}
   */
   readonly useSnmp3Credential?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the SNMP credential will override member-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_snmp_credential DhcpFixedAddress#use_snmp_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_snmp_credential DhcpFixedAddress#use_snmp_credential}
   */
   readonly useSnmpCredential?: boolean | cdktf.IResolvable;
 }
@@ -348,31 +348,31 @@ export interface DhcpFixedAddressCliCredentials {
   /**
   * The comment for the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
   */
   readonly comment?: string;
   /**
   * Group for the CLI credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * The type of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#credential_type DhcpFixedAddress#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#credential_type DhcpFixedAddress#credential_type}
   */
   readonly credentialType: string;
   /**
   * The CLI password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#password DhcpFixedAddress#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#password DhcpFixedAddress#password}
   */
   readonly password?: string;
   /**
   * The CLI user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#user DhcpFixedAddress#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#user DhcpFixedAddress#user}
   */
   readonly user?: string;
 }
@@ -1291,37 +1291,37 @@ export interface DhcpFixedAddressFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#attribute_name DhcpFixedAddress#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#attribute_name DhcpFixedAddress#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#object DhcpFixedAddress#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#object DhcpFixedAddress#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#object_function DhcpFixedAddress#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#object_function DhcpFixedAddress#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#object_parameters DhcpFixedAddress#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#object_parameters DhcpFixedAddress#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#parameters DhcpFixedAddress#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#parameters DhcpFixedAddress#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#result_field DhcpFixedAddress#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#result_field DhcpFixedAddress#result_field}
   */
   readonly resultField?: string;
 }
@@ -1559,13 +1559,13 @@ export interface DhcpFixedAddressLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#filter DhcpFixedAddress#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#filter DhcpFixedAddress#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#type DhcpFixedAddress#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#type DhcpFixedAddress#type}
   */
   readonly type: string;
 }
@@ -1760,31 +1760,31 @@ export interface DhcpFixedAddressMsOptions {
   /**
   * The name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#num DhcpFixedAddress#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#num DhcpFixedAddress#num}
   */
   readonly num?: number;
   /**
   * The name of the user class with which this DHCP option is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#user_class DhcpFixedAddress#user_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#user_class DhcpFixedAddress#user_class}
   */
   readonly userClass?: string;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
   */
   readonly value: string;
   /**
   * The name of the vendor class with which this DHCP option is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#vendor_class DhcpFixedAddress#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#vendor_class DhcpFixedAddress#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -2020,7 +2020,7 @@ export interface DhcpFixedAddressMsServer {
   /**
   * The IPv4 Address or FQDN of the Microsoft server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#ipv4addr DhcpFixedAddress#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#ipv4addr DhcpFixedAddress#ipv4addr}
   */
   readonly ipv4Addr: string;
 }
@@ -2113,31 +2113,31 @@ export interface DhcpFixedAddressOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#num DhcpFixedAddress#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#num DhcpFixedAddress#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#use_option DhcpFixedAddress#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#use_option DhcpFixedAddress#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#vendor_class DhcpFixedAddress#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#vendor_class DhcpFixedAddress#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -2371,43 +2371,43 @@ export interface DhcpFixedAddressSnmp3Credential {
   /**
   * Authentication password for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#authentication_password DhcpFixedAddress#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#authentication_password DhcpFixedAddress#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * Authentication protocol for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#authentication_protocol DhcpFixedAddress#authentication_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#authentication_protocol DhcpFixedAddress#authentication_protocol}
   */
   readonly authenticationProtocol: string;
   /**
   * Comments for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
   */
   readonly comment?: string;
   /**
   * Group for the SNMPv3 credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Privacy password for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#privacy_password DhcpFixedAddress#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#privacy_password DhcpFixedAddress#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
   * Privacy protocol for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#privacy_protocol DhcpFixedAddress#privacy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#privacy_protocol DhcpFixedAddress#privacy_protocol}
   */
   readonly privacyProtocol: string;
   /**
   * The SNMPv3 user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#user DhcpFixedAddress#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#user DhcpFixedAddress#user}
   */
   readonly user: string;
 }
@@ -2668,19 +2668,19 @@ export interface DhcpFixedAddressSnmpCredential {
   /**
   * Comments for the SNMPv1 and SNMPv2 users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
   */
   readonly comment?: string;
   /**
   * The public community string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#community_string DhcpFixedAddress#community_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#community_string DhcpFixedAddress#community_string}
   */
   readonly communityString: string;
   /**
   * Group for the SNMPv1 and SNMPv2 credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#credential_group DhcpFixedAddress#credential_group}
   */
   readonly credentialGroup?: string;
 }
@@ -2829,7 +2829,7 @@ export class DhcpFixedAddressSnmpCredentialOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address nios_dhcp_fixed_address}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address nios_dhcp_fixed_address}
 */
 export class DhcpFixedAddress extends cdktf.TerraformResource {
 
@@ -2845,7 +2845,7 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpFixedAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpFixedAddress to import
-  * @param importFromId The id of the existing DhcpFixedAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpFixedAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpFixedAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2857,7 +2857,7 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_fixed_address nios_dhcp_fixed_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_fixed_address nios_dhcp_fixed_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2868,8 +2868,8 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dhcp_fixed_address',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

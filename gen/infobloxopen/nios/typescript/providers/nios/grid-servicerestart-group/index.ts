@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GridServicerestartGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Comment for the Restart Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#comment GridServicerestartGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#comment GridServicerestartGroup#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#extattrs GridServicerestartGroup#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#extattrs GridServicerestartGroup#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of members belonging to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#members GridServicerestartGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#members GridServicerestartGroup#members}
   */
   readonly members?: string[];
   /**
   * The default restart method for this Restart Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#mode GridServicerestartGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#mode GridServicerestartGroup#mode}
   */
   readonly mode?: string;
   /**
   * The name of this Restart Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#name GridServicerestartGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#name GridServicerestartGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#recurring_schedule GridServicerestartGroup#recurring_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#recurring_schedule GridServicerestartGroup#recurring_schedule}
   */
   readonly recurringSchedule?: GridServicerestartGroupRecurringSchedule;
   /**
   * The applicable service for this Restart Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#service GridServicerestartGroup#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#service GridServicerestartGroup#service}
   */
   readonly service: string;
 }
@@ -52,73 +52,73 @@ export interface GridServicerestartGroupRecurringScheduleSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#day_of_month GridServicerestartGroup#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#day_of_month GridServicerestartGroup#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#disable GridServicerestartGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#disable GridServicerestartGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#every GridServicerestartGroup#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#every GridServicerestartGroup#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#frequency GridServicerestartGroup#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#frequency GridServicerestartGroup#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#hour_of_day GridServicerestartGroup#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#hour_of_day GridServicerestartGroup#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#minutes_past_hour GridServicerestartGroup#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#minutes_past_hour GridServicerestartGroup#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#month GridServicerestartGroup#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#month GridServicerestartGroup#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#recurring_time GridServicerestartGroup#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#recurring_time GridServicerestartGroup#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#repeat GridServicerestartGroup#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#repeat GridServicerestartGroup#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#time_zone GridServicerestartGroup#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#time_zone GridServicerestartGroup#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#weekdays GridServicerestartGroup#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#weekdays GridServicerestartGroup#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#year GridServicerestartGroup#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#year GridServicerestartGroup#year}
   */
   readonly year?: number;
 }
@@ -533,23 +533,23 @@ export interface GridServicerestartGroupRecurringSchedule {
   /**
   * Determines if the Restart Group should have a force restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#force GridServicerestartGroup#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#force GridServicerestartGroup#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * The restart method for a Grid restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#mode GridServicerestartGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#mode GridServicerestartGroup#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#schedule GridServicerestartGroup#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#schedule GridServicerestartGroup#schedule}
   */
   readonly schedule?: GridServicerestartGroupRecurringScheduleSchedule;
   /**
   * The list of applicable services for the restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#services GridServicerestartGroup#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#services GridServicerestartGroup#services}
   */
   readonly services?: string[];
 }
@@ -844,7 +844,7 @@ export class GridServicerestartGroupStatusOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group nios_grid_servicerestart_group}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group nios_grid_servicerestart_group}
 */
 export class GridServicerestartGroup extends cdktf.TerraformResource {
 
@@ -860,7 +860,7 @@ export class GridServicerestartGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GridServicerestartGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GridServicerestartGroup to import
-  * @param importFromId The id of the existing GridServicerestartGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GridServicerestartGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GridServicerestartGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class GridServicerestartGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_servicerestart_group nios_grid_servicerestart_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_servicerestart_group nios_grid_servicerestart_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,8 +883,8 @@ export class GridServicerestartGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nios_grid_servicerestart_group',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

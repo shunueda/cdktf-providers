@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaDeviceGroupsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The unique identifer for the device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups#id DataZiaDeviceGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups#id DataZiaDeviceGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaDeviceGroupsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The device group name. If not provided, all device groups will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups#name DataZiaDeviceGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups#name DataZiaDeviceGroups#name}
   */
   readonly name?: string;
 }
@@ -135,7 +135,7 @@ export class DataZiaDeviceGroupsListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups zia_device_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups zia_device_groups}
 */
 export class DataZiaDeviceGroups extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataZiaDeviceGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaDeviceGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaDeviceGroups to import
-  * @param importFromId The id of the existing DataZiaDeviceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaDeviceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaDeviceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataZiaDeviceGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/device_groups zia_device_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/device_groups zia_device_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataZiaDeviceGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_device_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface NotificationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The notification rule descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#comment NotificationRule#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#comment NotificationRule#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether a notification rule is disabled or not. When this is set to False, the notification rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#disable NotificationRule#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#disable NotificationRule#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the notification rule for event deduplication is enabled. Note that to enable event deduplication, you must set at least one deduplication field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#enable_event_deduplication NotificationRule#enable_event_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#enable_event_deduplication NotificationRule#enable_event_deduplication}
   */
   readonly enableEventDeduplication?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the notification rule for the event deduplication syslog is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#enable_event_deduplication_log NotificationRule#enable_event_deduplication_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#enable_event_deduplication_log NotificationRule#enable_event_deduplication_log}
   */
   readonly enableEventDeduplicationLog?: boolean | cdktf.IResolvable;
   /**
   * The list of fields that must be used in the notification rule for event deduplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#event_deduplication_fields NotificationRule#event_deduplication_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#event_deduplication_fields NotificationRule#event_deduplication_fields}
   */
   readonly eventDeduplicationFields?: string[];
   /**
   * The lookback period for the notification rule for event deduplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#event_deduplication_lookback_period NotificationRule#event_deduplication_lookback_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#event_deduplication_lookback_period NotificationRule#event_deduplication_lookback_period}
   */
   readonly eventDeduplicationLookbackPeriod?: number;
   /**
   * Event priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#event_priority NotificationRule#event_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#event_priority NotificationRule#event_priority}
   */
   readonly eventPriority?: string;
   /**
   * The notification rule event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#event_type NotificationRule#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#event_type NotificationRule#event_type}
   */
   readonly eventType: string;
   /**
   * The notification rule expression list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#expression_list NotificationRule#expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#expression_list NotificationRule#expression_list}
   */
   readonly expressionList?: NotificationRuleExpressionListStruct[] | cdktf.IResolvable;
   /**
   * The notification rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#name NotificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#name NotificationRule#name}
   */
   readonly name: string;
   /**
   * The notification rule action is applied if expression list evaluates to True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#notification_action NotificationRule#notification_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#notification_action NotificationRule#notification_action}
   */
   readonly notificationAction: string;
   /**
   * The notification target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#notification_target NotificationRule#notification_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#notification_target NotificationRule#notification_target}
   */
   readonly notificationTarget: string;
   /**
   * The CISCO ISE publish settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#publish_settings NotificationRule#publish_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#publish_settings NotificationRule#publish_settings}
   */
   readonly publishSettings?: NotificationRulePublishSettings;
   /**
   * Schedule setting that must be specified if event_type is SCHEDULE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#scheduled_event NotificationRule#scheduled_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#scheduled_event NotificationRule#scheduled_event}
   */
   readonly scheduledEvent?: NotificationRuleScheduledEvent;
   /**
   * The notification REST template instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#template_instance NotificationRule#template_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#template_instance NotificationRule#template_instance}
   */
   readonly templateInstance: NotificationRuleTemplateInstance;
   /**
   * Use flag for: publish_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#use_publish_settings NotificationRule#use_publish_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#use_publish_settings NotificationRule#use_publish_settings}
   */
   readonly usePublishSettings?: boolean | cdktf.IResolvable;
 }
@@ -108,31 +108,31 @@ export interface NotificationRuleExpressionListStruct {
   /**
   * Rule expression type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#op NotificationRule#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#op NotificationRule#op}
   */
   readonly op: string;
   /**
   * Rule expression first operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#op1 NotificationRule#op1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#op1 NotificationRule#op1}
   */
   readonly op1?: string;
   /**
   * Rule expression first operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#op1_type NotificationRule#op1_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#op1_type NotificationRule#op1_type}
   */
   readonly op1Type?: string;
   /**
   * Rule expression second operand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#op2 NotificationRule#op2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#op2 NotificationRule#op2}
   */
   readonly op2?: string;
   /**
   * Rule expression second operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#op2_type NotificationRule#op2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#op2_type NotificationRule#op2_type}
   */
   readonly op2Type?: string;
 }
@@ -363,7 +363,7 @@ export interface NotificationRulePublishSettings {
   /**
   * The list of NIOS extensible attributes enalbed for publishsing to Cisco ISE endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#enabled_attributes NotificationRule#enabled_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#enabled_attributes NotificationRule#enabled_attributes}
   */
   readonly enabledAttributes: string[];
 }
@@ -456,67 +456,67 @@ export interface NotificationRuleScheduledEvent {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#day_of_month NotificationRule#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#day_of_month NotificationRule#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#disable NotificationRule#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#disable NotificationRule#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#every NotificationRule#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#every NotificationRule#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#frequency NotificationRule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#frequency NotificationRule#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#hour_of_day NotificationRule#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#hour_of_day NotificationRule#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#minutes_past_hour NotificationRule#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#minutes_past_hour NotificationRule#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#month NotificationRule#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#month NotificationRule#month}
   */
   readonly month?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#repeat NotificationRule#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#repeat NotificationRule#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#time_zone NotificationRule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#time_zone NotificationRule#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#weekdays NotificationRule#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#weekdays NotificationRule#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#year NotificationRule#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#year NotificationRule#year}
   */
   readonly year?: number;
 }
@@ -907,19 +907,19 @@ export interface NotificationRuleTemplateInstanceParameters {
   /**
   * The name of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#name NotificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#name NotificationRule#name}
   */
   readonly name: string;
   /**
   * The syntax of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#syntax NotificationRule#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#syntax NotificationRule#syntax}
   */
   readonly syntax?: string;
   /**
   * The value of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#value NotificationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#value NotificationRule#value}
   */
   readonly value?: string;
 }
@@ -1097,13 +1097,13 @@ export interface NotificationRuleTemplateInstance {
   /**
   * The notification REST template parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#parameters NotificationRule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#parameters NotificationRule#parameters}
   */
   readonly parameters?: NotificationRuleTemplateInstanceParameters[] | cdktf.IResolvable;
   /**
   * The name of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#template NotificationRule#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#template NotificationRule#template}
   */
   readonly template: string;
 }
@@ -1223,7 +1223,7 @@ export class NotificationRuleTemplateInstanceOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule nios_notification_rule}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule nios_notification_rule}
 */
 export class NotificationRule extends cdktf.TerraformResource {
 
@@ -1239,7 +1239,7 @@ export class NotificationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationRule to import
-  * @param importFromId The id of the existing NotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1251,7 +1251,7 @@ export class NotificationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/notification_rule nios_notification_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/notification_rule nios_notification_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1262,8 +1262,8 @@ export class NotificationRule extends cdktf.TerraformResource {
       terraformResourceType: 'nios_notification_rule',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

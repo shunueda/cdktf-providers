@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorTerraformCloudConfig extends cdktf.TerraformMe
   /**
   * Connect only using delegates with these tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#delegate_selectors PlatformConnectorTerraformCloud#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#delegate_selectors PlatformConnectorTerraformCloud#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#description PlatformConnectorTerraformCloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#description PlatformConnectorTerraformCloud#description}
   */
   readonly description?: string;
   /**
   * Enable this flag to execute on delegate (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#execute_on_delegate PlatformConnectorTerraformCloud#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#execute_on_delegate PlatformConnectorTerraformCloud#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#id PlatformConnectorTerraformCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#id PlatformConnectorTerraformCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface PlatformConnectorTerraformCloudConfig extends cdktf.TerraformMe
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#identifier PlatformConnectorTerraformCloud#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#identifier PlatformConnectorTerraformCloud#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#name PlatformConnectorTerraformCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#name PlatformConnectorTerraformCloud#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#org_id PlatformConnectorTerraformCloud#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#org_id PlatformConnectorTerraformCloud#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#project_id PlatformConnectorTerraformCloud#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#project_id PlatformConnectorTerraformCloud#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#tags PlatformConnectorTerraformCloud#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#tags PlatformConnectorTerraformCloud#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the Terraform Cloud platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#url PlatformConnectorTerraformCloud#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#url PlatformConnectorTerraformCloud#url}
   */
   readonly url: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#credentials PlatformConnectorTerraformCloud#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#credentials PlatformConnectorTerraformCloud#credentials}
   */
   readonly credentials: PlatformConnectorTerraformCloudCredentials;
 }
@@ -79,7 +79,7 @@ export interface PlatformConnectorTerraformCloudCredentialsApiToken {
   /**
   * Reference to a secret containing the API token to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#api_token_ref PlatformConnectorTerraformCloud#api_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#api_token_ref PlatformConnectorTerraformCloud#api_token_ref}
   */
   readonly apiTokenRef: string;
 }
@@ -162,7 +162,7 @@ export interface PlatformConnectorTerraformCloudCredentials {
   /**
   * api_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#api_token PlatformConnectorTerraformCloud#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#api_token PlatformConnectorTerraformCloud#api_token}
   */
   readonly apiToken: PlatformConnectorTerraformCloudCredentialsApiToken;
 }
@@ -243,7 +243,7 @@ export class PlatformConnectorTerraformCloudCredentialsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud harness_platform_connector_terraform_cloud}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud harness_platform_connector_terraform_cloud}
 */
 export class PlatformConnectorTerraformCloud extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class PlatformConnectorTerraformCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorTerraformCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorTerraformCloud to import
-  * @param importFromId The id of the existing PlatformConnectorTerraformCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorTerraformCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorTerraformCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class PlatformConnectorTerraformCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_terraform_cloud harness_platform_connector_terraform_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_terraform_cloud harness_platform_connector_terraform_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class PlatformConnectorTerraformCloud extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_terraform_cloud',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

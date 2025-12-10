@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,517 +10,517 @@ export interface DhcpRangeConfig extends cdktf.TerraformMetaArguments {
   /**
   * This field controls whether only the DHCP server is allowed to update DNS, regardless of the DHCP clients requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#always_update_dns DhcpRange#always_update_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#always_update_dns DhcpRange#always_update_dns}
   */
   readonly alwaysUpdateDns?: boolean | cdktf.IResolvable;
   /**
   * The bootfile name for the range. You can configure the DHCP server to support clients that use the boot file name option in their DHCPREQUEST messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#bootfile DhcpRange#bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#bootfile DhcpRange#bootfile}
   */
   readonly bootfile?: string;
   /**
   * The bootserver address for the range. You can specify the name and/or IP address of the boot server that the host needs to boot. The boot server IPv4 Address or name in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#bootserver DhcpRange#bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#bootserver DhcpRange#bootserver}
   */
   readonly bootserver?: string;
   /**
   * A CloudInfo struct that contains information about the cloud provider and region for the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#cloud_info DhcpRange#cloud_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#cloud_info DhcpRange#cloud_info}
   */
   readonly cloudInfo?: DhcpRangeCloudInfo;
   /**
   * Comment for the range; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#comment DhcpRange#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#comment DhcpRange#comment}
   */
   readonly comment?: string;
   /**
   * The dynamic DNS domain name the appliance uses specifically for DDNS updates for this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ddns_domainname DhcpRange#ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ddns_domainname DhcpRange#ddns_domainname}
   */
   readonly ddnsDomainname?: string;
   /**
   * If this field is set to True, the DHCP server generates a hostname and updates DNS with it when the DHCP client request does not contain a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ddns_generate_hostname DhcpRange#ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ddns_generate_hostname DhcpRange#ddns_generate_hostname}
   */
   readonly ddnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * If True, send NAK forcing the client to take the new address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#deny_all_clients DhcpRange#deny_all_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#deny_all_clients DhcpRange#deny_all_clients}
   */
   readonly denyAllClients?: boolean | cdktf.IResolvable;
   /**
   * If set to true, BOOTP settings are disabled and BOOTP requests will be denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#deny_bootp DhcpRange#deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#deny_bootp DhcpRange#deny_bootp}
   */
   readonly denyBootp?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a range is disabled or not. When this is set to False, the range is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#disable DhcpRange#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#disable DhcpRange#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The basic polling settings for the discovery of this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#discovery_basic_poll_settings DhcpRange#discovery_basic_poll_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#discovery_basic_poll_settings DhcpRange#discovery_basic_poll_settings}
   */
   readonly discoveryBasicPollSettings?: DhcpRangeDiscoveryBasicPollSettings;
   /**
   * The blackout settings for the discovery of this range. If this is set to False, the blackout settings are not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#discovery_blackout_setting DhcpRange#discovery_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#discovery_blackout_setting DhcpRange#discovery_blackout_setting}
   */
   readonly discoveryBlackoutSetting?: DhcpRangeDiscoveryBlackoutSetting;
   /**
   * The member that will run discovery for this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#discovery_member DhcpRange#discovery_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#discovery_member DhcpRange#discovery_member}
   */
   readonly discoveryMember?: string;
   /**
   * The e-mail lists to which the appliance sends DHCP threshold alarm e-mail messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#email_list DhcpRange#email_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#email_list DhcpRange#email_list}
   */
   readonly emailList?: string[];
   /**
   * The dynamic DNS updates flag of a DHCP range object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_ddns DhcpRange#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_ddns DhcpRange#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP thresholds are enabled for the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_dhcp_thresholds DhcpRange#enable_dhcp_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_dhcp_thresholds DhcpRange#enable_dhcp_thresholds}
   */
   readonly enableDhcpThresholds?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a discovery is enabled or not for this range. When this is set to False, the discovery for this range is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_discovery DhcpRange#enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_discovery DhcpRange#enable_discovery}
   */
   readonly enableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP threshold warnings are sent through email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_email_warnings DhcpRange#enable_email_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_email_warnings DhcpRange#enable_email_warnings}
   */
   readonly enableEmailWarnings?: boolean | cdktf.IResolvable;
   /**
   * Determines if IFMAP publishing is enabled for the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_ifmap_publishing DhcpRange#enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_ifmap_publishing DhcpRange#enable_ifmap_publishing}
   */
   readonly enableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the range should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_immediate_discovery DhcpRange#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_immediate_discovery DhcpRange#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Set this to True if you want the DHCP server to use a different lease time for PXE clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_pxe_lease_time DhcpRange#enable_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_pxe_lease_time DhcpRange#enable_pxe_lease_time}
   */
   readonly enablePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP threshold warnings are send through SNMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_snmp_warnings DhcpRange#enable_snmp_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_snmp_warnings DhcpRange#enable_snmp_warnings}
   */
   readonly enableSnmpWarnings?: boolean | cdktf.IResolvable;
   /**
   * The IPv4 Address end address of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#end_addr DhcpRange#end_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#end_addr DhcpRange#end_addr}
   */
   readonly endAddr: string;
   /**
   * These are ranges of IP addresses that the appliance does not use to assign to clients. You can use these exclusion addresses as static IP addresses. They contain the start and end addresses of the exclusion range, and optionally, information about this exclusion range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#exclude DhcpRange#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#exclude DhcpRange#exclude}
   */
   readonly exclude?: DhcpRangeExclude[] | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#extattrs DhcpRange#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#extattrs DhcpRange#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the failover association: the server in this failover association will serve the IPv4 range in case the main server is out of service. {range:range} must be set to 'FAILOVER' or 'FAILOVER_MS' if you want the failover association specified here to serve the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#failover_association DhcpRange#failover_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#failover_association DhcpRange#failover_association}
   */
   readonly failoverAssociation?: string;
   /**
   * This field contains the fingerprint filters for this DHCP range. The appliance uses matching rules in these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#fingerprint_filter_rules DhcpRange#fingerprint_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#fingerprint_filter_rules DhcpRange#fingerprint_filter_rules}
   */
   readonly fingerprintFilterRules?: DhcpRangeFingerprintFilterRules[] | cdktf.IResolvable;
   /**
   * The percentage of DHCP range usage threshold above which range usage is not expected and may warrant your attention. When the high watermark is reached, the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#high_water_mark DhcpRange#high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#high_water_mark DhcpRange#high_water_mark}
   */
   readonly highWaterMark?: number;
   /**
   * The percentage of DHCP range usage below which the corresponding SNMP trap is reset. A number that specifies the percentage of allocated addresses. The range is from 1 to 100. The high watermark reset value must be lower than the high watermark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#high_water_mark_reset DhcpRange#high_water_mark_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#high_water_mark_reset DhcpRange#high_water_mark_reset}
   */
   readonly highWaterMarkReset?: number;
   /**
   * If this field is set to False, the appliance returns all DHCP options the client is eligible to receive, rather than only the list of options the client has requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ignore_dhcp_option_list_request DhcpRange#ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ignore_dhcp_option_list_request DhcpRange#ignore_dhcp_option_list_request}
   */
   readonly ignoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the appliance will ignore DHCP client IDs or MAC addresses. Valid values are "NONE", "CLIENT", or "MACADDR". The default is "NONE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ignore_id DhcpRange#ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ignore_id DhcpRange#ignore_id}
   */
   readonly ignoreId?: string;
   /**
   * A list of MAC addresses the appliance will ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ignore_mac_addresses DhcpRange#ignore_mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ignore_mac_addresses DhcpRange#ignore_mac_addresses}
   */
   readonly ignoreMacAddresses?: string[];
   /**
   * Permission for known clients. This can be 'Allow' or 'Deny'. If set to 'Deny' known clients will be denied IP addresses. Known clients include roaming hosts and clients with fixed addresses or DHCP host entries. Unknown clients include clients that are not roaming hosts and clients that do not have fixed addresses or DHCP host entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#known_clients DhcpRange#known_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#known_clients DhcpRange#known_clients}
   */
   readonly knownClients?: string;
   /**
   * An integer that specifies the period of time (in seconds) that frees and backs up leases remained in the database before they are automatically deleted. To disable lease scavenging, set the parameter to -1. The minimum positive value must be greater than 86400 seconds (1 day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#lease_scavenge_time DhcpRange#lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#lease_scavenge_time DhcpRange#lease_scavenge_time}
   */
   readonly leaseScavengeTime?: number;
   /**
   * This field contains the logic filters to be applied to this range. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#logic_filter_rules DhcpRange#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#logic_filter_rules DhcpRange#logic_filter_rules}
   */
   readonly logicFilterRules?: DhcpRangeLogicFilterRules[] | cdktf.IResolvable;
   /**
   * The percentage of DHCP range usage below which the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#low_water_mark DhcpRange#low_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#low_water_mark DhcpRange#low_water_mark}
   */
   readonly lowWaterMark?: number;
   /**
   * The percentage of DHCP range usage threshold below which range usage is not expected and may warrant your attention. When the low watermark is crossed, the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100. The low watermark reset value must be higher than the low watermark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#low_water_mark_reset DhcpRange#low_water_mark_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#low_water_mark_reset DhcpRange#low_water_mark_reset}
   */
   readonly lowWaterMarkReset?: number;
   /**
   * This field contains the MAC filters to be applied to this range. The appliance uses the matching rules of these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#mac_filter_rules DhcpRange#mac_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#mac_filter_rules DhcpRange#mac_filter_rules}
   */
   readonly macFilterRules?: DhcpRangeMacFilterRules[] | cdktf.IResolvable;
   /**
   * This field contains the member that will run the DHCP service for this range. If this is not set, the range will be served by the member that is currently serving the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#member DhcpRange#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#member DhcpRange#member}
   */
   readonly member?: DhcpRangeMember;
   /**
   * This field contains the Microsoft DHCP options for this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ms_options DhcpRange#ms_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ms_options DhcpRange#ms_options}
   */
   readonly msOptions?: DhcpRangeMsOptions[] | cdktf.IResolvable;
   /**
   * This field contains the Microsoft server that will serve this range. This is used for Microsoft failover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ms_server DhcpRange#ms_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ms_server DhcpRange#ms_server}
   */
   readonly msServer?: DhcpRangeMsServer;
   /**
   * This field contains the NAC filters to be applied to this range. The appliance uses the matching rules of these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#nac_filter_rules DhcpRange#nac_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#nac_filter_rules DhcpRange#nac_filter_rules}
   */
   readonly nacFilterRules?: DhcpRangeNacFilterRules[] | cdktf.IResolvable;
   /**
   * This field contains the name of the Microsoft scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
   /**
   * The network to which this range belongs, in IPv4 Address/CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#network DhcpRange#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#network DhcpRange#network}
   */
   readonly network?: string;
   /**
   * The name of the network view in which this range resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#network_view DhcpRange#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#network_view DhcpRange#network_view}
   */
   readonly networkView?: string;
   /**
   * The name in FQDN and/or IPv4 Address of the next server that the host needs to boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#nextserver DhcpRange#nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#nextserver DhcpRange#nextserver}
   */
   readonly nextserver?: string;
   /**
   * This field contains the Option filters to be applied to this range. The appliance uses the matching rules of these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#option_filter_rules DhcpRange#option_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#option_filter_rules DhcpRange#option_filter_rules}
   */
   readonly optionFilterRules?: DhcpRangeOptionFilterRules[] | cdktf.IResolvable;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#options DhcpRange#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#options DhcpRange#options}
   */
   readonly options?: DhcpRangeOptions[] | cdktf.IResolvable;
   /**
   * The port control blackout settings for the range. This field is used to configure the port control blackout settings for the DHCP range. It includes information about the blackout settings, such as the start and end times of the blackout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#port_control_blackout_setting DhcpRange#port_control_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#port_control_blackout_setting DhcpRange#port_control_blackout_setting}
   */
   readonly portControlBlackoutSetting?: DhcpRangePortControlBlackoutSetting;
   /**
   * The PXE lease time value of a DHCP Range object. Some hosts use PXE (Preboot Execution Environment) to boot remotely from a server. To better manage your IP resources, set a different lease time for PXE boot requests. You can configure the DHCP server to allocate an IP address with a shorter lease time to hosts that send PXE boot requests, so IP addresses are not leased longer than necessary. A 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#pxe_lease_time DhcpRange#pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#pxe_lease_time DhcpRange#pxe_lease_time}
   */
   readonly pxeLeaseTime?: number;
   /**
   * If the field is set to True, the leases are kept in the Recycle Bin until one week after expiration. Otherwise, the leases are permanently deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#recycle_leases DhcpRange#recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#recycle_leases DhcpRange#recycle_leases}
   */
   readonly recycleLeases?: boolean | cdktf.IResolvable;
   /**
   * This field contains the Relay Agent filters to be applied to this range. The appliance uses the matching rules of these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#relay_agent_filter_rules DhcpRange#relay_agent_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#relay_agent_filter_rules DhcpRange#relay_agent_filter_rules}
   */
   readonly relayAgentFilterRules?: DhcpRangeRelayAgentFilterRules[] | cdktf.IResolvable;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#restart_if_needed DhcpRange#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#restart_if_needed DhcpRange#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * If the field is set to True, the discovery blackout setting will be used for port control blackout setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#same_port_control_discovery_blackout DhcpRange#same_port_control_discovery_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#same_port_control_discovery_blackout DhcpRange#same_port_control_discovery_blackout}
   */
   readonly samePortControlDiscoveryBlackout?: boolean | cdktf.IResolvable;
   /**
   * The type of server that is going to serve the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#server_association_type DhcpRange#server_association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#server_association_type DhcpRange#server_association_type}
   */
   readonly serverAssociationType?: string;
   /**
   * This field contains the split member that will run the DHCP service for this range. If this is not set, the range will be served by the member that is currently serving the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#split_member DhcpRange#split_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#split_member DhcpRange#split_member}
   */
   readonly splitMember?: DhcpRangeSplitMember;
   /**
   * This field controls the percentage used when creating a split scope. Valid values are numbers between 1 and 99. If the value is 40, it means that the top 40% of the exclusion will be created on the DHCP range assigned to {next_available_ip:next_available_ip} and the lower 60% of the range will be assigned to DHCP range assigned to {next_available_ip:next_available_ip}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#split_scope_exclusion_percent DhcpRange#split_scope_exclusion_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#split_scope_exclusion_percent DhcpRange#split_scope_exclusion_percent}
   */
   readonly splitScopeExclusionPercent?: number;
   /**
   * The IPv4 Address starting address of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#start_addr DhcpRange#start_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#start_addr DhcpRange#start_addr}
   */
   readonly startAddr: string;
   /**
   * The subscribe settings for the range. This field is used to configure the subscription settings for the DHCP range. It includes information about the subscription, such as the subscriber's email address and whether the subscription is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#subscribe_settings DhcpRange#subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#subscribe_settings DhcpRange#subscribe_settings}
   */
   readonly subscribeSettings?: DhcpRangeSubscribeSettings;
   /**
   * Permission for unknown clients. This can be 'Allow' or 'Deny'. If set to 'Deny', unknown clients will be denied IP addresses. Known clients include roaming hosts and clients with fixed addresses or DHCP host entries. Unknown clients include clients that are not roaming hosts and clients that do not have fixed addresses or DHCP host entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#unknown_clients DhcpRange#unknown_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#unknown_clients DhcpRange#unknown_clients}
   */
   readonly unknownClients?: string;
   /**
   * This field controls whether the DHCP server updates DNS when a DHCP lease is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#update_dns_on_lease_renewal DhcpRange#update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#update_dns_on_lease_renewal DhcpRange#update_dns_on_lease_renewal}
   */
   readonly updateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_blackout_setting , port_control_blackout_setting, same_port_control_discovery_blackout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_blackout_setting DhcpRange#use_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_blackout_setting DhcpRange#use_blackout_setting}
   */
   readonly useBlackoutSetting?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_bootfile DhcpRange#use_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_bootfile DhcpRange#use_bootfile}
   */
   readonly useBootfile?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_bootserver DhcpRange#use_bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_bootserver DhcpRange#use_bootserver}
   */
   readonly useBootserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_domainname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_ddns_domainname DhcpRange#use_ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_ddns_domainname DhcpRange#use_ddns_domainname}
   */
   readonly useDdnsDomainname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_generate_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_ddns_generate_hostname DhcpRange#use_ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_ddns_generate_hostname DhcpRange#use_ddns_generate_hostname}
   */
   readonly useDdnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: deny_bootp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_deny_bootp DhcpRange#use_deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_deny_bootp DhcpRange#use_deny_bootp}
   */
   readonly useDenyBootp?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_basic_poll_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_discovery_basic_polling_settings DhcpRange#use_discovery_basic_polling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_discovery_basic_polling_settings DhcpRange#use_discovery_basic_polling_settings}
   */
   readonly useDiscoveryBasicPollingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: email_list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_email_list DhcpRange#use_email_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_email_list DhcpRange#use_email_list}
   */
   readonly useEmailList?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_enable_ddns DhcpRange#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_enable_ddns DhcpRange#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_dhcp_thresholds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_enable_dhcp_thresholds DhcpRange#use_enable_dhcp_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_enable_dhcp_thresholds DhcpRange#use_enable_dhcp_thresholds}
   */
   readonly useEnableDhcpThresholds?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_member , enable_discovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_enable_discovery DhcpRange#use_enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_enable_discovery DhcpRange#use_enable_discovery}
   */
   readonly useEnableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ifmap_publishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_enable_ifmap_publishing DhcpRange#use_enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_enable_ifmap_publishing DhcpRange#use_enable_ifmap_publishing}
   */
   readonly useEnableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_dhcp_option_list_request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_ignore_dhcp_option_list_request DhcpRange#use_ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_ignore_dhcp_option_list_request DhcpRange#use_ignore_dhcp_option_list_request}
   */
   readonly useIgnoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_ignore_id DhcpRange#use_ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_ignore_id DhcpRange#use_ignore_id}
   */
   readonly useIgnoreId?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: known_clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_known_clients DhcpRange#use_known_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_known_clients DhcpRange#use_known_clients}
   */
   readonly useKnownClients?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: lease_scavenge_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_lease_scavenge_time DhcpRange#use_lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_lease_scavenge_time DhcpRange#use_lease_scavenge_time}
   */
   readonly useLeaseScavengeTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_logic_filter_rules DhcpRange#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_logic_filter_rules DhcpRange#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ms_options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_ms_options DhcpRange#use_ms_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_ms_options DhcpRange#use_ms_options}
   */
   readonly useMsOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nextserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_nextserver DhcpRange#use_nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_nextserver DhcpRange#use_nextserver}
   */
   readonly useNextserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_options DhcpRange#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_options DhcpRange#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: pxe_lease_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_pxe_lease_time DhcpRange#use_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_pxe_lease_time DhcpRange#use_pxe_lease_time}
   */
   readonly usePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: recycle_leases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_recycle_leases DhcpRange#use_recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_recycle_leases DhcpRange#use_recycle_leases}
   */
   readonly useRecycleLeases?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: subscribe_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_subscribe_settings DhcpRange#use_subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_subscribe_settings DhcpRange#use_subscribe_settings}
   */
   readonly useSubscribeSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: unknown_clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_unknown_clients DhcpRange#use_unknown_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_unknown_clients DhcpRange#use_unknown_clients}
   */
   readonly useUnknownClients?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: update_dns_on_lease_renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_update_dns_on_lease_renewal DhcpRange#use_update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_update_dns_on_lease_renewal DhcpRange#use_update_dns_on_lease_renewal}
   */
   readonly useUpdateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
 }
@@ -528,19 +528,19 @@ export interface DhcpRangeCloudInfoDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv6addr DhcpRange#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv6addr DhcpRange#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
 }
@@ -694,7 +694,7 @@ export interface DhcpRangeCloudInfo {
   /**
   * This field contains the delegated member that will run the DHCP service for this range. If this is not set, the range will be served by the member that is currently serving the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#delegated_member DhcpRange#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#delegated_member DhcpRange#delegated_member}
   */
   readonly delegatedMember?: DhcpRangeCloudInfoDelegatedMember;
 }
@@ -825,73 +825,73 @@ export interface DhcpRangeDiscoveryBasicPollSettingsSwitchPortDataCollectionPoll
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#disable DhcpRange#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#disable DhcpRange#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#every DhcpRange#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#every DhcpRange#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#month DhcpRange#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#month DhcpRange#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#year DhcpRange#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#year DhcpRange#year}
   */
   readonly year?: number;
 }
@@ -1306,85 +1306,85 @@ export interface DhcpRangeDiscoveryBasicPollSettings {
   /**
   * Determines whether auto ARP refresh before switch port polling is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#auto_arp_refresh_before_switch_port_polling DhcpRange#auto_arp_refresh_before_switch_port_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#auto_arp_refresh_before_switch_port_polling DhcpRange#auto_arp_refresh_before_switch_port_polling}
   */
   readonly autoArpRefreshBeforeSwitchPortPolling?: boolean | cdktf.IResolvable;
   /**
   * Determines whether CLI collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#cli_collection DhcpRange#cli_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#cli_collection DhcpRange#cli_collection}
   */
   readonly cliCollection?: boolean | cdktf.IResolvable;
   /**
   * Determines whether complete ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#complete_ping_sweep DhcpRange#complete_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#complete_ping_sweep DhcpRange#complete_ping_sweep}
   */
   readonly completePingSweep?: boolean | cdktf.IResolvable;
   /**
   * Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#credential_group DhcpRange#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#credential_group DhcpRange#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Determines whether device profile is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#device_profile DhcpRange#device_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#device_profile DhcpRange#device_profile}
   */
   readonly deviceProfile?: boolean | cdktf.IResolvable;
   /**
   * Determines whether netbios scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#netbios_scanning DhcpRange#netbios_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#netbios_scanning DhcpRange#netbios_scanning}
   */
   readonly netbiosScanning?: boolean | cdktf.IResolvable;
   /**
   * Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#polling_frequency_modifier DhcpRange#polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#polling_frequency_modifier DhcpRange#polling_frequency_modifier}
   */
   readonly pollingFrequencyModifier?: string;
   /**
   * Determines whether port scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#port_scanning DhcpRange#port_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#port_scanning DhcpRange#port_scanning}
   */
   readonly portScanning?: boolean | cdktf.IResolvable;
   /**
   * Determines whether smart subnet ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#smart_subnet_ping_sweep DhcpRange#smart_subnet_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#smart_subnet_ping_sweep DhcpRange#smart_subnet_ping_sweep}
   */
   readonly smartSubnetPingSweep?: boolean | cdktf.IResolvable;
   /**
   * Determines whether SNMP collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#snmp_collection DhcpRange#snmp_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#snmp_collection DhcpRange#snmp_collection}
   */
   readonly snmpCollection?: boolean | cdktf.IResolvable;
   /**
   * A switch port data collection polling mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#switch_port_data_collection_polling DhcpRange#switch_port_data_collection_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#switch_port_data_collection_polling DhcpRange#switch_port_data_collection_polling}
   */
   readonly switchPortDataCollectionPolling?: string;
   /**
   * Indicates the interval for switch port data collection polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#switch_port_data_collection_polling_interval DhcpRange#switch_port_data_collection_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#switch_port_data_collection_polling_interval DhcpRange#switch_port_data_collection_polling_interval}
   */
   readonly switchPortDataCollectionPollingInterval?: number;
   /**
   * This field contains the switch port data collection polling schedule. This is used to configure the schedule for switch port data collection polling. It includes information about the start and end times of the polling period, as well as the frequency of polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#switch_port_data_collection_polling_schedule DhcpRange#switch_port_data_collection_polling_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#switch_port_data_collection_polling_schedule DhcpRange#switch_port_data_collection_polling_schedule}
   */
   readonly switchPortDataCollectionPollingSchedule?: DhcpRangeDiscoveryBasicPollSettingsSwitchPortDataCollectionPollingSchedule;
   /**
   * Use Global Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_global_polling_frequency_modifier DhcpRange#use_global_polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_global_polling_frequency_modifier DhcpRange#use_global_polling_frequency_modifier}
   */
   readonly useGlobalPollingFrequencyModifier?: boolean | cdktf.IResolvable;
 }
@@ -1857,73 +1857,73 @@ export interface DhcpRangeDiscoveryBlackoutSettingBlackoutSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#disable DhcpRange#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#disable DhcpRange#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#every DhcpRange#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#every DhcpRange#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#month DhcpRange#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#month DhcpRange#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#year DhcpRange#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#year DhcpRange#year}
   */
   readonly year?: number;
 }
@@ -2338,19 +2338,19 @@ export interface DhcpRangeDiscoveryBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#blackout_duration DhcpRange#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#blackout_duration DhcpRange#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * The blackout schedule for the range. This field is used to configure the blackout schedule for the DHCP range. It includes information about the start and end times of the blackout period, as well as the frequency of blackout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#blackout_schedule DhcpRange#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#blackout_schedule DhcpRange#blackout_schedule}
   */
   readonly blackoutSchedule?: DhcpRangeDiscoveryBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_blackout DhcpRange#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_blackout DhcpRange#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -2504,19 +2504,19 @@ export interface DhcpRangeExclude {
   /**
   * Comment for the exclusion range; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#comment DhcpRange#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#comment DhcpRange#comment}
   */
   readonly comment?: string;
   /**
   * The IPv4 Address ending address of the exclusion range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#end_address DhcpRange#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#end_address DhcpRange#end_address}
   */
   readonly endAddress: string;
   /**
   * The IPv4 Address starting address of the exclusion range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#start_address DhcpRange#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#start_address DhcpRange#start_address}
   */
   readonly startAddress: string;
 }
@@ -2686,13 +2686,13 @@ export interface DhcpRangeFingerprintFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#permission DhcpRange#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#permission DhcpRange#permission}
   */
   readonly permission: string;
 }
@@ -2833,13 +2833,13 @@ export interface DhcpRangeLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#type DhcpRange#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#type DhcpRange#type}
   */
   readonly type: string;
 }
@@ -2980,13 +2980,13 @@ export interface DhcpRangeMacFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#permission DhcpRange#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#permission DhcpRange#permission}
   */
   readonly permission: string;
 }
@@ -3127,19 +3127,19 @@ export interface DhcpRangeMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv6addr DhcpRange#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv6addr DhcpRange#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
 }
@@ -3347,31 +3347,31 @@ export interface DhcpRangeMsOptions {
   /**
   * The name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#num DhcpRange#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#num DhcpRange#num}
   */
   readonly num: number;
   /**
   * The name of the user class with which this DHCP option is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#user_class DhcpRange#user_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#user_class DhcpRange#user_class}
   */
   readonly userClass?: string;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#value DhcpRange#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#value DhcpRange#value}
   */
   readonly value: string;
   /**
   * The name of the vendor class with which this DHCP option is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#vendor_class DhcpRange#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#vendor_class DhcpRange#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -3604,7 +3604,7 @@ export interface DhcpRangeMsServer {
   /**
   * The IPv4 Address or FQDN of the Microsoft server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
   */
   readonly ipv4Addr: string;
 }
@@ -3697,13 +3697,13 @@ export interface DhcpRangeNacFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#permission DhcpRange#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#permission DhcpRange#permission}
   */
   readonly permission: string;
 }
@@ -3844,13 +3844,13 @@ export interface DhcpRangeOptionFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#permission DhcpRange#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#permission DhcpRange#permission}
   */
   readonly permission: string;
 }
@@ -3991,31 +3991,31 @@ export interface DhcpRangeOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#num DhcpRange#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#num DhcpRange#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#use_option DhcpRange#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#use_option DhcpRange#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#value DhcpRange#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#value DhcpRange#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#vendor_class DhcpRange#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#vendor_class DhcpRange#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -4249,73 +4249,73 @@ export interface DhcpRangePortControlBlackoutSettingBlackoutSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#day_of_month DhcpRange#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#disable DhcpRange#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#disable DhcpRange#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#every DhcpRange#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#every DhcpRange#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#frequency DhcpRange#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#hour_of_day DhcpRange#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#minutes_past_hour DhcpRange#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#month DhcpRange#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#month DhcpRange#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#recurring_time DhcpRange#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#repeat DhcpRange#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#time_zone DhcpRange#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#weekdays DhcpRange#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#year DhcpRange#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#year DhcpRange#year}
   */
   readonly year?: number;
 }
@@ -4730,19 +4730,19 @@ export interface DhcpRangePortControlBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#blackout_duration DhcpRange#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#blackout_duration DhcpRange#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * The schedule for the blackout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#blackout_schedule DhcpRange#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#blackout_schedule DhcpRange#blackout_schedule}
   */
   readonly blackoutSchedule?: DhcpRangePortControlBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enable_blackout DhcpRange#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enable_blackout DhcpRange#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -4896,13 +4896,13 @@ export interface DhcpRangeRelayAgentFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#filter DhcpRange#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#filter DhcpRange#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#permission DhcpRange#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#permission DhcpRange#permission}
   */
   readonly permission: string;
 }
@@ -5043,7 +5043,7 @@ export interface DhcpRangeSplitMember {
   /**
   * The IPv4 Address or FQDN of the Microsoft server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#ipv4addr DhcpRange#ipv4addr}
   */
   readonly ipv4Addr: string;
 }
@@ -5136,13 +5136,13 @@ export interface DhcpRangeSubscribeSettingsMappedEaAttributes {
   /**
   * The name of the extensible attribute definition object the Cisco ISE attribute that is enabled for subscription is mapped on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#mapped_ea DhcpRange#mapped_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#mapped_ea DhcpRange#mapped_ea}
   */
   readonly mappedEa: string;
   /**
   * The Cisco ISE attribute name that is enabled for publishsing from a Cisco ISE endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name: string;
 }
@@ -5283,13 +5283,13 @@ export interface DhcpRangeSubscribeSettings {
   /**
   * The list of Cisco ISE attributes allowed for subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#enabled_attributes DhcpRange#enabled_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#enabled_attributes DhcpRange#enabled_attributes}
   */
   readonly enabledAttributes?: string[];
   /**
   * The list of NIOS extensible attributes to Cisco ISE attributes mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#mapped_ea_attributes DhcpRange#mapped_ea_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#mapped_ea_attributes DhcpRange#mapped_ea_attributes}
   */
   readonly mappedEaAttributes?: DhcpRangeSubscribeSettingsMappedEaAttributes[] | cdktf.IResolvable;
 }
@@ -5412,7 +5412,7 @@ export class DhcpRangeSubscribeSettingsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range nios_dhcp_range}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range nios_dhcp_range}
 */
 export class DhcpRange extends cdktf.TerraformResource {
 
@@ -5428,7 +5428,7 @@ export class DhcpRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpRange to import
-  * @param importFromId The id of the existing DhcpRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5440,7 +5440,7 @@ export class DhcpRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dhcp_range nios_dhcp_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dhcp_range nios_dhcp_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5451,8 +5451,8 @@ export class DhcpRange extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dhcp_range',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

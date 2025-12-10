@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDhcpSharedNetworkConfig extends cdktf.TerraformMetaArgu
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#extattrfilters DataNiosDhcpSharedNetwork#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#extattrfilters DataNiosDhcpSharedNetwork#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#filters DataNiosDhcpSharedNetwork#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#filters DataNiosDhcpSharedNetwork#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#max_results DataNiosDhcpSharedNetwork#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#max_results DataNiosDhcpSharedNetwork#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#paging DataNiosDhcpSharedNetwork#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#paging DataNiosDhcpSharedNetwork#paging}
   */
   readonly paging?: number;
 }
@@ -36,13 +36,13 @@ export interface DataNiosDhcpSharedNetworkResultLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#filter DataNiosDhcpSharedNetwork#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#filter DataNiosDhcpSharedNetwork#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#type DataNiosDhcpSharedNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#type DataNiosDhcpSharedNetwork#type}
   */
   readonly type: string;
 }
@@ -237,7 +237,7 @@ export interface DataNiosDhcpSharedNetworkResultNetworks {
   /**
   * Reference to the Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ref DataNiosDhcpSharedNetwork#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ref DataNiosDhcpSharedNetwork#ref}
   */
   readonly ref: string;
 }
@@ -342,31 +342,31 @@ export interface DataNiosDhcpSharedNetworkResultOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#name DataNiosDhcpSharedNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#name DataNiosDhcpSharedNetwork#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#num DataNiosDhcpSharedNetwork#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#num DataNiosDhcpSharedNetwork#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_option DataNiosDhcpSharedNetwork#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_option DataNiosDhcpSharedNetwork#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#value DataNiosDhcpSharedNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#value DataNiosDhcpSharedNetwork#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#vendor_class DataNiosDhcpSharedNetwork#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#vendor_class DataNiosDhcpSharedNetwork#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -600,271 +600,271 @@ export interface DataNiosDhcpSharedNetworkResult {
   /**
   * Authority for the shared network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#authority DataNiosDhcpSharedNetwork#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#authority DataNiosDhcpSharedNetwork#authority}
   */
   readonly authority?: boolean | cdktf.IResolvable;
   /**
   * The bootfile name for the shared network. You can configure the DHCP server to support clients that use the boot file name option in their DHCPREQUEST messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#bootfile DataNiosDhcpSharedNetwork#bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#bootfile DataNiosDhcpSharedNetwork#bootfile}
   */
   readonly bootfile?: string;
   /**
   * The bootserver address for the shared network. You can specify the name and/or IP address of the boot server that the host needs to boot. The boot server IPv4 Address or name in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#bootserver DataNiosDhcpSharedNetwork#bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#bootserver DataNiosDhcpSharedNetwork#bootserver}
   */
   readonly bootserver?: string;
   /**
   * Comment for the shared network, maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#comment DataNiosDhcpSharedNetwork#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#comment DataNiosDhcpSharedNetwork#comment}
   */
   readonly comment?: string;
   /**
   * If this field is set to True, the DHCP server generates a hostname and updates DNS with it when the DHCP client request does not contain a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ddns_generate_hostname DataNiosDhcpSharedNetwork#ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ddns_generate_hostname DataNiosDhcpSharedNetwork#ddns_generate_hostname}
   */
   readonly ddnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether only the DHCP server is allowed to update DNS, regardless of the DHCP clients requests. Note that changes for this field take effect only if ddns_use_option81 is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ddns_server_always_updates DataNiosDhcpSharedNetwork#ddns_server_always_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ddns_server_always_updates DataNiosDhcpSharedNetwork#ddns_server_always_updates}
   */
   readonly ddnsServerAlwaysUpdates?: boolean | cdktf.IResolvable;
   /**
   * The DNS update Time to Live (TTL) value of a shared network object. The TTL is a 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ddns_ttl DataNiosDhcpSharedNetwork#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ddns_ttl DataNiosDhcpSharedNetwork#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
   * By default, the DHCP server does not update DNS when it allocates a fixed address to a client. You can configure the DHCP server to update the A and PTR records of a client with a fixed address. When this feature is enabled and the DHCP server adds A and PTR records for a fixed address, the DHCP server never discards the records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ddns_update_fixed_addresses DataNiosDhcpSharedNetwork#ddns_update_fixed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ddns_update_fixed_addresses DataNiosDhcpSharedNetwork#ddns_update_fixed_addresses}
   */
   readonly ddnsUpdateFixedAddresses?: boolean | cdktf.IResolvable;
   /**
   * The support for DHCP Option 81 at the shared network level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ddns_use_option81 DataNiosDhcpSharedNetwork#ddns_use_option81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ddns_use_option81 DataNiosDhcpSharedNetwork#ddns_use_option81}
   */
   readonly ddnsUseOption81?: boolean | cdktf.IResolvable;
   /**
   * If set to true, BOOTP settings are disabled and BOOTP requests will be denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#deny_bootp DataNiosDhcpSharedNetwork#deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#deny_bootp DataNiosDhcpSharedNetwork#deny_bootp}
   */
   readonly denyBootp?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a shared network is disabled or not. When this is set to False, the shared network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#disable DataNiosDhcpSharedNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#disable DataNiosDhcpSharedNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The dynamic DNS updates flag of a shared network object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#enable_ddns DataNiosDhcpSharedNetwork#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#enable_ddns DataNiosDhcpSharedNetwork#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Set this to True if you want the DHCP server to use a different lease time for PXE clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#enable_pxe_lease_time DataNiosDhcpSharedNetwork#enable_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#enable_pxe_lease_time DataNiosDhcpSharedNetwork#enable_pxe_lease_time}
   */
   readonly enablePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#extattrs DataNiosDhcpSharedNetwork#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#extattrs DataNiosDhcpSharedNetwork#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * If set to true, the client identifier will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ignore_client_identifier DataNiosDhcpSharedNetwork#ignore_client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ignore_client_identifier DataNiosDhcpSharedNetwork#ignore_client_identifier}
   */
   readonly ignoreClientIdentifier?: boolean | cdktf.IResolvable;
   /**
   * If this field is set to False, the appliance returns all DHCP options the client is eligible to receive, rather than only the list of options the client has requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ignore_dhcp_option_list_request DataNiosDhcpSharedNetwork#ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ignore_dhcp_option_list_request DataNiosDhcpSharedNetwork#ignore_dhcp_option_list_request}
   */
   readonly ignoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the appliance will ignore DHCP client IDs or MAC addresses. Valid values are "NONE", "CLIENT", or "MACADDR". The default is "NONE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ignore_id DataNiosDhcpSharedNetwork#ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ignore_id DataNiosDhcpSharedNetwork#ignore_id}
   */
   readonly ignoreId?: string;
   /**
   * A list of MAC addresses the appliance will ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#ignore_mac_addresses DataNiosDhcpSharedNetwork#ignore_mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#ignore_mac_addresses DataNiosDhcpSharedNetwork#ignore_mac_addresses}
   */
   readonly ignoreMacAddresses?: string[];
   /**
   * An integer that specifies the period of time (in seconds) that frees and backs up leases remained in the database before they are automatically deleted. To disable lease scavenging, set the parameter to -1. The minimum positive value must be greater than 86400 seconds (1 day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#lease_scavenge_time DataNiosDhcpSharedNetwork#lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#lease_scavenge_time DataNiosDhcpSharedNetwork#lease_scavenge_time}
   */
   readonly leaseScavengeTime?: number;
   /**
   * This field contains the logic filters to be applied on the this shared network. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#logic_filter_rules DataNiosDhcpSharedNetwork#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#logic_filter_rules DataNiosDhcpSharedNetwork#logic_filter_rules}
   */
   readonly logicFilterRules?: DataNiosDhcpSharedNetworkResultLogicFilterRules[] | cdktf.IResolvable;
   /**
   * The name of the IPv6 Shared Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#name DataNiosDhcpSharedNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#name DataNiosDhcpSharedNetwork#name}
   */
   readonly name: string;
   /**
   * The name of the network view in which this shared network resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#network_view DataNiosDhcpSharedNetwork#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#network_view DataNiosDhcpSharedNetwork#network_view}
   */
   readonly networkView?: string;
   /**
   * A list of networks belonging to the shared network. Each individual list item must be specified as an object containing a 'ref' parameter to a network reference, for example:: [{ "ref": "network/ZG5zLm5ldHdvcmskMTAuMwLvMTYvMA" }] if the reference of the wanted network is not known, it is possible to specify search parameters for the network instead in the following way:: [{ "ref": { 'network': '10.0.0.0/8' } }] note that in this case the search must match exactly one network for the assignment to be successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#networks DataNiosDhcpSharedNetwork#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#networks DataNiosDhcpSharedNetwork#networks}
   */
   readonly networks: DataNiosDhcpSharedNetworkResultNetworks[] | cdktf.IResolvable;
   /**
   * The name in FQDN and/or IPv4 Address of the next server that the host needs to boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#nextserver DataNiosDhcpSharedNetwork#nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#nextserver DataNiosDhcpSharedNetwork#nextserver}
   */
   readonly nextserver?: string;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#options DataNiosDhcpSharedNetwork#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#options DataNiosDhcpSharedNetwork#options}
   */
   readonly options?: DataNiosDhcpSharedNetworkResultOptions[] | cdktf.IResolvable;
   /**
   * The PXE lease time value of a shared network object. Some hosts use PXE (Preboot Execution Environment) to boot remotely from a server. To better manage your IP resources, set a different lease time for PXE boot requests. You can configure the DHCP server to allocate an IP address with a shorter lease time to hosts that send PXE boot requests, so IP addresses are not leased longer than necessary. A 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#pxe_lease_time DataNiosDhcpSharedNetwork#pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#pxe_lease_time DataNiosDhcpSharedNetwork#pxe_lease_time}
   */
   readonly pxeLeaseTime?: number;
   /**
   * This field controls whether the DHCP server updates DNS when a DHCP lease is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#update_dns_on_lease_renewal DataNiosDhcpSharedNetwork#update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#update_dns_on_lease_renewal DataNiosDhcpSharedNetwork#update_dns_on_lease_renewal}
   */
   readonly updateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_authority DataNiosDhcpSharedNetwork#use_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_authority DataNiosDhcpSharedNetwork#use_authority}
   */
   readonly useAuthority?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_bootfile DataNiosDhcpSharedNetwork#use_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_bootfile DataNiosDhcpSharedNetwork#use_bootfile}
   */
   readonly useBootfile?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_bootserver DataNiosDhcpSharedNetwork#use_bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_bootserver DataNiosDhcpSharedNetwork#use_bootserver}
   */
   readonly useBootserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_generate_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ddns_generate_hostname DataNiosDhcpSharedNetwork#use_ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ddns_generate_hostname DataNiosDhcpSharedNetwork#use_ddns_generate_hostname}
   */
   readonly useDdnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ddns_ttl DataNiosDhcpSharedNetwork#use_ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ddns_ttl DataNiosDhcpSharedNetwork#use_ddns_ttl}
   */
   readonly useDdnsTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_update_fixed_addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ddns_update_fixed_addresses DataNiosDhcpSharedNetwork#use_ddns_update_fixed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ddns_update_fixed_addresses DataNiosDhcpSharedNetwork#use_ddns_update_fixed_addresses}
   */
   readonly useDdnsUpdateFixedAddresses?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_use_option81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ddns_use_option81 DataNiosDhcpSharedNetwork#use_ddns_use_option81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ddns_use_option81 DataNiosDhcpSharedNetwork#use_ddns_use_option81}
   */
   readonly useDdnsUseOption81?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: deny_bootp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_deny_bootp DataNiosDhcpSharedNetwork#use_deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_deny_bootp DataNiosDhcpSharedNetwork#use_deny_bootp}
   */
   readonly useDenyBootp?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_enable_ddns DataNiosDhcpSharedNetwork#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_enable_ddns DataNiosDhcpSharedNetwork#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_client_identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ignore_client_identifier DataNiosDhcpSharedNetwork#use_ignore_client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ignore_client_identifier DataNiosDhcpSharedNetwork#use_ignore_client_identifier}
   */
   readonly useIgnoreClientIdentifier?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_dhcp_option_list_request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ignore_dhcp_option_list_request DataNiosDhcpSharedNetwork#use_ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ignore_dhcp_option_list_request DataNiosDhcpSharedNetwork#use_ignore_dhcp_option_list_request}
   */
   readonly useIgnoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_ignore_id DataNiosDhcpSharedNetwork#use_ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_ignore_id DataNiosDhcpSharedNetwork#use_ignore_id}
   */
   readonly useIgnoreId?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: lease_scavenge_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_lease_scavenge_time DataNiosDhcpSharedNetwork#use_lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_lease_scavenge_time DataNiosDhcpSharedNetwork#use_lease_scavenge_time}
   */
   readonly useLeaseScavengeTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_logic_filter_rules DataNiosDhcpSharedNetwork#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_logic_filter_rules DataNiosDhcpSharedNetwork#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nextserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_nextserver DataNiosDhcpSharedNetwork#use_nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_nextserver DataNiosDhcpSharedNetwork#use_nextserver}
   */
   readonly useNextserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_options DataNiosDhcpSharedNetwork#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_options DataNiosDhcpSharedNetwork#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: pxe_lease_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_pxe_lease_time DataNiosDhcpSharedNetwork#use_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_pxe_lease_time DataNiosDhcpSharedNetwork#use_pxe_lease_time}
   */
   readonly usePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: update_dns_on_lease_renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#use_update_dns_on_lease_renewal DataNiosDhcpSharedNetwork#use_update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#use_update_dns_on_lease_renewal DataNiosDhcpSharedNetwork#use_update_dns_on_lease_renewal}
   */
   readonly useUpdateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
 }
@@ -2282,7 +2282,7 @@ export class DataNiosDhcpSharedNetworkResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network nios_dhcp_shared_network}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network nios_dhcp_shared_network}
 */
 export class DataNiosDhcpSharedNetwork extends cdktf.TerraformDataSource {
 
@@ -2298,7 +2298,7 @@ export class DataNiosDhcpSharedNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDhcpSharedNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDhcpSharedNetwork to import
-  * @param importFromId The id of the existing DataNiosDhcpSharedNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDhcpSharedNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDhcpSharedNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2310,7 +2310,7 @@ export class DataNiosDhcpSharedNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_shared_network nios_dhcp_shared_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_shared_network nios_dhcp_shared_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2321,8 +2321,8 @@ export class DataNiosDhcpSharedNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dhcp_shared_network',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

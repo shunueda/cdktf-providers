@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosMiscBfdtemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#filters DataNiosMiscBfdtemplate#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#filters DataNiosMiscBfdtemplate#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#max_results DataNiosMiscBfdtemplate#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#max_results DataNiosMiscBfdtemplate#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#paging DataNiosMiscBfdtemplate#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#paging DataNiosMiscBfdtemplate#paging}
   */
   readonly paging?: number;
 }
@@ -30,43 +30,43 @@ export interface DataNiosMiscBfdtemplateResult {
   /**
   * The authentication key for BFD protocol message-digest authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#authentication_key DataNiosMiscBfdtemplate#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#authentication_key DataNiosMiscBfdtemplate#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * The authentication key identifier for BFD protocol authentication. Valid values are between 1 and 255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#authentication_key_id DataNiosMiscBfdtemplate#authentication_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#authentication_key_id DataNiosMiscBfdtemplate#authentication_key_id}
   */
   readonly authenticationKeyId?: number;
   /**
   * The authentication type for BFD protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#authentication_type DataNiosMiscBfdtemplate#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#authentication_type DataNiosMiscBfdtemplate#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * The detection time multiplier value for BFD protocol. The negotiated transmit interval, multiplied by this value, provides the detection time for the receiving system in asynchronous BFD mode. Valid values are between 3 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#detection_multiplier DataNiosMiscBfdtemplate#detection_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#detection_multiplier DataNiosMiscBfdtemplate#detection_multiplier}
   */
   readonly detectionMultiplier?: number;
   /**
   * The minimum receive time (in seconds) for BFD protocol. Valid values are between 50 and 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#min_rx_interval DataNiosMiscBfdtemplate#min_rx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#min_rx_interval DataNiosMiscBfdtemplate#min_rx_interval}
   */
   readonly minRxInterval?: number;
   /**
   * The minimum transmission time (in seconds) for BFD protocol. Valid values are between 50 and 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#min_tx_interval DataNiosMiscBfdtemplate#min_tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#min_tx_interval DataNiosMiscBfdtemplate#min_tx_interval}
   */
   readonly minTxInterval?: number;
   /**
   * The name of the BFD template object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#name DataNiosMiscBfdtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#name DataNiosMiscBfdtemplate#name}
   */
   readonly name: string;
 }
@@ -348,7 +348,7 @@ export class DataNiosMiscBfdtemplateResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate nios_misc_bfdtemplate}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate nios_misc_bfdtemplate}
 */
 export class DataNiosMiscBfdtemplate extends cdktf.TerraformDataSource {
 
@@ -364,7 +364,7 @@ export class DataNiosMiscBfdtemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosMiscBfdtemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosMiscBfdtemplate to import
-  * @param importFromId The id of the existing DataNiosMiscBfdtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosMiscBfdtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosMiscBfdtemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class DataNiosMiscBfdtemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_bfdtemplate nios_misc_bfdtemplate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_bfdtemplate nios_misc_bfdtemplate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class DataNiosMiscBfdtemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_misc_bfdtemplate',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface BrowserControlPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * A Boolean value that specifies whether or not to allow all the browsers and their respective versions access to the internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#allow_all_browsers BrowserControlPolicy#allow_all_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#allow_all_browsers BrowserControlPolicy#allow_all_browsers}
   */
   readonly allowAllBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Versions of Google Chrome browser that need to be blocked. If not set, all Google Chrome versions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#blocked_chrome_versions BrowserControlPolicy#blocked_chrome_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#blocked_chrome_versions BrowserControlPolicy#blocked_chrome_versions}
   */
   readonly blockedChromeVersions?: string[];
   /**
   * Versions of Mozilla Firefox browser that need to be blocked. If not set, all Mozilla Firefox versions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#blocked_firefox_versions BrowserControlPolicy#blocked_firefox_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#blocked_firefox_versions BrowserControlPolicy#blocked_firefox_versions}
   */
   readonly blockedFirefoxVersions?: string[];
   /**
   * Versions of Microsoft browser that need to be blocked. If not set, all Microsoft browser versions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#blocked_internet_explorer_versions BrowserControlPolicy#blocked_internet_explorer_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#blocked_internet_explorer_versions BrowserControlPolicy#blocked_internet_explorer_versions}
   */
   readonly blockedInternetExplorerVersions?: string[];
   /**
   * Versions of Opera browser that need to be blocked. If not set, all Opera versions are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#blocked_opera_versions BrowserControlPolicy#blocked_opera_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#blocked_opera_versions BrowserControlPolicy#blocked_opera_versions}
   */
   readonly blockedOperaVersions?: string[];
   /**
   * Versions of Apple Safari browser that need to be blocked. If not set, all Apple Safari versions are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#blocked_safari_versions BrowserControlPolicy#blocked_safari_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#blocked_safari_versions BrowserControlPolicy#blocked_safari_versions}
   */
   readonly blockedSafariVersions?: string[];
   /**
   * If set to true, all the browsers are bypassed for warnings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#bypass_all_browsers BrowserControlPolicy#bypass_all_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#bypass_all_browsers BrowserControlPolicy#bypass_all_browsers}
   */
   readonly bypassAllBrowsers?: boolean | cdktf.IResolvable;
   /**
   * List of applications that need to be bypassed for warnings. This attribute has effect only if the 'enableWarnings' attribute is set to true. If not set, all vulnerable applications are warned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#bypass_applications BrowserControlPolicy#bypass_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#bypass_applications BrowserControlPolicy#bypass_applications}
   */
   readonly bypassApplications?: string[];
   /**
   * List of plugins that need to be bypassed for warnings. This attribute has effect only if the 'enableWarnings' attribute is set to true. If not set, all vulnerable plugins are warned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#bypass_plugins BrowserControlPolicy#bypass_plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#bypass_plugins BrowserControlPolicy#bypass_plugins}
   */
   readonly bypassPlugins?: string[];
   /**
   * A Boolean value that specifies if Smart Browser Isolation is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#enable_smart_browser_isolation BrowserControlPolicy#enable_smart_browser_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#enable_smart_browser_isolation BrowserControlPolicy#enable_smart_browser_isolation}
   */
   readonly enableSmartBrowserIsolation?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value that specifies if the warnings are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#enable_warnings BrowserControlPolicy#enable_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#enable_warnings BrowserControlPolicy#enable_warnings}
   */
   readonly enableWarnings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,31 +83,31 @@ export interface BrowserControlPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies how frequently the service checks browsers and relevant applications to warn users regarding outdated or vulnerable browsers, plugins, and applications. If not set, the warnings are disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#plugin_check_frequency BrowserControlPolicy#plugin_check_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#plugin_check_frequency BrowserControlPolicy#plugin_check_frequency}
   */
   readonly pluginCheckFrequency?: string;
   /**
   * smart_isolation_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#smart_isolation_groups BrowserControlPolicy#smart_isolation_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#smart_isolation_groups BrowserControlPolicy#smart_isolation_groups}
   */
   readonly smartIsolationGroups?: BrowserControlPolicySmartIsolationGroups;
   /**
   * smart_isolation_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#smart_isolation_profile BrowserControlPolicy#smart_isolation_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#smart_isolation_profile BrowserControlPolicy#smart_isolation_profile}
   */
   readonly smartIsolationProfile?: BrowserControlPolicySmartIsolationProfile[] | cdktf.IResolvable;
   /**
   * smart_isolation_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#smart_isolation_users BrowserControlPolicy#smart_isolation_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#smart_isolation_users BrowserControlPolicy#smart_isolation_users}
   */
   readonly smartIsolationUsers?: BrowserControlPolicySmartIsolationUsers;
 }
 export interface BrowserControlPolicySmartIsolationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,7 +196,7 @@ export interface BrowserControlPolicySmartIsolationProfile {
   /**
   * The universally unique identifier (UUID) for the browser isolation profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -315,7 +315,7 @@ export class BrowserControlPolicySmartIsolationProfileList extends cdktf.Complex
 }
 export interface BrowserControlPolicySmartIsolationUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#id BrowserControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -402,7 +402,7 @@ export class BrowserControlPolicySmartIsolationUsersOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy zia_browser_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy zia_browser_control_policy}
 */
 export class BrowserControlPolicy extends cdktf.TerraformResource {
 
@@ -418,7 +418,7 @@ export class BrowserControlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrowserControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrowserControlPolicy to import
-  * @param importFromId The id of the existing BrowserControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrowserControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrowserControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +430,7 @@ export class BrowserControlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/browser_control_policy zia_browser_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/browser_control_policy zia_browser_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +441,8 @@ export class BrowserControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'zia_browser_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

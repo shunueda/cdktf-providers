@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact
+// https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVyLambdaArtifactConfig extends cdktf.TerraformMetaArguments
   /**
   * *Only if artifact type is ECR.* The ECR repository name where the Lambda image is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact#ecr_repository_name DataVyLambdaArtifact#ecr_repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact#ecr_repository_name DataVyLambdaArtifact#ecr_repository_name}
   */
   readonly ecrRepositoryName?: string;
   /**
   * The GitHub repository name to find the artifact for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact#github_repository_name DataVyLambdaArtifact#github_repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact#github_repository_name DataVyLambdaArtifact#github_repository_name}
   */
   readonly githubRepositoryName: string;
   /**
   * The directory in the GitHub repository to find the artifact for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact#working_directory DataVyLambdaArtifact#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact#working_directory DataVyLambdaArtifact#working_directory}
   */
   readonly workingDirectory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact vy_lambda_artifact}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact vy_lambda_artifact}
 */
 export class DataVyLambdaArtifact extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataVyLambdaArtifact extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVyLambdaArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVyLambdaArtifact to import
-  * @param importFromId The id of the existing DataVyLambdaArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVyLambdaArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVyLambdaArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataVyLambdaArtifact extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/data-sources/lambda_artifact vy_lambda_artifact} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/data-sources/lambda_artifact vy_lambda_artifact} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataVyLambdaArtifact extends cdktf.TerraformDataSource {
       terraformResourceType: 'vy_lambda_artifact',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

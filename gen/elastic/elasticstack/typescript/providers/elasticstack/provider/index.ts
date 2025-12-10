@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ElasticstackProviderConfig {
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#alias ElasticstackProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#alias ElasticstackProvider#alias}
   */
   readonly alias?: string;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#elasticsearch ElasticstackProvider#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#elasticsearch ElasticstackProvider#elasticsearch}
   */
   readonly elasticsearch?: ElasticstackProviderElasticsearch;
   /**
   * fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#fleet ElasticstackProvider#fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#fleet ElasticstackProvider#fleet}
   */
   readonly fleet?: ElasticstackProviderFleet;
   /**
   * kibana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#kibana ElasticstackProvider#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#kibana ElasticstackProvider#kibana}
   */
   readonly kibana?: ElasticstackProviderKibana;
 }
@@ -36,85 +36,85 @@ export interface ElasticstackProviderElasticsearch {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#api_key ElasticstackProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#api_key ElasticstackProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#bearer_token ElasticstackProvider#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#bearer_token ElasticstackProvider#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#ca_data ElasticstackProvider#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#ca_data ElasticstackProvider#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#ca_file ElasticstackProvider#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#ca_file ElasticstackProvider#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#cert_data ElasticstackProvider#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#cert_data ElasticstackProvider#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#cert_file ElasticstackProvider#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#cert_file ElasticstackProvider#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#endpoints ElasticstackProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#endpoints ElasticstackProvider#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#es_client_authentication ElasticstackProvider#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#es_client_authentication ElasticstackProvider#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#headers ElasticstackProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#headers ElasticstackProvider#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#insecure ElasticstackProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#insecure ElasticstackProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#key_data ElasticstackProvider#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#key_data ElasticstackProvider#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#key_file ElasticstackProvider#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#key_file ElasticstackProvider#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#password ElasticstackProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#password ElasticstackProvider#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#username ElasticstackProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#username ElasticstackProvider#username}
   */
   readonly username?: string;
 }
@@ -243,37 +243,37 @@ export interface ElasticstackProviderFleet {
   /**
   * API Key to use for authentication to Fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#api_key ElasticstackProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#api_key ElasticstackProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * A list of paths to CA certificates to validate the certificate presented by the Fleet server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#ca_certs ElasticstackProvider#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#ca_certs ElasticstackProvider#ca_certs}
   */
   readonly caCerts?: string[];
   /**
   * The Fleet server where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#endpoint ElasticstackProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#endpoint ElasticstackProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#insecure ElasticstackProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#insecure ElasticstackProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password to use for API authentication to Fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#password ElasticstackProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#password ElasticstackProvider#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#username ElasticstackProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#username ElasticstackProvider#username}
   */
   readonly username?: string;
 }
@@ -346,37 +346,37 @@ export interface ElasticstackProviderKibana {
   /**
   * API Key to use for authentication to Kibana
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#api_key ElasticstackProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#api_key ElasticstackProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * A list of paths to CA certificates to validate the certificate presented by the Kibana server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#ca_certs ElasticstackProvider#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#ca_certs ElasticstackProvider#ca_certs}
   */
   readonly caCerts?: string[];
   /**
   * A comma-separated list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#endpoints ElasticstackProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#endpoints ElasticstackProvider#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#insecure ElasticstackProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#insecure ElasticstackProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password to use for API authentication to Kibana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#password ElasticstackProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#password ElasticstackProvider#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Kibana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#username ElasticstackProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#username ElasticstackProvider#username}
   */
   readonly username?: string;
 }
@@ -447,7 +447,7 @@ export function elasticstackProviderKibanaToHclTerraform(struct?: ElasticstackPr
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs elasticstack}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs elasticstack}
 */
 export class ElasticstackProvider extends cdktf.TerraformProvider {
 
@@ -463,7 +463,7 @@ export class ElasticstackProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ElasticstackProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticstackProvider to import
-  * @param importFromId The id of the existing ElasticstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticstackProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class ElasticstackProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs elasticstack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs elasticstack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class ElasticstackProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'elasticstack',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       terraformProviderSource: 'elastic/elasticstack'
     });

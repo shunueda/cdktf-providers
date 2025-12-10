@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessPlatformPolicysetConfig extends cdktf.TerraformMetaA
   /**
   * Action code for the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#action DataHarnessPlatformPolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#action DataHarnessPlatformPolicyset#action}
   */
   readonly action: string;
   /**
   * Enabled for the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#enabled DataHarnessPlatformPolicyset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#enabled DataHarnessPlatformPolicyset#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#id DataHarnessPlatformPolicyset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#id DataHarnessPlatformPolicyset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataHarnessPlatformPolicysetConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#name DataHarnessPlatformPolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#name DataHarnessPlatformPolicyset#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#org_id DataHarnessPlatformPolicyset#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#org_id DataHarnessPlatformPolicyset#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#project_id DataHarnessPlatformPolicyset#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#project_id DataHarnessPlatformPolicyset#project_id}
   */
   readonly projectId?: string;
   /**
   * Type of the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#type DataHarnessPlatformPolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#type DataHarnessPlatformPolicyset#type}
   */
   readonly type: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#policies DataHarnessPlatformPolicyset#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#policies DataHarnessPlatformPolicyset#policies}
   */
   readonly policies?: DataHarnessPlatformPolicysetPolicies[] | cdktf.IResolvable;
   /**
   * policy_references block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#policy_references DataHarnessPlatformPolicyset#policy_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#policy_references DataHarnessPlatformPolicyset#policy_references}
   */
   readonly policyReferences?: DataHarnessPlatformPolicysetPolicyReferences[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface DataHarnessPlatformPolicysetPolicies {
   /**
   * Unique identifier of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Policy failure response - 'warning' for continuation, 'error' for exit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#severity DataHarnessPlatformPolicyset#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#severity DataHarnessPlatformPolicyset#severity}
   */
   readonly severity: string;
 }
@@ -220,13 +220,13 @@ export interface DataHarnessPlatformPolicysetPolicyReferences {
   /**
   * Unique identifier of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#identifier DataHarnessPlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Policy failure response - 'warning' for continuation, 'error' for exit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#severity DataHarnessPlatformPolicyset#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#severity DataHarnessPlatformPolicyset#severity}
   */
   readonly severity: string;
 }
@@ -365,7 +365,7 @@ export class DataHarnessPlatformPolicysetPolicyReferencesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset harness_platform_policyset}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset harness_platform_policyset}
 */
 export class DataHarnessPlatformPolicyset extends cdktf.TerraformDataSource {
 
@@ -381,7 +381,7 @@ export class DataHarnessPlatformPolicyset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformPolicyset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformPolicyset to import
-  * @param importFromId The id of the existing DataHarnessPlatformPolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformPolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformPolicyset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class DataHarnessPlatformPolicyset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_policyset harness_platform_policyset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_policyset harness_platform_policyset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class DataHarnessPlatformPolicyset extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_policyset',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

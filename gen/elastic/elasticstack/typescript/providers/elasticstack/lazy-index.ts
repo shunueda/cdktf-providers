@@ -6,6 +6,7 @@ Object.defineProperty(exports, 'elasticsearchDataStream', { get: function () { r
 Object.defineProperty(exports, 'elasticsearchDataStreamLifecycle', { get: function () { return require('./elasticsearch-data-stream-lifecycle'); } });
 Object.defineProperty(exports, 'elasticsearchEnrichPolicy', { get: function () { return require('./elasticsearch-enrich-policy'); } });
 Object.defineProperty(exports, 'elasticsearchIndex', { get: function () { return require('./elasticsearch-index'); } });
+Object.defineProperty(exports, 'elasticsearchIndexAlias', { get: function () { return require('./elasticsearch-index-alias'); } });
 Object.defineProperty(exports, 'elasticsearchIndexLifecycle', { get: function () { return require('./elasticsearch-index-lifecycle'); } });
 Object.defineProperty(exports, 'elasticsearchIndexTemplate', { get: function () { return require('./elasticsearch-index-template'); } });
 Object.defineProperty(exports, 'elasticsearchIngestPipeline', { get: function () { return require('./elasticsearch-ingest-pipeline'); } });
@@ -32,9 +33,16 @@ Object.defineProperty(exports, 'fleetServerHost', { get: function () { return re
 Object.defineProperty(exports, 'kibanaActionConnector', { get: function () { return require('./kibana-action-connector'); } });
 Object.defineProperty(exports, 'kibanaAlertingRule', { get: function () { return require('./kibana-alerting-rule'); } });
 Object.defineProperty(exports, 'kibanaDataView', { get: function () { return require('./kibana-data-view'); } });
+Object.defineProperty(exports, 'kibanaDefaultDataView', { get: function () { return require('./kibana-default-data-view'); } });
 Object.defineProperty(exports, 'kibanaImportSavedObjects', { get: function () { return require('./kibana-import-saved-objects'); } });
+Object.defineProperty(exports, 'kibanaInstallPrebuiltRules', { get: function () { return require('./kibana-install-prebuilt-rules'); } });
 Object.defineProperty(exports, 'kibanaMaintenanceWindow', { get: function () { return require('./kibana-maintenance-window'); } });
 Object.defineProperty(exports, 'kibanaSecurityDetectionRule', { get: function () { return require('./kibana-security-detection-rule'); } });
+Object.defineProperty(exports, 'kibanaSecurityExceptionItem', { get: function () { return require('./kibana-security-exception-item'); } });
+Object.defineProperty(exports, 'kibanaSecurityExceptionList', { get: function () { return require('./kibana-security-exception-list'); } });
+Object.defineProperty(exports, 'kibanaSecurityList', { get: function () { return require('./kibana-security-list'); } });
+Object.defineProperty(exports, 'kibanaSecurityListDataStreams', { get: function () { return require('./kibana-security-list-data-streams'); } });
+Object.defineProperty(exports, 'kibanaSecurityListItem', { get: function () { return require('./kibana-security-list-item'); } });
 Object.defineProperty(exports, 'kibanaSecurityRole', { get: function () { return require('./kibana-security-role'); } });
 Object.defineProperty(exports, 'kibanaSlo', { get: function () { return require('./kibana-slo'); } });
 Object.defineProperty(exports, 'kibanaSpace', { get: function () { return require('./kibana-space'); } });

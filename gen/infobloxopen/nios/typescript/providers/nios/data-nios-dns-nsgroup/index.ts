@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsNsgroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#extattrfilters DataNiosDnsNsgroup#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#extattrfilters DataNiosDnsNsgroup#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#filters DataNiosDnsNsgroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#filters DataNiosDnsNsgroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#max_results DataNiosDnsNsgroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#max_results DataNiosDnsNsgroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#paging DataNiosDnsNsgroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#paging DataNiosDnsNsgroup#paging}
   */
   readonly paging?: number;
 }
@@ -36,43 +36,43 @@ export interface DataNiosDnsNsgroupResultExternalPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key DataNiosDnsNsgroup#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key DataNiosDnsNsgroup#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key_alg DataNiosDnsNsgroup#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key_alg DataNiosDnsNsgroup#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key_name DataNiosDnsNsgroup#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key_name DataNiosDnsNsgroup#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#use_tsig_key_name DataNiosDnsNsgroup#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#use_tsig_key_name DataNiosDnsNsgroup#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -363,43 +363,43 @@ export interface DataNiosDnsNsgroupResultExternalSecondaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key DataNiosDnsNsgroup#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key DataNiosDnsNsgroup#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key_alg DataNiosDnsNsgroup#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key_alg DataNiosDnsNsgroup#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#tsig_key_name DataNiosDnsNsgroup#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#tsig_key_name DataNiosDnsNsgroup#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#use_tsig_key_name DataNiosDnsNsgroup#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#use_tsig_key_name DataNiosDnsNsgroup#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -800,13 +800,13 @@ export interface DataNiosDnsNsgroupResultGridPrimary {
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -971,13 +971,13 @@ export interface DataNiosDnsNsgroupResultGridSecondariesPreferredPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#address DataNiosDnsNsgroup#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
 }
@@ -1148,37 +1148,37 @@ export interface DataNiosDnsNsgroupResultGridSecondaries {
   /**
   * This flag represents whether the preferred_primaries field values of this member are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#enable_preferred_primaries DataNiosDnsNsgroup#enable_preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#enable_preferred_primaries DataNiosDnsNsgroup#enable_preferred_primaries}
   */
   readonly enablePreferredPrimaries?: boolean | cdktf.IResolvable;
   /**
   * The flag represents DNS zone transfers if set to False, and ID Grid Replication if set to True. This flag is ignored if the struct is specified as part of a stub zone or if it is set as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#grid_replicate DataNiosDnsNsgroup#grid_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#grid_replicate DataNiosDnsNsgroup#grid_replicate}
   */
   readonly gridReplicate?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether the Grid lead secondary server performs zone transfers to non lead secondaries. This flag is ignored if the struct is specified as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#lead DataNiosDnsNsgroup#lead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#lead DataNiosDnsNsgroup#lead}
   */
   readonly lead?: boolean | cdktf.IResolvable;
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
   /**
   * The primary preference list with Grid member names and\or External Server extserver structs for this member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#preferred_primaries DataNiosDnsNsgroup#preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#preferred_primaries DataNiosDnsNsgroup#preferred_primaries}
   */
   readonly preferredPrimaries?: DataNiosDnsNsgroupResultGridSecondariesPreferredPrimaries[] | cdktf.IResolvable;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#stealth DataNiosDnsNsgroup#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -1438,61 +1438,61 @@ export interface DataNiosDnsNsgroupResult {
   /**
   * Comment for the name server group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#comment DataNiosDnsNsgroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#comment DataNiosDnsNsgroup#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#extattrs DataNiosDnsNsgroup#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#extattrs DataNiosDnsNsgroup#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of external primary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#external_primaries DataNiosDnsNsgroup#external_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#external_primaries DataNiosDnsNsgroup#external_primaries}
   */
   readonly externalPrimaries?: DataNiosDnsNsgroupResultExternalPrimaries[] | cdktf.IResolvable;
   /**
   * The list of external secondary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#external_secondaries DataNiosDnsNsgroup#external_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#external_secondaries DataNiosDnsNsgroup#external_secondaries}
   */
   readonly externalSecondaries?: DataNiosDnsNsgroupResultExternalSecondaries[] | cdktf.IResolvable;
   /**
   * The grid primary servers for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#grid_primary DataNiosDnsNsgroup#grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#grid_primary DataNiosDnsNsgroup#grid_primary}
   */
   readonly gridPrimary?: DataNiosDnsNsgroupResultGridPrimary[] | cdktf.IResolvable;
   /**
   * The list with Grid members that are secondary servers for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#grid_secondaries DataNiosDnsNsgroup#grid_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#grid_secondaries DataNiosDnsNsgroup#grid_secondaries}
   */
   readonly gridSecondaries?: DataNiosDnsNsgroupResultGridSecondaries[] | cdktf.IResolvable;
   /**
   * Determines if this name server group is the Grid default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#is_grid_default DataNiosDnsNsgroup#is_grid_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#is_grid_default DataNiosDnsNsgroup#is_grid_default}
   */
   readonly isGridDefault?: boolean | cdktf.IResolvable;
   /**
   * Determines if the "multiple DNS primaries" feature is enabled for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#is_multimaster DataNiosDnsNsgroup#is_multimaster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#is_multimaster DataNiosDnsNsgroup#is_multimaster}
   */
   readonly isMultimaster?: boolean | cdktf.IResolvable;
   /**
   * The name of this name server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#name DataNiosDnsNsgroup#name}
   */
   readonly name: string;
   /**
   * This flag controls whether the group is using an external primary. Note that modification of this field requires passing values for "grid_secondaries" and "external_primaries".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#use_external_primary DataNiosDnsNsgroup#use_external_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#use_external_primary DataNiosDnsNsgroup#use_external_primary}
   */
   readonly useExternalPrimary?: boolean | cdktf.IResolvable;
 }
@@ -1867,7 +1867,7 @@ export class DataNiosDnsNsgroupResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup nios_dns_nsgroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup nios_dns_nsgroup}
 */
 export class DataNiosDnsNsgroup extends cdktf.TerraformDataSource {
 
@@ -1883,7 +1883,7 @@ export class DataNiosDnsNsgroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsNsgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsNsgroup to import
-  * @param importFromId The id of the existing DataNiosDnsNsgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsNsgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsNsgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1895,7 +1895,7 @@ export class DataNiosDnsNsgroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup nios_dns_nsgroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup nios_dns_nsgroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1906,8 +1906,8 @@ export class DataNiosDnsNsgroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_nsgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

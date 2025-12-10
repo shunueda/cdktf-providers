@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformFeatureFlagConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether or not the flag is archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#archived PlatformFeatureFlag#archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#archived PlatformFeatureFlag#archived}
   */
   readonly archived?: boolean | cdktf.IResolvable;
   /**
   * Which of the variations to use when the flag is toggled to off state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#default_off_variation PlatformFeatureFlag#default_off_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#default_off_variation PlatformFeatureFlag#default_off_variation}
   */
   readonly defaultOffVariation: string;
   /**
   * Which of the variations to use when the flag is toggled to on state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#default_on_variation PlatformFeatureFlag#default_on_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#default_on_variation PlatformFeatureFlag#default_on_variation}
   */
   readonly defaultOnVariation: string;
   /**
   * Description of the Feature Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#description PlatformFeatureFlag#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#description PlatformFeatureFlag#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#id PlatformFeatureFlag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#id PlatformFeatureFlag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface PlatformFeatureFlagConfig extends cdktf.TerraformMetaArguments 
   /**
   * Identifier of the Feature Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
   */
   readonly identifier: string;
   /**
   * The type of data the flag represents. Valid values are `boolean`, `int`, `string`, `json`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#kind PlatformFeatureFlag#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#kind PlatformFeatureFlag#kind}
   */
   readonly kind: string;
   /**
   * Name of the Feature Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#name PlatformFeatureFlag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#name PlatformFeatureFlag#name}
   */
   readonly name: string;
   /**
   * Organization Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#org_id PlatformFeatureFlag#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#org_id PlatformFeatureFlag#org_id}
   */
   readonly orgId: string;
   /**
   * The owner of the flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#owner PlatformFeatureFlag#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#owner PlatformFeatureFlag#owner}
   */
   readonly owner?: string;
   /**
   * Whether or not the flag is permanent. If it is, it will never be flagged as stale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#permanent PlatformFeatureFlag#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#permanent PlatformFeatureFlag#permanent}
   */
   readonly permanent: boolean | cdktf.IResolvable;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#project_id PlatformFeatureFlag#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#project_id PlatformFeatureFlag#project_id}
   */
   readonly projectId: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#environment PlatformFeatureFlag#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#environment PlatformFeatureFlag#environment}
   */
   readonly environment?: PlatformFeatureFlagEnvironment[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#tags PlatformFeatureFlag#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#tags PlatformFeatureFlag#tags}
   */
   readonly tags?: PlatformFeatureFlagTags[] | cdktf.IResolvable;
   /**
   * variation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#variation PlatformFeatureFlag#variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#variation PlatformFeatureFlag#variation}
   */
   readonly variation: PlatformFeatureFlagVariation[] | cdktf.IResolvable;
 }
@@ -103,13 +103,13 @@ export interface PlatformFeatureFlagEnvironmentAddTargetRule {
   /**
   * The targets that should be served this variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#targets PlatformFeatureFlag#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#targets PlatformFeatureFlag#targets}
   */
   readonly targets?: string[];
   /**
   * The identifier of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#variation PlatformFeatureFlag#variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#variation PlatformFeatureFlag#variation}
   */
   readonly variation?: string;
 }
@@ -256,31 +256,31 @@ export interface PlatformFeatureFlagEnvironment {
   /**
   * Default variation to be served when flag is 'off'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#default_off_variation PlatformFeatureFlag#default_off_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#default_off_variation PlatformFeatureFlag#default_off_variation}
   */
   readonly defaultOffVariation?: string;
   /**
   * Default variation to be served when flag is 'on'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#default_on_variation PlatformFeatureFlag#default_on_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#default_on_variation PlatformFeatureFlag#default_on_variation}
   */
   readonly defaultOnVariation?: string;
   /**
   * Identifier of the Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
   */
   readonly identifier: string;
   /**
   * State of the flag in this environment. Possible values are 'on' and 'off'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#state PlatformFeatureFlag#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#state PlatformFeatureFlag#state}
   */
   readonly state?: string;
   /**
   * add_target_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#add_target_rule PlatformFeatureFlag#add_target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#add_target_rule PlatformFeatureFlag#add_target_rule}
   */
   readonly addTargetRule?: PlatformFeatureFlagEnvironmentAddTargetRule[] | cdktf.IResolvable;
 }
@@ -511,7 +511,7 @@ export interface PlatformFeatureFlagTags {
   /**
   * The identifier of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
   */
   readonly identifier: string;
 }
@@ -626,25 +626,25 @@ export interface PlatformFeatureFlagVariation {
   /**
   * The description of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#description PlatformFeatureFlag#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#description PlatformFeatureFlag#description}
   */
   readonly description: string;
   /**
   * The identifier of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#identifier PlatformFeatureFlag#identifier}
   */
   readonly identifier: string;
   /**
   * The user friendly name of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#name PlatformFeatureFlag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#name PlatformFeatureFlag#name}
   */
   readonly name: string;
   /**
   * The value of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#value PlatformFeatureFlag#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#value PlatformFeatureFlag#value}
   */
   readonly value: string;
 }
@@ -835,7 +835,7 @@ export class PlatformFeatureFlagVariationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag harness_platform_feature_flag}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag harness_platform_feature_flag}
 */
 export class PlatformFeatureFlag extends cdktf.TerraformResource {
 
@@ -851,7 +851,7 @@ export class PlatformFeatureFlag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformFeatureFlag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformFeatureFlag to import
-  * @param importFromId The id of the existing PlatformFeatureFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformFeatureFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformFeatureFlag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -863,7 +863,7 @@ export class PlatformFeatureFlag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag harness_platform_feature_flag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_feature_flag harness_platform_feature_flag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -874,8 +874,8 @@ export class PlatformFeatureFlag extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_feature_flag',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboard_folders
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboard_folders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PlatformDashboardFoldersConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboard_folders#name PlatformDashboardFolders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboard_folders#name PlatformDashboardFolders#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboard_folders harness_platform_dashboard_folders}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboard_folders harness_platform_dashboard_folders}
 */
 export class PlatformDashboardFolders extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class PlatformDashboardFolders extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformDashboardFolders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformDashboardFolders to import
-  * @param importFromId The id of the existing PlatformDashboardFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboard_folders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformDashboardFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboard_folders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformDashboardFolders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class PlatformDashboardFolders extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboard_folders harness_platform_dashboard_folders} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboard_folders harness_platform_dashboard_folders} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class PlatformDashboardFolders extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_dashboard_folders',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

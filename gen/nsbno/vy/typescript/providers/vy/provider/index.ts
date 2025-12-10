@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs
+// https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VyProviderConfig {
   /**
   * The base url for the central shared cognito service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#central_cognito_base_url VyProvider#central_cognito_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#central_cognito_base_url VyProvider#central_cognito_base_url}
   */
   readonly centralCognitoBaseUrl?: string;
   /**
   * The environment of the deployment service. This should be left blank unless you're testing the deployment service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#deployment_service_environment VyProvider#deployment_service_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#deployment_service_environment VyProvider#deployment_service_environment}
   */
   readonly deploymentServiceEnvironment?: string;
   /**
   * The base url for the deployment enrollment service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#enroll_account_base_url VyProvider#enroll_account_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#enroll_account_base_url VyProvider#enroll_account_base_url}
   */
   readonly enrollAccountBaseUrl?: string;
   /**
   * The environment to interact with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#environment VyProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#environment VyProvider#environment}
   */
   readonly environment: string;
   /**
   * The base url for the version handler v2 service (for testing only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#version_handler_v2_base_url VyProvider#version_handler_v2_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#version_handler_v2_base_url VyProvider#version_handler_v2_base_url}
   */
   readonly versionHandlerV2BaseUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#alias VyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#alias VyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs vy}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs vy}
 */
 export class VyProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class VyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VyProvider to import
-  * @param importFromId The id of the existing VyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class VyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs vy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs vy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class VyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vy',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'nsbno/vy'
     });

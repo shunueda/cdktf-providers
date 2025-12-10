@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceHelmConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#app_id ServiceHelm#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#app_id ServiceHelm#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#description ServiceHelm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#description ServiceHelm#description}
   */
   readonly description?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#name ServiceHelm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#name ServiceHelm#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#variable ServiceHelm#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#variable ServiceHelm#variable}
   */
   readonly variable?: ServiceHelmVariable[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface ServiceHelmVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#name ServiceHelm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#name ServiceHelm#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#type ServiceHelm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#type ServiceHelm#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#value ServiceHelm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#value ServiceHelm#value}
   */
   readonly value: string;
 }
@@ -213,7 +213,7 @@ export class ServiceHelmVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm harness_service_helm}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm harness_service_helm}
 */
 export class ServiceHelm extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class ServiceHelm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceHelm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceHelm to import
-  * @param importFromId The id of the existing ServiceHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceHelm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class ServiceHelm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_helm harness_service_helm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_helm harness_service_helm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class ServiceHelm extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_helm',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

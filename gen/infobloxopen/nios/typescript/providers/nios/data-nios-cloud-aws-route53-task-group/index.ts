@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosCloudAwsRoute53TaskGroupConfig extends cdktf.TerraformM
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#filters DataNiosCloudAwsRoute53TaskGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#filters DataNiosCloudAwsRoute53TaskGroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#max_results DataNiosCloudAwsRoute53TaskGroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#max_results DataNiosCloudAwsRoute53TaskGroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#paging DataNiosCloudAwsRoute53TaskGroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#paging DataNiosCloudAwsRoute53TaskGroup#paging}
   */
   readonly paging?: number;
 }
@@ -30,55 +30,55 @@ export interface DataNiosCloudAwsRoute53TaskGroupResultTaskListStruct {
   /**
   * Reference to associated AWS user whose credentials are to be used for this task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#aws_user DataNiosCloudAwsRoute53TaskGroup#aws_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#aws_user DataNiosCloudAwsRoute53TaskGroup#aws_user}
   */
   readonly awsUser?: string;
   /**
   * Credentials type used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#credentials_type DataNiosCloudAwsRoute53TaskGroup#credentials_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#credentials_type DataNiosCloudAwsRoute53TaskGroup#credentials_type}
   */
   readonly credentialsType?: string;
   /**
   * Indicates if the task is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#disabled DataNiosCloudAwsRoute53TaskGroup#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#disabled DataNiosCloudAwsRoute53TaskGroup#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter for this task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#filter DataNiosCloudAwsRoute53TaskGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#filter DataNiosCloudAwsRoute53TaskGroup#filter}
   */
   readonly filter?: string;
   /**
   * The name of this task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#name DataNiosCloudAwsRoute53TaskGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#name DataNiosCloudAwsRoute53TaskGroup#name}
   */
   readonly name: string;
   /**
   * Periodic interval for this task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#schedule_interval DataNiosCloudAwsRoute53TaskGroup#schedule_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#schedule_interval DataNiosCloudAwsRoute53TaskGroup#schedule_interval}
   */
   readonly scheduleInterval?: number;
   /**
   * Units for the schedule interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#schedule_units DataNiosCloudAwsRoute53TaskGroup#schedule_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#schedule_units DataNiosCloudAwsRoute53TaskGroup#schedule_units}
   */
   readonly scheduleUnits?: string;
   /**
   * Indicates whether private zones are synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#sync_private_zones DataNiosCloudAwsRoute53TaskGroup#sync_private_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#sync_private_zones DataNiosCloudAwsRoute53TaskGroup#sync_private_zones}
   */
   readonly syncPrivateZones?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether public zones are synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#sync_public_zones DataNiosCloudAwsRoute53TaskGroup#sync_public_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#sync_public_zones DataNiosCloudAwsRoute53TaskGroup#sync_public_zones}
   */
   readonly syncPublicZones?: boolean | cdktf.IResolvable;
 }
@@ -450,79 +450,79 @@ export interface DataNiosCloudAwsRoute53TaskGroupResult {
   /**
   * The AWS account IDs file's path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#aws_account_ids_file_path DataNiosCloudAwsRoute53TaskGroup#aws_account_ids_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#aws_account_ids_file_path DataNiosCloudAwsRoute53TaskGroup#aws_account_ids_file_path}
   */
   readonly awsAccountIdsFilePath?: string;
   /**
   * Comment for the task group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#comment DataNiosCloudAwsRoute53TaskGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#comment DataNiosCloudAwsRoute53TaskGroup#comment}
   */
   readonly comment?: string;
   /**
   * Indicates if all zones need to be saved into a single view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#consolidate_zones DataNiosCloudAwsRoute53TaskGroup#consolidate_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#consolidate_zones DataNiosCloudAwsRoute53TaskGroup#consolidate_zones}
   */
   readonly consolidateZones?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view for consolidating zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#consolidated_view DataNiosCloudAwsRoute53TaskGroup#consolidated_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#consolidated_view DataNiosCloudAwsRoute53TaskGroup#consolidated_view}
   */
   readonly consolidatedView?: string;
   /**
   * Indicates if the task group is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#disabled DataNiosCloudAwsRoute53TaskGroup#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#disabled DataNiosCloudAwsRoute53TaskGroup#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Member on which the tasks in this task group will be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#grid_member DataNiosCloudAwsRoute53TaskGroup#grid_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#grid_member DataNiosCloudAwsRoute53TaskGroup#grid_member}
   */
   readonly gridMember: string;
   /**
   * Discover all child accounts or Upload child account ids to discover..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#multiple_accounts_sync_policy DataNiosCloudAwsRoute53TaskGroup#multiple_accounts_sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#multiple_accounts_sync_policy DataNiosCloudAwsRoute53TaskGroup#multiple_accounts_sync_policy}
   */
   readonly multipleAccountsSyncPolicy?: string;
   /**
   * The name of this AWS Route53 sync task group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#name DataNiosCloudAwsRoute53TaskGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#name DataNiosCloudAwsRoute53TaskGroup#name}
   */
   readonly name: string;
   /**
   * The name of the tenant's network view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#network_view DataNiosCloudAwsRoute53TaskGroup#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#network_view DataNiosCloudAwsRoute53TaskGroup#network_view}
   */
   readonly networkView?: string;
   /**
   * The network view mapping policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#network_view_mapping_policy DataNiosCloudAwsRoute53TaskGroup#network_view_mapping_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#network_view_mapping_policy DataNiosCloudAwsRoute53TaskGroup#network_view_mapping_policy}
   */
   readonly networkViewMappingPolicy?: string;
   /**
   * Role ARN for syncing child accounts; maximum 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#role_arn DataNiosCloudAwsRoute53TaskGroup#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#role_arn DataNiosCloudAwsRoute53TaskGroup#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Synchronizing child accounts is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#sync_child_accounts DataNiosCloudAwsRoute53TaskGroup#sync_child_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#sync_child_accounts DataNiosCloudAwsRoute53TaskGroup#sync_child_accounts}
   */
   readonly syncChildAccounts?: boolean | cdktf.IResolvable;
   /**
   * List of AWS Route53 tasks in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#task_list DataNiosCloudAwsRoute53TaskGroup#task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#task_list DataNiosCloudAwsRoute53TaskGroup#task_list}
   */
   readonly taskList?: DataNiosCloudAwsRoute53TaskGroupResultTaskListStruct[] | cdktf.IResolvable;
 }
@@ -995,7 +995,7 @@ export class DataNiosCloudAwsRoute53TaskGroupResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group nios_cloud_aws_route53_task_group}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group nios_cloud_aws_route53_task_group}
 */
 export class DataNiosCloudAwsRoute53TaskGroup extends cdktf.TerraformDataSource {
 
@@ -1011,7 +1011,7 @@ export class DataNiosCloudAwsRoute53TaskGroup extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosCloudAwsRoute53TaskGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosCloudAwsRoute53TaskGroup to import
-  * @param importFromId The id of the existing DataNiosCloudAwsRoute53TaskGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosCloudAwsRoute53TaskGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosCloudAwsRoute53TaskGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1023,7 +1023,7 @@ export class DataNiosCloudAwsRoute53TaskGroup extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_route53_task_group nios_cloud_aws_route53_task_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_route53_task_group nios_cloud_aws_route53_task_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1034,8 +1034,8 @@ export class DataNiosCloudAwsRoute53TaskGroup extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_cloud_aws_route53_task_group',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

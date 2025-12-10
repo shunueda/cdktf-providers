@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ElasticsearchSnapshotRepositoryConfig extends cdktf.TerraformMe
   /**
   * Name of the snapshot repository to register or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#name ElasticsearchSnapshotRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#name ElasticsearchSnapshotRepository#name}
   */
   readonly name: string;
   /**
   * If true, the request verifies the repository is functional on all master and data nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#verify ElasticsearchSnapshotRepository#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#verify ElasticsearchSnapshotRepository#verify}
   */
   readonly verify?: boolean | cdktf.IResolvable;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#azure ElasticsearchSnapshotRepository#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#azure ElasticsearchSnapshotRepository#azure}
   */
   readonly azure?: ElasticsearchSnapshotRepositoryAzure;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#elasticsearch_connection ElasticsearchSnapshotRepository#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#elasticsearch_connection ElasticsearchSnapshotRepository#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchSnapshotRepositoryElasticsearchConnection;
   /**
   * fs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#fs ElasticsearchSnapshotRepository#fs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#fs ElasticsearchSnapshotRepository#fs}
   */
   readonly fs?: ElasticsearchSnapshotRepositoryFs;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#gcs ElasticsearchSnapshotRepository#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#gcs ElasticsearchSnapshotRepository#gcs}
   */
   readonly gcs?: ElasticsearchSnapshotRepositoryGcs;
   /**
   * hdfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#hdfs ElasticsearchSnapshotRepository#hdfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#hdfs ElasticsearchSnapshotRepository#hdfs}
   */
   readonly hdfs?: ElasticsearchSnapshotRepositoryHdfs;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#s3 ElasticsearchSnapshotRepository#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#s3 ElasticsearchSnapshotRepository#s3}
   */
   readonly s3?: ElasticsearchSnapshotRepositoryS3;
   /**
   * url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#url ElasticsearchSnapshotRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#url ElasticsearchSnapshotRepository#url}
   */
   readonly url?: ElasticsearchSnapshotRepositoryUrl;
 }
@@ -66,55 +66,55 @@ export interface ElasticsearchSnapshotRepositoryAzure {
   /**
   * Specifies the path within the container to the repository data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
   */
   readonly basePath?: string;
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * Azure named client to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
   */
   readonly client?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Container name. You must create the Azure container before creating the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#container ElasticsearchSnapshotRepository#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#container ElasticsearchSnapshotRepository#container}
   */
   readonly container: string;
   /**
   * Location mode. `primary_only` or `secondary_only`. See the [Azure storage redundancy documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#location_mode ElasticsearchSnapshotRepository#location_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#location_mode ElasticsearchSnapshotRepository#location_mode}
   */
   readonly locationMode?: string;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
 }
@@ -429,85 +429,85 @@ export interface ElasticsearchSnapshotRepositoryElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#api_key ElasticsearchSnapshotRepository#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#api_key ElasticsearchSnapshotRepository#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#bearer_token ElasticsearchSnapshotRepository#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#bearer_token ElasticsearchSnapshotRepository#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#ca_data ElasticsearchSnapshotRepository#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#ca_data ElasticsearchSnapshotRepository#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#ca_file ElasticsearchSnapshotRepository#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#ca_file ElasticsearchSnapshotRepository#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#cert_data ElasticsearchSnapshotRepository#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#cert_data ElasticsearchSnapshotRepository#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#cert_file ElasticsearchSnapshotRepository#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#cert_file ElasticsearchSnapshotRepository#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#endpoints ElasticsearchSnapshotRepository#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#endpoints ElasticsearchSnapshotRepository#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#es_client_authentication ElasticsearchSnapshotRepository#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#es_client_authentication ElasticsearchSnapshotRepository#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#headers ElasticsearchSnapshotRepository#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#headers ElasticsearchSnapshotRepository#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#insecure ElasticsearchSnapshotRepository#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#insecure ElasticsearchSnapshotRepository#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#key_data ElasticsearchSnapshotRepository#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#key_data ElasticsearchSnapshotRepository#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#key_file ElasticsearchSnapshotRepository#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#key_file ElasticsearchSnapshotRepository#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#password ElasticsearchSnapshotRepository#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#password ElasticsearchSnapshotRepository#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#username ElasticsearchSnapshotRepository#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#username ElasticsearchSnapshotRepository#username}
   */
   readonly username?: string;
 }
@@ -970,43 +970,43 @@ export interface ElasticsearchSnapshotRepositoryFs {
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Location of the shared filesystem used to store and retrieve snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#location ElasticsearchSnapshotRepository#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#location ElasticsearchSnapshotRepository#location}
   */
   readonly location: string;
   /**
   * Maximum number of snapshots the repository can contain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_number_of_snapshots ElasticsearchSnapshotRepository#max_number_of_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_number_of_snapshots ElasticsearchSnapshotRepository#max_number_of_snapshots}
   */
   readonly maxNumberOfSnapshots?: number;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
 }
@@ -1263,49 +1263,49 @@ export interface ElasticsearchSnapshotRepositoryGcs {
   /**
   * Specifies the path within the bucket to the repository data. Defaults to the root of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
   */
   readonly basePath?: string;
   /**
   * The name of the bucket to be used for snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#bucket ElasticsearchSnapshotRepository#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#bucket ElasticsearchSnapshotRepository#bucket}
   */
   readonly bucket: string;
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * The name of the client to use to connect to Google Cloud Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
   */
   readonly client?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
 }
@@ -1591,49 +1591,49 @@ export interface ElasticsearchSnapshotRepositoryHdfs {
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Whether to load the default Hadoop configuration or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#load_defaults ElasticsearchSnapshotRepository#load_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#load_defaults ElasticsearchSnapshotRepository#load_defaults}
   */
   readonly loadDefaults?: boolean | cdktf.IResolvable;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * The file path within the filesystem where data is stored/loaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#path ElasticsearchSnapshotRepository#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#path ElasticsearchSnapshotRepository#path}
   */
   readonly path: string;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * The uri address for hdfs. ex: "hdfs://<host>:<port>/".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#uri ElasticsearchSnapshotRepository#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#uri ElasticsearchSnapshotRepository#uri}
   */
   readonly uri: string;
 }
@@ -1916,85 +1916,85 @@ export interface ElasticsearchSnapshotRepositoryS3 {
   /**
   * Specifies the path to the repository data within its bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#base_path ElasticsearchSnapshotRepository#base_path}
   */
   readonly basePath?: string;
   /**
   * Name of the S3 bucket to use for snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#bucket ElasticsearchSnapshotRepository#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#bucket ElasticsearchSnapshotRepository#bucket}
   */
   readonly bucket: string;
   /**
   * Minimum threshold below which the chunk is uploaded using a single request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#buffer_size ElasticsearchSnapshotRepository#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#buffer_size ElasticsearchSnapshotRepository#buffer_size}
   */
   readonly bufferSize?: string;
   /**
   * The S3 repository supports all S3 canned ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#canned_acl ElasticsearchSnapshotRepository#canned_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#canned_acl ElasticsearchSnapshotRepository#canned_acl}
   */
   readonly cannedAcl?: string;
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * The name of the S3 client to use to connect to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#client ElasticsearchSnapshotRepository#client}
   */
   readonly client?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Custom S3 service endpoint, useful when using VPC endpoints or non-default S3 URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#endpoint ElasticsearchSnapshotRepository#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#endpoint ElasticsearchSnapshotRepository#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * If true, path style access pattern will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#path_style_access ElasticsearchSnapshotRepository#path_style_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#path_style_access ElasticsearchSnapshotRepository#path_style_access}
   */
   readonly pathStyleAccess?: boolean | cdktf.IResolvable;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * When true, files are encrypted server-side using AES-256 algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#server_side_encryption ElasticsearchSnapshotRepository#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#server_side_encryption ElasticsearchSnapshotRepository#server_side_encryption}
   */
   readonly serverSideEncryption?: boolean | cdktf.IResolvable;
   /**
   * Sets the S3 storage class for objects stored in the snapshot repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#storage_class ElasticsearchSnapshotRepository#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#storage_class ElasticsearchSnapshotRepository#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -2454,55 +2454,55 @@ export interface ElasticsearchSnapshotRepositoryUrl {
   /**
   * Maximum size of files in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#chunk_size ElasticsearchSnapshotRepository#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * If true, metadata files, such as index mappings and settings, are compressed in snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#compress ElasticsearchSnapshotRepository#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of retries for http and https URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#http_max_retries ElasticsearchSnapshotRepository#http_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#http_max_retries ElasticsearchSnapshotRepository#http_max_retries}
   */
   readonly httpMaxRetries?: number;
   /**
   * Maximum wait time for data transfers over a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#http_socket_timeout ElasticsearchSnapshotRepository#http_socket_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#http_socket_timeout ElasticsearchSnapshotRepository#http_socket_timeout}
   */
   readonly httpSocketTimeout?: string;
   /**
   * Maximum number of snapshots the repository can contain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_number_of_snapshots ElasticsearchSnapshotRepository#max_number_of_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_number_of_snapshots ElasticsearchSnapshotRepository#max_number_of_snapshots}
   */
   readonly maxNumberOfSnapshots?: number;
   /**
   * Maximum snapshot restore rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_restore_bytes_per_sec ElasticsearchSnapshotRepository#max_restore_bytes_per_sec}
   */
   readonly maxRestoreBytesPerSec?: string;
   /**
   * Maximum snapshot creation rate per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#max_snapshot_bytes_per_sec ElasticsearchSnapshotRepository#max_snapshot_bytes_per_sec}
   */
   readonly maxSnapshotBytesPerSec?: string;
   /**
   * If true, the repository is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#readonly ElasticsearchSnapshotRepository#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * URL location of the root of the shared filesystem repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#url ElasticsearchSnapshotRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#url ElasticsearchSnapshotRepository#url}
   */
   readonly url: string;
 }
@@ -2815,7 +2815,7 @@ export class ElasticsearchSnapshotRepositoryUrlOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository}
 */
 export class ElasticsearchSnapshotRepository extends cdktf.TerraformResource {
 
@@ -2831,7 +2831,7 @@ export class ElasticsearchSnapshotRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchSnapshotRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchSnapshotRepository to import
-  * @param importFromId The id of the existing ElasticsearchSnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchSnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchSnapshotRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2843,7 +2843,7 @@ export class ElasticsearchSnapshotRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2854,8 +2854,8 @@ export class ElasticsearchSnapshotRepository extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_snapshot_repository',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

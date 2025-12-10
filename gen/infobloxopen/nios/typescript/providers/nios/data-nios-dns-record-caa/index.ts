@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsRecordCaaConfig extends cdktf.TerraformMetaArguments
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#extattrfilters DataNiosDnsRecordCaa#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#extattrfilters DataNiosDnsRecordCaa#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#filters DataNiosDnsRecordCaa#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#filters DataNiosDnsRecordCaa#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#max_results DataNiosDnsRecordCaa#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#max_results DataNiosDnsRecordCaa#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#paging DataNiosDnsRecordCaa#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#paging DataNiosDnsRecordCaa#paging}
   */
   readonly paging?: number;
 }
@@ -190,85 +190,85 @@ export interface DataNiosDnsRecordCaaResult {
   /**
   * Flag of CAA record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ca_flag DataNiosDnsRecordCaa#ca_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ca_flag DataNiosDnsRecordCaa#ca_flag}
   */
   readonly caFlag: number;
   /**
   * Tag of CAA record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ca_tag DataNiosDnsRecordCaa#ca_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ca_tag DataNiosDnsRecordCaa#ca_tag}
   */
   readonly caTag: string;
   /**
   * Value of CAA record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ca_value DataNiosDnsRecordCaa#ca_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ca_value DataNiosDnsRecordCaa#ca_value}
   */
   readonly caValue: string;
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#comment DataNiosDnsRecordCaa#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#comment DataNiosDnsRecordCaa#comment}
   */
   readonly comment?: string;
   /**
   * The record creator. Note that changing creator from or to 'SYSTEM' value is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#creator DataNiosDnsRecordCaa#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#creator DataNiosDnsRecordCaa#creator}
   */
   readonly creator?: string;
   /**
   * The GSS-TSIG principal that owns this record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ddns_principal DataNiosDnsRecordCaa#ddns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ddns_principal DataNiosDnsRecordCaa#ddns_principal}
   */
   readonly ddnsPrincipal?: string;
   /**
   * Determines if the DDNS updates for this record are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ddns_protected DataNiosDnsRecordCaa#ddns_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ddns_protected DataNiosDnsRecordCaa#ddns_protected}
   */
   readonly ddnsProtected?: boolean | cdktf.IResolvable;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#disable DataNiosDnsRecordCaa#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#disable DataNiosDnsRecordCaa#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#extattrs DataNiosDnsRecordCaa#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#extattrs DataNiosDnsRecordCaa#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * Determines if the reclamation is allowed for the record or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#forbid_reclamation DataNiosDnsRecordCaa#forbid_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#forbid_reclamation DataNiosDnsRecordCaa#forbid_reclamation}
   */
   readonly forbidReclamation?: boolean | cdktf.IResolvable;
   /**
   * The CAA record name in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#name DataNiosDnsRecordCaa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#name DataNiosDnsRecordCaa#name}
   */
   readonly name: string;
   /**
   * The Time to Live (TTL) value for the record. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#ttl DataNiosDnsRecordCaa#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#ttl DataNiosDnsRecordCaa#ttl}
   */
   readonly ttl?: number;
   /**
   * Use flag for: ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#use_ttl DataNiosDnsRecordCaa#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#use_ttl DataNiosDnsRecordCaa#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#view DataNiosDnsRecordCaa#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#view DataNiosDnsRecordCaa#view}
   */
   readonly view?: string;
 }
@@ -781,7 +781,7 @@ export class DataNiosDnsRecordCaaResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa nios_dns_record_caa}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa nios_dns_record_caa}
 */
 export class DataNiosDnsRecordCaa extends cdktf.TerraformDataSource {
 
@@ -797,7 +797,7 @@ export class DataNiosDnsRecordCaa extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsRecordCaa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsRecordCaa to import
-  * @param importFromId The id of the existing DataNiosDnsRecordCaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsRecordCaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsRecordCaa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -809,7 +809,7 @@ export class DataNiosDnsRecordCaa extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_caa nios_dns_record_caa} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_caa nios_dns_record_caa} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,8 +820,8 @@ export class DataNiosDnsRecordCaa extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_record_caa',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

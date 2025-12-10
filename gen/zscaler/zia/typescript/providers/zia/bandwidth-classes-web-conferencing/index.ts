@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface BandwidthClassesWebConferencingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing#applications BandwidthClassesWebConferencing#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing#applications BandwidthClassesWebConferencing#applications}
   */
   readonly applications?: string[];
   /**
   * The bandwidth class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing#name BandwidthClassesWebConferencing#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing#name BandwidthClassesWebConferencing#name}
   */
   readonly name?: string;
   /**
   * The bandwidth class type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing#type BandwidthClassesWebConferencing#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing#type BandwidthClassesWebConferencing#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing zia_bandwidth_classes_web_conferencing}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing zia_bandwidth_classes_web_conferencing}
 */
 export class BandwidthClassesWebConferencing extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class BandwidthClassesWebConferencing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BandwidthClassesWebConferencing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BandwidthClassesWebConferencing to import
-  * @param importFromId The id of the existing BandwidthClassesWebConferencing that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BandwidthClassesWebConferencing that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BandwidthClassesWebConferencing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class BandwidthClassesWebConferencing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_web_conferencing zia_bandwidth_classes_web_conferencing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_web_conferencing zia_bandwidth_classes_web_conferencing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class BandwidthClassesWebConferencing extends cdktf.TerraformResource {
       terraformResourceType: 'zia_bandwidth_classes_web_conferencing',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

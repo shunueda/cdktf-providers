@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface DnsRecordNaptrConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#comment DnsRecordNaptr#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#comment DnsRecordNaptr#comment}
   */
   readonly comment?: string;
   /**
   * The record creator. Note that changing creator from or to 'SYSTEM' value is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#creator DnsRecordNaptr#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#creator DnsRecordNaptr#creator}
   */
   readonly creator?: string;
   /**
   * The GSS-TSIG principal that owns this record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#ddns_principal DnsRecordNaptr#ddns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#ddns_principal DnsRecordNaptr#ddns_principal}
   */
   readonly ddnsPrincipal?: string;
   /**
   * Determines if the DDNS updates for this record are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#ddns_protected DnsRecordNaptr#ddns_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#ddns_protected DnsRecordNaptr#ddns_protected}
   */
   readonly ddnsProtected?: boolean | cdktf.IResolvable;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#disable DnsRecordNaptr#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#disable DnsRecordNaptr#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#extattrs DnsRecordNaptr#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#extattrs DnsRecordNaptr#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The flags used to control the interpretation of the fields for an NAPTR record object. Supported values for the flags field are "U", "S", "P" and "A".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#flags DnsRecordNaptr#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#flags DnsRecordNaptr#flags}
   */
   readonly flags?: string;
   /**
   * Determines if the reclamation is allowed for the record or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#forbid_reclamation DnsRecordNaptr#forbid_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#forbid_reclamation DnsRecordNaptr#forbid_reclamation}
   */
   readonly forbidReclamation?: boolean | cdktf.IResolvable;
   /**
   * The name of the NAPTR record in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#name DnsRecordNaptr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#name DnsRecordNaptr#name}
   */
   readonly name: string;
   /**
   * The order parameter of the NAPTR records. This parameter specifies the order in which the NAPTR rules are applied when multiple rules are present. Valid values are from 0 to 65535 (inclusive), in 32-bit unsigned integer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#order DnsRecordNaptr#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#order DnsRecordNaptr#order}
   */
   readonly order: number;
   /**
   * The preference of the NAPTR record. The preference field determines the order NAPTR records are processed when multiple records with the same order parameter are present. Valid values are from 0 to 65535 (inclusive), in 32-bit unsigned integer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#preference DnsRecordNaptr#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#preference DnsRecordNaptr#preference}
   */
   readonly preference: number;
   /**
   * The regular expression-based rewriting rule of the NAPTR record. This should be a POSIX compliant regular expression, including the substitution rule and flags. Refer to RFC 2915 for the field syntax details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#regexp DnsRecordNaptr#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#regexp DnsRecordNaptr#regexp}
   */
   readonly regexp?: string;
   /**
   * The replacement field of the NAPTR record object. For nonterminal NAPTR records, this field specifies the next domain name to look up. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#replacement DnsRecordNaptr#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#replacement DnsRecordNaptr#replacement}
   */
   readonly replacement: string;
   /**
   * The services field of the NAPTR record object; maximum 128 characters. The services field contains protocol and service identifiers, such as "http+E2U" or "SIPS+D2T".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#services DnsRecordNaptr#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#services DnsRecordNaptr#services}
   */
   readonly services?: string;
   /**
   * The Time to Live (TTL) value for the NAPTR record. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#ttl DnsRecordNaptr#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#ttl DnsRecordNaptr#ttl}
   */
   readonly ttl?: number;
   /**
   * Use flag for: ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#use_ttl DnsRecordNaptr#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#use_ttl DnsRecordNaptr#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#view DnsRecordNaptr#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#view DnsRecordNaptr#view}
   */
   readonly view?: string;
 }
@@ -266,7 +266,7 @@ export class DnsRecordNaptrCloudInfoOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr nios_dns_record_naptr}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr nios_dns_record_naptr}
 */
 export class DnsRecordNaptr extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class DnsRecordNaptr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordNaptr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordNaptr to import
-  * @param importFromId The id of the existing DnsRecordNaptr that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordNaptr that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordNaptr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DnsRecordNaptr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_naptr nios_dns_record_naptr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_naptr nios_dns_record_naptr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DnsRecordNaptr extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_record_naptr',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

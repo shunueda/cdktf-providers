@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeCryptoIkev2ProposalConfig extends cdktf.TerraformMetaA
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal#device DataIosxeCryptoIkev2Proposal#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal#device DataIosxeCryptoIkev2Proposal#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal#name DataIosxeCryptoIkev2Proposal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal#name DataIosxeCryptoIkev2Proposal#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal iosxe_crypto_ikev2_proposal}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal iosxe_crypto_ikev2_proposal}
 */
 export class DataIosxeCryptoIkev2Proposal extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataIosxeCryptoIkev2Proposal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeCryptoIkev2Proposal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeCryptoIkev2Proposal to import
-  * @param importFromId The id of the existing DataIosxeCryptoIkev2Proposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeCryptoIkev2Proposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeCryptoIkev2Proposal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataIosxeCryptoIkev2Proposal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/crypto_ikev2_proposal iosxe_crypto_ikev2_proposal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/crypto_ikev2_proposal iosxe_crypto_ikev2_proposal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataIosxeCryptoIkev2Proposal extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_crypto_ikev2_proposal',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

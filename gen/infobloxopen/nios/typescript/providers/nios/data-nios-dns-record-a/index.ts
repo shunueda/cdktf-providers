@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsRecordAConfig extends cdktf.TerraformMetaArguments {
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#extattrfilters DataNiosDnsRecordA#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#extattrfilters DataNiosDnsRecordA#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#filters DataNiosDnsRecordA#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#filters DataNiosDnsRecordA#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#max_results DataNiosDnsRecordA#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#max_results DataNiosDnsRecordA#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#paging DataNiosDnsRecordA#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#paging DataNiosDnsRecordA#paging}
   */
   readonly paging?: number;
 }
@@ -828,37 +828,37 @@ export interface DataNiosDnsRecordAResultFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#attribute_name DataNiosDnsRecordA#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#attribute_name DataNiosDnsRecordA#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#object DataNiosDnsRecordA#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#object DataNiosDnsRecordA#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#object_function DataNiosDnsRecordA#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#object_function DataNiosDnsRecordA#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#object_parameters DataNiosDnsRecordA#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#object_parameters DataNiosDnsRecordA#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#parameters DataNiosDnsRecordA#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#parameters DataNiosDnsRecordA#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#result_field DataNiosDnsRecordA#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#result_field DataNiosDnsRecordA#result_field}
   */
   readonly resultField?: string;
 }
@@ -1150,79 +1150,79 @@ export interface DataNiosDnsRecordAResult {
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#comment DataNiosDnsRecordA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#comment DataNiosDnsRecordA#comment}
   */
   readonly comment?: string;
   /**
   * The record creator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#creator DataNiosDnsRecordA#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#creator DataNiosDnsRecordA#creator}
   */
   readonly creator?: string;
   /**
   * The GSS-TSIG principal that owns this record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#ddns_principal DataNiosDnsRecordA#ddns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#ddns_principal DataNiosDnsRecordA#ddns_principal}
   */
   readonly ddnsPrincipal?: string;
   /**
   * Determines if the DDNS updates for this record are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#ddns_protected DataNiosDnsRecordA#ddns_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#ddns_protected DataNiosDnsRecordA#ddns_protected}
   */
   readonly ddnsProtected?: boolean | cdktf.IResolvable;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#disable DataNiosDnsRecordA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#disable DataNiosDnsRecordA#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#extattrs DataNiosDnsRecordA#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#extattrs DataNiosDnsRecordA#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * Determines if the reclamation is allowed for the record or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#forbid_reclamation DataNiosDnsRecordA#forbid_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#forbid_reclamation DataNiosDnsRecordA#forbid_reclamation}
   */
   readonly forbidReclamation?: boolean | cdktf.IResolvable;
   /**
   * Specifies the function call to execute. The `next_available_ip` function is supported for Record A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#func_call DataNiosDnsRecordA#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#func_call DataNiosDnsRecordA#func_call}
   */
   readonly funcCall?: DataNiosDnsRecordAResultFuncCall;
   /**
   * The IPv4 address for the record. This field is `required` unless a `func_call` is specified to invoke `next_available_ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#ipv4addr DataNiosDnsRecordA#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#ipv4addr DataNiosDnsRecordA#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The Name of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#name DataNiosDnsRecordA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#name DataNiosDnsRecordA#name}
   */
   readonly name: string;
   /**
   * Time-to-live value of the record, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#ttl DataNiosDnsRecordA#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#ttl DataNiosDnsRecordA#ttl}
   */
   readonly ttl?: number;
   /**
   * Flag to indicate whether the TTL value should be used for the A record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#use_ttl DataNiosDnsRecordA#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#use_ttl DataNiosDnsRecordA#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * View that this record is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#view DataNiosDnsRecordA#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#view DataNiosDnsRecordA#view}
   */
   readonly view?: string;
 }
@@ -1738,7 +1738,7 @@ export class DataNiosDnsRecordAResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a nios_dns_record_a}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a nios_dns_record_a}
 */
 export class DataNiosDnsRecordA extends cdktf.TerraformDataSource {
 
@@ -1754,7 +1754,7 @@ export class DataNiosDnsRecordA extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsRecordA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsRecordA to import
-  * @param importFromId The id of the existing DataNiosDnsRecordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsRecordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsRecordA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1766,7 +1766,7 @@ export class DataNiosDnsRecordA extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_a nios_dns_record_a} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_a nios_dns_record_a} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1777,8 +1777,8 @@ export class DataNiosDnsRecordA extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_record_a',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

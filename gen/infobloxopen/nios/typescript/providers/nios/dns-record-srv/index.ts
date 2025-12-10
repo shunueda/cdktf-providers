@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DnsRecordSrvConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#comment DnsRecordSrv#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#comment DnsRecordSrv#comment}
   */
   readonly comment?: string;
   /**
   * The record creator. Note that changing creator from or to 'SYSTEM' value is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#creator DnsRecordSrv#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#creator DnsRecordSrv#creator}
   */
   readonly creator?: string;
   /**
   * The GSS-TSIG principal that owns this record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#ddns_principal DnsRecordSrv#ddns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#ddns_principal DnsRecordSrv#ddns_principal}
   */
   readonly ddnsPrincipal?: string;
   /**
   * Determines if the DDNS updates for this record are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#ddns_protected DnsRecordSrv#ddns_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#ddns_protected DnsRecordSrv#ddns_protected}
   */
   readonly ddnsProtected?: boolean | cdktf.IResolvable;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#disable DnsRecordSrv#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#disable DnsRecordSrv#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#extattrs DnsRecordSrv#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#extattrs DnsRecordSrv#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * Determines if the reclamation is allowed for the record or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#forbid_reclamation DnsRecordSrv#forbid_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#forbid_reclamation DnsRecordSrv#forbid_reclamation}
   */
   readonly forbidReclamation?: boolean | cdktf.IResolvable;
   /**
   * A name in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#name DnsRecordSrv#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#name DnsRecordSrv#name}
   */
   readonly name: string;
   /**
   * The port of the SRV record. Valid values are from 0 to 65535 (inclusive), in 32-bit unsigned integer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#port DnsRecordSrv#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#port DnsRecordSrv#port}
   */
   readonly port: number;
   /**
   * The priority of the SRV record. Valid values are from 0 to 65535 (inclusive), in 32-bit unsigned integer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#priority DnsRecordSrv#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#priority DnsRecordSrv#priority}
   */
   readonly priority: number;
   /**
   * The target of the SRV record in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#target DnsRecordSrv#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#target DnsRecordSrv#target}
   */
   readonly target: string;
   /**
   * The Time to Live (TTL) value for the record. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#ttl DnsRecordSrv#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#ttl DnsRecordSrv#ttl}
   */
   readonly ttl?: number;
   /**
   * Use flag for: ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#use_ttl DnsRecordSrv#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#use_ttl DnsRecordSrv#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#view DnsRecordSrv#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#view DnsRecordSrv#view}
   */
   readonly view?: string;
   /**
   * The weight of the SRV record. Valid values are from 0 to 65535 (inclusive), in 32-bit unsigned integer format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#weight DnsRecordSrv#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#weight DnsRecordSrv#weight}
   */
   readonly weight: number;
 }
@@ -363,7 +363,7 @@ export class DnsRecordSrvCloudInfoOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv nios_dns_record_srv}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv nios_dns_record_srv}
 */
 export class DnsRecordSrv extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class DnsRecordSrv extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordSrv resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordSrv to import
-  * @param importFromId The id of the existing DnsRecordSrv that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordSrv that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordSrv to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class DnsRecordSrv extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_srv nios_dns_record_srv} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_srv nios_dns_record_srv} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class DnsRecordSrv extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_record_srv',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

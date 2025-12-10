@@ -6,6 +6,7 @@ Object.defineProperty(exports, 'resourceServer', { get: function () { return req
 Object.defineProperty(exports, 'dataVyArtifactVersion', { get: function () { return require('./data-vy-artifact-version'); } });
 Object.defineProperty(exports, 'dataVyCognitoInfo', { get: function () { return require('./data-vy-cognito-info'); } });
 Object.defineProperty(exports, 'dataVyEcsImage', { get: function () { return require('./data-vy-ecs-image'); } });
+Object.defineProperty(exports, 'dataVyFrontendArtifact', { get: function () { return require('./data-vy-frontend-artifact'); } });
 Object.defineProperty(exports, 'dataVyLambdaArtifact', { get: function () { return require('./data-vy-lambda-artifact'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

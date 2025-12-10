@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#extattrfilters DataNiosDnsView#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#extattrfilters DataNiosDnsView#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#filters DataNiosDnsView#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#filters DataNiosDnsView#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#max_results DataNiosDnsView#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#max_results DataNiosDnsView#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#paging DataNiosDnsView#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#paging DataNiosDnsView#paging}
   */
   readonly paging?: number;
 }
@@ -190,13 +190,13 @@ export interface DataNiosDnsViewResultCustomRootNameServers {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#name DataNiosDnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#name DataNiosDnsView#name}
   */
   readonly name: string;
 }
@@ -367,31 +367,31 @@ export interface DataNiosDnsViewResultDnssecTrustedKeys {
   /**
   * The DNSSEC algorithm used to generate the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#algorithm DataNiosDnsView#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#algorithm DataNiosDnsView#algorithm}
   */
   readonly algorithm: string;
   /**
   * Responses must be DNSSEC secure for this hierarchy/domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_must_be_secure DataNiosDnsView#dnssec_must_be_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_must_be_secure DataNiosDnsView#dnssec_must_be_secure}
   */
   readonly dnssecMustBeSecure?: boolean | cdktf.IResolvable;
   /**
   * The FQDN of the domain for which the member validates responses to recursive queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#fqdn DataNiosDnsView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#fqdn DataNiosDnsView#fqdn}
   */
   readonly fqdn: string;
   /**
   * The DNSSEC key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#key DataNiosDnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#key DataNiosDnsView#key}
   */
   readonly key: string;
   /**
   * The secure entry point flag, if set it means this is a KSK configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#secure_entry_point DataNiosDnsView#secure_entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#secure_entry_point DataNiosDnsView#secure_entry_point}
   */
   readonly secureEntryPoint?: boolean | cdktf.IResolvable;
 }
@@ -616,19 +616,19 @@ export interface DataNiosDnsViewResultFilterAaaaListStruct {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
   */
   readonly ref?: string;
 }
@@ -804,13 +804,13 @@ export interface DataNiosDnsViewResultFixedRrsetOrderFqdns {
   /**
   * The FQDN of the fixed RRset configuration item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#fqdn DataNiosDnsView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#fqdn DataNiosDnsView#fqdn}
   */
   readonly fqdn: string;
   /**
   * The record type for the specified FQDN in the fixed RRset configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#record_type DataNiosDnsView#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#record_type DataNiosDnsView#record_type}
   */
   readonly recordType?: string;
 }
@@ -954,13 +954,13 @@ export interface DataNiosDnsViewResultLastQueriedAcl {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
   */
   readonly permission?: string;
 }
@@ -1104,49 +1104,49 @@ export interface DataNiosDnsViewResultMatchClients {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
   */
   readonly ref?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#struct DataNiosDnsView#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#struct DataNiosDnsView#struct}
   */
   readonly struct?: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key DataNiosDnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key DataNiosDnsView#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key_alg DataNiosDnsView#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key_alg DataNiosDnsView#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key_name DataNiosDnsView#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key_name DataNiosDnsView#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_tsig_key_name DataNiosDnsView#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_tsig_key_name DataNiosDnsView#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -1467,49 +1467,49 @@ export interface DataNiosDnsViewResultMatchDestinations {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#permission DataNiosDnsView#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ref DataNiosDnsView#ref}
   */
   readonly ref?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#struct DataNiosDnsView#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#struct DataNiosDnsView#struct}
   */
   readonly struct?: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key DataNiosDnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key DataNiosDnsView#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key_alg DataNiosDnsView#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key_alg DataNiosDnsView#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#tsig_key_name DataNiosDnsView#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#tsig_key_name DataNiosDnsView#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_tsig_key_name DataNiosDnsView#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_tsig_key_name DataNiosDnsView#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -1830,31 +1830,31 @@ export interface DataNiosDnsViewResultResponseRateLimiting {
   /**
   * Determines if the response rate limiting is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_rrl DataNiosDnsView#enable_rrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_rrl DataNiosDnsView#enable_rrl}
   */
   readonly enableRrl?: boolean | cdktf.IResolvable;
   /**
   * Determines if logging for response rate limiting without dropping any requests is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#log_only DataNiosDnsView#log_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#log_only DataNiosDnsView#log_only}
   */
   readonly logOnly?: boolean | cdktf.IResolvable;
   /**
   * The number of responses per client per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#responses_per_second DataNiosDnsView#responses_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#responses_per_second DataNiosDnsView#responses_per_second}
   */
   readonly responsesPerSecond?: number;
   /**
   * The response rate limiting slip. Note that if slip is not equal to 0 every n-th rate-limited UDP request is sent a truncated response instead of being dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#slip DataNiosDnsView#slip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#slip DataNiosDnsView#slip}
   */
   readonly slip?: number;
   /**
   * The time interval in seconds over which responses are tracked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#window DataNiosDnsView#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#window DataNiosDnsView#window}
   */
   readonly window?: number;
 }
@@ -2066,31 +2066,31 @@ export interface DataNiosDnsViewResultScavengingSettingsEaExpressionListStruct {
   /**
   * The operation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op DataNiosDnsView#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op DataNiosDnsView#op}
   */
   readonly op: string;
   /**
   * The name of the Extensible Attribute Definition object which is used as the first operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op1 DataNiosDnsView#op1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op1 DataNiosDnsView#op1}
   */
   readonly op1?: string;
   /**
   * The first operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op1_type DataNiosDnsView#op1_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op1_type DataNiosDnsView#op1_type}
   */
   readonly op1Type?: string;
   /**
   * The second operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op2 DataNiosDnsView#op2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op2 DataNiosDnsView#op2}
   */
   readonly op2?: string;
   /**
   * The second operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op2_type DataNiosDnsView#op2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op2_type DataNiosDnsView#op2_type}
   */
   readonly op2Type?: string;
 }
@@ -2321,31 +2321,31 @@ export interface DataNiosDnsViewResultScavengingSettingsExpressionListStruct {
   /**
   * The operation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op DataNiosDnsView#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op DataNiosDnsView#op}
   */
   readonly op: string;
   /**
   * The first operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op1 DataNiosDnsView#op1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op1 DataNiosDnsView#op1}
   */
   readonly op1?: string;
   /**
   * The first operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op1_type DataNiosDnsView#op1_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op1_type DataNiosDnsView#op1_type}
   */
   readonly op1Type?: string;
   /**
   * The second operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op2 DataNiosDnsView#op2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op2 DataNiosDnsView#op2}
   */
   readonly op2?: string;
   /**
   * The second operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#op2_type DataNiosDnsView#op2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#op2_type DataNiosDnsView#op2_type}
   */
   readonly op2Type?: string;
 }
@@ -2576,67 +2576,67 @@ export interface DataNiosDnsViewResultScavengingSettingsScavengingSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#day_of_month DataNiosDnsView#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#day_of_month DataNiosDnsView#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#disable DataNiosDnsView#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#disable DataNiosDnsView#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#every DataNiosDnsView#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#every DataNiosDnsView#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#frequency DataNiosDnsView#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#frequency DataNiosDnsView#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#hour_of_day DataNiosDnsView#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#hour_of_day DataNiosDnsView#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#minutes_past_hour DataNiosDnsView#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#minutes_past_hour DataNiosDnsView#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#month DataNiosDnsView#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#month DataNiosDnsView#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#recurring_time DataNiosDnsView#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#recurring_time DataNiosDnsView#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#repeat DataNiosDnsView#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#repeat DataNiosDnsView#repeat}
   */
   readonly repeat?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#weekdays DataNiosDnsView#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#weekdays DataNiosDnsView#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#year DataNiosDnsView#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#year DataNiosDnsView#year}
   */
   readonly year?: number;
 }
@@ -3027,55 +3027,55 @@ export interface DataNiosDnsViewResultScavengingSettings {
   /**
   * The extensible attributes expression list. The particular record is treated as reclaimable if extensible attributes expression condition evaluates to 'true' for given record if scavenging hasn't been manually disabled on a given resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ea_expression_list DataNiosDnsView#ea_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ea_expression_list DataNiosDnsView#ea_expression_list}
   */
   readonly eaExpressionList?: DataNiosDnsViewResultScavengingSettingsEaExpressionListStruct[] | cdktf.IResolvable;
   /**
   * This flag indicates if the automatic resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_auto_reclamation DataNiosDnsView#enable_auto_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_auto_reclamation DataNiosDnsView#enable_auto_reclamation}
   */
   readonly enableAutoReclamation?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the recurrent resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_recurrent_scavenging DataNiosDnsView#enable_recurrent_scavenging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_recurrent_scavenging DataNiosDnsView#enable_recurrent_scavenging}
   */
   readonly enableRecurrentScavenging?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the resource record last queried monitoring in affected zones is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_rr_last_queried DataNiosDnsView#enable_rr_last_queried}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_rr_last_queried DataNiosDnsView#enable_rr_last_queried}
   */
   readonly enableRrLastQueried?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_scavenging DataNiosDnsView#enable_scavenging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_scavenging DataNiosDnsView#enable_scavenging}
   */
   readonly enableScavenging?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the last queried monitoring for affected zones is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_zone_last_queried DataNiosDnsView#enable_zone_last_queried}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_zone_last_queried DataNiosDnsView#enable_zone_last_queried}
   */
   readonly enableZoneLastQueried?: boolean | cdktf.IResolvable;
   /**
   * The expression list. The particular record is treated as reclaimable if expression condition evaluates to 'true' for given record if scavenging hasn't been manually disabled on a given resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#expression_list DataNiosDnsView#expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#expression_list DataNiosDnsView#expression_list}
   */
   readonly expressionList?: DataNiosDnsViewResultScavengingSettingsExpressionListStruct[] | cdktf.IResolvable;
   /**
   * This flag indicates if the associated resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#reclaim_associated_records DataNiosDnsView#reclaim_associated_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#reclaim_associated_records DataNiosDnsView#reclaim_associated_records}
   */
   readonly reclaimAssociatedRecords?: boolean | cdktf.IResolvable;
   /**
   * The scavenging schedule. The scavenging schedule is used to determine when the scavenging should be performed. If not specified, the default scavenging schedule is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#scavenging_schedule DataNiosDnsView#scavenging_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#scavenging_schedule DataNiosDnsView#scavenging_schedule}
   */
   readonly scavengingSchedule?: DataNiosDnsViewResultScavengingSettingsScavengingSchedule;
 }
@@ -3403,13 +3403,13 @@ export interface DataNiosDnsViewResultSortlistStruct {
   /**
   * The source address of a sortlist object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#address DataNiosDnsView#address}
   */
   readonly address: string;
   /**
   * The match list of a sortlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#match_list DataNiosDnsView#match_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#match_list DataNiosDnsView#match_list}
   */
   readonly matchList?: string[];
 }
@@ -3553,481 +3553,481 @@ export interface DataNiosDnsViewResult {
   /**
   * The action to perform when a domain name matches the pattern defined in a rule that is specified by the blacklist_ruleset method. Valid values are "REDIRECT" or "REFUSE". The default value is "REFUSE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#blacklist_action DataNiosDnsView#blacklist_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#blacklist_action DataNiosDnsView#blacklist_action}
   */
   readonly blacklistAction?: string;
   /**
   * The flag that indicates whether blacklist redirection queries are logged. Specify "true" to enable logging, or "false" to disable it. The default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#blacklist_log_query DataNiosDnsView#blacklist_log_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#blacklist_log_query DataNiosDnsView#blacklist_log_query}
   */
   readonly blacklistLogQuery?: boolean | cdktf.IResolvable;
   /**
   * The array of IP addresses the appliance includes in the response it sends in place of a blacklisted IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#blacklist_redirect_addresses DataNiosDnsView#blacklist_redirect_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#blacklist_redirect_addresses DataNiosDnsView#blacklist_redirect_addresses}
   */
   readonly blacklistRedirectAddresses?: string[];
   /**
   * The Time To Live (TTL) value of the synthetic DNS responses resulted from blacklist redirection. The TTL value is a 32-bit unsigned integer that represents the TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#blacklist_redirect_ttl DataNiosDnsView#blacklist_redirect_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#blacklist_redirect_ttl DataNiosDnsView#blacklist_redirect_ttl}
   */
   readonly blacklistRedirectTtl?: number;
   /**
   * The name of the Ruleset object assigned at the Grid level for blacklist redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#blacklist_rulesets DataNiosDnsView#blacklist_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#blacklist_rulesets DataNiosDnsView#blacklist_rulesets}
   */
   readonly blacklistRulesets?: string[];
   /**
   * Comment for the DNS view; maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#comment DataNiosDnsView#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#comment DataNiosDnsView#comment}
   */
   readonly comment?: string;
   /**
   * The list of customized root name servers. You can either select and use Internet root name servers or specify custom root name servers by providing a host name and IP address to which the Infoblox appliance can send queries. Include the specified parameter to set the attribute value. Omit the parameter to retrieve the attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#custom_root_name_servers DataNiosDnsView#custom_root_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#custom_root_name_servers DataNiosDnsView#custom_root_name_servers}
   */
   readonly customRootNameServers?: DataNiosDnsViewResultCustomRootNameServers[] | cdktf.IResolvable;
   /**
   * Defines whether creation timestamp of RR should be updated ' when DDNS update happens even if there is no change to ' the RR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_force_creation_timestamp_update DataNiosDnsView#ddns_force_creation_timestamp_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_force_creation_timestamp_update DataNiosDnsView#ddns_force_creation_timestamp_update}
   */
   readonly ddnsForceCreationTimestampUpdate?: boolean | cdktf.IResolvable;
   /**
   * The DDNS Principal cluster group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_principal_group DataNiosDnsView#ddns_principal_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_principal_group DataNiosDnsView#ddns_principal_group}
   */
   readonly ddnsPrincipalGroup?: string;
   /**
   * The flag that indicates whether the DDNS principal track is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_principal_tracking DataNiosDnsView#ddns_principal_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_principal_tracking DataNiosDnsView#ddns_principal_tracking}
   */
   readonly ddnsPrincipalTracking?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether an option to restrict DDNS update request based on FQDN patterns is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_restrict_patterns DataNiosDnsView#ddns_restrict_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_restrict_patterns DataNiosDnsView#ddns_restrict_patterns}
   */
   readonly ddnsRestrictPatterns?: boolean | cdktf.IResolvable;
   /**
   * The unordered list of restriction patterns for an option of to restrict DDNS updates based on FQDN patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_restrict_patterns_list DataNiosDnsView#ddns_restrict_patterns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_restrict_patterns_list DataNiosDnsView#ddns_restrict_patterns_list}
   */
   readonly ddnsRestrictPatternsList?: string[];
   /**
   * The flag that indicates whether an option to restrict DDNS update request to protected resource records is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_restrict_protected DataNiosDnsView#ddns_restrict_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_restrict_protected DataNiosDnsView#ddns_restrict_protected}
   */
   readonly ddnsRestrictProtected?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether DDNS update request for principal other than target resource record's principal is restricted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_restrict_secure DataNiosDnsView#ddns_restrict_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_restrict_secure DataNiosDnsView#ddns_restrict_secure}
   */
   readonly ddnsRestrictSecure?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether an option to restrict DDNS update request to resource records which are marked as 'STATIC' is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#ddns_restrict_static DataNiosDnsView#ddns_restrict_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#ddns_restrict_static DataNiosDnsView#ddns_restrict_static}
   */
   readonly ddnsRestrictStatic?: boolean | cdktf.IResolvable;
   /**
   * Determines if the DNS view is disabled or not. When this is set to False, the DNS view is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#disable DataNiosDnsView#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#disable DataNiosDnsView#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines if the DNS64 s enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dns64_enabled DataNiosDnsView#dns64_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dns64_enabled DataNiosDnsView#dns64_enabled}
   */
   readonly dns64Enabled?: boolean | cdktf.IResolvable;
   /**
   * The list of DNS64 synthesis groups associated with this DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dns64_groups DataNiosDnsView#dns64_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dns64_groups DataNiosDnsView#dns64_groups}
   */
   readonly dns64Groups?: string[];
   /**
   * Determines if the DNS security extension is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_enabled DataNiosDnsView#dnssec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_enabled DataNiosDnsView#dnssec_enabled}
   */
   readonly dnssecEnabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if the DNS security extension accepts expired signatures or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_expired_signatures_enabled DataNiosDnsView#dnssec_expired_signatures_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_expired_signatures_enabled DataNiosDnsView#dnssec_expired_signatures_enabled}
   */
   readonly dnssecExpiredSignaturesEnabled?: boolean | cdktf.IResolvable;
   /**
   * A list of zones for which the server does not perform DNSSEC validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_negative_trust_anchors DataNiosDnsView#dnssec_negative_trust_anchors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_negative_trust_anchors DataNiosDnsView#dnssec_negative_trust_anchors}
   */
   readonly dnssecNegativeTrustAnchors?: string[];
   /**
   * The list of trusted keys for the DNS security extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_trusted_keys DataNiosDnsView#dnssec_trusted_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_trusted_keys DataNiosDnsView#dnssec_trusted_keys}
   */
   readonly dnssecTrustedKeys?: DataNiosDnsViewResultDnssecTrustedKeys[] | cdktf.IResolvable;
   /**
   * Determines if the DNS security validation is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#dnssec_validation_enabled DataNiosDnsView#dnssec_validation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#dnssec_validation_enabled DataNiosDnsView#dnssec_validation_enabled}
   */
   readonly dnssecValidationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Advertises the EDNS0 buffer size to the upstream server. The value should be between 512 and 4096 bytes. The recommended value is between 512 and 1220 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#edns_udp_size DataNiosDnsView#edns_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#edns_udp_size DataNiosDnsView#edns_udp_size}
   */
   readonly ednsUdpSize?: number;
   /**
   * Determines if the blacklist in a DNS view is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_blacklist DataNiosDnsView#enable_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_blacklist DataNiosDnsView#enable_blacklist}
   */
   readonly enableBlacklist?: boolean | cdktf.IResolvable;
   /**
   * Determines if the fixed RRset order FQDN is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_fixed_rrset_order_fqdns DataNiosDnsView#enable_fixed_rrset_order_fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_fixed_rrset_order_fqdns DataNiosDnsView#enable_fixed_rrset_order_fqdns}
   */
   readonly enableFixedRrsetOrderFqdns?: boolean | cdktf.IResolvable;
   /**
   * Determines if the 'match-recursive-only' option in a DNS view is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#enable_match_recursive_only DataNiosDnsView#enable_match_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#enable_match_recursive_only DataNiosDnsView#enable_match_recursive_only}
   */
   readonly enableMatchRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#extattrs DataNiosDnsView#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#extattrs DataNiosDnsView#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The type of AAAA filtering for this DNS view object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#filter_aaaa DataNiosDnsView#filter_aaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#filter_aaaa DataNiosDnsView#filter_aaaa}
   */
   readonly filterAaaa?: string;
   /**
   * Applies AAAA filtering to a named ACL, or to a list of IPv4/IPv6 addresses and networks from which queries are received. This field does not allow TSIG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#filter_aaaa_list DataNiosDnsView#filter_aaaa_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#filter_aaaa_list DataNiosDnsView#filter_aaaa_list}
   */
   readonly filterAaaaList?: DataNiosDnsViewResultFilterAaaaListStruct[] | cdktf.IResolvable;
   /**
   * The fixed RRset order FQDN. If this field does not contain an empty value, the appliance will automatically set the enable_fixed_rrset_order_fqdns field to 'true', unless the same request sets the enable field to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#fixed_rrset_order_fqdns DataNiosDnsView#fixed_rrset_order_fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#fixed_rrset_order_fqdns DataNiosDnsView#fixed_rrset_order_fqdns}
   */
   readonly fixedRrsetOrderFqdns?: DataNiosDnsViewResultFixedRrsetOrderFqdns[] | cdktf.IResolvable;
   /**
   * Determines if this DNS view sends queries to forwarders only or not. When the value is True, queries are sent to forwarders only, and not to other internal or Internet root servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#forward_only DataNiosDnsView#forward_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#forward_only DataNiosDnsView#forward_only}
   */
   readonly forwardOnly?: boolean | cdktf.IResolvable;
   /**
   * The list of forwarders for the DNS view. A forwarder is a name server to which other name servers first send their off-site queries. The forwarder builds up a cache of information, avoiding the need for other name servers to send queries off-site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#forwarders DataNiosDnsView#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#forwarders DataNiosDnsView#forwarders}
   */
   readonly forwarders?: string[];
   /**
   * Determines last queried ACL for the specified IPv4 or IPv6 addresses and networks in scavenging settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#last_queried_acl DataNiosDnsView#last_queried_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#last_queried_acl DataNiosDnsView#last_queried_acl}
   */
   readonly lastQueriedAcl?: DataNiosDnsViewResultLastQueriedAcl[] | cdktf.IResolvable;
   /**
   * A list of forwarders for the match clients. This list specifies a named ACL, or a list of IPv4/IPv6 addresses, networks, TSIG keys of clients that are allowed or denied access to the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#match_clients DataNiosDnsView#match_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#match_clients DataNiosDnsView#match_clients}
   */
   readonly matchClients?: DataNiosDnsViewResultMatchClients[] | cdktf.IResolvable;
   /**
   * A list of forwarders for the match destinations. This list specifies a name ACL, or a list of IPv4/IPv6 addresses, networks, TSIG keys of clients that are allowed or denied access to the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#match_destinations DataNiosDnsView#match_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#match_destinations DataNiosDnsView#match_destinations}
   */
   readonly matchDestinations?: DataNiosDnsViewResultMatchDestinations[] | cdktf.IResolvable;
   /**
   * The maximum number of seconds to cache ordinary (positive) answers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#max_cache_ttl DataNiosDnsView#max_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#max_cache_ttl DataNiosDnsView#max_cache_ttl}
   */
   readonly maxCacheTtl?: number;
   /**
   * The maximum number of seconds to cache negative (NXDOMAIN) answers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#max_ncache_ttl DataNiosDnsView#max_ncache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#max_ncache_ttl DataNiosDnsView#max_ncache_ttl}
   */
   readonly maxNcacheTtl?: number;
   /**
   * The value is used by authoritative DNS servers to never send DNS responses larger than the configured value. The value should be between 512 and 4096 bytes. The recommended value is between 512 and 1220 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#max_udp_size DataNiosDnsView#max_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#max_udp_size DataNiosDnsView#max_udp_size}
   */
   readonly maxUdpSize?: number;
   /**
   * Name of the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#name DataNiosDnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#name DataNiosDnsView#name}
   */
   readonly name: string;
   /**
   * The name of the network view object associated with this DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#network_view DataNiosDnsView#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#network_view DataNiosDnsView#network_view}
   */
   readonly networkView?: string;
   /**
   * The number of seconds of delay the notify messages are sent to secondaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#notify_delay DataNiosDnsView#notify_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#notify_delay DataNiosDnsView#notify_delay}
   */
   readonly notifyDelay?: number;
   /**
   * The flag that indicates whether NXDOMAIN redirection queries are logged. Specify "true" to enable logging, or "false" to disable it. The default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_log_query DataNiosDnsView#nxdomain_log_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_log_query DataNiosDnsView#nxdomain_log_query}
   */
   readonly nxdomainLogQuery?: boolean | cdktf.IResolvable;
   /**
   * Determines if NXDOMAIN redirection in a DNS view is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_redirect DataNiosDnsView#nxdomain_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_redirect DataNiosDnsView#nxdomain_redirect}
   */
   readonly nxdomainRedirect?: boolean | cdktf.IResolvable;
   /**
   * The array with IPv4 addresses the appliance includes in the response it sends in place of an NXDOMAIN response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_redirect_addresses DataNiosDnsView#nxdomain_redirect_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_redirect_addresses DataNiosDnsView#nxdomain_redirect_addresses}
   */
   readonly nxdomainRedirectAddresses?: string[];
   /**
   * The array with IPv6 addresses the appliance includes in the response it sends in place of an NXDOMAIN response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_redirect_addresses_v6 DataNiosDnsView#nxdomain_redirect_addresses_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_redirect_addresses_v6 DataNiosDnsView#nxdomain_redirect_addresses_v6}
   */
   readonly nxdomainRedirectAddressesV6?: string[];
   /**
   * The Time To Live (TTL) value of the synthetic DNS responses resulted from NXDOMAIN redirection. The TTL value is a 32-bit unsigned integer that represents the TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_redirect_ttl DataNiosDnsView#nxdomain_redirect_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_redirect_ttl DataNiosDnsView#nxdomain_redirect_ttl}
   */
   readonly nxdomainRedirectTtl?: number;
   /**
   * The names of the Ruleset objects assigned at the grid level for NXDOMAIN redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#nxdomain_rulesets DataNiosDnsView#nxdomain_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#nxdomain_rulesets DataNiosDnsView#nxdomain_rulesets}
   */
   readonly nxdomainRulesets?: string[];
   /**
   * Determines if recursion is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#recursion DataNiosDnsView#recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#recursion DataNiosDnsView#recursion}
   */
   readonly recursion?: boolean | cdktf.IResolvable;
   /**
   * The response rate limiting settings for the DNS view. This feature is used to limit the number of responses sent to a client in a given time period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#response_rate_limiting DataNiosDnsView#response_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#response_rate_limiting DataNiosDnsView#response_rate_limiting}
   */
   readonly responseRateLimiting?: DataNiosDnsViewResultResponseRateLimiting;
   /**
   * Determines the type of root name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#root_name_server_type DataNiosDnsView#root_name_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#root_name_server_type DataNiosDnsView#root_name_server_type}
   */
   readonly rootNameServerType?: string;
   /**
   * Enables the appliance to ignore RPZ-IP triggers with prefix lengths less than the specified minimum prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#rpz_drop_ip_rule_enabled DataNiosDnsView#rpz_drop_ip_rule_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#rpz_drop_ip_rule_enabled DataNiosDnsView#rpz_drop_ip_rule_enabled}
   */
   readonly rpzDropIpRuleEnabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum prefix length for IPv4 RPZ-IP triggers. The appliance ignores RPZ-IP triggers with prefix lengths less than the specified minimum IPv4 prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#rpz_drop_ip_rule_min_prefix_length_ipv4 DataNiosDnsView#rpz_drop_ip_rule_min_prefix_length_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#rpz_drop_ip_rule_min_prefix_length_ipv4 DataNiosDnsView#rpz_drop_ip_rule_min_prefix_length_ipv4}
   */
   readonly rpzDropIpRuleMinPrefixLengthIpv4?: number;
   /**
   * The minimum prefix length for IPv6 RPZ-IP triggers. The appliance ignores RPZ-IP triggers with prefix lengths less than the specified minimum IPv6 prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#rpz_drop_ip_rule_min_prefix_length_ipv6 DataNiosDnsView#rpz_drop_ip_rule_min_prefix_length_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#rpz_drop_ip_rule_min_prefix_length_ipv6 DataNiosDnsView#rpz_drop_ip_rule_min_prefix_length_ipv6}
   */
   readonly rpzDropIpRuleMinPrefixLengthIpv6?: number;
   /**
   * The flag that indicates whether recursive RPZ lookups are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#rpz_qname_wait_recurse DataNiosDnsView#rpz_qname_wait_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#rpz_qname_wait_recurse DataNiosDnsView#rpz_qname_wait_recurse}
   */
   readonly rpzQnameWaitRecurse?: boolean | cdktf.IResolvable;
   /**
   * Scavenging settings for the DNS view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#scavenging_settings DataNiosDnsView#scavenging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#scavenging_settings DataNiosDnsView#scavenging_settings}
   */
   readonly scavengingSettings?: DataNiosDnsViewResultScavengingSettings;
   /**
   * A sort list that determines the order of IP addresses in responses sent to DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#sortlist DataNiosDnsView#sortlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#sortlist DataNiosDnsView#sortlist}
   */
   readonly sortlist?: DataNiosDnsViewResultSortlistStruct[] | cdktf.IResolvable;
   /**
   * Use flag for: blacklist_action , blacklist_log_query, blacklist_redirect_addresses, blacklist_redirect_ttl, blacklist_rulesets, enable_blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_blacklist DataNiosDnsView#use_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_blacklist DataNiosDnsView#use_blacklist}
   */
   readonly useBlacklist?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_force_creation_timestamp_update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_ddns_force_creation_timestamp_update DataNiosDnsView#use_ddns_force_creation_timestamp_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_ddns_force_creation_timestamp_update DataNiosDnsView#use_ddns_force_creation_timestamp_update}
   */
   readonly useDdnsForceCreationTimestampUpdate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_patterns_list , ddns_restrict_patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_ddns_patterns_restriction DataNiosDnsView#use_ddns_patterns_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_ddns_patterns_restriction DataNiosDnsView#use_ddns_patterns_restriction}
   */
   readonly useDdnsPatternsRestriction?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_secure , ddns_principal_tracking, ddns_principal_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_ddns_principal_security DataNiosDnsView#use_ddns_principal_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_ddns_principal_security DataNiosDnsView#use_ddns_principal_security}
   */
   readonly useDdnsPrincipalSecurity?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_protected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_ddns_restrict_protected DataNiosDnsView#use_ddns_restrict_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_ddns_restrict_protected DataNiosDnsView#use_ddns_restrict_protected}
   */
   readonly useDdnsRestrictProtected?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_ddns_restrict_static DataNiosDnsView#use_ddns_restrict_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_ddns_restrict_static DataNiosDnsView#use_ddns_restrict_static}
   */
   readonly useDdnsRestrictStatic?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: dns64_enabled , dns64_groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_dns64 DataNiosDnsView#use_dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_dns64 DataNiosDnsView#use_dns64}
   */
   readonly useDns64?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: dnssec_enabled , dnssec_expired_signatures_enabled, dnssec_validation_enabled, dnssec_trusted_keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_dnssec DataNiosDnsView#use_dnssec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_dnssec DataNiosDnsView#use_dnssec}
   */
   readonly useDnssec?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: edns_udp_size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_edns_udp_size DataNiosDnsView#use_edns_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_edns_udp_size DataNiosDnsView#use_edns_udp_size}
   */
   readonly useEdnsUdpSize?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: filter_aaaa , filter_aaaa_list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_filter_aaaa DataNiosDnsView#use_filter_aaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_filter_aaaa DataNiosDnsView#use_filter_aaaa}
   */
   readonly useFilterAaaa?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: fixed_rrset_order_fqdns , enable_fixed_rrset_order_fqdns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_fixed_rrset_order_fqdns DataNiosDnsView#use_fixed_rrset_order_fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_fixed_rrset_order_fqdns DataNiosDnsView#use_fixed_rrset_order_fqdns}
   */
   readonly useFixedRrsetOrderFqdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: forwarders , forward_only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_forwarders DataNiosDnsView#use_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_forwarders DataNiosDnsView#use_forwarders}
   */
   readonly useForwarders?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: max_cache_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_max_cache_ttl DataNiosDnsView#use_max_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_max_cache_ttl DataNiosDnsView#use_max_cache_ttl}
   */
   readonly useMaxCacheTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: max_ncache_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_max_ncache_ttl DataNiosDnsView#use_max_ncache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_max_ncache_ttl DataNiosDnsView#use_max_ncache_ttl}
   */
   readonly useMaxNcacheTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: max_udp_size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_max_udp_size DataNiosDnsView#use_max_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_max_udp_size DataNiosDnsView#use_max_udp_size}
   */
   readonly useMaxUdpSize?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nxdomain_redirect , nxdomain_redirect_addresses, nxdomain_redirect_addresses_v6, nxdomain_redirect_ttl, nxdomain_log_query, nxdomain_rulesets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_nxdomain_redirect DataNiosDnsView#use_nxdomain_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_nxdomain_redirect DataNiosDnsView#use_nxdomain_redirect}
   */
   readonly useNxdomainRedirect?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: recursion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_recursion DataNiosDnsView#use_recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_recursion DataNiosDnsView#use_recursion}
   */
   readonly useRecursion?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: response_rate_limiting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_response_rate_limiting DataNiosDnsView#use_response_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_response_rate_limiting DataNiosDnsView#use_response_rate_limiting}
   */
   readonly useResponseRateLimiting?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: custom_root_name_servers , root_name_server_type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_root_name_server DataNiosDnsView#use_root_name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_root_name_server DataNiosDnsView#use_root_name_server}
   */
   readonly useRootNameServer?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: rpz_drop_ip_rule_enabled , rpz_drop_ip_rule_min_prefix_length_ipv4, rpz_drop_ip_rule_min_prefix_length_ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_rpz_drop_ip_rule DataNiosDnsView#use_rpz_drop_ip_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_rpz_drop_ip_rule DataNiosDnsView#use_rpz_drop_ip_rule}
   */
   readonly useRpzDropIpRule?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: rpz_qname_wait_recurse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_rpz_qname_wait_recurse DataNiosDnsView#use_rpz_qname_wait_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_rpz_qname_wait_recurse DataNiosDnsView#use_rpz_qname_wait_recurse}
   */
   readonly useRpzQnameWaitRecurse?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: scavenging_settings , last_queried_acl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_scavenging_settings DataNiosDnsView#use_scavenging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_scavenging_settings DataNiosDnsView#use_scavenging_settings}
   */
   readonly useScavengingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: sortlist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#use_sortlist DataNiosDnsView#use_sortlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#use_sortlist DataNiosDnsView#use_sortlist}
   */
   readonly useSortlist?: boolean | cdktf.IResolvable;
 }
@@ -6443,7 +6443,7 @@ export class DataNiosDnsViewResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view nios_dns_view}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view nios_dns_view}
 */
 export class DataNiosDnsView extends cdktf.TerraformDataSource {
 
@@ -6459,7 +6459,7 @@ export class DataNiosDnsView extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsView to import
-  * @param importFromId The id of the existing DataNiosDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6471,7 +6471,7 @@ export class DataNiosDnsView extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_view nios_dns_view} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_view nios_dns_view} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6482,8 +6482,8 @@ export class DataNiosDnsView extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_view',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

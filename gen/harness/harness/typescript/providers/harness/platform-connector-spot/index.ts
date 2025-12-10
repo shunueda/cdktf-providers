@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformConnectorSpotConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#description PlatformConnectorSpot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#description PlatformConnectorSpot#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#id PlatformConnectorSpot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#id PlatformConnectorSpot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PlatformConnectorSpotConfig extends cdktf.TerraformMetaArgument
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#identifier PlatformConnectorSpot#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#identifier PlatformConnectorSpot#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#name PlatformConnectorSpot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#name PlatformConnectorSpot#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#org_id PlatformConnectorSpot#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#org_id PlatformConnectorSpot#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#project_id PlatformConnectorSpot#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#project_id PlatformConnectorSpot#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#tags PlatformConnectorSpot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#tags PlatformConnectorSpot#tags}
   */
   readonly tags?: string[];
   /**
   * permanent_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#permanent_token PlatformConnectorSpot#permanent_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#permanent_token PlatformConnectorSpot#permanent_token}
   */
   readonly permanentToken: PlatformConnectorSpotPermanentToken;
 }
@@ -61,31 +61,31 @@ export interface PlatformConnectorSpotPermanentToken {
   /**
   * Reference to the Harness secret containing the permanent api token. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#api_token_ref PlatformConnectorSpot#api_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#api_token_ref PlatformConnectorSpot#api_token_ref}
   */
   readonly apiTokenRef: string;
   /**
   * Connect only using delegates with these tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#delegate_selectors PlatformConnectorSpot#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#delegate_selectors PlatformConnectorSpot#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#execute_on_delegate PlatformConnectorSpot#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#execute_on_delegate PlatformConnectorSpot#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Spot account id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#spot_account_id PlatformConnectorSpot#spot_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#spot_account_id PlatformConnectorSpot#spot_account_id}
   */
   readonly spotAccountId?: string;
   /**
   * Reference to the Harness secret containing the spot account id. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#spot_account_id_ref PlatformConnectorSpot#spot_account_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#spot_account_id_ref PlatformConnectorSpot#spot_account_id_ref}
   */
   readonly spotAccountIdRef?: string;
 }
@@ -282,7 +282,7 @@ export class PlatformConnectorSpotPermanentTokenOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot harness_platform_connector_spot}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot harness_platform_connector_spot}
 */
 export class PlatformConnectorSpot extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class PlatformConnectorSpot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorSpot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorSpot to import
-  * @param importFromId The id of the existing PlatformConnectorSpot that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorSpot that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorSpot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class PlatformConnectorSpot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_spot harness_platform_connector_spot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_spot harness_platform_connector_spot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class PlatformConnectorSpot extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_spot',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

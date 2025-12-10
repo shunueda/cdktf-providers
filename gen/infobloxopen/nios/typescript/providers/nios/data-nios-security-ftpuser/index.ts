@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosSecurityFtpuserConfig extends cdktf.TerraformMetaArgume
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#extattrfilters DataNiosSecurityFtpuser#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#extattrfilters DataNiosSecurityFtpuser#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#filters DataNiosSecurityFtpuser#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#filters DataNiosSecurityFtpuser#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#max_results DataNiosSecurityFtpuser#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#max_results DataNiosSecurityFtpuser#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#paging DataNiosSecurityFtpuser#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#paging DataNiosSecurityFtpuser#paging}
   */
   readonly paging?: number;
 }
@@ -36,37 +36,37 @@ export interface DataNiosSecurityFtpuserResult {
   /**
   * Determines whether to create the home directory with the user name or to use the existing directory as the home directory. Default is true. Cannot be used together with 'home_dir'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#create_home_dir DataNiosSecurityFtpuser#create_home_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#create_home_dir DataNiosSecurityFtpuser#create_home_dir}
   */
   readonly createHomeDir?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#extattrs DataNiosSecurityFtpuser#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#extattrs DataNiosSecurityFtpuser#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The absolute path of the FTP user's home directory. set create_home_dir to false to set home_dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#home_dir DataNiosSecurityFtpuser#home_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#home_dir DataNiosSecurityFtpuser#home_dir}
   */
   readonly homeDir?: string;
   /**
   * The FTP user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#password DataNiosSecurityFtpuser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#password DataNiosSecurityFtpuser#password}
   */
   readonly password: string;
   /**
   * The FTP user permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#permission DataNiosSecurityFtpuser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#permission DataNiosSecurityFtpuser#permission}
   */
   readonly permission?: string;
   /**
   * The FTP user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#username DataNiosSecurityFtpuser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#username DataNiosSecurityFtpuser#username}
   */
   readonly username: string;
 }
@@ -322,7 +322,7 @@ export class DataNiosSecurityFtpuserResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser nios_security_ftpuser}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser nios_security_ftpuser}
 */
 export class DataNiosSecurityFtpuser extends cdktf.TerraformDataSource {
 
@@ -338,7 +338,7 @@ export class DataNiosSecurityFtpuser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosSecurityFtpuser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosSecurityFtpuser to import
-  * @param importFromId The id of the existing DataNiosSecurityFtpuser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosSecurityFtpuser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosSecurityFtpuser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class DataNiosSecurityFtpuser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_ftpuser nios_security_ftpuser} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_ftpuser nios_security_ftpuser} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class DataNiosSecurityFtpuser extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_security_ftpuser',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

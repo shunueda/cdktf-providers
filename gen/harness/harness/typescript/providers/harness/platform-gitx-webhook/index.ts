@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformGitxWebhookConfig extends cdktf.TerraformMetaArguments 
   /**
   * ConnectorRef to be used to create Gitx webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#connector_ref PlatformGitxWebhook#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#connector_ref PlatformGitxWebhook#connector_ref}
   */
   readonly connectorRef: string;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#description PlatformGitxWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#description PlatformGitxWebhook#description}
   */
   readonly description?: string;
   /**
   * Folder Paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#folder_paths PlatformGitxWebhook#folder_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#folder_paths PlatformGitxWebhook#folder_paths}
   */
   readonly folderPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#id PlatformGitxWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#id PlatformGitxWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PlatformGitxWebhookConfig extends cdktf.TerraformMetaArguments 
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#identifier PlatformGitxWebhook#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#identifier PlatformGitxWebhook#identifier}
   */
   readonly identifier: string;
   /**
   * Flag to enable the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#is_enabled PlatformGitxWebhook#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#is_enabled PlatformGitxWebhook#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#name PlatformGitxWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#name PlatformGitxWebhook#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#org_id PlatformGitxWebhook#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#org_id PlatformGitxWebhook#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#project_id PlatformGitxWebhook#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#project_id PlatformGitxWebhook#project_id}
   */
   readonly projectId?: string;
   /**
   * Repo Identifier for Gitx webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#repo_name PlatformGitxWebhook#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#repo_name PlatformGitxWebhook#repo_name}
   */
   readonly repoName: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#tags PlatformGitxWebhook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#tags PlatformGitxWebhook#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook harness_platform_gitx_webhook}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook harness_platform_gitx_webhook}
 */
 export class PlatformGitxWebhook extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class PlatformGitxWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitxWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitxWebhook to import
-  * @param importFromId The id of the existing PlatformGitxWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitxWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitxWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class PlatformGitxWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitx_webhook harness_platform_gitx_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitx_webhook harness_platform_gitx_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class PlatformGitxWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitx_webhook',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

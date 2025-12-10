@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudproviderKubernetesConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#name CloudproviderKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#name CloudproviderKubernetes#name}
   */
   readonly name: string;
   /**
   * Skip validation of Kubernetes configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#skip_validation CloudproviderKubernetes#skip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#skip_validation CloudproviderKubernetes#skip_validation}
   */
   readonly skipValidation?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#authentication CloudproviderKubernetes#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#authentication CloudproviderKubernetes#authentication}
   */
   readonly authentication: CloudproviderKubernetesAuthentication;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#usage_scope CloudproviderKubernetes#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#usage_scope CloudproviderKubernetes#usage_scope}
   */
   readonly usageScope?: CloudproviderKubernetesUsageScope[] | cdktf.IResolvable;
 }
@@ -36,43 +36,43 @@ export interface CloudproviderKubernetesAuthenticationOidc {
   /**
   * Name of the Harness secret containing the client ID for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#client_id_secret_name CloudproviderKubernetes#client_id_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#client_id_secret_name CloudproviderKubernetes#client_id_secret_name}
   */
   readonly clientIdSecretName: string;
   /**
   * Name of the Harness secret containing the client secret for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#client_secret_secret_name CloudproviderKubernetes#client_secret_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#client_secret_secret_name CloudproviderKubernetes#client_secret_secret_name}
   */
   readonly clientSecretSecretName?: string;
   /**
   * URL of the identity provider to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#identity_provider_url CloudproviderKubernetes#identity_provider_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#identity_provider_url CloudproviderKubernetes#identity_provider_url}
   */
   readonly identityProviderUrl: string;
   /**
   * URL of the Kubernetes master to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Name of the Harness secret containing the password for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#password_secret_name CloudproviderKubernetes#password_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#password_secret_name CloudproviderKubernetes#password_secret_name}
   */
   readonly passwordSecretName: string;
   /**
   * Scopes to request from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#scopes CloudproviderKubernetes#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#scopes CloudproviderKubernetes#scopes}
   */
   readonly scopes?: string[];
   /**
   * Username for authentication to the cluster. This can be the username itself or the ID of a harness secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#username CloudproviderKubernetes#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#username CloudproviderKubernetes#username}
   */
   readonly username: string;
 }
@@ -317,19 +317,19 @@ export interface CloudproviderKubernetesAuthenticationServiceAccount {
   /**
   * Name of the Harness secret containing the CA certificate for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#ca_certificate_secret_name CloudproviderKubernetes#ca_certificate_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#ca_certificate_secret_name CloudproviderKubernetes#ca_certificate_secret_name}
   */
   readonly caCertificateSecretName?: string;
   /**
   * URL of the Kubernetes master to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Name of the Harness secret containing the service account token for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#service_account_token_secret_name CloudproviderKubernetes#service_account_token_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#service_account_token_secret_name CloudproviderKubernetes#service_account_token_secret_name}
   */
   readonly serviceAccountTokenSecretName: string;
 }
@@ -467,25 +467,25 @@ export interface CloudproviderKubernetesAuthenticationUsernamePassword {
   /**
   * URL of the Kubernetes master to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#master_url CloudproviderKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Name of the Harness secret containing the password for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#password_secret_name CloudproviderKubernetes#password_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#password_secret_name CloudproviderKubernetes#password_secret_name}
   */
   readonly passwordSecretName: string;
   /**
   * Username for authentication to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#username CloudproviderKubernetes#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#username CloudproviderKubernetes#username}
   */
   readonly username?: string;
   /**
   * Name of the Harness secret containing the username for authentication to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#username_secret_name CloudproviderKubernetes#username_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#username_secret_name CloudproviderKubernetes#username_secret_name}
   */
   readonly usernameSecretName?: string;
 }
@@ -652,25 +652,25 @@ export interface CloudproviderKubernetesAuthentication {
   /**
   * Delegate selectors to inherit the GCP credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#delegate_selectors CloudproviderKubernetes#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#delegate_selectors CloudproviderKubernetes#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#oidc CloudproviderKubernetes#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#oidc CloudproviderKubernetes#oidc}
   */
   readonly oidc?: CloudproviderKubernetesAuthenticationOidc;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#service_account CloudproviderKubernetes#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#service_account CloudproviderKubernetes#service_account}
   */
   readonly serviceAccount?: CloudproviderKubernetesAuthenticationServiceAccount;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#username_password CloudproviderKubernetes#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#username_password CloudproviderKubernetes#username_password}
   */
   readonly usernamePassword?: CloudproviderKubernetesAuthenticationUsernamePassword;
 }
@@ -843,19 +843,19 @@ export interface CloudproviderKubernetesUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#application_id CloudproviderKubernetes#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#application_id CloudproviderKubernetes#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#environment_filter_type CloudproviderKubernetes#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#environment_filter_type CloudproviderKubernetes#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#environment_id CloudproviderKubernetes#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#environment_id CloudproviderKubernetes#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -1029,7 +1029,7 @@ export class CloudproviderKubernetesUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes harness_cloudprovider_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes harness_cloudprovider_kubernetes}
 */
 export class CloudproviderKubernetes extends cdktf.TerraformResource {
 
@@ -1045,7 +1045,7 @@ export class CloudproviderKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudproviderKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudproviderKubernetes to import
-  * @param importFromId The id of the existing CloudproviderKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudproviderKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudproviderKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1057,7 +1057,7 @@ export class CloudproviderKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_kubernetes harness_cloudprovider_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/cloudprovider_kubernetes harness_cloudprovider_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1068,8 +1068,8 @@ export class CloudproviderKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cloudprovider_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

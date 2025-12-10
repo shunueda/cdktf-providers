@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHarnessEncryptedTextConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the encrypted secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#id DataHarnessEncryptedText#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#id DataHarnessEncryptedText#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataHarnessEncryptedTextConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the encrypted secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#name DataHarnessEncryptedText#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#name DataHarnessEncryptedText#name}
   */
   readonly name?: string;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#usage_scope DataHarnessEncryptedText#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#usage_scope DataHarnessEncryptedText#usage_scope}
   */
   readonly usageScope?: DataHarnessEncryptedTextUsageScope[] | cdktf.IResolvable;
 }
@@ -33,19 +33,19 @@ export interface DataHarnessEncryptedTextUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#application_id DataHarnessEncryptedText#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#application_id DataHarnessEncryptedText#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#environment_filter_type DataHarnessEncryptedText#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#environment_filter_type DataHarnessEncryptedText#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#environment_id DataHarnessEncryptedText#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#environment_id DataHarnessEncryptedText#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -219,7 +219,7 @@ export class DataHarnessEncryptedTextUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text harness_encrypted_text}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text harness_encrypted_text}
 */
 export class DataHarnessEncryptedText extends cdktf.TerraformDataSource {
 
@@ -235,7 +235,7 @@ export class DataHarnessEncryptedText extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessEncryptedText resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessEncryptedText to import
-  * @param importFromId The id of the existing DataHarnessEncryptedText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessEncryptedText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessEncryptedText to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class DataHarnessEncryptedText extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/encrypted_text harness_encrypted_text} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/encrypted_text harness_encrypted_text} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class DataHarnessEncryptedText extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_encrypted_text',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

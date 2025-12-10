@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ElasticsearchComponentTemplateConfig extends cdktf.TerraformMet
   /**
   * Optional user metadata about the component template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#metadata ElasticsearchComponentTemplate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#metadata ElasticsearchComponentTemplate#metadata}
   */
   readonly metadata?: string;
   /**
   * Name of the component template to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#name ElasticsearchComponentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#name ElasticsearchComponentTemplate#name}
   */
   readonly name: string;
   /**
   * Version number used to manage component templates externally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#version ElasticsearchComponentTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#version ElasticsearchComponentTemplate#version}
   */
   readonly version?: number;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#elasticsearch_connection ElasticsearchComponentTemplate#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#elasticsearch_connection ElasticsearchComponentTemplate#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchComponentTemplateElasticsearchConnection;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#template ElasticsearchComponentTemplate#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#template ElasticsearchComponentTemplate#template}
   */
   readonly template: ElasticsearchComponentTemplateTemplate;
 }
@@ -42,85 +42,85 @@ export interface ElasticsearchComponentTemplateElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#api_key ElasticsearchComponentTemplate#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#api_key ElasticsearchComponentTemplate#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#bearer_token ElasticsearchComponentTemplate#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#bearer_token ElasticsearchComponentTemplate#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#ca_data ElasticsearchComponentTemplate#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#ca_data ElasticsearchComponentTemplate#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#ca_file ElasticsearchComponentTemplate#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#ca_file ElasticsearchComponentTemplate#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#cert_data ElasticsearchComponentTemplate#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#cert_data ElasticsearchComponentTemplate#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#cert_file ElasticsearchComponentTemplate#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#cert_file ElasticsearchComponentTemplate#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#endpoints ElasticsearchComponentTemplate#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#endpoints ElasticsearchComponentTemplate#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#es_client_authentication ElasticsearchComponentTemplate#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#es_client_authentication ElasticsearchComponentTemplate#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#headers ElasticsearchComponentTemplate#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#headers ElasticsearchComponentTemplate#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#insecure ElasticsearchComponentTemplate#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#insecure ElasticsearchComponentTemplate#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#key_data ElasticsearchComponentTemplate#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#key_data ElasticsearchComponentTemplate#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#key_file ElasticsearchComponentTemplate#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#key_file ElasticsearchComponentTemplate#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#password ElasticsearchComponentTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#password ElasticsearchComponentTemplate#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#username ElasticsearchComponentTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#username ElasticsearchComponentTemplate#username}
   */
   readonly username?: string;
 }
@@ -583,43 +583,43 @@ export interface ElasticsearchComponentTemplateTemplateAlias {
   /**
   * Query used to limit documents the alias can access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#filter ElasticsearchComponentTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#filter ElasticsearchComponentTemplate#filter}
   */
   readonly filter?: string;
   /**
   * Value used to route indexing operations to a specific shard. If specified, this overwrites the routing value for indexing operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#index_routing ElasticsearchComponentTemplate#index_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#index_routing ElasticsearchComponentTemplate#index_routing}
   */
   readonly indexRouting?: string;
   /**
   * If true, the alias is hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#is_hidden ElasticsearchComponentTemplate#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#is_hidden ElasticsearchComponentTemplate#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * If true, the index is the write index for the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#is_write_index ElasticsearchComponentTemplate#is_write_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#is_write_index ElasticsearchComponentTemplate#is_write_index}
   */
   readonly isWriteIndex?: boolean | cdktf.IResolvable;
   /**
   * The alias name. Index alias names support date math. See the [date math index names documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#name ElasticsearchComponentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#name ElasticsearchComponentTemplate#name}
   */
   readonly name: string;
   /**
   * Value used to route indexing and search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#routing ElasticsearchComponentTemplate#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#routing ElasticsearchComponentTemplate#routing}
   */
   readonly routing?: string;
   /**
   * Value used to route search operations to a specific shard. If specified, this overwrites the routing value for search operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#search_routing ElasticsearchComponentTemplate#search_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#search_routing ElasticsearchComponentTemplate#search_routing}
   */
   readonly searchRouting?: string;
 }
@@ -908,19 +908,19 @@ export interface ElasticsearchComponentTemplateTemplate {
   /**
   * Mapping for fields in the index. Should be specified as a JSON object of field mappings. See the documentation (https://www.elastic.co/guide/en/elasticsearch/reference/current/explicit-mapping.html) for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#mappings ElasticsearchComponentTemplate#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#mappings ElasticsearchComponentTemplate#mappings}
   */
   readonly mappings?: string;
   /**
   * Configuration options for the index. See the [index modules settings documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules.html#index-modules-settings) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#settings ElasticsearchComponentTemplate#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#settings ElasticsearchComponentTemplate#settings}
   */
   readonly settings?: string;
   /**
   * alias block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#alias ElasticsearchComponentTemplate#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#alias ElasticsearchComponentTemplate#alias}
   */
   readonly alias?: ElasticsearchComponentTemplateTemplateAlias[] | cdktf.IResolvable;
 }
@@ -1062,7 +1062,7 @@ export class ElasticsearchComponentTemplateTemplateOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template elasticstack_elasticsearch_component_template}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template elasticstack_elasticsearch_component_template}
 */
 export class ElasticsearchComponentTemplate extends cdktf.TerraformResource {
 
@@ -1078,7 +1078,7 @@ export class ElasticsearchComponentTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchComponentTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchComponentTemplate to import
-  * @param importFromId The id of the existing ElasticsearchComponentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchComponentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchComponentTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1090,7 +1090,7 @@ export class ElasticsearchComponentTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_component_template elasticstack_elasticsearch_component_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_component_template elasticstack_elasticsearch_component_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1101,8 +1101,8 @@ export class ElasticsearchComponentTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_component_template',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

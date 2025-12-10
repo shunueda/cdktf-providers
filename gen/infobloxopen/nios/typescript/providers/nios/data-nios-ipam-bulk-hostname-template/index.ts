@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosIpamBulkHostnameTemplateConfig extends cdktf.TerraformM
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#filters DataNiosIpamBulkHostnameTemplate#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#filters DataNiosIpamBulkHostnameTemplate#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#max_results DataNiosIpamBulkHostnameTemplate#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#max_results DataNiosIpamBulkHostnameTemplate#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#paging DataNiosIpamBulkHostnameTemplate#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#paging DataNiosIpamBulkHostnameTemplate#paging}
   */
   readonly paging?: number;
 }
@@ -30,13 +30,13 @@ export interface DataNiosIpamBulkHostnameTemplateResult {
   /**
   * The format of bulk host name template. It should follow certain rules (please use Administration Guide as reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#template_format DataNiosIpamBulkHostnameTemplate#template_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#template_format DataNiosIpamBulkHostnameTemplate#template_format}
   */
   readonly templateFormat: string;
   /**
   * The name of bulk host name template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#template_name DataNiosIpamBulkHostnameTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#template_name DataNiosIpamBulkHostnameTemplate#template_name}
   */
   readonly templateName: string;
 }
@@ -180,7 +180,7 @@ export class DataNiosIpamBulkHostnameTemplateResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template}
 */
 export class DataNiosIpamBulkHostnameTemplate extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataNiosIpamBulkHostnameTemplate extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosIpamBulkHostnameTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosIpamBulkHostnameTemplate to import
-  * @param importFromId The id of the existing DataNiosIpamBulkHostnameTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosIpamBulkHostnameTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosIpamBulkHostnameTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataNiosIpamBulkHostnameTemplate extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_bulk_hostname_template nios_ipam_bulk_hostname_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DataNiosIpamBulkHostnameTemplate extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_ipam_bulk_hostname_template',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

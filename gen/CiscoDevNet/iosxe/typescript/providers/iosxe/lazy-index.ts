@@ -19,6 +19,8 @@ Object.defineProperty(exports, 'bgpAddressFamilyIpv4Vrf', { get: function () { r
 Object.defineProperty(exports, 'bgpAddressFamilyIpv6', { get: function () { return require('./bgp-address-family-ipv6'); } });
 Object.defineProperty(exports, 'bgpAddressFamilyIpv6Vrf', { get: function () { return require('./bgp-address-family-ipv6-vrf'); } });
 Object.defineProperty(exports, 'bgpAddressFamilyL2Vpn', { get: function () { return require('./bgp-address-family-l2vpn'); } });
+Object.defineProperty(exports, 'bgpAddressFamilyVpnv4', { get: function () { return require('./bgp-address-family-vpnv4'); } });
+Object.defineProperty(exports, 'bgpAddressFamilyVpnv6', { get: function () { return require('./bgp-address-family-vpnv6'); } });
 Object.defineProperty(exports, 'bgpIpv4MvpnNeighbor', { get: function () { return require('./bgp-ipv4-mvpn-neighbor'); } });
 Object.defineProperty(exports, 'bgpIpv4UnicastNeighbor', { get: function () { return require('./bgp-ipv4-unicast-neighbor'); } });
 Object.defineProperty(exports, 'bgpIpv4UnicastVrfNeighbor', { get: function () { return require('./bgp-ipv4-unicast-vrf-neighbor'); } });
@@ -34,6 +36,7 @@ Object.defineProperty(exports, 'clock', { get: function () { return require('./c
 Object.defineProperty(exports, 'commit', { get: function () { return require('./commit'); } });
 Object.defineProperty(exports, 'communityListExpanded', { get: function () { return require('./community-list-expanded'); } });
 Object.defineProperty(exports, 'communityListStandard', { get: function () { return require('./community-list-standard'); } });
+Object.defineProperty(exports, 'crypto', { get: function () { return require('./crypto'); } });
 Object.defineProperty(exports, 'cryptoIkev2', { get: function () { return require('./crypto-ikev2'); } });
 Object.defineProperty(exports, 'cryptoIkev2Keyring', { get: function () { return require('./crypto-ikev2-keyring'); } });
 Object.defineProperty(exports, 'cryptoIkev2Policy', { get: function () { return require('./crypto-ikev2-policy'); } });
@@ -69,11 +72,13 @@ Object.defineProperty(exports, 'interfaceSwitchport', { get: function () { retur
 Object.defineProperty(exports, 'interfaceTunnel', { get: function () { return require('./interface-tunnel'); } });
 Object.defineProperty(exports, 'interfaceVlan', { get: function () { return require('./interface-vlan'); } });
 Object.defineProperty(exports, 'isis', { get: function () { return require('./isis'); } });
+Object.defineProperty(exports, 'l2Vfi', { get: function () { return require('./l2-vfi'); } });
 Object.defineProperty(exports, 'licenseResource', { get: function () { return require('./license-resource'); } });
 Object.defineProperty(exports, 'line', { get: function () { return require('./line'); } });
 Object.defineProperty(exports, 'lldp', { get: function () { return require('./lldp'); } });
 Object.defineProperty(exports, 'logging', { get: function () { return require('./logging'); } });
 Object.defineProperty(exports, 'mdtSubscription', { get: function () { return require('./mdt-subscription'); } });
+Object.defineProperty(exports, 'mpls', { get: function () { return require('./mpls'); } });
 Object.defineProperty(exports, 'msdp', { get: function () { return require('./msdp'); } });
 Object.defineProperty(exports, 'multicast', { get: function () { return require('./multicast'); } });
 Object.defineProperty(exports, 'nat', { get: function () { return require('./nat'); } });
@@ -131,6 +136,8 @@ Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyIpv4Vrf', { get: functi
 Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyIpv6', { get: function () { return require('./data-iosxe-bgp-address-family-ipv6'); } });
 Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyIpv6Vrf', { get: function () { return require('./data-iosxe-bgp-address-family-ipv6-vrf'); } });
 Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyL2Vpn', { get: function () { return require('./data-iosxe-bgp-address-family-l2vpn'); } });
+Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyVpnv4', { get: function () { return require('./data-iosxe-bgp-address-family-vpnv4'); } });
+Object.defineProperty(exports, 'dataIosxeBgpAddressFamilyVpnv6', { get: function () { return require('./data-iosxe-bgp-address-family-vpnv6'); } });
 Object.defineProperty(exports, 'dataIosxeBgpIpv4MvpnNeighbor', { get: function () { return require('./data-iosxe-bgp-ipv4-mvpn-neighbor'); } });
 Object.defineProperty(exports, 'dataIosxeBgpIpv4UnicastNeighbor', { get: function () { return require('./data-iosxe-bgp-ipv4-unicast-neighbor'); } });
 Object.defineProperty(exports, 'dataIosxeBgpIpv4UnicastVrfNeighbor', { get: function () { return require('./data-iosxe-bgp-ipv4-unicast-vrf-neighbor'); } });
@@ -144,6 +151,7 @@ Object.defineProperty(exports, 'dataIosxeClassMap', { get: function () { return 
 Object.defineProperty(exports, 'dataIosxeClock', { get: function () { return require('./data-iosxe-clock'); } });
 Object.defineProperty(exports, 'dataIosxeCommunityListExpanded', { get: function () { return require('./data-iosxe-community-list-expanded'); } });
 Object.defineProperty(exports, 'dataIosxeCommunityListStandard', { get: function () { return require('./data-iosxe-community-list-standard'); } });
+Object.defineProperty(exports, 'dataIosxeCrypto', { get: function () { return require('./data-iosxe-crypto'); } });
 Object.defineProperty(exports, 'dataIosxeCryptoIkev2', { get: function () { return require('./data-iosxe-crypto-ikev2'); } });
 Object.defineProperty(exports, 'dataIosxeCryptoIkev2Keyring', { get: function () { return require('./data-iosxe-crypto-ikev2-keyring'); } });
 Object.defineProperty(exports, 'dataIosxeCryptoIkev2Policy', { get: function () { return require('./data-iosxe-crypto-ikev2-policy'); } });
@@ -179,11 +187,13 @@ Object.defineProperty(exports, 'dataIosxeInterfaceSwitchport', { get: function (
 Object.defineProperty(exports, 'dataIosxeInterfaceTunnel', { get: function () { return require('./data-iosxe-interface-tunnel'); } });
 Object.defineProperty(exports, 'dataIosxeInterfaceVlan', { get: function () { return require('./data-iosxe-interface-vlan'); } });
 Object.defineProperty(exports, 'dataIosxeIsis', { get: function () { return require('./data-iosxe-isis'); } });
+Object.defineProperty(exports, 'dataIosxeL2Vfi', { get: function () { return require('./data-iosxe-l2-vfi'); } });
 Object.defineProperty(exports, 'dataIosxeLicense', { get: function () { return require('./data-iosxe-license'); } });
 Object.defineProperty(exports, 'dataIosxeLine', { get: function () { return require('./data-iosxe-line'); } });
 Object.defineProperty(exports, 'dataIosxeLldp', { get: function () { return require('./data-iosxe-lldp'); } });
 Object.defineProperty(exports, 'dataIosxeLogging', { get: function () { return require('./data-iosxe-logging'); } });
 Object.defineProperty(exports, 'dataIosxeMdtSubscription', { get: function () { return require('./data-iosxe-mdt-subscription'); } });
+Object.defineProperty(exports, 'dataIosxeMpls', { get: function () { return require('./data-iosxe-mpls'); } });
 Object.defineProperty(exports, 'dataIosxeMsdp', { get: function () { return require('./data-iosxe-msdp'); } });
 Object.defineProperty(exports, 'dataIosxeMulticast', { get: function () { return require('./data-iosxe-multicast'); } });
 Object.defineProperty(exports, 'dataIosxeNat', { get: function () { return require('./data-iosxe-nat'); } });

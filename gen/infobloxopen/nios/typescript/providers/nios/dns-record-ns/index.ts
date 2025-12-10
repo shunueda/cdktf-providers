@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DnsRecordNsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of zone name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#addresses DnsRecordNs#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#addresses DnsRecordNs#addresses}
   */
   readonly addresses: DnsRecordNsAddresses[] | cdktf.IResolvable;
   /**
   * The MS delegation point name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#ms_delegation_name DnsRecordNs#ms_delegation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#ms_delegation_name DnsRecordNs#ms_delegation_name}
   */
   readonly msDelegationName?: string;
   /**
   * The name of the NS record in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#name DnsRecordNs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#name DnsRecordNs#name}
   */
   readonly name: string;
   /**
   * The domain name of an authoritative server for the redirected zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#nameserver DnsRecordNs#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#nameserver DnsRecordNs#nameserver}
   */
   readonly nameserver: string;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#view DnsRecordNs#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#view DnsRecordNs#view}
   */
   readonly view?: string;
 }
@@ -42,13 +42,13 @@ export interface DnsRecordNsAddresses {
   /**
   * The address of the Zone Name Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#address DnsRecordNs#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#address DnsRecordNs#address}
   */
   readonly address: string;
   /**
   * Flag to indicate if ptr records need to be auto created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#auto_create_ptr DnsRecordNs#auto_create_ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#auto_create_ptr DnsRecordNs#auto_create_ptr}
   */
   readonly autoCreatePtr?: boolean | cdktf.IResolvable;
 }
@@ -344,7 +344,7 @@ export class DnsRecordNsCloudInfoOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns nios_dns_record_ns}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns nios_dns_record_ns}
 */
 export class DnsRecordNs extends cdktf.TerraformResource {
 
@@ -360,7 +360,7 @@ export class DnsRecordNs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordNs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordNs to import
-  * @param importFromId The id of the existing DnsRecordNs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordNs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordNs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class DnsRecordNs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_ns nios_dns_record_ns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_ns nios_dns_record_ns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class DnsRecordNs extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_record_ns',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

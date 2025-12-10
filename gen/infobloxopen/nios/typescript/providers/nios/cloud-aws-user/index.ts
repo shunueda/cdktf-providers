@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudAwsUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique Access Key ID of this AWS user. Maximum 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#access_key_id CloudAwsUser#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#access_key_id CloudAwsUser#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS Account ID of this AWS user. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#account_id CloudAwsUser#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#account_id CloudAwsUser#account_id}
   */
   readonly accountId: string;
   /**
   * Indicates if gov cloud is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#govcloud_enabled CloudAwsUser#govcloud_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#govcloud_enabled CloudAwsUser#govcloud_enabled}
   */
   readonly govcloudEnabled?: boolean | cdktf.IResolvable;
   /**
   * The AWS user name. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#name CloudAwsUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#name CloudAwsUser#name}
   */
   readonly name: string;
   /**
   * The NIOS user name mapped to this AWS user. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#nios_user_name CloudAwsUser#nios_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#nios_user_name CloudAwsUser#nios_user_name}
   */
   readonly niosUserName?: string;
   /**
   * The Secret Access Key for the Access Key ID of this user. Maximum 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#secret_access_key CloudAwsUser#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#secret_access_key CloudAwsUser#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user nios_cloud_aws_user}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user nios_cloud_aws_user}
 */
 export class CloudAwsUser extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CloudAwsUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAwsUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAwsUser to import
-  * @param importFromId The id of the existing CloudAwsUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAwsUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAwsUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CloudAwsUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/cloud_aws_user nios_cloud_aws_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/cloud_aws_user nios_cloud_aws_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CloudAwsUser extends cdktf.TerraformResource {
       terraformResourceType: 'nios_cloud_aws_user',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

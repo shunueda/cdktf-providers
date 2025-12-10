@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataElasticstackElasticsearchIngestProcessorSortConfig extends 
   /**
   * Description of the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#description DataElasticstackElasticsearchIngestProcessorSort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#description DataElasticstackElasticsearchIngestProcessorSort#description}
   */
   readonly description?: string;
   /**
   * The field to be sorted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#field DataElasticstackElasticsearchIngestProcessorSort#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#field DataElasticstackElasticsearchIngestProcessorSort#field}
   */
   readonly field: string;
   /**
   * Conditionally execute the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#if DataElasticstackElasticsearchIngestProcessorSort#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#if DataElasticstackElasticsearchIngestProcessorSort#if}
   */
   readonly if?: string;
   /**
   * Ignore failures for the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#ignore_failure DataElasticstackElasticsearchIngestProcessorSort#ignore_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#ignore_failure DataElasticstackElasticsearchIngestProcessorSort#ignore_failure}
   */
   readonly ignoreFailure?: boolean | cdktf.IResolvable;
   /**
   * Handle failures for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#on_failure DataElasticstackElasticsearchIngestProcessorSort#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#on_failure DataElasticstackElasticsearchIngestProcessorSort#on_failure}
   */
   readonly onFailure?: string[];
   /**
   * The sort order to use. Accepts `asc` or `desc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#order DataElasticstackElasticsearchIngestProcessorSort#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#order DataElasticstackElasticsearchIngestProcessorSort#order}
   */
   readonly order?: string;
   /**
   * Identifier for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#tag DataElasticstackElasticsearchIngestProcessorSort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#tag DataElasticstackElasticsearchIngestProcessorSort#tag}
   */
   readonly tag?: string;
   /**
   * The field to assign the sorted value to, by default `field` is updated in-place
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#target_field DataElasticstackElasticsearchIngestProcessorSort#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#target_field DataElasticstackElasticsearchIngestProcessorSort#target_field}
   */
   readonly targetField?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort elasticstack_elasticsearch_ingest_processor_sort}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort elasticstack_elasticsearch_ingest_processor_sort}
 */
 export class DataElasticstackElasticsearchIngestProcessorSort extends cdktf.TerraformDataSource {
 
@@ -74,7 +74,7 @@ export class DataElasticstackElasticsearchIngestProcessorSort extends cdktf.Terr
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIngestProcessorSort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIngestProcessorSort to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorSort that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorSort that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIngestProcessorSort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DataElasticstackElasticsearchIngestProcessorSort extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_sort elasticstack_elasticsearch_ingest_processor_sort} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_sort elasticstack_elasticsearch_ingest_processor_sort} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DataElasticstackElasticsearchIngestProcessorSort extends cdktf.Terr
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_sort',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

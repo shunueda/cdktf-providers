@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataElasticstackKibanaExportSavedObjectsConfig extends cdktf.Te
   /**
   * Do not add export details. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#exclude_export_details DataElasticstackKibanaExportSavedObjects#exclude_export_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#exclude_export_details DataElasticstackKibanaExportSavedObjects#exclude_export_details}
   */
   readonly excludeExportDetails?: boolean | cdktf.IResolvable;
   /**
   * Include references to other saved objects recursively. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#include_references_deep DataElasticstackKibanaExportSavedObjects#include_references_deep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#include_references_deep DataElasticstackKibanaExportSavedObjects#include_references_deep}
   */
   readonly includeReferencesDeep?: boolean | cdktf.IResolvable;
   /**
   * List of objects to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#objects DataElasticstackKibanaExportSavedObjects#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#objects DataElasticstackKibanaExportSavedObjects#objects}
   */
   readonly objects: DataElasticstackKibanaExportSavedObjectsObjects[] | cdktf.IResolvable;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#space_id DataElasticstackKibanaExportSavedObjects#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#space_id DataElasticstackKibanaExportSavedObjects#space_id}
   */
   readonly spaceId?: string;
 }
@@ -36,7 +36,7 @@ export interface DataElasticstackKibanaExportSavedObjectsObjects {
   /**
   * The ID of the saved object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#id DataElasticstackKibanaExportSavedObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#id DataElasticstackKibanaExportSavedObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ export interface DataElasticstackKibanaExportSavedObjectsObjects {
   /**
   * The type of the saved object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#type DataElasticstackKibanaExportSavedObjects#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#type DataElasticstackKibanaExportSavedObjects#type}
   */
   readonly type: string;
 }
@@ -184,7 +184,7 @@ export class DataElasticstackKibanaExportSavedObjectsObjectsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects elasticstack_kibana_export_saved_objects}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects elasticstack_kibana_export_saved_objects}
 */
 export class DataElasticstackKibanaExportSavedObjects extends cdktf.TerraformDataSource {
 
@@ -200,7 +200,7 @@ export class DataElasticstackKibanaExportSavedObjects extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataElasticstackKibanaExportSavedObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackKibanaExportSavedObjects to import
-  * @param importFromId The id of the existing DataElasticstackKibanaExportSavedObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackKibanaExportSavedObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackKibanaExportSavedObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class DataElasticstackKibanaExportSavedObjects extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_export_saved_objects elasticstack_kibana_export_saved_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_export_saved_objects elasticstack_kibana_export_saved_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class DataElasticstackKibanaExportSavedObjects extends cdktf.TerraformDat
       terraformResourceType: 'elasticstack_kibana_export_saved_objects',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

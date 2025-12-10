@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataHarnessPlatformRepoConfig extends cdktf.TerraformMetaArgume
   /**
   * Default branch of the repository (Applicate only for create).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#default_branch DataHarnessPlatformRepo#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#default_branch DataHarnessPlatformRepo#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * Description of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#description DataHarnessPlatformRepo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#description DataHarnessPlatformRepo#description}
   */
   readonly description?: string;
   /**
   * Repository should be created with specified predefined gitignore file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#git_ignore DataHarnessPlatformRepo#git_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#git_ignore DataHarnessPlatformRepo#git_ignore}
   */
   readonly gitIgnore?: string;
   /**
   * Identifier of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#identifier DataHarnessPlatformRepo#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#identifier DataHarnessPlatformRepo#identifier}
   */
   readonly identifier: string;
   /**
   * Repository should be created with specified predefined license file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#license DataHarnessPlatformRepo#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#license DataHarnessPlatformRepo#license}
   */
   readonly license?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#org_id DataHarnessPlatformRepo#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#org_id DataHarnessPlatformRepo#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#project_id DataHarnessPlatformRepo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#project_id DataHarnessPlatformRepo#project_id}
   */
   readonly projectId?: string;
   /**
   * Repository should be created with readme file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#readme DataHarnessPlatformRepo#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#readme DataHarnessPlatformRepo#readme}
   */
   readonly readme?: boolean | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#source DataHarnessPlatformRepo#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#source DataHarnessPlatformRepo#source}
   */
   readonly source?: DataHarnessPlatformRepoSource[] | cdktf.IResolvable;
 }
@@ -66,31 +66,31 @@ export interface DataHarnessPlatformRepoSource {
   /**
   * The host URL for the import source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#host DataHarnessPlatformRepo#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#host DataHarnessPlatformRepo#host}
   */
   readonly host?: string;
   /**
   * The password for authentication when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#password DataHarnessPlatformRepo#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#password DataHarnessPlatformRepo#password}
   */
   readonly password?: string;
   /**
   * The full identifier of the repository on the SCM provider's platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#repo DataHarnessPlatformRepo#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#repo DataHarnessPlatformRepo#repo}
   */
   readonly repo?: string;
   /**
   * The type of SCM provider (github, gitlab, bitbucket, stash, gitea, gogs) when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#type DataHarnessPlatformRepo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#type DataHarnessPlatformRepo#type}
   */
   readonly type?: string;
   /**
   * The username for authentication when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#username DataHarnessPlatformRepo#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#username DataHarnessPlatformRepo#username}
   */
   readonly username?: string;
 }
@@ -322,7 +322,7 @@ export class DataHarnessPlatformRepoSourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo harness_platform_repo}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo harness_platform_repo}
 */
 export class DataHarnessPlatformRepo extends cdktf.TerraformDataSource {
 
@@ -338,7 +338,7 @@ export class DataHarnessPlatformRepo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformRepo to import
-  * @param importFromId The id of the existing DataHarnessPlatformRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class DataHarnessPlatformRepo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_repo harness_platform_repo} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_repo harness_platform_repo} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class DataHarnessPlatformRepo extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_repo',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

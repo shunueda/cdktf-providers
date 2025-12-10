@@ -6,6 +6,7 @@ export * as resourceServer from './resource-server';
 export * as dataVyArtifactVersion from './data-vy-artifact-version';
 export * as dataVyCognitoInfo from './data-vy-cognito-info';
 export * as dataVyEcsImage from './data-vy-ecs-image';
+export * as dataVyFrontendArtifact from './data-vy-frontend-artifact';
 export * as dataVyLambdaArtifact from './data-vy-lambda-artifact';
 export * as provider from './provider';
 

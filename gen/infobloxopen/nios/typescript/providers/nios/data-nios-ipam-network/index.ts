@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosIpamNetworkConfig extends cdktf.TerraformMetaArguments 
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#extattrfilters DataNiosIpamNetwork#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#extattrfilters DataNiosIpamNetwork#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#filters DataNiosIpamNetwork#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#filters DataNiosIpamNetwork#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#max_results DataNiosIpamNetwork#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#max_results DataNiosIpamNetwork#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#paging DataNiosIpamNetwork#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#paging DataNiosIpamNetwork#paging}
   */
   readonly paging?: number;
 }
@@ -36,19 +36,19 @@ export interface DataNiosIpamNetworkResultCloudInfoDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipv6addr DataNiosIpamNetwork#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipv6addr DataNiosIpamNetwork#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
   */
   readonly name?: string;
 }
@@ -202,7 +202,7 @@ export interface DataNiosIpamNetworkResultCloudInfo {
   /**
   * Contains information about the delegated member of the network. This is only set if the network is delegated to a member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#delegated_member DataNiosIpamNetwork#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#delegated_member DataNiosIpamNetwork#delegated_member}
   */
   readonly delegatedMember?: DataNiosIpamNetworkResultCloudInfoDelegatedMember;
 }
@@ -333,73 +333,73 @@ export interface DataNiosIpamNetworkResultDiscoveryBasicPollSettingsSwitchPortDa
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
   */
   readonly year?: number;
 }
@@ -814,85 +814,85 @@ export interface DataNiosIpamNetworkResultDiscoveryBasicPollSettings {
   /**
   * Determines whether auto ARP refresh before switch port polling is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#auto_arp_refresh_before_switch_port_polling DataNiosIpamNetwork#auto_arp_refresh_before_switch_port_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#auto_arp_refresh_before_switch_port_polling DataNiosIpamNetwork#auto_arp_refresh_before_switch_port_polling}
   */
   readonly autoArpRefreshBeforeSwitchPortPolling?: boolean | cdktf.IResolvable;
   /**
   * Determines whether CLI collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#cli_collection DataNiosIpamNetwork#cli_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#cli_collection DataNiosIpamNetwork#cli_collection}
   */
   readonly cliCollection?: boolean | cdktf.IResolvable;
   /**
   * Determines whether complete ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#complete_ping_sweep DataNiosIpamNetwork#complete_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#complete_ping_sweep DataNiosIpamNetwork#complete_ping_sweep}
   */
   readonly completePingSweep?: boolean | cdktf.IResolvable;
   /**
   * Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#credential_group DataNiosIpamNetwork#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#credential_group DataNiosIpamNetwork#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Determines whether device profile is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#device_profile DataNiosIpamNetwork#device_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#device_profile DataNiosIpamNetwork#device_profile}
   */
   readonly deviceProfile?: boolean | cdktf.IResolvable;
   /**
   * Determines whether netbios scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#netbios_scanning DataNiosIpamNetwork#netbios_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#netbios_scanning DataNiosIpamNetwork#netbios_scanning}
   */
   readonly netbiosScanning?: boolean | cdktf.IResolvable;
   /**
   * Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#polling_frequency_modifier DataNiosIpamNetwork#polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#polling_frequency_modifier DataNiosIpamNetwork#polling_frequency_modifier}
   */
   readonly pollingFrequencyModifier?: string;
   /**
   * Determines whether port scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#port_scanning DataNiosIpamNetwork#port_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#port_scanning DataNiosIpamNetwork#port_scanning}
   */
   readonly portScanning?: boolean | cdktf.IResolvable;
   /**
   * Determines whether smart subnet ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#smart_subnet_ping_sweep DataNiosIpamNetwork#smart_subnet_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#smart_subnet_ping_sweep DataNiosIpamNetwork#smart_subnet_ping_sweep}
   */
   readonly smartSubnetPingSweep?: boolean | cdktf.IResolvable;
   /**
   * Determines whether SNMP collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#snmp_collection DataNiosIpamNetwork#snmp_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#snmp_collection DataNiosIpamNetwork#snmp_collection}
   */
   readonly snmpCollection?: boolean | cdktf.IResolvable;
   /**
   * A switch port data collection polling mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#switch_port_data_collection_polling DataNiosIpamNetwork#switch_port_data_collection_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#switch_port_data_collection_polling DataNiosIpamNetwork#switch_port_data_collection_polling}
   */
   readonly switchPortDataCollectionPolling?: string;
   /**
   * Indicates the interval for switch port data collection polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#switch_port_data_collection_polling_interval DataNiosIpamNetwork#switch_port_data_collection_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#switch_port_data_collection_polling_interval DataNiosIpamNetwork#switch_port_data_collection_polling_interval}
   */
   readonly switchPortDataCollectionPollingInterval?: number;
   /**
   * A switch port data collection polling schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#switch_port_data_collection_polling_schedule DataNiosIpamNetwork#switch_port_data_collection_polling_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#switch_port_data_collection_polling_schedule DataNiosIpamNetwork#switch_port_data_collection_polling_schedule}
   */
   readonly switchPortDataCollectionPollingSchedule?: DataNiosIpamNetworkResultDiscoveryBasicPollSettingsSwitchPortDataCollectionPollingSchedule;
   /**
   * Use Global Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_global_polling_frequency_modifier DataNiosIpamNetwork#use_global_polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_global_polling_frequency_modifier DataNiosIpamNetwork#use_global_polling_frequency_modifier}
   */
   readonly useGlobalPollingFrequencyModifier?: boolean | cdktf.IResolvable;
 }
@@ -1365,73 +1365,73 @@ export interface DataNiosIpamNetworkResultDiscoveryBlackoutSettingBlackoutSchedu
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
   */
   readonly year?: number;
 }
@@ -1846,19 +1846,19 @@ export interface DataNiosIpamNetworkResultDiscoveryBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#blackout_duration DataNiosIpamNetwork#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#blackout_duration DataNiosIpamNetwork#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#blackout_schedule DataNiosIpamNetwork#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#blackout_schedule DataNiosIpamNetwork#blackout_schedule}
   */
   readonly blackoutSchedule?: DataNiosIpamNetworkResultDiscoveryBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_blackout DataNiosIpamNetwork#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_blackout DataNiosIpamNetwork#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -2012,7 +2012,7 @@ export interface DataNiosIpamNetworkResultFederatedRealms {
   /**
   * The federated realm id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#id DataNiosIpamNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#id DataNiosIpamNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2021,7 +2021,7 @@ export interface DataNiosIpamNetworkResultFederatedRealms {
   /**
   * The federated realm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
   */
   readonly name: string;
 }
@@ -2162,37 +2162,37 @@ export interface DataNiosIpamNetworkResultFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#attribute_name DataNiosIpamNetwork#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#attribute_name DataNiosIpamNetwork#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#object DataNiosIpamNetwork#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#object DataNiosIpamNetwork#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#object_function DataNiosIpamNetwork#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#object_function DataNiosIpamNetwork#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#object_parameters DataNiosIpamNetwork#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#object_parameters DataNiosIpamNetwork#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#parameters DataNiosIpamNetwork#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#parameters DataNiosIpamNetwork#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#result_field DataNiosIpamNetwork#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#result_field DataNiosIpamNetwork#result_field}
   */
   readonly resultField?: string;
 }
@@ -2430,13 +2430,13 @@ export interface DataNiosIpamNetworkResultIpamThresholdSettings {
   /**
   * Indicates the percentage point which resets the email/SNMP trap sending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#reset_value DataNiosIpamNetwork#reset_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#reset_value DataNiosIpamNetwork#reset_value}
   */
   readonly resetValue?: number;
   /**
   * Indicates the percentage point which triggers the email/SNMP trap sending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#trigger_value DataNiosIpamNetwork#trigger_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#trigger_value DataNiosIpamNetwork#trigger_value}
   */
   readonly triggerValue?: number;
 }
@@ -2561,13 +2561,13 @@ export interface DataNiosIpamNetworkResultIpamTrapSettings {
   /**
   * Determines whether sending warnings by email is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_email_warnings DataNiosIpamNetwork#enable_email_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_email_warnings DataNiosIpamNetwork#enable_email_warnings}
   */
   readonly enableEmailWarnings?: boolean | cdktf.IResolvable;
   /**
   * Determines whether sending warnings by SNMP is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_snmp_warnings DataNiosIpamNetwork#enable_snmp_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_snmp_warnings DataNiosIpamNetwork#enable_snmp_warnings}
   */
   readonly enableSnmpWarnings?: boolean | cdktf.IResolvable;
 }
@@ -2692,13 +2692,13 @@ export interface DataNiosIpamNetworkResultLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#filter DataNiosIpamNetwork#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#filter DataNiosIpamNetwork#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#type DataNiosIpamNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#type DataNiosIpamNetwork#type}
   */
   readonly type: string;
 }
@@ -2839,25 +2839,25 @@ export interface DataNiosIpamNetworkResultMembers {
   /**
   * The IPv4 Address or FQDN of the Microsoft server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipv6addr DataNiosIpamNetwork#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipv6addr DataNiosIpamNetwork#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
   */
   readonly name?: string;
   /**
   * The struct type of the object. The value must be one of 'dhcpmember' or 'msdhcpserver'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#struct DataNiosIpamNetwork#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#struct DataNiosIpamNetwork#struct}
   */
   readonly struct: string;
 }
@@ -3113,31 +3113,31 @@ export interface DataNiosIpamNetworkResultOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#num DataNiosIpamNetwork#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#num DataNiosIpamNetwork#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_option DataNiosIpamNetwork#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_option DataNiosIpamNetwork#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#value DataNiosIpamNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#value DataNiosIpamNetwork#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#vendor_class DataNiosIpamNetwork#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#vendor_class DataNiosIpamNetwork#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -3371,73 +3371,73 @@ export interface DataNiosIpamNetworkResultPortControlBlackoutSettingBlackoutSche
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#day_of_month DataNiosIpamNetwork#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#every DataNiosIpamNetwork#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#frequency DataNiosIpamNetwork#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#hour_of_day DataNiosIpamNetwork#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#minutes_past_hour DataNiosIpamNetwork#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#month DataNiosIpamNetwork#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#recurring_time DataNiosIpamNetwork#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#repeat DataNiosIpamNetwork#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#time_zone DataNiosIpamNetwork#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#weekdays DataNiosIpamNetwork#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#year DataNiosIpamNetwork#year}
   */
   readonly year?: number;
 }
@@ -3852,19 +3852,19 @@ export interface DataNiosIpamNetworkResultPortControlBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#blackout_duration DataNiosIpamNetwork#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#blackout_duration DataNiosIpamNetwork#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#blackout_schedule DataNiosIpamNetwork#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#blackout_schedule DataNiosIpamNetwork#blackout_schedule}
   */
   readonly blackoutSchedule?: DataNiosIpamNetworkResultPortControlBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_blackout DataNiosIpamNetwork#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_blackout DataNiosIpamNetwork#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -4018,13 +4018,13 @@ export interface DataNiosIpamNetworkResultSubscribeSettingsMappedEaAttributes {
   /**
   * The name of the extensible attribute definition object the Cisco ISE attribute that is enabled for subscription is mapped on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#mapped_ea DataNiosIpamNetwork#mapped_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#mapped_ea DataNiosIpamNetwork#mapped_ea}
   */
   readonly mappedEa?: string;
   /**
   * The Cisco ISE attribute name that is enabled for publishsing from a Cisco ISE endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#name DataNiosIpamNetwork#name}
   */
   readonly name?: string;
 }
@@ -4171,13 +4171,13 @@ export interface DataNiosIpamNetworkResultSubscribeSettings {
   /**
   * The list of Cisco ISE attributes allowed for subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enabled_attributes DataNiosIpamNetwork#enabled_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enabled_attributes DataNiosIpamNetwork#enabled_attributes}
   */
   readonly enabledAttributes?: string[];
   /**
   * The list of NIOS extensible attributes to Cisco ISE attributes mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#mapped_ea_attributes DataNiosIpamNetwork#mapped_ea_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#mapped_ea_attributes DataNiosIpamNetwork#mapped_ea_attributes}
   */
   readonly mappedEaAttributes?: DataNiosIpamNetworkResultSubscribeSettingsMappedEaAttributes[] | cdktf.IResolvable;
 }
@@ -4302,7 +4302,7 @@ export interface DataNiosIpamNetworkResultVlans {
   /**
   * Reference to the underlying StaticVlan object vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#vlan DataNiosIpamNetwork#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#vlan DataNiosIpamNetwork#vlan}
   */
   readonly vlan?: { [key: string]: string };
 }
@@ -4430,19 +4430,19 @@ export interface DataNiosIpamNetworkResultZoneAssociations {
   /**
   * The FQDN of the authoritative forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#fqdn DataNiosIpamNetwork#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#fqdn DataNiosIpamNetwork#fqdn}
   */
   readonly fqdn: string;
   /**
   * True if this is the default zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#is_default DataNiosIpamNetwork#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#is_default DataNiosIpamNetwork#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The view to which the zone belongs. If a view is not specified, the default view is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#view DataNiosIpamNetwork#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#view DataNiosIpamNetwork#view}
   */
   readonly view?: string;
 }
@@ -4615,595 +4615,595 @@ export interface DataNiosIpamNetworkResult {
   /**
   * Authority for the DHCP network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#authority DataNiosIpamNetwork#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#authority DataNiosIpamNetwork#authority}
   */
   readonly authority?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether reverse zones are automatically created when the network is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#auto_create_reversezone DataNiosIpamNetwork#auto_create_reversezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#auto_create_reversezone DataNiosIpamNetwork#auto_create_reversezone}
   */
   readonly autoCreateReversezone?: boolean | cdktf.IResolvable;
   /**
   * The bootfile name for the network. You can configure the DHCP server to support clients that use the boot file name option in their DHCPREQUEST messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#bootfile DataNiosIpamNetwork#bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#bootfile DataNiosIpamNetwork#bootfile}
   */
   readonly bootfile?: string;
   /**
   * The bootserver address for the network. You can specify the name and/or IP address of the boot server that the host needs to boot. The boot server IPv4 Address or name in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#bootserver DataNiosIpamNetwork#bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#bootserver DataNiosIpamNetwork#bootserver}
   */
   readonly bootserver?: string;
   /**
   * Structure containing all cloud API related information for this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#cloud_info DataNiosIpamNetwork#cloud_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#cloud_info DataNiosIpamNetwork#cloud_info}
   */
   readonly cloudInfo?: DataNiosIpamNetworkResultCloudInfo;
   /**
   * Boolean flag to indicate if the network is shared with cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#cloud_shared DataNiosIpamNetwork#cloud_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#cloud_shared DataNiosIpamNetwork#cloud_shared}
   */
   readonly cloudShared?: boolean | cdktf.IResolvable;
   /**
   * Comment for the network, maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#comment DataNiosIpamNetwork#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#comment DataNiosIpamNetwork#comment}
   */
   readonly comment?: string;
   /**
   * The dynamic DNS domain name the appliance uses specifically for DDNS updates for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_domainname DataNiosIpamNetwork#ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_domainname DataNiosIpamNetwork#ddns_domainname}
   */
   readonly ddnsDomainname?: string;
   /**
   * If this field is set to True, the DHCP server generates a hostname and updates DNS with it when the DHCP client request does not contain a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_generate_hostname DataNiosIpamNetwork#ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_generate_hostname DataNiosIpamNetwork#ddns_generate_hostname}
   */
   readonly ddnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether only the DHCP server is allowed to update DNS, regardless of the DHCP clients requests. Note that changes for this field take effect only if ddns_use_option81 is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_server_always_updates DataNiosIpamNetwork#ddns_server_always_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_server_always_updates DataNiosIpamNetwork#ddns_server_always_updates}
   */
   readonly ddnsServerAlwaysUpdates?: boolean | cdktf.IResolvable;
   /**
   * The DNS update Time to Live (TTL) value of a DHCP network object. The TTL is a 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_ttl DataNiosIpamNetwork#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_ttl DataNiosIpamNetwork#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
   * By default, the DHCP server does not update DNS when it allocates a fixed address to a client. You can configure the DHCP server to update the A and PTR records of a client with a fixed address. When this feature is enabled and the DHCP server adds A and PTR records for a fixed address, the DHCP server never discards the records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_update_fixed_addresses DataNiosIpamNetwork#ddns_update_fixed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_update_fixed_addresses DataNiosIpamNetwork#ddns_update_fixed_addresses}
   */
   readonly ddnsUpdateFixedAddresses?: boolean | cdktf.IResolvable;
   /**
   * The support for DHCP Option 81 at the network level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ddns_use_option81 DataNiosIpamNetwork#ddns_use_option81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ddns_use_option81 DataNiosIpamNetwork#ddns_use_option81}
   */
   readonly ddnsUseOption81?: boolean | cdktf.IResolvable;
   /**
   * The reason for deleting the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#delete_reason DataNiosIpamNetwork#delete_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#delete_reason DataNiosIpamNetwork#delete_reason}
   */
   readonly deleteReason?: string;
   /**
   * If set to true, BOOTP settings are disabled and BOOTP requests will be denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#deny_bootp DataNiosIpamNetwork#deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#deny_bootp DataNiosIpamNetwork#deny_bootp}
   */
   readonly denyBootp?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a network is disabled or not. When this is set to False, the network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#disable DataNiosIpamNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Discovered bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#discovered_bridge_domain DataNiosIpamNetwork#discovered_bridge_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#discovered_bridge_domain DataNiosIpamNetwork#discovered_bridge_domain}
   */
   readonly discoveredBridgeDomain?: string;
   /**
   * Discovered tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#discovered_tenant DataNiosIpamNetwork#discovered_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#discovered_tenant DataNiosIpamNetwork#discovered_tenant}
   */
   readonly discoveredTenant?: string;
   /**
   * The discovery basic poll settings for this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#discovery_basic_poll_settings DataNiosIpamNetwork#discovery_basic_poll_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#discovery_basic_poll_settings DataNiosIpamNetwork#discovery_basic_poll_settings}
   */
   readonly discoveryBasicPollSettings?: DataNiosIpamNetworkResultDiscoveryBasicPollSettings;
   /**
   * The discovery blackout setting for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#discovery_blackout_setting DataNiosIpamNetwork#discovery_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#discovery_blackout_setting DataNiosIpamNetwork#discovery_blackout_setting}
   */
   readonly discoveryBlackoutSetting?: DataNiosIpamNetworkResultDiscoveryBlackoutSetting;
   /**
   * The member that will run discovery for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#discovery_member DataNiosIpamNetwork#discovery_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#discovery_member DataNiosIpamNetwork#discovery_member}
   */
   readonly discoveryMember?: string;
   /**
   * The e-mail lists to which the appliance sends DHCP threshold alarm e-mail messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#email_list DataNiosIpamNetwork#email_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#email_list DataNiosIpamNetwork#email_list}
   */
   readonly emailList?: string[];
   /**
   * The dynamic DNS updates flag of a DHCP network object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_ddns DataNiosIpamNetwork#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_ddns DataNiosIpamNetwork#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP thresholds are enabled for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_dhcp_thresholds DataNiosIpamNetwork#enable_dhcp_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_dhcp_thresholds DataNiosIpamNetwork#enable_dhcp_thresholds}
   */
   readonly enableDhcpThresholds?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a discovery is enabled or not for this network. When this is set to False, the network discovery is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_discovery DataNiosIpamNetwork#enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_discovery DataNiosIpamNetwork#enable_discovery}
   */
   readonly enableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP threshold warnings are sent through email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_email_warnings DataNiosIpamNetwork#enable_email_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_email_warnings DataNiosIpamNetwork#enable_email_warnings}
   */
   readonly enableEmailWarnings?: boolean | cdktf.IResolvable;
   /**
   * Determines if IFMAP publishing is enabled for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_ifmap_publishing DataNiosIpamNetwork#enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_ifmap_publishing DataNiosIpamNetwork#enable_ifmap_publishing}
   */
   readonly enableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the network should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_immediate_discovery DataNiosIpamNetwork#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_immediate_discovery DataNiosIpamNetwork#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Set this to True if you want the DHCP server to use a different lease time for PXE clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_pxe_lease_time DataNiosIpamNetwork#enable_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_pxe_lease_time DataNiosIpamNetwork#enable_pxe_lease_time}
   */
   readonly enablePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Determines if DHCP threshold warnings are send through SNMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#enable_snmp_warnings DataNiosIpamNetwork#enable_snmp_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#enable_snmp_warnings DataNiosIpamNetwork#enable_snmp_warnings}
   */
   readonly enableSnmpWarnings?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#extattrs DataNiosIpamNetwork#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#extattrs DataNiosIpamNetwork#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * This field contains the federated realms associated to this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#federated_realms DataNiosIpamNetwork#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#federated_realms DataNiosIpamNetwork#federated_realms}
   */
   readonly federatedRealms?: DataNiosIpamNetworkResultFederatedRealms[] | cdktf.IResolvable;
   /**
   * Specifies the function call to execute. The `next_available_network` function is supported for Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#func_call DataNiosIpamNetwork#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#func_call DataNiosIpamNetwork#func_call}
   */
   readonly funcCall?: DataNiosIpamNetworkResultFuncCall;
   /**
   * The percentage of DHCP network usage threshold above which network usage is not expected and may warrant your attention. When the high watermark is reached, the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#high_water_mark DataNiosIpamNetwork#high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#high_water_mark DataNiosIpamNetwork#high_water_mark}
   */
   readonly highWaterMark?: number;
   /**
   * The percentage of DHCP network usage below which the corresponding SNMP trap is reset. A number that specifies the percentage of allocated addresses. The range is from 1 to 100. The high watermark reset value must be lower than the high watermark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#high_water_mark_reset DataNiosIpamNetwork#high_water_mark_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#high_water_mark_reset DataNiosIpamNetwork#high_water_mark_reset}
   */
   readonly highWaterMarkReset?: number;
   /**
   * If this field is set to False, the appliance returns all DHCP options the client is eligible to receive, rather than only the list of options the client has requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ignore_dhcp_option_list_request DataNiosIpamNetwork#ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ignore_dhcp_option_list_request DataNiosIpamNetwork#ignore_dhcp_option_list_request}
   */
   readonly ignoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the appliance will ignore DHCP client IDs or MAC addresses. Valid values are "NONE", "CLIENT", or "MACADDR". The default is "NONE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ignore_id DataNiosIpamNetwork#ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ignore_id DataNiosIpamNetwork#ignore_id}
   */
   readonly ignoreId?: string;
   /**
   * A list of MAC addresses the appliance will ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ignore_mac_addresses DataNiosIpamNetwork#ignore_mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ignore_mac_addresses DataNiosIpamNetwork#ignore_mac_addresses}
   */
   readonly ignoreMacAddresses?: string[];
   /**
   * The e-mail lists to which the appliance sends IPAM threshold alarm e-mail messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipam_email_addresses DataNiosIpamNetwork#ipam_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipam_email_addresses DataNiosIpamNetwork#ipam_email_addresses}
   */
   readonly ipamEmailAddresses?: string[];
   /**
   * The IPAM threshold settings for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipam_threshold_settings DataNiosIpamNetwork#ipam_threshold_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipam_threshold_settings DataNiosIpamNetwork#ipam_threshold_settings}
   */
   readonly ipamThresholdSettings?: DataNiosIpamNetworkResultIpamThresholdSettings;
   /**
   * The IPAM trap settings for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipam_trap_settings DataNiosIpamNetwork#ipam_trap_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipam_trap_settings DataNiosIpamNetwork#ipam_trap_settings}
   */
   readonly ipamTrapSettings?: DataNiosIpamNetworkResultIpamTrapSettings;
   /**
   * The IPv4 Address of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#ipv4addr DataNiosIpamNetwork#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * An integer that specifies the period of time (in seconds) that frees and backs up leases remained in the database before they are automatically deleted. To disable lease scavenging, set the parameter to -1. The minimum positive value must be greater than 86400 seconds (1 day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#lease_scavenge_time DataNiosIpamNetwork#lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#lease_scavenge_time DataNiosIpamNetwork#lease_scavenge_time}
   */
   readonly leaseScavengeTime?: number;
   /**
   * This field contains the logic filters to be applied on the this network. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#logic_filter_rules DataNiosIpamNetwork#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#logic_filter_rules DataNiosIpamNetwork#logic_filter_rules}
   */
   readonly logicFilterRules?: DataNiosIpamNetworkResultLogicFilterRules[] | cdktf.IResolvable;
   /**
   * The percentage of DHCP network usage below which the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#low_water_mark DataNiosIpamNetwork#low_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#low_water_mark DataNiosIpamNetwork#low_water_mark}
   */
   readonly lowWaterMark?: number;
   /**
   * The percentage of DHCP network usage threshold below which network usage is not expected and may warrant your attention. When the low watermark is crossed, the Infoblox appliance generates a syslog message and sends a warning (if enabled). A number that specifies the percentage of allocated addresses. The range is from 1 to 100. The low watermark reset value must be higher than the low watermark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#low_water_mark_reset DataNiosIpamNetwork#low_water_mark_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#low_water_mark_reset DataNiosIpamNetwork#low_water_mark_reset}
   */
   readonly lowWaterMarkReset?: number;
   /**
   * A list of members or Microsoft (r) servers that serve DHCP for this network. All members in the array must be of the same type. The struct type must be indicated in each element, by setting the "_struct" member to the struct type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#members DataNiosIpamNetwork#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#members DataNiosIpamNetwork#members}
   */
   readonly members?: DataNiosIpamNetworkResultMembers[] | cdktf.IResolvable;
   /**
   * This field controls whether this object is synchronized with the Multi-Grid Master. If this field is set to True, objects are not synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#mgm_private DataNiosIpamNetwork#mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#mgm_private DataNiosIpamNetwork#mgm_private}
   */
   readonly mgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * The netmask of the network in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#netmask DataNiosIpamNetwork#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#netmask DataNiosIpamNetwork#netmask}
   */
   readonly netmask?: number;
   /**
   * The IPv4 Address of the record. This field is `required` unless a `func_call` is specified to invoke `next_available_network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#network DataNiosIpamNetwork#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#network DataNiosIpamNetwork#network}
   */
   readonly network?: string;
   /**
   * The name of the network view in which this network resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#network_view DataNiosIpamNetwork#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#network_view DataNiosIpamNetwork#network_view}
   */
   readonly networkView?: string;
   /**
   * The name in FQDN and/or IPv4 Address of the next server that the host needs to boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#nextserver DataNiosIpamNetwork#nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#nextserver DataNiosIpamNetwork#nextserver}
   */
   readonly nextserver?: string;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#options DataNiosIpamNetwork#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#options DataNiosIpamNetwork#options}
   */
   readonly options?: DataNiosIpamNetworkResultOptions[] | cdktf.IResolvable;
   /**
   * The port control blackout setting for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#port_control_blackout_setting DataNiosIpamNetwork#port_control_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#port_control_blackout_setting DataNiosIpamNetwork#port_control_blackout_setting}
   */
   readonly portControlBlackoutSetting?: DataNiosIpamNetworkResultPortControlBlackoutSetting;
   /**
   * The PXE lease time value of a DHCP Network object. Some hosts use PXE (Preboot Execution Environment) to boot remotely from a server. To better manage your IP resources, set a different lease time for PXE boot requests. You can configure the DHCP server to allocate an IP address with a shorter lease time to hosts that send PXE boot requests, so IP addresses are not leased longer than necessary. A 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#pxe_lease_time DataNiosIpamNetwork#pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#pxe_lease_time DataNiosIpamNetwork#pxe_lease_time}
   */
   readonly pxeLeaseTime?: number;
   /**
   * If the field is set to True, the leases are kept in the Recycle Bin until one week after expiration. Otherwise, the leases are permanently deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#recycle_leases DataNiosIpamNetwork#recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#recycle_leases DataNiosIpamNetwork#recycle_leases}
   */
   readonly recycleLeases?: boolean | cdktf.IResolvable;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#restart_if_needed DataNiosIpamNetwork#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#restart_if_needed DataNiosIpamNetwork#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The RIR organization assoicated with the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#rir_organization DataNiosIpamNetwork#rir_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#rir_organization DataNiosIpamNetwork#rir_organization}
   */
   readonly rirOrganization?: string;
   /**
   * The RIR registration action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#rir_registration_action DataNiosIpamNetwork#rir_registration_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#rir_registration_action DataNiosIpamNetwork#rir_registration_action}
   */
   readonly rirRegistrationAction?: string;
   /**
   * The registration status of the network in RIR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#rir_registration_status DataNiosIpamNetwork#rir_registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#rir_registration_status DataNiosIpamNetwork#rir_registration_status}
   */
   readonly rirRegistrationStatus?: string;
   /**
   * If the field is set to True, the discovery blackout setting will be used for port control blackout setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#same_port_control_discovery_blackout DataNiosIpamNetwork#same_port_control_discovery_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#same_port_control_discovery_blackout DataNiosIpamNetwork#same_port_control_discovery_blackout}
   */
   readonly samePortControlDiscoveryBlackout?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to send the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#send_rir_request DataNiosIpamNetwork#send_rir_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#send_rir_request DataNiosIpamNetwork#send_rir_request}
   */
   readonly sendRirRequest?: boolean | cdktf.IResolvable;
   /**
   * The DHCP Network Cisco ISE subscribe settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#subscribe_settings DataNiosIpamNetwork#subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#subscribe_settings DataNiosIpamNetwork#subscribe_settings}
   */
   readonly subscribeSettings?: DataNiosIpamNetworkResultSubscribeSettings;
   /**
   * If set on creation, the network is created according to the values specified in the selected template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#template DataNiosIpamNetwork#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#template DataNiosIpamNetwork#template}
   */
   readonly template?: string;
   /**
   * Determines whether the DHCP IPv4 Network is unmanaged or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#unmanaged DataNiosIpamNetwork#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#unmanaged DataNiosIpamNetwork#unmanaged}
   */
   readonly unmanaged?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether the DHCP server updates DNS when a DHCP lease is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#update_dns_on_lease_renewal DataNiosIpamNetwork#update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#update_dns_on_lease_renewal DataNiosIpamNetwork#update_dns_on_lease_renewal}
   */
   readonly updateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_authority DataNiosIpamNetwork#use_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_authority DataNiosIpamNetwork#use_authority}
   */
   readonly useAuthority?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_blackout_setting , port_control_blackout_setting, same_port_control_discovery_blackout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_blackout_setting DataNiosIpamNetwork#use_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_blackout_setting DataNiosIpamNetwork#use_blackout_setting}
   */
   readonly useBlackoutSetting?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_bootfile DataNiosIpamNetwork#use_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_bootfile DataNiosIpamNetwork#use_bootfile}
   */
   readonly useBootfile?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_bootserver DataNiosIpamNetwork#use_bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_bootserver DataNiosIpamNetwork#use_bootserver}
   */
   readonly useBootserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_domainname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ddns_domainname DataNiosIpamNetwork#use_ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ddns_domainname DataNiosIpamNetwork#use_ddns_domainname}
   */
   readonly useDdnsDomainname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_generate_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ddns_generate_hostname DataNiosIpamNetwork#use_ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ddns_generate_hostname DataNiosIpamNetwork#use_ddns_generate_hostname}
   */
   readonly useDdnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ddns_ttl DataNiosIpamNetwork#use_ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ddns_ttl DataNiosIpamNetwork#use_ddns_ttl}
   */
   readonly useDdnsTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_update_fixed_addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ddns_update_fixed_addresses DataNiosIpamNetwork#use_ddns_update_fixed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ddns_update_fixed_addresses DataNiosIpamNetwork#use_ddns_update_fixed_addresses}
   */
   readonly useDdnsUpdateFixedAddresses?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_use_option81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ddns_use_option81 DataNiosIpamNetwork#use_ddns_use_option81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ddns_use_option81 DataNiosIpamNetwork#use_ddns_use_option81}
   */
   readonly useDdnsUseOption81?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: deny_bootp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_deny_bootp DataNiosIpamNetwork#use_deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_deny_bootp DataNiosIpamNetwork#use_deny_bootp}
   */
   readonly useDenyBootp?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_basic_poll_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_discovery_basic_polling_settings DataNiosIpamNetwork#use_discovery_basic_polling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_discovery_basic_polling_settings DataNiosIpamNetwork#use_discovery_basic_polling_settings}
   */
   readonly useDiscoveryBasicPollingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: email_list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_email_list DataNiosIpamNetwork#use_email_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_email_list DataNiosIpamNetwork#use_email_list}
   */
   readonly useEmailList?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_enable_ddns DataNiosIpamNetwork#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_enable_ddns DataNiosIpamNetwork#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_dhcp_thresholds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_enable_dhcp_thresholds DataNiosIpamNetwork#use_enable_dhcp_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_enable_dhcp_thresholds DataNiosIpamNetwork#use_enable_dhcp_thresholds}
   */
   readonly useEnableDhcpThresholds?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_member , enable_discovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_enable_discovery DataNiosIpamNetwork#use_enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_enable_discovery DataNiosIpamNetwork#use_enable_discovery}
   */
   readonly useEnableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ifmap_publishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_enable_ifmap_publishing DataNiosIpamNetwork#use_enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_enable_ifmap_publishing DataNiosIpamNetwork#use_enable_ifmap_publishing}
   */
   readonly useEnableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_dhcp_option_list_request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ignore_dhcp_option_list_request DataNiosIpamNetwork#use_ignore_dhcp_option_list_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ignore_dhcp_option_list_request DataNiosIpamNetwork#use_ignore_dhcp_option_list_request}
   */
   readonly useIgnoreDhcpOptionListRequest?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ignore_id DataNiosIpamNetwork#use_ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ignore_id DataNiosIpamNetwork#use_ignore_id}
   */
   readonly useIgnoreId?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ipam_email_addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ipam_email_addresses DataNiosIpamNetwork#use_ipam_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ipam_email_addresses DataNiosIpamNetwork#use_ipam_email_addresses}
   */
   readonly useIpamEmailAddresses?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ipam_threshold_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ipam_threshold_settings DataNiosIpamNetwork#use_ipam_threshold_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ipam_threshold_settings DataNiosIpamNetwork#use_ipam_threshold_settings}
   */
   readonly useIpamThresholdSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ipam_trap_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_ipam_trap_settings DataNiosIpamNetwork#use_ipam_trap_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_ipam_trap_settings DataNiosIpamNetwork#use_ipam_trap_settings}
   */
   readonly useIpamTrapSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: lease_scavenge_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_lease_scavenge_time DataNiosIpamNetwork#use_lease_scavenge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_lease_scavenge_time DataNiosIpamNetwork#use_lease_scavenge_time}
   */
   readonly useLeaseScavengeTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_logic_filter_rules DataNiosIpamNetwork#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_logic_filter_rules DataNiosIpamNetwork#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: mgm_private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_mgm_private DataNiosIpamNetwork#use_mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_mgm_private DataNiosIpamNetwork#use_mgm_private}
   */
   readonly useMgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nextserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_nextserver DataNiosIpamNetwork#use_nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_nextserver DataNiosIpamNetwork#use_nextserver}
   */
   readonly useNextserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_options DataNiosIpamNetwork#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_options DataNiosIpamNetwork#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: pxe_lease_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_pxe_lease_time DataNiosIpamNetwork#use_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_pxe_lease_time DataNiosIpamNetwork#use_pxe_lease_time}
   */
   readonly usePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: recycle_leases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_recycle_leases DataNiosIpamNetwork#use_recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_recycle_leases DataNiosIpamNetwork#use_recycle_leases}
   */
   readonly useRecycleLeases?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: subscribe_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_subscribe_settings DataNiosIpamNetwork#use_subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_subscribe_settings DataNiosIpamNetwork#use_subscribe_settings}
   */
   readonly useSubscribeSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: update_dns_on_lease_renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_update_dns_on_lease_renewal DataNiosIpamNetwork#use_update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_update_dns_on_lease_renewal DataNiosIpamNetwork#use_update_dns_on_lease_renewal}
   */
   readonly useUpdateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: zone_associations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#use_zone_associations DataNiosIpamNetwork#use_zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#use_zone_associations DataNiosIpamNetwork#use_zone_associations}
   */
   readonly useZoneAssociations?: boolean | cdktf.IResolvable;
   /**
   * List of VLANs assigned to Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#vlans DataNiosIpamNetwork#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#vlans DataNiosIpamNetwork#vlans}
   */
   readonly vlans?: DataNiosIpamNetworkResultVlans[] | cdktf.IResolvable;
   /**
   * The list of zones associated with this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#zone_associations DataNiosIpamNetwork#zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#zone_associations DataNiosIpamNetwork#zone_associations}
   */
   readonly zoneAssociations?: DataNiosIpamNetworkResultZoneAssociations[] | cdktf.IResolvable;
 }
@@ -8283,7 +8283,7 @@ export class DataNiosIpamNetworkResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network nios_ipam_network}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network nios_ipam_network}
 */
 export class DataNiosIpamNetwork extends cdktf.TerraformDataSource {
 
@@ -8299,7 +8299,7 @@ export class DataNiosIpamNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosIpamNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosIpamNetwork to import
-  * @param importFromId The id of the existing DataNiosIpamNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosIpamNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosIpamNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8311,7 +8311,7 @@ export class DataNiosIpamNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network nios_ipam_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network nios_ipam_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8322,8 +8322,8 @@ export class DataNiosIpamNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_ipam_network',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

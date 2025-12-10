@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessPlatformTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Version Label for Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#branch_name DataHarnessPlatformTemplate#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#branch_name DataHarnessPlatformTemplate#branch_name}
   */
   readonly branchName?: string;
   /**
   * Defines child template type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#child_type DataHarnessPlatformTemplate#child_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#child_type DataHarnessPlatformTemplate#child_type}
   */
   readonly childType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#id DataHarnessPlatformTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#id DataHarnessPlatformTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataHarnessPlatformTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#identifier DataHarnessPlatformTemplate#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#identifier DataHarnessPlatformTemplate#identifier}
   */
   readonly identifier?: string;
   /**
   * True if given version for template to be set as stable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#is_stable DataHarnessPlatformTemplate#is_stable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#is_stable DataHarnessPlatformTemplate#is_stable}
   */
   readonly isStable?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#name DataHarnessPlatformTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#name DataHarnessPlatformTemplate#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#org_id DataHarnessPlatformTemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#org_id DataHarnessPlatformTemplate#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#project_id DataHarnessPlatformTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#project_id DataHarnessPlatformTemplate#project_id}
   */
   readonly projectId?: string;
   /**
   * Scope of template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#scope DataHarnessPlatformTemplate#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#scope DataHarnessPlatformTemplate#scope}
   */
   readonly scope?: string;
   /**
   * Version Label for Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#version DataHarnessPlatformTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#version DataHarnessPlatformTemplate#version}
   */
   readonly version?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#git_details DataHarnessPlatformTemplate#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#git_details DataHarnessPlatformTemplate#git_details}
   */
   readonly gitDetails?: DataHarnessPlatformTemplateGitDetails;
 }
@@ -79,43 +79,43 @@ export interface DataHarnessPlatformTemplateGitDetails {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#branch_name DataHarnessPlatformTemplate#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#branch_name DataHarnessPlatformTemplate#branch_name}
   */
   readonly branchName?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#file_path DataHarnessPlatformTemplate#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#file_path DataHarnessPlatformTemplate#file_path}
   */
   readonly filePath?: string;
   /**
   * File url of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#file_url DataHarnessPlatformTemplate#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#file_url DataHarnessPlatformTemplate#file_url}
   */
   readonly fileUrl?: string;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#last_commit_id DataHarnessPlatformTemplate#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#last_commit_id DataHarnessPlatformTemplate#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#last_object_id DataHarnessPlatformTemplate#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#last_object_id DataHarnessPlatformTemplate#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#repo_name DataHarnessPlatformTemplate#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#repo_name DataHarnessPlatformTemplate#repo_name}
   */
   readonly repoName?: string;
   /**
   * Repo url of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#repo_url DataHarnessPlatformTemplate#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#repo_url DataHarnessPlatformTemplate#repo_url}
   */
   readonly repoUrl?: string;
 }
@@ -373,7 +373,7 @@ export class DataHarnessPlatformTemplateGitDetailsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template harness_platform_template}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template harness_platform_template}
 */
 export class DataHarnessPlatformTemplate extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataHarnessPlatformTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformTemplate to import
-  * @param importFromId The id of the existing DataHarnessPlatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataHarnessPlatformTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_template harness_platform_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_template harness_platform_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataHarnessPlatformTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_template',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

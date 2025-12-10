@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosSecurityAdminGroupConfig extends cdktf.TerraformMetaArg
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#extattrfilters DataNiosSecurityAdminGroup#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#extattrfilters DataNiosSecurityAdminGroup#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#filters DataNiosSecurityAdminGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#filters DataNiosSecurityAdminGroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#max_results DataNiosSecurityAdminGroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#max_results DataNiosSecurityAdminGroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#paging DataNiosSecurityAdminGroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#paging DataNiosSecurityAdminGroup#paging}
   */
   readonly paging?: number;
 }
@@ -36,253 +36,253 @@ export interface DataNiosSecurityAdminGroupResultAdminSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#et_bfd DataNiosSecurityAdminGroup#et_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#et_bfd DataNiosSecurityAdminGroup#et_bfd}
   */
   readonly etBfd?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_admin_group_acl DataNiosSecurityAdminGroup#set_admin_group_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_admin_group_acl DataNiosSecurityAdminGroup#set_admin_group_acl}
   */
   readonly setAdminGroupAcl?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_analytics_database_dump DataNiosSecurityAdminGroup#set_analytics_database_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_analytics_database_dump DataNiosSecurityAdminGroup#set_analytics_database_dump}
   */
   readonly setAnalyticsDatabaseDump?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_analytics_parameter DataNiosSecurityAdminGroup#set_analytics_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_analytics_parameter DataNiosSecurityAdminGroup#set_analytics_parameter}
   */
   readonly setAnalyticsParameter?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_bfd DataNiosSecurityAdminGroup#set_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_bfd DataNiosSecurityAdminGroup#set_bfd}
   */
   readonly setBfd?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_bgp DataNiosSecurityAdminGroup#set_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_bgp DataNiosSecurityAdminGroup#set_bgp}
   */
   readonly setBgp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_clean_mscache DataNiosSecurityAdminGroup#set_clean_mscache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_clean_mscache DataNiosSecurityAdminGroup#set_clean_mscache}
   */
   readonly setCleanMscache?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_collect_old_logs DataNiosSecurityAdminGroup#set_collect_old_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_collect_old_logs DataNiosSecurityAdminGroup#set_collect_old_logs}
   */
   readonly setCollectOldLogs?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_core_files_quota DataNiosSecurityAdminGroup#set_core_files_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_core_files_quota DataNiosSecurityAdminGroup#set_core_files_quota}
   */
   readonly setCoreFilesQuota?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_debug DataNiosSecurityAdminGroup#set_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_debug DataNiosSecurityAdminGroup#set_debug}
   */
   readonly setDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_debug_analytics DataNiosSecurityAdminGroup#set_debug_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_debug_analytics DataNiosSecurityAdminGroup#set_debug_analytics}
   */
   readonly setDebugAnalytics?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_delete_tasks_interval DataNiosSecurityAdminGroup#set_delete_tasks_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_delete_tasks_interval DataNiosSecurityAdminGroup#set_delete_tasks_interval}
   */
   readonly setDeleteTasksInterval?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_disable_gui_one_click_support DataNiosSecurityAdminGroup#set_disable_gui_one_click_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_disable_gui_one_click_support DataNiosSecurityAdminGroup#set_disable_gui_one_click_support}
   */
   readonly setDisableGuiOneClickSupport?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_enable_doh_key_logging DataNiosSecurityAdminGroup#set_enable_doh_key_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_enable_doh_key_logging DataNiosSecurityAdminGroup#set_enable_doh_key_logging}
   */
   readonly setEnableDohKeyLogging?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_enable_dot_key_logging DataNiosSecurityAdminGroup#set_enable_dot_key_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_enable_dot_key_logging DataNiosSecurityAdminGroup#set_enable_dot_key_logging}
   */
   readonly setEnableDotKeyLogging?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_expertmode DataNiosSecurityAdminGroup#set_expertmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_expertmode DataNiosSecurityAdminGroup#set_expertmode}
   */
   readonly setExpertmode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_hardware_type DataNiosSecurityAdminGroup#set_hardware_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_hardware_type DataNiosSecurityAdminGroup#set_hardware_type}
   */
   readonly setHardwareType?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_hotfix DataNiosSecurityAdminGroup#set_hotfix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_hotfix DataNiosSecurityAdminGroup#set_hotfix}
   */
   readonly setHotfix?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_hsm_group DataNiosSecurityAdminGroup#set_hsm_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_hsm_group DataNiosSecurityAdminGroup#set_hsm_group}
   */
   readonly setHsmGroup?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_hw_ident DataNiosSecurityAdminGroup#set_hw_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_hw_ident DataNiosSecurityAdminGroup#set_hw_ident}
   */
   readonly setHwIdent?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ibtrap DataNiosSecurityAdminGroup#set_ibtrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ibtrap DataNiosSecurityAdminGroup#set_ibtrap}
   */
   readonly setIbtrap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_lines DataNiosSecurityAdminGroup#set_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_lines DataNiosSecurityAdminGroup#set_lines}
   */
   readonly setLines?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_maintenancemode DataNiosSecurityAdminGroup#set_maintenancemode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_maintenancemode DataNiosSecurityAdminGroup#set_maintenancemode}
   */
   readonly setMaintenancemode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_mgm DataNiosSecurityAdminGroup#set_mgm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_mgm DataNiosSecurityAdminGroup#set_mgm}
   */
   readonly setMgm?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ms_max_connection DataNiosSecurityAdminGroup#set_ms_max_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ms_max_connection DataNiosSecurityAdminGroup#set_ms_max_connection}
   */
   readonly setMsMaxConnection?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_nosafemode DataNiosSecurityAdminGroup#set_nosafemode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_nosafemode DataNiosSecurityAdminGroup#set_nosafemode}
   */
   readonly setNosafemode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ntp_stratum DataNiosSecurityAdminGroup#set_ntp_stratum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ntp_stratum DataNiosSecurityAdminGroup#set_ntp_stratum}
   */
   readonly setNtpStratum?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ocsp DataNiosSecurityAdminGroup#set_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ocsp DataNiosSecurityAdminGroup#set_ocsp}
   */
   readonly setOcsp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_pc_domain DataNiosSecurityAdminGroup#set_pc_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_pc_domain DataNiosSecurityAdminGroup#set_pc_domain}
   */
   readonly setPcDomain?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_purge_restart_objects DataNiosSecurityAdminGroup#set_purge_restart_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_purge_restart_objects DataNiosSecurityAdminGroup#set_purge_restart_objects}
   */
   readonly setPurgeRestartObjects?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_report_frequency DataNiosSecurityAdminGroup#set_report_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_report_frequency DataNiosSecurityAdminGroup#set_report_frequency}
   */
   readonly setReportFrequency?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_reporting_user_capabilities DataNiosSecurityAdminGroup#set_reporting_user_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_reporting_user_capabilities DataNiosSecurityAdminGroup#set_reporting_user_capabilities}
   */
   readonly setReportingUserCapabilities?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_rpz_recursive_only DataNiosSecurityAdminGroup#set_rpz_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_rpz_recursive_only DataNiosSecurityAdminGroup#set_rpz_recursive_only}
   */
   readonly setRpzRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_safemode DataNiosSecurityAdminGroup#set_safemode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_safemode DataNiosSecurityAdminGroup#set_safemode}
   */
   readonly setSafemode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_scheduled DataNiosSecurityAdminGroup#set_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_scheduled DataNiosSecurityAdminGroup#set_scheduled}
   */
   readonly setScheduled?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_snmptrap DataNiosSecurityAdminGroup#set_snmptrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_snmptrap DataNiosSecurityAdminGroup#set_snmptrap}
   */
   readonly setSnmptrap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_sysname DataNiosSecurityAdminGroup#set_sysname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_sysname DataNiosSecurityAdminGroup#set_sysname}
   */
   readonly setSysname?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_term DataNiosSecurityAdminGroup#set_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_term DataNiosSecurityAdminGroup#set_term}
   */
   readonly setTerm?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_thresholdtrap DataNiosSecurityAdminGroup#set_thresholdtrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_thresholdtrap DataNiosSecurityAdminGroup#set_thresholdtrap}
   */
   readonly setThresholdtrap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_transfer_reporting_data DataNiosSecurityAdminGroup#set_transfer_reporting_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_transfer_reporting_data DataNiosSecurityAdminGroup#set_transfer_reporting_data}
   */
   readonly setTransferReportingData?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_transfer_supportbundle DataNiosSecurityAdminGroup#set_transfer_supportbundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_transfer_supportbundle DataNiosSecurityAdminGroup#set_transfer_supportbundle}
   */
   readonly setTransferSupportbundle?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_wred DataNiosSecurityAdminGroup#set_wred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_wred DataNiosSecurityAdminGroup#set_wred}
   */
   readonly setWred?: boolean | cdktf.IResolvable;
 }
@@ -1577,295 +1577,295 @@ export interface DataNiosSecurityAdminGroupResultAdminShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_admin_group_acl DataNiosSecurityAdminGroup#show_admin_group_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_admin_group_acl DataNiosSecurityAdminGroup#show_admin_group_acl}
   */
   readonly showAdminGroupAcl?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_analytics_database_dumps DataNiosSecurityAdminGroup#show_analytics_database_dumps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_analytics_database_dumps DataNiosSecurityAdminGroup#show_analytics_database_dumps}
   */
   readonly showAnalyticsDatabaseDumps?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_analytics_parameter DataNiosSecurityAdminGroup#show_analytics_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_analytics_parameter DataNiosSecurityAdminGroup#show_analytics_parameter}
   */
   readonly showAnalyticsParameter?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_arp DataNiosSecurityAdminGroup#show_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_arp DataNiosSecurityAdminGroup#show_arp}
   */
   readonly showArp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_bfd DataNiosSecurityAdminGroup#show_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_bfd DataNiosSecurityAdminGroup#show_bfd}
   */
   readonly showBfd?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_bgp DataNiosSecurityAdminGroup#show_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_bgp DataNiosSecurityAdminGroup#show_bgp}
   */
   readonly showBgp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_capacity DataNiosSecurityAdminGroup#show_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_capacity DataNiosSecurityAdminGroup#show_capacity}
   */
   readonly showCapacity?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_clusterd_info DataNiosSecurityAdminGroup#show_clusterd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_clusterd_info DataNiosSecurityAdminGroup#show_clusterd_info}
   */
   readonly showClusterdInfo?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_config DataNiosSecurityAdminGroup#show_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_config DataNiosSecurityAdminGroup#show_config}
   */
   readonly showConfig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_cores DataNiosSecurityAdminGroup#show_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_cores DataNiosSecurityAdminGroup#show_cores}
   */
   readonly showCores?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_coresummary DataNiosSecurityAdminGroup#show_coresummary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_coresummary DataNiosSecurityAdminGroup#show_coresummary}
   */
   readonly showCoresummary?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_cpu DataNiosSecurityAdminGroup#show_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_cpu DataNiosSecurityAdminGroup#show_cpu}
   */
   readonly showCpu?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_csp_threat_db DataNiosSecurityAdminGroup#show_csp_threat_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_csp_threat_db DataNiosSecurityAdminGroup#show_csp_threat_db}
   */
   readonly showCspThreatDb?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_date DataNiosSecurityAdminGroup#show_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_date DataNiosSecurityAdminGroup#show_date}
   */
   readonly showDate?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_debug DataNiosSecurityAdminGroup#show_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_debug DataNiosSecurityAdminGroup#show_debug}
   */
   readonly showDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_debug_analytics DataNiosSecurityAdminGroup#show_debug_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_debug_analytics DataNiosSecurityAdminGroup#show_debug_analytics}
   */
   readonly showDebugAnalytics?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_delete_tasks_interval DataNiosSecurityAdminGroup#show_delete_tasks_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_delete_tasks_interval DataNiosSecurityAdminGroup#show_delete_tasks_interval}
   */
   readonly showDeleteTasksInterval?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_disk DataNiosSecurityAdminGroup#show_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_disk DataNiosSecurityAdminGroup#show_disk}
   */
   readonly showDisk?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hardware_status DataNiosSecurityAdminGroup#show_hardware_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hardware_status DataNiosSecurityAdminGroup#show_hardware_status}
   */
   readonly showHardwareStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hardware_type DataNiosSecurityAdminGroup#show_hardware_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hardware_type DataNiosSecurityAdminGroup#show_hardware_type}
   */
   readonly showHardwareType?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hsm_group DataNiosSecurityAdminGroup#show_hsm_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hsm_group DataNiosSecurityAdminGroup#show_hsm_group}
   */
   readonly showHsmGroup?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hsm_info DataNiosSecurityAdminGroup#show_hsm_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hsm_info DataNiosSecurityAdminGroup#show_hsm_info}
   */
   readonly showHsmInfo?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hw_ident DataNiosSecurityAdminGroup#show_hw_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hw_ident DataNiosSecurityAdminGroup#show_hw_ident}
   */
   readonly showHwIdent?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_hwid DataNiosSecurityAdminGroup#show_hwid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_hwid DataNiosSecurityAdminGroup#show_hwid}
   */
   readonly showHwid?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ibtrap DataNiosSecurityAdminGroup#show_ibtrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ibtrap DataNiosSecurityAdminGroup#show_ibtrap}
   */
   readonly showIbtrap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_log DataNiosSecurityAdminGroup#show_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_log DataNiosSecurityAdminGroup#show_log}
   */
   readonly showLog?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_logfiles DataNiosSecurityAdminGroup#show_logfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_logfiles DataNiosSecurityAdminGroup#show_logfiles}
   */
   readonly showLogfiles?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_memory DataNiosSecurityAdminGroup#show_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_memory DataNiosSecurityAdminGroup#show_memory}
   */
   readonly showMemory?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ntp DataNiosSecurityAdminGroup#show_ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ntp DataNiosSecurityAdminGroup#show_ntp}
   */
   readonly showNtp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ntp_stratum DataNiosSecurityAdminGroup#show_ntp_stratum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ntp_stratum DataNiosSecurityAdminGroup#show_ntp_stratum}
   */
   readonly showNtpStratum?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_pc_domain DataNiosSecurityAdminGroup#show_pc_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_pc_domain DataNiosSecurityAdminGroup#show_pc_domain}
   */
   readonly showPcDomain?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_pmap DataNiosSecurityAdminGroup#show_pmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_pmap DataNiosSecurityAdminGroup#show_pmap}
   */
   readonly showPmap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_process DataNiosSecurityAdminGroup#show_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_process DataNiosSecurityAdminGroup#show_process}
   */
   readonly showProcess?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_pstack DataNiosSecurityAdminGroup#show_pstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_pstack DataNiosSecurityAdminGroup#show_pstack}
   */
   readonly showPstack?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_report_frequency DataNiosSecurityAdminGroup#show_report_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_report_frequency DataNiosSecurityAdminGroup#show_report_frequency}
   */
   readonly showReportFrequency?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_reporting_user_capabilities DataNiosSecurityAdminGroup#show_reporting_user_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_reporting_user_capabilities DataNiosSecurityAdminGroup#show_reporting_user_capabilities}
   */
   readonly showReportingUserCapabilities?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_rpz_recursive_only DataNiosSecurityAdminGroup#show_rpz_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_rpz_recursive_only DataNiosSecurityAdminGroup#show_rpz_recursive_only}
   */
   readonly showRpzRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_safenet_support_info DataNiosSecurityAdminGroup#show_safenet_support_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_safenet_support_info DataNiosSecurityAdminGroup#show_safenet_support_info}
   */
   readonly showSafenetSupportInfo?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_scheduled DataNiosSecurityAdminGroup#show_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_scheduled DataNiosSecurityAdminGroup#show_scheduled}
   */
   readonly showScheduled?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_snmp DataNiosSecurityAdminGroup#show_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_snmp DataNiosSecurityAdminGroup#show_snmp}
   */
   readonly showSnmp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_status DataNiosSecurityAdminGroup#show_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_status DataNiosSecurityAdminGroup#show_status}
   */
   readonly showStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_tech_support DataNiosSecurityAdminGroup#show_tech_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_tech_support DataNiosSecurityAdminGroup#show_tech_support}
   */
   readonly showTechSupport?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_temperature DataNiosSecurityAdminGroup#show_temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_temperature DataNiosSecurityAdminGroup#show_temperature}
   */
   readonly showTemperature?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_thresholdtrap DataNiosSecurityAdminGroup#show_thresholdtrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_thresholdtrap DataNiosSecurityAdminGroup#show_thresholdtrap}
   */
   readonly showThresholdtrap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_upgrade_history DataNiosSecurityAdminGroup#show_upgrade_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_upgrade_history DataNiosSecurityAdminGroup#show_upgrade_history}
   */
   readonly showUpgradeHistory?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_uptime DataNiosSecurityAdminGroup#show_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_uptime DataNiosSecurityAdminGroup#show_uptime}
   */
   readonly showUptime?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_version DataNiosSecurityAdminGroup#show_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_version DataNiosSecurityAdminGroup#show_version}
   */
   readonly showVersion?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_wred_stats DataNiosSecurityAdminGroup#show_wred_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_wred_stats DataNiosSecurityAdminGroup#show_wred_stats}
   */
   readonly showWredStats?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_wred_status DataNiosSecurityAdminGroup#show_wred_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_wred_status DataNiosSecurityAdminGroup#show_wred_status}
   */
   readonly showWredStatus?: boolean | cdktf.IResolvable;
 }
@@ -3363,73 +3363,73 @@ export interface DataNiosSecurityAdminGroupResultAdminToplevelCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#iostat DataNiosSecurityAdminGroup#iostat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#iostat DataNiosSecurityAdminGroup#iostat}
   */
   readonly iostat?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#netstat DataNiosSecurityAdminGroup#netstat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#netstat DataNiosSecurityAdminGroup#netstat}
   */
   readonly netstat?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ps DataNiosSecurityAdminGroup#ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ps DataNiosSecurityAdminGroup#ps}
   */
   readonly ps?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#resilver DataNiosSecurityAdminGroup#resilver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#resilver DataNiosSecurityAdminGroup#resilver}
   */
   readonly resilver?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#restart_product DataNiosSecurityAdminGroup#restart_product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#restart_product DataNiosSecurityAdminGroup#restart_product}
   */
   readonly restartProduct?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#rndc DataNiosSecurityAdminGroup#rndc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#rndc DataNiosSecurityAdminGroup#rndc}
   */
   readonly rndc?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#saml_restart DataNiosSecurityAdminGroup#saml_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#saml_restart DataNiosSecurityAdminGroup#saml_restart}
   */
   readonly samlRestart?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#sar DataNiosSecurityAdminGroup#sar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#sar DataNiosSecurityAdminGroup#sar}
   */
   readonly sar?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#scrape DataNiosSecurityAdminGroup#scrape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#scrape DataNiosSecurityAdminGroup#scrape}
   */
   readonly scrape?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#synctime DataNiosSecurityAdminGroup#synctime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#synctime DataNiosSecurityAdminGroup#synctime}
   */
   readonly synctime?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#tcpdump DataNiosSecurityAdminGroup#tcpdump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#tcpdump DataNiosSecurityAdminGroup#tcpdump}
   */
   readonly tcpdump?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#vmstat DataNiosSecurityAdminGroup#vmstat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#vmstat DataNiosSecurityAdminGroup#vmstat}
   */
   readonly vmstat?: boolean | cdktf.IResolvable;
 }
@@ -3854,13 +3854,13 @@ export interface DataNiosSecurityAdminGroupResultCloudSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_cloud_services_portal DataNiosSecurityAdminGroup#set_cloud_services_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_cloud_services_portal DataNiosSecurityAdminGroup#set_cloud_services_portal}
   */
   readonly setCloudServicesPortal?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_cloud_services_portal_forcerefresh DataNiosSecurityAdminGroup#set_cloud_services_portal_forcerefresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_cloud_services_portal_forcerefresh DataNiosSecurityAdminGroup#set_cloud_services_portal_forcerefresh}
   */
   readonly setCloudServicesPortalForcerefresh?: boolean | cdktf.IResolvable;
 }
@@ -3995,7 +3995,7 @@ export interface DataNiosSecurityAdminGroupResultCloudShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_cloud_services_portal DataNiosSecurityAdminGroup#show_cloud_services_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_cloud_services_portal DataNiosSecurityAdminGroup#show_cloud_services_portal}
   */
   readonly showCloudServicesPortal?: boolean | cdktf.IResolvable;
 }
@@ -4101,49 +4101,49 @@ export interface DataNiosSecurityAdminGroupResultDatabaseSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_circ_txn_trace DataNiosSecurityAdminGroup#set_circ_txn_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_circ_txn_trace DataNiosSecurityAdminGroup#set_circ_txn_trace}
   */
   readonly setCircTxnTrace?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_database_transfer DataNiosSecurityAdminGroup#set_database_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_database_transfer DataNiosSecurityAdminGroup#set_database_transfer}
   */
   readonly setDatabaseTransfer?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_db_rollover DataNiosSecurityAdminGroup#set_db_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_db_rollover DataNiosSecurityAdminGroup#set_db_rollover}
   */
   readonly setDbRollover?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_db_snapshot DataNiosSecurityAdminGroup#set_db_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_db_snapshot DataNiosSecurityAdminGroup#set_db_snapshot}
   */
   readonly setDbSnapshot?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dbsize DataNiosSecurityAdminGroup#set_dbsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dbsize DataNiosSecurityAdminGroup#set_dbsize}
   */
   readonly setDbsize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_debug_tools DataNiosSecurityAdminGroup#set_debug_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_debug_tools DataNiosSecurityAdminGroup#set_debug_tools}
   */
   readonly setDebugTools?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_named_max_journal_size DataNiosSecurityAdminGroup#set_named_max_journal_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_named_max_journal_size DataNiosSecurityAdminGroup#set_named_max_journal_size}
   */
   readonly setNamedMaxJournalSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_txn_trace DataNiosSecurityAdminGroup#set_txn_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_txn_trace DataNiosSecurityAdminGroup#set_txn_trace}
   */
   readonly setTxnTrace?: boolean | cdktf.IResolvable;
 }
@@ -4452,43 +4452,43 @@ export interface DataNiosSecurityAdminGroupResultDatabaseShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_backup DataNiosSecurityAdminGroup#show_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_backup DataNiosSecurityAdminGroup#show_backup}
   */
   readonly showBackup?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_database_transfer_status DataNiosSecurityAdminGroup#show_database_transfer_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_database_transfer_status DataNiosSecurityAdminGroup#show_database_transfer_status}
   */
   readonly showDatabaseTransferStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_db_ph DataNiosSecurityAdminGroup#show_db_ph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_db_ph DataNiosSecurityAdminGroup#show_db_ph}
   */
   readonly showDbPh?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dbsize DataNiosSecurityAdminGroup#show_dbsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dbsize DataNiosSecurityAdminGroup#show_dbsize}
   */
   readonly showDbsize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ibdbstat DataNiosSecurityAdminGroup#show_ibdbstat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ibdbstat DataNiosSecurityAdminGroup#show_ibdbstat}
   */
   readonly showIbdbstat?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_named_max_journal_size DataNiosSecurityAdminGroup#show_named_max_journal_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_named_max_journal_size DataNiosSecurityAdminGroup#show_named_max_journal_size}
   */
   readonly showNamedMaxJournalSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_txn_trace DataNiosSecurityAdminGroup#show_txn_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_txn_trace DataNiosSecurityAdminGroup#show_txn_trace}
   */
   readonly showTxnTrace?: boolean | cdktf.IResolvable;
 }
@@ -4768,25 +4768,25 @@ export interface DataNiosSecurityAdminGroupResultDhcpSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dhcpd_recv_sock_buf_size DataNiosSecurityAdminGroup#set_dhcpd_recv_sock_buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dhcpd_recv_sock_buf_size DataNiosSecurityAdminGroup#set_dhcpd_recv_sock_buf_size}
   */
   readonly setDhcpdRecvSockBufSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_log_txn_id DataNiosSecurityAdminGroup#set_log_txn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_log_txn_id DataNiosSecurityAdminGroup#set_log_txn_id}
   */
   readonly setLogTxnId?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_overload_bootp DataNiosSecurityAdminGroup#set_overload_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_overload_bootp DataNiosSecurityAdminGroup#set_overload_bootp}
   */
   readonly setOverloadBootp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_regenerate_dhcp_updater_keys DataNiosSecurityAdminGroup#set_regenerate_dhcp_updater_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_regenerate_dhcp_updater_keys DataNiosSecurityAdminGroup#set_regenerate_dhcp_updater_keys}
   */
   readonly setRegenerateDhcpUpdaterKeys?: boolean | cdktf.IResolvable;
 }
@@ -4979,31 +4979,31 @@ export interface DataNiosSecurityAdminGroupResultDhcpShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dhcp_gss_tsig DataNiosSecurityAdminGroup#show_dhcp_gss_tsig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dhcp_gss_tsig DataNiosSecurityAdminGroup#show_dhcp_gss_tsig}
   */
   readonly showDhcpGssTsig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dhcpd_recv_sock_buf_size DataNiosSecurityAdminGroup#show_dhcpd_recv_sock_buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dhcpd_recv_sock_buf_size DataNiosSecurityAdminGroup#show_dhcpd_recv_sock_buf_size}
   */
   readonly showDhcpdRecvSockBufSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dhcpv6_gss_tsig DataNiosSecurityAdminGroup#show_dhcpv6_gss_tsig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dhcpv6_gss_tsig DataNiosSecurityAdminGroup#show_dhcpv6_gss_tsig}
   */
   readonly showDhcpv6GssTsig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_log_txn_id DataNiosSecurityAdminGroup#show_log_txn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_log_txn_id DataNiosSecurityAdminGroup#show_log_txn_id}
   */
   readonly showLogTxnId?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_overload_bootp DataNiosSecurityAdminGroup#show_overload_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_overload_bootp DataNiosSecurityAdminGroup#show_overload_bootp}
   */
   readonly showOverloadBootp?: boolean | cdktf.IResolvable;
 }
@@ -5225,103 +5225,103 @@ export interface DataNiosSecurityAdminGroupResultDnsSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_allow_query_domain DataNiosSecurityAdminGroup#set_allow_query_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_allow_query_domain DataNiosSecurityAdminGroup#set_allow_query_domain}
   */
   readonly setAllowQueryDomain?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dns DataNiosSecurityAdminGroup#set_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dns DataNiosSecurityAdminGroup#set_dns}
   */
   readonly setDns?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dns_accel DataNiosSecurityAdminGroup#set_dns_accel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dns_accel DataNiosSecurityAdminGroup#set_dns_accel}
   */
   readonly setDnsAccel?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dns_accel_debug DataNiosSecurityAdminGroup#set_dns_accel_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dns_accel_debug DataNiosSecurityAdminGroup#set_dns_accel_debug}
   */
   readonly setDnsAccelDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dns_auto_gen DataNiosSecurityAdminGroup#set_dns_auto_gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dns_auto_gen DataNiosSecurityAdminGroup#set_dns_auto_gen}
   */
   readonly setDnsAutoGen?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dns_rrl DataNiosSecurityAdminGroup#set_dns_rrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dns_rrl DataNiosSecurityAdminGroup#set_dns_rrl}
   */
   readonly setDnsRrl?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_enable_dnstap DataNiosSecurityAdminGroup#set_enable_dnstap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_enable_dnstap DataNiosSecurityAdminGroup#set_enable_dnstap}
   */
   readonly setEnableDnstap?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_enable_match_recursive_only DataNiosSecurityAdminGroup#set_enable_match_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_enable_match_recursive_only DataNiosSecurityAdminGroup#set_enable_match_recursive_only}
   */
   readonly setEnableMatchRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_extra_dns_name_validations DataNiosSecurityAdminGroup#set_extra_dns_name_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_extra_dns_name_validations DataNiosSecurityAdminGroup#set_extra_dns_name_validations}
   */
   readonly setExtraDnsNameValidations?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_log_guest_lookups DataNiosSecurityAdminGroup#set_log_guest_lookups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_log_guest_lookups DataNiosSecurityAdminGroup#set_log_guest_lookups}
   */
   readonly setLogGuestLookups?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_max_recursion_depth DataNiosSecurityAdminGroup#set_max_recursion_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_max_recursion_depth DataNiosSecurityAdminGroup#set_max_recursion_depth}
   */
   readonly setMaxRecursionDepth?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_max_recursion_queries DataNiosSecurityAdminGroup#set_max_recursion_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_max_recursion_queries DataNiosSecurityAdminGroup#set_max_recursion_queries}
   */
   readonly setMaxRecursionQueries?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_monitor DataNiosSecurityAdminGroup#set_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_monitor DataNiosSecurityAdminGroup#set_monitor}
   */
   readonly setMonitor?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ms_dns_reports_sync_interval DataNiosSecurityAdminGroup#set_ms_dns_reports_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ms_dns_reports_sync_interval DataNiosSecurityAdminGroup#set_ms_dns_reports_sync_interval}
   */
   readonly setMsDnsReportsSyncInterval?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ms_sticky_ip DataNiosSecurityAdminGroup#set_ms_sticky_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ms_sticky_ip DataNiosSecurityAdminGroup#set_ms_sticky_ip}
   */
   readonly setMsStickyIp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_restart_anycast_with_dns_restart DataNiosSecurityAdminGroup#set_restart_anycast_with_dns_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_restart_anycast_with_dns_restart DataNiosSecurityAdminGroup#set_restart_anycast_with_dns_restart}
   */
   readonly setRestartAnycastWithDnsRestart?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_rpz_add_soa DataNiosSecurityAdminGroup#set_rpz_add_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_rpz_add_soa DataNiosSecurityAdminGroup#set_rpz_add_soa}
   */
   readonly setRpzAddSoa?: boolean | cdktf.IResolvable;
 }
@@ -5891,163 +5891,163 @@ export interface DataNiosSecurityAdminGroupResultDnsShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_allow_query_domain DataNiosSecurityAdminGroup#show_allow_query_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_allow_query_domain DataNiosSecurityAdminGroup#show_allow_query_domain}
   */
   readonly showAllowQueryDomain?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_allow_query_domain_views DataNiosSecurityAdminGroup#show_allow_query_domain_views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_allow_query_domain_views DataNiosSecurityAdminGroup#show_allow_query_domain_views}
   */
   readonly showAllowQueryDomainViews?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns DataNiosSecurityAdminGroup#show_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns DataNiosSecurityAdminGroup#show_dns}
   */
   readonly showDns?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_accel DataNiosSecurityAdminGroup#show_dns_accel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_accel DataNiosSecurityAdminGroup#show_dns_accel}
   */
   readonly showDnsAccel?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_accel_debug DataNiosSecurityAdminGroup#show_dns_accel_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_accel_debug DataNiosSecurityAdminGroup#show_dns_accel_debug}
   */
   readonly showDnsAccelDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_gss_tsig DataNiosSecurityAdminGroup#show_dns_gss_tsig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_gss_tsig DataNiosSecurityAdminGroup#show_dns_gss_tsig}
   */
   readonly showDnsGssTsig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_over_tls_config DataNiosSecurityAdminGroup#show_dns_over_tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_over_tls_config DataNiosSecurityAdminGroup#show_dns_over_tls_config}
   */
   readonly showDnsOverTlsConfig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_over_tls_stats DataNiosSecurityAdminGroup#show_dns_over_tls_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_over_tls_stats DataNiosSecurityAdminGroup#show_dns_over_tls_stats}
   */
   readonly showDnsOverTlsStats?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_over_tls_status DataNiosSecurityAdminGroup#show_dns_over_tls_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_over_tls_status DataNiosSecurityAdminGroup#show_dns_over_tls_status}
   */
   readonly showDnsOverTlsStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dns_rrl DataNiosSecurityAdminGroup#show_dns_rrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dns_rrl DataNiosSecurityAdminGroup#show_dns_rrl}
   */
   readonly showDnsRrl?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dnstap_stats DataNiosSecurityAdminGroup#show_dnstap_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dnstap_stats DataNiosSecurityAdminGroup#show_dnstap_stats}
   */
   readonly showDnstapStats?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dnstap_status DataNiosSecurityAdminGroup#show_dnstap_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dnstap_status DataNiosSecurityAdminGroup#show_dnstap_status}
   */
   readonly showDnstapStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_doh_config DataNiosSecurityAdminGroup#show_doh_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_doh_config DataNiosSecurityAdminGroup#show_doh_config}
   */
   readonly showDohConfig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_doh_stats DataNiosSecurityAdminGroup#show_doh_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_doh_stats DataNiosSecurityAdminGroup#show_doh_stats}
   */
   readonly showDohStats?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_doh_status DataNiosSecurityAdminGroup#show_doh_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_doh_status DataNiosSecurityAdminGroup#show_doh_status}
   */
   readonly showDohStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dtc_ea DataNiosSecurityAdminGroup#show_dtc_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dtc_ea DataNiosSecurityAdminGroup#show_dtc_ea}
   */
   readonly showDtcEa?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dtc_geoip DataNiosSecurityAdminGroup#show_dtc_geoip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dtc_geoip DataNiosSecurityAdminGroup#show_dtc_geoip}
   */
   readonly showDtcGeoip?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_enable_match_recursive_only DataNiosSecurityAdminGroup#show_enable_match_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_enable_match_recursive_only DataNiosSecurityAdminGroup#show_enable_match_recursive_only}
   */
   readonly showEnableMatchRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_extra_dns_name_validations DataNiosSecurityAdminGroup#show_extra_dns_name_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_extra_dns_name_validations DataNiosSecurityAdminGroup#show_extra_dns_name_validations}
   */
   readonly showExtraDnsNameValidations?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_log_guest_lookups DataNiosSecurityAdminGroup#show_log_guest_lookups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_log_guest_lookups DataNiosSecurityAdminGroup#show_log_guest_lookups}
   */
   readonly showLogGuestLookups?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_max_recursion_depth DataNiosSecurityAdminGroup#show_max_recursion_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_max_recursion_depth DataNiosSecurityAdminGroup#show_max_recursion_depth}
   */
   readonly showMaxRecursionDepth?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_max_recursion_queries DataNiosSecurityAdminGroup#show_max_recursion_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_max_recursion_queries DataNiosSecurityAdminGroup#show_max_recursion_queries}
   */
   readonly showMaxRecursionQueries?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_monitor DataNiosSecurityAdminGroup#show_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_monitor DataNiosSecurityAdminGroup#show_monitor}
   */
   readonly showMonitor?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ms_sticky_ip DataNiosSecurityAdminGroup#show_ms_sticky_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ms_sticky_ip DataNiosSecurityAdminGroup#show_ms_sticky_ip}
   */
   readonly showMsStickyIp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_query_capture DataNiosSecurityAdminGroup#show_query_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_query_capture DataNiosSecurityAdminGroup#show_query_capture}
   */
   readonly showQueryCapture?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_restart_anycast_with_dns_restart DataNiosSecurityAdminGroup#show_restart_anycast_with_dns_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_restart_anycast_with_dns_restart DataNiosSecurityAdminGroup#show_restart_anycast_with_dns_restart}
   */
   readonly showRestartAnycastWithDnsRestart?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_rpz_add_soa DataNiosSecurityAdminGroup#show_rpz_add_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_rpz_add_soa DataNiosSecurityAdminGroup#show_rpz_add_soa}
   */
   readonly showRpzAddSoa?: boolean | cdktf.IResolvable;
 }
@@ -6907,25 +6907,25 @@ export interface DataNiosSecurityAdminGroupResultDnsToplevelCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ddns_add DataNiosSecurityAdminGroup#ddns_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ddns_add DataNiosSecurityAdminGroup#ddns_add}
   */
   readonly ddnsAdd?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ddns_delete DataNiosSecurityAdminGroup#ddns_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ddns_delete DataNiosSecurityAdminGroup#ddns_delete}
   */
   readonly ddnsDelete?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#delete DataNiosSecurityAdminGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#delete DataNiosSecurityAdminGroup#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dns_a_record_delete DataNiosSecurityAdminGroup#dns_a_record_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dns_a_record_delete DataNiosSecurityAdminGroup#dns_a_record_delete}
   */
   readonly dnsARecordDelete?: boolean | cdktf.IResolvable;
 }
@@ -7118,7 +7118,7 @@ export interface DataNiosSecurityAdminGroupResultDockerSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_docker_bridge DataNiosSecurityAdminGroup#set_docker_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_docker_bridge DataNiosSecurityAdminGroup#set_docker_bridge}
   */
   readonly setDockerBridge?: boolean | cdktf.IResolvable;
 }
@@ -7224,7 +7224,7 @@ export interface DataNiosSecurityAdminGroupResultDockerShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_docker_bridge DataNiosSecurityAdminGroup#show_docker_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_docker_bridge DataNiosSecurityAdminGroup#show_docker_bridge}
   */
   readonly showDockerBridge?: boolean | cdktf.IResolvable;
 }
@@ -7330,55 +7330,55 @@ export interface DataNiosSecurityAdminGroupResultGridSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_default_revert_window DataNiosSecurityAdminGroup#set_default_revert_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_default_revert_window DataNiosSecurityAdminGroup#set_default_revert_window}
   */
   readonly setDefaultRevertWindow?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_dscp DataNiosSecurityAdminGroup#set_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_dscp DataNiosSecurityAdminGroup#set_dscp}
   */
   readonly setDscp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_membership DataNiosSecurityAdminGroup#set_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_membership DataNiosSecurityAdminGroup#set_membership}
   */
   readonly setMembership?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_nogrid DataNiosSecurityAdminGroup#set_nogrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_nogrid DataNiosSecurityAdminGroup#set_nogrid}
   */
   readonly setNogrid?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_nomastergrid DataNiosSecurityAdminGroup#set_nomastergrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_nomastergrid DataNiosSecurityAdminGroup#set_nomastergrid}
   */
   readonly setNomastergrid?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_promote_master DataNiosSecurityAdminGroup#set_promote_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_promote_master DataNiosSecurityAdminGroup#set_promote_master}
   */
   readonly setPromoteMaster?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_revert_grid DataNiosSecurityAdminGroup#set_revert_grid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_revert_grid DataNiosSecurityAdminGroup#set_revert_grid}
   */
   readonly setRevertGrid?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_test_promote_master DataNiosSecurityAdminGroup#set_test_promote_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_test_promote_master DataNiosSecurityAdminGroup#set_test_promote_master}
   */
   readonly setTestPromoteMaster?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_token DataNiosSecurityAdminGroup#set_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_token DataNiosSecurityAdminGroup#set_token}
   */
   readonly setToken?: boolean | cdktf.IResolvable;
 }
@@ -7716,19 +7716,19 @@ export interface DataNiosSecurityAdminGroupResultGridShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_dscp DataNiosSecurityAdminGroup#show_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_dscp DataNiosSecurityAdminGroup#show_dscp}
   */
   readonly showDscp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_test_promote_master DataNiosSecurityAdminGroup#show_test_promote_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_test_promote_master DataNiosSecurityAdminGroup#show_test_promote_master}
   */
   readonly showTestPromoteMaster?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_token DataNiosSecurityAdminGroup#show_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_token DataNiosSecurityAdminGroup#show_token}
   */
   readonly showToken?: boolean | cdktf.IResolvable;
 }
@@ -7892,31 +7892,31 @@ export interface DataNiosSecurityAdminGroupResultInactivityLockoutSetting {
   /**
   * Enable/disable the account inactivity lockout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#account_inactivity_lockout_enable DataNiosSecurityAdminGroup#account_inactivity_lockout_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#account_inactivity_lockout_enable DataNiosSecurityAdminGroup#account_inactivity_lockout_enable}
   */
   readonly accountInactivityLockoutEnable?: boolean | cdktf.IResolvable;
   /**
   * Number of days after which account gets locked out if user does not login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#inactive_days DataNiosSecurityAdminGroup#inactive_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#inactive_days DataNiosSecurityAdminGroup#inactive_days}
   */
   readonly inactiveDays?: number;
   /**
   * Enable/disable reactivating user account by logging in from remote console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reactivate_via_remote_console_enable DataNiosSecurityAdminGroup#reactivate_via_remote_console_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reactivate_via_remote_console_enable DataNiosSecurityAdminGroup#reactivate_via_remote_console_enable}
   */
   readonly reactivateViaRemoteConsoleEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable reactivating user account by logging in from serial console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reactivate_via_serial_console_enable DataNiosSecurityAdminGroup#reactivate_via_serial_console_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reactivate_via_serial_console_enable DataNiosSecurityAdminGroup#reactivate_via_serial_console_enable}
   */
   readonly reactivateViaSerialConsoleEnable?: boolean | cdktf.IResolvable;
   /**
   * The number of days before the account lockout date when the appliance sends a reminder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reminder_days DataNiosSecurityAdminGroup#reminder_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reminder_days DataNiosSecurityAdminGroup#reminder_days}
   */
   readonly reminderDays?: number;
 }
@@ -8128,19 +8128,19 @@ export interface DataNiosSecurityAdminGroupResultLicensingSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_license DataNiosSecurityAdminGroup#set_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_license DataNiosSecurityAdminGroup#set_license}
   */
   readonly setLicense?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_reporting_reset_license DataNiosSecurityAdminGroup#set_reporting_reset_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_reporting_reset_license DataNiosSecurityAdminGroup#set_reporting_reset_license}
   */
   readonly setReportingResetLicense?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_temp_license DataNiosSecurityAdminGroup#set_temp_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_temp_license DataNiosSecurityAdminGroup#set_temp_license}
   */
   readonly setTempLicense?: boolean | cdktf.IResolvable;
 }
@@ -8304,19 +8304,19 @@ export interface DataNiosSecurityAdminGroupResultLicensingShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_license DataNiosSecurityAdminGroup#show_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_license DataNiosSecurityAdminGroup#show_license}
   */
   readonly showLicense?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_license_pool_container DataNiosSecurityAdminGroup#show_license_pool_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_license_pool_container DataNiosSecurityAdminGroup#show_license_pool_container}
   */
   readonly showLicensePoolContainer?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_license_uid DataNiosSecurityAdminGroup#show_license_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_license_uid DataNiosSecurityAdminGroup#show_license_uid}
   */
   readonly showLicenseUid?: boolean | cdktf.IResolvable;
 }
@@ -8480,25 +8480,25 @@ export interface DataNiosSecurityAdminGroupResultLockoutSetting {
   /**
   * Enable/disable sequential failed login attempts lockout for local users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#enable_sequential_failed_login_attempts_lockout DataNiosSecurityAdminGroup#enable_sequential_failed_login_attempts_lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#enable_sequential_failed_login_attempts_lockout DataNiosSecurityAdminGroup#enable_sequential_failed_login_attempts_lockout}
   */
   readonly enableSequentialFailedLoginAttemptsLockout?: boolean | cdktf.IResolvable;
   /**
   * Time period the account remains locked after sequential failed login attempt lockout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#failed_lockout_duration DataNiosSecurityAdminGroup#failed_lockout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#failed_lockout_duration DataNiosSecurityAdminGroup#failed_lockout_duration}
   */
   readonly failedLockoutDuration?: number;
   /**
   * Never unlock option is also provided and if set then user account is locked forever and only super user can unlock this account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#never_unlock_user DataNiosSecurityAdminGroup#never_unlock_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#never_unlock_user DataNiosSecurityAdminGroup#never_unlock_user}
   */
   readonly neverUnlockUser?: boolean | cdktf.IResolvable;
   /**
   * The number of failed login attempts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#sequential_attempts DataNiosSecurityAdminGroup#sequential_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#sequential_attempts DataNiosSecurityAdminGroup#sequential_attempts}
   */
   readonly sequentialAttempts?: number;
 }
@@ -8681,25 +8681,25 @@ export interface DataNiosSecurityAdminGroupResultMachineControlToplevelCommands 
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reboot DataNiosSecurityAdminGroup#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reboot DataNiosSecurityAdminGroup#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reset DataNiosSecurityAdminGroup#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reset DataNiosSecurityAdminGroup#reset}
   */
   readonly reset?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#restart DataNiosSecurityAdminGroup#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#restart DataNiosSecurityAdminGroup#restart}
   */
   readonly restart?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#shutdown DataNiosSecurityAdminGroup#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#shutdown DataNiosSecurityAdminGroup#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
 }
@@ -8892,121 +8892,121 @@ export interface DataNiosSecurityAdminGroupResultNetworkingSetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_connection_limit DataNiosSecurityAdminGroup#set_connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_connection_limit DataNiosSecurityAdminGroup#set_connection_limit}
   */
   readonly setConnectionLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_default_route DataNiosSecurityAdminGroup#set_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_default_route DataNiosSecurityAdminGroup#set_default_route}
   */
   readonly setDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_interface DataNiosSecurityAdminGroup#set_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_interface DataNiosSecurityAdminGroup#set_interface}
   */
   readonly setInterface?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ip_rate_limit DataNiosSecurityAdminGroup#set_ip_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ip_rate_limit DataNiosSecurityAdminGroup#set_ip_rate_limit}
   */
   readonly setIpRateLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ipv6_disable_on_dad DataNiosSecurityAdminGroup#set_ipv6_disable_on_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ipv6_disable_on_dad DataNiosSecurityAdminGroup#set_ipv6_disable_on_dad}
   */
   readonly setIpv6DisableOnDad?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ipv6_neighbor DataNiosSecurityAdminGroup#set_ipv6_neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ipv6_neighbor DataNiosSecurityAdminGroup#set_ipv6_neighbor}
   */
   readonly setIpv6Neighbor?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ipv6_ospf DataNiosSecurityAdminGroup#set_ipv6_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ipv6_ospf DataNiosSecurityAdminGroup#set_ipv6_ospf}
   */
   readonly setIpv6Ospf?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ipv6_status DataNiosSecurityAdminGroup#set_ipv6_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ipv6_status DataNiosSecurityAdminGroup#set_ipv6_status}
   */
   readonly setIpv6Status?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_lom DataNiosSecurityAdminGroup#set_lom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_lom DataNiosSecurityAdminGroup#set_lom}
   */
   readonly setLom?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_mld_version_1 DataNiosSecurityAdminGroup#set_mld_version_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_mld_version_1 DataNiosSecurityAdminGroup#set_mld_version_1}
   */
   readonly setMldVersion1?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_named_recv_sock_buf_size DataNiosSecurityAdminGroup#set_named_recv_sock_buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_named_recv_sock_buf_size DataNiosSecurityAdminGroup#set_named_recv_sock_buf_size}
   */
   readonly setNamedRecvSockBufSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_named_tcp_clients_limit DataNiosSecurityAdminGroup#set_named_tcp_clients_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_named_tcp_clients_limit DataNiosSecurityAdminGroup#set_named_tcp_clients_limit}
   */
   readonly setNamedTcpClientsLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_network DataNiosSecurityAdminGroup#set_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_network DataNiosSecurityAdminGroup#set_network}
   */
   readonly setNetwork?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_ospf DataNiosSecurityAdminGroup#set_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_ospf DataNiosSecurityAdminGroup#set_ospf}
   */
   readonly setOspf?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_prompt DataNiosSecurityAdminGroup#set_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_prompt DataNiosSecurityAdminGroup#set_prompt}
   */
   readonly setPrompt?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_remote_console DataNiosSecurityAdminGroup#set_remote_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_remote_console DataNiosSecurityAdminGroup#set_remote_console}
   */
   readonly setRemoteConsole?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_static_route DataNiosSecurityAdminGroup#set_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_static_route DataNiosSecurityAdminGroup#set_static_route}
   */
   readonly setStaticRoute?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_tcp_timestamps DataNiosSecurityAdminGroup#set_tcp_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_tcp_timestamps DataNiosSecurityAdminGroup#set_tcp_timestamps}
   */
   readonly setTcpTimestamps?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_traffic_capture DataNiosSecurityAdminGroup#set_traffic_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_traffic_capture DataNiosSecurityAdminGroup#set_traffic_capture}
   */
   readonly setTrafficCapture?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_wins_forwarding DataNiosSecurityAdminGroup#set_wins_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_wins_forwarding DataNiosSecurityAdminGroup#set_wins_forwarding}
   */
   readonly setWinsForwarding?: boolean | cdktf.IResolvable;
 }
@@ -9663,169 +9663,169 @@ export interface DataNiosSecurityAdminGroupResultNetworkingShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_connection_limit DataNiosSecurityAdminGroup#show_connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_connection_limit DataNiosSecurityAdminGroup#show_connection_limit}
   */
   readonly showConnectionLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_connections DataNiosSecurityAdminGroup#show_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_connections DataNiosSecurityAdminGroup#show_connections}
   */
   readonly showConnections?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_default_route DataNiosSecurityAdminGroup#show_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_default_route DataNiosSecurityAdminGroup#show_default_route}
   */
   readonly showDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_interface DataNiosSecurityAdminGroup#show_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_interface DataNiosSecurityAdminGroup#show_interface}
   */
   readonly showInterface?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_interface_stats DataNiosSecurityAdminGroup#show_interface_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_interface_stats DataNiosSecurityAdminGroup#show_interface_stats}
   */
   readonly showInterfaceStats?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ip_rate_limit DataNiosSecurityAdminGroup#show_ip_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ip_rate_limit DataNiosSecurityAdminGroup#show_ip_rate_limit}
   */
   readonly showIpRateLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_iproute DataNiosSecurityAdminGroup#show_iproute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_iproute DataNiosSecurityAdminGroup#show_iproute}
   */
   readonly showIproute?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_iprule DataNiosSecurityAdminGroup#show_iprule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_iprule DataNiosSecurityAdminGroup#show_iprule}
   */
   readonly showIprule?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_iptables DataNiosSecurityAdminGroup#show_iptables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_iptables DataNiosSecurityAdminGroup#show_iptables}
   */
   readonly showIptables?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ipv6_bgp DataNiosSecurityAdminGroup#show_ipv6_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ipv6_bgp DataNiosSecurityAdminGroup#show_ipv6_bgp}
   */
   readonly showIpv6Bgp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ipv6_disable_on_dad DataNiosSecurityAdminGroup#show_ipv6_disable_on_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ipv6_disable_on_dad DataNiosSecurityAdminGroup#show_ipv6_disable_on_dad}
   */
   readonly showIpv6DisableOnDad?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ipv6_neighbor DataNiosSecurityAdminGroup#show_ipv6_neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ipv6_neighbor DataNiosSecurityAdminGroup#show_ipv6_neighbor}
   */
   readonly showIpv6Neighbor?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ipv6_ospf DataNiosSecurityAdminGroup#show_ipv6_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ipv6_ospf DataNiosSecurityAdminGroup#show_ipv6_ospf}
   */
   readonly showIpv6Ospf?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_lom DataNiosSecurityAdminGroup#show_lom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_lom DataNiosSecurityAdminGroup#show_lom}
   */
   readonly showLom?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_mld_version DataNiosSecurityAdminGroup#show_mld_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_mld_version DataNiosSecurityAdminGroup#show_mld_version}
   */
   readonly showMldVersion?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_mtu_size DataNiosSecurityAdminGroup#show_mtu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_mtu_size DataNiosSecurityAdminGroup#show_mtu_size}
   */
   readonly showMtuSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_named_recv_sock_buf_size DataNiosSecurityAdminGroup#show_named_recv_sock_buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_named_recv_sock_buf_size DataNiosSecurityAdminGroup#show_named_recv_sock_buf_size}
   */
   readonly showNamedRecvSockBufSize?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_named_tcp_clients_limit DataNiosSecurityAdminGroup#show_named_tcp_clients_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_named_tcp_clients_limit DataNiosSecurityAdminGroup#show_named_tcp_clients_limit}
   */
   readonly showNamedTcpClientsLimit?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_network DataNiosSecurityAdminGroup#show_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_network DataNiosSecurityAdminGroup#show_network}
   */
   readonly showNetwork?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_network_connectivity DataNiosSecurityAdminGroup#show_network_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_network_connectivity DataNiosSecurityAdminGroup#show_network_connectivity}
   */
   readonly showNetworkConnectivity?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_ospf DataNiosSecurityAdminGroup#show_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_ospf DataNiosSecurityAdminGroup#show_ospf}
   */
   readonly showOspf?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_remote_console DataNiosSecurityAdminGroup#show_remote_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_remote_console DataNiosSecurityAdminGroup#show_remote_console}
   */
   readonly showRemoteConsole?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_routes DataNiosSecurityAdminGroup#show_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_routes DataNiosSecurityAdminGroup#show_routes}
   */
   readonly showRoutes?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_static_routes DataNiosSecurityAdminGroup#show_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_static_routes DataNiosSecurityAdminGroup#show_static_routes}
   */
   readonly showStaticRoutes?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_tcp_timestamps DataNiosSecurityAdminGroup#show_tcp_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_tcp_timestamps DataNiosSecurityAdminGroup#show_tcp_timestamps}
   */
   readonly showTcpTimestamps?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_traffic_capture_status DataNiosSecurityAdminGroup#show_traffic_capture_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_traffic_capture_status DataNiosSecurityAdminGroup#show_traffic_capture_status}
   */
   readonly showTrafficCaptureStatus?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_trafficfiles DataNiosSecurityAdminGroup#show_trafficfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_trafficfiles DataNiosSecurityAdminGroup#show_trafficfiles}
   */
   readonly showTrafficfiles?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_wins_forwarding DataNiosSecurityAdminGroup#show_wins_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_wins_forwarding DataNiosSecurityAdminGroup#show_wins_forwarding}
   */
   readonly showWinsForwarding?: boolean | cdktf.IResolvable;
 }
@@ -10714,19 +10714,19 @@ export interface DataNiosSecurityAdminGroupResultPasswordSetting {
   /**
   * The days that password must expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#expire_days DataNiosSecurityAdminGroup#expire_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#expire_days DataNiosSecurityAdminGroup#expire_days}
   */
   readonly expireDays?: number;
   /**
   * Whether password expiry enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#expire_enable DataNiosSecurityAdminGroup#expire_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#expire_enable DataNiosSecurityAdminGroup#expire_enable}
   */
   readonly expireEnable?: boolean | cdktf.IResolvable;
   /**
   * Days to show up reminder prior to expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#reminder_days DataNiosSecurityAdminGroup#reminder_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#reminder_days DataNiosSecurityAdminGroup#reminder_days}
   */
   readonly reminderDays?: number;
 }
@@ -10880,13 +10880,13 @@ export interface DataNiosSecurityAdminGroupResultSamlSetting {
   /**
   * Whether or not auto create user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#auto_create_user DataNiosSecurityAdminGroup#auto_create_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#auto_create_user DataNiosSecurityAdminGroup#auto_create_user}
   */
   readonly autoCreateUser?: boolean | cdktf.IResolvable;
   /**
   * Whether or not persist auto created user after logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#persist_auto_created_user DataNiosSecurityAdminGroup#persist_auto_created_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#persist_auto_created_user DataNiosSecurityAdminGroup#persist_auto_created_user}
   */
   readonly persistAutoCreatedUser?: boolean | cdktf.IResolvable;
 }
@@ -11011,109 +11011,109 @@ export interface DataNiosSecurityAdminGroupResultSecuritySetCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_adp DataNiosSecurityAdminGroup#set_adp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_adp DataNiosSecurityAdminGroup#set_adp}
   */
   readonly setAdp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_adp_debug DataNiosSecurityAdminGroup#set_adp_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_adp_debug DataNiosSecurityAdminGroup#set_adp_debug}
   */
   readonly setAdpDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_apache_https_cert DataNiosSecurityAdminGroup#set_apache_https_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_apache_https_cert DataNiosSecurityAdminGroup#set_apache_https_cert}
   */
   readonly setApacheHttpsCert?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_cc_mode DataNiosSecurityAdminGroup#set_cc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_cc_mode DataNiosSecurityAdminGroup#set_cc_mode}
   */
   readonly setCcMode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_certificate_auth_admins DataNiosSecurityAdminGroup#set_certificate_auth_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_certificate_auth_admins DataNiosSecurityAdminGroup#set_certificate_auth_admins}
   */
   readonly setCertificateAuthAdmins?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_certificate_auth_services DataNiosSecurityAdminGroup#set_certificate_auth_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_certificate_auth_services DataNiosSecurityAdminGroup#set_certificate_auth_services}
   */
   readonly setCertificateAuthServices?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_check_auth_ns DataNiosSecurityAdminGroup#set_check_auth_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_check_auth_ns DataNiosSecurityAdminGroup#set_check_auth_ns}
   */
   readonly setCheckAuthNs?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_check_ssl_certificate DataNiosSecurityAdminGroup#set_check_ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_check_ssl_certificate DataNiosSecurityAdminGroup#set_check_ssl_certificate}
   */
   readonly setCheckSslCertificate?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_disable_https_cert_regeneration DataNiosSecurityAdminGroup#set_disable_https_cert_regeneration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_disable_https_cert_regeneration DataNiosSecurityAdminGroup#set_disable_https_cert_regeneration}
   */
   readonly setDisableHttpsCertRegeneration?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_fips_mode DataNiosSecurityAdminGroup#set_fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_fips_mode DataNiosSecurityAdminGroup#set_fips_mode}
   */
   readonly setFipsMode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_reporting_cert DataNiosSecurityAdminGroup#set_reporting_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_reporting_cert DataNiosSecurityAdminGroup#set_reporting_cert}
   */
   readonly setReportingCert?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_security DataNiosSecurityAdminGroup#set_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_security DataNiosSecurityAdminGroup#set_security}
   */
   readonly setSecurity?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_session_timeout DataNiosSecurityAdminGroup#set_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_session_timeout DataNiosSecurityAdminGroup#set_session_timeout}
   */
   readonly setSessionTimeout?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_subscriber_secure_data DataNiosSecurityAdminGroup#set_subscriber_secure_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_subscriber_secure_data DataNiosSecurityAdminGroup#set_subscriber_secure_data}
   */
   readonly setSubscriberSecureData?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_support_access DataNiosSecurityAdminGroup#set_support_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_support_access DataNiosSecurityAdminGroup#set_support_access}
   */
   readonly setSupportAccess?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_support_install DataNiosSecurityAdminGroup#set_support_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_support_install DataNiosSecurityAdminGroup#set_support_install}
   */
   readonly setSupportInstall?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_support_timeout DataNiosSecurityAdminGroup#set_support_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_support_timeout DataNiosSecurityAdminGroup#set_support_timeout}
   */
   readonly setSupportTimeout?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#set_update_rabbitmq_password DataNiosSecurityAdminGroup#set_update_rabbitmq_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#set_update_rabbitmq_password DataNiosSecurityAdminGroup#set_update_rabbitmq_password}
   */
   readonly setUpdateRabbitmqPassword?: boolean | cdktf.IResolvable;
 }
@@ -11712,85 +11712,85 @@ export interface DataNiosSecurityAdminGroupResultSecurityShowCommands {
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_adp DataNiosSecurityAdminGroup#show_adp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_adp DataNiosSecurityAdminGroup#show_adp}
   */
   readonly showAdp?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_adp_debug DataNiosSecurityAdminGroup#show_adp_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_adp_debug DataNiosSecurityAdminGroup#show_adp_debug}
   */
   readonly showAdpDebug?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_cc_mode DataNiosSecurityAdminGroup#show_cc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_cc_mode DataNiosSecurityAdminGroup#show_cc_mode}
   */
   readonly showCcMode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_certificate_auth_admins DataNiosSecurityAdminGroup#show_certificate_auth_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_certificate_auth_admins DataNiosSecurityAdminGroup#show_certificate_auth_admins}
   */
   readonly showCertificateAuthAdmins?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_certificate_auth_services DataNiosSecurityAdminGroup#show_certificate_auth_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_certificate_auth_services DataNiosSecurityAdminGroup#show_certificate_auth_services}
   */
   readonly showCertificateAuthServices?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_check_auth_ns DataNiosSecurityAdminGroup#show_check_auth_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_check_auth_ns DataNiosSecurityAdminGroup#show_check_auth_ns}
   */
   readonly showCheckAuthNs?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_check_ssl_certificate DataNiosSecurityAdminGroup#show_check_ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_check_ssl_certificate DataNiosSecurityAdminGroup#show_check_ssl_certificate}
   */
   readonly showCheckSslCertificate?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_fips_mode DataNiosSecurityAdminGroup#show_fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_fips_mode DataNiosSecurityAdminGroup#show_fips_mode}
   */
   readonly showFipsMode?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_security DataNiosSecurityAdminGroup#show_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_security DataNiosSecurityAdminGroup#show_security}
   */
   readonly showSecurity?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_session_timeout DataNiosSecurityAdminGroup#show_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_session_timeout DataNiosSecurityAdminGroup#show_session_timeout}
   */
   readonly showSessionTimeout?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_subscriber_secure_data DataNiosSecurityAdminGroup#show_subscriber_secure_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_subscriber_secure_data DataNiosSecurityAdminGroup#show_subscriber_secure_data}
   */
   readonly showSubscriberSecureData?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_support_access DataNiosSecurityAdminGroup#show_support_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_support_access DataNiosSecurityAdminGroup#show_support_access}
   */
   readonly showSupportAccess?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_support_timeout DataNiosSecurityAdminGroup#show_support_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_support_timeout DataNiosSecurityAdminGroup#show_support_timeout}
   */
   readonly showSupportTimeout?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#show_vpn_cert_dates DataNiosSecurityAdminGroup#show_vpn_cert_dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#show_vpn_cert_dates DataNiosSecurityAdminGroup#show_vpn_cert_dates}
   */
   readonly showVpnCertDates?: boolean | cdktf.IResolvable;
 }
@@ -12273,67 +12273,67 @@ export interface DataNiosSecurityAdminGroupResultTroubleShootingToplevelCommands
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#console DataNiosSecurityAdminGroup#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#console DataNiosSecurityAdminGroup#console}
   */
   readonly console?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dig DataNiosSecurityAdminGroup#dig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dig DataNiosSecurityAdminGroup#dig}
   */
   readonly dig?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ping DataNiosSecurityAdminGroup#ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ping DataNiosSecurityAdminGroup#ping}
   */
   readonly ping?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ping6 DataNiosSecurityAdminGroup#ping6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ping6 DataNiosSecurityAdminGroup#ping6}
   */
   readonly ping6?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#rotate DataNiosSecurityAdminGroup#rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#rotate DataNiosSecurityAdminGroup#rotate}
   */
   readonly rotate?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#snmpget DataNiosSecurityAdminGroup#snmpget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#snmpget DataNiosSecurityAdminGroup#snmpget}
   */
   readonly snmpget?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#snmpwalk DataNiosSecurityAdminGroup#snmpwalk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#snmpwalk DataNiosSecurityAdminGroup#snmpwalk}
   */
   readonly snmpwalk?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#strace DataNiosSecurityAdminGroup#strace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#strace DataNiosSecurityAdminGroup#strace}
   */
   readonly strace?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#tracepath DataNiosSecurityAdminGroup#tracepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#tracepath DataNiosSecurityAdminGroup#tracepath}
   */
   readonly tracepath?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#traceroute DataNiosSecurityAdminGroup#traceroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#traceroute DataNiosSecurityAdminGroup#traceroute}
   */
   readonly traceroute?: boolean | cdktf.IResolvable;
   /**
   * If True then CLI user has permission to run the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#traffic_capture DataNiosSecurityAdminGroup#traffic_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#traffic_capture DataNiosSecurityAdminGroup#traffic_capture}
   */
   readonly trafficCapture?: boolean | cdktf.IResolvable;
 }
@@ -12729,19 +12729,19 @@ export interface DataNiosSecurityAdminGroupResultUserAccess {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#address DataNiosSecurityAdminGroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#address DataNiosSecurityAdminGroup#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#permission DataNiosSecurityAdminGroup#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#permission DataNiosSecurityAdminGroup#permission}
   */
   readonly permission?: string;
   /**
   * The reference of the ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#ref DataNiosSecurityAdminGroup#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#ref DataNiosSecurityAdminGroup#ref}
   */
   readonly ref?: string;
 }
@@ -12917,253 +12917,253 @@ export interface DataNiosSecurityAdminGroupResult {
   /**
   * Access methods specify whether an admin group can use the GUI and the API to access the appliance or to send Taxii messages to the appliance. Note that API includes both the Perl API and RESTful API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#access_method DataNiosSecurityAdminGroup#access_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#access_method DataNiosSecurityAdminGroup#access_method}
   */
   readonly accessMethod?: string[];
   /**
   * Admin set commands for the admin command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#admin_set_commands DataNiosSecurityAdminGroup#admin_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#admin_set_commands DataNiosSecurityAdminGroup#admin_set_commands}
   */
   readonly adminSetCommands?: DataNiosSecurityAdminGroupResultAdminSetCommands;
   /**
   * Admin show commands for the admin command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#admin_show_commands DataNiosSecurityAdminGroup#admin_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#admin_show_commands DataNiosSecurityAdminGroup#admin_show_commands}
   */
   readonly adminShowCommands?: DataNiosSecurityAdminGroupResultAdminShowCommands;
   /**
   * Admin toplevel commands for the admin command group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#admin_toplevel_commands DataNiosSecurityAdminGroup#admin_toplevel_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#admin_toplevel_commands DataNiosSecurityAdminGroup#admin_toplevel_commands}
   */
   readonly adminToplevelCommands?: DataNiosSecurityAdminGroupResultAdminToplevelCommands;
   /**
   * Cloud set commands for the cloud command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#cloud_set_commands DataNiosSecurityAdminGroup#cloud_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#cloud_set_commands DataNiosSecurityAdminGroup#cloud_set_commands}
   */
   readonly cloudSetCommands?: DataNiosSecurityAdminGroupResultCloudSetCommands;
   /**
   * Cloud show commands for admin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#cloud_show_commands DataNiosSecurityAdminGroup#cloud_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#cloud_show_commands DataNiosSecurityAdminGroup#cloud_show_commands}
   */
   readonly cloudShowCommands?: DataNiosSecurityAdminGroupResultCloudShowCommands;
   /**
   * Comment for the Admin Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#comment DataNiosSecurityAdminGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#comment DataNiosSecurityAdminGroup#comment}
   */
   readonly comment?: string;
   /**
   * Database show commands for admin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#database_set_commands DataNiosSecurityAdminGroup#database_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#database_set_commands DataNiosSecurityAdminGroup#database_set_commands}
   */
   readonly databaseSetCommands?: DataNiosSecurityAdminGroupResultDatabaseSetCommands;
   /**
   * Database show commands for the database command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#database_show_commands DataNiosSecurityAdminGroup#database_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#database_show_commands DataNiosSecurityAdminGroup#database_show_commands}
   */
   readonly databaseShowCommands?: DataNiosSecurityAdminGroupResultDatabaseShowCommands;
   /**
   * Dhcp set commands for the dhcp command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dhcp_set_commands DataNiosSecurityAdminGroup#dhcp_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dhcp_set_commands DataNiosSecurityAdminGroup#dhcp_set_commands}
   */
   readonly dhcpSetCommands?: DataNiosSecurityAdminGroupResultDhcpSetCommands;
   /**
   * Dhcp show commands for the dhcp command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dhcp_show_commands DataNiosSecurityAdminGroup#dhcp_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dhcp_show_commands DataNiosSecurityAdminGroup#dhcp_show_commands}
   */
   readonly dhcpShowCommands?: DataNiosSecurityAdminGroupResultDhcpShowCommands;
   /**
   * Determines whether the Admin Group is disabled or not. When this is set to False, the Admin Group is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#disable DataNiosSecurityAdminGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#disable DataNiosSecurityAdminGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Disable concurrent login feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#disable_concurrent_login DataNiosSecurityAdminGroup#disable_concurrent_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#disable_concurrent_login DataNiosSecurityAdminGroup#disable_concurrent_login}
   */
   readonly disableConcurrentLogin?: boolean | cdktf.IResolvable;
   /**
   * Dns set commands for the dns command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dns_set_commands DataNiosSecurityAdminGroup#dns_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dns_set_commands DataNiosSecurityAdminGroup#dns_set_commands}
   */
   readonly dnsSetCommands?: DataNiosSecurityAdminGroupResultDnsSetCommands;
   /**
   * Dns show commands for the dns command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dns_show_commands DataNiosSecurityAdminGroup#dns_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dns_show_commands DataNiosSecurityAdminGroup#dns_show_commands}
   */
   readonly dnsShowCommands?: DataNiosSecurityAdminGroupResultDnsShowCommands;
   /**
   * Dns toplevel commands for the dns command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#dns_toplevel_commands DataNiosSecurityAdminGroup#dns_toplevel_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#dns_toplevel_commands DataNiosSecurityAdminGroup#dns_toplevel_commands}
   */
   readonly dnsToplevelCommands?: DataNiosSecurityAdminGroupResultDnsToplevelCommands;
   /**
   * Docker set commands for the docker command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#docker_set_commands DataNiosSecurityAdminGroup#docker_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#docker_set_commands DataNiosSecurityAdminGroup#docker_set_commands}
   */
   readonly dockerSetCommands?: DataNiosSecurityAdminGroupResultDockerSetCommands;
   /**
   * Docker show commands for the docker command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#docker_show_commands DataNiosSecurityAdminGroup#docker_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#docker_show_commands DataNiosSecurityAdminGroup#docker_show_commands}
   */
   readonly dockerShowCommands?: DataNiosSecurityAdminGroupResultDockerShowCommands;
   /**
   * The e-mail addresses for the Admin Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#email_addresses DataNiosSecurityAdminGroup#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#email_addresses DataNiosSecurityAdminGroup#email_addresses}
   */
   readonly emailAddresses?: string[];
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#extattrs DataNiosSecurityAdminGroup#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#extattrs DataNiosSecurityAdminGroup#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * Grid set commands for the grid command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#grid_set_commands DataNiosSecurityAdminGroup#grid_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#grid_set_commands DataNiosSecurityAdminGroup#grid_set_commands}
   */
   readonly gridSetCommands?: DataNiosSecurityAdminGroupResultGridSetCommands;
   /**
   * Grid show commands for the grid command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#grid_show_commands DataNiosSecurityAdminGroup#grid_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#grid_show_commands DataNiosSecurityAdminGroup#grid_show_commands}
   */
   readonly gridShowCommands?: DataNiosSecurityAdminGroupResultGridShowCommands;
   /**
   * The Admin group inactivity lockout settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#inactivity_lockout_setting DataNiosSecurityAdminGroup#inactivity_lockout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#inactivity_lockout_setting DataNiosSecurityAdminGroup#inactivity_lockout_setting}
   */
   readonly inactivityLockoutSetting?: DataNiosSecurityAdminGroupResultInactivityLockoutSetting;
   /**
   * Set commands for the licensing command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#licensing_set_commands DataNiosSecurityAdminGroup#licensing_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#licensing_set_commands DataNiosSecurityAdminGroup#licensing_set_commands}
   */
   readonly licensingSetCommands?: DataNiosSecurityAdminGroupResultLicensingSetCommands;
   /**
   * Show commands for the licensing command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#licensing_show_commands DataNiosSecurityAdminGroup#licensing_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#licensing_show_commands DataNiosSecurityAdminGroup#licensing_show_commands}
   */
   readonly licensingShowCommands?: DataNiosSecurityAdminGroupResultLicensingShowCommands;
   /**
   * This struct specifies security policy settings in admin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#lockout_setting DataNiosSecurityAdminGroup#lockout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#lockout_setting DataNiosSecurityAdminGroup#lockout_setting}
   */
   readonly lockoutSetting?: DataNiosSecurityAdminGroupResultLockoutSetting;
   /**
   * Machine control toplevel commands for the machine control command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#machine_control_toplevel_commands DataNiosSecurityAdminGroup#machine_control_toplevel_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#machine_control_toplevel_commands DataNiosSecurityAdminGroup#machine_control_toplevel_commands}
   */
   readonly machineControlToplevelCommands?: DataNiosSecurityAdminGroupResultMachineControlToplevelCommands;
   /**
   * The name of the Admin Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#name DataNiosSecurityAdminGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#name DataNiosSecurityAdminGroup#name}
   */
   readonly name: string;
   /**
   * Set commands for the networking command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#networking_set_commands DataNiosSecurityAdminGroup#networking_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#networking_set_commands DataNiosSecurityAdminGroup#networking_set_commands}
   */
   readonly networkingSetCommands?: DataNiosSecurityAdminGroupResultNetworkingSetCommands;
   /**
   * Show commands for the networking command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#networking_show_commands DataNiosSecurityAdminGroup#networking_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#networking_show_commands DataNiosSecurityAdminGroup#networking_show_commands}
   */
   readonly networkingShowCommands?: DataNiosSecurityAdminGroupResultNetworkingShowCommands;
   /**
   * The Admin Group password settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#password_setting DataNiosSecurityAdminGroup#password_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#password_setting DataNiosSecurityAdminGroup#password_setting}
   */
   readonly passwordSetting?: DataNiosSecurityAdminGroupResultPasswordSetting;
   /**
   * The names of roles this Admin Group applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#roles DataNiosSecurityAdminGroup#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#roles DataNiosSecurityAdminGroup#roles}
   */
   readonly roles?: string[];
   /**
   * The Admin Group SAML settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#saml_setting DataNiosSecurityAdminGroup#saml_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#saml_setting DataNiosSecurityAdminGroup#saml_setting}
   */
   readonly samlSetting?: DataNiosSecurityAdminGroupResultSamlSetting;
   /**
   * Set commands for the security command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#security_set_commands DataNiosSecurityAdminGroup#security_set_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#security_set_commands DataNiosSecurityAdminGroup#security_set_commands}
   */
   readonly securitySetCommands?: DataNiosSecurityAdminGroupResultSecuritySetCommands;
   /**
   * Show commands for the security command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#security_show_commands DataNiosSecurityAdminGroup#security_show_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#security_show_commands DataNiosSecurityAdminGroup#security_show_commands}
   */
   readonly securityShowCommands?: DataNiosSecurityAdminGroupResultSecurityShowCommands;
   /**
   * Determines whether this Admin Group is a superuser group. A superuser group can perform all operations on the appliance, and can view and configure all types of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#superuser DataNiosSecurityAdminGroup#superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#superuser DataNiosSecurityAdminGroup#superuser}
   */
   readonly superuser?: boolean | cdktf.IResolvable;
   /**
   * Toplevel commands for the troubleshooting command group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#trouble_shooting_toplevel_commands DataNiosSecurityAdminGroup#trouble_shooting_toplevel_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#trouble_shooting_toplevel_commands DataNiosSecurityAdminGroup#trouble_shooting_toplevel_commands}
   */
   readonly troubleShootingToplevelCommands?: DataNiosSecurityAdminGroupResultTroubleShootingToplevelCommands;
   /**
   * This is the use flag for account inactivity lockout settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#use_account_inactivity_lockout_enable DataNiosSecurityAdminGroup#use_account_inactivity_lockout_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#use_account_inactivity_lockout_enable DataNiosSecurityAdminGroup#use_account_inactivity_lockout_enable}
   */
   readonly useAccountInactivityLockoutEnable?: boolean | cdktf.IResolvable;
   /**
   * Whether to override grid concurrent login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#use_disable_concurrent_login DataNiosSecurityAdminGroup#use_disable_concurrent_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#use_disable_concurrent_login DataNiosSecurityAdminGroup#use_disable_concurrent_login}
   */
   readonly useDisableConcurrentLogin?: boolean | cdktf.IResolvable;
   /**
   * Whether to override grid sequential lockout setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#use_lockout_setting DataNiosSecurityAdminGroup#use_lockout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#use_lockout_setting DataNiosSecurityAdminGroup#use_lockout_setting}
   */
   readonly useLockoutSetting?: boolean | cdktf.IResolvable;
   /**
   * Whether grid password expiry setting should be override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#use_password_setting DataNiosSecurityAdminGroup#use_password_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#use_password_setting DataNiosSecurityAdminGroup#use_password_setting}
   */
   readonly usePasswordSetting?: boolean | cdktf.IResolvable;
   /**
   * The access control items for this Admin Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#user_access DataNiosSecurityAdminGroup#user_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#user_access DataNiosSecurityAdminGroup#user_access}
   */
   readonly userAccess?: DataNiosSecurityAdminGroupResultUserAccess[] | cdktf.IResolvable;
 }
@@ -14471,7 +14471,7 @@ export class DataNiosSecurityAdminGroupResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group nios_security_admin_group}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group nios_security_admin_group}
 */
 export class DataNiosSecurityAdminGroup extends cdktf.TerraformDataSource {
 
@@ -14487,7 +14487,7 @@ export class DataNiosSecurityAdminGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosSecurityAdminGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosSecurityAdminGroup to import
-  * @param importFromId The id of the existing DataNiosSecurityAdminGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosSecurityAdminGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosSecurityAdminGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14499,7 +14499,7 @@ export class DataNiosSecurityAdminGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_admin_group nios_security_admin_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_admin_group nios_security_admin_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14510,8 +14510,8 @@ export class DataNiosSecurityAdminGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_security_admin_group',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

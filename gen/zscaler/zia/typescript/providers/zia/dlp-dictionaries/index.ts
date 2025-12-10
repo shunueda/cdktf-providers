@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface DlpDictionariesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of Bank Identification Number (BIN) values that are included or excluded from the Credit Cards dictionary. BIN values can be specified only for Diners Club, Mastercard, RuPay, and Visa cards. Up to 512 BIN values can be configured in a dictionary. Note: This field is applicable only to the predefined Credit Cards dictionary and its clones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#bin_numbers DlpDictionaries#bin_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#bin_numbers DlpDictionaries#bin_numbers}
   */
   readonly binNumbers?: number[];
   /**
   * The DLP confidence threshold for predefined dictionaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#confidence_level_for_predefined_dict DlpDictionaries#confidence_level_for_predefined_dict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#confidence_level_for_predefined_dict DlpDictionaries#confidence_level_for_predefined_dict}
   */
   readonly confidenceLevelForPredefinedDict?: string;
   /**
   * The DLP confidence threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#confidence_threshold DlpDictionaries#confidence_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#confidence_threshold DlpDictionaries#confidence_threshold}
   */
   readonly confidenceThreshold?: string;
   /**
   * The DLP dictionary proximity length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#custom DlpDictionaries#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#custom DlpDictionaries#custom}
   */
   readonly custom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#custom_phrase_match_type DlpDictionaries#custom_phrase_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#custom_phrase_match_type DlpDictionaries#custom_phrase_match_type}
   */
   readonly customPhraseMatchType?: string;
   /**
   * The desciption of the DLP dictionary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#description DlpDictionaries#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#description DlpDictionaries#description}
   */
   readonly description?: string;
   /**
   * ID of the predefined dictionary (original source dictionary) that is used for cloning. This field is applicable only to cloned dictionaries. Only a limited set of identification-based predefined dictionaries (e.g., Credit Cards, Social Security Numbers, National Identification Numbers, etc.) can be cloned. Up to 4 clones can be created from a predefined dictionary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#dict_template_id DlpDictionaries#dict_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#dict_template_id DlpDictionaries#dict_template_id}
   */
   readonly dictTemplateId?: number;
   /**
   * The DLP dictionary type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#dictionary_type DlpDictionaries#dictionary_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#dictionary_type DlpDictionaries#dictionary_type}
   */
   readonly dictionaryType?: string;
   /**
   * List of hierarchical identifiers for the DLP dictionary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#hierarchical_identifiers DlpDictionaries#hierarchical_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#hierarchical_identifiers DlpDictionaries#hierarchical_identifiers}
   */
   readonly hierarchicalIdentifiers?: string[];
   /**
   * Indicates whether to exclude documents that are a 100% match to already-indexed documents from triggering an Indexed Document Match (IDM) Dictionary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#ignore_exact_match_idm_dict DlpDictionaries#ignore_exact_match_idm_dict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#ignore_exact_match_idm_dict DlpDictionaries#ignore_exact_match_idm_dict}
   */
   readonly ignoreExactMatchIdmDict?: boolean | cdktf.IResolvable;
   /**
   * A true value denotes that the specified Bank Identification Number (BIN) values are included in the Credit Cards dictionary. A false value denotes that the specified BIN values are excluded from the Credit Cards dictionary.Note: This field is applicable only to the predefined Credit Cards dictionary and its clones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#include_bin_numbers DlpDictionaries#include_bin_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#include_bin_numbers DlpDictionaries#include_bin_numbers}
   */
   readonly includeBinNumbers?: boolean | cdktf.IResolvable;
   /**
   * The DLP dictionary's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#name DlpDictionaries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#name DlpDictionaries#name}
   */
   readonly name?: string;
   /**
   * The DLP dictionary proximity length that defines how close a high confidence phrase must be to an instance of the pattern (that the dictionary detects) to count as a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#proximity DlpDictionaries#proximity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#proximity DlpDictionaries#proximity}
   */
   readonly proximity?: number;
   /**
   * A Boolean constant that indicates if proximity length is enabled or disabled for a custom DLP dictionary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#proximity_enabled_for_custom_dictionary DlpDictionaries#proximity_enabled_for_custom_dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#proximity_enabled_for_custom_dictionary DlpDictionaries#proximity_enabled_for_custom_dictionary}
   */
   readonly proximityEnabledForCustomDictionary?: boolean | cdktf.IResolvable;
   /**
   * exact_data_match_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#exact_data_match_details DlpDictionaries#exact_data_match_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#exact_data_match_details DlpDictionaries#exact_data_match_details}
   */
   readonly exactDataMatchDetails?: DlpDictionariesExactDataMatchDetails[] | cdktf.IResolvable;
   /**
   * idm_profile_match_accuracy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#idm_profile_match_accuracy DlpDictionaries#idm_profile_match_accuracy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#idm_profile_match_accuracy DlpDictionaries#idm_profile_match_accuracy}
   */
   readonly idmProfileMatchAccuracy?: DlpDictionariesIdmProfileMatchAccuracy[] | cdktf.IResolvable;
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#patterns DlpDictionaries#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#patterns DlpDictionaries#patterns}
   */
   readonly patterns?: DlpDictionariesPatterns[] | cdktf.IResolvable;
   /**
   * phrases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#phrases DlpDictionaries#phrases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#phrases DlpDictionaries#phrases}
   */
   readonly phrases?: DlpDictionariesPhrases[] | cdktf.IResolvable;
 }
@@ -118,29 +118,29 @@ export interface DlpDictionariesExactDataMatchDetails {
   /**
   * The unique identifier for the EDM mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#dictionary_edm_mapping_id DlpDictionaries#dictionary_edm_mapping_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#dictionary_edm_mapping_id DlpDictionaries#dictionary_edm_mapping_id}
   */
   readonly dictionaryEdmMappingId?: number;
   /**
   * The EDM template's primary field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#primary_fields DlpDictionaries#primary_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#primary_fields DlpDictionaries#primary_fields}
   */
   readonly primaryFields?: number[];
   /**
   * The unique identifier for the EDM template (or schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#schema_id DlpDictionaries#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#schema_id DlpDictionaries#schema_id}
   */
   readonly schemaId?: number;
   /**
   * The EDM secondary field to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#secondary_field_match_on DlpDictionaries#secondary_field_match_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#secondary_field_match_on DlpDictionaries#secondary_field_match_on}
   */
   readonly secondaryFieldMatchOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#secondary_fields DlpDictionaries#secondary_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#secondary_fields DlpDictionaries#secondary_fields}
   */
   readonly secondaryFields?: number[];
 }
@@ -372,11 +372,11 @@ export class DlpDictionariesExactDataMatchDetailsList extends cdktf.ComplexList 
 }
 export interface DlpDictionariesIdmProfileMatchAccuracyAdpIdmProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#extensions DlpDictionaries#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#extensions DlpDictionaries#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#id DlpDictionaries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#id DlpDictionaries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -526,13 +526,13 @@ export interface DlpDictionariesIdmProfileMatchAccuracy {
   /**
   * The IDM template match accuracy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#match_accuracy DlpDictionaries#match_accuracy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#match_accuracy DlpDictionaries#match_accuracy}
   */
   readonly matchAccuracy?: string;
   /**
   * adp_idm_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#adp_idm_profile DlpDictionaries#adp_idm_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#adp_idm_profile DlpDictionaries#adp_idm_profile}
   */
   readonly adpIdmProfile?: DlpDictionariesIdmProfileMatchAccuracyAdpIdmProfile[] | cdktf.IResolvable;
 }
@@ -679,13 +679,13 @@ export interface DlpDictionariesPatterns {
   /**
   * The action applied to a DLP dictionary using patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#action DlpDictionaries#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#action DlpDictionaries#action}
   */
   readonly action?: string;
   /**
   * DLP dictionary pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#pattern DlpDictionaries#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#pattern DlpDictionaries#pattern}
   */
   readonly pattern?: string;
 }
@@ -830,11 +830,11 @@ export class DlpDictionariesPatternsList extends cdktf.ComplexList {
 }
 export interface DlpDictionariesPhrases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#action DlpDictionaries#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#action DlpDictionaries#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#phrase DlpDictionaries#phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#phrase DlpDictionaries#phrase}
   */
   readonly phrase?: string;
 }
@@ -979,7 +979,7 @@ export class DlpDictionariesPhrasesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries zia_dlp_dictionaries}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries zia_dlp_dictionaries}
 */
 export class DlpDictionaries extends cdktf.TerraformResource {
 
@@ -995,7 +995,7 @@ export class DlpDictionaries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlpDictionaries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlpDictionaries to import
-  * @param importFromId The id of the existing DlpDictionaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlpDictionaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlpDictionaries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1007,7 +1007,7 @@ export class DlpDictionaries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/dlp_dictionaries zia_dlp_dictionaries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/dlp_dictionaries zia_dlp_dictionaries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1018,8 +1018,8 @@ export class DlpDictionaries extends cdktf.TerraformResource {
       terraformResourceType: 'zia_dlp_dictionaries',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

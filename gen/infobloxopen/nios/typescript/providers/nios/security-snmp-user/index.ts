@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SecuritySnmpUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines an authentication password for the user. This is a write-only attribute. Must be between 8 and 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#authentication_password SecuritySnmpUser#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#authentication_password SecuritySnmpUser#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * The authentication protocol to be used for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#authentication_protocol SecuritySnmpUser#authentication_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#authentication_protocol SecuritySnmpUser#authentication_protocol}
   */
   readonly authenticationProtocol: string;
   /**
   * A descriptive comment for the SNMPv3 User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#comment SecuritySnmpUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#comment SecuritySnmpUser#comment}
   */
   readonly comment?: string;
   /**
   * Determines if SNMPv3 user is disabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#disable SecuritySnmpUser#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#disable SecuritySnmpUser#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#extattrs SecuritySnmpUser#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#extattrs SecuritySnmpUser#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#name SecuritySnmpUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#name SecuritySnmpUser#name}
   */
   readonly name: string;
   /**
   * Determines a password for the privacy protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#privacy_password SecuritySnmpUser#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#privacy_password SecuritySnmpUser#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
   * The privacy protocol to be used for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#privacy_protocol SecuritySnmpUser#privacy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#privacy_protocol SecuritySnmpUser#privacy_protocol}
   */
   readonly privacyProtocol: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user nios_security_snmp_user}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user nios_security_snmp_user}
 */
 export class SecuritySnmpUser extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class SecuritySnmpUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecuritySnmpUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecuritySnmpUser to import
-  * @param importFromId The id of the existing SecuritySnmpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecuritySnmpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecuritySnmpUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class SecuritySnmpUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_snmp_user nios_security_snmp_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_snmp_user nios_security_snmp_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class SecuritySnmpUser extends cdktf.TerraformResource {
       terraformResourceType: 'nios_security_snmp_user',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

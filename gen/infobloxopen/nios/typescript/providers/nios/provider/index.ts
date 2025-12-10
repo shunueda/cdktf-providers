@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface NiosProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs#nios_host_url NiosProvider#nios_host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs#nios_host_url NiosProvider#nios_host_url}
   */
   readonly niosHostUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs#nios_password NiosProvider#nios_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs#nios_password NiosProvider#nios_password}
   */
   readonly niosPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs#nios_username NiosProvider#nios_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs#nios_username NiosProvider#nios_username}
   */
   readonly niosUsername?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs#alias NiosProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs#alias NiosProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs nios}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs nios}
 */
 export class NiosProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class NiosProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NiosProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NiosProvider to import
-  * @param importFromId The id of the existing NiosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NiosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NiosProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NiosProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs nios} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs nios} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class NiosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nios',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'infobloxopen/nios'
     });

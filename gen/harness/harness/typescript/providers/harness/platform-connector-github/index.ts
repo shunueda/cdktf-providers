@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PlatformConnectorGithubConfig extends cdktf.TerraformMetaArgume
   /**
   * Whether the connection we're making is to a github repository or a github account. Valid values are Account, Repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#connection_type PlatformConnectorGithub#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#connection_type PlatformConnectorGithub#connection_type}
   */
   readonly connectionType: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#delegate_selectors PlatformConnectorGithub#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#delegate_selectors PlatformConnectorGithub#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#description PlatformConnectorGithub#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#description PlatformConnectorGithub#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#execute_on_delegate PlatformConnectorGithub#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#execute_on_delegate PlatformConnectorGithub#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Enable this flag for force deletion of service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#force_delete PlatformConnectorGithub#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#force_delete PlatformConnectorGithub#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#id PlatformConnectorGithub#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#id PlatformConnectorGithub#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface PlatformConnectorGithubConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#identifier PlatformConnectorGithub#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#identifier PlatformConnectorGithub#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#name PlatformConnectorGithub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#name PlatformConnectorGithub#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#org_id PlatformConnectorGithub#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#org_id PlatformConnectorGithub#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#project_id PlatformConnectorGithub#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#project_id PlatformConnectorGithub#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#tags PlatformConnectorGithub#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#tags PlatformConnectorGithub#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the Github repository or account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#url PlatformConnectorGithub#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#url PlatformConnectorGithub#url}
   */
   readonly url: string;
   /**
   * Repository to test the connection with. This is only used when `connection_type` is `Account`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#validation_repo PlatformConnectorGithub#validation_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#validation_repo PlatformConnectorGithub#validation_repo}
   */
   readonly validationRepo?: string;
   /**
   * api_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#api_authentication PlatformConnectorGithub#api_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#api_authentication PlatformConnectorGithub#api_authentication}
   */
   readonly apiAuthentication?: PlatformConnectorGithubApiAuthentication;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#credentials PlatformConnectorGithub#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#credentials PlatformConnectorGithub#credentials}
   */
   readonly credentials: PlatformConnectorGithubCredentials;
 }
@@ -103,31 +103,31 @@ export interface PlatformConnectorGithubApiAuthenticationGithubApp {
   /**
   * Enter the GitHub App ID from the GitHub App General tab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#application_id PlatformConnectorGithub#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#application_id PlatformConnectorGithub#application_id}
   */
   readonly applicationId?: string;
   /**
   * Reference to the secret containing application id To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#application_id_ref PlatformConnectorGithub#application_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#application_id_ref PlatformConnectorGithub#application_id_ref}
   */
   readonly applicationIdRef?: string;
   /**
   * Enter the Installation ID located in the URL of the installed GitHub App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#installation_id PlatformConnectorGithub#installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#installation_id PlatformConnectorGithub#installation_id}
   */
   readonly installationId?: string;
   /**
   * Reference to the secret containing installation id. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#installation_id_ref PlatformConnectorGithub#installation_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#installation_id_ref PlatformConnectorGithub#installation_id_ref}
   */
   readonly installationIdRef?: string;
   /**
   * Reference to the secret containing the private key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#private_key_ref PlatformConnectorGithub#private_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#private_key_ref PlatformConnectorGithub#private_key_ref}
   */
   readonly privateKeyRef: string;
 }
@@ -326,13 +326,13 @@ export interface PlatformConnectorGithubApiAuthentication {
   /**
   * Personal access token for interacting with the github api. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#token_ref PlatformConnectorGithub#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#token_ref PlatformConnectorGithub#token_ref}
   */
   readonly tokenRef?: string;
   /**
   * github_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#github_app PlatformConnectorGithub#github_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#github_app PlatformConnectorGithub#github_app}
   */
   readonly githubApp?: PlatformConnectorGithubApiAuthenticationGithubApp;
 }
@@ -528,31 +528,31 @@ export interface PlatformConnectorGithubCredentialsHttpGithubApp {
   /**
   * Enter the GitHub App ID from the GitHub App General tab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#application_id PlatformConnectorGithub#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#application_id PlatformConnectorGithub#application_id}
   */
   readonly applicationId?: string;
   /**
   * Reference to the secret containing application id To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#application_id_ref PlatformConnectorGithub#application_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#application_id_ref PlatformConnectorGithub#application_id_ref}
   */
   readonly applicationIdRef?: string;
   /**
   * Enter the Installation ID located in the URL of the installed GitHub App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#installation_id PlatformConnectorGithub#installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#installation_id PlatformConnectorGithub#installation_id}
   */
   readonly installationId?: string;
   /**
   * Reference to the secret containing installation id. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#installation_id_ref PlatformConnectorGithub#installation_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#installation_id_ref PlatformConnectorGithub#installation_id_ref}
   */
   readonly installationIdRef?: string;
   /**
   * Reference to the secret containing the private key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#private_key_ref PlatformConnectorGithub#private_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#private_key_ref PlatformConnectorGithub#private_key_ref}
   */
   readonly privateKeyRef: string;
 }
@@ -751,31 +751,31 @@ export interface PlatformConnectorGithubCredentialsHttp {
   /**
   * Reference to a secret containing the personal access to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#token_ref PlatformConnectorGithub#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#token_ref PlatformConnectorGithub#token_ref}
   */
   readonly tokenRef?: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#username PlatformConnectorGithub#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#username PlatformConnectorGithub#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#username_ref PlatformConnectorGithub#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#username_ref PlatformConnectorGithub#username_ref}
   */
   readonly usernameRef?: string;
   /**
   * anonymous block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#anonymous PlatformConnectorGithub#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#anonymous PlatformConnectorGithub#anonymous}
   */
   readonly anonymous?: PlatformConnectorGithubCredentialsHttpAnonymous[] | cdktf.IResolvable;
   /**
   * github_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#github_app PlatformConnectorGithub#github_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#github_app PlatformConnectorGithub#github_app}
   */
   readonly githubApp?: PlatformConnectorGithubCredentialsHttpGithubApp;
 }
@@ -977,7 +977,7 @@ export interface PlatformConnectorGithubCredentialsSsh {
   /**
   * Reference to the Harness secret containing the ssh key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#ssh_key_ref PlatformConnectorGithub#ssh_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#ssh_key_ref PlatformConnectorGithub#ssh_key_ref}
   */
   readonly sshKeyRef: string;
 }
@@ -1060,13 +1060,13 @@ export interface PlatformConnectorGithubCredentials {
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#http PlatformConnectorGithub#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#http PlatformConnectorGithub#http}
   */
   readonly http?: PlatformConnectorGithubCredentialsHttp;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#ssh PlatformConnectorGithub#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#ssh PlatformConnectorGithub#ssh}
   */
   readonly ssh?: PlatformConnectorGithubCredentialsSsh;
 }
@@ -1179,7 +1179,7 @@ export class PlatformConnectorGithubCredentialsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github harness_platform_connector_github}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github harness_platform_connector_github}
 */
 export class PlatformConnectorGithub extends cdktf.TerraformResource {
 
@@ -1195,7 +1195,7 @@ export class PlatformConnectorGithub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorGithub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorGithub to import
-  * @param importFromId The id of the existing PlatformConnectorGithub that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorGithub that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorGithub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1207,7 +1207,7 @@ export class PlatformConnectorGithub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_github harness_platform_connector_github} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_github harness_platform_connector_github} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1218,8 +1218,8 @@ export class PlatformConnectorGithub extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_github',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

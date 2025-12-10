@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface DataElasticstackKibanaSpacesSpaces {
   /**
   * The description for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces#description DataElasticstackKibanaSpaces#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces#description DataElasticstackKibanaSpaces#description}
   */
   readonly description?: string;
   /**
   * The data-URL encoded image to display in the space avatar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces#image_url DataElasticstackKibanaSpaces#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces#image_url DataElasticstackKibanaSpaces#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The display name for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces#name DataElasticstackKibanaSpaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces#name DataElasticstackKibanaSpaces#name}
   */
   readonly name: string;
 }
@@ -210,7 +210,7 @@ export class DataElasticstackKibanaSpacesSpacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces elasticstack_kibana_spaces}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces elasticstack_kibana_spaces}
 */
 export class DataElasticstackKibanaSpaces extends cdktf.TerraformDataSource {
 
@@ -226,7 +226,7 @@ export class DataElasticstackKibanaSpaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataElasticstackKibanaSpaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackKibanaSpaces to import
-  * @param importFromId The id of the existing DataElasticstackKibanaSpaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackKibanaSpaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackKibanaSpaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class DataElasticstackKibanaSpaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_spaces elasticstack_kibana_spaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/kibana_spaces elasticstack_kibana_spaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class DataElasticstackKibanaSpaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'elasticstack_kibana_spaces',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

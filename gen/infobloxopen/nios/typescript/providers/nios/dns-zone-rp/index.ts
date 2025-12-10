@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,223 +10,223 @@ export interface DnsZoneRpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the zone; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#comment DnsZoneRp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#comment DnsZoneRp#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether a zone is disabled or not. When this is set to False, the zone is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#disable DnsZoneRp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#disable DnsZoneRp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#extattrs DnsZoneRp#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#extattrs DnsZoneRp#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of external primary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#external_primaries DnsZoneRp#external_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#external_primaries DnsZoneRp#external_primaries}
   */
   readonly externalPrimaries?: DnsZoneRpExternalPrimaries[] | cdktf.IResolvable;
   /**
   * The list of external secondary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#external_secondaries DnsZoneRp#external_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#external_secondaries DnsZoneRp#external_secondaries}
   */
   readonly externalSecondaries?: DnsZoneRpExternalSecondaries[] | cdktf.IResolvable;
   /**
   * Rules to map fireeye alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#fireeye_rule_mapping DnsZoneRp#fireeye_rule_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#fireeye_rule_mapping DnsZoneRp#fireeye_rule_mapping}
   */
   readonly fireeyeRuleMapping?: DnsZoneRpFireeyeRuleMapping;
   /**
   * The name of this DNS zone in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#fqdn DnsZoneRp#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#fqdn DnsZoneRp#fqdn}
   */
   readonly fqdn: string;
   /**
   * The grid primary servers for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#grid_primary DnsZoneRp#grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#grid_primary DnsZoneRp#grid_primary}
   */
   readonly gridPrimary?: DnsZoneRpGridPrimary[] | cdktf.IResolvable;
   /**
   * The list with Grid members that are secondary servers for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#grid_secondaries DnsZoneRp#grid_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#grid_secondaries DnsZoneRp#grid_secondaries}
   */
   readonly gridSecondaries?: DnsZoneRpGridSecondaries[] | cdktf.IResolvable;
   /**
   * If you enable this flag, other administrators cannot make conflicting changes. This is for administration purposes only. The zone will continue to serve DNS data even when it is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#locked DnsZoneRp#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#locked DnsZoneRp#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * Determines whether RPZ logging enabled or not at zone level. When this is set to False, the logging is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#log_rpz DnsZoneRp#log_rpz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#log_rpz DnsZoneRp#log_rpz}
   */
   readonly logRpz?: boolean | cdktf.IResolvable;
   /**
   * The list of per-member SOA MNAME information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#member_soa_mnames DnsZoneRp#member_soa_mnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#member_soa_mnames DnsZoneRp#member_soa_mnames}
   */
   readonly memberSoaMnames?: DnsZoneRpMemberSoaMnames[] | cdktf.IResolvable;
   /**
   * The name server group that serves DNS for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#ns_group DnsZoneRp#ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#ns_group DnsZoneRp#ns_group}
   */
   readonly nsGroup?: string;
   /**
   * The RFC2317 prefix value of this DNS zone. Use this field only when the netmask is greater than 24 bits; that is, for a mask between 25 and 31 bits. Enter a prefix, such as the name of the allocated address block. The prefix can be alphanumeric characters, such as 128/26 , 128-189 , or sub-B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#prefix DnsZoneRp#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#prefix DnsZoneRp#prefix}
   */
   readonly prefix?: string;
   /**
   * The hostname policy for records under this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#record_name_policy DnsZoneRp#record_name_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#record_name_policy DnsZoneRp#record_name_policy}
   */
   readonly recordNamePolicy?: string;
   /**
   * Enables the appliance to ignore RPZ-IP triggers with prefix lengths less than the specified minimum prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_enabled DnsZoneRp#rpz_drop_ip_rule_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_enabled DnsZoneRp#rpz_drop_ip_rule_enabled}
   */
   readonly rpzDropIpRuleEnabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum prefix length for IPv4 RPZ-IP triggers. The appliance ignores RPZ-IP triggers with prefix lengths less than the specified minimum IPv4 prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_min_prefix_length_ipv4 DnsZoneRp#rpz_drop_ip_rule_min_prefix_length_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_min_prefix_length_ipv4 DnsZoneRp#rpz_drop_ip_rule_min_prefix_length_ipv4}
   */
   readonly rpzDropIpRuleMinPrefixLengthIpv4?: number;
   /**
   * The minimum prefix length for IPv6 RPZ-IP triggers. The appliance ignores RPZ-IP triggers with prefix lengths less than the specified minimum IPv6 prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_min_prefix_length_ipv6 DnsZoneRp#rpz_drop_ip_rule_min_prefix_length_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_drop_ip_rule_min_prefix_length_ipv6 DnsZoneRp#rpz_drop_ip_rule_min_prefix_length_ipv6}
   */
   readonly rpzDropIpRuleMinPrefixLengthIpv6?: number;
   /**
   * The response policy zone override policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_policy DnsZoneRp#rpz_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_policy DnsZoneRp#rpz_policy}
   */
   readonly rpzPolicy?: string;
   /**
   * The severity of this response policy zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_severity DnsZoneRp#rpz_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_severity DnsZoneRp#rpz_severity}
   */
   readonly rpzSeverity?: string;
   /**
   * The type of rpz zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_type DnsZoneRp#rpz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_type DnsZoneRp#rpz_type}
   */
   readonly rpzType?: string;
   /**
   * The serial number in the SOA record incrementally changes every time the record is modified. The Infoblox appliance allows you to change the serial number (in the SOA record) for the primary server so it is higher than the secondary server, thereby ensuring zone transfers come from the primary server (as they should). To change the serial number you need to set a new value at "soa_serial_number" and pass "set_soa_serial_number" as True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#set_soa_serial_number DnsZoneRp#set_soa_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#set_soa_serial_number DnsZoneRp#set_soa_serial_number}
   */
   readonly setSoaSerialNumber?: boolean | cdktf.IResolvable;
   /**
   * The Time to Live (TTL) value of the SOA record of this zone. This value is the number of seconds that data is cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_default_ttl DnsZoneRp#soa_default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_default_ttl DnsZoneRp#soa_default_ttl}
   */
   readonly soaDefaultTtl?: number;
   /**
   * The SOA email value for this zone. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_email DnsZoneRp#soa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_email DnsZoneRp#soa_email}
   */
   readonly soaEmail?: string;
   /**
   * This setting defines the amount of time, in seconds, after which the secondary server stops giving out answers about the zone because the zone data is too old to be useful. The default is one week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_expire DnsZoneRp#soa_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_expire DnsZoneRp#soa_expire}
   */
   readonly soaExpire?: number;
   /**
   * The negative Time to Live (TTL) value of the SOA of the zone indicates how long a secondary server can cache data for "Does Not Respond" responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_negative_ttl DnsZoneRp#soa_negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_negative_ttl DnsZoneRp#soa_negative_ttl}
   */
   readonly soaNegativeTtl?: number;
   /**
   * This indicates the interval at which a secondary server sends a message to the primary server for a zone to check that its data is current, and retrieve fresh data if it is not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_refresh DnsZoneRp#soa_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_refresh DnsZoneRp#soa_refresh}
   */
   readonly soaRefresh?: number;
   /**
   * This indicates how long a secondary server must wait before attempting to recontact the primary server after a connection failure between the two servers occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_retry DnsZoneRp#soa_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_retry DnsZoneRp#soa_retry}
   */
   readonly soaRetry?: number;
   /**
   * The serial number in the SOA record incrementally changes every time the record is modified. The Infoblox appliance allows you to change the serial number (in the SOA record) for the primary server so it is higher than the secondary server, thereby ensuring zone transfers come from the primary server (as they should). To change the serial number you need to set a new value at "soa_serial_number" and pass "set_soa_serial_number" as True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#soa_serial_number DnsZoneRp#soa_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#soa_serial_number DnsZoneRp#soa_serial_number}
   */
   readonly soaSerialNumber?: number;
   /**
   * The canonical name of redirect target in substitute policy of response policy zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#substitute_name DnsZoneRp#substitute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#substitute_name DnsZoneRp#substitute_name}
   */
   readonly substituteName?: string;
   /**
   * This flag controls whether the zone is using an external primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_external_primary DnsZoneRp#use_external_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_external_primary DnsZoneRp#use_external_primary}
   */
   readonly useExternalPrimary?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: soa_default_ttl , soa_expire, soa_negative_ttl, soa_refresh, soa_retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_grid_zone_timer DnsZoneRp#use_grid_zone_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_grid_zone_timer DnsZoneRp#use_grid_zone_timer}
   */
   readonly useGridZoneTimer?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: log_rpz
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_log_rpz DnsZoneRp#use_log_rpz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_log_rpz DnsZoneRp#use_log_rpz}
   */
   readonly useLogRpz?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: record_name_policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_record_name_policy DnsZoneRp#use_record_name_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_record_name_policy DnsZoneRp#use_record_name_policy}
   */
   readonly useRecordNamePolicy?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: rpz_drop_ip_rule_enabled , rpz_drop_ip_rule_min_prefix_length_ipv4, rpz_drop_ip_rule_min_prefix_length_ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_rpz_drop_ip_rule DnsZoneRp#use_rpz_drop_ip_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_rpz_drop_ip_rule DnsZoneRp#use_rpz_drop_ip_rule}
   */
   readonly useRpzDropIpRule?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: soa_email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_soa_email DnsZoneRp#use_soa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_soa_email DnsZoneRp#use_soa_email}
   */
   readonly useSoaEmail?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the zone resides. Example "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#view DnsZoneRp#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#view DnsZoneRp#view}
   */
   readonly view?: string;
 }
@@ -234,43 +234,43 @@ export interface DnsZoneRpExternalPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -561,43 +561,43 @@ export interface DnsZoneRpExternalSecondaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -888,19 +888,19 @@ export interface DnsZoneRpFireeyeRuleMappingFireeyeAlertMapping {
   /**
   * The type of Fireeye Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#alert_type DnsZoneRp#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#alert_type DnsZoneRp#alert_type}
   */
   readonly alertType?: string;
   /**
   * The expiration Lifetime of alert type. The 32-bit unsigned integer represents the amount of seconds this alert type will live for. 0 means the alert will never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#lifetime DnsZoneRp#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#lifetime DnsZoneRp#lifetime}
   */
   readonly lifetime?: number;
   /**
   * The RPZ rule for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#rpz_rule DnsZoneRp#rpz_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#rpz_rule DnsZoneRp#rpz_rule}
   */
   readonly rpzRule?: string;
 }
@@ -1076,19 +1076,19 @@ export interface DnsZoneRpFireeyeRuleMapping {
   /**
   * The override setting for APT alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#apt_override DnsZoneRp#apt_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#apt_override DnsZoneRp#apt_override}
   */
   readonly aptOverride?: string;
   /**
   * The FireEye alert mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#fireeye_alert_mapping DnsZoneRp#fireeye_alert_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#fireeye_alert_mapping DnsZoneRp#fireeye_alert_mapping}
   */
   readonly fireeyeAlertMapping?: DnsZoneRpFireeyeRuleMappingFireeyeAlertMapping[] | cdktf.IResolvable;
   /**
   * The domain name to be substituted, this is applicable only when apt_override is set to "SUBSTITUTE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#substituted_domain_name DnsZoneRp#substituted_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#substituted_domain_name DnsZoneRp#substituted_domain_name}
   */
   readonly substitutedDomainName?: string;
 }
@@ -1352,13 +1352,13 @@ export interface DnsZoneRpGridPrimary {
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
   */
   readonly name: string;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -1523,43 +1523,43 @@ export interface DnsZoneRpGridSecondariesPreferredPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#address DnsZoneRp#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key DnsZoneRp#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_alg DnsZoneRp#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#tsig_key_name DnsZoneRp#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#use_tsig_key_name DnsZoneRp#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -1850,37 +1850,37 @@ export interface DnsZoneRpGridSecondaries {
   /**
   * This flag represents whether the preferred_primaries field values of this member are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#enable_preferred_primaries DnsZoneRp#enable_preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#enable_preferred_primaries DnsZoneRp#enable_preferred_primaries}
   */
   readonly enablePreferredPrimaries?: boolean | cdktf.IResolvable;
   /**
   * The flag represents DNS zone transfers if set to False, and ID Grid Replication if set to True. This flag is ignored if the struct is specified as part of a stub zone or if it is set as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#grid_replicate DnsZoneRp#grid_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#grid_replicate DnsZoneRp#grid_replicate}
   */
   readonly gridReplicate?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether the Grid lead secondary server performs zone transfers to non lead secondaries. This flag is ignored if the struct is specified as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#lead DnsZoneRp#lead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#lead DnsZoneRp#lead}
   */
   readonly lead?: boolean | cdktf.IResolvable;
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#name DnsZoneRp#name}
   */
   readonly name: string;
   /**
   * The primary preference list with Grid member names and\or External Server extserver structs for this member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#preferred_primaries DnsZoneRp#preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#preferred_primaries DnsZoneRp#preferred_primaries}
   */
   readonly preferredPrimaries?: DnsZoneRpGridSecondariesPreferredPrimaries[] | cdktf.IResolvable;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#stealth DnsZoneRp#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -2140,19 +2140,19 @@ export interface DnsZoneRpMemberSoaMnames {
   /**
   * The grid primary server for the zone. Only one of "grid_primary" or "ms_server_primary" should be set when modifying or creating the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#grid_primary DnsZoneRp#grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#grid_primary DnsZoneRp#grid_primary}
   */
   readonly gridPrimary?: string;
   /**
   * Master's SOA MNAME. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#mname DnsZoneRp#mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#mname DnsZoneRp#mname}
   */
   readonly mname?: string;
   /**
   * The primary MS server for the zone. Only one of "grid_primary" or "ms_server_primary" should be set when modifying or creating the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#ms_server_primary DnsZoneRp#ms_server_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#ms_server_primary DnsZoneRp#ms_server_primary}
   */
   readonly msServerPrimary?: string;
 }
@@ -2416,7 +2416,7 @@ export class DnsZoneRpMemberSoaSerialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp nios_dns_zone_rp}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp nios_dns_zone_rp}
 */
 export class DnsZoneRp extends cdktf.TerraformResource {
 
@@ -2432,7 +2432,7 @@ export class DnsZoneRp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZoneRp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZoneRp to import
-  * @param importFromId The id of the existing DnsZoneRp that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZoneRp that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZoneRp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2444,7 +2444,7 @@ export class DnsZoneRp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_rp nios_dns_zone_rp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_rp nios_dns_zone_rp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2455,8 +2455,8 @@ export class DnsZoneRp extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_zone_rp',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

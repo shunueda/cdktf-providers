@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ElasticsearchSecuritySystemUserConfig extends cdktf.TerraformMe
   /**
   * Specifies whether the user is enabled. The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#enabled ElasticsearchSecuritySystemUser#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#enabled ElasticsearchSecuritySystemUser#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The user's password. Passwords must be at least 6 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#password ElasticsearchSecuritySystemUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#password ElasticsearchSecuritySystemUser#password}
   */
   readonly password?: string;
   /**
   * A hash of the user's password. This must be produced using the same hashing algorithm as has been configured for password storage (see the [security settings documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/security-settings.html#hashing-settings)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#password_hash ElasticsearchSecuritySystemUser#password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#password_hash ElasticsearchSecuritySystemUser#password_hash}
   */
   readonly passwordHash?: string;
   /**
   * An identifier for the system user (see the [built-in users documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/built-in-users.html)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#username ElasticsearchSecuritySystemUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#username ElasticsearchSecuritySystemUser#username}
   */
   readonly username: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#elasticsearch_connection ElasticsearchSecuritySystemUser#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#elasticsearch_connection ElasticsearchSecuritySystemUser#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchSecuritySystemUserElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -42,85 +42,85 @@ export interface ElasticsearchSecuritySystemUserElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#api_key ElasticsearchSecuritySystemUser#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#api_key ElasticsearchSecuritySystemUser#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#bearer_token ElasticsearchSecuritySystemUser#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#bearer_token ElasticsearchSecuritySystemUser#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#ca_data ElasticsearchSecuritySystemUser#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#ca_data ElasticsearchSecuritySystemUser#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#ca_file ElasticsearchSecuritySystemUser#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#ca_file ElasticsearchSecuritySystemUser#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#cert_data ElasticsearchSecuritySystemUser#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#cert_data ElasticsearchSecuritySystemUser#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#cert_file ElasticsearchSecuritySystemUser#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#cert_file ElasticsearchSecuritySystemUser#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#endpoints ElasticsearchSecuritySystemUser#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#endpoints ElasticsearchSecuritySystemUser#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#es_client_authentication ElasticsearchSecuritySystemUser#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#es_client_authentication ElasticsearchSecuritySystemUser#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#headers ElasticsearchSecuritySystemUser#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#headers ElasticsearchSecuritySystemUser#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#insecure ElasticsearchSecuritySystemUser#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#insecure ElasticsearchSecuritySystemUser#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#key_data ElasticsearchSecuritySystemUser#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#key_data ElasticsearchSecuritySystemUser#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#key_file ElasticsearchSecuritySystemUser#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#key_file ElasticsearchSecuritySystemUser#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#password ElasticsearchSecuritySystemUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#password ElasticsearchSecuritySystemUser#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#username ElasticsearchSecuritySystemUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#username ElasticsearchSecuritySystemUser#username}
   */
   readonly username?: string;
 }
@@ -613,7 +613,7 @@ export class ElasticsearchSecuritySystemUserElasticsearchConnectionList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user elasticstack_elasticsearch_security_system_user}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user elasticstack_elasticsearch_security_system_user}
 */
 export class ElasticsearchSecuritySystemUser extends cdktf.TerraformResource {
 
@@ -629,7 +629,7 @@ export class ElasticsearchSecuritySystemUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchSecuritySystemUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchSecuritySystemUser to import
-  * @param importFromId The id of the existing ElasticsearchSecuritySystemUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchSecuritySystemUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchSecuritySystemUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -641,7 +641,7 @@ export class ElasticsearchSecuritySystemUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_system_user elasticstack_elasticsearch_security_system_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_system_user elasticstack_elasticsearch_security_system_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -652,8 +652,8 @@ export class ElasticsearchSecuritySystemUser extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_security_system_user',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

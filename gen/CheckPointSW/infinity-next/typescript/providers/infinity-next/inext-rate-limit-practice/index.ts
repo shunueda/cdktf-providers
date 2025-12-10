@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface InextRateLimitPracticeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#name InextRateLimitPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#name InextRateLimitPractice#name}
   */
   readonly name: string;
   /**
   * The visibility of the resource, Shared or Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#visibility InextRateLimitPractice#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#visibility InextRateLimitPractice#visibility}
   */
   readonly visibility?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#rule InextRateLimitPractice#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#rule InextRateLimitPractice#rule}
   */
   readonly rule?: InextRateLimitPracticeRule[] | cdktf.IResolvable;
 }
@@ -30,29 +30,29 @@ export interface InextRateLimitPracticeRule {
   /**
   * The action to perform upon a request which crosses the rate limit. Must be one of: Detect, Prevent, AccordingToPractice (case sensitive!!). Defaults to AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#action InextRateLimitPractice#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#action InextRateLimitPractice#action}
   */
   readonly action?: string;
   /**
   * A general comment which describes the rate limit rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#comment InextRateLimitPractice#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#comment InextRateLimitPractice#comment}
   */
   readonly comment?: string;
   /**
   * The actual number of requests to enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#limit InextRateLimitPractice#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#limit InextRateLimitPractice#limit}
   */
   readonly limit: number;
   /**
   * The time unit during which the rate limit is enfrorced. Must be one of: Minute, Second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#scope InextRateLimitPractice#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#scope InextRateLimitPractice#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#uri InextRateLimitPractice#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#uri InextRateLimitPractice#uri}
   */
   readonly uri: string;
 }
@@ -280,7 +280,7 @@ export class InextRateLimitPracticeRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice inext_rate_limit_practice}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice inext_rate_limit_practice}
 */
 export class InextRateLimitPractice extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class InextRateLimitPractice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextRateLimitPractice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextRateLimitPractice to import
-  * @param importFromId The id of the existing InextRateLimitPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextRateLimitPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextRateLimitPractice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class InextRateLimitPractice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_rate_limit_practice inext_rate_limit_practice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs/resources/inext_rate_limit_practice inext_rate_limit_practice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class InextRateLimitPractice extends cdktf.TerraformResource {
       terraformResourceType: 'inext_rate_limit_practice',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

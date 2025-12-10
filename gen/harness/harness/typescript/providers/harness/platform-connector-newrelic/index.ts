@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorNewrelicConfig extends cdktf.TerraformMetaArgu
   /**
   * Account ID of the NewRelic account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#account_id PlatformConnectorNewrelic#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#account_id PlatformConnectorNewrelic#account_id}
   */
   readonly accountId: string;
   /**
   * Reference to the Harness secret containing the api key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#api_key_ref PlatformConnectorNewrelic#api_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#api_key_ref PlatformConnectorNewrelic#api_key_ref}
   */
   readonly apiKeyRef: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#delegate_selectors PlatformConnectorNewrelic#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#delegate_selectors PlatformConnectorNewrelic#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#description PlatformConnectorNewrelic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#description PlatformConnectorNewrelic#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#id PlatformConnectorNewrelic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#id PlatformConnectorNewrelic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface PlatformConnectorNewrelicConfig extends cdktf.TerraformMetaArgu
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#identifier PlatformConnectorNewrelic#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#identifier PlatformConnectorNewrelic#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#name PlatformConnectorNewrelic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#name PlatformConnectorNewrelic#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#org_id PlatformConnectorNewrelic#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#org_id PlatformConnectorNewrelic#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#project_id PlatformConnectorNewrelic#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#project_id PlatformConnectorNewrelic#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#tags PlatformConnectorNewrelic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#tags PlatformConnectorNewrelic#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the NewRelic server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#url PlatformConnectorNewrelic#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#url PlatformConnectorNewrelic#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic harness_platform_connector_newrelic}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic harness_platform_connector_newrelic}
 */
 export class PlatformConnectorNewrelic extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class PlatformConnectorNewrelic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorNewrelic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorNewrelic to import
-  * @param importFromId The id of the existing PlatformConnectorNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorNewrelic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class PlatformConnectorNewrelic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_newrelic harness_platform_connector_newrelic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_newrelic harness_platform_connector_newrelic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class PlatformConnectorNewrelic extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_newrelic',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

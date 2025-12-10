@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface PlatformDashboardsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Created at timestamp of the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#created_at PlatformDashboards#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#created_at PlatformDashboards#created_at}
   */
   readonly createdAt?: string;
   /**
   * Unique identifier of the Template Dashboard to create from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#dashboard_id PlatformDashboards#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#dashboard_id PlatformDashboards#dashboard_id}
   */
   readonly dashboardId: string;
   /**
   * Data Sources within the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#data_source PlatformDashboards#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#data_source PlatformDashboards#data_source}
   */
   readonly dataSource?: string[];
   /**
   * Description of the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#description PlatformDashboards#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#description PlatformDashboards#description}
   */
   readonly description?: string;
   /**
   * The Folder ID that the Dashboard belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#folder_id PlatformDashboards#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#folder_id PlatformDashboards#folder_id}
   */
   readonly folderId?: string;
   /**
   * Data Models within the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#models PlatformDashboards#models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#models PlatformDashboards#models}
   */
   readonly models?: string[];
   /**
   * Name of the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#name PlatformDashboards#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#name PlatformDashboards#name}
   */
   readonly name?: string;
   /**
   * The Folder ID that the Dashboard belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#resource_identifier PlatformDashboards#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#resource_identifier PlatformDashboards#resource_identifier}
   */
   readonly resourceIdentifier: string;
   /**
   * Title of the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#title PlatformDashboards#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#title PlatformDashboards#title}
   */
   readonly title?: string;
   /**
   * Type of the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#type PlatformDashboards#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#type PlatformDashboards#type}
   */
   readonly type?: string;
   /**
   * View count of the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#view_count PlatformDashboards#view_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#view_count PlatformDashboards#view_count}
   */
   readonly viewCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards harness_platform_dashboards}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards harness_platform_dashboards}
 */
 export class PlatformDashboards extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class PlatformDashboards extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformDashboards resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformDashboards to import
-  * @param importFromId The id of the existing PlatformDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformDashboards to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class PlatformDashboards extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_dashboards harness_platform_dashboards} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_dashboards harness_platform_dashboards} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class PlatformDashboards extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_dashboards',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

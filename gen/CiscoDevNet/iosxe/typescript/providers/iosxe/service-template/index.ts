@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,150 +11,150 @@ export interface ServiceTemplateConfig extends cdktf.TerraformMetaArguments {
   * Enter a value between 1 and 1073741823
   *   - Range: `1`-`1073741823`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#absolute_timer ServiceTemplate#absolute_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#absolute_timer ServiceTemplate#absolute_timer}
   */
   readonly absoluteTimer?: number;
   /**
   * Access list to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#access_groups ServiceTemplate#access_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#access_groups ServiceTemplate#access_groups}
   */
   readonly accessGroups?: ServiceTemplateAccessGroups[] | cdktf.IResolvable;
   /**
   * Enter a description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#description ServiceTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#description ServiceTemplate#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#device ServiceTemplate#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#device ServiceTemplate#device}
   */
   readonly device?: string;
   /**
   * pre-authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#dns_acl_preauth ServiceTemplate#dns_acl_preauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#dns_acl_preauth ServiceTemplate#dns_acl_preauth}
   */
   readonly dnsAclPreauth?: string;
   /**
   * Enter a value between 1 and 65535
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#inactivity_timer ServiceTemplate#inactivity_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#inactivity_timer ServiceTemplate#inactivity_timer}
   */
   readonly inactivityTimer?: number;
   /**
   * ARP probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#inactivity_timer_probe ServiceTemplate#inactivity_timer_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#inactivity_timer_probe ServiceTemplate#inactivity_timer_probe}
   */
   readonly inactivityTimerProbe?: boolean | cdktf.IResolvable;
   /**
   * Interface template to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#interface_templates ServiceTemplate#interface_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#interface_templates ServiceTemplate#interface_templates}
   */
   readonly interfaceTemplates?: ServiceTemplateInterfaceTemplates[] | cdktf.IResolvable;
   /**
   * Set the link security policy
   *   - Choices: `must-not-secure`, `must-secure`, `should-secure`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#linksec_policy ServiceTemplate#linksec_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#linksec_policy ServiceTemplate#linksec_policy}
   */
   readonly linksecPolicy?: string;
   /**
   * mdns policy to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#mdns_service_policy ServiceTemplate#mdns_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#mdns_service_policy ServiceTemplate#mdns_service_policy}
   */
   readonly mdnsServicePolicy?: string;
   /**
   * Specify a template name (maximum 48 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#name ServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#name ServiceTemplate#name}
   */
   readonly name: string;
   /**
   * Append client Mac Address in redirect URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#redirect_append_client_mac ServiceTemplate#redirect_append_client_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#redirect_append_client_mac ServiceTemplate#redirect_append_client_mac}
   */
   readonly redirectAppendClientMac?: string;
   /**
   * Append switch Mac Address in redirect URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#redirect_append_switch_mac ServiceTemplate#redirect_append_switch_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#redirect_append_switch_mac ServiceTemplate#redirect_append_switch_mac}
   */
   readonly redirectAppendSwitchMac?: string;
   /**
   * Specify a valid URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#redirect_url ServiceTemplate#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#redirect_url ServiceTemplate#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Specify the access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#redirect_url_match_acl ServiceTemplate#redirect_url_match_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#redirect_url_match_acl ServiceTemplate#redirect_url_match_acl}
   */
   readonly redirectUrlMatchAcl?: string;
   /**
   * 
   *   - Choices: `one-time-redirect`, `redirect-on-no-match`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#redirect_url_match_action ServiceTemplate#redirect_url_match_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#redirect_url_match_action ServiceTemplate#redirect_url_match_action}
   */
   readonly redirectUrlMatchAction?: string;
   /**
   * Configure input Qos policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#service_policy_qos_input ServiceTemplate#service_policy_qos_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#service_policy_qos_input ServiceTemplate#service_policy_qos_input}
   */
   readonly servicePolicyQosInput?: string;
   /**
   * Configure output Qos policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#service_policy_qos_output ServiceTemplate#service_policy_qos_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#service_policy_qos_output ServiceTemplate#service_policy_qos_output}
   */
   readonly servicePolicyQosOutput?: string;
   /**
   * SGT tag
   *   - Range: `2`-`65519`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#sgt ServiceTemplate#sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#sgt ServiceTemplate#sgt}
   */
   readonly sgt?: number;
   /**
   * tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#tags ServiceTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#tags ServiceTemplate#tags}
   */
   readonly tags?: ServiceTemplateTags[] | cdktf.IResolvable;
   /**
   * tunnel profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#tunnel_capwap_name ServiceTemplate#tunnel_capwap_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#tunnel_capwap_name ServiceTemplate#tunnel_capwap_name}
   */
   readonly tunnelCapwapName?: string;
   /**
   * Vlan to be applied
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#vlan ServiceTemplate#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#vlan ServiceTemplate#vlan}
   */
   readonly vlan?: number;
   /**
   * Vnid to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#vnid ServiceTemplate#vnid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#vnid ServiceTemplate#vnid}
   */
   readonly vnid?: string;
   /**
   * Critical voice vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#voice_vlan ServiceTemplate#voice_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#voice_vlan ServiceTemplate#voice_vlan}
   */
   readonly voiceVlan?: boolean | cdktf.IResolvable;
 }
@@ -162,7 +162,7 @@ export interface ServiceTemplateAccessGroups {
   /**
   * Specify the access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#name ServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#name ServiceTemplate#name}
   */
   readonly name: string;
 }
@@ -277,7 +277,7 @@ export interface ServiceTemplateInterfaceTemplates {
   /**
   * Enter name of interface template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#name ServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#name ServiceTemplate#name}
   */
   readonly name: string;
 }
@@ -392,7 +392,7 @@ export interface ServiceTemplateTags {
   /**
   * Specify the Tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#name ServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#name ServiceTemplate#name}
   */
   readonly name: string;
 }
@@ -505,7 +505,7 @@ export class ServiceTemplateTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template iosxe_service_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template iosxe_service_template}
 */
 export class ServiceTemplate extends cdktf.TerraformResource {
 
@@ -521,7 +521,7 @@ export class ServiceTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceTemplate to import
-  * @param importFromId The id of the existing ServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -533,7 +533,7 @@ export class ServiceTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service_template iosxe_service_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service_template iosxe_service_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -544,8 +544,8 @@ export class ServiceTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_service_template',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

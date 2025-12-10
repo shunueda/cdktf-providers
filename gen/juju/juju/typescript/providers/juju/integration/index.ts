@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The name of the model to operate in.
+  * The UUID of the model to operate in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#model Integration#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#model_uuid Integration#model_uuid}
   */
-  readonly model: string;
+  readonly modelUuid: string;
   /**
   * A comma separated list of CIDRs for outbound traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#via Integration#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#via Integration#via}
   */
   readonly via?: string;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#application Integration#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#application Integration#application}
   */
   readonly application?: IntegrationApplication[] | cdktf.IResolvable;
 }
@@ -30,21 +30,27 @@ export interface IntegrationApplication {
   /**
   * The endpoint name. This attribute may not be used at the same time as the offer_url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#endpoint Integration#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#endpoint Integration#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The name of the application. This attribute may not be used at the same time as the offer_url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#name Integration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#name Integration#name}
   */
   readonly name?: string;
   /**
   * The URL of a remote application. This attribute may not be used at the same time as name and endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#offer_url Integration#offer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#offer_url Integration#offer_url}
   */
   readonly offerUrl?: string;
+  /**
+  * The name of the offering controller where the remote application is hosted. This is required when using offer_url to consume an offer from a different controller.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#offering_controller Integration#offering_controller}
+  */
+  readonly offeringController?: string;
 }
 
 export function integrationApplicationToTerraform(struct?: IntegrationApplication | cdktf.IResolvable): any {
@@ -56,6 +62,7 @@ export function integrationApplicationToTerraform(struct?: IntegrationApplicatio
     endpoint: cdktf.stringToTerraform(struct!.endpoint),
     name: cdktf.stringToTerraform(struct!.name),
     offer_url: cdktf.stringToTerraform(struct!.offerUrl),
+    offering_controller: cdktf.stringToTerraform(struct!.offeringController),
   }
 }
 
@@ -80,6 +87,12 @@ export function integrationApplicationToHclTerraform(struct?: IntegrationApplica
     },
     offer_url: {
       value: cdktf.stringToHclTerraform(struct!.offerUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    offering_controller: {
+      value: cdktf.stringToHclTerraform(struct!.offeringController),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -122,6 +135,10 @@ export class IntegrationApplicationOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.offerUrl = this._offerUrl;
     }
+    if (this._offeringController !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.offeringController = this._offeringController;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -132,6 +149,7 @@ export class IntegrationApplicationOutputReference extends cdktf.ComplexObject {
       this._endpoint = undefined;
       this._name = undefined;
       this._offerUrl = undefined;
+      this._offeringController = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -143,6 +161,7 @@ export class IntegrationApplicationOutputReference extends cdktf.ComplexObject {
       this._endpoint = value.endpoint;
       this._name = value.name;
       this._offerUrl = value.offerUrl;
+      this._offeringController = value.offeringController;
     }
   }
 
@@ -193,6 +212,22 @@ export class IntegrationApplicationOutputReference extends cdktf.ComplexObject {
   public get offerUrlInput() {
     return this._offerUrl;
   }
+
+  // offering_controller - computed: false, optional: true, required: false
+  private _offeringController?: string; 
+  public get offeringController() {
+    return this.getStringAttribute('offering_controller');
+  }
+  public set offeringController(value: string) {
+    this._offeringController = value;
+  }
+  public resetOfferingController() {
+    this._offeringController = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offeringControllerInput() {
+    return this._offeringController;
+  }
 }
 
 export class IntegrationApplicationList extends cdktf.ComplexList {
@@ -216,7 +251,7 @@ export class IntegrationApplicationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration juju_integration}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration juju_integration}
 */
 export class Integration extends cdktf.TerraformResource {
 
@@ -232,7 +267,7 @@ export class Integration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Integration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Integration to import
-  * @param importFromId The id of the existing Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Integration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +279,7 @@ export class Integration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/integration juju_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/integration juju_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +290,8 @@ export class Integration extends cdktf.TerraformResource {
       terraformResourceType: 'juju_integration',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -266,7 +301,7 @@ export class Integration extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._model = config.model;
+    this._modelUuid = config.modelUuid;
     this._via = config.via;
     this._application.internalValue = config.application;
   }
@@ -280,17 +315,17 @@ export class Integration extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // model - computed: false, optional: false, required: true
-  private _model?: string; 
-  public get model() {
-    return this.getStringAttribute('model');
+  // model_uuid - computed: false, optional: false, required: true
+  private _modelUuid?: string; 
+  public get modelUuid() {
+    return this.getStringAttribute('model_uuid');
   }
-  public set model(value: string) {
-    this._model = value;
+  public set modelUuid(value: string) {
+    this._modelUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelInput() {
-    return this._model;
+  public get modelUuidInput() {
+    return this._modelUuid;
   }
 
   // via - computed: false, optional: true, required: false
@@ -331,7 +366,7 @@ export class Integration extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      model: cdktf.stringToTerraform(this._model),
+      model_uuid: cdktf.stringToTerraform(this._modelUuid),
       via: cdktf.stringToTerraform(this._via),
       application: cdktf.listMapper(integrationApplicationToTerraform, true)(this._application.internalValue),
     };
@@ -339,8 +374,8 @@ export class Integration extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      model: {
-        value: cdktf.stringToHclTerraform(this._model),
+      model_uuid: {
+        value: cdktf.stringToHclTerraform(this._modelUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

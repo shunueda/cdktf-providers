@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BandwidthClassesFileSizeConfig extends cdktf.TerraformMetaArgum
   /**
   * The file size for a bandwidth class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size#file_size BandwidthClassesFileSize#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size#file_size BandwidthClassesFileSize#file_size}
   */
   readonly fileSize?: string;
   /**
   * Name of the bandwidth class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size#name BandwidthClassesFileSize#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size#name BandwidthClassesFileSize#name}
   */
   readonly name?: string;
   /**
   * The application type for which the bandwidth class is configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size#type BandwidthClassesFileSize#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size#type BandwidthClassesFileSize#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size zia_bandwidth_classes_file_size}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size zia_bandwidth_classes_file_size}
 */
 export class BandwidthClassesFileSize extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class BandwidthClassesFileSize extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BandwidthClassesFileSize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BandwidthClassesFileSize to import
-  * @param importFromId The id of the existing BandwidthClassesFileSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BandwidthClassesFileSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BandwidthClassesFileSize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class BandwidthClassesFileSize extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/bandwidth_classes_file_size zia_bandwidth_classes_file_size} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/bandwidth_classes_file_size zia_bandwidth_classes_file_size} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class BandwidthClassesFileSize extends cdktf.TerraformResource {
       terraformResourceType: 'zia_bandwidth_classes_file_size',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

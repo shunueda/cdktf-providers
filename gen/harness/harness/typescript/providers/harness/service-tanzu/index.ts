@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceTanzuConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#app_id ServiceTanzu#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#app_id ServiceTanzu#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#description ServiceTanzu#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#description ServiceTanzu#description}
   */
   readonly description?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#name ServiceTanzu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#name ServiceTanzu#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#variable ServiceTanzu#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#variable ServiceTanzu#variable}
   */
   readonly variable?: ServiceTanzuVariable[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface ServiceTanzuVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#name ServiceTanzu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#name ServiceTanzu#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#type ServiceTanzu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#type ServiceTanzu#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#value ServiceTanzu#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#value ServiceTanzu#value}
   */
   readonly value: string;
 }
@@ -213,7 +213,7 @@ export class ServiceTanzuVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu harness_service_tanzu}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu harness_service_tanzu}
 */
 export class ServiceTanzu extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class ServiceTanzu extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceTanzu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceTanzu to import
-  * @param importFromId The id of the existing ServiceTanzu that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceTanzu that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceTanzu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class ServiceTanzu extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_tanzu harness_service_tanzu} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_tanzu harness_service_tanzu} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class ServiceTanzu extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_tanzu',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

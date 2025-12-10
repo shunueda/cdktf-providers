@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface InterfacePimConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#bfd InterfacePim#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#bfd InterfacePim#bfd}
   */
   readonly bfd?: boolean | cdktf.IResolvable;
   /**
   * Border of PIM domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#border InterfacePim#border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#border InterfacePim#border}
   */
   readonly border?: boolean | cdktf.IResolvable;
   /**
   * Border of PIM domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#bsr_border InterfacePim#bsr_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#bsr_border InterfacePim#bsr_border}
   */
   readonly bsrBorder?: boolean | cdktf.IResolvable;
   /**
   * Enable PIM dense-mode operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#dense_mode InterfacePim#dense_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#dense_mode InterfacePim#dense_mode}
   */
   readonly denseMode?: boolean | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#device InterfacePim#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#device InterfacePim#device}
   */
   readonly device?: string;
   /**
   * PIM router DR priority
   *   - Range: `0`-`4294967294`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#dr_priority InterfacePim#dr_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#dr_priority InterfacePim#dr_priority}
   */
   readonly drPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#name InterfacePim#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#name InterfacePim#name}
   */
   readonly name: string;
   /**
   * Enable PIM passive interface operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#passive InterfacePim#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#passive InterfacePim#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Enable PIM sparse-dense-mode operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#sparse_dense_mode InterfacePim#sparse_dense_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#sparse_dense_mode InterfacePim#sparse_dense_mode}
   */
   readonly sparseDenseMode?: boolean | cdktf.IResolvable;
   /**
   * Enable PIM sparse-mode operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#sparse_mode InterfacePim#sparse_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#sparse_mode InterfacePim#sparse_mode}
   */
   readonly sparseMode?: boolean | cdktf.IResolvable;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#type InterfacePim#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#type InterfacePim#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim iosxe_interface_pim}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim iosxe_interface_pim}
 */
 export class InterfacePim extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class InterfacePim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePim to import
-  * @param importFromId The id of the existing InterfacePim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class InterfacePim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_pim iosxe_interface_pim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_pim iosxe_interface_pim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class InterfacePim extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_pim',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

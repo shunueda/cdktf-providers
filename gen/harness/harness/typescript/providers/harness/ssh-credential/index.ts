@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SshCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the encrypted text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#name SshCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#name SshCredential#name}
   */
   readonly name: string;
   /**
   * kerberos_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#kerberos_authentication SshCredential#kerberos_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#kerberos_authentication SshCredential#kerberos_authentication}
   */
   readonly kerberosAuthentication?: SshCredentialKerberosAuthentication;
   /**
   * ssh_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#ssh_authentication SshCredential#ssh_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#ssh_authentication SshCredential#ssh_authentication}
   */
   readonly sshAuthentication?: SshCredentialSshAuthentication;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#usage_scope SshCredential#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#usage_scope SshCredential#usage_scope}
   */
   readonly usageScope?: SshCredentialUsageScope[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface SshCredentialKerberosAuthenticationTgtGenerationMethod {
   /**
   * The id of the encrypted text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#kerberos_password_id SshCredential#kerberos_password_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#kerberos_password_id SshCredential#kerberos_password_id}
   */
   readonly kerberosPasswordId?: string;
   /**
   * The path to the key tab file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#key_tab_file_path SshCredential#key_tab_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#key_tab_file_path SshCredential#key_tab_file_path}
   */
   readonly keyTabFilePath?: string;
 }
@@ -157,25 +157,25 @@ export interface SshCredentialKerberosAuthentication {
   /**
   * Port to use for Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#port SshCredential#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#port SshCredential#port}
   */
   readonly port: number;
   /**
   * Name of the principal for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#principal SshCredential#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#principal SshCredential#principal}
   */
   readonly principal: string;
   /**
   * Realm associated with the Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#realm SshCredential#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#realm SshCredential#realm}
   */
   readonly realm: string;
   /**
   * tgt_generation_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#tgt_generation_method SshCredential#tgt_generation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#tgt_generation_method SshCredential#tgt_generation_method}
   */
   readonly tgtGenerationMethod?: SshCredentialKerberosAuthenticationTgtGenerationMethod;
 }
@@ -339,13 +339,13 @@ export interface SshCredentialSshAuthenticationInlineSsh {
   /**
   * The id of the encrypted secret to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#passphrase_secret_id SshCredential#passphrase_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#passphrase_secret_id SshCredential#passphrase_secret_id}
   */
   readonly passphraseSecretId?: string;
   /**
   * The id of the secret containing the SSH key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#ssh_key_file_id SshCredential#ssh_key_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#ssh_key_file_id SshCredential#ssh_key_file_id}
   */
   readonly sshKeyFileId: string;
 }
@@ -457,7 +457,7 @@ export interface SshCredentialSshAuthenticationServerPassword {
   /**
   * The id of the encrypted secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#password_secret_id SshCredential#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#password_secret_id SshCredential#password_secret_id}
   */
   readonly passwordSecretId: string;
 }
@@ -540,13 +540,13 @@ export interface SshCredentialSshAuthenticationSshKeyFile {
   /**
   * The id of the secret containing the password to use for the ssh key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#passphrase_secret_id SshCredential#passphrase_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#passphrase_secret_id SshCredential#passphrase_secret_id}
   */
   readonly passphraseSecretId?: string;
   /**
   * The path to the key file on the delegate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#path SshCredential#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#path SshCredential#path}
   */
   readonly path: string;
 }
@@ -658,31 +658,31 @@ export interface SshCredentialSshAuthentication {
   /**
   * The port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#port SshCredential#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#port SshCredential#port}
   */
   readonly port: number;
   /**
   * The username to use when connecting to ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#username SshCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#username SshCredential#username}
   */
   readonly username: string;
   /**
   * inline_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#inline_ssh SshCredential#inline_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#inline_ssh SshCredential#inline_ssh}
   */
   readonly inlineSsh?: SshCredentialSshAuthenticationInlineSsh;
   /**
   * server_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#server_password SshCredential#server_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#server_password SshCredential#server_password}
   */
   readonly serverPassword?: SshCredentialSshAuthenticationServerPassword;
   /**
   * ssh_key_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#ssh_key_file SshCredential#ssh_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#ssh_key_file SshCredential#ssh_key_file}
   */
   readonly sshKeyFile?: SshCredentialSshAuthenticationSshKeyFile;
 }
@@ -878,19 +878,19 @@ export interface SshCredentialUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#application_id SshCredential#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#application_id SshCredential#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#environment_filter_type SshCredential#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#environment_filter_type SshCredential#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#environment_id SshCredential#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#environment_id SshCredential#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -1064,7 +1064,7 @@ export class SshCredentialUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential harness_ssh_credential}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential harness_ssh_credential}
 */
 export class SshCredential extends cdktf.TerraformResource {
 
@@ -1080,7 +1080,7 @@ export class SshCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshCredential to import
-  * @param importFromId The id of the existing SshCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1092,7 +1092,7 @@ export class SshCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/ssh_credential harness_ssh_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/ssh_credential harness_ssh_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1103,8 +1103,8 @@ export class SshCredential extends cdktf.TerraformResource {
       terraformResourceType: 'harness_ssh_credential',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

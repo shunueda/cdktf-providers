@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeEvpnEthernetSegmentConfig extends cdktf.TerraformMetaA
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment#device DataIosxeEvpnEthernetSegment#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment#device DataIosxeEvpnEthernetSegment#device}
   */
   readonly device?: string;
   /**
   * Ethernet segment local discriminator value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment#es_value DataIosxeEvpnEthernetSegment#es_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment#es_value DataIosxeEvpnEthernetSegment#es_value}
   */
   readonly esValue: number;
 }
@@ -107,7 +107,7 @@ export class DataIosxeEvpnEthernetSegmentIdentifierTypesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment iosxe_evpn_ethernet_segment}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment iosxe_evpn_ethernet_segment}
 */
 export class DataIosxeEvpnEthernetSegment extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataIosxeEvpnEthernetSegment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeEvpnEthernetSegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeEvpnEthernetSegment to import
-  * @param importFromId The id of the existing DataIosxeEvpnEthernetSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeEvpnEthernetSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeEvpnEthernetSegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataIosxeEvpnEthernetSegment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/evpn_ethernet_segment iosxe_evpn_ethernet_segment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/evpn_ethernet_segment iosxe_evpn_ethernet_segment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataIosxeEvpnEthernetSegment extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_evpn_ethernet_segment',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

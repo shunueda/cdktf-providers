@@ -19,6 +19,7 @@ export * as model from './model';
 export * as offer from './offer';
 export * as secret from './secret';
 export * as sshKey from './ssh-key';
+export * as storagePool from './storage-pool';
 export * as user from './user';
 export * as dataJujuApplication from './data-juju-application';
 export * as dataJujuJaasGroup from './data-juju-jaas-group';
@@ -27,5 +28,6 @@ export * as dataJujuMachine from './data-juju-machine';
 export * as dataJujuModel from './data-juju-model';
 export * as dataJujuOffer from './data-juju-offer';
 export * as dataJujuSecret from './data-juju-secret';
+export * as dataJujuStoragePool from './data-juju-storage-pool';
 export * as provider from './provider';
 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,391 +10,391 @@ export interface IpamIpv6NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * This flag controls whether reverse zones are automatically created when the network is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#auto_create_reversezone IpamIpv6Network#auto_create_reversezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#auto_create_reversezone IpamIpv6Network#auto_create_reversezone}
   */
   readonly autoCreateReversezone?: boolean | cdktf.IResolvable;
   /**
   * Structure containing all cloud API related information for this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#cloud_info IpamIpv6Network#cloud_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#cloud_info IpamIpv6Network#cloud_info}
   */
   readonly cloudInfo?: IpamIpv6NetworkCloudInfo;
   /**
   * Comment for the network; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#comment IpamIpv6Network#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#comment IpamIpv6Network#comment}
   */
   readonly comment?: string;
   /**
   * The dynamic DNS domain name the appliance uses specifically for DDNS updates for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ddns_domainname IpamIpv6Network#ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ddns_domainname IpamIpv6Network#ddns_domainname}
   */
   readonly ddnsDomainname?: string;
   /**
   * Use this method to set or retrieve the ddns_enable_option_fqdn flag of a DHCP IPv6 Network object. This method controls whether the FQDN option sent by the client is to be used, or if the server can automatically generate the FQDN. This setting overrides the upper-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ddns_enable_option_fqdn IpamIpv6Network#ddns_enable_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ddns_enable_option_fqdn IpamIpv6Network#ddns_enable_option_fqdn}
   */
   readonly ddnsEnableOptionFqdn?: boolean | cdktf.IResolvable;
   /**
   * If this field is set to True, the DHCP server generates a hostname and updates DNS with it when the DHCP client request does not contain a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ddns_generate_hostname IpamIpv6Network#ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ddns_generate_hostname IpamIpv6Network#ddns_generate_hostname}
   */
   readonly ddnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether only the DHCP server is allowed to update DNS, regardless of the DHCP clients requests. Note that changes for this field take effect only if ddns_enable_option_fqdn is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ddns_server_always_updates IpamIpv6Network#ddns_server_always_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ddns_server_always_updates IpamIpv6Network#ddns_server_always_updates}
   */
   readonly ddnsServerAlwaysUpdates?: boolean | cdktf.IResolvable;
   /**
   * The DNS update Time to Live (TTL) value of a DHCP network object. The TTL is a 32-bit unsigned integer that represents the duration, in seconds, for which the update is cached. Zero indicates that the update is not cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ddns_ttl IpamIpv6Network#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ddns_ttl IpamIpv6Network#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
   * The reason for deleting the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#delete_reason IpamIpv6Network#delete_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#delete_reason IpamIpv6Network#delete_reason}
   */
   readonly deleteReason?: string;
   /**
   * Determines whether a network is disabled or not. When this is set to False, the network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Discovered bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#discovered_bridge_domain IpamIpv6Network#discovered_bridge_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#discovered_bridge_domain IpamIpv6Network#discovered_bridge_domain}
   */
   readonly discoveredBridgeDomain?: string;
   /**
   * Discovered tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#discovered_tenant IpamIpv6Network#discovered_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#discovered_tenant IpamIpv6Network#discovered_tenant}
   */
   readonly discoveredTenant?: string;
   /**
   * The discovery basic poll settings for this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#discovery_basic_poll_settings IpamIpv6Network#discovery_basic_poll_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#discovery_basic_poll_settings IpamIpv6Network#discovery_basic_poll_settings}
   */
   readonly discoveryBasicPollSettings?: IpamIpv6NetworkDiscoveryBasicPollSettings;
   /**
   * The discovery blackout setting for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#discovery_blackout_setting IpamIpv6Network#discovery_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#discovery_blackout_setting IpamIpv6Network#discovery_blackout_setting}
   */
   readonly discoveryBlackoutSetting?: IpamIpv6NetworkDiscoveryBlackoutSetting;
   /**
   * The member that will run discovery for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#discovery_member IpamIpv6Network#discovery_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#discovery_member IpamIpv6Network#discovery_member}
   */
   readonly discoveryMember?: string;
   /**
   * Use this method to set or retrieve the domain_name value of a DHCP IPv6 Network object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#domain_name IpamIpv6Network#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#domain_name IpamIpv6Network#domain_name}
   */
   readonly domainName?: string;
   /**
   * Use this method to set or retrieve the dynamic DNS updates flag of a DHCP IPv6 Network object. The DHCP server can send DDNS updates to DNS servers in the same Grid and to external DNS servers. This setting overrides the member level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#domain_name_servers IpamIpv6Network#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#domain_name_servers IpamIpv6Network#domain_name_servers}
   */
   readonly domainNameServers?: string[];
   /**
   * The dynamic DNS updates flag of a DHCP IPv6 network object. If set to True, the DHCP server sends DDNS updates to DNS servers in the same Grid, and to external DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_ddns IpamIpv6Network#enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_ddns IpamIpv6Network#enable_ddns}
   */
   readonly enableDdns?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a discovery is enabled or not for this network. When this is set to False, the network discovery is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_discovery IpamIpv6Network#enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_discovery IpamIpv6Network#enable_discovery}
   */
   readonly enableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Determines if IFMAP publishing is enabled for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_ifmap_publishing IpamIpv6Network#enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_ifmap_publishing IpamIpv6Network#enable_ifmap_publishing}
   */
   readonly enableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the network should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_immediate_discovery IpamIpv6Network#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_immediate_discovery IpamIpv6Network#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#extattrs IpamIpv6Network#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#extattrs IpamIpv6Network#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * This field contains the federated realms associated to this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#federated_realms IpamIpv6Network#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#federated_realms IpamIpv6Network#federated_realms}
   */
   readonly federatedRealms?: IpamIpv6NetworkFederatedRealms[] | cdktf.IResolvable;
   /**
   * Specifies the function call to execute. The `next_available_network` function is supported for IPv6 Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#func_call IpamIpv6Network#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#func_call IpamIpv6Network#func_call}
   */
   readonly funcCall?: IpamIpv6NetworkFuncCall;
   /**
   * This field contains the logic filters to be applied on this IPv6 network. This list corresponds to the match rules that are written to the DHCPv6 configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#logic_filter_rules IpamIpv6Network#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#logic_filter_rules IpamIpv6Network#logic_filter_rules}
   */
   readonly logicFilterRules?: IpamIpv6NetworkLogicFilterRules[] | cdktf.IResolvable;
   /**
   * A list of members servers that serve DHCP for the network. All members in the array must be of the same type. The struct type must be indicated in each element, by setting the "_struct" member to the struct type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#members IpamIpv6Network#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#members IpamIpv6Network#members}
   */
   readonly members?: IpamIpv6NetworkMembers[] | cdktf.IResolvable;
   /**
   * This field controls whether this object is synchronized with the Multi-Grid Master. If this field is set to True, objects are not synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#mgm_private IpamIpv6Network#mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#mgm_private IpamIpv6Network#mgm_private}
   */
   readonly mgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * The IPv6 network address in CIDR notation. The network address must be unique within the network view. This field is `required` unless a `func_call` is specified to invoke `next_available_network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#network IpamIpv6Network#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#network IpamIpv6Network#network}
   */
   readonly network?: string;
   /**
   * The name of the network view in which this network resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#network_view IpamIpv6Network#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#network_view IpamIpv6Network#network_view}
   */
   readonly networkView?: string;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object. The option `dhcp-lease-time` cannot be configured for this object and instead 'valid_lifetime' attribute should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#options IpamIpv6Network#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#options IpamIpv6Network#options}
   */
   readonly options?: IpamIpv6NetworkOptions[] | cdktf.IResolvable;
   /**
   * The port control blackout setting for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#port_control_blackout_setting IpamIpv6Network#port_control_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#port_control_blackout_setting IpamIpv6Network#port_control_blackout_setting}
   */
   readonly portControlBlackoutSetting?: IpamIpv6NetworkPortControlBlackoutSetting;
   /**
   * Use this method to set or retrieve the preferred lifetime value of a DHCP IPv6 Network object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#preferred_lifetime IpamIpv6Network#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#preferred_lifetime IpamIpv6Network#preferred_lifetime}
   */
   readonly preferredLifetime?: number;
   /**
   * If the field is set to True, the leases are kept in the Recycle Bin until one week after expiration. Otherwise, the leases are permanently deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#recycle_leases IpamIpv6Network#recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#recycle_leases IpamIpv6Network#recycle_leases}
   */
   readonly recycleLeases?: boolean | cdktf.IResolvable;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#restart_if_needed IpamIpv6Network#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#restart_if_needed IpamIpv6Network#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The RIR organization associated with the IPv6 network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#rir_organization IpamIpv6Network#rir_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#rir_organization IpamIpv6Network#rir_organization}
   */
   readonly rirOrganization?: string;
   /**
   * The RIR registration action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#rir_registration_action IpamIpv6Network#rir_registration_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#rir_registration_action IpamIpv6Network#rir_registration_action}
   */
   readonly rirRegistrationAction?: string;
   /**
   * The registration status of the IPv6 network in RIR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#rir_registration_status IpamIpv6Network#rir_registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#rir_registration_status IpamIpv6Network#rir_registration_status}
   */
   readonly rirRegistrationStatus?: string;
   /**
   * If the field is set to True, the discovery blackout setting will be used for port control blackout setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#same_port_control_discovery_blackout IpamIpv6Network#same_port_control_discovery_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#same_port_control_discovery_blackout IpamIpv6Network#same_port_control_discovery_blackout}
   */
   readonly samePortControlDiscoveryBlackout?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to send the RIR registration request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#send_rir_request IpamIpv6Network#send_rir_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#send_rir_request IpamIpv6Network#send_rir_request}
   */
   readonly sendRirRequest?: boolean | cdktf.IResolvable;
   /**
   * The DHCP IPv6 Network Cisco ISE subscribe settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#subscribe_settings IpamIpv6Network#subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#subscribe_settings IpamIpv6Network#subscribe_settings}
   */
   readonly subscribeSettings?: IpamIpv6NetworkSubscribeSettings;
   /**
   * Determines whether the DHCP IPv6 Network is unmanaged or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#unmanaged IpamIpv6Network#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#unmanaged IpamIpv6Network#unmanaged}
   */
   readonly unmanaged?: boolean | cdktf.IResolvable;
   /**
   * This field controls whether the DHCP server updates DNS when a DHCP lease is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#update_dns_on_lease_renewal IpamIpv6Network#update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#update_dns_on_lease_renewal IpamIpv6Network#update_dns_on_lease_renewal}
   */
   readonly updateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_blackout_setting , port_control_blackout_setting, same_port_control_discovery_blackout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_blackout_setting IpamIpv6Network#use_blackout_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_blackout_setting IpamIpv6Network#use_blackout_setting}
   */
   readonly useBlackoutSetting?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_domainname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_ddns_domainname IpamIpv6Network#use_ddns_domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_ddns_domainname IpamIpv6Network#use_ddns_domainname}
   */
   readonly useDdnsDomainname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_enable_option_fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_ddns_enable_option_fqdn IpamIpv6Network#use_ddns_enable_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_ddns_enable_option_fqdn IpamIpv6Network#use_ddns_enable_option_fqdn}
   */
   readonly useDdnsEnableOptionFqdn?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_generate_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_ddns_generate_hostname IpamIpv6Network#use_ddns_generate_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_ddns_generate_hostname IpamIpv6Network#use_ddns_generate_hostname}
   */
   readonly useDdnsGenerateHostname?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_ddns_ttl IpamIpv6Network#use_ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_ddns_ttl IpamIpv6Network#use_ddns_ttl}
   */
   readonly useDdnsTtl?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_basic_poll_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_discovery_basic_polling_settings IpamIpv6Network#use_discovery_basic_polling_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_discovery_basic_polling_settings IpamIpv6Network#use_discovery_basic_polling_settings}
   */
   readonly useDiscoveryBasicPollingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: domain_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_domain_name IpamIpv6Network#use_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_domain_name IpamIpv6Network#use_domain_name}
   */
   readonly useDomainName?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: domain_name_servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_domain_name_servers IpamIpv6Network#use_domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_domain_name_servers IpamIpv6Network#use_domain_name_servers}
   */
   readonly useDomainNameServers?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ddns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_enable_ddns IpamIpv6Network#use_enable_ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_enable_ddns IpamIpv6Network#use_enable_ddns}
   */
   readonly useEnableDdns?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: discovery_member , enable_discovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_enable_discovery IpamIpv6Network#use_enable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_enable_discovery IpamIpv6Network#use_enable_discovery}
   */
   readonly useEnableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: enable_ifmap_publishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_enable_ifmap_publishing IpamIpv6Network#use_enable_ifmap_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_enable_ifmap_publishing IpamIpv6Network#use_enable_ifmap_publishing}
   */
   readonly useEnableIfmapPublishing?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_logic_filter_rules IpamIpv6Network#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_logic_filter_rules IpamIpv6Network#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: mgm_private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_mgm_private IpamIpv6Network#use_mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_mgm_private IpamIpv6Network#use_mgm_private}
   */
   readonly useMgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_options IpamIpv6Network#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_options IpamIpv6Network#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: preferred_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_preferred_lifetime IpamIpv6Network#use_preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_preferred_lifetime IpamIpv6Network#use_preferred_lifetime}
   */
   readonly usePreferredLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: recycle_leases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_recycle_leases IpamIpv6Network#use_recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_recycle_leases IpamIpv6Network#use_recycle_leases}
   */
   readonly useRecycleLeases?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: subscribe_settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_subscribe_settings IpamIpv6Network#use_subscribe_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_subscribe_settings IpamIpv6Network#use_subscribe_settings}
   */
   readonly useSubscribeSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: update_dns_on_lease_renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_update_dns_on_lease_renewal IpamIpv6Network#use_update_dns_on_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_update_dns_on_lease_renewal IpamIpv6Network#use_update_dns_on_lease_renewal}
   */
   readonly useUpdateDnsOnLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: valid_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_valid_lifetime IpamIpv6Network#use_valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_valid_lifetime IpamIpv6Network#use_valid_lifetime}
   */
   readonly useValidLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: zone_associations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_zone_associations IpamIpv6Network#use_zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_zone_associations IpamIpv6Network#use_zone_associations}
   */
   readonly useZoneAssociations?: boolean | cdktf.IResolvable;
   /**
   * Use this method to set or retrieve the valid lifetime value of a DHCP IPv6 Network object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#valid_lifetime IpamIpv6Network#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#valid_lifetime IpamIpv6Network#valid_lifetime}
   */
   readonly validLifetime?: number;
   /**
   * List of VLANs assigned to Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#vlans IpamIpv6Network#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#vlans IpamIpv6Network#vlans}
   */
   readonly vlans?: IpamIpv6NetworkVlans[] | cdktf.IResolvable;
   /**
   * The list of zones associated with this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#zone_associations IpamIpv6Network#zone_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#zone_associations IpamIpv6Network#zone_associations}
   */
   readonly zoneAssociations?: IpamIpv6NetworkZoneAssociations[] | cdktf.IResolvable;
 }
@@ -402,19 +402,19 @@ export interface IpamIpv6NetworkCloudInfoDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ipv4addr IpamIpv6Network#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ipv4addr IpamIpv6Network#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ipv6addr IpamIpv6Network#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ipv6addr IpamIpv6Network#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
   */
   readonly name?: string;
 }
@@ -568,7 +568,7 @@ export interface IpamIpv6NetworkCloudInfo {
   /**
   * Contains information about the delegated member of the object. This is not set if the object is not delegated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#delegated_member IpamIpv6Network#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#delegated_member IpamIpv6Network#delegated_member}
   */
   readonly delegatedMember?: IpamIpv6NetworkCloudInfoDelegatedMember;
 }
@@ -699,73 +699,73 @@ export interface IpamIpv6NetworkDiscoveryBasicPollSettingsSwitchPortDataCollecti
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
   */
   readonly year?: number;
 }
@@ -1180,85 +1180,85 @@ export interface IpamIpv6NetworkDiscoveryBasicPollSettings {
   /**
   * Determines whether auto ARP refresh before switch port polling is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#auto_arp_refresh_before_switch_port_polling IpamIpv6Network#auto_arp_refresh_before_switch_port_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#auto_arp_refresh_before_switch_port_polling IpamIpv6Network#auto_arp_refresh_before_switch_port_polling}
   */
   readonly autoArpRefreshBeforeSwitchPortPolling?: boolean | cdktf.IResolvable;
   /**
   * Determines whether CLI collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#cli_collection IpamIpv6Network#cli_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#cli_collection IpamIpv6Network#cli_collection}
   */
   readonly cliCollection?: boolean | cdktf.IResolvable;
   /**
   * Determines whether complete ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#complete_ping_sweep IpamIpv6Network#complete_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#complete_ping_sweep IpamIpv6Network#complete_ping_sweep}
   */
   readonly completePingSweep?: boolean | cdktf.IResolvable;
   /**
   * Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#credential_group IpamIpv6Network#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#credential_group IpamIpv6Network#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Determines whether device profile is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#device_profile IpamIpv6Network#device_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#device_profile IpamIpv6Network#device_profile}
   */
   readonly deviceProfile?: boolean | cdktf.IResolvable;
   /**
   * Determines whether netbios scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#netbios_scanning IpamIpv6Network#netbios_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#netbios_scanning IpamIpv6Network#netbios_scanning}
   */
   readonly netbiosScanning?: boolean | cdktf.IResolvable;
   /**
   * Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#polling_frequency_modifier IpamIpv6Network#polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#polling_frequency_modifier IpamIpv6Network#polling_frequency_modifier}
   */
   readonly pollingFrequencyModifier?: string;
   /**
   * Determines whether port scanning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#port_scanning IpamIpv6Network#port_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#port_scanning IpamIpv6Network#port_scanning}
   */
   readonly portScanning?: boolean | cdktf.IResolvable;
   /**
   * Determines whether smart subnet ping sweep is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#smart_subnet_ping_sweep IpamIpv6Network#smart_subnet_ping_sweep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#smart_subnet_ping_sweep IpamIpv6Network#smart_subnet_ping_sweep}
   */
   readonly smartSubnetPingSweep?: boolean | cdktf.IResolvable;
   /**
   * Determines whether SNMP collection is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#snmp_collection IpamIpv6Network#snmp_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#snmp_collection IpamIpv6Network#snmp_collection}
   */
   readonly snmpCollection?: boolean | cdktf.IResolvable;
   /**
   * A switch port data collection polling mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling IpamIpv6Network#switch_port_data_collection_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling IpamIpv6Network#switch_port_data_collection_polling}
   */
   readonly switchPortDataCollectionPolling?: string;
   /**
   * Indicates the interval for switch port data collection polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling_interval IpamIpv6Network#switch_port_data_collection_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling_interval IpamIpv6Network#switch_port_data_collection_polling_interval}
   */
   readonly switchPortDataCollectionPollingInterval?: number;
   /**
   * A switch port data collection polling schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling_schedule IpamIpv6Network#switch_port_data_collection_polling_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#switch_port_data_collection_polling_schedule IpamIpv6Network#switch_port_data_collection_polling_schedule}
   */
   readonly switchPortDataCollectionPollingSchedule?: IpamIpv6NetworkDiscoveryBasicPollSettingsSwitchPortDataCollectionPollingSchedule;
   /**
   * Use Global Polling Frequency Modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_global_polling_frequency_modifier IpamIpv6Network#use_global_polling_frequency_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_global_polling_frequency_modifier IpamIpv6Network#use_global_polling_frequency_modifier}
   */
   readonly useGlobalPollingFrequencyModifier?: boolean | cdktf.IResolvable;
 }
@@ -1731,73 +1731,73 @@ export interface IpamIpv6NetworkDiscoveryBlackoutSettingBlackoutSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
   */
   readonly year?: number;
 }
@@ -2212,19 +2212,19 @@ export interface IpamIpv6NetworkDiscoveryBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#blackout_duration IpamIpv6Network#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#blackout_duration IpamIpv6Network#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#blackout_schedule IpamIpv6Network#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#blackout_schedule IpamIpv6Network#blackout_schedule}
   */
   readonly blackoutSchedule?: IpamIpv6NetworkDiscoveryBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_blackout IpamIpv6Network#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_blackout IpamIpv6Network#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -2378,7 +2378,7 @@ export interface IpamIpv6NetworkFederatedRealms {
   /**
   * The federated realm id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#id IpamIpv6Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#id IpamIpv6Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2387,7 +2387,7 @@ export interface IpamIpv6NetworkFederatedRealms {
   /**
   * The federated realm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
   */
   readonly name: string;
 }
@@ -2528,37 +2528,37 @@ export interface IpamIpv6NetworkFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#attribute_name IpamIpv6Network#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#attribute_name IpamIpv6Network#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#object IpamIpv6Network#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#object IpamIpv6Network#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#object_function IpamIpv6Network#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#object_function IpamIpv6Network#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#object_parameters IpamIpv6Network#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#object_parameters IpamIpv6Network#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#parameters IpamIpv6Network#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#parameters IpamIpv6Network#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#result_field IpamIpv6Network#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#result_field IpamIpv6Network#result_field}
   */
   readonly resultField?: string;
 }
@@ -2796,13 +2796,13 @@ export interface IpamIpv6NetworkLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#filter IpamIpv6Network#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#filter IpamIpv6Network#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#type IpamIpv6Network#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#type IpamIpv6Network#type}
   */
   readonly type: string;
 }
@@ -2943,19 +2943,19 @@ export interface IpamIpv6NetworkMembers {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ipv4addr IpamIpv6Network#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ipv4addr IpamIpv6Network#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#ipv6addr IpamIpv6Network#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#ipv6addr IpamIpv6Network#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
   */
   readonly name?: string;
 }
@@ -3185,31 +3185,31 @@ export interface IpamIpv6NetworkOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#num IpamIpv6Network#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#num IpamIpv6Network#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#use_option IpamIpv6Network#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#use_option IpamIpv6Network#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option. Required to be set for all options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#value IpamIpv6Network#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#value IpamIpv6Network#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#vendor_class IpamIpv6Network#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#vendor_class IpamIpv6Network#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -3443,73 +3443,73 @@ export interface IpamIpv6NetworkPortControlBlackoutSettingBlackoutSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#day_of_month IpamIpv6Network#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#disable IpamIpv6Network#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#every IpamIpv6Network#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#frequency IpamIpv6Network#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#hour_of_day IpamIpv6Network#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#minutes_past_hour IpamIpv6Network#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#month IpamIpv6Network#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#recurring_time IpamIpv6Network#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#repeat IpamIpv6Network#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#time_zone IpamIpv6Network#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#weekdays IpamIpv6Network#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#year IpamIpv6Network#year}
   */
   readonly year?: number;
 }
@@ -3924,19 +3924,19 @@ export interface IpamIpv6NetworkPortControlBlackoutSetting {
   /**
   * The blackout duration in seconds; minimum value is 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#blackout_duration IpamIpv6Network#blackout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#blackout_duration IpamIpv6Network#blackout_duration}
   */
   readonly blackoutDuration?: number;
   /**
   * A Schedule Setting struct that determines blackout schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#blackout_schedule IpamIpv6Network#blackout_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#blackout_schedule IpamIpv6Network#blackout_schedule}
   */
   readonly blackoutSchedule?: IpamIpv6NetworkPortControlBlackoutSettingBlackoutSchedule;
   /**
   * Determines whether a blackout is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enable_blackout IpamIpv6Network#enable_blackout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enable_blackout IpamIpv6Network#enable_blackout}
   */
   readonly enableBlackout?: boolean | cdktf.IResolvable;
 }
@@ -4090,13 +4090,13 @@ export interface IpamIpv6NetworkSubscribeSettingsMappedEaAttributes {
   /**
   * The name of the extensible attribute definition object the Cisco ISE attribute that is enabled for subscription is mapped on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#mapped_ea IpamIpv6Network#mapped_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#mapped_ea IpamIpv6Network#mapped_ea}
   */
   readonly mappedEa?: string;
   /**
   * The Cisco ISE attribute name that is enabled for publishsing from a Cisco ISE endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#name IpamIpv6Network#name}
   */
   readonly name?: string;
 }
@@ -4243,13 +4243,13 @@ export interface IpamIpv6NetworkSubscribeSettings {
   /**
   * The list of Cisco ISE attributes allowed for subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#enabled_attributes IpamIpv6Network#enabled_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#enabled_attributes IpamIpv6Network#enabled_attributes}
   */
   readonly enabledAttributes?: string[];
   /**
   * The list of NIOS extensible attributes to Cisco ISE attributes mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#mapped_ea_attributes IpamIpv6Network#mapped_ea_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#mapped_ea_attributes IpamIpv6Network#mapped_ea_attributes}
   */
   readonly mappedEaAttributes?: IpamIpv6NetworkSubscribeSettingsMappedEaAttributes[] | cdktf.IResolvable;
 }
@@ -4374,7 +4374,7 @@ export interface IpamIpv6NetworkVlans {
   /**
   * Reference to the underlying StaticVlan object vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#vlan IpamIpv6Network#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#vlan IpamIpv6Network#vlan}
   */
   readonly vlan?: { [key: string]: string };
 }
@@ -4502,19 +4502,19 @@ export interface IpamIpv6NetworkZoneAssociations {
   /**
   * The FQDN of the authoritative forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#fqdn IpamIpv6Network#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#fqdn IpamIpv6Network#fqdn}
   */
   readonly fqdn: string;
   /**
   * True if this is the default zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#is_default IpamIpv6Network#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#is_default IpamIpv6Network#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The view to which the zone belongs. If a view is not specified, the default view is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#view IpamIpv6Network#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#view IpamIpv6Network#view}
   */
   readonly view?: string;
 }
@@ -4685,7 +4685,7 @@ export class IpamIpv6NetworkZoneAssociationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network nios_ipam_ipv6network}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network nios_ipam_ipv6network}
 */
 export class IpamIpv6Network extends cdktf.TerraformResource {
 
@@ -4701,7 +4701,7 @@ export class IpamIpv6Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpamIpv6Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpamIpv6Network to import
-  * @param importFromId The id of the existing IpamIpv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpamIpv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpamIpv6Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4713,7 +4713,7 @@ export class IpamIpv6Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ipam_ipv6network nios_ipam_ipv6network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ipam_ipv6network nios_ipam_ipv6network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4724,8 +4724,8 @@ export class IpamIpv6Network extends cdktf.TerraformResource {
       terraformResourceType: 'nios_ipam_ipv6network',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsZoneDelegatedConfig extends cdktf.TerraformMetaArgum
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#extattrfilters DataNiosDnsZoneDelegated#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#extattrfilters DataNiosDnsZoneDelegated#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#filters DataNiosDnsZoneDelegated#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#filters DataNiosDnsZoneDelegated#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#max_results DataNiosDnsZoneDelegated#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#max_results DataNiosDnsZoneDelegated#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#paging DataNiosDnsZoneDelegated#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#paging DataNiosDnsZoneDelegated#paging}
   */
   readonly paging?: number;
 }
@@ -36,43 +36,43 @@ export interface DataNiosDnsZoneDelegatedResultDelegateTo {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#address DataNiosDnsZoneDelegated#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#address DataNiosDnsZoneDelegated#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#name DataNiosDnsZoneDelegated#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#name DataNiosDnsZoneDelegated#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#stealth DataNiosDnsZoneDelegated#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#stealth DataNiosDnsZoneDelegated#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#tsig_key DataNiosDnsZoneDelegated#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#tsig_key DataNiosDnsZoneDelegated#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#tsig_key_alg DataNiosDnsZoneDelegated#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#tsig_key_alg DataNiosDnsZoneDelegated#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#tsig_key_name DataNiosDnsZoneDelegated#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#tsig_key_name DataNiosDnsZoneDelegated#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#use_tsig_key_name DataNiosDnsZoneDelegated#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#use_tsig_key_name DataNiosDnsZoneDelegated#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -353,91 +353,91 @@ export interface DataNiosDnsZoneDelegatedResult {
   /**
   * Comment for the zone; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#comment DataNiosDnsZoneDelegated#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#comment DataNiosDnsZoneDelegated#comment}
   */
   readonly comment?: string;
   /**
   * This provides information for the remote name server that maintains data for the delegated zone. The Infoblox appliance redirects queries for data for the delegated zone to this remote name server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#delegate_to DataNiosDnsZoneDelegated#delegate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#delegate_to DataNiosDnsZoneDelegated#delegate_to}
   */
   readonly delegateTo: DataNiosDnsZoneDelegatedResultDelegateTo[] | cdktf.IResolvable;
   /**
   * You can specify the Time to Live (TTL) values of auto-generated NS and glue records for a delegated zone. This value is the number of seconds that data is cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#delegated_ttl DataNiosDnsZoneDelegated#delegated_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#delegated_ttl DataNiosDnsZoneDelegated#delegated_ttl}
   */
   readonly delegatedTtl?: number;
   /**
   * Determines whether a zone is disabled or not. When this is set to False, the zone is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#disable DataNiosDnsZoneDelegated#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#disable DataNiosDnsZoneDelegated#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether automatic generation of RFC 2317 CNAMEs for delegated reverse zones overwrite existing PTR records. The default behavior is to overwrite all the existing records in the range; this corresponds to "allow_ptr_creation_in_parent" set to False. However, when this flag is set to True the existing PTR records are not overwritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#enable_rfc2317_exclusion DataNiosDnsZoneDelegated#enable_rfc2317_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#enable_rfc2317_exclusion DataNiosDnsZoneDelegated#enable_rfc2317_exclusion}
   */
   readonly enableRfc2317Exclusion?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#extattrs DataNiosDnsZoneDelegated#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#extattrs DataNiosDnsZoneDelegated#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of this DNS zone. For a reverse zone, this is in "address/cidr" format. For other zones, this is in FQDN format. This value can be in unicode format. Note that for a reverse zone, the corresponding zone_format value should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#fqdn DataNiosDnsZoneDelegated#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#fqdn DataNiosDnsZoneDelegated#fqdn}
   */
   readonly fqdn: string;
   /**
   * If you enable this flag, other administrators cannot make conflicting changes. This is for administration purposes only. The zone will continue to serve DNS data even when it is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#locked DataNiosDnsZoneDelegated#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#locked DataNiosDnsZoneDelegated#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The flag that determines whether Active Directory is integrated or not. This field is valid only when ms_managed is "STUB", "AUTH_PRIMARY", or "AUTH_BOTH".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#ms_ad_integrated DataNiosDnsZoneDelegated#ms_ad_integrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#ms_ad_integrated DataNiosDnsZoneDelegated#ms_ad_integrated}
   */
   readonly msAdIntegrated?: boolean | cdktf.IResolvable;
   /**
   * Determines whether an Active Directory-integrated zone with a Microsoft DNS server as primary allows dynamic updates. Valid values are: "SECURE" if the zone allows secure updates only. "NONE" if the zone forbids dynamic updates. "ANY" if the zone accepts both secure and nonsecure updates. This field is valid only if ms_managed is either "AUTH_PRIMARY" or "AUTH_BOTH". If the flag ms_ad_integrated is false, the value "SECURE" is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#ms_ddns_mode DataNiosDnsZoneDelegated#ms_ddns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#ms_ddns_mode DataNiosDnsZoneDelegated#ms_ddns_mode}
   */
   readonly msDdnsMode?: string;
   /**
   * The delegation NS group bound with delegated zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#ns_group DataNiosDnsZoneDelegated#ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#ns_group DataNiosDnsZoneDelegated#ns_group}
   */
   readonly nsGroup?: string;
   /**
   * The RFC2317 prefix value of this DNS zone. Use this field only when the netmask is greater than 24 bits; that is, for a mask between 25 and 31 bits. Enter a prefix, such as the name of the allocated address block. The prefix can be alphanumeric characters, such as 128/26 , 128-189 , or sub-B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#prefix DataNiosDnsZoneDelegated#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#prefix DataNiosDnsZoneDelegated#prefix}
   */
   readonly prefix?: string;
   /**
   * Use flag for: delegated_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#use_delegated_ttl DataNiosDnsZoneDelegated#use_delegated_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#use_delegated_ttl DataNiosDnsZoneDelegated#use_delegated_ttl}
   */
   readonly useDelegatedTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the zone resides. Example "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#view DataNiosDnsZoneDelegated#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#view DataNiosDnsZoneDelegated#view}
   */
   readonly view?: string;
   /**
   * Determines the format of this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#zone_format DataNiosDnsZoneDelegated#zone_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#zone_format DataNiosDnsZoneDelegated#zone_format}
   */
   readonly zoneFormat?: string;
 }
@@ -1004,7 +1004,7 @@ export class DataNiosDnsZoneDelegatedResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated nios_dns_zone_delegated}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated nios_dns_zone_delegated}
 */
 export class DataNiosDnsZoneDelegated extends cdktf.TerraformDataSource {
 
@@ -1020,7 +1020,7 @@ export class DataNiosDnsZoneDelegated extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsZoneDelegated resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsZoneDelegated to import
-  * @param importFromId The id of the existing DataNiosDnsZoneDelegated that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsZoneDelegated that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsZoneDelegated to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1032,7 +1032,7 @@ export class DataNiosDnsZoneDelegated extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_delegated nios_dns_zone_delegated} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_delegated nios_dns_zone_delegated} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1043,8 +1043,8 @@ export class DataNiosDnsZoneDelegated extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_zone_delegated',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

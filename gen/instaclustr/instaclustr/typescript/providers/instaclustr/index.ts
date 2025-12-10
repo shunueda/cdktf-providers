@@ -38,6 +38,7 @@ export * as kafkaUserV2 from './kafka-user-v2';
 export * as kafkaUserV3 from './kafka-user-v3';
 export * as kafkaUserV4 from './kafka-user-v4';
 export * as kafkaUserV5 from './kafka-user-v5';
+export * as mcpGatewayClusterV2 from './mcp-gateway-cluster-v2';
 export * as mongodbClusterV2 from './mongodb-cluster-v2';
 export * as opensearchClusterV2 from './opensearch-cluster-v2';
 export * as opensearchEgressRuleV2 from './opensearch-egress-rule-v2';
@@ -113,6 +114,7 @@ export * as dataInstaclustrKafkaUserV5Instance from './data-instaclustr-kafka-us
 export * as dataInstaclustrKafkaUsersUserCertificatesV2 from './data-instaclustr-kafka-users-user-certificates-v2';
 export * as dataInstaclustrKarapaceRestProxyClusterUsersV2 from './data-instaclustr-karapace-rest-proxy-cluster-users-v2';
 export * as dataInstaclustrKarapaceSchemaRegistryClusterUsersV2 from './data-instaclustr-karapace-schema-registry-cluster-users-v2';
+export * as dataInstaclustrMcpGatewayClusterV2Instance from './data-instaclustr-mcp-gateway-cluster-v2-instance';
 export * as dataInstaclustrMongodbClusterV2Instance from './data-instaclustr-mongodb-cluster-v2-instance';
 export * as dataInstaclustrOpensearchClusterEgressRulesV2 from './data-instaclustr-opensearch-cluster-egress-rules-v2';
 export * as dataInstaclustrOpensearchClusterV2Instance from './data-instaclustr-opensearch-cluster-v2-instance';

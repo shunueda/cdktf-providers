@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface KibanaSpaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The hexadecimal color code used in the space avatar. By default, the color is automatically generated from the space name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#color KibanaSpace#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#color KibanaSpace#color}
   */
   readonly color?: string;
   /**
   * The description for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#description KibanaSpace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#description KibanaSpace#description}
   */
   readonly description?: string;
   /**
   * The list of disabled features for the space. To get a list of available feature IDs, use the Features API (https://www.elastic.co/guide/en/kibana/master/features-api-get.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#disabled_features KibanaSpace#disabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#disabled_features KibanaSpace#disabled_features}
   */
   readonly disabledFeatures?: string[];
   /**
   * The data-URL encoded image to display in the space avatar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#image_url KibanaSpace#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#image_url KibanaSpace#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The initials shown in the space avatar. By default, the initials are automatically generated from the space name. Initials must be 1 or 2 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#initials KibanaSpace#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#initials KibanaSpace#initials}
   */
   readonly initials?: string;
   /**
   * The display name for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#name KibanaSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#name KibanaSpace#name}
   */
   readonly name: string;
   /**
   * The solution view for the space. Valid options are `security`, `oblt`, `es`, or `classic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#solution KibanaSpace#solution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#solution KibanaSpace#solution}
   */
   readonly solution?: string;
   /**
   * The space ID that is part of the Kibana URL when inside the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#space_id KibanaSpace#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#space_id KibanaSpace#space_id}
   */
   readonly spaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space elasticstack_kibana_space}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space elasticstack_kibana_space}
 */
 export class KibanaSpace extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class KibanaSpace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSpace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSpace to import
-  * @param importFromId The id of the existing KibanaSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class KibanaSpace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_space elasticstack_kibana_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_space elasticstack_kibana_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class KibanaSpace extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_space',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

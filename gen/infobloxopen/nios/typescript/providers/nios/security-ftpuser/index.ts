@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SecurityFtpuserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines whether to create the home directory with the user name or to use the existing directory as the home directory. Default is true. Cannot be used together with 'home_dir'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#create_home_dir SecurityFtpuser#create_home_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#create_home_dir SecurityFtpuser#create_home_dir}
   */
   readonly createHomeDir?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#extattrs SecurityFtpuser#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#extattrs SecurityFtpuser#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The absolute path of the FTP user's home directory. set create_home_dir to false to set home_dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#home_dir SecurityFtpuser#home_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#home_dir SecurityFtpuser#home_dir}
   */
   readonly homeDir?: string;
   /**
   * The FTP user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#password SecurityFtpuser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#password SecurityFtpuser#password}
   */
   readonly password: string;
   /**
   * The FTP user permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#permission SecurityFtpuser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#permission SecurityFtpuser#permission}
   */
   readonly permission?: string;
   /**
   * The FTP user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#username SecurityFtpuser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#username SecurityFtpuser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser nios_security_ftpuser}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser nios_security_ftpuser}
 */
 export class SecurityFtpuser extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SecurityFtpuser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityFtpuser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityFtpuser to import
-  * @param importFromId The id of the existing SecurityFtpuser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityFtpuser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityFtpuser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SecurityFtpuser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_ftpuser nios_security_ftpuser} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_ftpuser nios_security_ftpuser} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SecurityFtpuser extends cdktf.TerraformResource {
       terraformResourceType: 'nios_security_ftpuser',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

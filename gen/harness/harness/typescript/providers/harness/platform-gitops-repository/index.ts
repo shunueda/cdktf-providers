@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface PlatformGitopsRepositoryConfig extends cdktf.TerraformMetaArgum
   /**
   * Account identifier of the GitOps repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#account_id PlatformGitopsRepository#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#account_id PlatformGitopsRepository#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the GitOps repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#agent_id PlatformGitopsRepository#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#agent_id PlatformGitopsRepository#agent_id}
   */
   readonly agentId: string;
   /**
   * Indicates if to operate on credential set instead of repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#creds_only PlatformGitopsRepository#creds_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#creds_only PlatformGitopsRepository#creds_only}
   */
   readonly credsOnly?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the repository should be deleted forcefully, regardless of existing applications using that repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#force_delete PlatformGitopsRepository#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#force_delete PlatformGitopsRepository#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Default: "UNSET"
   * Enum: "UNSET" "AWS_ECR" "GOOGLE_GCR"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#gen_type PlatformGitopsRepository#gen_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#gen_type PlatformGitopsRepository#gen_type}
   */
   readonly genType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#id PlatformGitopsRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#id PlatformGitopsRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,55 +48,55 @@ export interface PlatformGitopsRepositoryConfig extends cdktf.TerraformMetaArgum
   /**
   * Identifier of the GitOps repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#identifier PlatformGitopsRepository#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#identifier PlatformGitopsRepository#identifier}
   */
   readonly identifier: string;
   /**
   * Organization identifier of the GitOps repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#org_id PlatformGitopsRepository#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#org_id PlatformGitopsRepository#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#project_id PlatformGitopsRepository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#project_id PlatformGitopsRepository#project_id}
   */
   readonly projectId?: string;
   /**
   * For OCI repos, this is the interval to refresh the token to access the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#refresh_interval PlatformGitopsRepository#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#refresh_interval PlatformGitopsRepository#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * Indicates if the GitOps repository should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#upsert PlatformGitopsRepository#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#upsert PlatformGitopsRepository#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * ecr_gen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#ecr_gen PlatformGitopsRepository#ecr_gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#ecr_gen PlatformGitopsRepository#ecr_gen}
   */
   readonly ecrGen?: PlatformGitopsRepositoryEcrGen;
   /**
   * gcr_gen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#gcr_gen PlatformGitopsRepository#gcr_gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#gcr_gen PlatformGitopsRepository#gcr_gen}
   */
   readonly gcrGen?: PlatformGitopsRepositoryGcrGen;
   /**
   * repo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#repo PlatformGitopsRepository#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#repo PlatformGitopsRepository#repo}
   */
   readonly repo: PlatformGitopsRepositoryRepo;
   /**
   * update_mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#update_mask PlatformGitopsRepository#update_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#update_mask PlatformGitopsRepository#update_mask}
   */
   readonly updateMask?: PlatformGitopsRepositoryUpdateMask[] | cdktf.IResolvable;
 }
@@ -104,19 +104,19 @@ export interface PlatformGitopsRepositoryEcrGenJwtAuth {
   /**
   * Audience specifies the `aud` claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#audiences PlatformGitopsRepository#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#audiences PlatformGitopsRepository#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#namespace PlatformGitopsRepository#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#namespace PlatformGitopsRepository#namespace}
   */
   readonly namespace?: string;
 }
@@ -260,19 +260,19 @@ export interface PlatformGitopsRepositoryEcrGenSecretRef {
   /**
   * AWS access key id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#aws_access_key_id PlatformGitopsRepository#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#aws_access_key_id PlatformGitopsRepository#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#aws_secret_access_key PlatformGitopsRepository#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#aws_secret_access_key PlatformGitopsRepository#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * AWS session token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#aws_session_token PlatformGitopsRepository#aws_session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#aws_session_token PlatformGitopsRepository#aws_session_token}
   */
   readonly awsSessionToken?: string;
 }
@@ -416,19 +416,19 @@ export interface PlatformGitopsRepositoryEcrGen {
   /**
   * AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#region PlatformGitopsRepository#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#region PlatformGitopsRepository#region}
   */
   readonly region?: string;
   /**
   * jwt_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#jwt_auth PlatformGitopsRepository#jwt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#jwt_auth PlatformGitopsRepository#jwt_auth}
   */
   readonly jwtAuth?: PlatformGitopsRepositoryEcrGenJwtAuth;
   /**
   * secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#secret_ref PlatformGitopsRepository#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#secret_ref PlatformGitopsRepository#secret_ref}
   */
   readonly secretRef?: PlatformGitopsRepositoryEcrGenSecretRef;
 }
@@ -572,19 +572,19 @@ export interface PlatformGitopsRepositoryGcrGenWorkloadIdentityServiceAccountRef
   /**
   * Audience specifies the `aud` claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#audiences PlatformGitopsRepository#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#audiences PlatformGitopsRepository#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#namespace PlatformGitopsRepository#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#namespace PlatformGitopsRepository#namespace}
   */
   readonly namespace?: string;
 }
@@ -728,25 +728,25 @@ export interface PlatformGitopsRepositoryGcrGenWorkloadIdentity {
   /**
   * Cluster location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#cluster_location PlatformGitopsRepository#cluster_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#cluster_location PlatformGitopsRepository#cluster_location}
   */
   readonly clusterLocation?: string;
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#cluster_name PlatformGitopsRepository#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#cluster_name PlatformGitopsRepository#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Cluster project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#cluster_project_id PlatformGitopsRepository#cluster_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#cluster_project_id PlatformGitopsRepository#cluster_project_id}
   */
   readonly clusterProjectId?: string;
   /**
   * service_account_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#service_account_ref PlatformGitopsRepository#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#service_account_ref PlatformGitopsRepository#service_account_ref}
   */
   readonly serviceAccountRef?: PlatformGitopsRepositoryGcrGenWorkloadIdentityServiceAccountRef;
 }
@@ -919,19 +919,19 @@ export interface PlatformGitopsRepositoryGcrGen {
   /**
   * GCP access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#access_key PlatformGitopsRepository#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#access_key PlatformGitopsRepository#access_key}
   */
   readonly accessKey?: string;
   /**
   * GCP project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#project_id PlatformGitopsRepository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#project_id PlatformGitopsRepository#project_id}
   */
   readonly projectId?: string;
   /**
   * workload_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#workload_identity PlatformGitopsRepository#workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#workload_identity PlatformGitopsRepository#workload_identity}
   */
   readonly workloadIdentity?: PlatformGitopsRepositoryGcrGenWorkloadIdentity;
 }
@@ -1075,115 +1075,115 @@ export interface PlatformGitopsRepositoryRepo {
   /**
   * Identifies the authentication method used to connect to the repository. Possible values: "HTTPS" "SSH" "GITHUB" "HTTPS_ANONYMOUS", "GITHUB_ENTERPRISE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#connection_type PlatformGitopsRepository#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#connection_type PlatformGitopsRepository#connection_type}
   */
   readonly connectionType: string;
   /**
   * Indicates if git-lfs support must be enabled for this repo. This is valid only for Git repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#enable_lfs PlatformGitopsRepository#enable_lfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#enable_lfs PlatformGitopsRepository#enable_lfs}
   */
   readonly enableLfs?: boolean | cdktf.IResolvable;
   /**
   * Indicates if helm-oci support must be enabled for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#enable_oci PlatformGitopsRepository#enable_oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#enable_oci PlatformGitopsRepository#enable_oci}
   */
   readonly enableOci?: boolean | cdktf.IResolvable;
   /**
   * Base URL of GitHub Enterprise installation. If left empty, this defaults to https://api.github.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#github_app_enterprise_base_url PlatformGitopsRepository#github_app_enterprise_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#github_app_enterprise_base_url PlatformGitopsRepository#github_app_enterprise_base_url}
   */
   readonly githubAppEnterpriseBaseUrl?: string;
   /**
   * Id of the GitHub app used to access the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#github_app_id PlatformGitopsRepository#github_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#github_app_id PlatformGitopsRepository#github_app_id}
   */
   readonly githubAppId?: string;
   /**
   * Installation id of the GitHub app used to access the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#github_app_installation_id PlatformGitopsRepository#github_app_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#github_app_installation_id PlatformGitopsRepository#github_app_installation_id}
   */
   readonly githubAppInstallationId?: string;
   /**
   * GitHub app private key PEM data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#github_app_private_key PlatformGitopsRepository#github_app_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#github_app_private_key PlatformGitopsRepository#github_app_private_key}
   */
   readonly githubAppPrivateKey?: string;
   /**
   * Indicates if the connection to the repository ignores any errors when verifying TLS certificates or SSH host keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#insecure PlatformGitopsRepository#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#insecure PlatformGitopsRepository#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Indicates if InsecureIgnoreHostKey should be used. Insecure is favored used only for git repos. Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#insecure_ignore_host_key PlatformGitopsRepository#insecure_ignore_host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#insecure_ignore_host_key PlatformGitopsRepository#insecure_ignore_host_key}
   */
   readonly insecureIgnoreHostKey?: boolean | cdktf.IResolvable;
   /**
   * Name to be used for this repo. Only used with Helm repos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#name PlatformGitopsRepository#name}
   */
   readonly name?: string;
   /**
   * Password or PAT to be used for authenticating the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#password PlatformGitopsRepository#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#password PlatformGitopsRepository#password}
   */
   readonly password?: string;
   /**
   * The ArgoCD project name corresponding to this GitOps repository. An empty string means that the GitOps repository belongs to the default project created by Harness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#project PlatformGitopsRepository#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#project PlatformGitopsRepository#project}
   */
   readonly project?: string;
   /**
   * The HTTP/HTTPS proxy used to access the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#proxy PlatformGitopsRepository#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#proxy PlatformGitopsRepository#proxy}
   */
   readonly proxy?: string;
   /**
   * URL to the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#repo PlatformGitopsRepository#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#repo PlatformGitopsRepository#repo}
   */
   readonly repo: string;
   /**
   * SSH Key in PEM format for authenticating the repository. Used only for Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#ssh_private_key PlatformGitopsRepository#ssh_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#ssh_private_key PlatformGitopsRepository#ssh_private_key}
   */
   readonly sshPrivateKey?: string;
   /**
   * Certificate in PEM format for authenticating at the repo server. This is used for mTLS. The value should be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#tls_client_cert_data PlatformGitopsRepository#tls_client_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#tls_client_cert_data PlatformGitopsRepository#tls_client_cert_data}
   */
   readonly tlsClientCertData?: string;
   /**
   * Private key in PEM format for authenticating at the repo server. This is used for mTLS. The value should be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#tls_client_cert_key PlatformGitopsRepository#tls_client_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#tls_client_cert_key PlatformGitopsRepository#tls_client_cert_key}
   */
   readonly tlsClientCertKey?: string;
   /**
   * Type specifies the type of the repo. Can be either "git" or "helm. "git" is assumed if empty or absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#type_ PlatformGitopsRepository#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#type_ PlatformGitopsRepository#type_}
   */
   readonly type?: string;
   /**
   * Username to be used for authenticating the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#username PlatformGitopsRepository#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#username PlatformGitopsRepository#username}
   */
   readonly username?: string;
 }
@@ -1790,7 +1790,7 @@ export interface PlatformGitopsRepositoryUpdateMask {
   /**
   * The set of field mask paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#paths PlatformGitopsRepository#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#paths PlatformGitopsRepository#paths}
   */
   readonly paths?: string[];
 }
@@ -1906,7 +1906,7 @@ export class PlatformGitopsRepositoryUpdateMaskList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository harness_platform_gitops_repository}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository harness_platform_gitops_repository}
 */
 export class PlatformGitopsRepository extends cdktf.TerraformResource {
 
@@ -1922,7 +1922,7 @@ export class PlatformGitopsRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsRepository to import
-  * @param importFromId The id of the existing PlatformGitopsRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1934,7 +1934,7 @@ export class PlatformGitopsRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repository harness_platform_gitops_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_gitops_repository harness_platform_gitops_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1945,8 +1945,8 @@ export class PlatformGitopsRepository extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_repository',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

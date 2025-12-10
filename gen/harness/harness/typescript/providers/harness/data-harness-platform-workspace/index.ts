@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformWorkspaceConfig extends cdktf.TerraformMetaA
   /**
   * Description of the Workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#description DataHarnessPlatformWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#description DataHarnessPlatformWorkspace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#id DataHarnessPlatformWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#id DataHarnessPlatformWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface DataHarnessPlatformWorkspaceConfig extends cdktf.TerraformMetaA
   /**
   * Identifier of the Workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#identifier DataHarnessPlatformWorkspace#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#identifier DataHarnessPlatformWorkspace#identifier}
   */
   readonly identifier: string;
   /**
   * Organization Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#org_id DataHarnessPlatformWorkspace#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#org_id DataHarnessPlatformWorkspace#org_id}
   */
   readonly orgId: string;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#project_id DataHarnessPlatformWorkspace#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#project_id DataHarnessPlatformWorkspace#project_id}
   */
   readonly projectId: string;
   /**
   * Repository Branch in which the code should be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#repository_branch DataHarnessPlatformWorkspace#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#repository_branch DataHarnessPlatformWorkspace#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Repository Tag in which the code should be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#repository_commit DataHarnessPlatformWorkspace#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#repository_commit DataHarnessPlatformWorkspace#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Repository Commit SHA in which the code should be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#repository_sha DataHarnessPlatformWorkspace#repository_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#repository_sha DataHarnessPlatformWorkspace#repository_sha}
   */
   readonly repositorySha?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#tags DataHarnessPlatformWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#tags DataHarnessPlatformWorkspace#tags}
   */
   readonly tags?: string[];
   /**
   * Variable sets to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#variable_sets DataHarnessPlatformWorkspace#variable_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#variable_sets DataHarnessPlatformWorkspace#variable_sets}
   */
   readonly variableSets?: string[];
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#connector DataHarnessPlatformWorkspace#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#connector DataHarnessPlatformWorkspace#connector}
   */
   readonly connector?: DataHarnessPlatformWorkspaceConnector[] | cdktf.IResolvable;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#environment_variable DataHarnessPlatformWorkspace#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#environment_variable DataHarnessPlatformWorkspace#environment_variable}
   */
   readonly environmentVariable?: DataHarnessPlatformWorkspaceEnvironmentVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#terraform_variable DataHarnessPlatformWorkspace#terraform_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#terraform_variable DataHarnessPlatformWorkspace#terraform_variable}
   */
   readonly terraformVariable?: DataHarnessPlatformWorkspaceTerraformVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#terraform_variable_file DataHarnessPlatformWorkspace#terraform_variable_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#terraform_variable_file DataHarnessPlatformWorkspace#terraform_variable_file}
   */
   readonly terraformVariableFile?: DataHarnessPlatformWorkspaceTerraformVariableFile[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface DataHarnessPlatformWorkspaceConnector {
   /**
   * Connector Ref is the reference to the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#connector_ref DataHarnessPlatformWorkspace#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#connector_ref DataHarnessPlatformWorkspace#connector_ref}
   */
   readonly connectorRef: string;
   /**
   * Type is the connector type of the connector. Supported types: aws, azure, gcp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#type DataHarnessPlatformWorkspace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#type DataHarnessPlatformWorkspace#type}
   */
   readonly type: string;
 }
@@ -545,7 +545,7 @@ export class DataHarnessPlatformWorkspaceTerraformVariableFileList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace harness_platform_workspace}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace harness_platform_workspace}
 */
 export class DataHarnessPlatformWorkspace extends cdktf.TerraformDataSource {
 
@@ -561,7 +561,7 @@ export class DataHarnessPlatformWorkspace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformWorkspace to import
-  * @param importFromId The id of the existing DataHarnessPlatformWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -573,7 +573,7 @@ export class DataHarnessPlatformWorkspace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_workspace harness_platform_workspace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_workspace harness_platform_workspace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +584,8 @@ export class DataHarnessPlatformWorkspace extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_workspace',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

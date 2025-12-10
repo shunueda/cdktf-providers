@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosGridNatgroupConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#filters DataNiosGridNatgroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#filters DataNiosGridNatgroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#max_results DataNiosGridNatgroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#max_results DataNiosGridNatgroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#paging DataNiosGridNatgroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#paging DataNiosGridNatgroup#paging}
   */
   readonly paging?: number;
 }
@@ -30,13 +30,13 @@ export interface DataNiosGridNatgroupResult {
   /**
   * The NAT group descriptive comment; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#comment DataNiosGridNatgroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#comment DataNiosGridNatgroup#comment}
   */
   readonly comment?: string;
   /**
   * The name of a NAT group object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#name DataNiosGridNatgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#name DataNiosGridNatgroup#name}
   */
   readonly name: string;
 }
@@ -173,7 +173,7 @@ export class DataNiosGridNatgroupResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup nios_grid_natgroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup nios_grid_natgroup}
 */
 export class DataNiosGridNatgroup extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataNiosGridNatgroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosGridNatgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosGridNatgroup to import
-  * @param importFromId The id of the existing DataNiosGridNatgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosGridNatgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosGridNatgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataNiosGridNatgroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_natgroup nios_grid_natgroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_natgroup nios_grid_natgroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataNiosGridNatgroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_grid_natgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

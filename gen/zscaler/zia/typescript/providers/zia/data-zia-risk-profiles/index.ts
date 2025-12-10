@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaRiskProfilesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Unique identifier for the risk profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles#id DataZiaRiskProfiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles#id DataZiaRiskProfiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaRiskProfilesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Cloud application risk profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles#name DataZiaRiskProfiles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles#name DataZiaRiskProfiles#name}
   */
   readonly name?: string;
 }
@@ -191,7 +191,7 @@ export class DataZiaRiskProfilesLastModifiedByList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles zia_risk_profiles}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles zia_risk_profiles}
 */
 export class DataZiaRiskProfiles extends cdktf.TerraformDataSource {
 
@@ -207,7 +207,7 @@ export class DataZiaRiskProfiles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaRiskProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaRiskProfiles to import
-  * @param importFromId The id of the existing DataZiaRiskProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaRiskProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaRiskProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataZiaRiskProfiles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/risk_profiles zia_risk_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/risk_profiles zia_risk_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataZiaRiskProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_risk_profiles',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

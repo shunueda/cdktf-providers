@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformRepoWebhookConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#description PlatformRepoWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#description PlatformRepoWebhook#description}
   */
   readonly description?: string;
   /**
   * Webhook enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#enabled PlatformRepoWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#enabled PlatformRepoWebhook#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#id PlatformRepoWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#id PlatformRepoWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface PlatformRepoWebhookConfig extends cdktf.TerraformMetaArguments 
   /**
   * Identifier of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#identifier PlatformRepoWebhook#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#identifier PlatformRepoWebhook#identifier}
   */
   readonly identifier: string;
   /**
   * Allow insecure connections for provided webhook URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#insecure PlatformRepoWebhook#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#insecure PlatformRepoWebhook#insecure}
   */
   readonly insecure: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#org_id PlatformRepoWebhook#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#org_id PlatformRepoWebhook#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#project_id PlatformRepoWebhook#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#project_id PlatformRepoWebhook#project_id}
   */
   readonly projectId?: string;
   /**
   * Identifier of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#repo_identifier PlatformRepoWebhook#repo_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#repo_identifier PlatformRepoWebhook#repo_identifier}
   */
   readonly repoIdentifier: string;
   /**
   * Webhook secret which will be used to sign the webhook payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#secret PlatformRepoWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#secret PlatformRepoWebhook#secret}
   */
   readonly secret?: string;
   /**
   * List of triggers of the webhook (keep empty for all triggers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#triggers PlatformRepoWebhook#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#triggers PlatformRepoWebhook#triggers}
   */
   readonly triggers?: string[];
   /**
   * URL that's called by the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#url PlatformRepoWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#url PlatformRepoWebhook#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook harness_platform_repo_webhook}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook harness_platform_repo_webhook}
 */
 export class PlatformRepoWebhook extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class PlatformRepoWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformRepoWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformRepoWebhook to import
-  * @param importFromId The id of the existing PlatformRepoWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformRepoWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformRepoWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class PlatformRepoWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_webhook harness_platform_repo_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_repo_webhook harness_platform_repo_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class PlatformRepoWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_repo_webhook',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorKubernetesConfig extends cdktf.TerraformMetaAr
   /**
   * Selectors to use for the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#delegate_selectors PlatformConnectorKubernetes#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#delegate_selectors PlatformConnectorKubernetes#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#description PlatformConnectorKubernetes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#description PlatformConnectorKubernetes#description}
   */
   readonly description?: string;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#force_delete PlatformConnectorKubernetes#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#force_delete PlatformConnectorKubernetes#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#id PlatformConnectorKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#id PlatformConnectorKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface PlatformConnectorKubernetesConfig extends cdktf.TerraformMetaAr
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#identifier PlatformConnectorKubernetes#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#identifier PlatformConnectorKubernetes#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#name PlatformConnectorKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#name PlatformConnectorKubernetes#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#org_id PlatformConnectorKubernetes#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#org_id PlatformConnectorKubernetes#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#project_id PlatformConnectorKubernetes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#project_id PlatformConnectorKubernetes#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#tags PlatformConnectorKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#tags PlatformConnectorKubernetes#tags}
   */
   readonly tags?: string[];
   /**
   * client_key_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_key_cert PlatformConnectorKubernetes#client_key_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_key_cert PlatformConnectorKubernetes#client_key_cert}
   */
   readonly clientKeyCert?: PlatformConnectorKubernetesClientKeyCert;
   /**
   * inherit_from_delegate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#inherit_from_delegate PlatformConnectorKubernetes#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#inherit_from_delegate PlatformConnectorKubernetes#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: PlatformConnectorKubernetesInheritFromDelegate;
   /**
   * openid_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#openid_connect PlatformConnectorKubernetes#openid_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#openid_connect PlatformConnectorKubernetes#openid_connect}
   */
   readonly openidConnect?: PlatformConnectorKubernetesOpenidConnect;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#service_account PlatformConnectorKubernetes#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#service_account PlatformConnectorKubernetes#service_account}
   */
   readonly serviceAccount?: PlatformConnectorKubernetesServiceAccount;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#username_password PlatformConnectorKubernetes#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#username_password PlatformConnectorKubernetes#username_password}
   */
   readonly usernamePassword?: PlatformConnectorKubernetesUsernamePassword;
 }
@@ -97,37 +97,37 @@ export interface PlatformConnectorKubernetesClientKeyCert {
   /**
   * Reference to the secret containing the CA certificate for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#ca_cert_ref PlatformConnectorKubernetes#ca_cert_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#ca_cert_ref PlatformConnectorKubernetes#ca_cert_ref}
   */
   readonly caCertRef?: string;
   /**
   * Reference to the secret containing the client certificate for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_cert_ref PlatformConnectorKubernetes#client_cert_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_cert_ref PlatformConnectorKubernetes#client_cert_ref}
   */
   readonly clientCertRef: string;
   /**
   * The algorithm used to generate the client key for the connector. Valid values are RSA, EC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_key_algorithm PlatformConnectorKubernetes#client_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_key_algorithm PlatformConnectorKubernetes#client_key_algorithm}
   */
   readonly clientKeyAlgorithm: string;
   /**
   * Reference to the secret containing the client key passphrase for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_key_passphrase_ref PlatformConnectorKubernetes#client_key_passphrase_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_key_passphrase_ref PlatformConnectorKubernetes#client_key_passphrase_ref}
   */
   readonly clientKeyPassphraseRef?: string;
   /**
   * Reference to the secret containing the client key for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_key_ref PlatformConnectorKubernetes#client_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_key_ref PlatformConnectorKubernetes#client_key_ref}
   */
   readonly clientKeyRef: string;
   /**
   * The URL of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
   */
   readonly masterUrl: string;
 }
@@ -346,7 +346,7 @@ export interface PlatformConnectorKubernetesInheritFromDelegate {
   /**
   * Selectors to use for the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#delegate_selectors PlatformConnectorKubernetes#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#delegate_selectors PlatformConnectorKubernetes#delegate_selectors}
   */
   readonly delegateSelectors: string[];
 }
@@ -429,49 +429,49 @@ export interface PlatformConnectorKubernetesOpenidConnect {
   /**
   * Reference to the secret containing the client ID for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#client_id_ref PlatformConnectorKubernetes#client_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#client_id_ref PlatformConnectorKubernetes#client_id_ref}
   */
   readonly clientIdRef: string;
   /**
   * The URL of the OpenID Connect issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#issuer_url PlatformConnectorKubernetes#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#issuer_url PlatformConnectorKubernetes#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * The URL of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Reference to the secret containing the password for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#password_ref PlatformConnectorKubernetes#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#password_ref PlatformConnectorKubernetes#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Scopes to request for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#scopes PlatformConnectorKubernetes#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#scopes PlatformConnectorKubernetes#scopes}
   */
   readonly scopes?: string[];
   /**
   * Reference to the secret containing the client secret for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#secret_ref PlatformConnectorKubernetes#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#secret_ref PlatformConnectorKubernetes#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * Username for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#username PlatformConnectorKubernetes#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#username PlatformConnectorKubernetes#username}
   */
   readonly username?: string;
   /**
   * Reference to the secret containing the username for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#username_ref PlatformConnectorKubernetes#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#username_ref PlatformConnectorKubernetes#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -748,19 +748,19 @@ export interface PlatformConnectorKubernetesServiceAccount {
   /**
   * Reference to the secret containing the CA certificate for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#ca_cert_ref PlatformConnectorKubernetes#ca_cert_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#ca_cert_ref PlatformConnectorKubernetes#ca_cert_ref}
   */
   readonly caCertRef?: string;
   /**
   * The URL of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Reference to the secret containing the service account token for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#service_account_token_ref PlatformConnectorKubernetes#service_account_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#service_account_token_ref PlatformConnectorKubernetes#service_account_token_ref}
   */
   readonly serviceAccountTokenRef: string;
 }
@@ -898,25 +898,25 @@ export interface PlatformConnectorKubernetesUsernamePassword {
   /**
   * The URL of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#master_url PlatformConnectorKubernetes#master_url}
   */
   readonly masterUrl: string;
   /**
   * Reference to the secret containing the password for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#password_ref PlatformConnectorKubernetes#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#password_ref PlatformConnectorKubernetes#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#username PlatformConnectorKubernetes#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#username PlatformConnectorKubernetes#username}
   */
   readonly username?: string;
   /**
   * Reference to the secret containing the username for the connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#username_ref PlatformConnectorKubernetes#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#username_ref PlatformConnectorKubernetes#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -1081,7 +1081,7 @@ export class PlatformConnectorKubernetesUsernamePasswordOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes harness_platform_connector_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes harness_platform_connector_kubernetes}
 */
 export class PlatformConnectorKubernetes extends cdktf.TerraformResource {
 
@@ -1097,7 +1097,7 @@ export class PlatformConnectorKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorKubernetes to import
-  * @param importFromId The id of the existing PlatformConnectorKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1109,7 +1109,7 @@ export class PlatformConnectorKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_kubernetes harness_platform_connector_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_kubernetes harness_platform_connector_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1120,8 +1120,8 @@ export class PlatformConnectorKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

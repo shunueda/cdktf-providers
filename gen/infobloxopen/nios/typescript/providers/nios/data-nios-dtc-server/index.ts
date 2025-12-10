@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDtcServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#extattrfilters DataNiosDtcServer#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#extattrfilters DataNiosDtcServer#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#filters DataNiosDtcServer#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#filters DataNiosDtcServer#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#max_results DataNiosDtcServer#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#max_results DataNiosDtcServer#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#paging DataNiosDtcServer#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#paging DataNiosDtcServer#paging}
   */
   readonly paging?: number;
 }
@@ -100,13 +100,13 @@ export interface DataNiosDtcServerResultMonitors {
   /**
   * IP address or FQDN of the server used for monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#host DataNiosDtcServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#host DataNiosDtcServer#host}
   */
   readonly host: string;
   /**
   * The monitor related to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#monitor DataNiosDtcServer#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#monitor DataNiosDtcServer#monitor}
   */
   readonly monitor: string;
 }
@@ -247,55 +247,55 @@ export interface DataNiosDtcServerResult {
   /**
   * Enabling this option will auto-create a single read-only A/AAAA/CNAME record corresponding to the configured hostname and update it if the hostname changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#auto_create_host_record DataNiosDtcServer#auto_create_host_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#auto_create_host_record DataNiosDtcServer#auto_create_host_record}
   */
   readonly autoCreateHostRecord?: boolean | cdktf.IResolvable;
   /**
   * Comment for the DTC Server; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#comment DataNiosDtcServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#comment DataNiosDtcServer#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether the DTC Server is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#disable DataNiosDtcServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#disable DataNiosDtcServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#extattrs DataNiosDtcServer#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#extattrs DataNiosDtcServer#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The address or FQDN of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#host DataNiosDtcServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#host DataNiosDtcServer#host}
   */
   readonly host: string;
   /**
   * List of IP/FQDN and monitor pairs to be used for additional monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#monitors DataNiosDtcServer#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#monitors DataNiosDtcServer#monitors}
   */
   readonly monitors?: DataNiosDtcServerResultMonitors[] | cdktf.IResolvable;
   /**
   * The DTC Server display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#name DataNiosDtcServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#name DataNiosDtcServer#name}
   */
   readonly name: string;
   /**
   * The hostname for Server Name Indication (SNI) in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#sni_hostname DataNiosDtcServer#sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#sni_hostname DataNiosDtcServer#sni_hostname}
   */
   readonly sniHostname?: string;
   /**
   * Use flag for: sni_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#use_sni_hostname DataNiosDtcServer#use_sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#use_sni_hostname DataNiosDtcServer#use_sni_hostname}
   */
   readonly useSniHostname?: boolean | cdktf.IResolvable;
 }
@@ -644,7 +644,7 @@ export class DataNiosDtcServerResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server nios_dtc_server}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server nios_dtc_server}
 */
 export class DataNiosDtcServer extends cdktf.TerraformDataSource {
 
@@ -660,7 +660,7 @@ export class DataNiosDtcServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDtcServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDtcServer to import
-  * @param importFromId The id of the existing DataNiosDtcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDtcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDtcServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -672,7 +672,7 @@ export class DataNiosDtcServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_server nios_dtc_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_server nios_dtc_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -683,8 +683,8 @@ export class DataNiosDtcServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dtc_server',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

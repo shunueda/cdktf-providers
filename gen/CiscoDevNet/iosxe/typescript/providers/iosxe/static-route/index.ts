@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface StaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#device StaticRoute#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#device StaticRoute#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#mask StaticRoute#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#mask StaticRoute#mask}
   */
   readonly mask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#next_hops StaticRoute#next_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#next_hops StaticRoute#next_hops}
   */
   readonly nextHops?: StaticRouteNextHops[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#next_hops_with_track StaticRoute#next_hops_with_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#next_hops_with_track StaticRoute#next_hops_with_track}
   */
   readonly nextHopsWithTrack?: StaticRouteNextHopsWithTrack[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#prefix StaticRoute#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#prefix StaticRoute#prefix}
   */
   readonly prefix: string;
 }
@@ -35,38 +35,38 @@ export interface StaticRouteNextHops {
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#distance StaticRoute#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#distance StaticRoute#distance}
   */
   readonly distance?: number;
   /**
   * Next hop address is global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#global StaticRoute#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#global StaticRoute#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * Specify name of the next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#name StaticRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#name StaticRoute#name}
   */
   readonly name?: string;
   /**
   * Specify the next hop as an ip-address or interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
   */
   readonly nextHop: string;
   /**
   * permanent route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#permanent StaticRoute#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#permanent StaticRoute#permanent}
   */
   readonly permanent?: boolean | cdktf.IResolvable;
   /**
   * Set tag for this route
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#tag StaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#tag StaticRoute#tag}
   */
   readonly tag?: number;
 }
@@ -327,39 +327,39 @@ export interface StaticRouteNextHopsWithTrack {
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#distance StaticRoute#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#distance StaticRoute#distance}
   */
   readonly distance?: number;
   /**
   * Specify name of the next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#name StaticRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#name StaticRoute#name}
   */
   readonly name?: string;
   /**
   * Specify the next hop as an ip-address or interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
   */
   readonly nextHop: string;
   /**
   * permanent route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#permanent StaticRoute#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#permanent StaticRoute#permanent}
   */
   readonly permanent?: boolean | cdktf.IResolvable;
   /**
   * Set tag for this route
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#tag StaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#tag StaticRoute#tag}
   */
   readonly tag?: number;
   /**
   * Track number
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#track_id_name StaticRoute#track_id_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#track_id_name StaticRoute#track_id_name}
   */
   readonly trackIdName?: number;
 }
@@ -617,7 +617,7 @@ export class StaticRouteNextHopsWithTrackList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route iosxe_static_route}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route iosxe_static_route}
 */
 export class StaticRoute extends cdktf.TerraformResource {
 
@@ -633,7 +633,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticRoute to import
-  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -645,7 +645,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/static_route iosxe_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/static_route iosxe_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,8 +656,8 @@ export class StaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_static_route',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

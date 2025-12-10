@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosDhcpIpv6RangeTemplateConfig extends cdktf.TerraformMeta
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#filters DataNiosDhcpIpv6RangeTemplate#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#filters DataNiosDhcpIpv6RangeTemplate#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#max_results DataNiosDhcpIpv6RangeTemplate#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#max_results DataNiosDhcpIpv6RangeTemplate#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#paging DataNiosDhcpIpv6RangeTemplate#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#paging DataNiosDhcpIpv6RangeTemplate#paging}
   */
   readonly paging?: number;
 }
@@ -30,19 +30,19 @@ export interface DataNiosDhcpIpv6RangeTemplateResultDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#ipv4addr DataNiosDhcpIpv6RangeTemplate#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#ipv4addr DataNiosDhcpIpv6RangeTemplate#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#ipv6addr DataNiosDhcpIpv6RangeTemplate#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#ipv6addr DataNiosDhcpIpv6RangeTemplate#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
   */
   readonly name?: string;
 }
@@ -196,19 +196,19 @@ export interface DataNiosDhcpIpv6RangeTemplateResultExclude {
   /**
   * A descriptive comment of a DHCP exclusion range template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#comment DataNiosDhcpIpv6RangeTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#comment DataNiosDhcpIpv6RangeTemplate#comment}
   */
   readonly comment?: string;
   /**
   * The number of addresses in the DHCP exclusion range template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#number_of_addresses DataNiosDhcpIpv6RangeTemplate#number_of_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#number_of_addresses DataNiosDhcpIpv6RangeTemplate#number_of_addresses}
   */
   readonly numberOfAddresses: number;
   /**
   * The address offset of the DHCP exclusion range template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#offset DataNiosDhcpIpv6RangeTemplate#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#offset DataNiosDhcpIpv6RangeTemplate#offset}
   */
   readonly offset: number;
 }
@@ -378,13 +378,13 @@ export interface DataNiosDhcpIpv6RangeTemplateResultLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#filter DataNiosDhcpIpv6RangeTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#filter DataNiosDhcpIpv6RangeTemplate#filter}
   */
   readonly filter: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#type DataNiosDhcpIpv6RangeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#type DataNiosDhcpIpv6RangeTemplate#type}
   */
   readonly type: string;
 }
@@ -525,19 +525,19 @@ export interface DataNiosDhcpIpv6RangeTemplateResultMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#ipv4addr DataNiosDhcpIpv6RangeTemplate#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#ipv4addr DataNiosDhcpIpv6RangeTemplate#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#ipv6addr DataNiosDhcpIpv6RangeTemplate#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#ipv6addr DataNiosDhcpIpv6RangeTemplate#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
   */
   readonly name?: string;
 }
@@ -691,13 +691,13 @@ export interface DataNiosDhcpIpv6RangeTemplateResultOptionFilterRules {
   /**
   * The name of the DHCP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#filter DataNiosDhcpIpv6RangeTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#filter DataNiosDhcpIpv6RangeTemplate#filter}
   */
   readonly filter: string;
   /**
   * The permission to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#permission DataNiosDhcpIpv6RangeTemplate#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#permission DataNiosDhcpIpv6RangeTemplate#permission}
   */
   readonly permission: string;
 }
@@ -838,85 +838,85 @@ export interface DataNiosDhcpIpv6RangeTemplateResult {
   /**
   * Determines whether the IPv6 DHCP range template can be used to create network objects in a cloud-computing deployment. The cloud_api_compatible attribute must be set to true if any extensible attributes, such as the Terraform Internal ID, require cloud access; otherwise, it must be set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#cloud_api_compatible DataNiosDhcpIpv6RangeTemplate#cloud_api_compatible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#cloud_api_compatible DataNiosDhcpIpv6RangeTemplate#cloud_api_compatible}
   */
   readonly cloudApiCompatible?: boolean | cdktf.IResolvable;
   /**
   * The IPv6 DHCP range template descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#comment DataNiosDhcpIpv6RangeTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#comment DataNiosDhcpIpv6RangeTemplate#comment}
   */
   readonly comment?: string;
   /**
   * The vConnector member that the object should be delegated to when created from the IPv6 DHCP range template. The vConnector refers to VMware vConnector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#delegated_member DataNiosDhcpIpv6RangeTemplate#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#delegated_member DataNiosDhcpIpv6RangeTemplate#delegated_member}
   */
   readonly delegatedMember?: DataNiosDhcpIpv6RangeTemplateResultDelegatedMember;
   /**
   * These are ranges of IPv6 addresses that the appliance does not use to assign to clients. You can use these excluded addresses as static IPv6 addresses. They contain the start and end addresses of the excluded range, and optionally, information about this excluded range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#exclude DataNiosDhcpIpv6RangeTemplate#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#exclude DataNiosDhcpIpv6RangeTemplate#exclude}
   */
   readonly exclude?: DataNiosDhcpIpv6RangeTemplateResultExclude[] | cdktf.IResolvable;
   /**
   * This field contains the logic filters to be applied on this IPv6 range. This list corresponds to the match rules that are written to the DHCPv6 configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#logic_filter_rules DataNiosDhcpIpv6RangeTemplate#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#logic_filter_rules DataNiosDhcpIpv6RangeTemplate#logic_filter_rules}
   */
   readonly logicFilterRules?: DataNiosDhcpIpv6RangeTemplateResultLogicFilterRules[] | cdktf.IResolvable;
   /**
   * The member that will provide service for the IPv6 DHCP range. Set `server_association_type` to `MEMBER` if you want the server specified here to serve the range. For searching by this field, use an HTTP method that contains a body (POST or PUT) with MS DHCP server structure and the request should have option _method=GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#member DataNiosDhcpIpv6RangeTemplate#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#member DataNiosDhcpIpv6RangeTemplate#member}
   */
   readonly member?: DataNiosDhcpIpv6RangeTemplateResultMember;
   /**
   * Name of the IPv6 DHCP range template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#name DataNiosDhcpIpv6RangeTemplate#name}
   */
   readonly name: string;
   /**
   * The number of addresses for the IPv6 DHCP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#number_of_addresses DataNiosDhcpIpv6RangeTemplate#number_of_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#number_of_addresses DataNiosDhcpIpv6RangeTemplate#number_of_addresses}
   */
   readonly numberOfAddresses: number;
   /**
   * The start address offset for the IPv6 DHCP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#offset DataNiosDhcpIpv6RangeTemplate#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#offset DataNiosDhcpIpv6RangeTemplate#offset}
   */
   readonly offset: number;
   /**
   * This field contains the Option filters to be applied to this IPv6 range. The appliance uses the matching rules of these filters to select the address range from which it assigns a lease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#option_filter_rules DataNiosDhcpIpv6RangeTemplate#option_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#option_filter_rules DataNiosDhcpIpv6RangeTemplate#option_filter_rules}
   */
   readonly optionFilterRules?: DataNiosDhcpIpv6RangeTemplateResultOptionFilterRules[] | cdktf.IResolvable;
   /**
   * Determines whether the leases are kept in Recycle Bin until one week after expiry. If this is set to False, the leases are permanently deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#recycle_leases DataNiosDhcpIpv6RangeTemplate#recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#recycle_leases DataNiosDhcpIpv6RangeTemplate#recycle_leases}
   */
   readonly recycleLeases?: boolean | cdktf.IResolvable;
   /**
   * The type of server that is going to serve the IPv6 DHCP range. Valid values are `MEMBER` and `NONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#server_association_type DataNiosDhcpIpv6RangeTemplate#server_association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#server_association_type DataNiosDhcpIpv6RangeTemplate#server_association_type}
   */
   readonly serverAssociationType?: string;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#use_logic_filter_rules DataNiosDhcpIpv6RangeTemplate#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#use_logic_filter_rules DataNiosDhcpIpv6RangeTemplate#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: recycle_leases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#use_recycle_leases DataNiosDhcpIpv6RangeTemplate#use_recycle_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#use_recycle_leases DataNiosDhcpIpv6RangeTemplate#use_recycle_leases}
   */
   readonly useRecycleLeases?: boolean | cdktf.IResolvable;
 }
@@ -1395,7 +1395,7 @@ export class DataNiosDhcpIpv6RangeTemplateResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template nios_dhcp_ipv6_range_template}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template nios_dhcp_ipv6_range_template}
 */
 export class DataNiosDhcpIpv6RangeTemplate extends cdktf.TerraformDataSource {
 
@@ -1411,7 +1411,7 @@ export class DataNiosDhcpIpv6RangeTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDhcpIpv6RangeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDhcpIpv6RangeTemplate to import
-  * @param importFromId The id of the existing DataNiosDhcpIpv6RangeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDhcpIpv6RangeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDhcpIpv6RangeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1423,7 +1423,7 @@ export class DataNiosDhcpIpv6RangeTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dhcp_ipv6_range_template nios_dhcp_ipv6_range_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dhcp_ipv6_range_template nios_dhcp_ipv6_range_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1434,8 +1434,8 @@ export class DataNiosDhcpIpv6RangeTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dhcp_ipv6_range_template',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

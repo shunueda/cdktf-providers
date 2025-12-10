@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDtcLbdnConfig extends cdktf.TerraformMetaArguments {
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#extattrfilters DataNiosDtcLbdn#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#extattrfilters DataNiosDtcLbdn#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#filters DataNiosDtcLbdn#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#filters DataNiosDtcLbdn#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#max_results DataNiosDtcLbdn#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#max_results DataNiosDtcLbdn#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#paging DataNiosDtcLbdn#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#paging DataNiosDtcLbdn#paging}
   */
   readonly paging?: number;
 }
@@ -100,13 +100,13 @@ export interface DataNiosDtcLbdnResultPools {
   /**
   * The pool to link with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#pool DataNiosDtcLbdn#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#pool DataNiosDtcLbdn#pool}
   */
   readonly pool?: string;
   /**
   * The weight of pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#ratio DataNiosDtcLbdn#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#ratio DataNiosDtcLbdn#ratio}
   */
   readonly ratio?: number;
 }
@@ -253,91 +253,91 @@ export interface DataNiosDtcLbdnResult {
   /**
   * List of linked auth zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#auth_zones DataNiosDtcLbdn#auth_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#auth_zones DataNiosDtcLbdn#auth_zones}
   */
   readonly authZones?: string[];
   /**
   * Flag for enabling auto managing DTC Consolidated Monitors on related DTC Pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#auto_consolidated_monitors DataNiosDtcLbdn#auto_consolidated_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#auto_consolidated_monitors DataNiosDtcLbdn#auto_consolidated_monitors}
   */
   readonly autoConsolidatedMonitors?: boolean | cdktf.IResolvable;
   /**
   * Comment for the DTC LBDN; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#comment DataNiosDtcLbdn#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#comment DataNiosDtcLbdn#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether the DTC LBDN is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#disable DataNiosDtcLbdn#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#disable DataNiosDtcLbdn#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#extattrs DataNiosDtcLbdn#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#extattrs DataNiosDtcLbdn#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The load balancing method. Used to select pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#lb_method DataNiosDtcLbdn#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#lb_method DataNiosDtcLbdn#lb_method}
   */
   readonly lbMethod: string;
   /**
   * The display name of the DTC LBDN, not DNS related.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#name DataNiosDtcLbdn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#name DataNiosDtcLbdn#name}
   */
   readonly name: string;
   /**
   * LBDN wildcards for pattern match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#patterns DataNiosDtcLbdn#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#patterns DataNiosDtcLbdn#patterns}
   */
   readonly patterns?: string[];
   /**
   * Maximum time, in seconds, for which client specific LBDN responses will be cached. Zero specifies no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#persistence DataNiosDtcLbdn#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#persistence DataNiosDtcLbdn#persistence}
   */
   readonly persistence?: number;
   /**
   * The maximum time, in seconds, for which client specific LBDN responses will be cached. Zero specifies no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#pools DataNiosDtcLbdn#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#pools DataNiosDtcLbdn#pools}
   */
   readonly pools?: DataNiosDtcLbdnResultPools[] | cdktf.IResolvable;
   /**
   * The LBDN pattern match priority for "overlapping" DTC LBDN objects. LBDNs are "overlapping" if they are simultaneously assigned to a zone and have patterns that can match the same FQDN. The matching LBDN with highest priority (lowest ordinal) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#priority DataNiosDtcLbdn#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#priority DataNiosDtcLbdn#priority}
   */
   readonly priority?: number;
   /**
   * The topology rules for TOPOLOGY method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#topology DataNiosDtcLbdn#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#topology DataNiosDtcLbdn#topology}
   */
   readonly topology?: string;
   /**
   * Time-to-live value of the record, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#ttl DataNiosDtcLbdn#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#ttl DataNiosDtcLbdn#ttl}
   */
   readonly ttl?: number;
   /**
   * The list of resource record types supported by LBDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#types DataNiosDtcLbdn#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#types DataNiosDtcLbdn#types}
   */
   readonly types?: string[];
   /**
   * Flag to indicate whether the TTL value should be used for the LBDN record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#use_ttl DataNiosDtcLbdn#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#use_ttl DataNiosDtcLbdn#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
 }
@@ -860,7 +860,7 @@ export class DataNiosDtcLbdnResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn nios_dtc_lbdn}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn nios_dtc_lbdn}
 */
 export class DataNiosDtcLbdn extends cdktf.TerraformDataSource {
 
@@ -876,7 +876,7 @@ export class DataNiosDtcLbdn extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDtcLbdn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDtcLbdn to import
-  * @param importFromId The id of the existing DataNiosDtcLbdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDtcLbdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDtcLbdn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -888,7 +888,7 @@ export class DataNiosDtcLbdn extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dtc_lbdn nios_dtc_lbdn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dtc_lbdn nios_dtc_lbdn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -899,8 +899,8 @@ export class DataNiosDtcLbdn extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dtc_lbdn',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

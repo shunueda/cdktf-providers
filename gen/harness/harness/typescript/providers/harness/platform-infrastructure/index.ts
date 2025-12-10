@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformInfrastructureConfig extends cdktf.TerraformMetaArgumen
   /**
   * Infrastructure deployment type. Valid values are Kubernetes, NativeHelm, Ssh, WinRm, ServerlessAwsLambda, AzureWebApp, Custom, ECS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#deployment_type PlatformInfrastructure#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#deployment_type PlatformInfrastructure#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#description PlatformInfrastructure#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#description PlatformInfrastructure#description}
   */
   readonly description?: string;
   /**
   * Environment Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#env_id PlatformInfrastructure#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#env_id PlatformInfrastructure#env_id}
   */
   readonly envId: string;
   /**
   * Enable this flag for force deletion of infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#force_delete PlatformInfrastructure#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#force_delete PlatformInfrastructure#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#id PlatformInfrastructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#id PlatformInfrastructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface PlatformInfrastructureConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#identifier PlatformInfrastructure#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#identifier PlatformInfrastructure#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#name PlatformInfrastructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#name PlatformInfrastructure#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#org_id PlatformInfrastructure#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#org_id PlatformInfrastructure#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#project_id PlatformInfrastructure#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#project_id PlatformInfrastructure#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#tags PlatformInfrastructure#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#tags PlatformInfrastructure#tags}
   */
   readonly tags?: string[];
   /**
   * Type of Infrastructure. Valid values are KubernetesDirect, KubernetesGcp, ServerlessAwsLambda, Pdc, KubernetesAzure, SshWinRmAzure, SshWinRmAws, AzureWebApp, ECS, GitOps, CustomDeployment, TAS, KubernetesRancher, AWS_SAM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#type PlatformInfrastructure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#type PlatformInfrastructure#type}
   */
   readonly type?: string;
   /**
   * Infrastructure YAML. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#yaml PlatformInfrastructure#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#yaml PlatformInfrastructure#yaml}
   */
   readonly yaml?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#git_details PlatformInfrastructure#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#git_details PlatformInfrastructure#git_details}
   */
   readonly gitDetails?: PlatformInfrastructureGitDetails;
 }
@@ -91,103 +91,103 @@ export interface PlatformInfrastructureGitDetails {
   /**
   * Name of the default branch (this checks out a new branch titled by branch_name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#base_branch PlatformInfrastructure#base_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#base_branch PlatformInfrastructure#base_branch}
   */
   readonly baseBranch?: string;
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#branch PlatformInfrastructure#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#branch PlatformInfrastructure#branch}
   */
   readonly branch?: string;
   /**
   * Commit message used for the merge commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#commit_message PlatformInfrastructure#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#commit_message PlatformInfrastructure#commit_message}
   */
   readonly commitMessage?: string;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#connector_ref PlatformInfrastructure#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#connector_ref PlatformInfrastructure#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#file_path PlatformInfrastructure#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#file_path PlatformInfrastructure#file_path}
   */
   readonly filePath?: string;
   /**
   * import infrastructure from git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#import_from_git PlatformInfrastructure#import_from_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#import_from_git PlatformInfrastructure#import_from_git}
   */
   readonly importFromGit?: boolean | cdktf.IResolvable;
   /**
   * force import infrastructure from remote even if same file path already exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#is_force_import PlatformInfrastructure#is_force_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#is_force_import PlatformInfrastructure#is_force_import}
   */
   readonly isForceImport?: boolean | cdktf.IResolvable;
   /**
   * If the gitProvider is HarnessCode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#is_harnesscode_repo PlatformInfrastructure#is_harnesscode_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#is_harnesscode_repo PlatformInfrastructure#is_harnesscode_repo}
   */
   readonly isHarnesscodeRepo?: boolean | cdktf.IResolvable;
   /**
   * If a new branch creation is requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#is_new_branch PlatformInfrastructure#is_new_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#is_new_branch PlatformInfrastructure#is_new_branch}
   */
   readonly isNewBranch?: boolean | cdktf.IResolvable;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#last_commit_id PlatformInfrastructure#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#last_commit_id PlatformInfrastructure#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#last_object_id PlatformInfrastructure#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#last_object_id PlatformInfrastructure#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * If the Entity is to be fetched from cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#load_from_cache PlatformInfrastructure#load_from_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#load_from_cache PlatformInfrastructure#load_from_cache}
   */
   readonly loadFromCache?: string;
   /**
   * If the Entity is to be fetched from fallbackBranch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#load_from_fallback_branch PlatformInfrastructure#load_from_fallback_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#load_from_fallback_branch PlatformInfrastructure#load_from_fallback_branch}
   */
   readonly loadFromFallbackBranch?: boolean | cdktf.IResolvable;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Parent Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#parent_entity_connector_ref PlatformInfrastructure#parent_entity_connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#parent_entity_connector_ref PlatformInfrastructure#parent_entity_connector_ref}
   */
   readonly parentEntityConnectorRef?: string;
   /**
   * Name of the repository where parent entity lies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#parent_entity_repo_name PlatformInfrastructure#parent_entity_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#parent_entity_repo_name PlatformInfrastructure#parent_entity_repo_name}
   */
   readonly parentEntityRepoName?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#repo_name PlatformInfrastructure#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#repo_name PlatformInfrastructure#repo_name}
   */
   readonly repoName?: string;
   /**
   * Specifies whether the Entity is to be stored in Git or not. Possible values: INLINE, REMOTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#store_type PlatformInfrastructure#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#store_type PlatformInfrastructure#store_type}
   */
   readonly storeType?: string;
 }
@@ -735,7 +735,7 @@ export class PlatformInfrastructureGitDetailsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure harness_platform_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure harness_platform_infrastructure}
 */
 export class PlatformInfrastructure extends cdktf.TerraformResource {
 
@@ -751,7 +751,7 @@ export class PlatformInfrastructure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformInfrastructure to import
-  * @param importFromId The id of the existing PlatformInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -763,7 +763,7 @@ export class PlatformInfrastructure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_infrastructure harness_platform_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_infrastructure harness_platform_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -774,8 +774,8 @@ export class PlatformInfrastructure extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

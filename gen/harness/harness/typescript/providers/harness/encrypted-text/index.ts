@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface EncryptedTextConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean that indicates whether or not to inherit the usage scopes from the secret manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#inherit_scopes_from_secret_manager EncryptedText#inherit_scopes_from_secret_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#inherit_scopes_from_secret_manager EncryptedText#inherit_scopes_from_secret_manager}
   */
   readonly inheritScopesFromSecretManager?: boolean | cdktf.IResolvable;
   /**
   * Name of the encrypted text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#name EncryptedText#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#name EncryptedText#name}
   */
   readonly name: string;
   /**
   * Boolean that indicates whether or not the secret is scoped to the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#scoped_to_account EncryptedText#scoped_to_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#scoped_to_account EncryptedText#scoped_to_account}
   */
   readonly scopedToAccount?: boolean | cdktf.IResolvable;
   /**
   * The id of the secret manager to associate the secret with. Once set, this field cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#secret_manager_id EncryptedText#secret_manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#secret_manager_id EncryptedText#secret_manager_id}
   */
   readonly secretManagerId: string;
   /**
   * Name of the existing secret. If you already have secrets created in a secrets manager such as HashiCorp Vault or AWS Secrets Manager, you do not need to re-create the existing secrets in Harness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#secret_reference EncryptedText#secret_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#secret_reference EncryptedText#secret_reference}
   */
   readonly secretReference?: string;
   /**
   * The value of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#value EncryptedText#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#value EncryptedText#value}
   */
   readonly value?: string;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#usage_scope EncryptedText#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#usage_scope EncryptedText#usage_scope}
   */
   readonly usageScope?: EncryptedTextUsageScope[] | cdktf.IResolvable;
 }
@@ -54,19 +54,19 @@ export interface EncryptedTextUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#application_id EncryptedText#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#application_id EncryptedText#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#environment_filter_type EncryptedText#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#environment_filter_type EncryptedText#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#environment_id EncryptedText#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#environment_id EncryptedText#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -240,7 +240,7 @@ export class EncryptedTextUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text harness_encrypted_text}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text harness_encrypted_text}
 */
 export class EncryptedText extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class EncryptedText extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EncryptedText resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EncryptedText to import
-  * @param importFromId The id of the existing EncryptedText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EncryptedText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EncryptedText to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class EncryptedText extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/encrypted_text harness_encrypted_text} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/encrypted_text harness_encrypted_text} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class EncryptedText extends cdktf.TerraformResource {
       terraformResourceType: 'harness_encrypted_text',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

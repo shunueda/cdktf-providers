@@ -4,6 +4,9 @@ Object.defineProperty(exports, 'cloudAwsRoute53TaskGroup', { get: function () { 
 Object.defineProperty(exports, 'cloudAwsUser', { get: function () { return require('./cloud-aws-user'); } });
 Object.defineProperty(exports, 'dhcpFixedAddress', { get: function () { return require('./dhcp-fixed-address'); } });
 Object.defineProperty(exports, 'dhcpIpv6RangeTemplate', { get: function () { return require('./dhcp-ipv6-range-template'); } });
+Object.defineProperty(exports, 'dhcpIpv6Fixedaddresstemplate', { get: function () { return require('./dhcp-ipv6fixedaddresstemplate'); } });
+Object.defineProperty(exports, 'dhcpIpv6Optiondefinition', { get: function () { return require('./dhcp-ipv6optiondefinition'); } });
+Object.defineProperty(exports, 'dhcpIpv6Optionspace', { get: function () { return require('./dhcp-ipv6optionspace'); } });
 Object.defineProperty(exports, 'dhcpRange', { get: function () { return require('./dhcp-range'); } });
 Object.defineProperty(exports, 'dhcpRangeTemplate', { get: function () { return require('./dhcp-range-template'); } });
 Object.defineProperty(exports, 'dhcpSharedNetwork', { get: function () { return require('./dhcp-shared-network'); } });
@@ -28,6 +31,8 @@ Object.defineProperty(exports, 'dnsRecordSrv', { get: function () { return requi
 Object.defineProperty(exports, 'dnsRecordTlsa', { get: function () { return require('./dns-record-tlsa'); } });
 Object.defineProperty(exports, 'dnsRecordTxt', { get: function () { return require('./dns-record-txt'); } });
 Object.defineProperty(exports, 'dnsRecordUnknown', { get: function () { return require('./dns-record-unknown'); } });
+Object.defineProperty(exports, 'dnsSharedrecordTxt', { get: function () { return require('./dns-sharedrecord-txt'); } });
+Object.defineProperty(exports, 'dnsSharedrecordgroup', { get: function () { return require('./dns-sharedrecordgroup'); } });
 Object.defineProperty(exports, 'dnsView', { get: function () { return require('./dns-view'); } });
 Object.defineProperty(exports, 'dnsZoneAuth', { get: function () { return require('./dns-zone-auth'); } });
 Object.defineProperty(exports, 'dnsZoneDelegated', { get: function () { return require('./dns-zone-delegated'); } });
@@ -68,6 +73,9 @@ Object.defineProperty(exports, 'dataNiosCloudAwsRoute53TaskGroup', { get: functi
 Object.defineProperty(exports, 'dataNiosCloudAwsUser', { get: function () { return require('./data-nios-cloud-aws-user'); } });
 Object.defineProperty(exports, 'dataNiosDhcpFixedAddress', { get: function () { return require('./data-nios-dhcp-fixed-address'); } });
 Object.defineProperty(exports, 'dataNiosDhcpIpv6RangeTemplate', { get: function () { return require('./data-nios-dhcp-ipv6-range-template'); } });
+Object.defineProperty(exports, 'dataNiosDhcpIpv6Fixedaddresstemplate', { get: function () { return require('./data-nios-dhcp-ipv6fixedaddresstemplate'); } });
+Object.defineProperty(exports, 'dataNiosDhcpIpv6Optiondefinition', { get: function () { return require('./data-nios-dhcp-ipv6optiondefinition'); } });
+Object.defineProperty(exports, 'dataNiosDhcpIpv6Optionspace', { get: function () { return require('./data-nios-dhcp-ipv6optionspace'); } });
 Object.defineProperty(exports, 'dataNiosDhcpRange', { get: function () { return require('./data-nios-dhcp-range'); } });
 Object.defineProperty(exports, 'dataNiosDhcpRangeTemplate', { get: function () { return require('./data-nios-dhcp-range-template'); } });
 Object.defineProperty(exports, 'dataNiosDhcpSharedNetwork', { get: function () { return require('./data-nios-dhcp-shared-network'); } });
@@ -92,6 +100,8 @@ Object.defineProperty(exports, 'dataNiosDnsRecordSrv', { get: function () { retu
 Object.defineProperty(exports, 'dataNiosDnsRecordTlsa', { get: function () { return require('./data-nios-dns-record-tlsa'); } });
 Object.defineProperty(exports, 'dataNiosDnsRecordTxt', { get: function () { return require('./data-nios-dns-record-txt'); } });
 Object.defineProperty(exports, 'dataNiosDnsRecordUnknown', { get: function () { return require('./data-nios-dns-record-unknown'); } });
+Object.defineProperty(exports, 'dataNiosDnsSharedrecordTxt', { get: function () { return require('./data-nios-dns-sharedrecord-txt'); } });
+Object.defineProperty(exports, 'dataNiosDnsSharedrecordgroup', { get: function () { return require('./data-nios-dns-sharedrecordgroup'); } });
 Object.defineProperty(exports, 'dataNiosDnsView', { get: function () { return require('./data-nios-dns-view'); } });
 Object.defineProperty(exports, 'dataNiosDnsZoneAuth', { get: function () { return require('./data-nios-dns-zone-auth'); } });
 Object.defineProperty(exports, 'dataNiosDnsZoneDelegated', { get: function () { return require('./data-nios-dns-zone-delegated'); } });

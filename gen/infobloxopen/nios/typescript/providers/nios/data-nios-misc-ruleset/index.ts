@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosMiscRulesetConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#filters DataNiosMiscRuleset#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#filters DataNiosMiscRuleset#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#max_results DataNiosMiscRuleset#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#max_results DataNiosMiscRuleset#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#paging DataNiosMiscRuleset#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#paging DataNiosMiscRuleset#paging}
   */
   readonly paging?: number;
 }
@@ -30,13 +30,13 @@ export interface DataNiosMiscRulesetResultNxdomainRules {
   /**
   * The action to perform when a domain name matches the pattern defined in this Ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#action DataNiosMiscRuleset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#action DataNiosMiscRuleset#action}
   */
   readonly action?: string;
   /**
   * The pattern that is used to match the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#pattern DataNiosMiscRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#pattern DataNiosMiscRuleset#pattern}
   */
   readonly pattern?: string;
 }
@@ -183,31 +183,31 @@ export interface DataNiosMiscRulesetResult {
   /**
   * Descriptive comment about the Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#comment DataNiosMiscRuleset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#comment DataNiosMiscRuleset#comment}
   */
   readonly comment?: string;
   /**
   * The flag that indicates if the Ruleset object is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#disabled DataNiosMiscRuleset#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#disabled DataNiosMiscRuleset#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#name DataNiosMiscRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#name DataNiosMiscRuleset#name}
   */
   readonly name: string;
   /**
   * The list of Rules assigned to this Ruleset object. Rules can be set only when the Ruleset type is set to "NXDOMAIN".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#nxdomain_rules DataNiosMiscRuleset#nxdomain_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#nxdomain_rules DataNiosMiscRuleset#nxdomain_rules}
   */
   readonly nxdomainRules?: DataNiosMiscRulesetResultNxdomainRules[] | cdktf.IResolvable;
   /**
   * The type of this Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#type DataNiosMiscRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#type DataNiosMiscRuleset#type}
   */
   readonly type: string;
 }
@@ -428,7 +428,7 @@ export class DataNiosMiscRulesetResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset nios_misc_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset nios_misc_ruleset}
 */
 export class DataNiosMiscRuleset extends cdktf.TerraformDataSource {
 
@@ -444,7 +444,7 @@ export class DataNiosMiscRuleset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosMiscRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosMiscRuleset to import
-  * @param importFromId The id of the existing DataNiosMiscRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosMiscRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosMiscRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -456,7 +456,7 @@ export class DataNiosMiscRuleset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/misc_ruleset nios_misc_ruleset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/misc_ruleset nios_misc_ruleset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -467,8 +467,8 @@ export class DataNiosMiscRuleset extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_misc_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

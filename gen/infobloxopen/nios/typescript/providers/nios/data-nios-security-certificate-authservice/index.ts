@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosSecurityCertificateAuthserviceConfig extends cdktf.Terr
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#filters DataNiosSecurityCertificateAuthservice#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#filters DataNiosSecurityCertificateAuthservice#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#max_results DataNiosSecurityCertificateAuthservice#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#max_results DataNiosSecurityCertificateAuthservice#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#paging DataNiosSecurityCertificateAuthservice#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#paging DataNiosSecurityCertificateAuthservice#paging}
   */
   readonly paging?: number;
 }
@@ -30,31 +30,31 @@ export interface DataNiosSecurityCertificateAuthserviceResultOcspResponders {
   /**
   * The file path to the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#certificate_file_path DataNiosSecurityCertificateAuthservice#certificate_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#certificate_file_path DataNiosSecurityCertificateAuthservice#certificate_file_path}
   */
   readonly certificateFilePath: string;
   /**
   * The descriptive comment for the OCSP authentication responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#comment DataNiosSecurityCertificateAuthservice#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#comment DataNiosSecurityCertificateAuthservice#comment}
   */
   readonly comment?: string;
   /**
   * Determines if this OCSP authentication responder is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#disabled DataNiosSecurityCertificateAuthservice#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#disabled DataNiosSecurityCertificateAuthservice#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The FQDN (Fully Qualified Domain Name) or IP address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#fqdn_or_ip DataNiosSecurityCertificateAuthservice#fqdn_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#fqdn_or_ip DataNiosSecurityCertificateAuthservice#fqdn_or_ip}
   */
   readonly fqdnOrIp: string;
   /**
   * The port used for connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#port DataNiosSecurityCertificateAuthservice#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#port DataNiosSecurityCertificateAuthservice#port}
   */
   readonly port?: number;
 }
@@ -292,103 +292,103 @@ export interface DataNiosSecurityCertificateAuthserviceResult {
   /**
   * Specifies the value of the client certificate for automatically populating the NIOS login name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#auto_populate_login DataNiosSecurityCertificateAuthservice#auto_populate_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#auto_populate_login DataNiosSecurityCertificateAuthservice#auto_populate_login}
   */
   readonly autoPopulateLogin?: string;
   /**
   * The list of CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#ca_certificates DataNiosSecurityCertificateAuthservice#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#ca_certificates DataNiosSecurityCertificateAuthservice#ca_certificates}
   */
   readonly caCertificates: string[];
   /**
   * The descriptive comment for the certificate authentication service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#comment DataNiosSecurityCertificateAuthservice#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#comment DataNiosSecurityCertificateAuthservice#comment}
   */
   readonly comment?: string;
   /**
   * Determines if this certificate authentication service is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#disabled DataNiosSecurityCertificateAuthservice#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#disabled DataNiosSecurityCertificateAuthservice#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Determines if username/password authentication together with client certificate authentication is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#enable_password_request DataNiosSecurityCertificateAuthservice#enable_password_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#enable_password_request DataNiosSecurityCertificateAuthservice#enable_password_request}
   */
   readonly enablePasswordRequest?: boolean | cdktf.IResolvable;
   /**
   * Determines if the lookup for user group membership information on remote services is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#enable_remote_lookup DataNiosSecurityCertificateAuthservice#enable_remote_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#enable_remote_lookup DataNiosSecurityCertificateAuthservice#enable_remote_lookup}
   */
   readonly enableRemoteLookup?: boolean | cdktf.IResolvable;
   /**
   * The number of validation attempts before the appliance contacts the next responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#max_retries DataNiosSecurityCertificateAuthservice#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#max_retries DataNiosSecurityCertificateAuthservice#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The name of the certificate authentication service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#name DataNiosSecurityCertificateAuthservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#name DataNiosSecurityCertificateAuthservice#name}
   */
   readonly name: string;
   /**
   * Specifies the source of OCSP settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#ocsp_check DataNiosSecurityCertificateAuthservice#ocsp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#ocsp_check DataNiosSecurityCertificateAuthservice#ocsp_check}
   */
   readonly ocspCheck?: string;
   /**
   * An ordered list of OCSP responders that are part of the certificate authentication service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#ocsp_responders DataNiosSecurityCertificateAuthservice#ocsp_responders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#ocsp_responders DataNiosSecurityCertificateAuthservice#ocsp_responders}
   */
   readonly ocspResponders?: DataNiosSecurityCertificateAuthserviceResultOcspResponders[] | cdktf.IResolvable;
   /**
   * The period of time the appliance waits before it attempts to contact a responder that is out of service again. The value must be between 1 and 600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#recovery_interval DataNiosSecurityCertificateAuthservice#recovery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#recovery_interval DataNiosSecurityCertificateAuthservice#recovery_interval}
   */
   readonly recoveryInterval?: number;
   /**
   * The password for the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#remote_lookup_password DataNiosSecurityCertificateAuthservice#remote_lookup_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#remote_lookup_password DataNiosSecurityCertificateAuthservice#remote_lookup_password}
   */
   readonly remoteLookupPassword?: string;
   /**
   * The password for the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#remote_lookup_service DataNiosSecurityCertificateAuthservice#remote_lookup_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#remote_lookup_service DataNiosSecurityCertificateAuthservice#remote_lookup_service}
   */
   readonly remoteLookupService?: string;
   /**
   * The username for the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#remote_lookup_username DataNiosSecurityCertificateAuthservice#remote_lookup_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#remote_lookup_username DataNiosSecurityCertificateAuthservice#remote_lookup_username}
   */
   readonly remoteLookupUsername?: string;
   /**
   * The validation timeout period in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#response_timeout DataNiosSecurityCertificateAuthservice#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#response_timeout DataNiosSecurityCertificateAuthservice#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * The OCSP trust model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#trust_model DataNiosSecurityCertificateAuthservice#trust_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#trust_model DataNiosSecurityCertificateAuthservice#trust_model}
   */
   readonly trustModel?: string;
   /**
   * Specifies how to search for a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#user_match_type DataNiosSecurityCertificateAuthservice#user_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#user_match_type DataNiosSecurityCertificateAuthservice#user_match_type}
   */
   readonly userMatchType?: string;
 }
@@ -957,7 +957,7 @@ export class DataNiosSecurityCertificateAuthserviceResultList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice nios_security_certificate_authservice}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice nios_security_certificate_authservice}
 */
 export class DataNiosSecurityCertificateAuthservice extends cdktf.TerraformDataSource {
 
@@ -973,7 +973,7 @@ export class DataNiosSecurityCertificateAuthservice extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataNiosSecurityCertificateAuthservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosSecurityCertificateAuthservice to import
-  * @param importFromId The id of the existing DataNiosSecurityCertificateAuthservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosSecurityCertificateAuthservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosSecurityCertificateAuthservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -985,7 +985,7 @@ export class DataNiosSecurityCertificateAuthservice extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_certificate_authservice nios_security_certificate_authservice} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_certificate_authservice nios_security_certificate_authservice} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -996,8 +996,8 @@ export class DataNiosSecurityCertificateAuthservice extends cdktf.TerraformDataS
       terraformResourceType: 'nios_security_certificate_authservice',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

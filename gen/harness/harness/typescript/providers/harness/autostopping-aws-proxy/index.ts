@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,84 +10,84 @@ export interface AutostoppingAwsProxyConfig extends cdktf.TerraformMetaArguments
   /**
   * Boolean value to indicate if proxy vm needs to have static IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#allocate_static_ip AutostoppingAwsProxy#allocate_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#allocate_static_ip AutostoppingAwsProxy#allocate_static_ip}
   */
   readonly allocateStaticIp?: boolean | cdktf.IResolvable;
   /**
   * Harness NG API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#api_key AutostoppingAwsProxy#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#api_key AutostoppingAwsProxy#api_key}
   */
   readonly apiKey: string;
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#cloud_connector_id AutostoppingAwsProxy#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#cloud_connector_id AutostoppingAwsProxy#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Governs how the proxy entity will be deleted on Terraform destroy. When set to true, the associated VM will be deleted permanently from AWS account. Be fully aware of the consequneces of settting this to true, as the action is irreversible. When set to false, solely the Harness LB representation will be deleted, which leaves the proxy VM in AWS account itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#delete_cloud_resources_on_destroy AutostoppingAwsProxy#delete_cloud_resources_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#delete_cloud_resources_on_destroy AutostoppingAwsProxy#delete_cloud_resources_on_destroy}
   */
   readonly deleteCloudResourcesOnDestroy: boolean | cdktf.IResolvable;
   /**
   * Hostname for the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#host_name AutostoppingAwsProxy#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#host_name AutostoppingAwsProxy#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#id AutostoppingAwsProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#id AutostoppingAwsProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#keypair AutostoppingAwsProxy#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#keypair AutostoppingAwsProxy#keypair}
   */
   readonly keypair?: string;
   /**
   * Machine instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#machine_type AutostoppingAwsProxy#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#machine_type AutostoppingAwsProxy#machine_type}
   */
   readonly machineType: string;
   /**
   * Name of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#name AutostoppingAwsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#name AutostoppingAwsProxy#name}
   */
   readonly name: string;
   /**
   * Region in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#region AutostoppingAwsProxy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#region AutostoppingAwsProxy#region}
   */
   readonly region: string;
   /**
   * Route 53 hosted zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#route53_hosted_zone_id AutostoppingAwsProxy#route53_hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#route53_hosted_zone_id AutostoppingAwsProxy#route53_hosted_zone_id}
   */
   readonly route53HostedZoneId?: string;
   /**
   * Security Group to define the security rules that determine the inbound and outbound traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#security_groups AutostoppingAwsProxy#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#security_groups AutostoppingAwsProxy#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * VPC in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#vpc AutostoppingAwsProxy#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#vpc AutostoppingAwsProxy#vpc}
   */
   readonly vpc: string;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#certificates AutostoppingAwsProxy#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#certificates AutostoppingAwsProxy#certificates}
   */
   readonly certificates?: AutostoppingAwsProxyCertificates;
 }
@@ -95,13 +95,13 @@ export interface AutostoppingAwsProxyCertificates {
   /**
   * Certificate secret ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#cert_secret_id AutostoppingAwsProxy#cert_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#cert_secret_id AutostoppingAwsProxy#cert_secret_id}
   */
   readonly certSecretId: string;
   /**
   * Private key secret ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#key_secret_id AutostoppingAwsProxy#key_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#key_secret_id AutostoppingAwsProxy#key_secret_id}
   */
   readonly keySecretId: string;
 }
@@ -208,7 +208,7 @@ export class AutostoppingAwsProxyCertificatesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy harness_autostopping_aws_proxy}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy harness_autostopping_aws_proxy}
 */
 export class AutostoppingAwsProxy extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class AutostoppingAwsProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingAwsProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingAwsProxy to import
-  * @param importFromId The id of the existing AutostoppingAwsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingAwsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingAwsProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class AutostoppingAwsProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_aws_proxy harness_autostopping_aws_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_aws_proxy harness_autostopping_aws_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class AutostoppingAwsProxy extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_aws_proxy',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

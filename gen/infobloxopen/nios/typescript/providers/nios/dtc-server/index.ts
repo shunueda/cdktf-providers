@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DtcServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enabling this option will auto-create a single read-only A/AAAA/CNAME record corresponding to the configured hostname and update it if the hostname changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#auto_create_host_record DtcServer#auto_create_host_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#auto_create_host_record DtcServer#auto_create_host_record}
   */
   readonly autoCreateHostRecord?: boolean | cdktf.IResolvable;
   /**
   * Comment for the DTC Server; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#comment DtcServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#comment DtcServer#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether the DTC Server is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#disable DtcServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#disable DtcServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#extattrs DtcServer#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#extattrs DtcServer#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The address or FQDN of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#host DtcServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#host DtcServer#host}
   */
   readonly host: string;
   /**
   * List of IP/FQDN and monitor pairs to be used for additional monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#monitors DtcServer#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#monitors DtcServer#monitors}
   */
   readonly monitors?: DtcServerMonitors[] | cdktf.IResolvable;
   /**
   * The DTC Server display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#name DtcServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#name DtcServer#name}
   */
   readonly name: string;
   /**
   * The hostname for Server Name Indication (SNI) in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#sni_hostname DtcServer#sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#sni_hostname DtcServer#sni_hostname}
   */
   readonly sniHostname?: string;
   /**
   * Use flag for: sni_hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#use_sni_hostname DtcServer#use_sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#use_sni_hostname DtcServer#use_sni_hostname}
   */
   readonly useSniHostname?: boolean | cdktf.IResolvable;
 }
@@ -130,13 +130,13 @@ export interface DtcServerMonitors {
   /**
   * IP address or FQDN of the server used for monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#host DtcServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#host DtcServer#host}
   */
   readonly host: string;
   /**
   * The monitor related to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#monitor DtcServer#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#monitor DtcServer#monitor}
   */
   readonly monitor: string;
 }
@@ -275,7 +275,7 @@ export class DtcServerMonitorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server nios_dtc_server}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server nios_dtc_server}
 */
 export class DtcServer extends cdktf.TerraformResource {
 
@@ -291,7 +291,7 @@ export class DtcServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtcServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtcServer to import
-  * @param importFromId The id of the existing DtcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtcServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -303,7 +303,7 @@ export class DtcServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_server nios_dtc_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_server nios_dtc_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,8 +314,8 @@ export class DtcServer extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dtc_server',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

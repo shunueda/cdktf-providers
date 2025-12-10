@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface SecurityAdminUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The names of the Admin Groups to which this Admin User belongs. Currently, this is limited to only one Admin Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#admin_groups SecurityAdminUser#admin_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#admin_groups SecurityAdminUser#admin_groups}
   */
   readonly adminGroups: string[];
   /**
   * Determines the way of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#auth_method SecurityAdminUser#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#auth_method SecurityAdminUser#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The authentication type for the admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#auth_type SecurityAdminUser#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#auth_type SecurityAdminUser#auth_type}
   */
   readonly authType?: string;
   /**
   * The CA certificate that is used for user lookup during authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#ca_certificate_issuer SecurityAdminUser#ca_certificate_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#ca_certificate_issuer SecurityAdminUser#ca_certificate_issuer}
   */
   readonly caCertificateIssuer?: string;
   /**
   * The serial number of the client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#client_certificate_serial_number SecurityAdminUser#client_certificate_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#client_certificate_serial_number SecurityAdminUser#client_certificate_serial_number}
   */
   readonly clientCertificateSerialNumber?: string;
   /**
   * Comment for the admin user; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#comment SecurityAdminUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#comment SecurityAdminUser#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether the admin user is disabled or not. When this is set to False, the admin user is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#disable SecurityAdminUser#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#disable SecurityAdminUser#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The e-mail address for the admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#email SecurityAdminUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#email SecurityAdminUser#email}
   */
   readonly email?: string;
   /**
   * Determines whether the user is allowed to log in only with the certificate. Regular username/password authentication will be disabled for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#enable_certificate_authentication SecurityAdminUser#enable_certificate_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#enable_certificate_authentication SecurityAdminUser#enable_certificate_authentication}
   */
   readonly enableCertificateAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#extattrs SecurityAdminUser#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#extattrs SecurityAdminUser#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#name SecurityAdminUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#name SecurityAdminUser#name}
   */
   readonly name: string;
   /**
   * The password for the administrator to use when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#password SecurityAdminUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#password SecurityAdminUser#password}
   */
   readonly password: string;
   /**
   * List of ssh keys for a particular user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#ssh_keys SecurityAdminUser#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#ssh_keys SecurityAdminUser#ssh_keys}
   */
   readonly sshKeys?: SecurityAdminUserSshKeys[] | cdktf.IResolvable;
   /**
   * The time zone for this admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#time_zone SecurityAdminUser#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#time_zone SecurityAdminUser#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Enable/disable the ssh keypair authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#use_ssh_keys SecurityAdminUser#use_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#use_ssh_keys SecurityAdminUser#use_ssh_keys}
   */
   readonly useSshKeys?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: time_zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#use_time_zone SecurityAdminUser#use_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#use_time_zone SecurityAdminUser#use_time_zone}
   */
   readonly useTimeZone?: boolean | cdktf.IResolvable;
 }
@@ -108,19 +108,19 @@ export interface SecurityAdminUserSshKeys {
   /**
   * Unique identifier for the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#key_name SecurityAdminUser#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#key_name SecurityAdminUser#key_name}
   */
   readonly keyName?: string;
   /**
   * ssh_key_types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#key_type SecurityAdminUser#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#key_type SecurityAdminUser#key_type}
   */
   readonly keyType?: string;
   /**
   * ssh key text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#key_value SecurityAdminUser#key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#key_value SecurityAdminUser#key_value}
   */
   readonly keyValue?: string;
 }
@@ -294,7 +294,7 @@ export class SecurityAdminUserSshKeysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user nios_security_admin_user}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user nios_security_admin_user}
 */
 export class SecurityAdminUser extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class SecurityAdminUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityAdminUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityAdminUser to import
-  * @param importFromId The id of the existing SecurityAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityAdminUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class SecurityAdminUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/security_admin_user nios_security_admin_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/security_admin_user nios_security_admin_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class SecurityAdminUser extends cdktf.TerraformResource {
       terraformResourceType: 'nios_security_admin_user',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

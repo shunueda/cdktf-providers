@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ElasticsearchSecurityRoleConfig extends cdktf.TerraformMetaArgu
   /**
   * A list of cluster privileges. These privileges define the cluster level actions that users with this role are able to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#cluster ElasticsearchSecurityRole#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#cluster ElasticsearchSecurityRole#cluster}
   */
   readonly cluster?: string[];
   /**
   * The description of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#description ElasticsearchSecurityRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#description ElasticsearchSecurityRole#description}
   */
   readonly description?: string;
   /**
   * An object defining global privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#global ElasticsearchSecurityRole#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#global ElasticsearchSecurityRole#global}
   */
   readonly global?: string;
   /**
   * Optional meta-data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#metadata ElasticsearchSecurityRole#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#metadata ElasticsearchSecurityRole#metadata}
   */
   readonly metadata?: string;
   /**
   * The name of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#name ElasticsearchSecurityRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#name ElasticsearchSecurityRole#name}
   */
   readonly name: string;
   /**
   * A list of users that the owners of this role can impersonate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#run_as ElasticsearchSecurityRole#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#run_as ElasticsearchSecurityRole#run_as}
   */
   readonly runAs?: string[];
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#applications ElasticsearchSecurityRole#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#applications ElasticsearchSecurityRole#applications}
   */
   readonly applications?: ElasticsearchSecurityRoleApplications[] | cdktf.IResolvable;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#elasticsearch_connection ElasticsearchSecurityRole#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#elasticsearch_connection ElasticsearchSecurityRole#elasticsearch_connection}
   */
-  readonly elasticsearchConnection?: ElasticsearchSecurityRoleElasticsearchConnection;
+  readonly elasticsearchConnection?: ElasticsearchSecurityRoleElasticsearchConnection[] | cdktf.IResolvable;
   /**
   * indices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#indices ElasticsearchSecurityRole#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#indices ElasticsearchSecurityRole#indices}
   */
   readonly indices?: ElasticsearchSecurityRoleIndices[] | cdktf.IResolvable;
   /**
   * remote_indices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#remote_indices ElasticsearchSecurityRole#remote_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#remote_indices ElasticsearchSecurityRole#remote_indices}
   */
   readonly remoteIndices?: ElasticsearchSecurityRoleRemoteIndices[] | cdktf.IResolvable;
 }
@@ -72,19 +72,19 @@ export interface ElasticsearchSecurityRoleApplications {
   /**
   * The name of the application to which this entry applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#application ElasticsearchSecurityRole#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#application ElasticsearchSecurityRole#application}
   */
   readonly application: string;
   /**
   * A list of strings, where each element is the name of an application privilege or action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
   */
   readonly privileges: string[];
   /**
   * A list resources to which the privileges are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#resources ElasticsearchSecurityRole#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#resources ElasticsearchSecurityRole#resources}
   */
   readonly resources: string[];
 }
@@ -251,90 +251,90 @@ export interface ElasticsearchSecurityRoleElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#api_key ElasticsearchSecurityRole#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#api_key ElasticsearchSecurityRole#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#bearer_token ElasticsearchSecurityRole#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#bearer_token ElasticsearchSecurityRole#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#ca_data ElasticsearchSecurityRole#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#ca_data ElasticsearchSecurityRole#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#ca_file ElasticsearchSecurityRole#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#ca_file ElasticsearchSecurityRole#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#cert_data ElasticsearchSecurityRole#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#cert_data ElasticsearchSecurityRole#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#cert_file ElasticsearchSecurityRole#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#cert_file ElasticsearchSecurityRole#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#endpoints ElasticsearchSecurityRole#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#endpoints ElasticsearchSecurityRole#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#es_client_authentication ElasticsearchSecurityRole#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#es_client_authentication ElasticsearchSecurityRole#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#headers ElasticsearchSecurityRole#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#headers ElasticsearchSecurityRole#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#insecure ElasticsearchSecurityRole#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#insecure ElasticsearchSecurityRole#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#key_data ElasticsearchSecurityRole#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#key_data ElasticsearchSecurityRole#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#key_file ElasticsearchSecurityRole#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#key_file ElasticsearchSecurityRole#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#password ElasticsearchSecurityRole#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#password ElasticsearchSecurityRole#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#username ElasticsearchSecurityRole#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#username ElasticsearchSecurityRole#username}
   */
   readonly username?: string;
 }
 
-export function elasticsearchSecurityRoleElasticsearchConnectionToTerraform(struct?: ElasticsearchSecurityRoleElasticsearchConnectionOutputReference | ElasticsearchSecurityRoleElasticsearchConnection): any {
+export function elasticsearchSecurityRoleElasticsearchConnectionToTerraform(struct?: ElasticsearchSecurityRoleElasticsearchConnection | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -358,7 +358,7 @@ export function elasticsearchSecurityRoleElasticsearchConnectionToTerraform(stru
 }
 
 
-export function elasticsearchSecurityRoleElasticsearchConnectionToHclTerraform(struct?: ElasticsearchSecurityRoleElasticsearchConnectionOutputReference | ElasticsearchSecurityRoleElasticsearchConnection): any {
+export function elasticsearchSecurityRoleElasticsearchConnectionToHclTerraform(struct?: ElasticsearchSecurityRoleElasticsearchConnection | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -456,16 +456,22 @@ export function elasticsearchSecurityRoleElasticsearchConnectionToHclTerraform(s
 
 export class ElasticsearchSecurityRoleElasticsearchConnectionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ElasticsearchSecurityRoleElasticsearchConnection | undefined {
+  public get internalValue(): ElasticsearchSecurityRoleElasticsearchConnection | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._apiKey !== undefined) {
@@ -527,9 +533,10 @@ export class ElasticsearchSecurityRoleElasticsearchConnectionOutputReference ext
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ElasticsearchSecurityRoleElasticsearchConnection | undefined) {
+  public set internalValue(value: ElasticsearchSecurityRoleElasticsearchConnection | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._apiKey = undefined;
       this._bearerToken = undefined;
       this._caData = undefined;
@@ -545,8 +552,13 @@ export class ElasticsearchSecurityRoleElasticsearchConnectionOutputReference ext
       this._password = undefined;
       this._username = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._apiKey = value.apiKey;
       this._bearerToken = value.bearerToken;
       this._caData = value.caData;
@@ -788,22 +800,42 @@ export class ElasticsearchSecurityRoleElasticsearchConnectionOutputReference ext
     return this._username;
   }
 }
+
+export class ElasticsearchSecurityRoleElasticsearchConnectionList extends cdktf.ComplexList {
+  public internalValue? : ElasticsearchSecurityRoleElasticsearchConnection[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElasticsearchSecurityRoleElasticsearchConnectionOutputReference {
+    return new ElasticsearchSecurityRoleElasticsearchConnectionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElasticsearchSecurityRoleIndicesFieldSecurity {
   /**
   * List of the fields to which the grants will not be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#except ElasticsearchSecurityRole#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#except ElasticsearchSecurityRole#except}
   */
   readonly except?: string[];
   /**
   * List of the fields to grant the access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#grant ElasticsearchSecurityRole#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#grant ElasticsearchSecurityRole#grant}
   */
   readonly grant?: string[];
 }
 
-export function elasticsearchSecurityRoleIndicesFieldSecurityToTerraform(struct?: ElasticsearchSecurityRoleIndicesFieldSecurityOutputReference | ElasticsearchSecurityRoleIndicesFieldSecurity): any {
+export function elasticsearchSecurityRoleIndicesFieldSecurityToTerraform(struct?: ElasticsearchSecurityRoleIndicesFieldSecurity | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -815,7 +847,7 @@ export function elasticsearchSecurityRoleIndicesFieldSecurityToTerraform(struct?
 }
 
 
-export function elasticsearchSecurityRoleIndicesFieldSecurityToHclTerraform(struct?: ElasticsearchSecurityRoleIndicesFieldSecurityOutputReference | ElasticsearchSecurityRoleIndicesFieldSecurity): any {
+export function elasticsearchSecurityRoleIndicesFieldSecurityToHclTerraform(struct?: ElasticsearchSecurityRoleIndicesFieldSecurity | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -841,16 +873,20 @@ export function elasticsearchSecurityRoleIndicesFieldSecurityToHclTerraform(stru
 
 export class ElasticsearchSecurityRoleIndicesFieldSecurityOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ElasticsearchSecurityRoleIndicesFieldSecurity | undefined {
+  public get internalValue(): ElasticsearchSecurityRoleIndicesFieldSecurity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._except !== undefined) {
@@ -864,20 +900,26 @@ export class ElasticsearchSecurityRoleIndicesFieldSecurityOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ElasticsearchSecurityRoleIndicesFieldSecurity | undefined) {
+  public set internalValue(value: ElasticsearchSecurityRoleIndicesFieldSecurity | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._except = undefined;
       this._grant = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._except = value.except;
       this._grant = value.grant;
     }
   }
 
-  // except - computed: false, optional: true, required: false
+  // except - computed: true, optional: true, required: false
   private _except?: string[]; 
   public get except() {
     return cdktf.Fn.tolist(this.getListAttribute('except'));
@@ -913,31 +955,31 @@ export interface ElasticsearchSecurityRoleIndices {
   /**
   * Include matching restricted indices in names parameter. Usage is strongly discouraged as it can grant unrestricted operations on critical data, make the entire system unstable or leak sensitive information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#allow_restricted_indices ElasticsearchSecurityRole#allow_restricted_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#allow_restricted_indices ElasticsearchSecurityRole#allow_restricted_indices}
   */
   readonly allowRestrictedIndices?: boolean | cdktf.IResolvable;
   /**
   * A list of indices (or index name patterns) to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#names ElasticsearchSecurityRole#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#names ElasticsearchSecurityRole#names}
   */
   readonly names: string[];
   /**
   * The index level privileges that the owners of the role have on the specified indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
   */
   readonly privileges: string[];
   /**
   * A search query that defines the documents the owners of the role have read access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#query ElasticsearchSecurityRole#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#query ElasticsearchSecurityRole#query}
   */
   readonly query?: string;
   /**
   * field_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#field_security ElasticsearchSecurityRole#field_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#field_security ElasticsearchSecurityRole#field_security}
   */
   readonly fieldSecurity?: ElasticsearchSecurityRoleIndicesFieldSecurity;
 }
@@ -990,8 +1032,8 @@ export function elasticsearchSecurityRoleIndicesToHclTerraform(struct?: Elastics
     field_security: {
       value: elasticsearchSecurityRoleIndicesFieldSecurityToHclTerraform(struct!.fieldSecurity),
       isBlock: true,
-      type: "list",
-      storageClassType: "ElasticsearchSecurityRoleIndicesFieldSecurityList",
+      type: "struct",
+      storageClassType: "ElasticsearchSecurityRoleIndicesFieldSecurity",
     },
   };
 
@@ -1067,7 +1109,7 @@ export class ElasticsearchSecurityRoleIndicesOutputReference extends cdktf.Compl
     }
   }
 
-  // allow_restricted_indices - computed: false, optional: true, required: false
+  // allow_restricted_indices - computed: true, optional: true, required: false
   private _allowRestrictedIndices?: boolean | cdktf.IResolvable; 
   public get allowRestrictedIndices() {
     return this.getBooleanAttribute('allow_restricted_indices');
@@ -1165,18 +1207,18 @@ export interface ElasticsearchSecurityRoleRemoteIndicesFieldSecurity {
   /**
   * List of the fields to which the grants will not be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#except ElasticsearchSecurityRole#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#except ElasticsearchSecurityRole#except}
   */
   readonly except?: string[];
   /**
   * List of the fields to grant the access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#grant ElasticsearchSecurityRole#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#grant ElasticsearchSecurityRole#grant}
   */
   readonly grant?: string[];
 }
 
-export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToTerraform(struct?: ElasticsearchSecurityRoleRemoteIndicesFieldSecurityOutputReference | ElasticsearchSecurityRoleRemoteIndicesFieldSecurity): any {
+export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToTerraform(struct?: ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1188,7 +1230,7 @@ export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToTerraform(s
 }
 
 
-export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToHclTerraform(struct?: ElasticsearchSecurityRoleRemoteIndicesFieldSecurityOutputReference | ElasticsearchSecurityRoleRemoteIndicesFieldSecurity): any {
+export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToHclTerraform(struct?: ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1214,16 +1256,20 @@ export function elasticsearchSecurityRoleRemoteIndicesFieldSecurityToHclTerrafor
 
 export class ElasticsearchSecurityRoleRemoteIndicesFieldSecurityOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | undefined {
+  public get internalValue(): ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._except !== undefined) {
@@ -1237,20 +1283,26 @@ export class ElasticsearchSecurityRoleRemoteIndicesFieldSecurityOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | undefined) {
+  public set internalValue(value: ElasticsearchSecurityRoleRemoteIndicesFieldSecurity | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._except = undefined;
       this._grant = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._except = value.except;
       this._grant = value.grant;
     }
   }
 
-  // except - computed: false, optional: true, required: false
+  // except - computed: true, optional: true, required: false
   private _except?: string[]; 
   public get except() {
     return cdktf.Fn.tolist(this.getListAttribute('except'));
@@ -1286,31 +1338,31 @@ export interface ElasticsearchSecurityRoleRemoteIndices {
   /**
   * A list of cluster aliases to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#clusters ElasticsearchSecurityRole#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#clusters ElasticsearchSecurityRole#clusters}
   */
   readonly clusters: string[];
   /**
   * A list of indices (or index name patterns) to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#names ElasticsearchSecurityRole#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#names ElasticsearchSecurityRole#names}
   */
   readonly names: string[];
   /**
   * The index level privileges that the owners of the role have on the specified indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#privileges ElasticsearchSecurityRole#privileges}
   */
   readonly privileges: string[];
   /**
   * A search query that defines the documents the owners of the role have read access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#query ElasticsearchSecurityRole#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#query ElasticsearchSecurityRole#query}
   */
   readonly query?: string;
   /**
   * field_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#field_security ElasticsearchSecurityRole#field_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#field_security ElasticsearchSecurityRole#field_security}
   */
   readonly fieldSecurity?: ElasticsearchSecurityRoleRemoteIndicesFieldSecurity;
 }
@@ -1363,8 +1415,8 @@ export function elasticsearchSecurityRoleRemoteIndicesToHclTerraform(struct?: El
     field_security: {
       value: elasticsearchSecurityRoleRemoteIndicesFieldSecurityToHclTerraform(struct!.fieldSecurity),
       isBlock: true,
-      type: "list",
-      storageClassType: "ElasticsearchSecurityRoleRemoteIndicesFieldSecurityList",
+      type: "struct",
+      storageClassType: "ElasticsearchSecurityRoleRemoteIndicesFieldSecurity",
     },
   };
 
@@ -1533,7 +1585,7 @@ export class ElasticsearchSecurityRoleRemoteIndicesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role elasticstack_elasticsearch_security_role}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role elasticstack_elasticsearch_security_role}
 */
 export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
 
@@ -1549,7 +1601,7 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchSecurityRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchSecurityRole to import
-  * @param importFromId The id of the existing ElasticsearchSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchSecurityRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1561,7 +1613,7 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_security_role elasticstack_elasticsearch_security_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_role elasticstack_elasticsearch_security_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1572,8 +1624,8 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_security_role',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1714,11 +1766,11 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
   }
 
   // elasticsearch_connection - computed: false, optional: true, required: false
-  private _elasticsearchConnection = new ElasticsearchSecurityRoleElasticsearchConnectionOutputReference(this, "elasticsearch_connection");
+  private _elasticsearchConnection = new ElasticsearchSecurityRoleElasticsearchConnectionList(this, "elasticsearch_connection", false);
   public get elasticsearchConnection() {
     return this._elasticsearchConnection;
   }
-  public putElasticsearchConnection(value: ElasticsearchSecurityRoleElasticsearchConnection) {
+  public putElasticsearchConnection(value: ElasticsearchSecurityRoleElasticsearchConnection[] | cdktf.IResolvable) {
     this._elasticsearchConnection.internalValue = value;
   }
   public resetElasticsearchConnection() {
@@ -1774,7 +1826,7 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       run_as: cdktf.listMapper(cdktf.stringToTerraform, false)(this._runAs),
       applications: cdktf.listMapper(elasticsearchSecurityRoleApplicationsToTerraform, true)(this._applications.internalValue),
-      elasticsearch_connection: elasticsearchSecurityRoleElasticsearchConnectionToTerraform(this._elasticsearchConnection.internalValue),
+      elasticsearch_connection: cdktf.listMapper(elasticsearchSecurityRoleElasticsearchConnectionToTerraform, true)(this._elasticsearchConnection.internalValue),
       indices: cdktf.listMapper(elasticsearchSecurityRoleIndicesToTerraform, true)(this._indices.internalValue),
       remote_indices: cdktf.listMapper(elasticsearchSecurityRoleRemoteIndicesToTerraform, true)(this._remoteIndices.internalValue),
     };
@@ -1825,7 +1877,7 @@ export class ElasticsearchSecurityRole extends cdktf.TerraformResource {
         storageClassType: "ElasticsearchSecurityRoleApplicationsList",
       },
       elasticsearch_connection: {
-        value: elasticsearchSecurityRoleElasticsearchConnectionToHclTerraform(this._elasticsearchConnection.internalValue),
+        value: cdktf.listMapperHcl(elasticsearchSecurityRoleElasticsearchConnectionToHclTerraform, true)(this._elasticsearchConnection.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ElasticsearchSecurityRoleElasticsearchConnectionList",

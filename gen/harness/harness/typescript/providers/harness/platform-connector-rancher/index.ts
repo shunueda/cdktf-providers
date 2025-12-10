@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorRancherConfig extends cdktf.TerraformMetaArgum
   /**
   * Selectors to use for the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#delegate_selectors PlatformConnectorRancher#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#delegate_selectors PlatformConnectorRancher#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#description PlatformConnectorRancher#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#description PlatformConnectorRancher#description}
   */
   readonly description?: string;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#force_delete PlatformConnectorRancher#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#force_delete PlatformConnectorRancher#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#id PlatformConnectorRancher#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#id PlatformConnectorRancher#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface PlatformConnectorRancherConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#identifier PlatformConnectorRancher#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#identifier PlatformConnectorRancher#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#name PlatformConnectorRancher#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#name PlatformConnectorRancher#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#org_id PlatformConnectorRancher#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#org_id PlatformConnectorRancher#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#project_id PlatformConnectorRancher#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#project_id PlatformConnectorRancher#project_id}
   */
   readonly projectId?: string;
   /**
   * The URL of the Rancher cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#rancher_url PlatformConnectorRancher#rancher_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#rancher_url PlatformConnectorRancher#rancher_url}
   */
   readonly rancherUrl: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#tags PlatformConnectorRancher#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#tags PlatformConnectorRancher#tags}
   */
   readonly tags?: string[];
   /**
   * bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#bearer_token PlatformConnectorRancher#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#bearer_token PlatformConnectorRancher#bearer_token}
   */
   readonly bearerToken?: PlatformConnectorRancherBearerToken;
 }
@@ -79,7 +79,7 @@ export interface PlatformConnectorRancherBearerToken {
   /**
   * Reference to the secret containing the bearer token for the rancher cluster. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#bearer_token_ref PlatformConnectorRancher#bearer_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#bearer_token_ref PlatformConnectorRancher#bearer_token_ref}
   */
   readonly bearerTokenRef: string;
 }
@@ -160,7 +160,7 @@ export class PlatformConnectorRancherBearerTokenOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher harness_platform_connector_rancher}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher harness_platform_connector_rancher}
 */
 export class PlatformConnectorRancher extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class PlatformConnectorRancher extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorRancher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorRancher to import
-  * @param importFromId The id of the existing PlatformConnectorRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorRancher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class PlatformConnectorRancher extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_rancher harness_platform_connector_rancher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_rancher harness_platform_connector_rancher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class PlatformConnectorRancher extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_rancher',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

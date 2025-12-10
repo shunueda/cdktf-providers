@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataJujuMachineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Juju id of the machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine#machine_id DataJujuMachine#machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine#machine_id DataJujuMachine#machine_id}
   */
   readonly machineId: string;
   /**
-  * The name of the model.
+  * The UUID of the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine#model DataJujuMachine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine#model_uuid DataJujuMachine#model_uuid}
   */
-  readonly model: string;
+  readonly modelUuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine juju_machine}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine juju_machine}
 */
 export class DataJujuMachine extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJujuMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJujuMachine to import
-  * @param importFromId The id of the existing DataJujuMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJujuMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJujuMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/machine juju_machine} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/machine juju_machine} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'juju_machine',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -73,7 +73,7 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._machineId = config.machineId;
-    this._model = config.model;
+    this._modelUuid = config.modelUuid;
   }
 
   // ==========
@@ -98,17 +98,17 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
     return this._machineId;
   }
 
-  // model - computed: false, optional: false, required: true
-  private _model?: string; 
-  public get model() {
-    return this.getStringAttribute('model');
+  // model_uuid - computed: false, optional: false, required: true
+  private _modelUuid?: string; 
+  public get modelUuid() {
+    return this.getStringAttribute('model_uuid');
   }
-  public set model(value: string) {
-    this._model = value;
+  public set modelUuid(value: string) {
+    this._modelUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelInput() {
-    return this._model;
+  public get modelUuidInput() {
+    return this._modelUuid;
   }
 
   // =========
@@ -118,7 +118,7 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       machine_id: cdktf.stringToTerraform(this._machineId),
-      model: cdktf.stringToTerraform(this._model),
+      model_uuid: cdktf.stringToTerraform(this._modelUuid),
     };
   }
 
@@ -130,8 +130,8 @@ export class DataJujuMachine extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "string",
       },
-      model: {
-        value: cdktf.stringToHclTerraform(this._model),
+      model_uuid: {
+        value: cdktf.stringToHclTerraform(this._modelUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

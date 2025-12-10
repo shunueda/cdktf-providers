@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface JaasAccessGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Level of access to grant. Changing this value will replace the Terraform resource. Valid access levels are described at https://canonical-jaas-documentation.readthedocs-hosted.com/latest/howto/manage-permissions/#add-a-permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#access JaasAccessGroup#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#access JaasAccessGroup#access}
   */
   readonly access: string;
   /**
   * The ID of the group for access management. If this is changed the resource will be deleted and a new resource will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#group_id JaasAccessGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#group_id JaasAccessGroup#group_id}
   */
   readonly groupId: string;
   /**
   * List of groups to grant access. A valid group ID is the group's UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#groups JaasAccessGroup#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#groups JaasAccessGroup#groups}
   */
   readonly groups?: string[];
   /**
   * List of service accounts to grant access. A valid service account is the service account's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#service_accounts JaasAccessGroup#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#service_accounts JaasAccessGroup#service_accounts}
   */
   readonly serviceAccounts?: string[];
   /**
   * List of users to grant access. A valid user is the user's name or email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#users JaasAccessGroup#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#users JaasAccessGroup#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group juju_jaas_access_group}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group juju_jaas_access_group}
 */
 export class JaasAccessGroup extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class JaasAccessGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JaasAccessGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JaasAccessGroup to import
-  * @param importFromId The id of the existing JaasAccessGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JaasAccessGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JaasAccessGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class JaasAccessGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_access_group juju_jaas_access_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_access_group juju_jaas_access_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class JaasAccessGroup extends cdktf.TerraformResource {
       terraformResourceType: 'juju_jaas_access_group',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

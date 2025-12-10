@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AclNamedaclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access control list of IPv4/IPv6 addresses, networks, TSIG-based anonymous access controls, and other named ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#access_list AclNamedacl#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#access_list AclNamedacl#access_list}
   */
   readonly accessList?: AclNamedaclAccessListStruct[] | cdktf.IResolvable;
   /**
   * Comment for the named ACL; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#comment AclNamedacl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#comment AclNamedacl#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#extattrs AclNamedacl#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#extattrs AclNamedacl#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the named ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#name AclNamedacl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#name AclNamedacl#name}
   */
   readonly name: string;
 }
@@ -36,37 +36,37 @@ export interface AclNamedaclAccessListStruct {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#address AclNamedacl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#address AclNamedacl#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#permission AclNamedacl#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#permission AclNamedacl#permission}
   */
   readonly permission?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#struct AclNamedacl#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#struct AclNamedacl#struct}
   */
   readonly struct: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#tsig_key AclNamedacl#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#tsig_key AclNamedacl#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#tsig_key_alg AclNamedacl#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#tsig_key_alg AclNamedacl#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#tsig_key_name AclNamedacl#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#tsig_key_name AclNamedacl#tsig_key_name}
   */
   readonly tsigKeyName?: string;
 }
@@ -434,7 +434,7 @@ export class AclNamedaclExplodedAccessListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl nios_acl_namedacl}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl nios_acl_namedacl}
 */
 export class AclNamedacl extends cdktf.TerraformResource {
 
@@ -450,7 +450,7 @@ export class AclNamedacl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AclNamedacl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AclNamedacl to import
-  * @param importFromId The id of the existing AclNamedacl that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AclNamedacl that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AclNamedacl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -462,7 +462,7 @@ export class AclNamedacl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/acl_namedacl nios_acl_namedacl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/acl_namedacl nios_acl_namedacl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,8 +473,8 @@ export class AclNamedacl extends cdktf.TerraformResource {
       terraformResourceType: 'nios_acl_namedacl',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

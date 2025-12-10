@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret#info Secret#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret#info Secret#info}
   */
   readonly info?: string;
   /**
   * The model in which the secret belongs. Changing this value will cause the secret to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret#model Secret#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret#model_uuid Secret#model_uuid}
   */
-  readonly model: string;
+  readonly modelUuid: string;
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret#name Secret#name}
   */
   readonly name?: string;
   /**
   * The value map of the secret. There can be more than one key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret#value Secret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret#value Secret#value}
   */
   readonly value: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret juju_secret}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret juju_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/secret juju_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/secret juju_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'juju_secret',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +85,7 @@ export class Secret extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._info = config.info;
-    this._model = config.model;
+    this._modelUuid = config.modelUuid;
     this._name = config.name;
     this._value = config.value;
   }
@@ -115,17 +115,17 @@ export class Secret extends cdktf.TerraformResource {
     return this._info;
   }
 
-  // model - computed: false, optional: false, required: true
-  private _model?: string; 
-  public get model() {
-    return this.getStringAttribute('model');
+  // model_uuid - computed: false, optional: false, required: true
+  private _modelUuid?: string; 
+  public get modelUuid() {
+    return this.getStringAttribute('model_uuid');
   }
-  public set model(value: string) {
-    this._model = value;
+  public set modelUuid(value: string) {
+    this._modelUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelInput() {
-    return this._model;
+  public get modelUuidInput() {
+    return this._modelUuid;
   }
 
   // name - computed: false, optional: true, required: false
@@ -174,7 +174,7 @@ export class Secret extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       info: cdktf.stringToTerraform(this._info),
-      model: cdktf.stringToTerraform(this._model),
+      model_uuid: cdktf.stringToTerraform(this._modelUuid),
       name: cdktf.stringToTerraform(this._name),
       value: cdktf.hashMapper(cdktf.stringToTerraform)(this._value),
     };
@@ -188,8 +188,8 @@ export class Secret extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      model: {
-        value: cdktf.stringToHclTerraform(this._model),
+      model_uuid: {
+        value: cdktf.stringToHclTerraform(this._modelUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformCcmFiltersConfig extends cdktf.TerraformMetaArguments {
   /**
   * This indicates visibility of filters, by default it is Everyone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#filter_visibility PlatformCcmFilters#filter_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#filter_visibility PlatformCcmFilters#filter_visibility}
   */
   readonly filterVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#id PlatformCcmFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#id PlatformCcmFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PlatformCcmFiltersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#identifier PlatformCcmFilters#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#identifier PlatformCcmFilters#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the ccm filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#name PlatformCcmFilters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#name PlatformCcmFilters#name}
   */
   readonly name: string;
   /**
   * Organization Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#org_id PlatformCcmFilters#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#org_id PlatformCcmFilters#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#project_id PlatformCcmFilters#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#project_id PlatformCcmFilters#project_id}
   */
   readonly projectId?: string;
   /**
   * Type of ccm filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#type PlatformCcmFilters#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#type PlatformCcmFilters#type}
   */
   readonly type: string;
   /**
   * filter_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#filter_properties PlatformCcmFilters#filter_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#filter_properties PlatformCcmFilters#filter_properties}
   */
   readonly filterProperties: PlatformCcmFiltersFilterProperties;
 }
@@ -61,13 +61,13 @@ export interface PlatformCcmFiltersFilterProperties {
   /**
   * Type of CCM filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#filter_type PlatformCcmFilters#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#filter_type PlatformCcmFilters#filter_type}
   */
   readonly filterType: string;
   /**
   * Tags to associate with the resource. Tags should be in the form `name:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#tags PlatformCcmFilters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#tags PlatformCcmFilters#tags}
   */
   readonly tags?: string[];
 }
@@ -177,7 +177,7 @@ export class PlatformCcmFiltersFilterPropertiesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters harness_platform_ccm_filters}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters harness_platform_ccm_filters}
 */
 export class PlatformCcmFilters extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class PlatformCcmFilters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformCcmFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformCcmFilters to import
-  * @param importFromId The id of the existing PlatformCcmFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformCcmFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformCcmFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class PlatformCcmFilters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ccm_filters harness_platform_ccm_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_ccm_filters harness_platform_ccm_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class PlatformCcmFilters extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_ccm_filters',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

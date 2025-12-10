@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosDnsRecordNsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#filters DataNiosDnsRecordNs#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#filters DataNiosDnsRecordNs#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#max_results DataNiosDnsRecordNs#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#max_results DataNiosDnsRecordNs#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#paging DataNiosDnsRecordNs#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#paging DataNiosDnsRecordNs#paging}
   */
   readonly paging?: number;
 }
@@ -30,13 +30,13 @@ export interface DataNiosDnsRecordNsResultAddresses {
   /**
   * The address of the Zone Name Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#address DataNiosDnsRecordNs#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#address DataNiosDnsRecordNs#address}
   */
   readonly address: string;
   /**
   * Flag to indicate if ptr records need to be auto created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#auto_create_ptr DataNiosDnsRecordNs#auto_create_ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#auto_create_ptr DataNiosDnsRecordNs#auto_create_ptr}
   */
   readonly autoCreatePtr?: boolean | cdktf.IResolvable;
 }
@@ -324,31 +324,31 @@ export interface DataNiosDnsRecordNsResult {
   /**
   * The list of zone name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#addresses DataNiosDnsRecordNs#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#addresses DataNiosDnsRecordNs#addresses}
   */
   readonly addresses: DataNiosDnsRecordNsResultAddresses[] | cdktf.IResolvable;
   /**
   * The MS delegation point name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#ms_delegation_name DataNiosDnsRecordNs#ms_delegation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#ms_delegation_name DataNiosDnsRecordNs#ms_delegation_name}
   */
   readonly msDelegationName?: string;
   /**
   * The name of the NS record in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#name DataNiosDnsRecordNs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#name DataNiosDnsRecordNs#name}
   */
   readonly name: string;
   /**
   * The domain name of an authoritative server for the redirected zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#nameserver DataNiosDnsRecordNs#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#nameserver DataNiosDnsRecordNs#nameserver}
   */
   readonly nameserver: string;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#view DataNiosDnsRecordNs#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#view DataNiosDnsRecordNs#view}
   */
   readonly view?: string;
 }
@@ -597,7 +597,7 @@ export class DataNiosDnsRecordNsResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns nios_dns_record_ns}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns nios_dns_record_ns}
 */
 export class DataNiosDnsRecordNs extends cdktf.TerraformDataSource {
 
@@ -613,7 +613,7 @@ export class DataNiosDnsRecordNs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsRecordNs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsRecordNs to import
-  * @param importFromId The id of the existing DataNiosDnsRecordNs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsRecordNs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsRecordNs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class DataNiosDnsRecordNs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_record_ns nios_dns_record_ns} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_record_ns nios_dns_record_ns} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class DataNiosDnsRecordNs extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_record_ns',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

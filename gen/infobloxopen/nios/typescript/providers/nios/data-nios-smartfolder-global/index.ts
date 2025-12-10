@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosSmartfolderGlobalConfig extends cdktf.TerraformMetaArgu
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#filters DataNiosSmartfolderGlobal#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#filters DataNiosSmartfolderGlobal#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#max_results DataNiosSmartfolderGlobal#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#max_results DataNiosSmartfolderGlobal#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#paging DataNiosSmartfolderGlobal#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#paging DataNiosSmartfolderGlobal#paging}
   */
   readonly paging?: number;
 }
@@ -30,19 +30,19 @@ export interface DataNiosSmartfolderGlobalResultGroupBys {
   /**
   * Determines whether the grouping is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#enable_grouping DataNiosSmartfolderGlobal#enable_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#enable_grouping DataNiosSmartfolderGlobal#enable_grouping}
   */
   readonly enableGrouping?: boolean | cdktf.IResolvable;
   /**
   * The name of the Smart Folder grouping attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value DataNiosSmartfolderGlobal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value DataNiosSmartfolderGlobal#value}
   */
   readonly value: string;
   /**
   * The type of the Smart Folder grouping attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_type DataNiosSmartfolderGlobal#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_type DataNiosSmartfolderGlobal#value_type}
   */
   readonly valueType?: string;
 }
@@ -215,25 +215,25 @@ export interface DataNiosSmartfolderGlobalResultQueryItemsValue {
   /**
   * The boolean value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_boolean DataNiosSmartfolderGlobal#value_boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_boolean DataNiosSmartfolderGlobal#value_boolean}
   */
   readonly valueBoolean?: boolean | cdktf.IResolvable;
   /**
   * The timestamp value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_date DataNiosSmartfolderGlobal#value_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_date DataNiosSmartfolderGlobal#value_date}
   */
   readonly valueDate?: string;
   /**
   * The integer value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_integer DataNiosSmartfolderGlobal#value_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_integer DataNiosSmartfolderGlobal#value_integer}
   */
   readonly valueInteger?: number;
   /**
   * The string value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_string DataNiosSmartfolderGlobal#value_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_string DataNiosSmartfolderGlobal#value_string}
   */
   readonly valueString?: string;
 }
@@ -416,37 +416,37 @@ export interface DataNiosSmartfolderGlobalResultQueryItems {
   /**
   * The Smart Folder query field type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#field_type DataNiosSmartfolderGlobal#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#field_type DataNiosSmartfolderGlobal#field_type}
   */
   readonly fieldType?: string;
   /**
   * The Smart Folder query name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#name DataNiosSmartfolderGlobal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#name DataNiosSmartfolderGlobal#name}
   */
   readonly name?: string;
   /**
   * Determines whether the query operator should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#op_match DataNiosSmartfolderGlobal#op_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#op_match DataNiosSmartfolderGlobal#op_match}
   */
   readonly opMatch?: boolean | cdktf.IResolvable;
   /**
   * The Smart Folder operator used in query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#operator DataNiosSmartfolderGlobal#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#operator DataNiosSmartfolderGlobal#operator}
   */
   readonly operator?: string;
   /**
   * The Smart Folder query value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value DataNiosSmartfolderGlobal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value DataNiosSmartfolderGlobal#value}
   */
   readonly value?: DataNiosSmartfolderGlobalResultQueryItemsValue;
   /**
   * The Smart Folder query value type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#value_type DataNiosSmartfolderGlobal#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#value_type DataNiosSmartfolderGlobal#value_type}
   */
   readonly valueType?: string;
 }
@@ -709,25 +709,25 @@ export interface DataNiosSmartfolderGlobalResult {
   /**
   * The global Smart Folder descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#comment DataNiosSmartfolderGlobal#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#comment DataNiosSmartfolderGlobal#comment}
   */
   readonly comment?: string;
   /**
   * Global Smart Folder grouping rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#group_bys DataNiosSmartfolderGlobal#group_bys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#group_bys DataNiosSmartfolderGlobal#group_bys}
   */
   readonly groupBys?: DataNiosSmartfolderGlobalResultGroupBys[] | cdktf.IResolvable;
   /**
   * The global Smart Folder name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#name DataNiosSmartfolderGlobal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#name DataNiosSmartfolderGlobal#name}
   */
   readonly name: string;
   /**
   * The global Smart Folder filter queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#query_items DataNiosSmartfolderGlobal#query_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#query_items DataNiosSmartfolderGlobal#query_items}
   */
   readonly queryItems?: DataNiosSmartfolderGlobalResultQueryItems[] | cdktf.IResolvable;
 }
@@ -922,7 +922,7 @@ export class DataNiosSmartfolderGlobalResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global nios_smartfolder_global}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global nios_smartfolder_global}
 */
 export class DataNiosSmartfolderGlobal extends cdktf.TerraformDataSource {
 
@@ -938,7 +938,7 @@ export class DataNiosSmartfolderGlobal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosSmartfolderGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosSmartfolderGlobal to import
-  * @param importFromId The id of the existing DataNiosSmartfolderGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosSmartfolderGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosSmartfolderGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -950,7 +950,7 @@ export class DataNiosSmartfolderGlobal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/smartfolder_global nios_smartfolder_global} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/smartfolder_global nios_smartfolder_global} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -961,8 +961,8 @@ export class DataNiosSmartfolderGlobal extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_smartfolder_global',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

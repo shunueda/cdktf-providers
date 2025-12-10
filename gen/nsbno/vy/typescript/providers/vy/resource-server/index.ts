@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server
+// https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ResourceServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identity of this resource server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#identifier ResourceServer#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#identifier ResourceServer#identifier}
   */
   readonly identifier: string;
   /**
   * The name of this resource server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#name ResourceServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#name ResourceServer#name}
   */
   readonly name: string;
   /**
   * Scopes for this resource server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#scopes ResourceServer#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#scopes ResourceServer#scopes}
   */
   readonly scopes?: ResourceServerScopes[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface ResourceServerScopes {
   /**
   * A description of what this scope is for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#description ResourceServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#description ResourceServer#description}
   */
   readonly description: string;
   /**
   * A name for this scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#name ResourceServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#name ResourceServer#name}
   */
   readonly name: string;
 }
@@ -175,7 +175,7 @@ export class ResourceServerScopesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server vy_resource_server}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server vy_resource_server}
 */
 export class ResourceServer extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class ResourceServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceServer to import
-  * @param importFromId The id of the existing ResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class ResourceServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/resource_server vy_resource_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/resource_server vy_resource_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class ResourceServer extends cdktf.TerraformResource {
       terraformResourceType: 'vy_resource_server',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

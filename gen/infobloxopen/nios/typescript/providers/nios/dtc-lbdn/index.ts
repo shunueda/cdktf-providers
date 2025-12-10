@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DtcLbdnConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of linked auth zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#auth_zones DtcLbdn#auth_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#auth_zones DtcLbdn#auth_zones}
   */
   readonly authZones?: string[];
   /**
   * Flag for enabling auto managing DTC Consolidated Monitors on related DTC Pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#auto_consolidated_monitors DtcLbdn#auto_consolidated_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#auto_consolidated_monitors DtcLbdn#auto_consolidated_monitors}
   */
   readonly autoConsolidatedMonitors?: boolean | cdktf.IResolvable;
   /**
   * Comment for the DTC LBDN; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#comment DtcLbdn#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#comment DtcLbdn#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether the DTC LBDN is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#disable DtcLbdn#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#disable DtcLbdn#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#extattrs DtcLbdn#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#extattrs DtcLbdn#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The load balancing method. Used to select pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#lb_method DtcLbdn#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#lb_method DtcLbdn#lb_method}
   */
   readonly lbMethod: string;
   /**
   * The display name of the DTC LBDN, not DNS related.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#name DtcLbdn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#name DtcLbdn#name}
   */
   readonly name: string;
   /**
   * LBDN wildcards for pattern match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#patterns DtcLbdn#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#patterns DtcLbdn#patterns}
   */
   readonly patterns?: string[];
   /**
   * Maximum time, in seconds, for which client specific LBDN responses will be cached. Zero specifies no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#persistence DtcLbdn#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#persistence DtcLbdn#persistence}
   */
   readonly persistence?: number;
   /**
   * The maximum time, in seconds, for which client specific LBDN responses will be cached. Zero specifies no caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#pools DtcLbdn#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#pools DtcLbdn#pools}
   */
   readonly pools?: DtcLbdnPools[] | cdktf.IResolvable;
   /**
   * The LBDN pattern match priority for "overlapping" DTC LBDN objects. LBDNs are "overlapping" if they are simultaneously assigned to a zone and have patterns that can match the same FQDN. The matching LBDN with highest priority (lowest ordinal) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#priority DtcLbdn#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#priority DtcLbdn#priority}
   */
   readonly priority?: number;
   /**
   * The topology rules for TOPOLOGY method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#topology DtcLbdn#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#topology DtcLbdn#topology}
   */
   readonly topology?: string;
   /**
   * Time-to-live value of the record, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#ttl DtcLbdn#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#ttl DtcLbdn#ttl}
   */
   readonly ttl?: number;
   /**
   * The list of resource record types supported by LBDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#types DtcLbdn#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#types DtcLbdn#types}
   */
   readonly types?: string[];
   /**
   * Flag to indicate whether the TTL value should be used for the LBDN record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#use_ttl DtcLbdn#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#use_ttl DtcLbdn#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
 }
@@ -166,13 +166,13 @@ export interface DtcLbdnPools {
   /**
   * The pool to link with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#pool DtcLbdn#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#pool DtcLbdn#pool}
   */
   readonly pool?: string;
   /**
   * The weight of pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#ratio DtcLbdn#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#ratio DtcLbdn#ratio}
   */
   readonly ratio?: number;
 }
@@ -317,7 +317,7 @@ export class DtcLbdnPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn nios_dtc_lbdn}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn nios_dtc_lbdn}
 */
 export class DtcLbdn extends cdktf.TerraformResource {
 
@@ -333,7 +333,7 @@ export class DtcLbdn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtcLbdn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtcLbdn to import
-  * @param importFromId The id of the existing DtcLbdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtcLbdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtcLbdn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DtcLbdn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_lbdn nios_dtc_lbdn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_lbdn nios_dtc_lbdn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class DtcLbdn extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dtc_lbdn',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

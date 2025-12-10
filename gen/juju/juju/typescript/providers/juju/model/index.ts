@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations for the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#annotations Model#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#annotations Model#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Override default model configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#config Model#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#config Model#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Constraints imposed to this model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#constraints Model#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#constraints Model#constraints}
   */
   readonly constraints?: string;
   /**
   * Credential used to add the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#credential Model#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#credential Model#credential}
   */
   readonly credential?: string;
   /**
   * The name to be assigned to the model. Changing this value will require the model to be destroyed and recreated by terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#name Model#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#name Model#name}
   */
   readonly name: string;
   /**
   * cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#cloud Model#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#cloud Model#cloud}
   */
   readonly cloud?: ModelCloud[] | cdktf.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface ModelCloud {
   /**
   * The name of the cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#name Model#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#name Model#name}
   */
   readonly name: string;
   /**
   * The region of the cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#region Model#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#region Model#region}
   */
   readonly region?: string;
 }
@@ -196,7 +196,7 @@ export class ModelCloudList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model juju_model}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model juju_model}
 */
 export class Model extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class Model extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Model resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Model to import
-  * @param importFromId The id of the existing Model that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Model that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Model to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class Model extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/model juju_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/model juju_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class Model extends cdktf.TerraformResource {
       terraformResourceType: 'juju_model',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

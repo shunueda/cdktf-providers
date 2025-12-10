@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface DnsZoneForwardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the zone; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#comment DnsZoneForward#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#comment DnsZoneForward#comment}
   */
   readonly comment?: string;
   /**
   * Determines whether a zone is disabled or not. When this is set to False, the zone is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#disable DnsZoneForward#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#disable DnsZoneForward#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a auto-generation of NS records in parent zone is disabled or not. When this is set to False, the auto-generation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#disable_ns_generation DnsZoneForward#disable_ns_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#disable_ns_generation DnsZoneForward#disable_ns_generation}
   */
   readonly disableNsGeneration?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#extattrs DnsZoneForward#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#extattrs DnsZoneForward#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * A forward stub server name server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#external_ns_group DnsZoneForward#external_ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#external_ns_group DnsZoneForward#external_ns_group}
   */
   readonly externalNsGroup?: string;
   /**
   * The information for the remote name servers to which you want the Infoblox appliance to forward queries for a specified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#forward_to DnsZoneForward#forward_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#forward_to DnsZoneForward#forward_to}
   */
   readonly forwardTo?: DnsZoneForwardForwardTo[] | cdktf.IResolvable;
   /**
   * Determines if the appliance sends queries to forwarders only, and not to other internal or Internet root servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#forwarders_only DnsZoneForward#forwarders_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#forwarders_only DnsZoneForward#forwarders_only}
   */
   readonly forwardersOnly?: boolean | cdktf.IResolvable;
   /**
   * The information for the Grid members to which you want the Infoblox appliance to forward queries for a specified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#forwarding_servers DnsZoneForward#forwarding_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#forwarding_servers DnsZoneForward#forwarding_servers}
   */
   readonly forwardingServers?: DnsZoneForwardForwardingServers[] | cdktf.IResolvable;
   /**
   * The name of this DNS zone. For a reverse zone, this is in "address/cidr" format. For other zones, this is in FQDN format. This value can be in unicode format. Note that for a reverse zone, the corresponding zone_format value should be set. apra notation is not allowed for IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#fqdn DnsZoneForward#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#fqdn DnsZoneForward#fqdn}
   */
   readonly fqdn: string;
   /**
   * If you enable this flag, other administrators cannot make conflicting changes. This is for administration purposes only. The zone will continue to serve DNS data even when it is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#locked DnsZoneForward#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#locked DnsZoneForward#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The flag that determines whether Active Directory is integrated or not. This field is valid only when ms_managed is "STUB", "AUTH_PRIMARY", or "AUTH_BOTH".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#ms_ad_integrated DnsZoneForward#ms_ad_integrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#ms_ad_integrated DnsZoneForward#ms_ad_integrated}
   */
   readonly msAdIntegrated?: boolean | cdktf.IResolvable;
   /**
   * Determines whether an Active Directory-integrated zone with a Microsoft DNS server as primary allows dynamic updates. Valid values are: "SECURE" if the zone allows secure updates only. "NONE" if the zone forbids dynamic updates. "ANY" if the zone accepts both secure and nonsecure updates. This field is valid only if ms_managed is either "AUTH_PRIMARY" or "AUTH_BOTH". If the flag ms_ad_integrated is false, the value "SECURE" is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#ms_ddns_mode DnsZoneForward#ms_ddns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#ms_ddns_mode DnsZoneForward#ms_ddns_mode}
   */
   readonly msDdnsMode?: string;
   /**
   * A forwarding member name server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#ns_group DnsZoneForward#ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#ns_group DnsZoneForward#ns_group}
   */
   readonly nsGroup?: string;
   /**
   * The RFC2317 prefix value of this DNS zone. Use this field only when the netmask is greater than 24 bits; that is, for a mask between 25 and 31 bits. Enter a prefix, such as the name of the allocated address block. The prefix can be alphanumeric characters, such as 128/26 , 128-189 , or sub-B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#prefix DnsZoneForward#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#prefix DnsZoneForward#prefix}
   */
   readonly prefix?: string;
   /**
   * The name of the DNS view in which the zone resides. Example "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#view DnsZoneForward#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#view DnsZoneForward#view}
   */
   readonly view?: string;
   /**
   * Determines the format of this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#zone_format DnsZoneForward#zone_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#zone_format DnsZoneForward#zone_format}
   */
   readonly zoneFormat?: string;
 }
@@ -108,43 +108,43 @@ export interface DnsZoneForwardForwardTo {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#address DnsZoneForward#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#address DnsZoneForward#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#stealth DnsZoneForward#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#stealth DnsZoneForward#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key DnsZoneForward#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key DnsZoneForward#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key_alg DnsZoneForward#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key_alg DnsZoneForward#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key_name DnsZoneForward#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key_name DnsZoneForward#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#use_tsig_key_name DnsZoneForward#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#use_tsig_key_name DnsZoneForward#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -435,43 +435,43 @@ export interface DnsZoneForwardForwardingServersForwardTo {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#address DnsZoneForward#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#address DnsZoneForward#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#stealth DnsZoneForward#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#stealth DnsZoneForward#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key DnsZoneForward#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key DnsZoneForward#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key_alg DnsZoneForward#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key_alg DnsZoneForward#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#tsig_key_name DnsZoneForward#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#tsig_key_name DnsZoneForward#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#use_tsig_key_name DnsZoneForward#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#use_tsig_key_name DnsZoneForward#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -762,25 +762,25 @@ export interface DnsZoneForwardForwardingServers {
   /**
   * The information for the remote name server to which you want the Infoblox appliance to forward queries for a specified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#forward_to DnsZoneForward#forward_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#forward_to DnsZoneForward#forward_to}
   */
   readonly forwardTo?: DnsZoneForwardForwardingServersForwardTo[] | cdktf.IResolvable;
   /**
   * Determines if the appliance sends queries to forwarders only, and not to other internal or Internet root servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#forwarders_only DnsZoneForward#forwarders_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#forwarders_only DnsZoneForward#forwarders_only}
   */
   readonly forwardersOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of this Grid member in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#name DnsZoneForward#name}
   */
   readonly name: string;
   /**
   * Use flag for: forward_to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#use_override_forwarders DnsZoneForward#use_override_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#use_override_forwarders DnsZoneForward#use_override_forwarders}
   */
   readonly useOverrideForwarders?: boolean | cdktf.IResolvable;
 }
@@ -980,7 +980,7 @@ export class DnsZoneForwardForwardingServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward nios_dns_zone_forward}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward nios_dns_zone_forward}
 */
 export class DnsZoneForward extends cdktf.TerraformResource {
 
@@ -996,7 +996,7 @@ export class DnsZoneForward extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZoneForward resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZoneForward to import
-  * @param importFromId The id of the existing DnsZoneForward that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZoneForward that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZoneForward to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1008,7 +1008,7 @@ export class DnsZoneForward extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_zone_forward nios_dns_zone_forward} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_zone_forward nios_dns_zone_forward} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1019,8 +1019,8 @@ export class DnsZoneForward extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_zone_forward',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

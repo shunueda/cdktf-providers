@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,164 @@ export interface JujuProviderConfig {
   /**
   * If the controller was deployed with a self-signed certificate: This is the certificate to use for identification. This can also be set by the `JUJU_CA_CERT` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#ca_certificate JujuProvider#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#ca_certificate JujuProvider#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * If using JAAS: This is the client ID (OAuth2.0, created by the external identity provider) to be used. This can also be set by the `JUJU_CLIENT_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#client_id JujuProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#client_id JujuProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * If using JAAS: This is the client secret (OAuth2.0, created by the external identity provider) to be used. This can also be set by the `JUJU_CLIENT_SECRET` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#client_secret JujuProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#client_secret JujuProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * This is the controller addresses to connect to, defaults to localhost:17070, multiple addresses can be provided in this format: <host>:<port>,<host>:<port>,.... This can also be set by the `JUJU_CONTROLLER_ADDRESSES` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#controller_addresses JujuProvider#controller_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#controller_addresses JujuProvider#controller_addresses}
   */
   readonly controllerAddresses?: string;
   /**
+  * Additional controller details for cross-model integrations. The map key is the controller name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#offering_controllers JujuProvider#offering_controllers}
+  */
+  readonly offeringControllers?: { [key: string]: JujuProviderOfferingControllers } | cdktf.IResolvable;
+  /**
   * This is the password of the username to be used. This can also be set by the `JUJU_PASSWORD` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#password JujuProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#password JujuProvider#password}
   */
   readonly password?: string;
   /**
   * Whether to issue a warning instead of an error and continue if a resource deletion fails. This can also be set by the `JUJU_SKIP_FAILED_DELETION` environment variable. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#skip_failed_deletion JujuProvider#skip_failed_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#skip_failed_deletion JujuProvider#skip_failed_deletion}
   */
   readonly skipFailedDeletion?: boolean | cdktf.IResolvable;
   /**
   * This is the username registered with the controller to be used. This can also be set by the `JUJU_USERNAME` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#username JujuProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#username JujuProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#alias JujuProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#alias JujuProvider#alias}
   */
   readonly alias?: string;
 }
+export interface JujuProviderOfferingControllers {
+  /**
+  * CA certificate for the controller if using a self-signed certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#ca_certificate JujuProvider#ca_certificate}
+  */
+  readonly caCertificate?: string;
+  /**
+  * The client ID (OAuth2.0, created by the external identity provider) to be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#client_id JujuProvider#client_id}
+  */
+  readonly clientId?: string;
+  /**
+  * The client secret (OAuth2.0, created by the external identity provider) to be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#client_secret JujuProvider#client_secret}
+  */
+  readonly clientSecret?: string;
+  /**
+  * Controller addresses to connect to. Multiple addresses can be provided in this format: <host>:<port>,<host>:<port>,....
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#controller_addresses JujuProvider#controller_addresses}
+  */
+  readonly controllerAddresses: string;
+  /**
+  * Password for the controller username.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#password JujuProvider#password}
+  */
+  readonly password?: string;
+  /**
+  * Username registered with the controller.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#username JujuProvider#username}
+  */
+  readonly username?: string;
+}
+
+export function jujuProviderOfferingControllersToTerraform(struct?: JujuProviderOfferingControllers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ca_certificate: cdktf.stringToTerraform(struct!.caCertificate),
+    client_id: cdktf.stringToTerraform(struct!.clientId),
+    client_secret: cdktf.stringToTerraform(struct!.clientSecret),
+    controller_addresses: cdktf.stringToTerraform(struct!.controllerAddresses),
+    password: cdktf.stringToTerraform(struct!.password),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function jujuProviderOfferingControllersToHclTerraform(struct?: JujuProviderOfferingControllers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ca_certificate: {
+      value: cdktf.stringToHclTerraform(struct!.caCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    client_id: {
+      value: cdktf.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    client_secret: {
+      value: cdktf.stringToHclTerraform(struct!.clientSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    controller_addresses: {
+      value: cdktf.stringToHclTerraform(struct!.controllerAddresses),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs juju}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs juju}
 */
 export class JujuProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +183,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a JujuProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JujuProvider to import
-  * @param importFromId The id of the existing JujuProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JujuProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JujuProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +195,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs juju} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs juju} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +206,8 @@ export class JujuProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'juju',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       terraformProviderSource: 'juju/juju'
     });
@@ -106,6 +215,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
     this._clientId = config.clientId;
     this._clientSecret = config.clientSecret;
     this._controllerAddresses = config.controllerAddresses;
+    this._offeringControllers = config.offeringControllers;
     this._password = config.password;
     this._skipFailedDeletion = config.skipFailedDeletion;
     this._username = config.username;
@@ -178,6 +288,22 @@ export class JujuProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get controllerAddressesInput() {
     return this._controllerAddresses;
+  }
+
+  // offering_controllers - computed: false, optional: true, required: false
+  private _offeringControllers?: { [key: string]: JujuProviderOfferingControllers } | cdktf.IResolvable; 
+  public get offeringControllers() {
+    return this._offeringControllers;
+  }
+  public set offeringControllers(value: { [key: string]: JujuProviderOfferingControllers } | cdktf.IResolvable | undefined) {
+    this._offeringControllers = value;
+  }
+  public resetOfferingControllers() {
+    this._offeringControllers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offeringControllersInput() {
+    return this._offeringControllers;
   }
 
   // password - computed: false, optional: true, required: false
@@ -254,6 +380,7 @@ export class JujuProvider extends cdktf.TerraformProvider {
       client_id: cdktf.stringToTerraform(this._clientId),
       client_secret: cdktf.stringToTerraform(this._clientSecret),
       controller_addresses: cdktf.stringToTerraform(this._controllerAddresses),
+      offering_controllers: cdktf.hashMapper(jujuProviderOfferingControllersToTerraform)(this._offeringControllers),
       password: cdktf.stringToTerraform(this._password),
       skip_failed_deletion: cdktf.booleanToTerraform(this._skipFailedDeletion),
       username: cdktf.stringToTerraform(this._username),
@@ -286,6 +413,12 @@ export class JujuProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      offering_controllers: {
+        value: cdktf.hashMapperHcl(jujuProviderOfferingControllersToHclTerraform)(this._offeringControllers),
+        isBlock: true,
+        type: "map",
+        storageClassType: "JujuProviderOfferingControllersMap",
       },
       password: {
         value: cdktf.stringToHclTerraform(this._password),

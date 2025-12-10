@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KibanaSyntheticsPrivateLocationConfig extends cdktf.TerraformMe
   /**
   * The ID of the agent policy associated with the private location. To create a private location for synthetics monitor you need to create an agent policy in fleet and use its agentPolicyId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#agent_policy_id KibanaSyntheticsPrivateLocation#agent_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#agent_policy_id KibanaSyntheticsPrivateLocation#agent_policy_id}
   */
   readonly agentPolicyId: string;
   /**
   * Geographic coordinates (WGS84) for the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#geo KibanaSyntheticsPrivateLocation#geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#geo KibanaSyntheticsPrivateLocation#geo}
   */
   readonly geo?: KibanaSyntheticsPrivateLocationGeo;
   /**
   * A label for the private location, used as unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#label KibanaSyntheticsPrivateLocation#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#label KibanaSyntheticsPrivateLocation#label}
   */
   readonly label: string;
   /**
   * An array of tags to categorize the private location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#tags KibanaSyntheticsPrivateLocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#tags KibanaSyntheticsPrivateLocation#tags}
   */
   readonly tags?: string[];
 }
@@ -36,13 +36,13 @@ export interface KibanaSyntheticsPrivateLocationGeo {
   /**
   * The latitude of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#lat KibanaSyntheticsPrivateLocation#lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#lat KibanaSyntheticsPrivateLocation#lat}
   */
   readonly lat: number;
   /**
   * The longitude of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#lon KibanaSyntheticsPrivateLocation#lon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#lon KibanaSyntheticsPrivateLocation#lon}
   */
   readonly lon: number;
 }
@@ -159,7 +159,7 @@ export class KibanaSyntheticsPrivateLocationGeoOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location elasticstack_kibana_synthetics_private_location}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location elasticstack_kibana_synthetics_private_location}
 */
 export class KibanaSyntheticsPrivateLocation extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class KibanaSyntheticsPrivateLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSyntheticsPrivateLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSyntheticsPrivateLocation to import
-  * @param importFromId The id of the existing KibanaSyntheticsPrivateLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSyntheticsPrivateLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSyntheticsPrivateLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class KibanaSyntheticsPrivateLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_synthetics_private_location elasticstack_kibana_synthetics_private_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_private_location elasticstack_kibana_synthetics_private_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class KibanaSyntheticsPrivateLocation extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_synthetics_private_location',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

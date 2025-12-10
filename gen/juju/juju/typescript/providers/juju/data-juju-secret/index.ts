@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataJujuSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The name of the model containing the secret.
+  * The uuid of the model containing the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret#model DataJujuSecret#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret#model_uuid DataJujuSecret#model_uuid}
   */
-  readonly model: string;
+  readonly modelUuid: string;
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret#name DataJujuSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret#name DataJujuSecret#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret juju_secret}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret juju_secret}
 */
 export class DataJujuSecret extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJujuSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJujuSecret to import
-  * @param importFromId The id of the existing DataJujuSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJujuSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJujuSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/data-sources/secret juju_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/data-sources/secret juju_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'juju_secret',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -72,7 +72,7 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._model = config.model;
+    this._modelUuid = config.modelUuid;
     this._name = config.name;
   }
 
@@ -80,17 +80,17 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
-  // model - computed: false, optional: false, required: true
-  private _model?: string; 
-  public get model() {
-    return this.getStringAttribute('model');
+  // model_uuid - computed: false, optional: false, required: true
+  private _modelUuid?: string; 
+  public get modelUuid() {
+    return this.getStringAttribute('model_uuid');
   }
-  public set model(value: string) {
-    this._model = value;
+  public set modelUuid(value: string) {
+    this._modelUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelInput() {
-    return this._model;
+  public get modelUuidInput() {
+    return this._modelUuid;
   }
 
   // name - computed: false, optional: false, required: true
@@ -117,15 +117,15 @@ export class DataJujuSecret extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      model: cdktf.stringToTerraform(this._model),
+      model_uuid: cdktf.stringToTerraform(this._modelUuid),
       name: cdktf.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      model: {
-        value: cdktf.stringToHclTerraform(this._model),
+      model_uuid: {
+        value: cdktf.stringToHclTerraform(this._modelUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DnsRecordUnknownConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#comment DnsRecordUnknown#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#comment DnsRecordUnknown#comment}
   */
   readonly comment?: string;
   /**
   * The record creator. Note that changing creator from or to 'SYSTEM' value is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#creator DnsRecordUnknown#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#creator DnsRecordUnknown#creator}
   */
   readonly creator?: string;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#disable DnsRecordUnknown#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#disable DnsRecordUnknown#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines if host name policy is applicable for the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#enable_host_name_policy DnsRecordUnknown#enable_host_name_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#enable_host_name_policy DnsRecordUnknown#enable_host_name_policy}
   */
   readonly enableHostNamePolicy?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#extattrs DnsRecordUnknown#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#extattrs DnsRecordUnknown#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The Unknown record name in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#name DnsRecordUnknown#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#name DnsRecordUnknown#name}
   */
   readonly name: string;
   /**
   * Specifies type of unknown resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#record_type DnsRecordUnknown#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#record_type DnsRecordUnknown#record_type}
   */
   readonly recordType: string;
   /**
   * The list of rdata subfield values of unknown resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#subfield_values DnsRecordUnknown#subfield_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#subfield_values DnsRecordUnknown#subfield_values}
   */
   readonly subfieldValues: DnsRecordUnknownSubfieldValues[] | cdktf.IResolvable;
   /**
   * The Time to Live (TTL) value for the record. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#ttl DnsRecordUnknown#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#ttl DnsRecordUnknown#ttl}
   */
   readonly ttl?: number;
   /**
   * Use flag for: ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#use_ttl DnsRecordUnknown#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#use_ttl DnsRecordUnknown#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#view DnsRecordUnknown#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#view DnsRecordUnknown#view}
   */
   readonly view?: string;
 }
@@ -232,19 +232,19 @@ export interface DnsRecordUnknownSubfieldValues {
   /**
   * Type of field. "B": unsigned 8-bit integer, "S": unsigned 16-bit integer, "I": unsigned 32-bit integer. "H": BASE64, "6": an IPv6 address, "4": an IPv4 address, "N": a domain name, "T": text string, "X": opaque binary data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#field_type DnsRecordUnknown#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#field_type DnsRecordUnknown#field_type}
   */
   readonly fieldType: string;
   /**
   * String representation of subfield value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#field_value DnsRecordUnknown#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#field_value DnsRecordUnknown#field_value}
   */
   readonly fieldValue: string;
   /**
   * The 'size of 'length' sub-sub field to be included in RDATA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#include_length DnsRecordUnknown#include_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#include_length DnsRecordUnknown#include_length}
   */
   readonly includeLength: string;
 }
@@ -409,7 +409,7 @@ export class DnsRecordUnknownSubfieldValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown nios_dns_record_unknown}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown nios_dns_record_unknown}
 */
 export class DnsRecordUnknown extends cdktf.TerraformResource {
 
@@ -425,7 +425,7 @@ export class DnsRecordUnknown extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordUnknown resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordUnknown to import
-  * @param importFromId The id of the existing DnsRecordUnknown that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordUnknown that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordUnknown to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DnsRecordUnknown extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_record_unknown nios_dns_record_unknown} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_record_unknown nios_dns_record_unknown} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DnsRecordUnknown extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_record_unknown',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

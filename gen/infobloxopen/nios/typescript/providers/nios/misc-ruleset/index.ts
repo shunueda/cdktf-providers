@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MiscRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Descriptive comment about the Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#comment MiscRuleset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#comment MiscRuleset#comment}
   */
   readonly comment?: string;
   /**
   * The flag that indicates if the Ruleset object is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#disabled MiscRuleset#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#disabled MiscRuleset#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#name MiscRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#name MiscRuleset#name}
   */
   readonly name: string;
   /**
   * The list of Rules assigned to this Ruleset object. Rules can be set only when the Ruleset type is set to "NXDOMAIN".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#nxdomain_rules MiscRuleset#nxdomain_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#nxdomain_rules MiscRuleset#nxdomain_rules}
   */
   readonly nxdomainRules?: MiscRulesetNxdomainRules[] | cdktf.IResolvable;
   /**
   * The type of this Ruleset object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#type MiscRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#type MiscRuleset#type}
   */
   readonly type: string;
 }
@@ -42,13 +42,13 @@ export interface MiscRulesetNxdomainRules {
   /**
   * The action to perform when a domain name matches the pattern defined in this Ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#action MiscRuleset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#action MiscRuleset#action}
   */
   readonly action?: string;
   /**
   * The pattern that is used to match the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#pattern MiscRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#pattern MiscRuleset#pattern}
   */
   readonly pattern?: string;
 }
@@ -193,7 +193,7 @@ export class MiscRulesetNxdomainRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset nios_misc_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset nios_misc_ruleset}
 */
 export class MiscRuleset extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class MiscRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MiscRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MiscRuleset to import
-  * @param importFromId The id of the existing MiscRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MiscRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MiscRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class MiscRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_ruleset nios_misc_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_ruleset nios_misc_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class MiscRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'nios_misc_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

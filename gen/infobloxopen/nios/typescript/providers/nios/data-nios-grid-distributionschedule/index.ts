@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface DataNiosGridDistributionscheduleResultUpgradeGroups {
   /**
   * The distribution dependent group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#distribution_dependent_group DataNiosGridDistributionschedule#distribution_dependent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#distribution_dependent_group DataNiosGridDistributionschedule#distribution_dependent_group}
   */
   readonly distributionDependentGroup?: string;
   /**
   * The time of the next scheduled distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#distribution_time DataNiosGridDistributionschedule#distribution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#distribution_time DataNiosGridDistributionschedule#distribution_time}
   */
   readonly distributionTime?: string;
   /**
   * The upgrade group name. Required when specifying upgrade_groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#name DataNiosGridDistributionschedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#name DataNiosGridDistributionschedule#name}
   */
   readonly name?: string;
 }
@@ -215,19 +215,19 @@ export interface DataNiosGridDistributionscheduleResult {
   /**
   * Determines whether the distribution schedule is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#active DataNiosGridDistributionschedule#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#active DataNiosGridDistributionschedule#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The start time of the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#start_time DataNiosGridDistributionschedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#start_time DataNiosGridDistributionschedule#start_time}
   */
   readonly startTime?: string;
   /**
   * The upgrade groups scheduling settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#upgrade_groups DataNiosGridDistributionschedule#upgrade_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#upgrade_groups DataNiosGridDistributionschedule#upgrade_groups}
   */
   readonly upgradeGroups?: DataNiosGridDistributionscheduleResultUpgradeGroups[] | cdktf.IResolvable;
 }
@@ -401,7 +401,7 @@ export class DataNiosGridDistributionscheduleResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule nios_grid_distributionschedule}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule nios_grid_distributionschedule}
 */
 export class DataNiosGridDistributionschedule extends cdktf.TerraformDataSource {
 
@@ -417,7 +417,7 @@ export class DataNiosGridDistributionschedule extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosGridDistributionschedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosGridDistributionschedule to import
-  * @param importFromId The id of the existing DataNiosGridDistributionschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosGridDistributionschedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosGridDistributionschedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class DataNiosGridDistributionschedule extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_distributionschedule nios_grid_distributionschedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_distributionschedule nios_grid_distributionschedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class DataNiosGridDistributionschedule extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_grid_distributionschedule',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

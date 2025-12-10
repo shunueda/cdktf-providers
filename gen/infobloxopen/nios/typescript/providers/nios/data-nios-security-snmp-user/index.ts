@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosSecuritySnmpUserConfig extends cdktf.TerraformMetaArgum
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#extattrfilters DataNiosSecuritySnmpUser#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#extattrfilters DataNiosSecuritySnmpUser#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filters are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#filters DataNiosSecuritySnmpUser#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#filters DataNiosSecuritySnmpUser#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#max_results DataNiosSecuritySnmpUser#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#max_results DataNiosSecuritySnmpUser#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#paging DataNiosSecuritySnmpUser#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#paging DataNiosSecuritySnmpUser#paging}
   */
   readonly paging?: number;
 }
@@ -36,49 +36,49 @@ export interface DataNiosSecuritySnmpUserResult {
   /**
   * Determines an authentication password for the user. This is a write-only attribute. Must be between 8 and 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#authentication_password DataNiosSecuritySnmpUser#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#authentication_password DataNiosSecuritySnmpUser#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * The authentication protocol to be used for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#authentication_protocol DataNiosSecuritySnmpUser#authentication_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#authentication_protocol DataNiosSecuritySnmpUser#authentication_protocol}
   */
   readonly authenticationProtocol: string;
   /**
   * A descriptive comment for the SNMPv3 User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#comment DataNiosSecuritySnmpUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#comment DataNiosSecuritySnmpUser#comment}
   */
   readonly comment?: string;
   /**
   * Determines if SNMPv3 user is disabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#disable DataNiosSecuritySnmpUser#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#disable DataNiosSecuritySnmpUser#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#extattrs DataNiosSecuritySnmpUser#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#extattrs DataNiosSecuritySnmpUser#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#name DataNiosSecuritySnmpUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#name DataNiosSecuritySnmpUser#name}
   */
   readonly name: string;
   /**
   * Determines a password for the privacy protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#privacy_password DataNiosSecuritySnmpUser#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#privacy_password DataNiosSecuritySnmpUser#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
   * The privacy protocol to be used for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#privacy_protocol DataNiosSecuritySnmpUser#privacy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#privacy_protocol DataNiosSecuritySnmpUser#privacy_protocol}
   */
   readonly privacyProtocol: string;
 }
@@ -389,7 +389,7 @@ export class DataNiosSecuritySnmpUserResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user nios_security_snmp_user}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user nios_security_snmp_user}
 */
 export class DataNiosSecuritySnmpUser extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataNiosSecuritySnmpUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosSecuritySnmpUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosSecuritySnmpUser to import
-  * @param importFromId The id of the existing DataNiosSecuritySnmpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosSecuritySnmpUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosSecuritySnmpUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataNiosSecuritySnmpUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/security_snmp_user nios_security_snmp_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/security_snmp_user nios_security_snmp_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataNiosSecuritySnmpUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_security_snmp_user',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

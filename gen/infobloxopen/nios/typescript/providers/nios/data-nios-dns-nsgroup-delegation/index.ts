@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsNsgroupDelegationConfig extends cdktf.TerraformMetaA
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#extattrfilters DataNiosDnsNsgroupDelegation#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#extattrfilters DataNiosDnsNsgroupDelegation#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#filters DataNiosDnsNsgroupDelegation#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#filters DataNiosDnsNsgroupDelegation#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#max_results DataNiosDnsNsgroupDelegation#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#max_results DataNiosDnsNsgroupDelegation#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#paging DataNiosDnsNsgroupDelegation#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#paging DataNiosDnsNsgroupDelegation#paging}
   */
   readonly paging?: number;
 }
@@ -36,13 +36,13 @@ export interface DataNiosDnsNsgroupDelegationResultDelegateTo {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#address DataNiosDnsNsgroupDelegation#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#address DataNiosDnsNsgroupDelegation#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#name DataNiosDnsNsgroupDelegation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#name DataNiosDnsNsgroupDelegation#name}
   */
   readonly name: string;
 }
@@ -203,25 +203,25 @@ export interface DataNiosDnsNsgroupDelegationResult {
   /**
   * The comment for the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#comment DataNiosDnsNsgroupDelegation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#comment DataNiosDnsNsgroupDelegation#comment}
   */
   readonly comment?: string;
   /**
   * The list of delegated servers for the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#delegate_to DataNiosDnsNsgroupDelegation#delegate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#delegate_to DataNiosDnsNsgroupDelegation#delegate_to}
   */
   readonly delegateTo: DataNiosDnsNsgroupDelegationResultDelegateTo[] | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#extattrs DataNiosDnsNsgroupDelegation#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#extattrs DataNiosDnsNsgroupDelegation#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#name DataNiosDnsNsgroupDelegation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#name DataNiosDnsNsgroupDelegation#name}
   */
   readonly name: string;
 }
@@ -419,7 +419,7 @@ export class DataNiosDnsNsgroupDelegationResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation nios_dns_nsgroup_delegation}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation nios_dns_nsgroup_delegation}
 */
 export class DataNiosDnsNsgroupDelegation extends cdktf.TerraformDataSource {
 
@@ -435,7 +435,7 @@ export class DataNiosDnsNsgroupDelegation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsNsgroupDelegation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsNsgroupDelegation to import
-  * @param importFromId The id of the existing DataNiosDnsNsgroupDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsNsgroupDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsNsgroupDelegation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class DataNiosDnsNsgroupDelegation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_delegation nios_dns_nsgroup_delegation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_delegation nios_dns_nsgroup_delegation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class DataNiosDnsNsgroupDelegation extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_nsgroup_delegation',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

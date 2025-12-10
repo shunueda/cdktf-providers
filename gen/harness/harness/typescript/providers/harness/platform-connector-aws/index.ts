@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorAwsConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#description PlatformConnectorAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#description PlatformConnectorAws#description}
   */
   readonly description?: string;
   /**
   * Enable this flag to execute on Delegate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#execute_on_delegate PlatformConnectorAws#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#execute_on_delegate PlatformConnectorAws#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#force_delete PlatformConnectorAws#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#force_delete PlatformConnectorAws#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#id PlatformConnectorAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#id PlatformConnectorAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface PlatformConnectorAwsConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#identifier PlatformConnectorAws#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#identifier PlatformConnectorAws#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#name PlatformConnectorAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#name PlatformConnectorAws#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#org_id PlatformConnectorAws#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#org_id PlatformConnectorAws#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#project_id PlatformConnectorAws#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#project_id PlatformConnectorAws#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#tags PlatformConnectorAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#tags PlatformConnectorAws#tags}
   */
   readonly tags?: string[];
   /**
   * cross_account_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#cross_account_access PlatformConnectorAws#cross_account_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#cross_account_access PlatformConnectorAws#cross_account_access}
   */
   readonly crossAccountAccess?: PlatformConnectorAwsCrossAccountAccess;
   /**
   * equal_jitter_backoff_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#equal_jitter_backoff_strategy PlatformConnectorAws#equal_jitter_backoff_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#equal_jitter_backoff_strategy PlatformConnectorAws#equal_jitter_backoff_strategy}
   */
   readonly equalJitterBackoffStrategy?: PlatformConnectorAwsEqualJitterBackoffStrategy;
   /**
   * fixed_delay_backoff_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#fixed_delay_backoff_strategy PlatformConnectorAws#fixed_delay_backoff_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#fixed_delay_backoff_strategy PlatformConnectorAws#fixed_delay_backoff_strategy}
   */
   readonly fixedDelayBackoffStrategy?: PlatformConnectorAwsFixedDelayBackoffStrategy;
   /**
   * full_jitter_backoff_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#full_jitter_backoff_strategy PlatformConnectorAws#full_jitter_backoff_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#full_jitter_backoff_strategy PlatformConnectorAws#full_jitter_backoff_strategy}
   */
   readonly fullJitterBackoffStrategy?: PlatformConnectorAwsFullJitterBackoffStrategy;
   /**
   * inherit_from_delegate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#inherit_from_delegate PlatformConnectorAws#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#inherit_from_delegate PlatformConnectorAws#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: PlatformConnectorAwsInheritFromDelegate;
   /**
   * irsa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#irsa PlatformConnectorAws#irsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#irsa PlatformConnectorAws#irsa}
   */
   readonly irsa?: PlatformConnectorAwsIrsa;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#manual PlatformConnectorAws#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#manual PlatformConnectorAws#manual}
   */
   readonly manual?: PlatformConnectorAwsManual;
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#oidc_authentication PlatformConnectorAws#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#oidc_authentication PlatformConnectorAws#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorAwsOidcAuthentication;
 }
@@ -115,13 +115,13 @@ export interface PlatformConnectorAwsCrossAccountAccess {
   /**
   * If the administrator of the account to which the role belongs provided you with an external ID, then enter that value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#external_id PlatformConnectorAws#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#external_id PlatformConnectorAws#external_id}
   */
   readonly externalId?: string;
   /**
   * The Amazon Resource Name (ARN) of the role that you want to assume. This is an IAM role in the target AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#role_arn PlatformConnectorAws#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#role_arn PlatformConnectorAws#role_arn}
   */
   readonly roleArn: string;
 }
@@ -233,19 +233,19 @@ export interface PlatformConnectorAwsEqualJitterBackoffStrategy {
   /**
   * Base delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#base_delay PlatformConnectorAws#base_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#base_delay PlatformConnectorAws#base_delay}
   */
   readonly baseDelay?: number;
   /**
   * Max BackOff Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#max_backoff_time PlatformConnectorAws#max_backoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#max_backoff_time PlatformConnectorAws#max_backoff_time}
   */
   readonly maxBackoffTime?: number;
   /**
   * Retry Count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
   */
   readonly retryCount?: number;
 }
@@ -389,13 +389,13 @@ export interface PlatformConnectorAwsFixedDelayBackoffStrategy {
   /**
   * Fixed Backoff.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#fixed_backoff PlatformConnectorAws#fixed_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#fixed_backoff PlatformConnectorAws#fixed_backoff}
   */
   readonly fixedBackoff?: number;
   /**
   * Retry Count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
   */
   readonly retryCount?: number;
 }
@@ -510,19 +510,19 @@ export interface PlatformConnectorAwsFullJitterBackoffStrategy {
   /**
   * Base delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#base_delay PlatformConnectorAws#base_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#base_delay PlatformConnectorAws#base_delay}
   */
   readonly baseDelay?: number;
   /**
   * Max BackOff Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#max_backoff_time PlatformConnectorAws#max_backoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#max_backoff_time PlatformConnectorAws#max_backoff_time}
   */
   readonly maxBackoffTime?: number;
   /**
   * Retry Count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#retry_count PlatformConnectorAws#retry_count}
   */
   readonly retryCount?: number;
 }
@@ -666,13 +666,13 @@ export interface PlatformConnectorAwsInheritFromDelegate {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
   */
   readonly delegateSelectors: string[];
   /**
   * Test Region to perform Connection test of AWS Connector To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
   */
   readonly region?: string;
 }
@@ -784,13 +784,13 @@ export interface PlatformConnectorAwsIrsa {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
   */
   readonly delegateSelectors: string[];
   /**
   * Test Region to perform Connection test of AWS Connector To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
   */
   readonly region?: string;
 }
@@ -902,37 +902,37 @@ export interface PlatformConnectorAwsManual {
   /**
   * AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#access_key PlatformConnectorAws#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#access_key PlatformConnectorAws#access_key}
   */
   readonly accessKey?: string;
   /**
   * Reference to the Harness secret containing the aws access key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#access_key_ref PlatformConnectorAws#access_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#access_key_ref PlatformConnectorAws#access_key_ref}
   */
   readonly accessKeyRef?: string;
   /**
   * Connect only use delegates with these tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Test Region to perform Connection test of AWS Connector To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
   */
   readonly region?: string;
   /**
   * Reference to the Harness secret containing the aws secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#secret_key_ref PlatformConnectorAws#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#secret_key_ref PlatformConnectorAws#secret_key_ref}
   */
   readonly secretKeyRef: string;
   /**
   * Reference to the Harness secret containing the aws session token. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#session_token_ref PlatformConnectorAws#session_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#session_token_ref PlatformConnectorAws#session_token_ref}
   */
   readonly sessionTokenRef?: string;
 }
@@ -1160,19 +1160,19 @@ export interface PlatformConnectorAwsOidcAuthentication {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#delegate_selectors PlatformConnectorAws#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * The IAM Role to assume the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#iam_role_arn PlatformConnectorAws#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#iam_role_arn PlatformConnectorAws#iam_role_arn}
   */
   readonly iamRoleArn: string;
   /**
   * Test Region to perform Connection test of AWS Connector. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#region PlatformConnectorAws#region}
   */
   readonly region?: string;
 }
@@ -1311,7 +1311,7 @@ export class PlatformConnectorAwsOidcAuthenticationOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws harness_platform_connector_aws}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws harness_platform_connector_aws}
 */
 export class PlatformConnectorAws extends cdktf.TerraformResource {
 
@@ -1327,7 +1327,7 @@ export class PlatformConnectorAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAws to import
-  * @param importFromId The id of the existing PlatformConnectorAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1339,7 +1339,7 @@ export class PlatformConnectorAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws harness_platform_connector_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws harness_platform_connector_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1350,8 +1350,8 @@ export class PlatformConnectorAws extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_aws',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

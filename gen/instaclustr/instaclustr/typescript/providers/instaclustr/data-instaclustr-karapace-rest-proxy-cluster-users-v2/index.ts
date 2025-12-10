@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface DataInstaclustrKarapaceRestProxyClusterUsersV2Config extends cd
   /**
   * ID of the kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#id DataInstaclustrKarapaceRestProxyClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#id DataInstaclustrKarapaceRestProxyClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#karapace_rest_proxy_cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#karapace_rest_proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#karapace_rest_proxy_cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#karapace_rest_proxy_cluster_id}
   */
   readonly karapaceRestProxyClusterId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#filter DataInstaclustrKarapaceRestProxyClusterUsersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#filter DataInstaclustrKarapaceRestProxyClusterUsersV2#filter}
   */
   readonly filter?: DataInstaclustrKarapaceRestProxyClusterUsersV2Filter[] | cdktf.IResolvable;
   /**
   * karapace_rest_proxy_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#karapace_rest_proxy_users DataInstaclustrKarapaceRestProxyClusterUsersV2#karapace_rest_proxy_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#karapace_rest_proxy_users DataInstaclustrKarapaceRestProxyClusterUsersV2#karapace_rest_proxy_users}
   */
   readonly karapaceRestProxyUsers?: DataInstaclustrKarapaceRestProxyClusterUsersV2KarapaceRestProxyUsers[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrKarapaceRestProxyClusterUsersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#name DataInstaclustrKarapaceRestProxyClusterUsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#name DataInstaclustrKarapaceRestProxyClusterUsersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#values DataInstaclustrKarapaceRestProxyClusterUsersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#values DataInstaclustrKarapaceRestProxyClusterUsersV2#values}
   */
   readonly values: string[];
 }
@@ -184,13 +184,13 @@ export interface DataInstaclustrKarapaceRestProxyClusterUsersV2KarapaceRestProxy
   /**
   * ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#cluster_id DataInstaclustrKarapaceRestProxyClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the Karapace Rest Proxy user. The value of this property has the form: [cluster-id]_[karapace-rest-proxy-username]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#id DataInstaclustrKarapaceRestProxyClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#id DataInstaclustrKarapaceRestProxyClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface DataInstaclustrKarapaceRestProxyClusterUsersV2KarapaceRestProxy
   /**
   * Username of the Karapace Rest Proxy user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#username DataInstaclustrKarapaceRestProxyClusterUsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#username DataInstaclustrKarapaceRestProxyClusterUsersV2#username}
   */
   readonly username?: string;
 }
@@ -373,7 +373,7 @@ export class DataInstaclustrKarapaceRestProxyClusterUsersV2KarapaceRestProxyUser
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2 instaclustr_karapace_rest_proxy_cluster_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2 instaclustr_karapace_rest_proxy_cluster_users_v2}
 */
 export class DataInstaclustrKarapaceRestProxyClusterUsersV2 extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataInstaclustrKarapaceRestProxyClusterUsersV2 extends cdktf.Terraf
   * Generates CDKTF code for importing a DataInstaclustrKarapaceRestProxyClusterUsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKarapaceRestProxyClusterUsersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrKarapaceRestProxyClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKarapaceRestProxyClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKarapaceRestProxyClusterUsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataInstaclustrKarapaceRestProxyClusterUsersV2 extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/karapace_rest_proxy_cluster_users_v2 instaclustr_karapace_rest_proxy_cluster_users_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/karapace_rest_proxy_cluster_users_v2 instaclustr_karapace_rest_proxy_cluster_users_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataInstaclustrKarapaceRestProxyClusterUsersV2 extends cdktf.Terraf
       terraformResourceType: 'instaclustr_karapace_rest_proxy_cluster_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.33',
-        providerVersionConstraint: '2.1.33'
+        providerVersion: '2.1.34',
+        providerVersionConstraint: '2.1.34'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

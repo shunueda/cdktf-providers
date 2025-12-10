@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MiscBfdtemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication key for BFD protocol message-digest authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#authentication_key MiscBfdtemplate#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#authentication_key MiscBfdtemplate#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * The authentication key identifier for BFD protocol authentication. Valid values are between 1 and 255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#authentication_key_id MiscBfdtemplate#authentication_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#authentication_key_id MiscBfdtemplate#authentication_key_id}
   */
   readonly authenticationKeyId?: number;
   /**
   * The authentication type for BFD protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#authentication_type MiscBfdtemplate#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#authentication_type MiscBfdtemplate#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * The detection time multiplier value for BFD protocol. The negotiated transmit interval, multiplied by this value, provides the detection time for the receiving system in asynchronous BFD mode. Valid values are between 3 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#detection_multiplier MiscBfdtemplate#detection_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#detection_multiplier MiscBfdtemplate#detection_multiplier}
   */
   readonly detectionMultiplier?: number;
   /**
   * The minimum receive time (in seconds) for BFD protocol. Valid values are between 50 and 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#min_rx_interval MiscBfdtemplate#min_rx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#min_rx_interval MiscBfdtemplate#min_rx_interval}
   */
   readonly minRxInterval?: number;
   /**
   * The minimum transmission time (in seconds) for BFD protocol. Valid values are between 50 and 9999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#min_tx_interval MiscBfdtemplate#min_tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#min_tx_interval MiscBfdtemplate#min_tx_interval}
   */
   readonly minTxInterval?: number;
   /**
   * The name of the BFD template object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#name MiscBfdtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#name MiscBfdtemplate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate nios_misc_bfdtemplate}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate nios_misc_bfdtemplate}
 */
 export class MiscBfdtemplate extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class MiscBfdtemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MiscBfdtemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MiscBfdtemplate to import
-  * @param importFromId The id of the existing MiscBfdtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MiscBfdtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MiscBfdtemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class MiscBfdtemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/misc_bfdtemplate nios_misc_bfdtemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/misc_bfdtemplate nios_misc_bfdtemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class MiscBfdtemplate extends cdktf.TerraformResource {
       terraformResourceType: 'nios_misc_bfdtemplate',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

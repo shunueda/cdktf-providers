@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/environment_account
+// https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/environment_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface EnvironmentAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The deployment account that owns this account. Aka the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/environment_account#owner_account_id EnvironmentAccount#owner_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/environment_account#owner_account_id EnvironmentAccount#owner_account_id}
   */
   readonly ownerAccountId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/environment_account vy_environment_account}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/environment_account vy_environment_account}
 */
 export class EnvironmentAccount extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class EnvironmentAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentAccount to import
-  * @param importFromId The id of the existing EnvironmentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/environment_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/environment_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class EnvironmentAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/environment_account vy_environment_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.1.0/docs/resources/environment_account vy_environment_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class EnvironmentAccount extends cdktf.TerraformResource {
       terraformResourceType: 'vy_environment_account',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

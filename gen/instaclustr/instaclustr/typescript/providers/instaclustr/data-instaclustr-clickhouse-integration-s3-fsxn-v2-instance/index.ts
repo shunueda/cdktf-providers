@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrClickhouseIntegrationS3FsxnV2InstanceConfig exte
   /**
   * ID of the ClickHouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataInstaclustrClickhouseIntegrationS3FsxnV2InstanceConfig exte
   /**
   * A convenience named collection for query use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#named_collection DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#named_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#named_collection DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#named_collection}
   */
   readonly namedCollection?: string;
   /**
   * Status of the S3 FSxN Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#status DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#status DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#status}
   */
   readonly status?: string;
   /**
   * fsxn_filesystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#fsxn_filesystem DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#fsxn_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#fsxn_filesystem DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#fsxn_filesystem}
   */
   readonly fsxnFilesystem?: DataInstaclustrClickhouseIntegrationS3FsxnV2InstanceFsxnFilesystem;
 }
@@ -43,25 +43,25 @@ export interface DataInstaclustrClickhouseIntegrationS3FsxnV2InstanceFsxnFilesys
   /**
   * S3 access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#access_key_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#access_key_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * S3 endpoint address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#endpoint_address DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#endpoint_address DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#endpoint_address}
   */
   readonly endpointAddress?: string;
   /**
   * AWS ID of the FSx file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#fsxn_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#fsxn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#fsxn_id DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#fsxn_id}
   */
   readonly fsxnId?: string;
   /**
   * S3 secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#secret_access_key DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#secret_access_key DataInstaclustrClickhouseIntegrationS3FsxnV2Instance#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
@@ -232,7 +232,7 @@ export class DataInstaclustrClickhouseIntegrationS3FsxnV2InstanceFsxnFilesystemO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance instaclustr_clickhouse_integration_s3_fsxn_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance instaclustr_clickhouse_integration_s3_fsxn_v2_instance}
 */
 export class DataInstaclustrClickhouseIntegrationS3FsxnV2Instance extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataInstaclustrClickhouseIntegrationS3FsxnV2Instance extends cdktf.
   * Generates CDKTF code for importing a DataInstaclustrClickhouseIntegrationS3FsxnV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClickhouseIntegrationS3FsxnV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationS3FsxnV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationS3FsxnV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClickhouseIntegrationS3FsxnV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataInstaclustrClickhouseIntegrationS3FsxnV2Instance extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance instaclustr_clickhouse_integration_s3_fsxn_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/clickhouse_integration_s3_fsxn_v2_instance instaclustr_clickhouse_integration_s3_fsxn_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataInstaclustrClickhouseIntegrationS3FsxnV2Instance extends cdktf.
       terraformResourceType: 'instaclustr_clickhouse_integration_s3_fsxn_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.33',
-        providerVersionConstraint: '2.1.33'
+        providerVersion: '2.1.34',
+        providerVersionConstraint: '2.1.34'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

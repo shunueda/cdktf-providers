@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,169 +10,169 @@ export interface IpAllocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * This is a list of aliases for the host. The aliases must be in FQDN format. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#aliases IpAllocation#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#aliases IpAllocation#aliases}
   */
   readonly aliases?: string[];
   /**
   * The CLI credentials for the host record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#cli_credentials IpAllocation#cli_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#cli_credentials IpAllocation#cli_credentials}
   */
   readonly cliCredentials?: IpAllocationCliCredentials[] | cdktf.IResolvable;
   /**
   * Comment for the record; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#comment IpAllocation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#comment IpAllocation#comment}
   */
   readonly comment?: string;
   /**
   * When configure_for_dns is false, the host does not have parent zone information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#configure_for_dns IpAllocation#configure_for_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#configure_for_dns IpAllocation#configure_for_dns}
   */
   readonly configureForDns?: boolean | cdktf.IResolvable;
   /**
   * Determines if the DDNS updates for this record are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ddns_protected IpAllocation#ddns_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ddns_protected IpAllocation#ddns_protected}
   */
   readonly ddnsProtected?: boolean | cdktf.IResolvable;
   /**
   * The description of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#device_description IpAllocation#device_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#device_description IpAllocation#device_description}
   */
   readonly deviceDescription?: string;
   /**
   * The location of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#device_location IpAllocation#device_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#device_location IpAllocation#device_location}
   */
   readonly deviceLocation?: string;
   /**
   * The type of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#device_type IpAllocation#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#device_type IpAllocation#device_type}
   */
   readonly deviceType?: string;
   /**
   * The vendor of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#device_vendor IpAllocation#device_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#device_vendor IpAllocation#device_vendor}
   */
   readonly deviceVendor?: string;
   /**
   * Determines if the record is disabled or not. False means that the record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#disable IpAllocation#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#disable IpAllocation#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the record is disabled or not. False means that the discovery is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#disable_discovery IpAllocation#disable_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#disable_discovery IpAllocation#disable_discovery}
   */
   readonly disableDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Determines if the discovery for the record should be immediately enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#enable_immediate_discovery IpAllocation#enable_immediate_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#enable_immediate_discovery IpAllocation#enable_immediate_discovery}
   */
   readonly enableImmediateDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#extattrs IpAllocation#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#extattrs IpAllocation#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * This is a list of IPv4 Addresses for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv4addrs IpAllocation#ipv4addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv4addrs IpAllocation#ipv4addrs}
   */
   readonly ipv4Addrs?: IpAllocationIpv4Addrs[] | cdktf.IResolvable;
   /**
   * This is a list of IPv6 Addresses for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv6addrs IpAllocation#ipv6addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv6addrs IpAllocation#ipv6addrs}
   */
   readonly ipv6Addrs?: IpAllocationIpv6Addrs[] | cdktf.IResolvable;
   /**
   * The host name in FQDN format This value can be in unicode format. Regular expression search is not supported for unicode values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#name IpAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#name IpAllocation#name}
   */
   readonly name: string;
   /**
   * The name of the network view in which the host record resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#network_view IpAllocation#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#network_view IpAllocation#network_view}
   */
   readonly networkView?: string;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#restart_if_needed IpAllocation#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#restart_if_needed IpAllocation#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The value of this field specifies the order in which resource record sets are returned. The possible values are "cyclic", "random" and "fixed".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#rrset_order IpAllocation#rrset_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#rrset_order IpAllocation#rrset_order}
   */
   readonly rrsetOrder?: string;
   /**
   * The SNMPv3 credential for this host record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#snmp3_credential IpAllocation#snmp3_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#snmp3_credential IpAllocation#snmp3_credential}
   */
   readonly snmp3Credential?: IpAllocationSnmp3Credential;
   /**
   * The SNMP credential for this host record. If set to true, the SNMP credential will override member-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#snmp_credential IpAllocation#snmp_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#snmp_credential IpAllocation#snmp_credential}
   */
   readonly snmpCredential?: IpAllocationSnmpCredential;
   /**
   * The Time To Live (TTL) value for record. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ttl IpAllocation#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ttl IpAllocation#ttl}
   */
   readonly ttl?: number;
   /**
   * If set to true, the CLI credential will override member-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_cli_credentials IpAllocation#use_cli_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_cli_credentials IpAllocation#use_cli_credentials}
   */
   readonly useCliCredentials?: boolean | cdktf.IResolvable;
   /**
   * When use_dns_ea_inheritance is True, the EA is inherited from associated zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_dns_ea_inheritance IpAllocation#use_dns_ea_inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_dns_ea_inheritance IpAllocation#use_dns_ea_inheritance}
   */
   readonly useDnsEaInheritance?: boolean | cdktf.IResolvable;
   /**
   * Determines if the SNMPv3 credential should be used for the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_snmp3_credential IpAllocation#use_snmp3_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_snmp3_credential IpAllocation#use_snmp3_credential}
   */
   readonly useSnmp3Credential?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the SNMP credential will override member-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_snmp_credential IpAllocation#use_snmp_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_snmp_credential IpAllocation#use_snmp_credential}
   */
   readonly useSnmpCredential?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_ttl IpAllocation#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_ttl IpAllocation#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the record resides. Example: "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#view IpAllocation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#view IpAllocation#view}
   */
   readonly view?: string;
 }
@@ -180,31 +180,31 @@ export interface IpAllocationCliCredentials {
   /**
   * The commment for the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#comment IpAllocation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#comment IpAllocation#comment}
   */
   readonly comment?: string;
   /**
   * Group for the CLI credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * The type of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#credential_type IpAllocation#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#credential_type IpAllocation#credential_type}
   */
   readonly credentialType?: string;
   /**
   * The CLI password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#password IpAllocation#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#password IpAllocation#password}
   */
   readonly password?: string;
   /**
   * The CLI user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#user IpAllocation#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#user IpAllocation#user}
   */
   readonly user?: string;
 }
@@ -443,19 +443,19 @@ export interface IpAllocationCloudInfoDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv4addr IpAllocation#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv4addr IpAllocation#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv6addr IpAllocation#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv6addr IpAllocation#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#name IpAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#name IpAllocation#name}
   */
   readonly name?: string;
 }
@@ -607,7 +607,7 @@ export class IpAllocationCloudInfoDelegatedMemberOutputReference extends cdktf.C
 }
 export interface IpAllocationCloudInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#delegated_member IpAllocation#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#delegated_member IpAllocation#delegated_member}
   */
   readonly delegatedMember?: IpAllocationCloudInfoDelegatedMember;
 }
@@ -1257,37 +1257,37 @@ export interface IpAllocationIpv4AddrsFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#attribute_name IpAllocation#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#attribute_name IpAllocation#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object IpAllocation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object IpAllocation#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object_function IpAllocation#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object_function IpAllocation#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object_parameters IpAllocation#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object_parameters IpAllocation#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#parameters IpAllocation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#parameters IpAllocation#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#result_field IpAllocation#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#result_field IpAllocation#result_field}
   */
   readonly resultField?: string;
 }
@@ -1525,13 +1525,13 @@ export interface IpAllocationIpv4AddrsLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#filter IpAllocation#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#filter IpAllocation#filter}
   */
   readonly filter?: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#type IpAllocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#type IpAllocation#type}
   */
   readonly type?: string;
 }
@@ -1742,31 +1742,31 @@ export interface IpAllocationIpv4AddrsOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#name IpAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#name IpAllocation#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#num IpAllocation#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#num IpAllocation#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_option IpAllocation#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_option IpAllocation#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#value IpAllocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#value IpAllocation#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#vendor_class IpAllocation#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#vendor_class IpAllocation#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -2000,137 +2000,137 @@ export interface IpAllocationIpv4Addrs {
   /**
   * The name of the boot file the client must download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#bootfile IpAllocation#bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#bootfile IpAllocation#bootfile}
   */
   readonly bootfile?: string;
   /**
   * The IP address or hostname of the boot file server where the boot file is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#bootserver IpAllocation#bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#bootserver IpAllocation#bootserver}
   */
   readonly bootserver?: string;
   /**
   * Set this to True to disable the BOOTP settings and deny BOOTP boot requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#deny_bootp IpAllocation#deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#deny_bootp IpAllocation#deny_bootp}
   */
   readonly denyBootp?: boolean | cdktf.IResolvable;
   /**
   * Set this to True if you want the DHCP server to use a different lease time for PXE clients. You can specify the duration of time it takes a host to connect to a boot server, such as a TFTP server, and download the file it needs to boot. For example, set a longer lease time if the client downloads an OS (operating system) or configuration file, or set a shorter lease time if the client downloads only configuration changes. Enter the lease time for the preboot execution environment for hosts to boot remotely from a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#enable_pxe_lease_time IpAllocation#enable_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#enable_pxe_lease_time IpAllocation#enable_pxe_lease_time}
   */
   readonly enablePxeLeaseTime?: boolean | cdktf.IResolvable;
   /**
   * Function call to be executed for Fixed Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#func_call IpAllocation#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#func_call IpAllocation#func_call}
   */
   readonly funcCall?: IpAllocationIpv4AddrsFuncCall;
   /**
   * If this field is set to false, the appliance returns all DHCP options the client is eligible to receive, rather than only the list of options the client has requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ignore_client_requested_options IpAllocation#ignore_client_requested_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ignore_client_requested_options IpAllocation#ignore_client_requested_options}
   */
   readonly ignoreClientRequestedOptions?: boolean | cdktf.IResolvable;
   /**
   * The IPv4 Address of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv4addr IpAllocation#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv4addr IpAllocation#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * This field contains the logic filters to be applied on the this host address. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#logic_filter_rules IpAllocation#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#logic_filter_rules IpAllocation#logic_filter_rules}
   */
   readonly logicFilterRules?: IpAllocationIpv4AddrsLogicFilterRules[] | cdktf.IResolvable;
   /**
   * Set this to 'MAC_ADDRESS' to assign the IP address to the selected host, provided that the MAC address of the requesting host matches the MAC address that you specify in the field. Set this to 'RESERVED' to reserve this particular IP address for future use, or if the IP address is statically configured on a system (the Infoblox server does not assign the address from a DHCP request).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#match_client IpAllocation#match_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#match_client IpAllocation#match_client}
   */
   readonly matchClient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ms_ad_user_data IpAllocation#ms_ad_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ms_ad_user_data IpAllocation#ms_ad_user_data}
   */
   readonly msAdUserData?: IpAllocationIpv4AddrsMsAdUserData;
   /**
   * The name in FQDN format and/or IPv4 Address of the next server that the host needs to boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#nextserver IpAllocation#nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#nextserver IpAllocation#nextserver}
   */
   readonly nextserver?: string;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#options IpAllocation#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#options IpAllocation#options}
   */
   readonly options?: IpAllocationIpv4AddrsOptions[] | cdktf.IResolvable;
   /**
   * The lease time for PXE clients, see *enable_pxe_lease_time* for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#pxe_lease_time IpAllocation#pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#pxe_lease_time IpAllocation#pxe_lease_time}
   */
   readonly pxeLeaseTime?: number;
   /**
   * The reference to the reserved interface to which the device belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#reserved_interface IpAllocation#reserved_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#reserved_interface IpAllocation#reserved_interface}
   */
   readonly reservedInterface?: string;
   /**
   * Use flag for: bootfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_bootfile IpAllocation#use_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_bootfile IpAllocation#use_bootfile}
   */
   readonly useBootfile?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: bootserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_bootserver IpAllocation#use_bootserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_bootserver IpAllocation#use_bootserver}
   */
   readonly useBootserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: deny_bootp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_deny_bootp IpAllocation#use_deny_bootp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_deny_bootp IpAllocation#use_deny_bootp}
   */
   readonly useDenyBootp?: boolean | cdktf.IResolvable;
   /**
   * Set this to True when using this host address for EA inheritance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_for_ea_inheritance IpAllocation#use_for_ea_inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_for_ea_inheritance IpAllocation#use_for_ea_inheritance}
   */
   readonly useForEaInheritance?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ignore_client_requested_options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_ignore_client_requested_options IpAllocation#use_ignore_client_requested_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_ignore_client_requested_options IpAllocation#use_ignore_client_requested_options}
   */
   readonly useIgnoreClientRequestedOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_logic_filter_rules IpAllocation#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_logic_filter_rules IpAllocation#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: nextserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_nextserver IpAllocation#use_nextserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_nextserver IpAllocation#use_nextserver}
   */
   readonly useNextserver?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_options IpAllocation#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_options IpAllocation#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: pxe_lease_time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_pxe_lease_time IpAllocation#use_pxe_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_pxe_lease_time IpAllocation#use_pxe_lease_time}
   */
   readonly usePxeLeaseTime?: boolean | cdktf.IResolvable;
 }
@@ -3466,37 +3466,37 @@ export interface IpAllocationIpv6AddrsFuncCall {
   /**
   * The attribute to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#attribute_name IpAllocation#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#attribute_name IpAllocation#attribute_name}
   */
   readonly attributeName: string;
   /**
   * The object to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object IpAllocation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object IpAllocation#object}
   */
   readonly object?: string;
   /**
   * The function to be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object_function IpAllocation#object_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object_function IpAllocation#object_function}
   */
   readonly objectFunction?: string;
   /**
   * The parameters for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#object_parameters IpAllocation#object_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#object_parameters IpAllocation#object_parameters}
   */
   readonly objectParameters?: { [key: string]: string };
   /**
   * The parameters for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#parameters IpAllocation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#parameters IpAllocation#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The result field of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#result_field IpAllocation#result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#result_field IpAllocation#result_field}
   */
   readonly resultField?: string;
 }
@@ -3734,13 +3734,13 @@ export interface IpAllocationIpv6AddrsLogicFilterRules {
   /**
   * The filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#filter IpAllocation#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#filter IpAllocation#filter}
   */
   readonly filter?: string;
   /**
   * The filter type. Valid values are: * MAC * NAC * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#type IpAllocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#type IpAllocation#type}
   */
   readonly type?: string;
 }
@@ -3951,31 +3951,31 @@ export interface IpAllocationIpv6AddrsOptions {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#name IpAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#name IpAllocation#name}
   */
   readonly name?: string;
   /**
   * The code of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#num IpAllocation#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#num IpAllocation#num}
   */
   readonly num?: number;
   /**
   * Only applies to special options that are displayed separately from other options and have a use flag. These options are: * routers * router-templates * domain-name-servers * domain-name * broadcast-address * broadcast-address-offset * dhcp-lease-time * dhcp6.name-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_option IpAllocation#use_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_option IpAllocation#use_option}
   */
   readonly useOption?: boolean | cdktf.IResolvable;
   /**
   * Value of the DHCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#value IpAllocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#value IpAllocation#value}
   */
   readonly value?: string;
   /**
   * The name of the space this DHCP option is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#vendor_class IpAllocation#vendor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#vendor_class IpAllocation#vendor_class}
   */
   readonly vendorClass?: string;
 }
@@ -4209,119 +4209,119 @@ export interface IpAllocationIpv6Addrs {
   /**
   * Type of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#address_type IpAllocation#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#address_type IpAllocation#address_type}
   */
   readonly addressType?: string;
   /**
   * Use this method to set or retrieve the domain_name value of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#domain_name IpAllocation#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#domain_name IpAllocation#domain_name}
   */
   readonly domainName?: string;
   /**
   * The IPv6 addresses of DNS recursive name servers to which the DHCP client can send name resolution requests. The DHCP server includes this information in the DNS Recursive Name Server option in Advertise, Rebind, Information-Request, and Reply messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#domain_name_servers IpAllocation#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#domain_name_servers IpAllocation#domain_name_servers}
   */
   readonly domainNameServers?: string[];
   /**
   * Function call to be executed for Fixed Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#func_call IpAllocation#func_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#func_call IpAllocation#func_call}
   */
   readonly funcCall?: IpAllocationIpv6AddrsFuncCall;
   /**
   * The IPv6 Address of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv6addr IpAllocation#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv6addr IpAllocation#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The IPv6 Address prefix of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv6prefix IpAllocation#ipv6prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv6prefix IpAllocation#ipv6prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * Prefix bits of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ipv6prefix_bits IpAllocation#ipv6prefix_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ipv6prefix_bits IpAllocation#ipv6prefix_bits}
   */
   readonly ipv6PrefixBits?: number;
   /**
   * This field contains the logic filters to be applied on the this host address. This list corresponds to the match rules that are written to the dhcpd configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#logic_filter_rules IpAllocation#logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#logic_filter_rules IpAllocation#logic_filter_rules}
   */
   readonly logicFilterRules?: IpAllocationIpv6AddrsLogicFilterRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#ms_ad_user_data IpAllocation#ms_ad_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#ms_ad_user_data IpAllocation#ms_ad_user_data}
   */
   readonly msAdUserData?: IpAllocationIpv6AddrsMsAdUserData;
   /**
   * An array of DHCP option dhcpoption structs that lists the DHCP options associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#options IpAllocation#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#options IpAllocation#options}
   */
   readonly options?: IpAllocationIpv6AddrsOptions[] | cdktf.IResolvable;
   /**
   * Use this method to set or retrieve the preferred lifetime value of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#preferred_lifetime IpAllocation#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#preferred_lifetime IpAllocation#preferred_lifetime}
   */
   readonly preferredLifetime?: number;
   /**
   * The reference to the reserved interface to which the device belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#reserved_interface IpAllocation#reserved_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#reserved_interface IpAllocation#reserved_interface}
   */
   readonly reservedInterface?: string;
   /**
   * Use flag for: domain_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_domain_name IpAllocation#use_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_domain_name IpAllocation#use_domain_name}
   */
   readonly useDomainName?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: domain_name_servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_domain_name_servers IpAllocation#use_domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_domain_name_servers IpAllocation#use_domain_name_servers}
   */
   readonly useDomainNameServers?: boolean | cdktf.IResolvable;
   /**
   * Set this to True when using this host address for EA inheritance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_for_ea_inheritance IpAllocation#use_for_ea_inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_for_ea_inheritance IpAllocation#use_for_ea_inheritance}
   */
   readonly useForEaInheritance?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: logic_filter_rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_logic_filter_rules IpAllocation#use_logic_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_logic_filter_rules IpAllocation#use_logic_filter_rules}
   */
   readonly useLogicFilterRules?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_options IpAllocation#use_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_options IpAllocation#use_options}
   */
   readonly useOptions?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: preferred_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_preferred_lifetime IpAllocation#use_preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_preferred_lifetime IpAllocation#use_preferred_lifetime}
   */
   readonly usePreferredLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: valid_lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#use_valid_lifetime IpAllocation#use_valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#use_valid_lifetime IpAllocation#use_valid_lifetime}
   */
   readonly useValidLifetime?: boolean | cdktf.IResolvable;
   /**
   * Use this method to set or retrieve the valid lifetime value of the DHCP IPv6 Host Address object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#valid_lifetime IpAllocation#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#valid_lifetime IpAllocation#valid_lifetime}
   */
   readonly validLifetime?: number;
 }
@@ -5100,43 +5100,43 @@ export interface IpAllocationSnmp3Credential {
   /**
   * Authentication password for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#authentication_password IpAllocation#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#authentication_password IpAllocation#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * Authentication protocol for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#authentication_protocol IpAllocation#authentication_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#authentication_protocol IpAllocation#authentication_protocol}
   */
   readonly authenticationProtocol?: string;
   /**
   * Comments for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#comment IpAllocation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#comment IpAllocation#comment}
   */
   readonly comment?: string;
   /**
   * Group for the SNMPv3 credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
   */
   readonly credentialGroup?: string;
   /**
   * Privacy password for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#privacy_password IpAllocation#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#privacy_password IpAllocation#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
   * Privacy protocol for the SNMPv3 user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#privacy_protocol IpAllocation#privacy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#privacy_protocol IpAllocation#privacy_protocol}
   */
   readonly privacyProtocol?: string;
   /**
   * The SNMPv3 user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#user IpAllocation#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#user IpAllocation#user}
   */
   readonly user?: string;
 }
@@ -5406,19 +5406,19 @@ export interface IpAllocationSnmpCredential {
   /**
   * Comments for the SNMPv1 and SNMPv2 users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#comment IpAllocation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#comment IpAllocation#comment}
   */
   readonly comment?: string;
   /**
   * The public community string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#community_string IpAllocation#community_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#community_string IpAllocation#community_string}
   */
   readonly communityString?: string;
   /**
   * Group for the SNMPv1 and SNMPv2 credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#credential_group IpAllocation#credential_group}
   */
   readonly credentialGroup?: string;
 }
@@ -5570,7 +5570,7 @@ export class IpAllocationSnmpCredentialOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation nios_ip_allocation}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation nios_ip_allocation}
 */
 export class IpAllocation extends cdktf.TerraformResource {
 
@@ -5586,7 +5586,7 @@ export class IpAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAllocation to import
-  * @param importFromId The id of the existing IpAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5598,7 +5598,7 @@ export class IpAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_allocation nios_ip_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_allocation nios_ip_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5609,8 +5609,8 @@ export class IpAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'nios_ip_allocation',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

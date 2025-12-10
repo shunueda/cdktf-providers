@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataInstaclustrClusterExclusionWindowV2InstanceConfig extends c
   /**
   * Cluster Id for the cluster that this exclusion window relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#cluster_id DataInstaclustrClusterExclusionWindowV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#cluster_id DataInstaclustrClusterExclusionWindowV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The day of the week that this exclusion window starts on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#day_of_week DataInstaclustrClusterExclusionWindowV2Instance#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#day_of_week DataInstaclustrClusterExclusionWindowV2Instance#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * The duration (in hours) of this exclusion window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#duration_in_hours DataInstaclustrClusterExclusionWindowV2Instance#duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#duration_in_hours DataInstaclustrClusterExclusionWindowV2Instance#duration_in_hours}
   */
   readonly durationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#id DataInstaclustrClusterExclusionWindowV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#id DataInstaclustrClusterExclusionWindowV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface DataInstaclustrClusterExclusionWindowV2InstanceConfig extends c
   /**
   * The hour of the day that this exclusion window starts on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#start_hour DataInstaclustrClusterExclusionWindowV2Instance#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#start_hour DataInstaclustrClusterExclusionWindowV2Instance#start_hour}
   */
   readonly startHour?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance instaclustr_cluster_exclusion_window_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance instaclustr_cluster_exclusion_window_v2_instance}
 */
 export class DataInstaclustrClusterExclusionWindowV2Instance extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataInstaclustrClusterExclusionWindowV2Instance extends cdktf.Terra
   * Generates CDKTF code for importing a DataInstaclustrClusterExclusionWindowV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterExclusionWindowV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrClusterExclusionWindowV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterExclusionWindowV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterExclusionWindowV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataInstaclustrClusterExclusionWindowV2Instance extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.33/docs/data-sources/cluster_exclusion_window_v2_instance instaclustr_cluster_exclusion_window_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/cluster_exclusion_window_v2_instance instaclustr_cluster_exclusion_window_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataInstaclustrClusterExclusionWindowV2Instance extends cdktf.Terra
       terraformResourceType: 'instaclustr_cluster_exclusion_window_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.33',
-        providerVersionConstraint: '2.1.33'
+        providerVersion: '2.1.34',
+        providerVersionConstraint: '2.1.34'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

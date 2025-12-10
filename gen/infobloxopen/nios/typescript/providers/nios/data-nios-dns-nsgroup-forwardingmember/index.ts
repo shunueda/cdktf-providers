@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsNsgroupForwardingmemberConfig extends cdktf.Terrafor
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#extattrfilters DataNiosDnsNsgroupForwardingmember#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#extattrfilters DataNiosDnsNsgroupForwardingmember#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#filters DataNiosDnsNsgroupForwardingmember#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#filters DataNiosDnsNsgroupForwardingmember#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#max_results DataNiosDnsNsgroupForwardingmember#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#max_results DataNiosDnsNsgroupForwardingmember#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#paging DataNiosDnsNsgroupForwardingmember#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#paging DataNiosDnsNsgroupForwardingmember#paging}
   */
   readonly paging?: number;
 }
@@ -36,13 +36,13 @@ export interface DataNiosDnsNsgroupForwardingmemberResultForwardingServersForwar
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#address DataNiosDnsNsgroupForwardingmember#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#address DataNiosDnsNsgroupForwardingmember#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
   */
   readonly name: string;
 }
@@ -213,25 +213,25 @@ export interface DataNiosDnsNsgroupForwardingmemberResultForwardingServers {
   /**
   * The information for the remote name server to which you want the Infoblox appliance to forward queries for a specified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#forward_to DataNiosDnsNsgroupForwardingmember#forward_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#forward_to DataNiosDnsNsgroupForwardingmember#forward_to}
   */
   readonly forwardTo?: DataNiosDnsNsgroupForwardingmemberResultForwardingServersForwardTo[] | cdktf.IResolvable;
   /**
   * Determines if the appliance sends queries to forwarders only, and not to other internal or Internet root servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#forwarders_only DataNiosDnsNsgroupForwardingmember#forwarders_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#forwarders_only DataNiosDnsNsgroupForwardingmember#forwarders_only}
   */
   readonly forwardersOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of this Grid member in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
   */
   readonly name: string;
   /**
   * Use flag for: forward_to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#use_override_forwarders DataNiosDnsNsgroupForwardingmember#use_override_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#use_override_forwarders DataNiosDnsNsgroupForwardingmember#use_override_forwarders}
   */
   readonly useOverrideForwarders?: boolean | cdktf.IResolvable;
 }
@@ -423,25 +423,25 @@ export interface DataNiosDnsNsgroupForwardingmemberResult {
   /**
   * Comment for the Forwarding Member Name Server Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#comment DataNiosDnsNsgroupForwardingmember#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#comment DataNiosDnsNsgroupForwardingmember#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#extattrs DataNiosDnsNsgroupForwardingmember#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#extattrs DataNiosDnsNsgroupForwardingmember#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of forwarding member servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#forwarding_servers DataNiosDnsNsgroupForwardingmember#forwarding_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#forwarding_servers DataNiosDnsNsgroupForwardingmember#forwarding_servers}
   */
   readonly forwardingServers: DataNiosDnsNsgroupForwardingmemberResultForwardingServers[] | cdktf.IResolvable;
   /**
   * The name of the Forwarding Member Name Server Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#name DataNiosDnsNsgroupForwardingmember#name}
   */
   readonly name: string;
 }
@@ -639,7 +639,7 @@ export class DataNiosDnsNsgroupForwardingmemberResultList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember nios_dns_nsgroup_forwardingmember}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember nios_dns_nsgroup_forwardingmember}
 */
 export class DataNiosDnsNsgroupForwardingmember extends cdktf.TerraformDataSource {
 
@@ -655,7 +655,7 @@ export class DataNiosDnsNsgroupForwardingmember extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataNiosDnsNsgroupForwardingmember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsNsgroupForwardingmember to import
-  * @param importFromId The id of the existing DataNiosDnsNsgroupForwardingmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsNsgroupForwardingmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsNsgroupForwardingmember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -667,7 +667,7 @@ export class DataNiosDnsNsgroupForwardingmember extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardingmember nios_dns_nsgroup_forwardingmember} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardingmember nios_dns_nsgroup_forwardingmember} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -678,8 +678,8 @@ export class DataNiosDnsNsgroupForwardingmember extends cdktf.TerraformDataSourc
       terraformResourceType: 'nios_dns_nsgroup_forwardingmember',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

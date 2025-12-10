@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AutostoppingGcpProxyConfig extends cdktf.TerraformMetaArguments
   /**
   * Boolean value to indicate if proxy vm needs to have static IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#allocate_static_ip AutostoppingGcpProxy#allocate_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#allocate_static_ip AutostoppingGcpProxy#allocate_static_ip}
   */
   readonly allocateStaticIp?: boolean | cdktf.IResolvable;
   /**
   * Harness NG API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#api_key AutostoppingGcpProxy#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#api_key AutostoppingGcpProxy#api_key}
   */
   readonly apiKey: string;
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#cloud_connector_id AutostoppingGcpProxy#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#cloud_connector_id AutostoppingGcpProxy#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Governs how the proxy entity will be deleted on Terraform destroy. When set to true, the associated VM will be deleted permanently from GCP account. Be fully aware of the consequneces of settting this to true, as the action is irreversible. When set to false, solely the Harness LB representation will be deleted, which leaves the proxy VM in GCP account itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#delete_cloud_resources_on_destroy AutostoppingGcpProxy#delete_cloud_resources_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#delete_cloud_resources_on_destroy AutostoppingGcpProxy#delete_cloud_resources_on_destroy}
   */
   readonly deleteCloudResourcesOnDestroy: boolean | cdktf.IResolvable;
   /**
   * Hostname for the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#host_name AutostoppingGcpProxy#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#host_name AutostoppingGcpProxy#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#id AutostoppingGcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#id AutostoppingGcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface AutostoppingGcpProxyConfig extends cdktf.TerraformMetaArguments
   /**
   * Machine instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#machine_type AutostoppingGcpProxy#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#machine_type AutostoppingGcpProxy#machine_type}
   */
   readonly machineType: string;
   /**
   * Name of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#name AutostoppingGcpProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#name AutostoppingGcpProxy#name}
   */
   readonly name: string;
   /**
   * Region in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#region AutostoppingGcpProxy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#region AutostoppingGcpProxy#region}
   */
   readonly region: string;
   /**
   * Security Group to define the security rules that determine the inbound and outbound traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#security_groups AutostoppingGcpProxy#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#security_groups AutostoppingGcpProxy#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * VPC in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#subnet_id AutostoppingGcpProxy#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#subnet_id AutostoppingGcpProxy#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#vpc AutostoppingGcpProxy#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#vpc AutostoppingGcpProxy#vpc}
   */
   readonly vpc: string;
   /**
   * Zone in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#zone AutostoppingGcpProxy#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#zone AutostoppingGcpProxy#zone}
   */
   readonly zone: string;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#certificates AutostoppingGcpProxy#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#certificates AutostoppingGcpProxy#certificates}
   */
   readonly certificates?: AutostoppingGcpProxyCertificates;
 }
@@ -97,13 +97,13 @@ export interface AutostoppingGcpProxyCertificates {
   /**
   * Certificate secret ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#cert_secret_id AutostoppingGcpProxy#cert_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#cert_secret_id AutostoppingGcpProxy#cert_secret_id}
   */
   readonly certSecretId: string;
   /**
   * Private key secret ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#key_secret_id AutostoppingGcpProxy#key_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#key_secret_id AutostoppingGcpProxy#key_secret_id}
   */
   readonly keySecretId: string;
 }
@@ -210,7 +210,7 @@ export class AutostoppingGcpProxyCertificatesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy harness_autostopping_gcp_proxy}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy harness_autostopping_gcp_proxy}
 */
 export class AutostoppingGcpProxy extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class AutostoppingGcpProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingGcpProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingGcpProxy to import
-  * @param importFromId The id of the existing AutostoppingGcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingGcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingGcpProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class AutostoppingGcpProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_gcp_proxy harness_autostopping_gcp_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_gcp_proxy harness_autostopping_gcp_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class AutostoppingGcpProxy extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_gcp_proxy',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

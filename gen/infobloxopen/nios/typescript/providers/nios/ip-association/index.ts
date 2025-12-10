@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IpAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set this to True to enable the DHCP configuration for the IP association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#configure_for_dhcp IpAssociation#configure_for_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#configure_for_dhcp IpAssociation#configure_for_dhcp}
   */
   readonly configureForDhcp?: boolean | cdktf.IResolvable;
   /**
   * The DUID of the IP association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#duid IpAssociation#duid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#duid IpAssociation#duid}
   */
   readonly duid?: string;
   /**
   * The MAC address of the IP association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#mac IpAssociation#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#mac IpAssociation#mac}
   */
   readonly mac?: string;
   /**
   * The match_client value for this IP association. Valid values are: "DUID": The host IP address is leased to the matching DUID. "MAC_ADDRESS": The host IP address is leased to the matching MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#match_client IpAssociation#match_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#match_client IpAssociation#match_client}
   */
   readonly matchClient?: string;
   /**
   * The reference to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#ref IpAssociation#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#ref IpAssociation#ref}
   */
   readonly ref: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association nios_ip_association}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association nios_ip_association}
 */
 export class IpAssociation extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IpAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAssociation to import
-  * @param importFromId The id of the existing IpAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IpAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/ip_association nios_ip_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/ip_association nios_ip_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IpAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'nios_ip_association',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

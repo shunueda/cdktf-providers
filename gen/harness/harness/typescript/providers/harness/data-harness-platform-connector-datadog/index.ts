@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformConnectorDatadogConfig extends cdktf.Terrafo
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#delegate_selectors DataHarnessPlatformConnectorDatadog#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#delegate_selectors DataHarnessPlatformConnectorDatadog#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#id DataHarnessPlatformConnectorDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#id DataHarnessPlatformConnectorDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataHarnessPlatformConnectorDatadogConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#identifier DataHarnessPlatformConnectorDatadog#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#identifier DataHarnessPlatformConnectorDatadog#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#name DataHarnessPlatformConnectorDatadog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#name DataHarnessPlatformConnectorDatadog#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#org_id DataHarnessPlatformConnectorDatadog#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#org_id DataHarnessPlatformConnectorDatadog#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#project_id DataHarnessPlatformConnectorDatadog#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#project_id DataHarnessPlatformConnectorDatadog#project_id}
   */
   readonly projectId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog harness_platform_connector_datadog}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog harness_platform_connector_datadog}
 */
 export class DataHarnessPlatformConnectorDatadog extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataHarnessPlatformConnectorDatadog extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorDatadog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorDatadog to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorDatadog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataHarnessPlatformConnectorDatadog extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_datadog harness_platform_connector_datadog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_connector_datadog harness_platform_connector_datadog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataHarnessPlatformConnectorDatadog extends cdktf.TerraformDataSour
       terraformResourceType: 'harness_platform_connector_datadog',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

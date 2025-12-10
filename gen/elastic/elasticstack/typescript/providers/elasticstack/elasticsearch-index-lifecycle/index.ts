@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ElasticsearchIndexLifecycleConfig extends cdktf.TerraformMetaAr
   /**
   * Optional user metadata about the ilm policy. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#metadata ElasticsearchIndexLifecycle#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#metadata ElasticsearchIndexLifecycle#metadata}
   */
   readonly metadata?: string;
   /**
   * Identifier for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#name ElasticsearchIndexLifecycle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#name ElasticsearchIndexLifecycle#name}
   */
   readonly name: string;
   /**
   * cold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#cold ElasticsearchIndexLifecycle#cold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#cold ElasticsearchIndexLifecycle#cold}
   */
   readonly cold?: ElasticsearchIndexLifecycleCold;
   /**
   * delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#delete ElasticsearchIndexLifecycle#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#delete ElasticsearchIndexLifecycle#delete}
   */
   readonly delete?: ElasticsearchIndexLifecycleDelete;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#elasticsearch_connection ElasticsearchIndexLifecycle#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#elasticsearch_connection ElasticsearchIndexLifecycle#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchIndexLifecycleElasticsearchConnection;
   /**
   * frozen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#frozen ElasticsearchIndexLifecycle#frozen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#frozen ElasticsearchIndexLifecycle#frozen}
   */
   readonly frozen?: ElasticsearchIndexLifecycleFrozen;
   /**
   * hot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#hot ElasticsearchIndexLifecycle#hot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#hot ElasticsearchIndexLifecycle#hot}
   */
   readonly hot?: ElasticsearchIndexLifecycleHot;
   /**
   * warm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#warm ElasticsearchIndexLifecycle#warm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#warm ElasticsearchIndexLifecycle#warm}
   */
   readonly warm?: ElasticsearchIndexLifecycleWarm;
 }
@@ -60,31 +60,31 @@ export interface ElasticsearchIndexLifecycleColdAllocate {
   /**
   * Assigns an index to nodes that have none of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#exclude ElasticsearchIndexLifecycle#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#exclude ElasticsearchIndexLifecycle#exclude}
   */
   readonly exclude?: string;
   /**
   * Assigns an index to nodes that have at least one of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#include ElasticsearchIndexLifecycle#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#include ElasticsearchIndexLifecycle#include}
   */
   readonly include?: string;
   /**
   * Number of replicas to assign to the index. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#number_of_replicas ElasticsearchIndexLifecycle#number_of_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#number_of_replicas ElasticsearchIndexLifecycle#number_of_replicas}
   */
   readonly numberOfReplicas?: number;
   /**
   * Assigns an index to nodes that have all of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#require ElasticsearchIndexLifecycle#require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#require ElasticsearchIndexLifecycle#require}
   */
   readonly require?: string;
   /**
   * The maximum number of shards for the index on a single Elasticsearch node. Defaults to `-1` (unlimited). Supported from Elasticsearch version **7.16**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#total_shards_per_node ElasticsearchIndexLifecycle#total_shards_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#total_shards_per_node ElasticsearchIndexLifecycle#total_shards_per_node}
   */
   readonly totalShardsPerNode?: number;
 }
@@ -286,13 +286,13 @@ export interface ElasticsearchIndexLifecycleColdDownsample {
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
   */
   readonly fixedInterval: string;
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
   */
   readonly waitTimeout?: string;
 }
@@ -404,7 +404,7 @@ export interface ElasticsearchIndexLifecycleColdFreeze {
   /**
   * Controls whether ILM freezes the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -490,7 +490,7 @@ export interface ElasticsearchIndexLifecycleColdMigrate {
   /**
   * Controls whether ILM automatically migrates the index during this phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -576,7 +576,7 @@ export interface ElasticsearchIndexLifecycleColdReadonly {
   /**
   * Controls whether ILM makes the index read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -662,13 +662,13 @@ export interface ElasticsearchIndexLifecycleColdSearchableSnapshot {
   /**
   * Force merges the managed index to one segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
   */
   readonly forceMergeIndex?: boolean | cdktf.IResolvable;
   /**
   * Repository used to store the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
   */
   readonly snapshotRepository: string;
 }
@@ -780,7 +780,7 @@ export interface ElasticsearchIndexLifecycleColdSetPriority {
   /**
   * The priority for the index. Must be 0 or greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
   */
   readonly priority: number;
 }
@@ -863,7 +863,7 @@ export interface ElasticsearchIndexLifecycleColdUnfollow {
   /**
   * Controls whether ILM makes the follower index a regular one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -949,55 +949,55 @@ export interface ElasticsearchIndexLifecycleCold {
   /**
   * ILM moves indices through the lifecycle according to their age. To control the timing of these transitions, you set a minimum age for each phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * allocate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#allocate ElasticsearchIndexLifecycle#allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#allocate ElasticsearchIndexLifecycle#allocate}
   */
   readonly allocate?: ElasticsearchIndexLifecycleColdAllocate;
   /**
   * downsample block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
   */
   readonly downsample?: ElasticsearchIndexLifecycleColdDownsample;
   /**
   * freeze block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#freeze ElasticsearchIndexLifecycle#freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#freeze ElasticsearchIndexLifecycle#freeze}
   */
   readonly freeze?: ElasticsearchIndexLifecycleColdFreeze;
   /**
   * migrate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#migrate ElasticsearchIndexLifecycle#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#migrate ElasticsearchIndexLifecycle#migrate}
   */
   readonly migrate?: ElasticsearchIndexLifecycleColdMigrate;
   /**
   * readonly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
   */
   readonly readonly?: ElasticsearchIndexLifecycleColdReadonly;
   /**
   * searchable_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
   */
   readonly searchableSnapshot?: ElasticsearchIndexLifecycleColdSearchableSnapshot;
   /**
   * set_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
   */
   readonly setPriority?: ElasticsearchIndexLifecycleColdSetPriority;
   /**
   * unfollow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
   */
   readonly unfollow?: ElasticsearchIndexLifecycleColdUnfollow;
 }
@@ -1315,7 +1315,7 @@ export interface ElasticsearchIndexLifecycleDeleteDelete {
   /**
   * Deletes the searchable snapshot created in a previous phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#delete_searchable_snapshot ElasticsearchIndexLifecycle#delete_searchable_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#delete_searchable_snapshot ElasticsearchIndexLifecycle#delete_searchable_snapshot}
   */
   readonly deleteSearchableSnapshot?: boolean | cdktf.IResolvable;
 }
@@ -1401,7 +1401,7 @@ export interface ElasticsearchIndexLifecycleDeleteWaitForSnapshot {
   /**
   * Name of the SLM policy that the delete action should wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#policy ElasticsearchIndexLifecycle#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#policy ElasticsearchIndexLifecycle#policy}
   */
   readonly policy: string;
 }
@@ -1484,19 +1484,19 @@ export interface ElasticsearchIndexLifecycleDelete {
   /**
   * ILM moves indices through the lifecycle according to their age. To control the timing of these transitions, you set a minimum age for each phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#delete ElasticsearchIndexLifecycle#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#delete ElasticsearchIndexLifecycle#delete}
   */
   readonly delete?: ElasticsearchIndexLifecycleDeleteDelete;
   /**
   * wait_for_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#wait_for_snapshot ElasticsearchIndexLifecycle#wait_for_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#wait_for_snapshot ElasticsearchIndexLifecycle#wait_for_snapshot}
   */
   readonly waitForSnapshot?: ElasticsearchIndexLifecycleDeleteWaitForSnapshot;
 }
@@ -1640,85 +1640,85 @@ export interface ElasticsearchIndexLifecycleElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#api_key ElasticsearchIndexLifecycle#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#api_key ElasticsearchIndexLifecycle#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#bearer_token ElasticsearchIndexLifecycle#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#bearer_token ElasticsearchIndexLifecycle#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#ca_data ElasticsearchIndexLifecycle#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#ca_data ElasticsearchIndexLifecycle#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#ca_file ElasticsearchIndexLifecycle#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#ca_file ElasticsearchIndexLifecycle#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#cert_data ElasticsearchIndexLifecycle#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#cert_data ElasticsearchIndexLifecycle#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#cert_file ElasticsearchIndexLifecycle#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#cert_file ElasticsearchIndexLifecycle#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#endpoints ElasticsearchIndexLifecycle#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#endpoints ElasticsearchIndexLifecycle#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#es_client_authentication ElasticsearchIndexLifecycle#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#es_client_authentication ElasticsearchIndexLifecycle#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#headers ElasticsearchIndexLifecycle#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#headers ElasticsearchIndexLifecycle#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#insecure ElasticsearchIndexLifecycle#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#insecure ElasticsearchIndexLifecycle#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#key_data ElasticsearchIndexLifecycle#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#key_data ElasticsearchIndexLifecycle#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#key_file ElasticsearchIndexLifecycle#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#key_file ElasticsearchIndexLifecycle#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#password ElasticsearchIndexLifecycle#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#password ElasticsearchIndexLifecycle#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#username ElasticsearchIndexLifecycle#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#username ElasticsearchIndexLifecycle#username}
   */
   readonly username?: string;
 }
@@ -2181,13 +2181,13 @@ export interface ElasticsearchIndexLifecycleFrozenSearchableSnapshot {
   /**
   * Force merges the managed index to one segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
   */
   readonly forceMergeIndex?: boolean | cdktf.IResolvable;
   /**
   * Repository used to store the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
   */
   readonly snapshotRepository: string;
 }
@@ -2299,13 +2299,13 @@ export interface ElasticsearchIndexLifecycleFrozen {
   /**
   * ILM moves indices through the lifecycle according to their age. To control the timing of these transitions, you set a minimum age for each phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * searchable_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
   */
   readonly searchableSnapshot?: ElasticsearchIndexLifecycleFrozenSearchableSnapshot;
 }
@@ -2420,13 +2420,13 @@ export interface ElasticsearchIndexLifecycleHotDownsample {
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
   */
   readonly fixedInterval: string;
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
   */
   readonly waitTimeout?: string;
 }
@@ -2538,13 +2538,13 @@ export interface ElasticsearchIndexLifecycleHotForcemerge {
   /**
   * Codec used to compress the document store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#index_codec ElasticsearchIndexLifecycle#index_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#index_codec ElasticsearchIndexLifecycle#index_codec}
   */
   readonly indexCodec?: string;
   /**
   * Number of segments to merge to. To fully merge the index, set to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_num_segments ElasticsearchIndexLifecycle#max_num_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_num_segments ElasticsearchIndexLifecycle#max_num_segments}
   */
   readonly maxNumSegments: number;
 }
@@ -2656,7 +2656,7 @@ export interface ElasticsearchIndexLifecycleHotReadonly {
   /**
   * Controls whether ILM makes the index read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2742,61 +2742,61 @@ export interface ElasticsearchIndexLifecycleHotRollover {
   /**
   * Triggers rollover after the maximum elapsed time from index creation is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_age ElasticsearchIndexLifecycle#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_age ElasticsearchIndexLifecycle#max_age}
   */
   readonly maxAge?: string;
   /**
   * Triggers rollover after the specified maximum number of documents is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_docs ElasticsearchIndexLifecycle#max_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_docs ElasticsearchIndexLifecycle#max_docs}
   */
   readonly maxDocs?: number;
   /**
   * Triggers rollover when the largest primary shard in the index reaches a certain number of documents. Supported from Elasticsearch version **8.2**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_docs ElasticsearchIndexLifecycle#max_primary_shard_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_docs ElasticsearchIndexLifecycle#max_primary_shard_docs}
   */
   readonly maxPrimaryShardDocs?: number;
   /**
   * Triggers rollover when the largest primary shard in the index reaches a certain size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
   */
   readonly maxPrimaryShardSize?: string;
   /**
   * Triggers rollover when the index reaches a certain size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_size ElasticsearchIndexLifecycle#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_size ElasticsearchIndexLifecycle#max_size}
   */
   readonly maxSize?: string;
   /**
   * Prevents rollover until after the minimum elapsed time from index creation is reached. Supported from Elasticsearch version **8.4**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * Prevents rollover until after the specified minimum number of documents is reached. Supported from Elasticsearch version **8.4**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_docs ElasticsearchIndexLifecycle#min_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_docs ElasticsearchIndexLifecycle#min_docs}
   */
   readonly minDocs?: number;
   /**
   * Prevents rollover until the largest primary shard in the index reaches a certain number of documents. Supported from Elasticsearch version **8.4**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_primary_shard_docs ElasticsearchIndexLifecycle#min_primary_shard_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_primary_shard_docs ElasticsearchIndexLifecycle#min_primary_shard_docs}
   */
   readonly minPrimaryShardDocs?: number;
   /**
   * Prevents rollover until the largest primary shard in the index reaches a certain size. Supported from Elasticsearch version **8.4**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_primary_shard_size ElasticsearchIndexLifecycle#min_primary_shard_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_primary_shard_size ElasticsearchIndexLifecycle#min_primary_shard_size}
   */
   readonly minPrimaryShardSize?: string;
   /**
   * Prevents rollover until the index reaches a certain size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_size ElasticsearchIndexLifecycle#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_size ElasticsearchIndexLifecycle#min_size}
   */
   readonly minSize?: string;
 }
@@ -3143,13 +3143,13 @@ export interface ElasticsearchIndexLifecycleHotSearchableSnapshot {
   /**
   * Force merges the managed index to one segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#force_merge_index ElasticsearchIndexLifecycle#force_merge_index}
   */
   readonly forceMergeIndex?: boolean | cdktf.IResolvable;
   /**
   * Repository used to store the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#snapshot_repository ElasticsearchIndexLifecycle#snapshot_repository}
   */
   readonly snapshotRepository: string;
 }
@@ -3261,7 +3261,7 @@ export interface ElasticsearchIndexLifecycleHotSetPriority {
   /**
   * The priority for the index. Must be 0 or greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
   */
   readonly priority: number;
 }
@@ -3344,19 +3344,19 @@ export interface ElasticsearchIndexLifecycleHotShrink {
   /**
   * If true, the shrunken index is made writable by removing the write block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#allow_write_after_shrink ElasticsearchIndexLifecycle#allow_write_after_shrink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#allow_write_after_shrink ElasticsearchIndexLifecycle#allow_write_after_shrink}
   */
   readonly allowWriteAfterShrink?: boolean | cdktf.IResolvable;
   /**
   * The max primary shard size for the target index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
   */
   readonly maxPrimaryShardSize?: string;
   /**
   * Number of shards to shrink to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#number_of_shards ElasticsearchIndexLifecycle#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#number_of_shards ElasticsearchIndexLifecycle#number_of_shards}
   */
   readonly numberOfShards?: number;
 }
@@ -3500,7 +3500,7 @@ export interface ElasticsearchIndexLifecycleHotUnfollow {
   /**
   * Controls whether ILM makes the follower index a regular one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3586,55 +3586,55 @@ export interface ElasticsearchIndexLifecycleHot {
   /**
   * ILM moves indices through the lifecycle according to their age. To control the timing of these transitions, you set a minimum age for each phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * downsample block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
   */
   readonly downsample?: ElasticsearchIndexLifecycleHotDownsample;
   /**
   * forcemerge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#forcemerge ElasticsearchIndexLifecycle#forcemerge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#forcemerge ElasticsearchIndexLifecycle#forcemerge}
   */
   readonly forcemerge?: ElasticsearchIndexLifecycleHotForcemerge;
   /**
   * readonly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
   */
   readonly readonly?: ElasticsearchIndexLifecycleHotReadonly;
   /**
   * rollover block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#rollover ElasticsearchIndexLifecycle#rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#rollover ElasticsearchIndexLifecycle#rollover}
   */
   readonly rollover?: ElasticsearchIndexLifecycleHotRollover;
   /**
   * searchable_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#searchable_snapshot ElasticsearchIndexLifecycle#searchable_snapshot}
   */
   readonly searchableSnapshot?: ElasticsearchIndexLifecycleHotSearchableSnapshot;
   /**
   * set_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
   */
   readonly setPriority?: ElasticsearchIndexLifecycleHotSetPriority;
   /**
   * shrink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#shrink ElasticsearchIndexLifecycle#shrink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#shrink ElasticsearchIndexLifecycle#shrink}
   */
   readonly shrink?: ElasticsearchIndexLifecycleHotShrink;
   /**
   * unfollow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
   */
   readonly unfollow?: ElasticsearchIndexLifecycleHotUnfollow;
 }
@@ -3952,31 +3952,31 @@ export interface ElasticsearchIndexLifecycleWarmAllocate {
   /**
   * Assigns an index to nodes that have none of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#exclude ElasticsearchIndexLifecycle#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#exclude ElasticsearchIndexLifecycle#exclude}
   */
   readonly exclude?: string;
   /**
   * Assigns an index to nodes that have at least one of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#include ElasticsearchIndexLifecycle#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#include ElasticsearchIndexLifecycle#include}
   */
   readonly include?: string;
   /**
   * Number of replicas to assign to the index. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#number_of_replicas ElasticsearchIndexLifecycle#number_of_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#number_of_replicas ElasticsearchIndexLifecycle#number_of_replicas}
   */
   readonly numberOfReplicas?: number;
   /**
   * Assigns an index to nodes that have all of the specified custom attributes. Must be valid JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#require ElasticsearchIndexLifecycle#require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#require ElasticsearchIndexLifecycle#require}
   */
   readonly require?: string;
   /**
   * The maximum number of shards for the index on a single Elasticsearch node. Defaults to `-1` (unlimited). Supported from Elasticsearch version **7.16**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#total_shards_per_node ElasticsearchIndexLifecycle#total_shards_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#total_shards_per_node ElasticsearchIndexLifecycle#total_shards_per_node}
   */
   readonly totalShardsPerNode?: number;
 }
@@ -4178,13 +4178,13 @@ export interface ElasticsearchIndexLifecycleWarmDownsample {
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#fixed_interval ElasticsearchIndexLifecycle#fixed_interval}
   */
   readonly fixedInterval: string;
   /**
   * Downsampling interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#wait_timeout ElasticsearchIndexLifecycle#wait_timeout}
   */
   readonly waitTimeout?: string;
 }
@@ -4296,13 +4296,13 @@ export interface ElasticsearchIndexLifecycleWarmForcemerge {
   /**
   * Codec used to compress the document store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#index_codec ElasticsearchIndexLifecycle#index_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#index_codec ElasticsearchIndexLifecycle#index_codec}
   */
   readonly indexCodec?: string;
   /**
   * Number of segments to merge to. To fully merge the index, set to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_num_segments ElasticsearchIndexLifecycle#max_num_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_num_segments ElasticsearchIndexLifecycle#max_num_segments}
   */
   readonly maxNumSegments: number;
 }
@@ -4414,7 +4414,7 @@ export interface ElasticsearchIndexLifecycleWarmMigrate {
   /**
   * Controls whether ILM automatically migrates the index during this phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4500,7 +4500,7 @@ export interface ElasticsearchIndexLifecycleWarmReadonly {
   /**
   * Controls whether ILM makes the index read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4586,7 +4586,7 @@ export interface ElasticsearchIndexLifecycleWarmSetPriority {
   /**
   * The priority for the index. Must be 0 or greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#priority ElasticsearchIndexLifecycle#priority}
   */
   readonly priority: number;
 }
@@ -4669,19 +4669,19 @@ export interface ElasticsearchIndexLifecycleWarmShrink {
   /**
   * If true, the shrunken index is made writable by removing the write block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#allow_write_after_shrink ElasticsearchIndexLifecycle#allow_write_after_shrink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#allow_write_after_shrink ElasticsearchIndexLifecycle#allow_write_after_shrink}
   */
   readonly allowWriteAfterShrink?: boolean | cdktf.IResolvable;
   /**
   * The max primary shard size for the target index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#max_primary_shard_size ElasticsearchIndexLifecycle#max_primary_shard_size}
   */
   readonly maxPrimaryShardSize?: string;
   /**
   * Number of shards to shrink to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#number_of_shards ElasticsearchIndexLifecycle#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#number_of_shards ElasticsearchIndexLifecycle#number_of_shards}
   */
   readonly numberOfShards?: number;
 }
@@ -4825,7 +4825,7 @@ export interface ElasticsearchIndexLifecycleWarmUnfollow {
   /**
   * Controls whether ILM makes the follower index a regular one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#enabled ElasticsearchIndexLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4911,55 +4911,55 @@ export interface ElasticsearchIndexLifecycleWarm {
   /**
   * ILM moves indices through the lifecycle according to their age. To control the timing of these transitions, you set a minimum age for each phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#min_age ElasticsearchIndexLifecycle#min_age}
   */
   readonly minAge?: string;
   /**
   * allocate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#allocate ElasticsearchIndexLifecycle#allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#allocate ElasticsearchIndexLifecycle#allocate}
   */
   readonly allocate?: ElasticsearchIndexLifecycleWarmAllocate;
   /**
   * downsample block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#downsample ElasticsearchIndexLifecycle#downsample}
   */
   readonly downsample?: ElasticsearchIndexLifecycleWarmDownsample;
   /**
   * forcemerge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#forcemerge ElasticsearchIndexLifecycle#forcemerge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#forcemerge ElasticsearchIndexLifecycle#forcemerge}
   */
   readonly forcemerge?: ElasticsearchIndexLifecycleWarmForcemerge;
   /**
   * migrate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#migrate ElasticsearchIndexLifecycle#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#migrate ElasticsearchIndexLifecycle#migrate}
   */
   readonly migrate?: ElasticsearchIndexLifecycleWarmMigrate;
   /**
   * readonly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#readonly ElasticsearchIndexLifecycle#readonly}
   */
   readonly readonly?: ElasticsearchIndexLifecycleWarmReadonly;
   /**
   * set_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#set_priority ElasticsearchIndexLifecycle#set_priority}
   */
   readonly setPriority?: ElasticsearchIndexLifecycleWarmSetPriority;
   /**
   * shrink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#shrink ElasticsearchIndexLifecycle#shrink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#shrink ElasticsearchIndexLifecycle#shrink}
   */
   readonly shrink?: ElasticsearchIndexLifecycleWarmShrink;
   /**
   * unfollow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#unfollow ElasticsearchIndexLifecycle#unfollow}
   */
   readonly unfollow?: ElasticsearchIndexLifecycleWarmUnfollow;
 }
@@ -5275,7 +5275,7 @@ export class ElasticsearchIndexLifecycleWarmOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle elasticstack_elasticsearch_index_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle elasticstack_elasticsearch_index_lifecycle}
 */
 export class ElasticsearchIndexLifecycle extends cdktf.TerraformResource {
 
@@ -5291,7 +5291,7 @@ export class ElasticsearchIndexLifecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchIndexLifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchIndexLifecycle to import
-  * @param importFromId The id of the existing ElasticsearchIndexLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchIndexLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchIndexLifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5303,7 +5303,7 @@ export class ElasticsearchIndexLifecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_index_lifecycle elasticstack_elasticsearch_index_lifecycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_lifecycle elasticstack_elasticsearch_index_lifecycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5314,8 +5314,8 @@ export class ElasticsearchIndexLifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_index_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

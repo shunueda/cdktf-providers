@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#app_id ServiceKubernetes#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#app_id ServiceKubernetes#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#description ServiceKubernetes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#description ServiceKubernetes#description}
   */
   readonly description?: string;
   /**
   * The version of Helm to use. Options are `V2` and `V3`. Defaults to 'V2'. Only used when `type` is `KUBERNETES` or `HELM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#helm_version ServiceKubernetes#helm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#helm_version ServiceKubernetes#helm_version}
   */
   readonly helmVersion?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#name ServiceKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#name ServiceKubernetes#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#variable ServiceKubernetes#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#variable ServiceKubernetes#variable}
   */
   readonly variable?: ServiceKubernetesVariable[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface ServiceKubernetesVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#name ServiceKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#name ServiceKubernetes#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#type ServiceKubernetes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#type ServiceKubernetes#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#value ServiceKubernetes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#value ServiceKubernetes#value}
   */
   readonly value: string;
 }
@@ -219,7 +219,7 @@ export class ServiceKubernetesVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes harness_service_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes harness_service_kubernetes}
 */
 export class ServiceKubernetes extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class ServiceKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceKubernetes to import
-  * @param importFromId The id of the existing ServiceKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class ServiceKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_kubernetes harness_service_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/service_kubernetes harness_service_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class ServiceKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

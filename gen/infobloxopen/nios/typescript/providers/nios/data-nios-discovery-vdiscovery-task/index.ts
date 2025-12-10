@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosDiscoveryVdiscoveryTaskConfig extends cdktf.TerraformMe
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#filters DataNiosDiscoveryVdiscoveryTask#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#filters DataNiosDiscoveryVdiscoveryTask#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#max_results DataNiosDiscoveryVdiscoveryTask#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#max_results DataNiosDiscoveryVdiscoveryTask#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#paging DataNiosDiscoveryVdiscoveryTask#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#paging DataNiosDiscoveryVdiscoveryTask#paging}
   */
   readonly paging?: number;
 }
@@ -30,73 +30,73 @@ export interface DataNiosDiscoveryVdiscoveryTaskResultScheduledRun {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#day_of_month DataNiosDiscoveryVdiscoveryTask#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#day_of_month DataNiosDiscoveryVdiscoveryTask#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#disable DataNiosDiscoveryVdiscoveryTask#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#disable DataNiosDiscoveryVdiscoveryTask#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#every DataNiosDiscoveryVdiscoveryTask#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#every DataNiosDiscoveryVdiscoveryTask#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#frequency DataNiosDiscoveryVdiscoveryTask#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#frequency DataNiosDiscoveryVdiscoveryTask#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#hour_of_day DataNiosDiscoveryVdiscoveryTask#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#hour_of_day DataNiosDiscoveryVdiscoveryTask#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#minutes_past_hour DataNiosDiscoveryVdiscoveryTask#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#minutes_past_hour DataNiosDiscoveryVdiscoveryTask#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#month DataNiosDiscoveryVdiscoveryTask#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#month DataNiosDiscoveryVdiscoveryTask#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#recurring_time DataNiosDiscoveryVdiscoveryTask#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#recurring_time DataNiosDiscoveryVdiscoveryTask#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#repeat DataNiosDiscoveryVdiscoveryTask#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#repeat DataNiosDiscoveryVdiscoveryTask#repeat}
   */
   readonly repeat?: string;
   /**
   * The time zone for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#time_zone DataNiosDiscoveryVdiscoveryTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#time_zone DataNiosDiscoveryVdiscoveryTask#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#weekdays DataNiosDiscoveryVdiscoveryTask#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#weekdays DataNiosDiscoveryVdiscoveryTask#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#year DataNiosDiscoveryVdiscoveryTask#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#year DataNiosDiscoveryVdiscoveryTask#year}
   */
   readonly year?: number;
 }
@@ -511,259 +511,259 @@ export interface DataNiosDiscoveryVdiscoveryTaskResult {
   /**
   * Allow unsecured connection over HTTPS and bypass validation of the remote SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#allow_unsecured_connection DataNiosDiscoveryVdiscoveryTask#allow_unsecured_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#allow_unsecured_connection DataNiosDiscoveryVdiscoveryTask#allow_unsecured_connection}
   */
   readonly allowUnsecuredConnection?: boolean | cdktf.IResolvable;
   /**
   * Whether to insert or update cloud EAs with discovery data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_cloud_ea DataNiosDiscoveryVdiscoveryTask#auto_consolidate_cloud_ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_cloud_ea DataNiosDiscoveryVdiscoveryTask#auto_consolidate_cloud_ea}
   */
   readonly autoConsolidateCloudEa: boolean | cdktf.IResolvable;
   /**
   * Whether to replace managed tenant with discovery tenant data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_managed_tenant DataNiosDiscoveryVdiscoveryTask#auto_consolidate_managed_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_managed_tenant DataNiosDiscoveryVdiscoveryTask#auto_consolidate_managed_tenant}
   */
   readonly autoConsolidateManagedTenant: boolean | cdktf.IResolvable;
   /**
   * Whether to replace managed virtual machine with discovery vm data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_managed_vm DataNiosDiscoveryVdiscoveryTask#auto_consolidate_managed_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_consolidate_managed_vm DataNiosDiscoveryVdiscoveryTask#auto_consolidate_managed_vm}
   */
   readonly autoConsolidateManagedVm: boolean | cdktf.IResolvable;
   /**
   * Template string used to generate host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_hostname_template DataNiosDiscoveryVdiscoveryTask#auto_create_dns_hostname_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_hostname_template DataNiosDiscoveryVdiscoveryTask#auto_create_dns_hostname_template}
   */
   readonly autoCreateDnsHostnameTemplate?: string;
   /**
   * Control whether to create or update DNS record using discovered data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_record DataNiosDiscoveryVdiscoveryTask#auto_create_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_record DataNiosDiscoveryVdiscoveryTask#auto_create_dns_record}
   */
   readonly autoCreateDnsRecord?: boolean | cdktf.IResolvable;
   /**
   * Indicates the type of record to create if the auto create DNS record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_record_type DataNiosDiscoveryVdiscoveryTask#auto_create_dns_record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#auto_create_dns_record_type DataNiosDiscoveryVdiscoveryTask#auto_create_dns_record_type}
   */
   readonly autoCreateDnsRecordType?: string;
   /**
   * The path to a file containing AWS account IDs or GCP Project IDs. when multiple_accounts_sync_policy is set to UPLOAD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#cdiscovery_file DataNiosDiscoveryVdiscoveryTask#cdiscovery_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#cdiscovery_file DataNiosDiscoveryVdiscoveryTask#cdiscovery_file}
   */
   readonly cdiscoveryFile?: string;
   /**
   * Comment on the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#comment DataNiosDiscoveryVdiscoveryTask#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#comment DataNiosDiscoveryVdiscoveryTask#comment}
   */
   readonly comment?: string;
   /**
   * Credentials type used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#credentials_type DataNiosDiscoveryVdiscoveryTask#credentials_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#credentials_type DataNiosDiscoveryVdiscoveryTask#credentials_type}
   */
   readonly credentialsType?: string;
   /**
   * The DNS view name for private IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#dns_view_private_ip DataNiosDiscoveryVdiscoveryTask#dns_view_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#dns_view_private_ip DataNiosDiscoveryVdiscoveryTask#dns_view_private_ip}
   */
   readonly dnsViewPrivateIp?: string;
   /**
   * The DNS view name for public IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#dns_view_public_ip DataNiosDiscoveryVdiscoveryTask#dns_view_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#dns_view_public_ip DataNiosDiscoveryVdiscoveryTask#dns_view_public_ip}
   */
   readonly dnsViewPublicIp?: string;
   /**
   * The name of the domain to use with keystone v3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#domain_name DataNiosDiscoveryVdiscoveryTask#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#domain_name DataNiosDiscoveryVdiscoveryTask#domain_name}
   */
   readonly domainName?: string;
   /**
   * Type of discovery driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#driver_type DataNiosDiscoveryVdiscoveryTask#driver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#driver_type DataNiosDiscoveryVdiscoveryTask#driver_type}
   */
   readonly driverType: string;
   /**
   * Enable filter for cloud discovery task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#enable_filter DataNiosDiscoveryVdiscoveryTask#enable_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#enable_filter DataNiosDiscoveryVdiscoveryTask#enable_filter}
   */
   readonly enableFilter?: boolean | cdktf.IResolvable;
   /**
   * Whether to enabled the cloud discovery or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#enabled DataNiosDiscoveryVdiscoveryTask#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#enabled DataNiosDiscoveryVdiscoveryTask#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FQDN or IP of the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#fqdn_or_ip DataNiosDiscoveryVdiscoveryTask#fqdn_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#fqdn_or_ip DataNiosDiscoveryVdiscoveryTask#fqdn_or_ip}
   */
   readonly fqdnOrIp?: string;
   /**
   * Indicates if gov cloud is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#govcloud_enabled DataNiosDiscoveryVdiscoveryTask#govcloud_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#govcloud_enabled DataNiosDiscoveryVdiscoveryTask#govcloud_enabled}
   */
   readonly govcloudEnabled?: boolean | cdktf.IResolvable;
   /**
   * Identity service version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#identity_version DataNiosDiscoveryVdiscoveryTask#identity_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#identity_version DataNiosDiscoveryVdiscoveryTask#identity_version}
   */
   readonly identityVersion?: string;
   /**
   * Member on which cloud discovery will be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#member DataNiosDiscoveryVdiscoveryTask#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#member DataNiosDiscoveryVdiscoveryTask#member}
   */
   readonly member: string;
   /**
   * Whether to replace the old data with new or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#merge_data DataNiosDiscoveryVdiscoveryTask#merge_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#merge_data DataNiosDiscoveryVdiscoveryTask#merge_data}
   */
   readonly mergeData: boolean | cdktf.IResolvable;
   /**
   * Discover all child accounts or Upload child account ids to discover..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#multiple_accounts_sync_policy DataNiosDiscoveryVdiscoveryTask#multiple_accounts_sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#multiple_accounts_sync_policy DataNiosDiscoveryVdiscoveryTask#multiple_accounts_sync_policy}
   */
   readonly multipleAccountsSyncPolicy?: string;
   /**
   * Name of this cloud discovery task. Uniquely identify a task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#name DataNiosDiscoveryVdiscoveryTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#name DataNiosDiscoveryVdiscoveryTask#name}
   */
   readonly name: string;
   /**
   * Options to filter the networks in cdiscovery task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#network_filter DataNiosDiscoveryVdiscoveryTask#network_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#network_filter DataNiosDiscoveryVdiscoveryTask#network_filter}
   */
   readonly networkFilter?: string;
   /**
   * List of networks to filter in cdiscovery task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#network_list DataNiosDiscoveryVdiscoveryTask#network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#network_list DataNiosDiscoveryVdiscoveryTask#network_list}
   */
   readonly networkList?: string[];
   /**
   * Password used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#password DataNiosDiscoveryVdiscoveryTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#password DataNiosDiscoveryVdiscoveryTask#password}
   */
   readonly password?: string;
   /**
   * Connection port used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#port DataNiosDiscoveryVdiscoveryTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#port DataNiosDiscoveryVdiscoveryTask#port}
   */
   readonly port?: number;
   /**
   * Network view for private IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#private_network_view DataNiosDiscoveryVdiscoveryTask#private_network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#private_network_view DataNiosDiscoveryVdiscoveryTask#private_network_view}
   */
   readonly privateNetworkView?: string;
   /**
   * Mapping policy for the network view for private IPs in discovery data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#private_network_view_mapping_policy DataNiosDiscoveryVdiscoveryTask#private_network_view_mapping_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#private_network_view_mapping_policy DataNiosDiscoveryVdiscoveryTask#private_network_view_mapping_policy}
   */
   readonly privateNetworkViewMappingPolicy: string;
   /**
   * Connection protocol used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#protocol DataNiosDiscoveryVdiscoveryTask#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#protocol DataNiosDiscoveryVdiscoveryTask#protocol}
   */
   readonly protocol?: string;
   /**
   * Network view for public IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#public_network_view DataNiosDiscoveryVdiscoveryTask#public_network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#public_network_view DataNiosDiscoveryVdiscoveryTask#public_network_view}
   */
   readonly publicNetworkView?: string;
   /**
   * Mapping policy for the network view for public IPs in discovery data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#public_network_view_mapping_policy DataNiosDiscoveryVdiscoveryTask#public_network_view_mapping_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#public_network_view_mapping_policy DataNiosDiscoveryVdiscoveryTask#public_network_view_mapping_policy}
   */
   readonly publicNetworkViewMappingPolicy: string;
   /**
   * Role ARN for syncing child accounts; maximum 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#role_arn DataNiosDiscoveryVdiscoveryTask#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#role_arn DataNiosDiscoveryVdiscoveryTask#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Schedule setting for cloud discovery task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#scheduled_run DataNiosDiscoveryVdiscoveryTask#scheduled_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#scheduled_run DataNiosDiscoveryVdiscoveryTask#scheduled_run}
   */
   readonly scheduledRun?: DataNiosDiscoveryVdiscoveryTaskResultScheduledRun;
   /**
   * String containing selected regions for discovery in comma separated format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#selected_regions DataNiosDiscoveryVdiscoveryTask#selected_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#selected_regions DataNiosDiscoveryVdiscoveryTask#selected_regions}
   */
   readonly selectedRegions?: string;
   /**
   * The service_account_file for GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#service_account_file DataNiosDiscoveryVdiscoveryTask#service_account_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#service_account_file DataNiosDiscoveryVdiscoveryTask#service_account_file}
   */
   readonly serviceAccountFile?: string;
   /**
   * Service account file's token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#service_account_file_token DataNiosDiscoveryVdiscoveryTask#service_account_file_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#service_account_file_token DataNiosDiscoveryVdiscoveryTask#service_account_file_token}
   */
   readonly serviceAccountFileToken?: string;
   /**
   * Synchronizing child accounts is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#sync_child_accounts DataNiosDiscoveryVdiscoveryTask#sync_child_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#sync_child_accounts DataNiosDiscoveryVdiscoveryTask#sync_child_accounts}
   */
   readonly syncChildAccounts?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the appliance uses a specific DNS view for private IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#update_dns_view_private_ip DataNiosDiscoveryVdiscoveryTask#update_dns_view_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#update_dns_view_private_ip DataNiosDiscoveryVdiscoveryTask#update_dns_view_private_ip}
   */
   readonly updateDnsViewPrivateIp?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the appliance uses a specific DNS view for public IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#update_dns_view_public_ip DataNiosDiscoveryVdiscoveryTask#update_dns_view_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#update_dns_view_public_ip DataNiosDiscoveryVdiscoveryTask#update_dns_view_public_ip}
   */
   readonly updateDnsViewPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Whether to update metadata as a result of this network discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#update_metadata DataNiosDiscoveryVdiscoveryTask#update_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#update_metadata DataNiosDiscoveryVdiscoveryTask#update_metadata}
   */
   readonly updateMetadata: boolean | cdktf.IResolvable;
   /**
   * If set true, all keystone connection will use "/identity" endpoint and port value will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#use_identity DataNiosDiscoveryVdiscoveryTask#use_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#use_identity DataNiosDiscoveryVdiscoveryTask#use_identity}
   */
   readonly useIdentity?: boolean | cdktf.IResolvable;
   /**
   * Username used for connecting to the cloud management platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#username DataNiosDiscoveryVdiscoveryTask#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#username DataNiosDiscoveryVdiscoveryTask#username}
   */
   readonly username?: string;
 }
@@ -2087,7 +2087,7 @@ export class DataNiosDiscoveryVdiscoveryTaskResultList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task nios_discovery_vdiscovery_task}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task nios_discovery_vdiscovery_task}
 */
 export class DataNiosDiscoveryVdiscoveryTask extends cdktf.TerraformDataSource {
 
@@ -2103,7 +2103,7 @@ export class DataNiosDiscoveryVdiscoveryTask extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDiscoveryVdiscoveryTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDiscoveryVdiscoveryTask to import
-  * @param importFromId The id of the existing DataNiosDiscoveryVdiscoveryTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDiscoveryVdiscoveryTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDiscoveryVdiscoveryTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2115,7 +2115,7 @@ export class DataNiosDiscoveryVdiscoveryTask extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_vdiscovery_task nios_discovery_vdiscovery_task} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_vdiscovery_task nios_discovery_vdiscovery_task} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2126,8 +2126,8 @@ export class DataNiosDiscoveryVdiscoveryTask extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_discovery_vdiscovery_task',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

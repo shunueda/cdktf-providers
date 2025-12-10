@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosNotificationRestEndpointConfig extends cdktf.TerraformM
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#extattrfilters DataNiosNotificationRestEndpoint#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#extattrfilters DataNiosNotificationRestEndpoint#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#filters DataNiosNotificationRestEndpoint#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#filters DataNiosNotificationRestEndpoint#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#max_results DataNiosNotificationRestEndpoint#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#max_results DataNiosNotificationRestEndpoint#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#paging DataNiosNotificationRestEndpoint#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#paging DataNiosNotificationRestEndpoint#paging}
   */
   readonly paging?: number;
 }
@@ -36,19 +36,19 @@ export interface DataNiosNotificationRestEndpointResultTemplateInstanceParameter
   /**
   * The name of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#name DataNiosNotificationRestEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#name DataNiosNotificationRestEndpoint#name}
   */
   readonly name: string;
   /**
   * The syntax of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#syntax DataNiosNotificationRestEndpoint#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#syntax DataNiosNotificationRestEndpoint#syntax}
   */
   readonly syntax: string;
   /**
   * The value of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#value DataNiosNotificationRestEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#value DataNiosNotificationRestEndpoint#value}
   */
   readonly value?: string;
 }
@@ -223,13 +223,13 @@ export interface DataNiosNotificationRestEndpointResultTemplateInstance {
   /**
   * The notification REST template parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#parameters DataNiosNotificationRestEndpoint#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#parameters DataNiosNotificationRestEndpoint#parameters}
   */
   readonly parameters?: DataNiosNotificationRestEndpointResultTemplateInstanceParameters[] | cdktf.IResolvable;
   /**
   * The name of the REST API template parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#template DataNiosNotificationRestEndpoint#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#template DataNiosNotificationRestEndpoint#template}
   */
   readonly template: string;
 }
@@ -351,103 +351,103 @@ export interface DataNiosNotificationRestEndpointResult {
   /**
   * The token returned by the uploadinit function call in object fileop for a notification REST endpoit client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#client_certificate_file DataNiosNotificationRestEndpoint#client_certificate_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#client_certificate_file DataNiosNotificationRestEndpoint#client_certificate_file}
   */
   readonly clientCertificateFile?: string;
   /**
   * The comment of a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#comment DataNiosNotificationRestEndpoint#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#comment DataNiosNotificationRestEndpoint#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#extattrs DataNiosNotificationRestEndpoint#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#extattrs DataNiosNotificationRestEndpoint#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The log level for a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#log_level DataNiosNotificationRestEndpoint#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#log_level DataNiosNotificationRestEndpoint#log_level}
   */
   readonly logLevel?: string;
   /**
   * The name of a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#name DataNiosNotificationRestEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#name DataNiosNotificationRestEndpoint#name}
   */
   readonly name: string;
   /**
   * The outbound member which will generate an event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#outbound_member_type DataNiosNotificationRestEndpoint#outbound_member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#outbound_member_type DataNiosNotificationRestEndpoint#outbound_member_type}
   */
   readonly outboundMemberType: string;
   /**
   * The list of members for outbound events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#outbound_members DataNiosNotificationRestEndpoint#outbound_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#outbound_members DataNiosNotificationRestEndpoint#outbound_members}
   */
   readonly outboundMembers?: string[];
   /**
   * The password of the user that can log into a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#password DataNiosNotificationRestEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#password DataNiosNotificationRestEndpoint#password}
   */
   readonly password?: string;
   /**
   * The server certificate validation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#server_cert_validation DataNiosNotificationRestEndpoint#server_cert_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#server_cert_validation DataNiosNotificationRestEndpoint#server_cert_validation}
   */
   readonly serverCertValidation?: string;
   /**
   * Determines if the sync process is disabled for a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#sync_disabled DataNiosNotificationRestEndpoint#sync_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#sync_disabled DataNiosNotificationRestEndpoint#sync_disabled}
   */
   readonly syncDisabled?: boolean | cdktf.IResolvable;
   /**
   * The notification REST template instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#template_instance DataNiosNotificationRestEndpoint#template_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#template_instance DataNiosNotificationRestEndpoint#template_instance}
   */
   readonly templateInstance?: DataNiosNotificationRestEndpointResultTemplateInstance;
   /**
   * The timeout of session management (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#timeout DataNiosNotificationRestEndpoint#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#timeout DataNiosNotificationRestEndpoint#timeout}
   */
   readonly timeout?: number;
   /**
   * The URI of a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#uri DataNiosNotificationRestEndpoint#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#uri DataNiosNotificationRestEndpoint#uri}
   */
   readonly uri: string;
   /**
   * The username of the user that can log into a notification REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#username DataNiosNotificationRestEndpoint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#username DataNiosNotificationRestEndpoint#username}
   */
   readonly username?: string;
   /**
   * The vendor identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#vendor_identifier DataNiosNotificationRestEndpoint#vendor_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#vendor_identifier DataNiosNotificationRestEndpoint#vendor_identifier}
   */
   readonly vendorIdentifier?: string;
   /**
   * The user name for WAPI integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#wapi_user_name DataNiosNotificationRestEndpoint#wapi_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#wapi_user_name DataNiosNotificationRestEndpoint#wapi_user_name}
   */
   readonly wapiUserName?: string;
   /**
   * The user password for WAPI integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#wapi_user_password DataNiosNotificationRestEndpoint#wapi_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#wapi_user_password DataNiosNotificationRestEndpoint#wapi_user_password}
   */
   readonly wapiUserPassword?: string;
 }
@@ -1039,7 +1039,7 @@ export class DataNiosNotificationRestEndpointResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint nios_notification_rest_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint nios_notification_rest_endpoint}
 */
 export class DataNiosNotificationRestEndpoint extends cdktf.TerraformDataSource {
 
@@ -1055,7 +1055,7 @@ export class DataNiosNotificationRestEndpoint extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosNotificationRestEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosNotificationRestEndpoint to import
-  * @param importFromId The id of the existing DataNiosNotificationRestEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosNotificationRestEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosNotificationRestEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1067,7 +1067,7 @@ export class DataNiosNotificationRestEndpoint extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/notification_rest_endpoint nios_notification_rest_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/notification_rest_endpoint nios_notification_rest_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1078,8 +1078,8 @@ export class DataNiosNotificationRestEndpoint extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_notification_rest_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

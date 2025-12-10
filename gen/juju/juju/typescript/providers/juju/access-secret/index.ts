@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AccessSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of applications to which the secret is granted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret#applications AccessSecret#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret#applications AccessSecret#applications}
   */
   readonly applications: string[];
   /**
-  * The model in which the secret belongs.
+  * The UUID of the model in which the secret belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret#model AccessSecret#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret#model_uuid AccessSecret#model_uuid}
   */
-  readonly model: string;
+  readonly modelUuid: string;
   /**
   * The ID of the secret. E.g. coj8mulh8b41e8nv6p90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret#secret_id AccessSecret#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret#secret_id AccessSecret#secret_id}
   */
   readonly secretId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret juju_access_secret}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret juju_access_secret}
 */
 export class AccessSecret extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AccessSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessSecret to import
-  * @param importFromId The id of the existing AccessSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AccessSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_secret juju_access_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_secret juju_access_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AccessSecret extends cdktf.TerraformResource {
       terraformResourceType: 'juju_access_secret',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,7 +79,7 @@ export class AccessSecret extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._applications = config.applications;
-    this._model = config.model;
+    this._modelUuid = config.modelUuid;
     this._secretId = config.secretId;
   }
 
@@ -105,17 +105,17 @@ export class AccessSecret extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // model - computed: false, optional: false, required: true
-  private _model?: string; 
-  public get model() {
-    return this.getStringAttribute('model');
+  // model_uuid - computed: false, optional: false, required: true
+  private _modelUuid?: string; 
+  public get modelUuid() {
+    return this.getStringAttribute('model_uuid');
   }
-  public set model(value: string) {
-    this._model = value;
+  public set modelUuid(value: string) {
+    this._modelUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get modelInput() {
-    return this._model;
+  public get modelUuidInput() {
+    return this._modelUuid;
   }
 
   // secret_id - computed: false, optional: false, required: true
@@ -138,7 +138,7 @@ export class AccessSecret extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       applications: cdktf.listMapper(cdktf.stringToTerraform, false)(this._applications),
-      model: cdktf.stringToTerraform(this._model),
+      model_uuid: cdktf.stringToTerraform(this._modelUuid),
       secret_id: cdktf.stringToTerraform(this._secretId),
     };
   }
@@ -151,8 +151,8 @@ export class AccessSecret extends cdktf.TerraformResource {
         type: "set",
         storageClassType: "stringList",
       },
-      model: {
-        value: cdktf.stringToHclTerraform(this._model),
+      model_uuid: {
+        value: cdktf.stringToHclTerraform(this._modelUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

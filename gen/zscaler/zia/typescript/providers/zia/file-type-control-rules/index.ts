@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FileTypeControlRulesConfig extends cdktf.TerraformMetaArguments
   /**
   * Flag to check whether a file has active content or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#active_content FileTypeControlRules#active_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#active_content FileTypeControlRules#active_content}
   */
   readonly activeContent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#browser_eun_template_id FileTypeControlRules#browser_eun_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#browser_eun_template_id FileTypeControlRules#browser_eun_template_id}
   */
   readonly browserEunTemplateId?: number;
   /**
   * A Boolean value that indicates whether packet capture (PCAP) is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#capture_pcap FileTypeControlRules#capture_pcap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#capture_pcap FileTypeControlRules#capture_pcap}
   */
   readonly capturePcap?: boolean | cdktf.IResolvable;
   /**
@@ -29,19 +29,19 @@ export interface FileTypeControlRulesConfig extends cdktf.TerraformMetaArguments
   * 				https://registry.terraform.io/providers/zscaler/zia/latest/docs/data-sources/zia_cloud_applications
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#cloud_applications FileTypeControlRules#cloud_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#cloud_applications FileTypeControlRules#cloud_applications}
   */
   readonly cloudApplications?: string[];
   /**
   * The description of the File Type Control rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#description FileTypeControlRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#description FileTypeControlRules#description}
   */
   readonly description?: string;
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#device_trust_levels FileTypeControlRules#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#device_trust_levels FileTypeControlRules#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
@@ -49,67 +49,67 @@ export interface FileTypeControlRulesConfig extends cdktf.TerraformMetaArguments
   * 				See the available file types API in:
   * 				https://help.zscaler.com/zia/file-type-control-policy#/fileTypeRules-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#file_types FileTypeControlRules#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#file_types FileTypeControlRules#file_types}
   */
   readonly fileTypes?: string[];
   /**
   * Action taken when traffic matches policy. This field is not applicable to the Lite API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#filtering_action FileTypeControlRules#filtering_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#filtering_action FileTypeControlRules#filtering_action}
   */
   readonly filteringAction?: string;
   /**
   * Maximum file size (in KB) used for evaluation of the FTP rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#max_size FileTypeControlRules#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#max_size FileTypeControlRules#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum file size (in KB) used for evaluation of the FTP rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#min_size FileTypeControlRules#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#min_size FileTypeControlRules#min_size}
   */
   readonly minSize?: number;
   /**
   * The File Type Control policy rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#name FileTypeControlRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#name FileTypeControlRules#name}
   */
   readonly name: string;
   /**
   * File operation performed. This field is not applicable to the Lite API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#operation FileTypeControlRules#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#operation FileTypeControlRules#operation}
   */
   readonly operation?: string;
   /**
   * The rule order of execution for the  File Type Control rule with respect to other rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#order FileTypeControlRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#order FileTypeControlRules#order}
   */
   readonly order: number;
   /**
   * Protocol for the given rule. This field is not applicable to the Lite API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#protocols FileTypeControlRules#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#protocols FileTypeControlRules#protocols}
   */
   readonly protocols: string[];
   /**
   * Admin rank of the admin who creates this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#rank FileTypeControlRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#rank FileTypeControlRules#rank}
   */
   readonly rank?: number;
   /**
   * Enables or disables the File Type Control rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#state FileTypeControlRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#state FileTypeControlRules#state}
   */
   readonly state?: string;
   /**
   * Flag to check whether a file has active content or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#unscannable FileTypeControlRules#unscannable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#unscannable FileTypeControlRules#unscannable}
   */
   readonly unscannable?: boolean | cdktf.IResolvable;
   /**
@@ -117,79 +117,79 @@ export interface FileTypeControlRulesConfig extends cdktf.TerraformMetaArguments
   * 				See the URL Categories API for the list of available categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#url_categories FileTypeControlRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#url_categories FileTypeControlRules#url_categories}
   */
   readonly urlCategories?: string[];
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#departments FileTypeControlRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#departments FileTypeControlRules#departments}
   */
   readonly departments?: FileTypeControlRulesDepartments;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#device_groups FileTypeControlRules#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#device_groups FileTypeControlRules#device_groups}
   */
   readonly deviceGroups?: FileTypeControlRulesDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#devices FileTypeControlRules#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#devices FileTypeControlRules#devices}
   */
   readonly devices?: FileTypeControlRulesDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#groups FileTypeControlRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#groups FileTypeControlRules#groups}
   */
   readonly groups?: FileTypeControlRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#labels FileTypeControlRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#labels FileTypeControlRules#labels}
   */
   readonly labels?: FileTypeControlRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#location_groups FileTypeControlRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#location_groups FileTypeControlRules#location_groups}
   */
   readonly locationGroups?: FileTypeControlRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#locations FileTypeControlRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#locations FileTypeControlRules#locations}
   */
   readonly locations?: FileTypeControlRulesLocations;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#time_windows FileTypeControlRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#time_windows FileTypeControlRules#time_windows}
   */
   readonly timeWindows?: FileTypeControlRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#timeouts FileTypeControlRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#timeouts FileTypeControlRules#timeouts}
   */
   readonly timeouts?: FileTypeControlRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#users FileTypeControlRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#users FileTypeControlRules#users}
   */
   readonly users?: FileTypeControlRulesUsers;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#zpa_app_segments FileTypeControlRules#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#zpa_app_segments FileTypeControlRules#zpa_app_segments}
   */
   readonly zpaAppSegments?: FileTypeControlRulesZpaAppSegments[] | cdktf.IResolvable;
 }
 export interface FileTypeControlRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -276,7 +276,7 @@ export class FileTypeControlRulesDepartmentsOutputReference extends cdktf.Comple
 }
 export interface FileTypeControlRulesDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -363,7 +363,7 @@ export class FileTypeControlRulesDeviceGroupsOutputReference extends cdktf.Compl
 }
 export interface FileTypeControlRulesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -450,7 +450,7 @@ export class FileTypeControlRulesDevicesOutputReference extends cdktf.ComplexObj
 }
 export interface FileTypeControlRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -537,7 +537,7 @@ export class FileTypeControlRulesGroupsOutputReference extends cdktf.ComplexObje
 }
 export interface FileTypeControlRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -624,7 +624,7 @@ export class FileTypeControlRulesLabelsOutputReference extends cdktf.ComplexObje
 }
 export interface FileTypeControlRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -711,7 +711,7 @@ export class FileTypeControlRulesLocationGroupsOutputReference extends cdktf.Com
 }
 export interface FileTypeControlRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -798,7 +798,7 @@ export class FileTypeControlRulesLocationsOutputReference extends cdktf.ComplexO
 }
 export interface FileTypeControlRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -885,11 +885,11 @@ export class FileTypeControlRulesTimeWindowsOutputReference extends cdktf.Comple
 }
 export interface FileTypeControlRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#create FileTypeControlRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#create FileTypeControlRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#update FileTypeControlRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#update FileTypeControlRules#update}
   */
   readonly update?: string;
 }
@@ -1012,7 +1012,7 @@ export class FileTypeControlRulesTimeoutsOutputReference extends cdktf.ComplexOb
 }
 export interface FileTypeControlRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#id FileTypeControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1101,13 +1101,13 @@ export interface FileTypeControlRulesZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#external_id FileTypeControlRules#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#external_id FileTypeControlRules#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#name FileTypeControlRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#name FileTypeControlRules#name}
   */
   readonly name: string;
 }
@@ -1246,7 +1246,7 @@ export class FileTypeControlRulesZpaAppSegmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules zia_file_type_control_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules zia_file_type_control_rules}
 */
 export class FileTypeControlRules extends cdktf.TerraformResource {
 
@@ -1262,7 +1262,7 @@ export class FileTypeControlRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileTypeControlRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileTypeControlRules to import
-  * @param importFromId The id of the existing FileTypeControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileTypeControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileTypeControlRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1274,7 +1274,7 @@ export class FileTypeControlRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/resources/file_type_control_rules zia_file_type_control_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/resources/file_type_control_rules zia_file_type_control_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1285,8 +1285,8 @@ export class FileTypeControlRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_file_type_control_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

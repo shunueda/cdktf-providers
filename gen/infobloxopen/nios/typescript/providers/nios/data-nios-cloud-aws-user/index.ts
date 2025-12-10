@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosCloudAwsUserConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#filters DataNiosCloudAwsUser#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#filters DataNiosCloudAwsUser#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#max_results DataNiosCloudAwsUser#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#max_results DataNiosCloudAwsUser#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#paging DataNiosCloudAwsUser#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#paging DataNiosCloudAwsUser#paging}
   */
   readonly paging?: number;
 }
@@ -30,37 +30,37 @@ export interface DataNiosCloudAwsUserResult {
   /**
   * The unique Access Key ID of this AWS user. Maximum 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#access_key_id DataNiosCloudAwsUser#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#access_key_id DataNiosCloudAwsUser#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS Account ID of this AWS user. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#account_id DataNiosCloudAwsUser#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#account_id DataNiosCloudAwsUser#account_id}
   */
   readonly accountId: string;
   /**
   * Indicates if gov cloud is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#govcloud_enabled DataNiosCloudAwsUser#govcloud_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#govcloud_enabled DataNiosCloudAwsUser#govcloud_enabled}
   */
   readonly govcloudEnabled?: boolean | cdktf.IResolvable;
   /**
   * The AWS user name. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#name DataNiosCloudAwsUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#name DataNiosCloudAwsUser#name}
   */
   readonly name: string;
   /**
   * The NIOS user name mapped to this AWS user. Maximum 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#nios_user_name DataNiosCloudAwsUser#nios_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#nios_user_name DataNiosCloudAwsUser#nios_user_name}
   */
   readonly niosUserName?: string;
   /**
   * The Secret Access Key for the Access Key ID of this user. Maximum 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#secret_access_key DataNiosCloudAwsUser#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#secret_access_key DataNiosCloudAwsUser#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -314,7 +314,7 @@ export class DataNiosCloudAwsUserResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user nios_cloud_aws_user}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user nios_cloud_aws_user}
 */
 export class DataNiosCloudAwsUser extends cdktf.TerraformDataSource {
 
@@ -330,7 +330,7 @@ export class DataNiosCloudAwsUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosCloudAwsUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosCloudAwsUser to import
-  * @param importFromId The id of the existing DataNiosCloudAwsUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosCloudAwsUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosCloudAwsUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class DataNiosCloudAwsUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/cloud_aws_user nios_cloud_aws_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/cloud_aws_user nios_cloud_aws_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class DataNiosCloudAwsUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_cloud_aws_user',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,58 +11,58 @@ export interface LldpConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#delete_mode Lldp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#delete_mode Lldp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#device Lldp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#device Lldp#device}
   */
   readonly device?: string;
   /**
   * Specify the holdtime (in sec) to be sent in packets
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#holdtime Lldp#holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#holdtime Lldp#holdtime}
   */
   readonly holdtime?: number;
   /**
   * IPV4 address List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#ipv4_management_addresses Lldp#ipv4_management_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#ipv4_management_addresses Lldp#ipv4_management_addresses}
   */
   readonly ipv4ManagementAddresses?: string[];
   /**
   * IPV6 address List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#ipv6_management_addresses Lldp#ipv6_management_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#ipv6_management_addresses Lldp#ipv6_management_addresses}
   */
   readonly ipv6ManagementAddresses?: string[];
   /**
   * Custom Management VLAN
   *   - Range: `1`-`4095`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#management_vlan Lldp#management_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#management_vlan Lldp#management_vlan}
   */
   readonly managementVlan?: number;
   /**
   * Enable LLDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#run Lldp#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#run Lldp#run}
   */
   readonly run?: boolean | cdktf.IResolvable;
   /**
   * System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#system_names Lldp#system_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#system_names Lldp#system_names}
   */
   readonly systemNames?: LldpSystemNames[] | cdktf.IResolvable;
   /**
   * Rate at which LLDP packets are sent (in sec)
   *   - Range: `5`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#timer Lldp#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#timer Lldp#timer}
   */
   readonly timer?: number;
 }
@@ -70,14 +70,14 @@ export interface LldpSystemNames {
   /**
   * System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#name Lldp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#name Lldp#name}
   */
   readonly name?: string;
   /**
   * Switch identifier
   *   - Range: `0`-`17`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#switch_id Lldp#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#switch_id Lldp#switch_id}
   */
   readonly switchId: number;
 }
@@ -219,7 +219,7 @@ export class LldpSystemNamesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp iosxe_lldp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp iosxe_lldp}
 */
 export class Lldp extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class Lldp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lldp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lldp to import
-  * @param importFromId The id of the existing Lldp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lldp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lldp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class Lldp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/lldp iosxe_lldp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/lldp iosxe_lldp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class Lldp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_lldp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

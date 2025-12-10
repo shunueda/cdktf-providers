@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,78 +10,78 @@ export interface VlanConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enter VFI name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#access_vfi VlanConfiguration#access_vfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#access_vfi VlanConfiguration#access_vfi}
   */
   readonly accessVfi?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#device VlanConfiguration#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#device VlanConfiguration#device}
   */
   readonly device?: string;
   /**
   * EVPN instance number (current path). Use for IOS-XE >= 17.15.
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance VlanConfiguration#evpn_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance VlanConfiguration#evpn_instance}
   */
   readonly evpnInstance?: number;
   /**
   * EVPN instance number (deprecated path). Use for IOS-XE < 17.15.
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_legacy VlanConfiguration#evpn_instance_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_legacy VlanConfiguration#evpn_instance_legacy}
   */
   readonly evpnInstanceLegacy?: number;
   /**
   * EVPN instance profile name. Use for IOS-XE >= 17.15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_profile VlanConfiguration#evpn_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_profile VlanConfiguration#evpn_instance_profile}
   */
   readonly evpnInstanceProfile?: string;
   /**
   * Enable local peer to peer blocking for auto EVI with profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_profile_protected VlanConfiguration#evpn_instance_profile_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_profile_protected VlanConfiguration#evpn_instance_profile_protected}
   */
   readonly evpnInstanceProfileProtected?: boolean | cdktf.IResolvable;
   /**
   * Enable local peer to peer blocking for EVI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_protected VlanConfiguration#evpn_instance_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_protected VlanConfiguration#evpn_instance_protected}
   */
   readonly evpnInstanceProtected?: boolean | cdktf.IResolvable;
   /**
   * VNI for EVPN instance (current path). Use for IOS-XE >= 17.15.
   *   - Range: `4096`-`16777215`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_vni VlanConfiguration#evpn_instance_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_vni VlanConfiguration#evpn_instance_vni}
   */
   readonly evpnInstanceVni?: number;
   /**
   * VNI for EVPN instance (deprecated path). Use for IOS-XE < 17.15.
   *   - Range: `4096`-`16777215`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#evpn_instance_vni_legacy VlanConfiguration#evpn_instance_vni_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#evpn_instance_vni_legacy VlanConfiguration#evpn_instance_vni_legacy}
   */
   readonly evpnInstanceVniLegacy?: number;
   /**
   * VLAN ID List Eg. 1-10,15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#vlan_id VlanConfiguration#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#vlan_id VlanConfiguration#vlan_id}
   */
   readonly vlanId: string;
   /**
   * VxLAN VNI value
   *   - Range: `4096`-`16777215`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#vni VlanConfiguration#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#vni VlanConfiguration#vni}
   */
   readonly vni?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration iosxe_vlan_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration iosxe_vlan_configuration}
 */
 export class VlanConfiguration extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class VlanConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VlanConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VlanConfiguration to import
-  * @param importFromId The id of the existing VlanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VlanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VlanConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class VlanConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan_configuration iosxe_vlan_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vlan_configuration iosxe_vlan_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class VlanConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_vlan_configuration',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

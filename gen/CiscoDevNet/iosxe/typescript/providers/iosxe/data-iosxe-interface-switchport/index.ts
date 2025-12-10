@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIosxeInterfaceSwitchportConfig extends cdktf.TerraformMetaA
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport#device DataIosxeInterfaceSwitchport#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport#device DataIosxeInterfaceSwitchport#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport#name DataIosxeInterfaceSwitchport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport#name DataIosxeInterfaceSwitchport#name}
   */
   readonly name: string;
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport#type DataIosxeInterfaceSwitchport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport#type DataIosxeInterfaceSwitchport#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport iosxe_interface_switchport}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport iosxe_interface_switchport}
 */
 export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
 
@@ -42,7 +42,7 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceSwitchport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceSwitchport to import
-  * @param importFromId The id of the existing DataIosxeInterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceSwitchport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_switchport iosxe_interface_switchport} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_switchport iosxe_interface_switchport} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_switchport',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

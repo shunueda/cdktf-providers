@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories
+// https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataZiaFileTypeCategoriesConfig extends cdktf.TerraformMetaArgu
   /**
   * Enum values to filter file types for specific policy categories. Valid values: ZSCALERDLP, EXTERNALDLP, FILETYPECATEGORYFORFILETYPECONTROL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories#enums DataZiaFileTypeCategories#enums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories#enums DataZiaFileTypeCategories#enums}
   */
   readonly enums?: string[];
   /**
   * A Boolean value specifying whether custom file types must be excluded from the list or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories#exclude_custom_file_types DataZiaFileTypeCategories#exclude_custom_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories#exclude_custom_file_types DataZiaFileTypeCategories#exclude_custom_file_types}
   */
   readonly excludeCustomFileTypes?: boolean | cdktf.IResolvable;
   /**
   * File type ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories#id DataZiaFileTypeCategories#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories#id DataZiaFileTypeCategories#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataZiaFileTypeCategoriesConfig extends cdktf.TerraformMetaArgu
   /**
   * File type description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories#name DataZiaFileTypeCategories#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories#name DataZiaFileTypeCategories#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories zia_file_type_categories}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories zia_file_type_categories}
 */
 export class DataZiaFileTypeCategories extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataZiaFileTypeCategories extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaFileTypeCategories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaFileTypeCategories to import
-  * @param importFromId The id of the existing DataZiaFileTypeCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaFileTypeCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaFileTypeCategories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataZiaFileTypeCategories extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.4/docs/data-sources/file_type_categories zia_file_type_categories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.5/docs/data-sources/file_type_categories zia_file_type_categories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataZiaFileTypeCategories extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_file_type_categories',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.4',
-        providerVersionConstraint: '4.6.4'
+        providerVersion: '4.6.5',
+        providerVersionConstraint: '4.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

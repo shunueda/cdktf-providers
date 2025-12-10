@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosDiscoveryCredentialgroupConfig extends cdktf.TerraformM
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup#filters DataNiosDiscoveryCredentialgroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup#filters DataNiosDiscoveryCredentialgroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup#max_results DataNiosDiscoveryCredentialgroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup#max_results DataNiosDiscoveryCredentialgroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup#paging DataNiosDiscoveryCredentialgroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup#paging DataNiosDiscoveryCredentialgroup#paging}
   */
   readonly paging?: number;
 }
@@ -30,7 +30,7 @@ export interface DataNiosDiscoveryCredentialgroupResult {
   /**
   * The name of the Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup#name DataNiosDiscoveryCredentialgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup#name DataNiosDiscoveryCredentialgroup#name}
   */
   readonly name: string;
 }
@@ -138,7 +138,7 @@ export class DataNiosDiscoveryCredentialgroupResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup nios_discovery_credentialgroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup nios_discovery_credentialgroup}
 */
 export class DataNiosDiscoveryCredentialgroup extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataNiosDiscoveryCredentialgroup extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNiosDiscoveryCredentialgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDiscoveryCredentialgroup to import
-  * @param importFromId The id of the existing DataNiosDiscoveryCredentialgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDiscoveryCredentialgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDiscoveryCredentialgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataNiosDiscoveryCredentialgroup extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/discovery_credentialgroup nios_discovery_credentialgroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/discovery_credentialgroup nios_discovery_credentialgroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataNiosDiscoveryCredentialgroup extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_discovery_credentialgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

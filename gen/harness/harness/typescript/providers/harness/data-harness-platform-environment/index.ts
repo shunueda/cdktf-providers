@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#id DataHarnessPlatformEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#id DataHarnessPlatformEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataHarnessPlatformEnvironmentConfig extends cdktf.TerraformMet
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#identifier DataHarnessPlatformEnvironment#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#identifier DataHarnessPlatformEnvironment#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#name DataHarnessPlatformEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#name DataHarnessPlatformEnvironment#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#org_id DataHarnessPlatformEnvironment#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#org_id DataHarnessPlatformEnvironment#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#project_id DataHarnessPlatformEnvironment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#project_id DataHarnessPlatformEnvironment#project_id}
   */
   readonly projectId?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#git_details DataHarnessPlatformEnvironment#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#git_details DataHarnessPlatformEnvironment#git_details}
   */
   readonly gitDetails?: DataHarnessPlatformEnvironmentGitDetails;
 }
@@ -49,19 +49,19 @@ export interface DataHarnessPlatformEnvironmentGitDetails {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#branch DataHarnessPlatformEnvironment#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#branch DataHarnessPlatformEnvironment#branch}
   */
   readonly branch?: string;
   /**
   * Load environment yaml from fallback branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#load_from_fallback_branch DataHarnessPlatformEnvironment#load_from_fallback_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#load_from_fallback_branch DataHarnessPlatformEnvironment#load_from_fallback_branch}
   */
   readonly loadFromFallbackBranch?: boolean | cdktf.IResolvable;
   /**
   * Repo name of remote environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#repo_name DataHarnessPlatformEnvironment#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#repo_name DataHarnessPlatformEnvironment#repo_name}
   */
   readonly repoName?: string;
 }
@@ -203,7 +203,7 @@ export class DataHarnessPlatformEnvironmentGitDetailsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment harness_platform_environment}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment harness_platform_environment}
 */
 export class DataHarnessPlatformEnvironment extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataHarnessPlatformEnvironment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformEnvironment to import
-  * @param importFromId The id of the existing DataHarnessPlatformEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataHarnessPlatformEnvironment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment harness_platform_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_environment harness_platform_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataHarnessPlatformEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_environment',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

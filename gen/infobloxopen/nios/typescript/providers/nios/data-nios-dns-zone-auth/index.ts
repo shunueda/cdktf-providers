@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsZoneAuthConfig extends cdktf.TerraformMetaArguments 
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#extattrfilters DataNiosDnsZoneAuth#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#extattrfilters DataNiosDnsZoneAuth#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#filters DataNiosDnsZoneAuth#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#filters DataNiosDnsZoneAuth#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#max_results DataNiosDnsZoneAuth#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#max_results DataNiosDnsZoneAuth#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#paging DataNiosDnsZoneAuth#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#paging DataNiosDnsZoneAuth#paging}
   */
   readonly paging?: number;
 }
@@ -36,13 +36,13 @@ export interface DataNiosDnsZoneAuthResultAllowActiveDir {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
 }
@@ -186,49 +186,49 @@ export interface DataNiosDnsZoneAuthResultAllowQuery {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
   */
   readonly ref?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
   */
   readonly struct?: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -549,47 +549,47 @@ export interface DataNiosDnsZoneAuthResultAllowTransfer {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
   */
   readonly ref?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
   */
   readonly struct?: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -910,49 +910,49 @@ export interface DataNiosDnsZoneAuthResultAllowUpdate {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
   /**
   * The reference to the Named ACL object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ref DataNiosDnsZoneAuth#ref}
   */
   readonly ref?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
   */
   readonly struct?: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -1511,13 +1511,13 @@ export interface DataNiosDnsZoneAuthResultDnssecKeyParamsKskAlgorithms {
   /**
   * The signing key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#algorithm DataNiosDnsZoneAuth#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#algorithm DataNiosDnsZoneAuth#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The signing key size, in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#size DataNiosDnsZoneAuth#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#size DataNiosDnsZoneAuth#size}
   */
   readonly size?: number;
 }
@@ -1664,13 +1664,13 @@ export interface DataNiosDnsZoneAuthResultDnssecKeyParamsZskAlgorithms {
   /**
   * The signing key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#algorithm DataNiosDnsZoneAuth#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#algorithm DataNiosDnsZoneAuth#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The signing key size, in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#size DataNiosDnsZoneAuth#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#size DataNiosDnsZoneAuth#size}
   */
   readonly size?: number;
 }
@@ -1817,85 +1817,85 @@ export interface DataNiosDnsZoneAuthResultDnssecKeyParams {
   /**
   * If set to True, automatic rollovers for the signing key is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_ksk_auto_rollover DataNiosDnsZoneAuth#enable_ksk_auto_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_ksk_auto_rollover DataNiosDnsZoneAuth#enable_ksk_auto_rollover}
   */
   readonly enableKskAutoRollover?: boolean | cdktf.IResolvable;
   /**
   * A list of Key Signing Key Algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ksk_algorithms DataNiosDnsZoneAuth#ksk_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ksk_algorithms DataNiosDnsZoneAuth#ksk_algorithms}
   */
   readonly kskAlgorithms?: DataNiosDnsZoneAuthResultDnssecKeyParamsKskAlgorithms[] | cdktf.IResolvable;
   /**
   * Enable email notifications for KSK related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ksk_email_notification_enabled DataNiosDnsZoneAuth#ksk_email_notification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ksk_email_notification_enabled DataNiosDnsZoneAuth#ksk_email_notification_enabled}
   */
   readonly kskEmailNotificationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Key Signing Key rollover interval, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ksk_rollover DataNiosDnsZoneAuth#ksk_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ksk_rollover DataNiosDnsZoneAuth#ksk_rollover}
   */
   readonly kskRollover?: number;
   /**
   * This field controls events for which users will be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ksk_rollover_notification_config DataNiosDnsZoneAuth#ksk_rollover_notification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ksk_rollover_notification_config DataNiosDnsZoneAuth#ksk_rollover_notification_config}
   */
   readonly kskRolloverNotificationConfig?: string;
   /**
   * Enable SNMP notifications for KSK related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ksk_snmp_notification_enabled DataNiosDnsZoneAuth#ksk_snmp_notification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ksk_snmp_notification_enabled DataNiosDnsZoneAuth#ksk_snmp_notification_enabled}
   */
   readonly kskSnmpNotificationEnabled?: boolean | cdktf.IResolvable;
   /**
   * NSEC (next secure) types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#next_secure_type DataNiosDnsZoneAuth#next_secure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#next_secure_type DataNiosDnsZoneAuth#next_secure_type}
   */
   readonly nextSecureType?: string;
   /**
   * The number of iterations used for hashing NSEC3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#nsec3_iterations DataNiosDnsZoneAuth#nsec3_iterations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#nsec3_iterations DataNiosDnsZoneAuth#nsec3_iterations}
   */
   readonly nsec3Iterations?: number;
   /**
   * The maximum length for NSEC3 salts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#nsec3_salt_max_length DataNiosDnsZoneAuth#nsec3_salt_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#nsec3_salt_max_length DataNiosDnsZoneAuth#nsec3_salt_max_length}
   */
   readonly nsec3SaltMaxLength?: number;
   /**
   * The minimum length for NSEC3 salts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#nsec3_salt_min_length DataNiosDnsZoneAuth#nsec3_salt_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#nsec3_salt_min_length DataNiosDnsZoneAuth#nsec3_salt_min_length}
   */
   readonly nsec3SaltMinLength?: number;
   /**
   * Signature expiration time, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#signature_expiration DataNiosDnsZoneAuth#signature_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#signature_expiration DataNiosDnsZoneAuth#signature_expiration}
   */
   readonly signatureExpiration?: number;
   /**
   * A list of Zone Signing Key Algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#zsk_algorithms DataNiosDnsZoneAuth#zsk_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#zsk_algorithms DataNiosDnsZoneAuth#zsk_algorithms}
   */
   readonly zskAlgorithms?: DataNiosDnsZoneAuthResultDnssecKeyParamsZskAlgorithms[] | cdktf.IResolvable;
   /**
   * Zone Signing Key rollover interval, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#zsk_rollover DataNiosDnsZoneAuth#zsk_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#zsk_rollover DataNiosDnsZoneAuth#zsk_rollover}
   */
   readonly zskRollover?: number;
   /**
   * Zone Signing Key rollover mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#zsk_rollover_mechanism DataNiosDnsZoneAuth#zsk_rollover_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#zsk_rollover_mechanism DataNiosDnsZoneAuth#zsk_rollover_mechanism}
   */
   readonly zskRolloverMechanism?: string;
 }
@@ -2388,7 +2388,7 @@ export interface DataNiosDnsZoneAuthResultDnssecKeys {
   /**
   * The tag of the key for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tag DataNiosDnsZoneAuth#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tag DataNiosDnsZoneAuth#tag}
   */
   readonly tag: number;
 }
@@ -2518,43 +2518,43 @@ export interface DataNiosDnsZoneAuthResultExternalPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -2845,43 +2845,43 @@ export interface DataNiosDnsZoneAuthResultExternalSecondaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -3172,43 +3172,43 @@ export interface DataNiosDnsZoneAuthResultGridPrimaryPreferredPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -3489,13 +3489,13 @@ export interface DataNiosDnsZoneAuthResultGridPrimary {
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -3660,43 +3660,43 @@ export interface DataNiosDnsZoneAuthResultGridSecondariesPreferredPrimaries {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * A generated TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The TSIG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -3987,37 +3987,37 @@ export interface DataNiosDnsZoneAuthResultGridSecondaries {
   /**
   * This flag represents whether the preferred_primaries field values of this member are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_preferred_primaries DataNiosDnsZoneAuth#enable_preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_preferred_primaries DataNiosDnsZoneAuth#enable_preferred_primaries}
   */
   readonly enablePreferredPrimaries?: boolean | cdktf.IResolvable;
   /**
   * The flag represents DNS zone transfers if set to False, and ID Grid Replication if set to True. This flag is ignored if the struct is specified as part of a stub zone or if it is set as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#grid_replicate DataNiosDnsZoneAuth#grid_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#grid_replicate DataNiosDnsZoneAuth#grid_replicate}
   */
   readonly gridReplicate?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether the Grid lead secondary server performs zone transfers to non lead secondaries. This flag is ignored if the struct is specified as grid_member in an authoritative zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#lead DataNiosDnsZoneAuth#lead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#lead DataNiosDnsZoneAuth#lead}
   */
   readonly lead?: boolean | cdktf.IResolvable;
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#name DataNiosDnsZoneAuth#name}
   */
   readonly name: string;
   /**
   * The primary preference list with Grid member names and\or External Server extserver structs for this member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#preferred_primaries DataNiosDnsZoneAuth#preferred_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#preferred_primaries DataNiosDnsZoneAuth#preferred_primaries}
   */
   readonly preferredPrimaries?: DataNiosDnsZoneAuthResultGridSecondariesPreferredPrimaries[] | cdktf.IResolvable;
   /**
   * This flag governs whether the specified Grid member is in stealth mode or not. If set to True, the member is in stealth mode. This flag is ignored if the struct is specified as part of a stub zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -4277,13 +4277,13 @@ export interface DataNiosDnsZoneAuthResultLastQueriedAcl {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
 }
@@ -4427,19 +4427,19 @@ export interface DataNiosDnsZoneAuthResultMemberSoaMnames {
   /**
   * The grid primary server for the zone. Only one of "grid_primary" or "ms_server_primary" should be set when modifying or creating the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#grid_primary DataNiosDnsZoneAuth#grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#grid_primary DataNiosDnsZoneAuth#grid_primary}
   */
   readonly gridPrimary?: string;
   /**
   * Master's SOA MNAME. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#mname DataNiosDnsZoneAuth#mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#mname DataNiosDnsZoneAuth#mname}
   */
   readonly mname?: string;
   /**
   * The primary MS server for the zone. Only one of "grid_primary" or "ms_server_primary" should be set when modifying or creating the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_server_primary DataNiosDnsZoneAuth#ms_server_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_server_primary DataNiosDnsZoneAuth#ms_server_primary}
   */
   readonly msServerPrimary?: string;
 }
@@ -4705,13 +4705,13 @@ export interface DataNiosDnsZoneAuthResultMsAllowTransfer {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
 }
@@ -4855,13 +4855,13 @@ export interface DataNiosDnsZoneAuthResultMsDcNsRecordCreation {
   /**
   * The IPv4 address of the domain controller that is allowed to create NS records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * Optional user comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#comment DataNiosDnsZoneAuth#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#comment DataNiosDnsZoneAuth#comment}
   */
   readonly comment?: string;
 }
@@ -5005,31 +5005,31 @@ export interface DataNiosDnsZoneAuthResultMsPrimaries {
   /**
   * The address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * This flag indicates if this server is a synchronization master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#is_master DataNiosDnsZoneAuth#is_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#is_master DataNiosDnsZoneAuth#is_master}
   */
   readonly isMaster?: boolean | cdktf.IResolvable;
   /**
   * This address is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ns_ip DataNiosDnsZoneAuth#ns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ns_ip DataNiosDnsZoneAuth#ns_ip}
   */
   readonly nsIp: string;
   /**
   * This name is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ns_name DataNiosDnsZoneAuth#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ns_name DataNiosDnsZoneAuth#ns_name}
   */
   readonly nsName: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -5259,31 +5259,31 @@ export interface DataNiosDnsZoneAuthResultMsSecondaries {
   /**
   * The address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address: string;
   /**
   * This flag indicates if this server is a synchronization master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#is_master DataNiosDnsZoneAuth#is_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#is_master DataNiosDnsZoneAuth#is_master}
   */
   readonly isMaster?: boolean | cdktf.IResolvable;
   /**
   * This address is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ns_ip DataNiosDnsZoneAuth#ns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ns_ip DataNiosDnsZoneAuth#ns_ip}
   */
   readonly nsIp: string;
   /**
   * This name is used when generating the NS record in the zone, which can be different in case of multihomed hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ns_name DataNiosDnsZoneAuth#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ns_name DataNiosDnsZoneAuth#ns_name}
   */
   readonly nsName: string;
   /**
   * Set this flag to hide the NS record for the primary name server from DNS queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#stealth DataNiosDnsZoneAuth#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
 }
@@ -5513,31 +5513,31 @@ export interface DataNiosDnsZoneAuthResultScavengingSettingsEaExpressionListStru
   /**
   * The operation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op DataNiosDnsZoneAuth#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op DataNiosDnsZoneAuth#op}
   */
   readonly op: string;
   /**
   * The name of the Extensible Attribute Definition object which is used as the first operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op1 DataNiosDnsZoneAuth#op1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op1 DataNiosDnsZoneAuth#op1}
   */
   readonly op1?: string;
   /**
   * The first operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op1_type DataNiosDnsZoneAuth#op1_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op1_type DataNiosDnsZoneAuth#op1_type}
   */
   readonly op1Type?: string;
   /**
   * The second operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op2 DataNiosDnsZoneAuth#op2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op2 DataNiosDnsZoneAuth#op2}
   */
   readonly op2?: string;
   /**
   * The second operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op2_type DataNiosDnsZoneAuth#op2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op2_type DataNiosDnsZoneAuth#op2_type}
   */
   readonly op2Type?: string;
 }
@@ -5768,31 +5768,31 @@ export interface DataNiosDnsZoneAuthResultScavengingSettingsExpressionListStruct
   /**
   * The operation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op DataNiosDnsZoneAuth#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op DataNiosDnsZoneAuth#op}
   */
   readonly op: string;
   /**
   * The first operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op1 DataNiosDnsZoneAuth#op1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op1 DataNiosDnsZoneAuth#op1}
   */
   readonly op1?: string;
   /**
   * The first operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op1_type DataNiosDnsZoneAuth#op1_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op1_type DataNiosDnsZoneAuth#op1_type}
   */
   readonly op1Type?: string;
   /**
   * The second operand value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op2 DataNiosDnsZoneAuth#op2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op2 DataNiosDnsZoneAuth#op2}
   */
   readonly op2?: string;
   /**
   * The second operand type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#op2_type DataNiosDnsZoneAuth#op2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#op2_type DataNiosDnsZoneAuth#op2_type}
   */
   readonly op2Type?: string;
 }
@@ -6023,67 +6023,67 @@ export interface DataNiosDnsZoneAuthResultScavengingSettingsScavengingSchedule {
   /**
   * The day of the month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#day_of_month DataNiosDnsZoneAuth#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#day_of_month DataNiosDnsZoneAuth#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * If set to True, the scheduled task is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#disable DataNiosDnsZoneAuth#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#disable DataNiosDnsZoneAuth#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * The number of frequency to wait before repeating the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#every DataNiosDnsZoneAuth#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#every DataNiosDnsZoneAuth#every}
   */
   readonly every?: number;
   /**
   * The frequency for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#frequency DataNiosDnsZoneAuth#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#frequency DataNiosDnsZoneAuth#frequency}
   */
   readonly frequency?: string;
   /**
   * The hour of day for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#hour_of_day DataNiosDnsZoneAuth#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#hour_of_day DataNiosDnsZoneAuth#hour_of_day}
   */
   readonly hourOfDay?: number;
   /**
   * The minutes past the hour for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#minutes_past_hour DataNiosDnsZoneAuth#minutes_past_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#minutes_past_hour DataNiosDnsZoneAuth#minutes_past_hour}
   */
   readonly minutesPastHour?: number;
   /**
   * The month for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#month DataNiosDnsZoneAuth#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#month DataNiosDnsZoneAuth#month}
   */
   readonly month?: number;
   /**
   * The recurring time for the schedule in Epoch seconds format. This field is obsolete and is preserved only for backward compatibility purposes. Please use other applicable fields to define the recurring schedule. DO NOT use recurring_time together with these fields. If you use recurring_time with other fields to define the recurring schedule, recurring_time has priority over year, hour_of_day, and minutes_past_hour and will override the values of these fields, although it does not override month and day_of_month. In this case, the recurring time value might be different than the intended value that you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#recurring_time DataNiosDnsZoneAuth#recurring_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#recurring_time DataNiosDnsZoneAuth#recurring_time}
   */
   readonly recurringTime?: number;
   /**
   * Indicates if the scheduled task will be repeated or run only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#repeat DataNiosDnsZoneAuth#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#repeat DataNiosDnsZoneAuth#repeat}
   */
   readonly repeat?: string;
   /**
   * Days of the week when scheduling is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#weekdays DataNiosDnsZoneAuth#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#weekdays DataNiosDnsZoneAuth#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * The year for the scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#year DataNiosDnsZoneAuth#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#year DataNiosDnsZoneAuth#year}
   */
   readonly year?: number;
 }
@@ -6474,55 +6474,55 @@ export interface DataNiosDnsZoneAuthResultScavengingSettings {
   /**
   * The extensible attributes expression list. The particular record is treated as reclaimable if extensible attributes expression condition evaluates to 'true' for given record if scavenging hasn't been manually disabled on a given resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ea_expression_list DataNiosDnsZoneAuth#ea_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ea_expression_list DataNiosDnsZoneAuth#ea_expression_list}
   */
   readonly eaExpressionList?: DataNiosDnsZoneAuthResultScavengingSettingsEaExpressionListStruct[] | cdktf.IResolvable;
   /**
   * This flag indicates if the automatic resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_auto_reclamation DataNiosDnsZoneAuth#enable_auto_reclamation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_auto_reclamation DataNiosDnsZoneAuth#enable_auto_reclamation}
   */
   readonly enableAutoReclamation?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the recurrent resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_recurrent_scavenging DataNiosDnsZoneAuth#enable_recurrent_scavenging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_recurrent_scavenging DataNiosDnsZoneAuth#enable_recurrent_scavenging}
   */
   readonly enableRecurrentScavenging?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the resource record last queried monitoring in affected zones is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_rr_last_queried DataNiosDnsZoneAuth#enable_rr_last_queried}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_rr_last_queried DataNiosDnsZoneAuth#enable_rr_last_queried}
   */
   readonly enableRrLastQueried?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_scavenging DataNiosDnsZoneAuth#enable_scavenging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_scavenging DataNiosDnsZoneAuth#enable_scavenging}
   */
   readonly enableScavenging?: boolean | cdktf.IResolvable;
   /**
   * This flag indicates if the last queried monitoring for affected zones is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#enable_zone_last_queried DataNiosDnsZoneAuth#enable_zone_last_queried}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#enable_zone_last_queried DataNiosDnsZoneAuth#enable_zone_last_queried}
   */
   readonly enableZoneLastQueried?: boolean | cdktf.IResolvable;
   /**
   * The expression list. The particular record is treated as reclaimable if expression condition evaluates to 'true' for given record if scavenging hasn't been manually disabled on a given resource record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#expression_list DataNiosDnsZoneAuth#expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#expression_list DataNiosDnsZoneAuth#expression_list}
   */
   readonly expressionList?: DataNiosDnsZoneAuthResultScavengingSettingsExpressionListStruct[] | cdktf.IResolvable;
   /**
   * This flag indicates if the associated resource record scavenging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#reclaim_associated_records DataNiosDnsZoneAuth#reclaim_associated_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#reclaim_associated_records DataNiosDnsZoneAuth#reclaim_associated_records}
   */
   readonly reclaimAssociatedRecords?: boolean | cdktf.IResolvable;
   /**
   * The schedule setting for cloud discovery task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#scavenging_schedule DataNiosDnsZoneAuth#scavenging_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#scavenging_schedule DataNiosDnsZoneAuth#scavenging_schedule}
   */
   readonly scavengingSchedule?: DataNiosDnsZoneAuthResultScavengingSettingsScavengingSchedule;
 }
@@ -6850,43 +6850,43 @@ export interface DataNiosDnsZoneAuthResultUpdateForwarding {
   /**
   * The address this rule applies to or "Any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#address DataNiosDnsZoneAuth#address}
   */
   readonly address?: string;
   /**
   * The permission to use for this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#permission DataNiosDnsZoneAuth#permission}
   */
   readonly permission?: string;
   /**
   * The struct type of the object. The value must be one of 'addressac' and 'tsigac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#struct DataNiosDnsZoneAuth#struct}
   */
   readonly struct: string;
   /**
   * A generated TSIG key. If the external primary server is a NIOS appliance running DNS One 2.x code, this can be set to :2xCOMPAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key DataNiosDnsZoneAuth#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_alg DataNiosDnsZoneAuth#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. If 2.x TSIG compatibility is used, this is set to 'tsig_xfer' on retrieval, and ignored on insert or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#tsig_key_name DataNiosDnsZoneAuth#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * Use flag for: tsig_key_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_tsig_key_name DataNiosDnsZoneAuth#use_tsig_key_name}
   */
   readonly useTsigKeyName?: boolean | cdktf.IResolvable;
 }
@@ -7175,491 +7175,491 @@ export interface DataNiosDnsZoneAuthResult {
   /**
   * This field allows the zone to receive GSS-TSIG authenticated DDNS updates from DHCP clients and servers in an AD domain. Note that addresses specified in this field ignore the permission set in the struct which will be set to 'ALLOW'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_active_dir DataNiosDnsZoneAuth#allow_active_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_active_dir DataNiosDnsZoneAuth#allow_active_dir}
   */
   readonly allowActiveDir?: DataNiosDnsZoneAuthResultAllowActiveDir[] | cdktf.IResolvable;
   /**
   * The flag that allows to enable or disable fixed RRset ordering for authoritative forward-mapping zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_fixed_rrset_order DataNiosDnsZoneAuth#allow_fixed_rrset_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_fixed_rrset_order DataNiosDnsZoneAuth#allow_fixed_rrset_order}
   */
   readonly allowFixedRrsetOrder?: boolean | cdktf.IResolvable;
   /**
   * The flag that allows DHCP clients to perform GSS-TSIG signed updates for underscore zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_gss_tsig_for_underscore_zone DataNiosDnsZoneAuth#allow_gss_tsig_for_underscore_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_gss_tsig_for_underscore_zone DataNiosDnsZoneAuth#allow_gss_tsig_for_underscore_zone}
   */
   readonly allowGssTsigForUnderscoreZone?: boolean | cdktf.IResolvable;
   /**
   * The flag that enables or disables the zone for GSS-TSIG updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_gss_tsig_zone_updates DataNiosDnsZoneAuth#allow_gss_tsig_zone_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_gss_tsig_zone_updates DataNiosDnsZoneAuth#allow_gss_tsig_zone_updates}
   */
   readonly allowGssTsigZoneUpdates?: boolean | cdktf.IResolvable;
   /**
   * Determines whether DNS queries are allowed from a named ACL, or from a list of IPv4/IPv6 addresses, networks, and TSIG keys for the hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_query DataNiosDnsZoneAuth#allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_query DataNiosDnsZoneAuth#allow_query}
   */
   readonly allowQuery?: DataNiosDnsZoneAuthResultAllowQuery[] | cdktf.IResolvable;
   /**
   * Determines whether zone transfers are allowed from a named ACL, or from a list of IPv4/IPv6 addresses, networks, and TSIG keys for the hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_transfer DataNiosDnsZoneAuth#allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_transfer DataNiosDnsZoneAuth#allow_transfer}
   */
   readonly allowTransfer?: DataNiosDnsZoneAuthResultAllowTransfer[] | cdktf.IResolvable;
   /**
   * Determines whether dynamic DNS updates are allowed from a named ACL, or from a list of IPv4/IPv6 addresses, networks, and TSIG keys for the hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_update DataNiosDnsZoneAuth#allow_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_update DataNiosDnsZoneAuth#allow_update}
   */
   readonly allowUpdate?: DataNiosDnsZoneAuthResultAllowUpdate[] | cdktf.IResolvable;
   /**
   * The list with IP addresses, networks or TSIG keys for clients, from which forwarded dynamic updates are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#allow_update_forwarding DataNiosDnsZoneAuth#allow_update_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#allow_update_forwarding DataNiosDnsZoneAuth#allow_update_forwarding}
   */
   readonly allowUpdateForwarding?: boolean | cdktf.IResolvable;
   /**
   * Comment for the zone; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#comment DataNiosDnsZoneAuth#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#comment DataNiosDnsZoneAuth#comment}
   */
   readonly comment?: string;
   /**
   * If this flag is set to True then copy allowed IPs from Allow Transfer to Also Notify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#copy_xfer_to_notify DataNiosDnsZoneAuth#copy_xfer_to_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#copy_xfer_to_notify DataNiosDnsZoneAuth#copy_xfer_to_notify}
   */
   readonly copyXferToNotify?: boolean | cdktf.IResolvable;
   /**
   * Determines whether automatic creation of subzones is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#create_underscore_zones DataNiosDnsZoneAuth#create_underscore_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#create_underscore_zones DataNiosDnsZoneAuth#create_underscore_zones}
   */
   readonly createUnderscoreZones?: boolean | cdktf.IResolvable;
   /**
   * Defines whether creation timestamp of RR should be updated ' when DDNS update happens even if there is no change to ' the RR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_force_creation_timestamp_update DataNiosDnsZoneAuth#ddns_force_creation_timestamp_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_force_creation_timestamp_update DataNiosDnsZoneAuth#ddns_force_creation_timestamp_update}
   */
   readonly ddnsForceCreationTimestampUpdate?: boolean | cdktf.IResolvable;
   /**
   * The DDNS Principal cluster group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_principal_group DataNiosDnsZoneAuth#ddns_principal_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_principal_group DataNiosDnsZoneAuth#ddns_principal_group}
   */
   readonly ddnsPrincipalGroup?: string;
   /**
   * The flag that indicates whether the DDNS principal track is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_principal_tracking DataNiosDnsZoneAuth#ddns_principal_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_principal_tracking DataNiosDnsZoneAuth#ddns_principal_tracking}
   */
   readonly ddnsPrincipalTracking?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether an option to restrict DDNS update request based on FQDN patterns is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_restrict_patterns DataNiosDnsZoneAuth#ddns_restrict_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_restrict_patterns DataNiosDnsZoneAuth#ddns_restrict_patterns}
   */
   readonly ddnsRestrictPatterns?: boolean | cdktf.IResolvable;
   /**
   * The unordered list of restriction patterns for an option of to restrict DDNS updates based on FQDN patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_restrict_patterns_list DataNiosDnsZoneAuth#ddns_restrict_patterns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_restrict_patterns_list DataNiosDnsZoneAuth#ddns_restrict_patterns_list}
   */
   readonly ddnsRestrictPatternsList?: string[];
   /**
   * The flag that indicates whether an option to restrict DDNS update request to protected resource records is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_restrict_protected DataNiosDnsZoneAuth#ddns_restrict_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_restrict_protected DataNiosDnsZoneAuth#ddns_restrict_protected}
   */
   readonly ddnsRestrictProtected?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether DDNS update request for principal other than target resource record's principal is restricted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_restrict_secure DataNiosDnsZoneAuth#ddns_restrict_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_restrict_secure DataNiosDnsZoneAuth#ddns_restrict_secure}
   */
   readonly ddnsRestrictSecure?: boolean | cdktf.IResolvable;
   /**
   * The flag that indicates whether an option to restrict DDNS update request to resource records which are marked as 'STATIC' is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ddns_restrict_static DataNiosDnsZoneAuth#ddns_restrict_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ddns_restrict_static DataNiosDnsZoneAuth#ddns_restrict_static}
   */
   readonly ddnsRestrictStatic?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a zone is disabled or not. When this is set to False, the zone is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#disable DataNiosDnsZoneAuth#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#disable DataNiosDnsZoneAuth#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the name servers that host the zone should forward queries (ended with the domain name of the zone) to any configured forwarders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#disable_forwarding DataNiosDnsZoneAuth#disable_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#disable_forwarding DataNiosDnsZoneAuth#disable_forwarding}
   */
   readonly disableForwarding?: boolean | cdktf.IResolvable;
   /**
   * If this is set to True, DNS integrity check is enabled for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#dns_integrity_enable DataNiosDnsZoneAuth#dns_integrity_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#dns_integrity_enable DataNiosDnsZoneAuth#dns_integrity_enable}
   */
   readonly dnsIntegrityEnable?: boolean | cdktf.IResolvable;
   /**
   * The frequency, in seconds, of DNS integrity checks for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#dns_integrity_frequency DataNiosDnsZoneAuth#dns_integrity_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#dns_integrity_frequency DataNiosDnsZoneAuth#dns_integrity_frequency}
   */
   readonly dnsIntegrityFrequency?: number;
   /**
   * The Grid member that performs DNS integrity checks for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#dns_integrity_member DataNiosDnsZoneAuth#dns_integrity_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#dns_integrity_member DataNiosDnsZoneAuth#dns_integrity_member}
   */
   readonly dnsIntegrityMember?: string;
   /**
   * If this is set to True, more information is logged for DNS integrity checks for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#dns_integrity_verbose_logging DataNiosDnsZoneAuth#dns_integrity_verbose_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#dns_integrity_verbose_logging DataNiosDnsZoneAuth#dns_integrity_verbose_logging}
   */
   readonly dnsIntegrityVerboseLogging?: boolean | cdktf.IResolvable;
   /**
   * The DNSSEC key parameters for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#dnssec_key_params DataNiosDnsZoneAuth#dnssec_key_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#dnssec_key_params DataNiosDnsZoneAuth#dnssec_key_params}
   */
   readonly dnssecKeyParams?: DataNiosDnsZoneAuthResultDnssecKeyParams;
   /**
   * The value of the check names policy, which indicates the action the appliance takes when it encounters host names that do not comply with the Strict Hostname Checking policy. This value applies only if the host name restriction policy is set to "Strict Hostname Checking".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#effective_check_names_policy DataNiosDnsZoneAuth#effective_check_names_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#effective_check_names_policy DataNiosDnsZoneAuth#effective_check_names_policy}
   */
   readonly effectiveCheckNamesPolicy?: string;
   /**
   * Extensible attributes associated with the object. For valid values for extensible attributes, see {extattrs:values}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#extattrs DataNiosDnsZoneAuth#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#extattrs DataNiosDnsZoneAuth#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of external primary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#external_primaries DataNiosDnsZoneAuth#external_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#external_primaries DataNiosDnsZoneAuth#external_primaries}
   */
   readonly externalPrimaries?: DataNiosDnsZoneAuthResultExternalPrimaries[] | cdktf.IResolvable;
   /**
   * The list of external secondary servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#external_secondaries DataNiosDnsZoneAuth#external_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#external_secondaries DataNiosDnsZoneAuth#external_secondaries}
   */
   readonly externalSecondaries?: DataNiosDnsZoneAuthResultExternalSecondaries[] | cdktf.IResolvable;
   /**
   * The name of this DNS zone. For a reverse zone, this is in "address/cidr" format. For other zones, this is in FQDN format. This value can be in unicode format. Note that for a reverse zone, the corresponding zone_format value should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#fqdn DataNiosDnsZoneAuth#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#fqdn DataNiosDnsZoneAuth#fqdn}
   */
   readonly fqdn: string;
   /**
   * The grid primary servers for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#grid_primary DataNiosDnsZoneAuth#grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#grid_primary DataNiosDnsZoneAuth#grid_primary}
   */
   readonly gridPrimary?: DataNiosDnsZoneAuthResultGridPrimary[] | cdktf.IResolvable;
   /**
   * The list with Grid members that are secondary servers for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#grid_secondaries DataNiosDnsZoneAuth#grid_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#grid_secondaries DataNiosDnsZoneAuth#grid_secondaries}
   */
   readonly gridSecondaries?: DataNiosDnsZoneAuthResultGridSecondaries[] | cdktf.IResolvable;
   /**
   * Determines last queried ACL for the specified IPv4 or IPv6 addresses and networks in scavenging settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#last_queried_acl DataNiosDnsZoneAuth#last_queried_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#last_queried_acl DataNiosDnsZoneAuth#last_queried_acl}
   */
   readonly lastQueriedAcl?: DataNiosDnsZoneAuthResultLastQueriedAcl[] | cdktf.IResolvable;
   /**
   * If you enable this flag, other administrators cannot make conflicting changes. This is for administration purposes only. The zone will continue to serve DNS data even when it is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#locked DataNiosDnsZoneAuth#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#locked DataNiosDnsZoneAuth#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The list of per-member SOA MNAME information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#member_soa_mnames DataNiosDnsZoneAuth#member_soa_mnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#member_soa_mnames DataNiosDnsZoneAuth#member_soa_mnames}
   */
   readonly memberSoaMnames?: DataNiosDnsZoneAuthResultMemberSoaMnames[] | cdktf.IResolvable;
   /**
   * The flag that determines whether Active Directory is integrated or not. This field is valid only when ms_managed is "STUB", "AUTH_PRIMARY", or "AUTH_BOTH".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_ad_integrated DataNiosDnsZoneAuth#ms_ad_integrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_ad_integrated DataNiosDnsZoneAuth#ms_ad_integrated}
   */
   readonly msAdIntegrated?: boolean | cdktf.IResolvable;
   /**
   * The list of DNS clients that are allowed to perform zone transfers from a Microsoft DNS server. This setting applies only to zones with Microsoft DNS servers that are either primary or secondary servers. This setting does not inherit any value from the Grid or from any member that defines an allow_transfer value. This setting does not apply to any grid member. Use the allow_transfer field to control which DNS clients are allowed to perform zone transfers on Grid members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_allow_transfer DataNiosDnsZoneAuth#ms_allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_allow_transfer DataNiosDnsZoneAuth#ms_allow_transfer}
   */
   readonly msAllowTransfer?: DataNiosDnsZoneAuthResultMsAllowTransfer[] | cdktf.IResolvable;
   /**
   * Determines which DNS clients are allowed to perform zone transfers from a Microsoft DNS server. Valid values are: "ADDRESS_AC", to use ms_allow_transfer field for specifying IP addresses, networks and Transaction Signature (TSIG) keys for clients that are allowed to do zone transfers. "ANY", to allow any client. "ANY_NS", to allow only the nameservers listed in this zone. "NONE", to deny all zone transfer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_allow_transfer_mode DataNiosDnsZoneAuth#ms_allow_transfer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_allow_transfer_mode DataNiosDnsZoneAuth#ms_allow_transfer_mode}
   */
   readonly msAllowTransferMode?: string;
   /**
   * The list of domain controllers that are allowed to create NS records for authoritative zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_dc_ns_record_creation DataNiosDnsZoneAuth#ms_dc_ns_record_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_dc_ns_record_creation DataNiosDnsZoneAuth#ms_dc_ns_record_creation}
   */
   readonly msDcNsRecordCreation?: DataNiosDnsZoneAuthResultMsDcNsRecordCreation[] | cdktf.IResolvable;
   /**
   * Determines whether an Active Directory-integrated zone with a Microsoft DNS server as primary allows dynamic updates. Valid values are: "SECURE" if the zone allows secure updates only. "NONE" if the zone forbids dynamic updates. "ANY" if the zone accepts both secure and nonsecure updates. This field is valid only if ms_managed is either "AUTH_PRIMARY" or "AUTH_BOTH". If the flag ms_ad_integrated is false, the value "SECURE" is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_ddns_mode DataNiosDnsZoneAuth#ms_ddns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_ddns_mode DataNiosDnsZoneAuth#ms_ddns_mode}
   */
   readonly msDdnsMode?: string;
   /**
   * The list with the Microsoft DNS servers that are primary servers for the zone. Although a zone typically has just one primary name server, you can specify up to ten independent servers for a single zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_primaries DataNiosDnsZoneAuth#ms_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_primaries DataNiosDnsZoneAuth#ms_primaries}
   */
   readonly msPrimaries?: DataNiosDnsZoneAuthResultMsPrimaries[] | cdktf.IResolvable;
   /**
   * The list with the Microsoft DNS servers that are secondary servers for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_secondaries DataNiosDnsZoneAuth#ms_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_secondaries DataNiosDnsZoneAuth#ms_secondaries}
   */
   readonly msSecondaries?: DataNiosDnsZoneAuthResultMsSecondaries[] | cdktf.IResolvable;
   /**
   * This flag controls whether this zone is synchronized with Microsoft DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ms_sync_disabled DataNiosDnsZoneAuth#ms_sync_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ms_sync_disabled DataNiosDnsZoneAuth#ms_sync_disabled}
   */
   readonly msSyncDisabled?: boolean | cdktf.IResolvable;
   /**
   * The number of seconds in delay with which notify messages are sent to secondaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#notify_delay DataNiosDnsZoneAuth#notify_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#notify_delay DataNiosDnsZoneAuth#notify_delay}
   */
   readonly notifyDelay?: number;
   /**
   * The name server group that serves DNS for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#ns_group DataNiosDnsZoneAuth#ns_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#ns_group DataNiosDnsZoneAuth#ns_group}
   */
   readonly nsGroup?: string;
   /**
   * The RFC2317 prefix value of this DNS zone. Use this field only when the netmask is greater than 24 bits; that is, for a mask between 25 and 31 bits. Enter a prefix, such as the name of the allocated address block. The prefix can be alphanumeric characters, such as 128/26 , 128-189 , or sub-B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#prefix DataNiosDnsZoneAuth#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#prefix DataNiosDnsZoneAuth#prefix}
   */
   readonly prefix?: string;
   /**
   * The hostname policy for records under this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#record_name_policy DataNiosDnsZoneAuth#record_name_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#record_name_policy DataNiosDnsZoneAuth#record_name_policy}
   */
   readonly recordNamePolicy?: string;
   /**
   * Remove subzones delete option. Determines whether all child objects should be removed alongside with the parent zone or child objects should be assigned to another parental zone. By default child objects are deleted with the parent zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#remove_subzones DataNiosDnsZoneAuth#remove_subzones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#remove_subzones DataNiosDnsZoneAuth#remove_subzones}
   */
   readonly removeSubzones?: boolean | cdktf.IResolvable;
   /**
   * Restarts the member service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#restart_if_needed DataNiosDnsZoneAuth#restart_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#restart_if_needed DataNiosDnsZoneAuth#restart_if_needed}
   */
   readonly restartIfNeeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#scavenging_settings DataNiosDnsZoneAuth#scavenging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#scavenging_settings DataNiosDnsZoneAuth#scavenging_settings}
   */
   readonly scavengingSettings?: DataNiosDnsZoneAuthResultScavengingSettings;
   /**
   * The serial number in the SOA record incrementally changes every time the record is modified. The Infoblox appliance allows you to change the serial number (in the SOA record) for the primary server so it is higher than the secondary server, thereby ensuring zone transfers come from the primary server (as they should). To change the serial number you need to set a new value at "soa_serial_number" and pass "set_soa_serial_number" as True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#set_soa_serial_number DataNiosDnsZoneAuth#set_soa_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#set_soa_serial_number DataNiosDnsZoneAuth#set_soa_serial_number}
   */
   readonly setSoaSerialNumber?: boolean | cdktf.IResolvable;
   /**
   * The Time to Live (TTL) value of the SOA record of this zone. This value is the number of seconds that data is cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_default_ttl DataNiosDnsZoneAuth#soa_default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_default_ttl DataNiosDnsZoneAuth#soa_default_ttl}
   */
   readonly soaDefaultTtl?: number;
   /**
   * The SOA email value for this zone. This value can be in unicode format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_email DataNiosDnsZoneAuth#soa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_email DataNiosDnsZoneAuth#soa_email}
   */
   readonly soaEmail?: string;
   /**
   * This setting defines the amount of time, in seconds, after which the secondary server stops giving out answers about the zone because the zone data is too old to be useful. The default is one week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_expire DataNiosDnsZoneAuth#soa_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_expire DataNiosDnsZoneAuth#soa_expire}
   */
   readonly soaExpire?: number;
   /**
   * The negative Time to Live (TTL) value of the SOA of the zone indicates how long a secondary server can cache data for "Does Not Respond" responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_negative_ttl DataNiosDnsZoneAuth#soa_negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_negative_ttl DataNiosDnsZoneAuth#soa_negative_ttl}
   */
   readonly soaNegativeTtl?: number;
   /**
   * This indicates the interval at which a secondary server sends a message to the primary server for a zone to check that its data is current, and retrieve fresh data if it is not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_refresh DataNiosDnsZoneAuth#soa_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_refresh DataNiosDnsZoneAuth#soa_refresh}
   */
   readonly soaRefresh?: number;
   /**
   * This indicates how long a secondary server must wait before attempting to recontact the primary server after a connection failure between the two servers occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_retry DataNiosDnsZoneAuth#soa_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_retry DataNiosDnsZoneAuth#soa_retry}
   */
   readonly soaRetry?: number;
   /**
   * The serial number in the SOA record incrementally changes every time the record is modified. The Infoblox appliance allows you to change the serial number (in the SOA record) for the primary server so it is higher than the secondary server, thereby ensuring zone transfers come from the primary server (as they should). To change the serial number you need to set a new value at "soa_serial_number" and pass "set_soa_serial_number" as True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#soa_serial_number DataNiosDnsZoneAuth#soa_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#soa_serial_number DataNiosDnsZoneAuth#soa_serial_number}
   */
   readonly soaSerialNumber?: number;
   /**
   * The associated shared record groups of a DNS zone. If a shared record group is associated with a zone, then all shared records in a shared record group will be shared in the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#srgs DataNiosDnsZoneAuth#srgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#srgs DataNiosDnsZoneAuth#srgs}
   */
   readonly srgs?: string[];
   /**
   * Use this field to allow or deny dynamic DNS updates that are forwarded from specific IPv4/IPv6 addresses, networks, or a named ACL. You can also provide TSIG keys for clients that are allowed or denied to perform zone updates. This setting overrides the member-level setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#update_forwarding DataNiosDnsZoneAuth#update_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#update_forwarding DataNiosDnsZoneAuth#update_forwarding}
   */
   readonly updateForwarding?: DataNiosDnsZoneAuthResultUpdateForwarding[] | cdktf.IResolvable;
   /**
   * Use flag for: allow_active_dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_allow_active_dir DataNiosDnsZoneAuth#use_allow_active_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_allow_active_dir DataNiosDnsZoneAuth#use_allow_active_dir}
   */
   readonly useAllowActiveDir?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: allow_query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_allow_query DataNiosDnsZoneAuth#use_allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_allow_query DataNiosDnsZoneAuth#use_allow_query}
   */
   readonly useAllowQuery?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: allow_transfer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_allow_transfer DataNiosDnsZoneAuth#use_allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_allow_transfer DataNiosDnsZoneAuth#use_allow_transfer}
   */
   readonly useAllowTransfer?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: allow_update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_allow_update DataNiosDnsZoneAuth#use_allow_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_allow_update DataNiosDnsZoneAuth#use_allow_update}
   */
   readonly useAllowUpdate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: allow_update_forwarding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_allow_update_forwarding DataNiosDnsZoneAuth#use_allow_update_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_allow_update_forwarding DataNiosDnsZoneAuth#use_allow_update_forwarding}
   */
   readonly useAllowUpdateForwarding?: boolean | cdktf.IResolvable;
   /**
   * Apply policy to dynamic updates and inbound zone transfers (This value applies only if the host name restriction policy is set to "Strict Hostname Checking".)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_check_names_policy DataNiosDnsZoneAuth#use_check_names_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_check_names_policy DataNiosDnsZoneAuth#use_check_names_policy}
   */
   readonly useCheckNamesPolicy?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: copy_xfer_to_notify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_copy_xfer_to_notify DataNiosDnsZoneAuth#use_copy_xfer_to_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_copy_xfer_to_notify DataNiosDnsZoneAuth#use_copy_xfer_to_notify}
   */
   readonly useCopyXferToNotify?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_force_creation_timestamp_update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_ddns_force_creation_timestamp_update DataNiosDnsZoneAuth#use_ddns_force_creation_timestamp_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_ddns_force_creation_timestamp_update DataNiosDnsZoneAuth#use_ddns_force_creation_timestamp_update}
   */
   readonly useDdnsForceCreationTimestampUpdate?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_patterns_list , ddns_restrict_patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_ddns_patterns_restriction DataNiosDnsZoneAuth#use_ddns_patterns_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_ddns_patterns_restriction DataNiosDnsZoneAuth#use_ddns_patterns_restriction}
   */
   readonly useDdnsPatternsRestriction?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_secure , ddns_principal_tracking, ddns_principal_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_ddns_principal_security DataNiosDnsZoneAuth#use_ddns_principal_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_ddns_principal_security DataNiosDnsZoneAuth#use_ddns_principal_security}
   */
   readonly useDdnsPrincipalSecurity?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_protected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_ddns_restrict_protected DataNiosDnsZoneAuth#use_ddns_restrict_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_ddns_restrict_protected DataNiosDnsZoneAuth#use_ddns_restrict_protected}
   */
   readonly useDdnsRestrictProtected?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: ddns_restrict_static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_ddns_restrict_static DataNiosDnsZoneAuth#use_ddns_restrict_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_ddns_restrict_static DataNiosDnsZoneAuth#use_ddns_restrict_static}
   */
   readonly useDdnsRestrictStatic?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: dnssec_key_params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_dnssec_key_params DataNiosDnsZoneAuth#use_dnssec_key_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_dnssec_key_params DataNiosDnsZoneAuth#use_dnssec_key_params}
   */
   readonly useDnssecKeyParams?: boolean | cdktf.IResolvable;
   /**
   * This flag controls whether the zone is using an external primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_external_primary DataNiosDnsZoneAuth#use_external_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_external_primary DataNiosDnsZoneAuth#use_external_primary}
   */
   readonly useExternalPrimary?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: soa_default_ttl , soa_expire, soa_negative_ttl, soa_refresh, soa_retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_grid_zone_timer DataNiosDnsZoneAuth#use_grid_zone_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_grid_zone_timer DataNiosDnsZoneAuth#use_grid_zone_timer}
   */
   readonly useGridZoneTimer?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: notify_delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_notify_delay DataNiosDnsZoneAuth#use_notify_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_notify_delay DataNiosDnsZoneAuth#use_notify_delay}
   */
   readonly useNotifyDelay?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: record_name_policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_record_name_policy DataNiosDnsZoneAuth#use_record_name_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_record_name_policy DataNiosDnsZoneAuth#use_record_name_policy}
   */
   readonly useRecordNamePolicy?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: scavenging_settings , last_queried_acl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_scavenging_settings DataNiosDnsZoneAuth#use_scavenging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_scavenging_settings DataNiosDnsZoneAuth#use_scavenging_settings}
   */
   readonly useScavengingSettings?: boolean | cdktf.IResolvable;
   /**
   * Use flag for: soa_email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#use_soa_email DataNiosDnsZoneAuth#use_soa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#use_soa_email DataNiosDnsZoneAuth#use_soa_email}
   */
   readonly useSoaEmail?: boolean | cdktf.IResolvable;
   /**
   * The name of the DNS view in which the zone resides. Example "external".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#view DataNiosDnsZoneAuth#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#view DataNiosDnsZoneAuth#view}
   */
   readonly view?: string;
   /**
   * Determines the format of this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#zone_format DataNiosDnsZoneAuth#zone_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#zone_format DataNiosDnsZoneAuth#zone_format}
   */
   readonly zoneFormat?: string;
 }
@@ -10296,7 +10296,7 @@ export class DataNiosDnsZoneAuthResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth nios_dns_zone_auth}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth nios_dns_zone_auth}
 */
 export class DataNiosDnsZoneAuth extends cdktf.TerraformDataSource {
 
@@ -10312,7 +10312,7 @@ export class DataNiosDnsZoneAuth extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosDnsZoneAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsZoneAuth to import
-  * @param importFromId The id of the existing DataNiosDnsZoneAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsZoneAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsZoneAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10324,7 +10324,7 @@ export class DataNiosDnsZoneAuth extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_zone_auth nios_dns_zone_auth} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_zone_auth nios_dns_zone_auth} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10335,8 +10335,8 @@ export class DataNiosDnsZoneAuth extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dns_zone_auth',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

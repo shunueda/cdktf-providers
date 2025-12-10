@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessPlatformGitopsAgentDeployYamlConfig extends cdktf.Te
   /**
   * Account identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#account_id DataHarnessPlatformGitopsAgentDeployYaml#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#account_id DataHarnessPlatformGitopsAgentDeployYaml#account_id}
   */
   readonly accountId?: string;
   /**
   * CA data of the GitOps agent, base64 encoded content of ca chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#ca_data DataHarnessPlatformGitopsAgentDeployYaml#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#ca_data DataHarnessPlatformGitopsAgentDeployYaml#ca_data}
   */
   readonly caData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#id DataHarnessPlatformGitopsAgentDeployYaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#id DataHarnessPlatformGitopsAgentDeployYaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataHarnessPlatformGitopsAgentDeployYamlConfig extends cdktf.Te
   /**
   * Identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#identifier DataHarnessPlatformGitopsAgentDeployYaml#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#identifier DataHarnessPlatformGitopsAgentDeployYaml#identifier}
   */
   readonly identifier: string;
   /**
   * The kubernetes namespace where the agent is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#namespace DataHarnessPlatformGitopsAgentDeployYaml#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#namespace DataHarnessPlatformGitopsAgentDeployYaml#namespace}
   */
   readonly namespace: string;
   /**
   * Organization identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#org_id DataHarnessPlatformGitopsAgentDeployYaml#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#org_id DataHarnessPlatformGitopsAgentDeployYaml#org_id}
   */
   readonly orgId?: string;
   /**
   * Private key for the GitOps agent. If provided authentication token will not be regenerated. Must be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#private_key DataHarnessPlatformGitopsAgentDeployYaml#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#private_key DataHarnessPlatformGitopsAgentDeployYaml#private_key}
   */
   readonly privateKey?: string;
   /**
   * Project identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#project_id DataHarnessPlatformGitopsAgentDeployYaml#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#project_id DataHarnessPlatformGitopsAgentDeployYaml#project_id}
   */
   readonly projectId?: string;
   /**
   * Skip CRDs for the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#skip_crds DataHarnessPlatformGitopsAgentDeployYaml#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#skip_crds DataHarnessPlatformGitopsAgentDeployYaml#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * argocd_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#argocd_settings DataHarnessPlatformGitopsAgentDeployYaml#argocd_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#argocd_settings DataHarnessPlatformGitopsAgentDeployYaml#argocd_settings}
   */
   readonly argocdSettings?: DataHarnessPlatformGitopsAgentDeployYamlArgocdSettings;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#proxy DataHarnessPlatformGitopsAgentDeployYaml#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#proxy DataHarnessPlatformGitopsAgentDeployYaml#proxy}
   */
   readonly proxy?: DataHarnessPlatformGitopsAgentDeployYamlProxy[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface DataHarnessPlatformGitopsAgentDeployYamlArgocdSettings {
   /**
   * Controls the Environment variable HELM_SECRETS_VALUES_ALLOW_PATH_TRAVERSAL to allow or deny dot-dot-slash values file paths. Disabled by default for security reasons. This config is pushed as an env variable to the repo-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#enable_helm_path_traversal DataHarnessPlatformGitopsAgentDeployYaml#enable_helm_path_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#enable_helm_path_traversal DataHarnessPlatformGitopsAgentDeployYaml#enable_helm_path_traversal}
   */
   readonly enableHelmPathTraversal?: boolean | cdktf.IResolvable;
 }
@@ -165,25 +165,25 @@ export interface DataHarnessPlatformGitopsAgentDeployYamlProxy {
   /**
   * HTTP proxy settings for the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#http DataHarnessPlatformGitopsAgentDeployYaml#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#http DataHarnessPlatformGitopsAgentDeployYaml#http}
   */
   readonly http?: string;
   /**
   * HTTPS proxy settings for the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#https DataHarnessPlatformGitopsAgentDeployYaml#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#https DataHarnessPlatformGitopsAgentDeployYaml#https}
   */
   readonly https?: string;
   /**
   * Password for the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#password DataHarnessPlatformGitopsAgentDeployYaml#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#password DataHarnessPlatformGitopsAgentDeployYaml#password}
   */
   readonly password?: string;
   /**
   * Username for the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#username DataHarnessPlatformGitopsAgentDeployYaml#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#username DataHarnessPlatformGitopsAgentDeployYaml#username}
   */
   readonly username?: string;
 }
@@ -386,7 +386,7 @@ export class DataHarnessPlatformGitopsAgentDeployYamlProxyList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml harness_platform_gitops_agent_deploy_yaml}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml harness_platform_gitops_agent_deploy_yaml}
 */
 export class DataHarnessPlatformGitopsAgentDeployYaml extends cdktf.TerraformDataSource {
 
@@ -402,7 +402,7 @@ export class DataHarnessPlatformGitopsAgentDeployYaml extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataHarnessPlatformGitopsAgentDeployYaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformGitopsAgentDeployYaml to import
-  * @param importFromId The id of the existing DataHarnessPlatformGitopsAgentDeployYaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformGitopsAgentDeployYaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformGitopsAgentDeployYaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class DataHarnessPlatformGitopsAgentDeployYaml extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent_deploy_yaml harness_platform_gitops_agent_deploy_yaml} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_gitops_agent_deploy_yaml harness_platform_gitops_agent_deploy_yaml} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class DataHarnessPlatformGitopsAgentDeployYaml extends cdktf.TerraformDat
       terraformResourceType: 'harness_platform_gitops_agent_deploy_yaml',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

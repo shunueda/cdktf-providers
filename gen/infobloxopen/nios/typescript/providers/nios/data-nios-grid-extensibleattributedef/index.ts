@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosGridExtensibleattributedefConfig extends cdktf.Terrafor
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#filters DataNiosGridExtensibleattributedef#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#filters DataNiosGridExtensibleattributedef#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#max_results DataNiosGridExtensibleattributedef#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#max_results DataNiosGridExtensibleattributedef#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#paging DataNiosGridExtensibleattributedef#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#paging DataNiosGridExtensibleattributedef#paging}
   */
   readonly paging?: number;
 }
@@ -94,7 +94,7 @@ export interface DataNiosGridExtensibleattributedefResultListValues {
   /**
   * Enum value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#value DataNiosGridExtensibleattributedef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#value DataNiosGridExtensibleattributedef#value}
   */
   readonly value?: string;
 }
@@ -212,55 +212,55 @@ export interface DataNiosGridExtensibleattributedefResult {
   /**
   * The object types this extensible attribute is allowed to associate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#allowed_object_types DataNiosGridExtensibleattributedef#allowed_object_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#allowed_object_types DataNiosGridExtensibleattributedef#allowed_object_types}
   */
   readonly allowedObjectTypes?: string[];
   /**
   * Comment for the Extensible Attribute Definition; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#comment DataNiosGridExtensibleattributedef#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#comment DataNiosGridExtensibleattributedef#comment}
   */
   readonly comment?: string;
   /**
   * Default value used to pre-populate the attribute value in the GUI. For email, URL, and string types, the value is a string with a maximum of 256 characters. For an integer, the value is an integer from -2147483648 through 2147483647. For a date, the value is the number of seconds that have elapsed since January 1st, 1970 UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#default_value DataNiosGridExtensibleattributedef#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#default_value DataNiosGridExtensibleattributedef#default_value}
   */
   readonly defaultValue?: string;
   /**
   * This field contains extensible attribute flags. Possible values: (A)udited, (C)loud API, Cloud (G)master, (I)nheritable, (L)isted, (M)andatory value, MGM (P)rivate, (R)ead Only, (S)ort enum values, Multiple (V)alues If there are two or more flags in the field, you must list them according to the order they are listed above. For example, 'CR' is a valid value for the 'flags' field because C = Cloud API is listed before R = Read only. However, the value 'RC' is invalid because the order for the 'flags' field is broken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#flags DataNiosGridExtensibleattributedef#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#flags DataNiosGridExtensibleattributedef#flags}
   */
   readonly flags?: string;
   /**
   * List of Values. Applicable if the extensible attribute type is ENUM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#list_values DataNiosGridExtensibleattributedef#list_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#list_values DataNiosGridExtensibleattributedef#list_values}
   */
   readonly listValues?: DataNiosGridExtensibleattributedefResultListValues[] | cdktf.IResolvable;
   /**
   * Maximum allowed value of extensible attribute. Applicable if the extensible attribute type is INTEGER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#max DataNiosGridExtensibleattributedef#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#max DataNiosGridExtensibleattributedef#max}
   */
   readonly max?: number;
   /**
   * Minimum allowed value of extensible attribute. Applicable if the extensible attribute type is INTEGER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#min DataNiosGridExtensibleattributedef#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#min DataNiosGridExtensibleattributedef#min}
   */
   readonly min?: number;
   /**
   * The name of the Extensible Attribute Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#name DataNiosGridExtensibleattributedef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#name DataNiosGridExtensibleattributedef#name}
   */
   readonly name: string;
   /**
   * Type for the Extensible Attribute Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#type DataNiosGridExtensibleattributedef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#type DataNiosGridExtensibleattributedef#type}
   */
   readonly type: string;
 }
@@ -608,7 +608,7 @@ export class DataNiosGridExtensibleattributedefResultList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef nios_grid_extensibleattributedef}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef nios_grid_extensibleattributedef}
 */
 export class DataNiosGridExtensibleattributedef extends cdktf.TerraformDataSource {
 
@@ -624,7 +624,7 @@ export class DataNiosGridExtensibleattributedef extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataNiosGridExtensibleattributedef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosGridExtensibleattributedef to import
-  * @param importFromId The id of the existing DataNiosGridExtensibleattributedef that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosGridExtensibleattributedef that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosGridExtensibleattributedef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class DataNiosGridExtensibleattributedef extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_extensibleattributedef nios_grid_extensibleattributedef} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_extensibleattributedef nios_grid_extensibleattributedef} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class DataNiosGridExtensibleattributedef extends cdktf.TerraformDataSourc
       terraformResourceType: 'nios_grid_extensibleattributedef',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

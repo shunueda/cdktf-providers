@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable call-home service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#call_home Service#call_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#call_home Service#call_home}
   */
   readonly callHome?: boolean | cdktf.IResolvable;
   /**
   * Compress the configuration file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#compress_config Service#compress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#compress_config Service#compress_config}
   */
   readonly compressConfig?: boolean | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#device Service#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#device Service#device}
   */
   readonly device?: string;
   /**
   * Enable DHCP server and relay agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#dhcp Service#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#dhcp Service#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable DHCP server and relay agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#dhcp_config Service#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#dhcp_config Service#dhcp_config}
   */
   readonly dhcpConfig?: boolean | cdktf.IResolvable;
   /**
   * Enable PAD commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#pad Service#pad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#pad Service#pad}
   */
   readonly pad?: boolean | cdktf.IResolvable;
   /**
   * Encrypt system passwords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#password_encryption Service#password_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#password_encryption Service#password_encryption}
   */
   readonly passwordEncryption?: boolean | cdktf.IResolvable;
   /**
   * Enable password recovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#password_recovery Service#password_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#password_recovery Service#password_recovery}
   */
   readonly passwordRecovery?: boolean | cdktf.IResolvable;
   /**
   * Stamp logger messages with a sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#sequence_numbers Service#sequence_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#sequence_numbers Service#sequence_numbers}
   */
   readonly sequenceNumbers?: boolean | cdktf.IResolvable;
   /**
   * Generate keepalives on idle incoming network connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#tcp_keepalives_in Service#tcp_keepalives_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#tcp_keepalives_in Service#tcp_keepalives_in}
   */
   readonly tcpKeepalivesIn?: boolean | cdktf.IResolvable;
   /**
   * Generate keepalives on idle outgoing network connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#tcp_keepalives_out Service#tcp_keepalives_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#tcp_keepalives_out Service#tcp_keepalives_out}
   */
   readonly tcpKeepalivesOut?: boolean | cdktf.IResolvable;
   /**
   * Timestamp debug/log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps Service#timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps Service#timestamps}
   */
   readonly timestamps?: boolean | cdktf.IResolvable;
   /**
   * Timestamp debug messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug Service#timestamps_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug Service#timestamps_debug}
   */
   readonly timestampsDebug?: boolean | cdktf.IResolvable;
   /**
   * Timestamp with date and time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_datetime Service#timestamps_debug_datetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_datetime Service#timestamps_debug_datetime}
   */
   readonly timestampsDebugDatetime?: boolean | cdktf.IResolvable;
   /**
   * Use local time zone for timestamps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_datetime_localtime Service#timestamps_debug_datetime_localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_datetime_localtime Service#timestamps_debug_datetime_localtime}
   */
   readonly timestampsDebugDatetimeLocaltime?: boolean | cdktf.IResolvable;
   /**
   * Include milliseconds in timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_datetime_msec Service#timestamps_debug_datetime_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_datetime_msec Service#timestamps_debug_datetime_msec}
   */
   readonly timestampsDebugDatetimeMsec?: boolean | cdktf.IResolvable;
   /**
   * Add time zone information to timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_datetime_show_timezone Service#timestamps_debug_datetime_show_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_datetime_show_timezone Service#timestamps_debug_datetime_show_timezone}
   */
   readonly timestampsDebugDatetimeShowTimezone?: boolean | cdktf.IResolvable;
   /**
   * Include year in timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_datetime_year Service#timestamps_debug_datetime_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_datetime_year Service#timestamps_debug_datetime_year}
   */
   readonly timestampsDebugDatetimeYear?: boolean | cdktf.IResolvable;
   /**
   * Timestamp with system uptime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_debug_uptime Service#timestamps_debug_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_debug_uptime Service#timestamps_debug_uptime}
   */
   readonly timestampsDebugUptime?: boolean | cdktf.IResolvable;
   /**
   * Timestamp log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log Service#timestamps_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log Service#timestamps_log}
   */
   readonly timestampsLog?: boolean | cdktf.IResolvable;
   /**
   * Timestamp with date and time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_datetime Service#timestamps_log_datetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_datetime Service#timestamps_log_datetime}
   */
   readonly timestampsLogDatetime?: boolean | cdktf.IResolvable;
   /**
   * Use local time zone for timestamps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_datetime_localtime Service#timestamps_log_datetime_localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_datetime_localtime Service#timestamps_log_datetime_localtime}
   */
   readonly timestampsLogDatetimeLocaltime?: boolean | cdktf.IResolvable;
   /**
   * Include milliseconds in timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_datetime_msec Service#timestamps_log_datetime_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_datetime_msec Service#timestamps_log_datetime_msec}
   */
   readonly timestampsLogDatetimeMsec?: boolean | cdktf.IResolvable;
   /**
   * Add time zone information to timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_datetime_show_timezone Service#timestamps_log_datetime_show_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_datetime_show_timezone Service#timestamps_log_datetime_show_timezone}
   */
   readonly timestampsLogDatetimeShowTimezone?: boolean | cdktf.IResolvable;
   /**
   * Include year in timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_datetime_year Service#timestamps_log_datetime_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_datetime_year Service#timestamps_log_datetime_year}
   */
   readonly timestampsLogDatetimeYear?: boolean | cdktf.IResolvable;
   /**
   * Timestamp with system uptime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#timestamps_log_uptime Service#timestamps_log_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#timestamps_log_uptime Service#timestamps_log_uptime}
   */
   readonly timestampsLogUptime?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service iosxe_service}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service iosxe_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/service iosxe_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/service iosxe_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_service',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

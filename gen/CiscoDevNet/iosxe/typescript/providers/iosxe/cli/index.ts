@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CliConfig extends cdktf.TerraformMetaArguments {
   /**
   * This attribute contains the CLI commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli#cli Cli#cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli#cli Cli#cli}
   */
   readonly cli: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli#device Cli#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli#device Cli#device}
   */
   readonly device?: string;
   /**
   * Determines which RPC method is used to send CLI commands. When `false` (default), uses the transactional `config-ios-cli-trans` RPC which provides automatic rollback on failure but only supports native IOS CLIs with YANG model support. When `true`, uses the `config-ios-cli-rpc` RPC which supports all IOS native and non-native CLIs but without transactional guarantees or automatic rollback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli#raw Cli#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli#raw Cli#raw}
   */
   readonly raw?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli iosxe_cli}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli iosxe_cli}
 */
 export class Cli extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Cli extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cli resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cli to import
-  * @param importFromId The id of the existing Cli that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cli that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cli to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Cli extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/cli iosxe_cli} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/cli iosxe_cli} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Cli extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_cli',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

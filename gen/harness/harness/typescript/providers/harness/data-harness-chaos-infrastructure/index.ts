@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessChaosInfrastructureConfig extends cdktf.TerraformMet
   /**
   * Environment identifier of the chaos infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#environment_id DataHarnessChaosInfrastructure#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#environment_id DataHarnessChaosInfrastructure#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#id DataHarnessChaosInfrastructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#id DataHarnessChaosInfrastructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataHarnessChaosInfrastructureConfig extends cdktf.TerraformMet
   /**
   * Identifier of the chaos infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#identifier DataHarnessChaosInfrastructure#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#identifier DataHarnessChaosInfrastructure#identifier}
   */
   readonly identifier: string;
   /**
   * Identifier of the organization in which the chaos infrastructure is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#org_id DataHarnessChaosInfrastructure#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#org_id DataHarnessChaosInfrastructure#org_id}
   */
   readonly orgId: string;
   /**
   * Identifier of the project in which the chaos infrastructure is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#project_id DataHarnessChaosInfrastructure#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#project_id DataHarnessChaosInfrastructure#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure harness_chaos_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure harness_chaos_infrastructure}
 */
 export class DataHarnessChaosInfrastructure extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataHarnessChaosInfrastructure extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessChaosInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessChaosInfrastructure to import
-  * @param importFromId The id of the existing DataHarnessChaosInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessChaosInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessChaosInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataHarnessChaosInfrastructure extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/chaos_infrastructure harness_chaos_infrastructure} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/chaos_infrastructure harness_chaos_infrastructure} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataHarnessChaosInfrastructure extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_chaos_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

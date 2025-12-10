@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorJdbcConfig extends cdktf.TerraformMetaArgument
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#delegate_selectors PlatformConnectorJdbc#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#delegate_selectors PlatformConnectorJdbc#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#description PlatformConnectorJdbc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#description PlatformConnectorJdbc#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#id PlatformConnectorJdbc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#id PlatformConnectorJdbc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface PlatformConnectorJdbcConfig extends cdktf.TerraformMetaArgument
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#identifier PlatformConnectorJdbc#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#identifier PlatformConnectorJdbc#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#name PlatformConnectorJdbc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#name PlatformConnectorJdbc#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#org_id PlatformConnectorJdbc#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#org_id PlatformConnectorJdbc#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#project_id PlatformConnectorJdbc#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#project_id PlatformConnectorJdbc#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#tags PlatformConnectorJdbc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#tags PlatformConnectorJdbc#tags}
   */
   readonly tags?: string[];
   /**
   * The URL of the database server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#url PlatformConnectorJdbc#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#url PlatformConnectorJdbc#url}
   */
   readonly url: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#credentials PlatformConnectorJdbc#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#credentials PlatformConnectorJdbc#credentials}
   */
   readonly credentials: PlatformConnectorJdbcCredentials;
 }
@@ -73,7 +73,7 @@ export interface PlatformConnectorJdbcCredentialsServiceAccount {
   /**
   * Reference to a secret containing the token to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#token_ref PlatformConnectorJdbc#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#token_ref PlatformConnectorJdbc#token_ref}
   */
   readonly tokenRef: string;
 }
@@ -156,19 +156,19 @@ export interface PlatformConnectorJdbcCredentialsUsernamePassword {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#password_ref PlatformConnectorJdbc#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#password_ref PlatformConnectorJdbc#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#username PlatformConnectorJdbc#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#username PlatformConnectorJdbc#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#username_ref PlatformConnectorJdbc#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#username_ref PlatformConnectorJdbc#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -309,37 +309,37 @@ export interface PlatformConnectorJdbcCredentials {
   /**
   * Authentication types for JDBC connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#auth_type PlatformConnectorJdbc#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#auth_type PlatformConnectorJdbc#auth_type}
   */
   readonly authType?: string;
   /**
   * The reference to the Harness secret containing the password to use for the database server. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#password_ref PlatformConnectorJdbc#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#password_ref PlatformConnectorJdbc#password_ref}
   */
   readonly passwordRef?: string;
   /**
   * The username to use for the database server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#username PlatformConnectorJdbc#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#username PlatformConnectorJdbc#username}
   */
   readonly username?: string;
   /**
   * The reference to the Harness secret containing the username to use for the database server. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#username_ref PlatformConnectorJdbc#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#username_ref PlatformConnectorJdbc#username_ref}
   */
   readonly usernameRef?: string;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#service_account PlatformConnectorJdbc#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#service_account PlatformConnectorJdbc#service_account}
   */
   readonly serviceAccount?: PlatformConnectorJdbcCredentialsServiceAccount;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#username_password PlatformConnectorJdbc#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#username_password PlatformConnectorJdbc#username_password}
   */
   readonly usernamePassword?: PlatformConnectorJdbcCredentialsUsernamePassword;
 }
@@ -568,7 +568,7 @@ export class PlatformConnectorJdbcCredentialsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc harness_platform_connector_jdbc}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc harness_platform_connector_jdbc}
 */
 export class PlatformConnectorJdbc extends cdktf.TerraformResource {
 
@@ -584,7 +584,7 @@ export class PlatformConnectorJdbc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorJdbc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorJdbc to import
-  * @param importFromId The id of the existing PlatformConnectorJdbc that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorJdbc that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorJdbc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -596,7 +596,7 @@ export class PlatformConnectorJdbc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jdbc harness_platform_connector_jdbc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_jdbc harness_platform_connector_jdbc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -607,8 +607,8 @@ export class PlatformConnectorJdbc extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_jdbc',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

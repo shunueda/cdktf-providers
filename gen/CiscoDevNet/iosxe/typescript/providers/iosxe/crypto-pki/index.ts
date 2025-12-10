@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,19 +11,19 @@ export interface CryptoPkiConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#delete_mode CryptoPki#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#delete_mode CryptoPki#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#device CryptoPki#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#device CryptoPki#device}
   */
   readonly device?: string;
   /**
   * Define a CA trustpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#trustpoints CryptoPki#trustpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#trustpoints CryptoPki#trustpoints}
   */
   readonly trustpoints?: CryptoPkiTrustpoints[] | cdktf.IResolvable;
 }
@@ -31,36 +31,36 @@ export interface CryptoPkiTrustpoints {
   /**
   * Registration Authority mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#enrollment_mode_ra CryptoPki#enrollment_mode_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#enrollment_mode_ra CryptoPki#enrollment_mode_ra}
   */
   readonly enrollmentModeRa?: boolean | cdktf.IResolvable;
   /**
   * Enroll via pkcs12
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#enrollment_pkcs12 CryptoPki#enrollment_pkcs12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#enrollment_pkcs12 CryptoPki#enrollment_pkcs12}
   */
   readonly enrollmentPkcs12?: boolean | cdktf.IResolvable;
   /**
   * Generate a Self Signed Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#enrollment_selfsigned CryptoPki#enrollment_selfsigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#enrollment_selfsigned CryptoPki#enrollment_selfsigned}
   */
   readonly enrollmentSelfsigned?: boolean | cdktf.IResolvable;
   /**
   * Enroll via the terminal (cut-and-paste)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#enrollment_terminal CryptoPki#enrollment_terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#enrollment_terminal CryptoPki#enrollment_terminal}
   */
   readonly enrollmentTerminal?: boolean | cdktf.IResolvable;
   /**
   * Hash algorithm
   *   - Choices: `md5`, `sha1`, `sha256`, `sha384`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#hash CryptoPki#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#hash CryptoPki#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#id CryptoPki#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#id CryptoPki#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,32 +69,32 @@ export interface CryptoPkiTrustpoints {
   /**
   * Revocation checking options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#revocation_check CryptoPki#revocation_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#revocation_check CryptoPki#revocation_check}
   */
   readonly revocationCheck?: string[];
   /**
   * RSA keypair label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#rsakeypair CryptoPki#rsakeypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#rsakeypair CryptoPki#rsakeypair}
   */
   readonly rsakeypair?: string;
   /**
   * Interface used as source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#source_interface CryptoPki#source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#source_interface CryptoPki#source_interface}
   */
   readonly sourceInterface?: string;
   /**
   * Subject Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#subject_name CryptoPki#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#subject_name CryptoPki#subject_name}
   */
   readonly subjectName?: string;
   /**
   * Certificate Usage
   *   - Choices: `ike`, `ssl-client`, `ssl-server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#usage CryptoPki#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#usage CryptoPki#usage}
   */
   readonly usage?: string;
 }
@@ -497,7 +497,7 @@ export class CryptoPkiTrustpointsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki iosxe_crypto_pki}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki iosxe_crypto_pki}
 */
 export class CryptoPki extends cdktf.TerraformResource {
 
@@ -513,7 +513,7 @@ export class CryptoPki extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CryptoPki resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CryptoPki to import
-  * @param importFromId The id of the existing CryptoPki that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CryptoPki that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CryptoPki to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -525,7 +525,7 @@ export class CryptoPki extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_pki iosxe_crypto_pki} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/crypto_pki iosxe_crypto_pki} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -536,8 +536,8 @@ export class CryptoPki extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_crypto_pki',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SmartfolderPersonalConfig extends cdktf.TerraformMetaArguments 
   /**
   * The personal Smart Folder descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#comment SmartfolderPersonal#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#comment SmartfolderPersonal#comment}
   */
   readonly comment?: string;
   /**
   * The personal Smart Folder groupping rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#group_bys SmartfolderPersonal#group_bys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#group_bys SmartfolderPersonal#group_bys}
   */
   readonly groupBys?: SmartfolderPersonalGroupBys[] | cdktf.IResolvable;
   /**
   * The personal Smart Folder name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#name SmartfolderPersonal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#name SmartfolderPersonal#name}
   */
   readonly name: string;
   /**
   * The personal Smart Folder filter queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#query_items SmartfolderPersonal#query_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#query_items SmartfolderPersonal#query_items}
   */
   readonly queryItems?: SmartfolderPersonalQueryItems[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface SmartfolderPersonalGroupBys {
   /**
   * Determines whether the grouping is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#enable_grouping SmartfolderPersonal#enable_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#enable_grouping SmartfolderPersonal#enable_grouping}
   */
   readonly enableGrouping?: boolean | cdktf.IResolvable;
   /**
   * The name of the Smart Folder grouping attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value SmartfolderPersonal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value SmartfolderPersonal#value}
   */
   readonly value: string;
   /**
   * The type of the Smart Folder grouping attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_type SmartfolderPersonal#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_type SmartfolderPersonal#value_type}
   */
   readonly valueType?: string;
 }
@@ -221,25 +221,25 @@ export interface SmartfolderPersonalQueryItemsValue {
   /**
   * The boolean value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_boolean SmartfolderPersonal#value_boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_boolean SmartfolderPersonal#value_boolean}
   */
   readonly valueBoolean?: boolean | cdktf.IResolvable;
   /**
   * The timestamp value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_date SmartfolderPersonal#value_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_date SmartfolderPersonal#value_date}
   */
   readonly valueDate?: string;
   /**
   * The integer value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_integer SmartfolderPersonal#value_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_integer SmartfolderPersonal#value_integer}
   */
   readonly valueInteger?: number;
   /**
   * The string value of the Smart Folder query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_string SmartfolderPersonal#value_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_string SmartfolderPersonal#value_string}
   */
   readonly valueString?: string;
 }
@@ -422,37 +422,37 @@ export interface SmartfolderPersonalQueryItems {
   /**
   * The Smart Folder query field type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#field_type SmartfolderPersonal#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#field_type SmartfolderPersonal#field_type}
   */
   readonly fieldType?: string;
   /**
   * The Smart Folder query name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#name SmartfolderPersonal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#name SmartfolderPersonal#name}
   */
   readonly name?: string;
   /**
   * Determines whether the query operator should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#op_match SmartfolderPersonal#op_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#op_match SmartfolderPersonal#op_match}
   */
   readonly opMatch?: boolean | cdktf.IResolvable;
   /**
   * The Smart Folder operator used in query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#operator SmartfolderPersonal#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#operator SmartfolderPersonal#operator}
   */
   readonly operator?: string;
   /**
   * The Smart Folder query value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value SmartfolderPersonal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value SmartfolderPersonal#value}
   */
   readonly value?: SmartfolderPersonalQueryItemsValue;
   /**
   * The Smart Folder query value type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#value_type SmartfolderPersonal#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#value_type SmartfolderPersonal#value_type}
   */
   readonly valueType?: string;
 }
@@ -713,7 +713,7 @@ export class SmartfolderPersonalQueryItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal nios_smartfolder_personal}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal nios_smartfolder_personal}
 */
 export class SmartfolderPersonal extends cdktf.TerraformResource {
 
@@ -729,7 +729,7 @@ export class SmartfolderPersonal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmartfolderPersonal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmartfolderPersonal to import
-  * @param importFromId The id of the existing SmartfolderPersonal that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmartfolderPersonal that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmartfolderPersonal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -741,7 +741,7 @@ export class SmartfolderPersonal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/smartfolder_personal nios_smartfolder_personal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/smartfolder_personal nios_smartfolder_personal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -752,8 +752,8 @@ export class SmartfolderPersonal extends cdktf.TerraformResource {
       terraformResourceType: 'nios_smartfolder_personal',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

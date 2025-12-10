@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataElasticstackElasticsearchIndexTemplateConfig extends cdktf.
   /**
   * The name of the index template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#name DataElasticstackElasticsearchIndexTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#name DataElasticstackElasticsearchIndexTemplate#name}
   */
   readonly name: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#elasticsearch_connection DataElasticstackElasticsearchIndexTemplate#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#elasticsearch_connection DataElasticstackElasticsearchIndexTemplate#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: DataElasticstackElasticsearchIndexTemplateElasticsearchConnection;
 }
@@ -376,85 +376,85 @@ export interface DataElasticstackElasticsearchIndexTemplateElasticsearchConnecti
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#api_key DataElasticstackElasticsearchIndexTemplate#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#api_key DataElasticstackElasticsearchIndexTemplate#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#bearer_token DataElasticstackElasticsearchIndexTemplate#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#bearer_token DataElasticstackElasticsearchIndexTemplate#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#ca_data DataElasticstackElasticsearchIndexTemplate#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#ca_data DataElasticstackElasticsearchIndexTemplate#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#ca_file DataElasticstackElasticsearchIndexTemplate#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#ca_file DataElasticstackElasticsearchIndexTemplate#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#cert_data DataElasticstackElasticsearchIndexTemplate#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#cert_data DataElasticstackElasticsearchIndexTemplate#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#cert_file DataElasticstackElasticsearchIndexTemplate#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#cert_file DataElasticstackElasticsearchIndexTemplate#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#endpoints DataElasticstackElasticsearchIndexTemplate#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#endpoints DataElasticstackElasticsearchIndexTemplate#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#es_client_authentication DataElasticstackElasticsearchIndexTemplate#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#es_client_authentication DataElasticstackElasticsearchIndexTemplate#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#headers DataElasticstackElasticsearchIndexTemplate#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#headers DataElasticstackElasticsearchIndexTemplate#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#insecure DataElasticstackElasticsearchIndexTemplate#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#insecure DataElasticstackElasticsearchIndexTemplate#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#key_data DataElasticstackElasticsearchIndexTemplate#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#key_data DataElasticstackElasticsearchIndexTemplate#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#key_file DataElasticstackElasticsearchIndexTemplate#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#key_file DataElasticstackElasticsearchIndexTemplate#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#password DataElasticstackElasticsearchIndexTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#password DataElasticstackElasticsearchIndexTemplate#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#username DataElasticstackElasticsearchIndexTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#username DataElasticstackElasticsearchIndexTemplate#username}
   */
   readonly username?: string;
 }
@@ -915,7 +915,7 @@ export class DataElasticstackElasticsearchIndexTemplateElasticsearchConnectionOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template elasticstack_elasticsearch_index_template}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template elasticstack_elasticsearch_index_template}
 */
 export class DataElasticstackElasticsearchIndexTemplate extends cdktf.TerraformDataSource {
 
@@ -931,7 +931,7 @@ export class DataElasticstackElasticsearchIndexTemplate extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIndexTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIndexTemplate to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIndexTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIndexTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIndexTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -943,7 +943,7 @@ export class DataElasticstackElasticsearchIndexTemplate extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_index_template elasticstack_elasticsearch_index_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_index_template elasticstack_elasticsearch_index_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -954,8 +954,8 @@ export class DataElasticstackElasticsearchIndexTemplate extends cdktf.TerraformD
       terraformResourceType: 'elasticstack_elasticsearch_index_template',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

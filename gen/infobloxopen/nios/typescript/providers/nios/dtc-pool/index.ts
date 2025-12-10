@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface DtcPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag for enabling auto managing DTC Consolidated Monitors in DTC Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#auto_consolidated_monitors DtcPool#auto_consolidated_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#auto_consolidated_monitors DtcPool#auto_consolidated_monitors}
   */
   readonly autoConsolidatedMonitors?: boolean | cdktf.IResolvable;
   /**
   * A resource in the pool is available if ANY, at least QUORUM, or ALL monitors for the pool say that it is up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#availability DtcPool#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#availability DtcPool#availability}
   */
   readonly availability?: string;
   /**
   * The comment for the DTC Pool; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#comment DtcPool#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#comment DtcPool#comment}
   */
   readonly comment?: string;
   /**
   * List of monitors and associated members statuses of which are shared across members and consolidated in server availability determination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#consolidated_monitors DtcPool#consolidated_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#consolidated_monitors DtcPool#consolidated_monitors}
   */
   readonly consolidatedMonitors?: DtcPoolConsolidatedMonitors[] | cdktf.IResolvable;
   /**
   * Determines whether the DTC Pool is disabled or not. When this is set to False, the fixed address is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#disable DtcPool#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#disable DtcPool#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#extattrs DtcPool#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#extattrs DtcPool#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The alternate load balancing method. Use this to select a method type from the pool if the preferred method does not return any results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_alternate_method DtcPool#lb_alternate_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_alternate_method DtcPool#lb_alternate_method}
   */
   readonly lbAlternateMethod?: string;
   /**
   * The alternate topology for load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_alternate_topology DtcPool#lb_alternate_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_alternate_topology DtcPool#lb_alternate_topology}
   */
   readonly lbAlternateTopology?: string;
   /**
   * The DTC Pool settings for dynamic ratio when its selected as alternate method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_dynamic_ratio_alternate DtcPool#lb_dynamic_ratio_alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_dynamic_ratio_alternate DtcPool#lb_dynamic_ratio_alternate}
   */
   readonly lbDynamicRatioAlternate?: DtcPoolLbDynamicRatioAlternate;
   /**
   * The DTC Pool settings for dynamic ratio when its selected as preferred method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_dynamic_ratio_preferred DtcPool#lb_dynamic_ratio_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_dynamic_ratio_preferred DtcPool#lb_dynamic_ratio_preferred}
   */
   readonly lbDynamicRatioPreferred?: DtcPoolLbDynamicRatioPreferred;
   /**
   * The preferred load balancing method. Use this to select a method type from the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_preferred_method DtcPool#lb_preferred_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_preferred_method DtcPool#lb_preferred_method}
   */
   readonly lbPreferredMethod: string;
   /**
   * The preferred topology for load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#lb_preferred_topology DtcPool#lb_preferred_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#lb_preferred_topology DtcPool#lb_preferred_topology}
   */
   readonly lbPreferredTopology?: string;
   /**
   * The monitors related to pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitors DtcPool#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitors DtcPool#monitors}
   */
   readonly monitors?: string[];
   /**
   * The DTC Pool display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#name DtcPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#name DtcPool#name}
   */
   readonly name: string;
   /**
   * For availability mode QUORUM, at least this many monitors must report the resource as up for it to be available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#quorum DtcPool#quorum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#quorum DtcPool#quorum}
   */
   readonly quorum?: number;
   /**
   * The servers related to the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#servers DtcPool#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#servers DtcPool#servers}
   */
   readonly servers?: DtcPoolServers[] | cdktf.IResolvable;
   /**
   * The Time To Live (TTL) value for the DTC Pool. A 32-bit unsigned integer that represents the duration, in seconds, for which the record is valid (cached). Zero indicates that the record should not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#ttl DtcPool#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#ttl DtcPool#ttl}
   */
   readonly ttl?: number;
   /**
   * Flag to indicate whether the TTL value should be used for the DTC Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#use_ttl DtcPool#use_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#use_ttl DtcPool#use_ttl}
   */
   readonly useTtl?: boolean | cdktf.IResolvable;
 }
@@ -120,25 +120,25 @@ export interface DtcPoolConsolidatedMonitors {
   /**
   * Servers assigned to a pool with monitor defined are healthy if ANY or ALL members report healthy status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#availability DtcPool#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#availability DtcPool#availability}
   */
   readonly availability?: string;
   /**
   * Flag for switching health performing and sharing behavior to perform health checks on each DTC grid member that serves related LBDN(s) and send them across all DTC grid members from both selected and non-selected lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#full_health_communication DtcPool#full_health_communication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#full_health_communication DtcPool#full_health_communication}
   */
   readonly fullHealthCommunication?: boolean | cdktf.IResolvable;
   /**
   * Members whose monitor statuses are shared across other members in a pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#members DtcPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#members DtcPool#members}
   */
   readonly members?: string[];
   /**
   * Monitor whose statuses are shared across other members in a pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
   */
   readonly monitor?: string;
 }
@@ -407,31 +407,31 @@ export interface DtcPoolLbDynamicRatioAlternate {
   /**
   * Determines whether the inverted values of the DTC SNMP monitor metric will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#invert_monitor_metric DtcPool#invert_monitor_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#invert_monitor_metric DtcPool#invert_monitor_metric}
   */
   readonly invertMonitorMetric?: boolean | cdktf.IResolvable;
   /**
   * The method of the DTC dynamic ratio load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#method DtcPool#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#method DtcPool#method}
   */
   readonly method?: string;
   /**
   * The DTC monitor output of which will be used for dynamic ratio load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
   */
   readonly monitor?: string;
   /**
   * The metric of the DTC SNMP monitor that will be used for dynamic weighing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor_metric DtcPool#monitor_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor_metric DtcPool#monitor_metric}
   */
   readonly monitorMetric?: string;
   /**
   * The DTC monitor weight. 'PRIORITY' means that all clients will be forwarded to the least loaded server. 'RATIO' means that distribution will be calculated based on dynamic weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor_weighing DtcPool#monitor_weighing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor_weighing DtcPool#monitor_weighing}
   */
   readonly monitorWeighing?: string;
 }
@@ -643,31 +643,31 @@ export interface DtcPoolLbDynamicRatioPreferred {
   /**
   * Determines whether the inverted values of the DTC SNMP monitor metric will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#invert_monitor_metric DtcPool#invert_monitor_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#invert_monitor_metric DtcPool#invert_monitor_metric}
   */
   readonly invertMonitorMetric?: boolean | cdktf.IResolvable;
   /**
   * The method of the DTC dynamic ratio load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#method DtcPool#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#method DtcPool#method}
   */
   readonly method?: string;
   /**
   * The DTC monitor output of which will be used for dynamic ratio load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor DtcPool#monitor}
   */
   readonly monitor?: string;
   /**
   * The metric of the DTC SNMP monitor that will be used for dynamic weighing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor_metric DtcPool#monitor_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor_metric DtcPool#monitor_metric}
   */
   readonly monitorMetric?: string;
   /**
   * The DTC monitor weight. 'PRIORITY' means that all clients will be forwarded to the least loaded server. 'RATIO' means that distribution will be calculated based on dynamic weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#monitor_weighing DtcPool#monitor_weighing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#monitor_weighing DtcPool#monitor_weighing}
   */
   readonly monitorWeighing?: string;
 }
@@ -879,13 +879,13 @@ export interface DtcPoolServers {
   /**
   * The weight of server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#ratio DtcPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#ratio DtcPool#ratio}
   */
   readonly ratio?: number;
   /**
   * The server to link with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#server DtcPool#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#server DtcPool#server}
   */
   readonly server: string;
 }
@@ -1027,7 +1027,7 @@ export class DtcPoolServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool nios_dtc_pool}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool nios_dtc_pool}
 */
 export class DtcPool extends cdktf.TerraformResource {
 
@@ -1043,7 +1043,7 @@ export class DtcPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtcPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtcPool to import
-  * @param importFromId The id of the existing DtcPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtcPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtcPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1055,7 +1055,7 @@ export class DtcPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dtc_pool nios_dtc_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dtc_pool nios_dtc_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1066,8 +1066,8 @@ export class DtcPool extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dtc_pool',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1368,7 +1368,7 @@ export class DtcPool extends cdktf.TerraformResource {
     return this._servers.internalValue;
   }
 
-  // ttl - computed: false, optional: true, required: false
+  // ttl - computed: true, optional: true, required: false
   private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');

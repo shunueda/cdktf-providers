@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface GridUpgradegroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The upgrade group descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#comment GridUpgradegroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#comment GridUpgradegroup#comment}
   */
   readonly comment?: string;
   /**
   * The distribution dependent group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#distribution_dependent_group GridUpgradegroup#distribution_dependent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#distribution_dependent_group GridUpgradegroup#distribution_dependent_group}
   */
   readonly distributionDependentGroup?: string;
   /**
   * The distribution scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#distribution_policy GridUpgradegroup#distribution_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#distribution_policy GridUpgradegroup#distribution_policy}
   */
   readonly distributionPolicy?: string;
   /**
   * The time of the next scheduled distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#distribution_time GridUpgradegroup#distribution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#distribution_time GridUpgradegroup#distribution_time}
   */
   readonly distributionTime?: string;
   /**
   * The upgrade group members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#members GridUpgradegroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#members GridUpgradegroup#members}
   */
   readonly members?: GridUpgradegroupMembers[] | cdktf.IResolvable;
   /**
   * The upgrade group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#name GridUpgradegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#name GridUpgradegroup#name}
   */
   readonly name: string;
   /**
   * The upgrade dependent group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#upgrade_dependent_group GridUpgradegroup#upgrade_dependent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#upgrade_dependent_group GridUpgradegroup#upgrade_dependent_group}
   */
   readonly upgradeDependentGroup?: string;
   /**
   * The upgrade scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#upgrade_policy GridUpgradegroup#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#upgrade_policy GridUpgradegroup#upgrade_policy}
   */
   readonly upgradePolicy?: string;
   /**
   * The time of the next scheduled upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#upgrade_time GridUpgradegroup#upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#upgrade_time GridUpgradegroup#upgrade_time}
   */
   readonly upgradeTime?: string;
 }
@@ -66,7 +66,7 @@ export interface GridUpgradegroupMembers {
   /**
   * The upgrade group member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#member GridUpgradegroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#member GridUpgradegroup#member}
   */
   readonly member: string;
 }
@@ -184,7 +184,7 @@ export class GridUpgradegroupMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup nios_grid_upgradegroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup nios_grid_upgradegroup}
 */
 export class GridUpgradegroup extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class GridUpgradegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GridUpgradegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GridUpgradegroup to import
-  * @param importFromId The id of the existing GridUpgradegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GridUpgradegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GridUpgradegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class GridUpgradegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_upgradegroup nios_grid_upgradegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_upgradegroup nios_grid_upgradegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class GridUpgradegroup extends cdktf.TerraformResource {
       terraformResourceType: 'nios_grid_upgradegroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

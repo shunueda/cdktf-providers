@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DnsNsgroupDelegationConfig extends cdktf.TerraformMetaArguments
   /**
   * The comment for the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#comment DnsNsgroupDelegation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#comment DnsNsgroupDelegation#comment}
   */
   readonly comment?: string;
   /**
   * The list of delegated servers for the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#delegate_to DnsNsgroupDelegation#delegate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#delegate_to DnsNsgroupDelegation#delegate_to}
   */
   readonly delegateTo: DnsNsgroupDelegationDelegateTo[] | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#extattrs DnsNsgroupDelegation#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#extattrs DnsNsgroupDelegation#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the delegated NS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#name DnsNsgroupDelegation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#name DnsNsgroupDelegation#name}
   */
   readonly name: string;
 }
@@ -36,13 +36,13 @@ export interface DnsNsgroupDelegationDelegateTo {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#address DnsNsgroupDelegation#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#address DnsNsgroupDelegation#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#name DnsNsgroupDelegation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#name DnsNsgroupDelegation#name}
   */
   readonly name: string;
 }
@@ -211,7 +211,7 @@ export class DnsNsgroupDelegationDelegateToList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation nios_dns_nsgroup_delegation}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation nios_dns_nsgroup_delegation}
 */
 export class DnsNsgroupDelegation extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DnsNsgroupDelegation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsNsgroupDelegation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsNsgroupDelegation to import
-  * @param importFromId The id of the existing DnsNsgroupDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsNsgroupDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsNsgroupDelegation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DnsNsgroupDelegation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_delegation nios_dns_nsgroup_delegation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_delegation nios_dns_nsgroup_delegation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DnsNsgroupDelegation extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_nsgroup_delegation',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

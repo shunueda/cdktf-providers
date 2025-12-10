@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformFileStoreFileConfig extends cdktf.TerraformMetaArgument
   /**
   * File content stored on Harness File Store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#content PlatformFileStoreFile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#content PlatformFileStoreFile#content}
   */
   readonly content?: string;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#description PlatformFileStoreFile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#description PlatformFileStoreFile#description}
   */
   readonly description?: string;
   /**
   * File content path to be upladed on Harness File Store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#file_content_path PlatformFileStoreFile#file_content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#file_content_path PlatformFileStoreFile#file_content_path}
   */
   readonly fileContentPath?: string;
   /**
   * File usage. Valid options are MANIFEST_FILE, CONFIG, SCRIPT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#file_usage PlatformFileStoreFile#file_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#file_usage PlatformFileStoreFile#file_usage}
   */
   readonly fileUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#id PlatformFileStoreFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#id PlatformFileStoreFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface PlatformFileStoreFileConfig extends cdktf.TerraformMetaArgument
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#identifier PlatformFileStoreFile#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#identifier PlatformFileStoreFile#identifier}
   */
   readonly identifier: string;
   /**
   * File mime type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#mime_type PlatformFileStoreFile#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#mime_type PlatformFileStoreFile#mime_type}
   */
   readonly mimeType?: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#name PlatformFileStoreFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#name PlatformFileStoreFile#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#org_id PlatformFileStoreFile#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#org_id PlatformFileStoreFile#org_id}
   */
   readonly orgId?: string;
   /**
   * File parent identifier on Harness File Store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#parent_identifier PlatformFileStoreFile#parent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#parent_identifier PlatformFileStoreFile#parent_identifier}
   */
   readonly parentIdentifier: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#project_id PlatformFileStoreFile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#project_id PlatformFileStoreFile#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#tags PlatformFileStoreFile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#tags PlatformFileStoreFile#tags}
   */
   readonly tags?: string[];
 }
@@ -243,7 +243,7 @@ export class PlatformFileStoreFileLastModifiedByList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file harness_platform_file_store_file}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file harness_platform_file_store_file}
 */
 export class PlatformFileStoreFile extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class PlatformFileStoreFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformFileStoreFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformFileStoreFile to import
-  * @param importFromId The id of the existing PlatformFileStoreFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformFileStoreFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformFileStoreFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class PlatformFileStoreFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_file_store_file harness_platform_file_store_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_file_store_file harness_platform_file_store_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class PlatformFileStoreFile extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_file_store_file',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

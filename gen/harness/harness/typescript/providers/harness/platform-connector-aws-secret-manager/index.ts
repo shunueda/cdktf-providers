@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PlatformConnectorAwsSecretManagerConfig extends cdktf.Terraform
   /**
   * Use as Default Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#default PlatformConnectorAwsSecretManager#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#default PlatformConnectorAwsSecretManager#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#delegate_selectors PlatformConnectorAwsSecretManager#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#delegate_selectors PlatformConnectorAwsSecretManager#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#description PlatformConnectorAwsSecretManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#description PlatformConnectorAwsSecretManager#description}
   */
   readonly description?: string;
   /**
   * Run the operation on the delegate or harness platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#execute_on_delegate PlatformConnectorAwsSecretManager#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#execute_on_delegate PlatformConnectorAwsSecretManager#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Whether to force delete secret value or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#force_delete_without_recovery PlatformConnectorAwsSecretManager#force_delete_without_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#force_delete_without_recovery PlatformConnectorAwsSecretManager#force_delete_without_recovery}
   */
   readonly forceDeleteWithoutRecovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#id PlatformConnectorAwsSecretManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#id PlatformConnectorAwsSecretManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +47,61 @@ export interface PlatformConnectorAwsSecretManagerConfig extends cdktf.Terraform
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#identifier PlatformConnectorAwsSecretManager#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#identifier PlatformConnectorAwsSecretManager#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#name PlatformConnectorAwsSecretManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#name PlatformConnectorAwsSecretManager#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#org_id PlatformConnectorAwsSecretManager#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#org_id PlatformConnectorAwsSecretManager#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#project_id PlatformConnectorAwsSecretManager#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#project_id PlatformConnectorAwsSecretManager#project_id}
   */
   readonly projectId?: string;
   /**
   * Recovery duration in days in AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#recovery_window_in_days PlatformConnectorAwsSecretManager#recovery_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#recovery_window_in_days PlatformConnectorAwsSecretManager#recovery_window_in_days}
   */
   readonly recoveryWindowInDays?: number;
   /**
   * The AWS region where the AWS Secret Manager is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#region PlatformConnectorAwsSecretManager#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#region PlatformConnectorAwsSecretManager#region}
   */
   readonly region: string;
   /**
   * A prefix to be added to all secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#secret_name_prefix PlatformConnectorAwsSecretManager#secret_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#secret_name_prefix PlatformConnectorAwsSecretManager#secret_name_prefix}
   */
   readonly secretNamePrefix?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#tags PlatformConnectorAwsSecretManager#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#tags PlatformConnectorAwsSecretManager#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to update secret value using putSecretValue action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#use_put_secret PlatformConnectorAwsSecretManager#use_put_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#use_put_secret PlatformConnectorAwsSecretManager#use_put_secret}
   */
   readonly usePutSecret?: boolean | cdktf.IResolvable;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#credentials PlatformConnectorAwsSecretManager#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#credentials PlatformConnectorAwsSecretManager#credentials}
   */
   readonly credentials: PlatformConnectorAwsSecretManagerCredentials;
 }
@@ -109,19 +109,19 @@ export interface PlatformConnectorAwsSecretManagerCredentialsAssumeRole {
   /**
   * The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. An expiration can also be specified in the client request body. The minimum value is 1 hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#duration PlatformConnectorAwsSecretManager#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#duration PlatformConnectorAwsSecretManager#duration}
   */
   readonly duration: number;
   /**
   * If the administrator of the account to which the role belongs provided you with an external ID, then enter that value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#external_id PlatformConnectorAwsSecretManager#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#external_id PlatformConnectorAwsSecretManager#external_id}
   */
   readonly externalId?: string;
   /**
   * The ARN of the role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#role_arn PlatformConnectorAwsSecretManager#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#role_arn PlatformConnectorAwsSecretManager#role_arn}
   */
   readonly roleArn: string;
 }
@@ -259,19 +259,19 @@ export interface PlatformConnectorAwsSecretManagerCredentialsManual {
   /**
   * The plain text AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#access_key_plain_text PlatformConnectorAwsSecretManager#access_key_plain_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#access_key_plain_text PlatformConnectorAwsSecretManager#access_key_plain_text}
   */
   readonly accessKeyPlainText?: string;
   /**
   * The reference to the Harness secret containing the AWS access key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#access_key_ref PlatformConnectorAwsSecretManager#access_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#access_key_ref PlatformConnectorAwsSecretManager#access_key_ref}
   */
   readonly accessKeyRef?: string;
   /**
   * The reference to the Harness secret containing the AWS secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#secret_key_ref PlatformConnectorAwsSecretManager#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#secret_key_ref PlatformConnectorAwsSecretManager#secret_key_ref}
   */
   readonly secretKeyRef: string;
 }
@@ -412,7 +412,7 @@ export interface PlatformConnectorAwsSecretManagerCredentialsOidcAuthentication 
   /**
   * The IAM role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#iam_role_arn PlatformConnectorAwsSecretManager#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#iam_role_arn PlatformConnectorAwsSecretManager#iam_role_arn}
   */
   readonly iamRoleArn: string;
 }
@@ -495,25 +495,25 @@ export interface PlatformConnectorAwsSecretManagerCredentials {
   /**
   * Inherit the credentials from from the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#inherit_from_delegate PlatformConnectorAwsSecretManager#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#inherit_from_delegate PlatformConnectorAwsSecretManager#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: boolean | cdktf.IResolvable;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#assume_role PlatformConnectorAwsSecretManager#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#assume_role PlatformConnectorAwsSecretManager#assume_role}
   */
   readonly assumeRole?: PlatformConnectorAwsSecretManagerCredentialsAssumeRole;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#manual PlatformConnectorAwsSecretManager#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#manual PlatformConnectorAwsSecretManager#manual}
   */
   readonly manual?: PlatformConnectorAwsSecretManagerCredentialsManual;
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#oidc_authentication PlatformConnectorAwsSecretManager#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#oidc_authentication PlatformConnectorAwsSecretManager#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorAwsSecretManagerCredentialsOidcAuthentication;
 }
@@ -684,7 +684,7 @@ export class PlatformConnectorAwsSecretManagerCredentialsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager harness_platform_connector_aws_secret_manager}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager harness_platform_connector_aws_secret_manager}
 */
 export class PlatformConnectorAwsSecretManager extends cdktf.TerraformResource {
 
@@ -700,7 +700,7 @@ export class PlatformConnectorAwsSecretManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAwsSecretManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAwsSecretManager to import
-  * @param importFromId The id of the existing PlatformConnectorAwsSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAwsSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAwsSecretManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -712,7 +712,7 @@ export class PlatformConnectorAwsSecretManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_aws_secret_manager harness_platform_connector_aws_secret_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_connector_aws_secret_manager harness_platform_connector_aws_secret_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -723,8 +723,8 @@ export class PlatformConnectorAwsSecretManager extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_aws_secret_manager',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

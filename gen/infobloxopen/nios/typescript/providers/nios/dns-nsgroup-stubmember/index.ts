@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DnsNsgroupStubmemberConfig extends cdktf.TerraformMetaArguments
   /**
   * Comment for the Stub Member Name Server Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#comment DnsNsgroupStubmember#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#comment DnsNsgroupStubmember#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#extattrs DnsNsgroupStubmember#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#extattrs DnsNsgroupStubmember#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The name of the Stub Member Name Server Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#name DnsNsgroupStubmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#name DnsNsgroupStubmember#name}
   */
   readonly name: string;
   /**
   * The Grid member servers of this stub zone. Note that the lead/stealth/grid_replicate/ preferred_primaries/override_preferred_primaries fields of the struct will be ignored when set in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#stub_members DnsNsgroupStubmember#stub_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#stub_members DnsNsgroupStubmember#stub_members}
   */
   readonly stubMembers: DnsNsgroupStubmemberStubMembers[] | cdktf.IResolvable;
 }
@@ -146,7 +146,7 @@ export interface DnsNsgroupStubmemberStubMembers {
   /**
   * The grid member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#name DnsNsgroupStubmember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#name DnsNsgroupStubmember#name}
   */
   readonly name: string;
 }
@@ -285,7 +285,7 @@ export class DnsNsgroupStubmemberStubMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember}
 */
 export class DnsNsgroupStubmember extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class DnsNsgroupStubmember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsNsgroupStubmember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsNsgroupStubmember to import
-  * @param importFromId The id of the existing DnsNsgroupStubmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsNsgroupStubmember that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsNsgroupStubmember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class DnsNsgroupStubmember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/dns_nsgroup_stubmember nios_dns_nsgroup_stubmember} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class DnsNsgroupStubmember extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_nsgroup_stubmember',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

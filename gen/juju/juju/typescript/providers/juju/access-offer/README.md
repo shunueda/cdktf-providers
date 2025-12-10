@@ -1,3 +1,3 @@
 # `juju_access_offer`
 
-Refer to the Terraform Registry for docs: [`juju_access_offer`](https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/access_offer).
+Refer to the Terraform Registry for docs: [`juju_access_offer`](https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/access_offer).

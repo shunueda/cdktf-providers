@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GridNatgroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The NAT group descriptive comment; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup#comment GridNatgroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup#comment GridNatgroup#comment}
   */
   readonly comment?: string;
   /**
   * The name of a NAT group object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup#name GridNatgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup#name GridNatgroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup nios_grid_natgroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup nios_grid_natgroup}
 */
 export class GridNatgroup extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GridNatgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GridNatgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GridNatgroup to import
-  * @param importFromId The id of the existing GridNatgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GridNatgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GridNatgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GridNatgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/grid_natgroup nios_grid_natgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/grid_natgroup nios_grid_natgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GridNatgroup extends cdktf.TerraformResource {
       terraformResourceType: 'nios_grid_natgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

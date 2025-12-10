@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/discovery_credentialgroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/discovery_credentialgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DiscoveryCredentialgroupConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the Credential group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/discovery_credentialgroup#name DiscoveryCredentialgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/discovery_credentialgroup#name DiscoveryCredentialgroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/discovery_credentialgroup nios_discovery_credentialgroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/discovery_credentialgroup nios_discovery_credentialgroup}
 */
 export class DiscoveryCredentialgroup extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class DiscoveryCredentialgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiscoveryCredentialgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiscoveryCredentialgroup to import
-  * @param importFromId The id of the existing DiscoveryCredentialgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/discovery_credentialgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiscoveryCredentialgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/discovery_credentialgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiscoveryCredentialgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DiscoveryCredentialgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/resources/discovery_credentialgroup nios_discovery_credentialgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/resources/discovery_credentialgroup nios_discovery_credentialgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DiscoveryCredentialgroup extends cdktf.TerraformResource {
       terraformResourceType: 'nios_discovery_credentialgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

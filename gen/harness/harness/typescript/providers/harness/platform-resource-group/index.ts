@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformResourceGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Account Identifier of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#account_id PlatformResourceGroup#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#account_id PlatformResourceGroup#account_id}
   */
   readonly accountId: string;
   /**
   * The scope levels at which this resource group can be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#allowed_scope_levels PlatformResourceGroup#allowed_scope_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#allowed_scope_levels PlatformResourceGroup#allowed_scope_levels}
   */
   readonly allowedScopeLevels?: string[];
   /**
   * Color of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#color PlatformResourceGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#color PlatformResourceGroup#color}
   */
   readonly color?: string;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#description PlatformResourceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#description PlatformResourceGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#id PlatformResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#id PlatformResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface PlatformResourceGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#identifier PlatformResourceGroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#identifier PlatformResourceGroup#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#name PlatformResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#name PlatformResourceGroup#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#org_id PlatformResourceGroup#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#org_id PlatformResourceGroup#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#project_id PlatformResourceGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#project_id PlatformResourceGroup#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#tags PlatformResourceGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#tags PlatformResourceGroup#tags}
   */
   readonly tags?: string[];
   /**
   * included_scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#included_scopes PlatformResourceGroup#included_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#included_scopes PlatformResourceGroup#included_scopes}
   */
   readonly includedScopes?: PlatformResourceGroupIncludedScopes[] | cdktf.IResolvable;
   /**
   * resource_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#resource_filter PlatformResourceGroup#resource_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#resource_filter PlatformResourceGroup#resource_filter}
   */
   readonly resourceFilter?: PlatformResourceGroupResourceFilter[] | cdktf.IResolvable;
 }
@@ -85,25 +85,25 @@ export interface PlatformResourceGroupIncludedScopes {
   /**
   * Account Identifier of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#account_id PlatformResourceGroup#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#account_id PlatformResourceGroup#account_id}
   */
   readonly accountId?: string;
   /**
   * Can be one of these 2 EXCLUDING_CHILD_SCOPES or INCLUDING_CHILD_SCOPES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#filter PlatformResourceGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#filter PlatformResourceGroup#filter}
   */
   readonly filter: string;
   /**
   * Organization Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#org_id PlatformResourceGroup#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#org_id PlatformResourceGroup#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#project_id PlatformResourceGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#project_id PlatformResourceGroup#project_id}
   */
   readonly projectId?: string;
 }
@@ -305,13 +305,13 @@ export interface PlatformResourceGroupResourceFilterResourcesAttributeFilter {
   /**
   * Name of the attribute. Valid values are `category`, `type`, `labels`, `tag` or `tags`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#attribute_name PlatformResourceGroup#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#attribute_name PlatformResourceGroup#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Value of the attributes.Valid values for `category` are [ARTIFACTORY,CLOUD_COST,CLOUD_PROVIDER,CODE_REPO,MONITORING,SECRET_MANAGER,TICKETING], for `type` are [Production,PreProduction], for `labels`, it can be using the syntax 'label:value', for `tag` or `tags` it can be any string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#attribute_values PlatformResourceGroup#attribute_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#attribute_values PlatformResourceGroup#attribute_values}
   */
   readonly attributeValues?: string[];
 }
@@ -458,19 +458,19 @@ export interface PlatformResourceGroupResourceFilterResources {
   /**
   * List of the identifiers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#identifiers PlatformResourceGroup#identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#identifiers PlatformResourceGroup#identifiers}
   */
   readonly identifiers?: string[];
   /**
   * Type of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#resource_type PlatformResourceGroup#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#resource_type PlatformResourceGroup#resource_type}
   */
   readonly resourceType: string;
   /**
   * attribute_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#attribute_filter PlatformResourceGroup#attribute_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#attribute_filter PlatformResourceGroup#attribute_filter}
   */
   readonly attributeFilter?: PlatformResourceGroupResourceFilterResourcesAttributeFilter[] | cdktf.IResolvable;
 }
@@ -643,13 +643,13 @@ export interface PlatformResourceGroupResourceFilter {
   /**
   * Include all resource or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#include_all_resources PlatformResourceGroup#include_all_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#include_all_resources PlatformResourceGroup#include_all_resources}
   */
   readonly includeAllResources?: boolean | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#resources PlatformResourceGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#resources PlatformResourceGroup#resources}
   */
   readonly resources?: PlatformResourceGroupResourceFilterResources[] | cdktf.IResolvable;
 }
@@ -794,7 +794,7 @@ export class PlatformResourceGroupResourceFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group harness_platform_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group harness_platform_resource_group}
 */
 export class PlatformResourceGroup extends cdktf.TerraformResource {
 
@@ -810,7 +810,7 @@ export class PlatformResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformResourceGroup to import
-  * @param importFromId The id of the existing PlatformResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -822,7 +822,7 @@ export class PlatformResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_resource_group harness_platform_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_resource_group harness_platform_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -833,8 +833,8 @@ export class PlatformResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

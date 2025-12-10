@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformCentralNotificationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#id DataHarnessPlatformCentralNotificationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#id DataHarnessPlatformCentralNotificationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface DataHarnessPlatformCentralNotificationRuleConfig extends cdktf.
   /**
   * Identifier of the Notification Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#identifier DataHarnessPlatformCentralNotificationRule#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#identifier DataHarnessPlatformCentralNotificationRule#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#name DataHarnessPlatformCentralNotificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#name DataHarnessPlatformCentralNotificationRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_channel_refs DataHarnessPlatformCentralNotificationRule#notification_channel_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_channel_refs DataHarnessPlatformCentralNotificationRule#notification_channel_refs}
   */
   readonly notificationChannelRefs?: string[];
   /**
   * Identifier of the organization in which the Notification Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#org DataHarnessPlatformCentralNotificationRule#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#org DataHarnessPlatformCentralNotificationRule#org}
   */
   readonly org?: string;
   /**
   * Identifier of the project in which the Notification Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#project DataHarnessPlatformCentralNotificationRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#project DataHarnessPlatformCentralNotificationRule#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#status DataHarnessPlatformCentralNotificationRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#status DataHarnessPlatformCentralNotificationRule#status}
   */
   readonly status?: string;
   /**
   * custom_notification_template_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#custom_notification_template_ref DataHarnessPlatformCentralNotificationRule#custom_notification_template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#custom_notification_template_ref DataHarnessPlatformCentralNotificationRule#custom_notification_template_ref}
   */
   readonly customNotificationTemplateRef?: DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplateRef;
   /**
   * notification_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_conditions DataHarnessPlatformCentralNotificationRule#notification_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_conditions DataHarnessPlatformCentralNotificationRule#notification_conditions}
   */
   readonly notificationConditions?: DataHarnessPlatformCentralNotificationRuleNotificationConditions[] | cdktf.IResolvable;
 }
 export interface DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplateRefVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#name DataHarnessPlatformCentralNotificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#name DataHarnessPlatformCentralNotificationRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#type DataHarnessPlatformCentralNotificationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#type DataHarnessPlatformCentralNotificationRule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#value DataHarnessPlatformCentralNotificationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#value DataHarnessPlatformCentralNotificationRule#value}
   */
   readonly value: string;
 }
@@ -235,17 +235,17 @@ export class DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplat
 }
 export interface DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplateRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#template_ref DataHarnessPlatformCentralNotificationRule#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#template_ref DataHarnessPlatformCentralNotificationRule#template_ref}
   */
   readonly templateRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#version_label DataHarnessPlatformCentralNotificationRule#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#version_label DataHarnessPlatformCentralNotificationRule#version_label}
   */
   readonly versionLabel: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#variables DataHarnessPlatformCentralNotificationRule#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#variables DataHarnessPlatformCentralNotificationRule#variables}
   */
   readonly variables?: DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplateRefVariables[] | cdktf.IResolvable;
 }
@@ -381,19 +381,19 @@ export class DataHarnessPlatformCentralNotificationRuleCustomNotificationTemplat
 }
 export interface DataHarnessPlatformCentralNotificationRuleNotificationConditionsNotificationEventConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#entity_identifiers DataHarnessPlatformCentralNotificationRule#entity_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#entity_identifiers DataHarnessPlatformCentralNotificationRule#entity_identifiers}
   */
   readonly entityIdentifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_entity DataHarnessPlatformCentralNotificationRule#notification_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_entity DataHarnessPlatformCentralNotificationRule#notification_entity}
   */
   readonly notificationEntity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_event DataHarnessPlatformCentralNotificationRule#notification_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_event DataHarnessPlatformCentralNotificationRule#notification_event}
   */
   readonly notificationEvent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_event_data DataHarnessPlatformCentralNotificationRule#notification_event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_event_data DataHarnessPlatformCentralNotificationRule#notification_event_data}
   */
   readonly notificationEventData?: { [key: string]: string };
 }
@@ -590,13 +590,13 @@ export class DataHarnessPlatformCentralNotificationRuleNotificationConditionsNot
 }
 export interface DataHarnessPlatformCentralNotificationRuleNotificationConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#condition_name DataHarnessPlatformCentralNotificationRule#condition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#condition_name DataHarnessPlatformCentralNotificationRule#condition_name}
   */
   readonly conditionName: string;
   /**
   * notification_event_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#notification_event_configs DataHarnessPlatformCentralNotificationRule#notification_event_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#notification_event_configs DataHarnessPlatformCentralNotificationRule#notification_event_configs}
   */
   readonly notificationEventConfigs: DataHarnessPlatformCentralNotificationRuleNotificationConditionsNotificationEventConfigs[] | cdktf.IResolvable;
 }
@@ -735,7 +735,7 @@ export class DataHarnessPlatformCentralNotificationRuleNotificationConditionsLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule harness_platform_central_notification_rule}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule harness_platform_central_notification_rule}
 */
 export class DataHarnessPlatformCentralNotificationRule extends cdktf.TerraformDataSource {
 
@@ -751,7 +751,7 @@ export class DataHarnessPlatformCentralNotificationRule extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataHarnessPlatformCentralNotificationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformCentralNotificationRule to import
-  * @param importFromId The id of the existing DataHarnessPlatformCentralNotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformCentralNotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformCentralNotificationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -763,7 +763,7 @@ export class DataHarnessPlatformCentralNotificationRule extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_rule harness_platform_central_notification_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/data-sources/platform_central_notification_rule harness_platform_central_notification_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -774,8 +774,8 @@ export class DataHarnessPlatformCentralNotificationRule extends cdktf.TerraformD
       terraformResourceType: 'harness_platform_central_notification_rule',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

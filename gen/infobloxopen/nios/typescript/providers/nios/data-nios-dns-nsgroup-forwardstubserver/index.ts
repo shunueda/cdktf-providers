@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosDnsNsgroupForwardstubserverConfig extends cdktf.Terrafo
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#extattrfilters DataNiosDnsNsgroupForwardstubserver#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#extattrfilters DataNiosDnsNsgroupForwardstubserver#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#filters DataNiosDnsNsgroupForwardstubserver#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#filters DataNiosDnsNsgroupForwardstubserver#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#max_results DataNiosDnsNsgroupForwardstubserver#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#max_results DataNiosDnsNsgroupForwardstubserver#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#paging DataNiosDnsNsgroupForwardstubserver#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#paging DataNiosDnsNsgroupForwardstubserver#paging}
   */
   readonly paging?: number;
 }
@@ -36,13 +36,13 @@ export interface DataNiosDnsNsgroupForwardstubserverResultExternalServers {
   /**
   * The IPv4 Address or IPv6 Address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#address DataNiosDnsNsgroupForwardstubserver#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#address DataNiosDnsNsgroupForwardstubserver#address}
   */
   readonly address: string;
   /**
   * A resolvable domain name for the external DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#name DataNiosDnsNsgroupForwardstubserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#name DataNiosDnsNsgroupForwardstubserver#name}
   */
   readonly name: string;
 }
@@ -203,25 +203,25 @@ export interface DataNiosDnsNsgroupForwardstubserverResult {
   /**
   * Comment for the Forward Stub Server Name Server Group; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#comment DataNiosDnsNsgroupForwardstubserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#comment DataNiosDnsNsgroupForwardstubserver#comment}
   */
   readonly comment?: string;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#extattrs DataNiosDnsNsgroupForwardstubserver#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#extattrs DataNiosDnsNsgroupForwardstubserver#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * The list of external servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#external_servers DataNiosDnsNsgroupForwardstubserver#external_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#external_servers DataNiosDnsNsgroupForwardstubserver#external_servers}
   */
   readonly externalServers: DataNiosDnsNsgroupForwardstubserverResultExternalServers[] | cdktf.IResolvable;
   /**
   * The name of this Forward Stub Server Name Server Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#name DataNiosDnsNsgroupForwardstubserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#name DataNiosDnsNsgroupForwardstubserver#name}
   */
   readonly name: string;
 }
@@ -419,7 +419,7 @@ export class DataNiosDnsNsgroupForwardstubserverResultList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver nios_dns_nsgroup_forwardstubserver}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver nios_dns_nsgroup_forwardstubserver}
 */
 export class DataNiosDnsNsgroupForwardstubserver extends cdktf.TerraformDataSource {
 
@@ -435,7 +435,7 @@ export class DataNiosDnsNsgroupForwardstubserver extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataNiosDnsNsgroupForwardstubserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosDnsNsgroupForwardstubserver to import
-  * @param importFromId The id of the existing DataNiosDnsNsgroupForwardstubserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosDnsNsgroupForwardstubserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosDnsNsgroupForwardstubserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class DataNiosDnsNsgroupForwardstubserver extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/dns_nsgroup_forwardstubserver nios_dns_nsgroup_forwardstubserver} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/dns_nsgroup_forwardstubserver nios_dns_nsgroup_forwardstubserver} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class DataNiosDnsNsgroupForwardstubserver extends cdktf.TerraformDataSour
       terraformResourceType: 'nios_dns_nsgroup_forwardstubserver',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

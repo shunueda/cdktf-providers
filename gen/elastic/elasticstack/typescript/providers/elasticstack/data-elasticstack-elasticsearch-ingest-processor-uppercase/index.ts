@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataElasticstackElasticsearchIngestProcessorUppercaseConfig ext
   /**
   * Description of the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#description DataElasticstackElasticsearchIngestProcessorUppercase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#description DataElasticstackElasticsearchIngestProcessorUppercase#description}
   */
   readonly description?: string;
   /**
   * The field to make uppercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#field DataElasticstackElasticsearchIngestProcessorUppercase#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#field DataElasticstackElasticsearchIngestProcessorUppercase#field}
   */
   readonly field: string;
   /**
   * Conditionally execute the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#if DataElasticstackElasticsearchIngestProcessorUppercase#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#if DataElasticstackElasticsearchIngestProcessorUppercase#if}
   */
   readonly if?: string;
   /**
   * Ignore failures for the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#ignore_failure DataElasticstackElasticsearchIngestProcessorUppercase#ignore_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#ignore_failure DataElasticstackElasticsearchIngestProcessorUppercase#ignore_failure}
   */
   readonly ignoreFailure?: boolean | cdktf.IResolvable;
   /**
   * If `true` and `field` does not exist or is `null`, the processor quietly exits without modifying the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#ignore_missing DataElasticstackElasticsearchIngestProcessorUppercase#ignore_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#ignore_missing DataElasticstackElasticsearchIngestProcessorUppercase#ignore_missing}
   */
   readonly ignoreMissing?: boolean | cdktf.IResolvable;
   /**
   * Handle failures for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#on_failure DataElasticstackElasticsearchIngestProcessorUppercase#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#on_failure DataElasticstackElasticsearchIngestProcessorUppercase#on_failure}
   */
   readonly onFailure?: string[];
   /**
   * Identifier for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#tag DataElasticstackElasticsearchIngestProcessorUppercase#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#tag DataElasticstackElasticsearchIngestProcessorUppercase#tag}
   */
   readonly tag?: string;
   /**
   * The field to assign the converted value to, by default `field` is updated in-place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#target_field DataElasticstackElasticsearchIngestProcessorUppercase#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#target_field DataElasticstackElasticsearchIngestProcessorUppercase#target_field}
   */
   readonly targetField?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase elasticstack_elasticsearch_ingest_processor_uppercase}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase elasticstack_elasticsearch_ingest_processor_uppercase}
 */
 export class DataElasticstackElasticsearchIngestProcessorUppercase extends cdktf.TerraformDataSource {
 
@@ -74,7 +74,7 @@ export class DataElasticstackElasticsearchIngestProcessorUppercase extends cdktf
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIngestProcessorUppercase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIngestProcessorUppercase to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorUppercase that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorUppercase that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIngestProcessorUppercase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DataElasticstackElasticsearchIngestProcessorUppercase extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_uppercase elasticstack_elasticsearch_ingest_processor_uppercase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_uppercase elasticstack_elasticsearch_ingest_processor_uppercase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DataElasticstackElasticsearchIngestProcessorUppercase extends cdktf
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_uppercase',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNiosGridUpgradegroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#filters DataNiosGridUpgradegroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#filters DataNiosGridUpgradegroup#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#max_results DataNiosGridUpgradegroup#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#max_results DataNiosGridUpgradegroup#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#paging DataNiosGridUpgradegroup#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#paging DataNiosGridUpgradegroup#paging}
   */
   readonly paging?: number;
 }
@@ -30,7 +30,7 @@ export interface DataNiosGridUpgradegroupResultMembers {
   /**
   * The upgrade group member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#member DataNiosGridUpgradegroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#member DataNiosGridUpgradegroup#member}
   */
   readonly member: string;
 }
@@ -150,55 +150,55 @@ export interface DataNiosGridUpgradegroupResult {
   /**
   * The upgrade group descriptive comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#comment DataNiosGridUpgradegroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#comment DataNiosGridUpgradegroup#comment}
   */
   readonly comment?: string;
   /**
   * The distribution dependent group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#distribution_dependent_group DataNiosGridUpgradegroup#distribution_dependent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#distribution_dependent_group DataNiosGridUpgradegroup#distribution_dependent_group}
   */
   readonly distributionDependentGroup?: string;
   /**
   * The distribution scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#distribution_policy DataNiosGridUpgradegroup#distribution_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#distribution_policy DataNiosGridUpgradegroup#distribution_policy}
   */
   readonly distributionPolicy?: string;
   /**
   * The time of the next scheduled distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#distribution_time DataNiosGridUpgradegroup#distribution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#distribution_time DataNiosGridUpgradegroup#distribution_time}
   */
   readonly distributionTime?: string;
   /**
   * The upgrade group members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#members DataNiosGridUpgradegroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#members DataNiosGridUpgradegroup#members}
   */
   readonly members?: DataNiosGridUpgradegroupResultMembers[] | cdktf.IResolvable;
   /**
   * The upgrade group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#name DataNiosGridUpgradegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#name DataNiosGridUpgradegroup#name}
   */
   readonly name: string;
   /**
   * The upgrade dependent group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#upgrade_dependent_group DataNiosGridUpgradegroup#upgrade_dependent_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#upgrade_dependent_group DataNiosGridUpgradegroup#upgrade_dependent_group}
   */
   readonly upgradeDependentGroup?: string;
   /**
   * The upgrade scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#upgrade_policy DataNiosGridUpgradegroup#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#upgrade_policy DataNiosGridUpgradegroup#upgrade_policy}
   */
   readonly upgradePolicy?: string;
   /**
   * The time of the next scheduled upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#upgrade_time DataNiosGridUpgradegroup#upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#upgrade_time DataNiosGridUpgradegroup#upgrade_time}
   */
   readonly upgradeTime?: string;
 }
@@ -543,7 +543,7 @@ export class DataNiosGridUpgradegroupResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup nios_grid_upgradegroup}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup nios_grid_upgradegroup}
 */
 export class DataNiosGridUpgradegroup extends cdktf.TerraformDataSource {
 
@@ -559,7 +559,7 @@ export class DataNiosGridUpgradegroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosGridUpgradegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosGridUpgradegroup to import
-  * @param importFromId The id of the existing DataNiosGridUpgradegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosGridUpgradegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosGridUpgradegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class DataNiosGridUpgradegroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/grid_upgradegroup nios_grid_upgradegroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/grid_upgradegroup nios_grid_upgradegroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +582,8 @@ export class DataNiosGridUpgradegroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_grid_upgradegroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

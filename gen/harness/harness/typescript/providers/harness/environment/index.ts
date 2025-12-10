@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#app_id Environment#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#app_id Environment#app_id}
   */
   readonly appId: string;
   /**
   * The description of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * The type of the environment. Valid values are `PROD` and `NON_PROD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#type Environment#type}
   */
   readonly type: string;
   /**
   * variable_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#variable_override Environment#variable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#variable_override Environment#variable_override}
   */
   readonly variableOverride?: EnvironmentVariableOverride[] | cdktf.IResolvable;
 }
@@ -42,25 +42,25 @@ export interface EnvironmentVariableOverride {
   /**
   * The name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#service_name Environment#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#service_name Environment#service_name}
   */
   readonly serviceName?: string;
   /**
   * The type of the service variable. Valid values are `TEXT` and `ENCRYPTED_TEXT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#type Environment#type}
   */
   readonly type: string;
   /**
   * The value of the service variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#value Environment#value}
   */
   readonly value: string;
 }
@@ -254,7 +254,7 @@ export class EnvironmentVariableOverrideList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment harness_environment}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment harness_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/environment harness_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/environment harness_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'harness_environment',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

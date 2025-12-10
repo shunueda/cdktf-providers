@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface ElasticsearchTransformConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specifies whether the transform checkpoint ranges should be optimized for performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#align_checkpoints ElasticsearchTransform#align_checkpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#align_checkpoints ElasticsearchTransform#align_checkpoints}
   */
   readonly alignCheckpoints?: boolean | cdktf.IResolvable;
   /**
   * Defines if dates in the output should be written as ISO formatted string (default) or as millis since epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#dates_as_epoch_millis ElasticsearchTransform#dates_as_epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#dates_as_epoch_millis ElasticsearchTransform#dates_as_epoch_millis}
   */
   readonly datesAsEpochMillis?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the transform should deduce the destination index mappings from the transform config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#deduce_mappings ElasticsearchTransform#deduce_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#deduce_mappings ElasticsearchTransform#deduce_mappings}
   */
   readonly deduceMappings?: boolean | cdktf.IResolvable;
   /**
   * When true, deferrable validations are not run upon creation, but rather when the transform is started. This behavior may be desired if the source index does not exist until after the transform is created. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#defer_validation ElasticsearchTransform#defer_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#defer_validation ElasticsearchTransform#defer_validation}
   */
   readonly deferValidation?: boolean | cdktf.IResolvable;
   /**
   * Free text description of the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#description ElasticsearchTransform#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#description ElasticsearchTransform#description}
   */
   readonly description?: string;
   /**
   * Specifies a limit on the number of input documents per second. Default (unset) value disables throttling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#docs_per_second ElasticsearchTransform#docs_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#docs_per_second ElasticsearchTransform#docs_per_second}
   */
   readonly docsPerSecond?: number;
   /**
   * Controls whether the transform should be started or stopped. Default is `false` (stopped).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#enabled ElasticsearchTransform#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#enabled ElasticsearchTransform#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks for changes in the source indices when the transform is running continuously. Defaults to `1m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#frequency ElasticsearchTransform#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#frequency ElasticsearchTransform#frequency}
   */
   readonly frequency?: string;
   /**
   * The latest method transforms the data by finding the latest document for each unique key. JSON definition expected. Either 'pivot' or 'latest' must be present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#latest ElasticsearchTransform#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#latest ElasticsearchTransform#latest}
   */
   readonly latest?: string;
   /**
   * Defines the initial page size to use for the composite aggregation for each checkpoint. Default is 500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#max_page_search_size ElasticsearchTransform#max_page_search_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#max_page_search_size ElasticsearchTransform#max_page_search_size}
   */
   readonly maxPageSearchSize?: number;
   /**
   * Defines optional transform metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#metadata ElasticsearchTransform#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#metadata ElasticsearchTransform#metadata}
   */
   readonly metadata?: string;
   /**
   * Name of the transform you wish to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#name ElasticsearchTransform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#name ElasticsearchTransform#name}
   */
   readonly name: string;
   /**
   * Defines the number of retries on a recoverable failure before the transform task is marked as failed. The default value is the cluster-level setting num_transform_failure_retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#num_failure_retries ElasticsearchTransform#num_failure_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#num_failure_retries ElasticsearchTransform#num_failure_retries}
   */
   readonly numFailureRetries?: number;
   /**
   * The pivot method transforms the data by aggregating and grouping it. JSON definition expected. Either 'pivot' or 'latest' must be present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#pivot ElasticsearchTransform#pivot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#pivot ElasticsearchTransform#pivot}
   */
   readonly pivot?: string;
   /**
   * Period to wait for a response from Elasticsearch when performing any management operation. If no response is received before the timeout expires, the operation fails and returns an error. Defaults to `30s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#timeout ElasticsearchTransform#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#timeout ElasticsearchTransform#timeout}
   */
   readonly timeout?: string;
   /**
   * In unattended mode, the transform retries indefinitely in case of an error which means the transform never fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#unattended ElasticsearchTransform#unattended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#unattended ElasticsearchTransform#unattended}
   */
   readonly unattended?: boolean | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#destination ElasticsearchTransform#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#destination ElasticsearchTransform#destination}
   */
   readonly destination: ElasticsearchTransformDestination;
   /**
   * retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#retention_policy ElasticsearchTransform#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#retention_policy ElasticsearchTransform#retention_policy}
   */
   readonly retentionPolicy?: ElasticsearchTransformRetentionPolicy;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#source ElasticsearchTransform#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#source ElasticsearchTransform#source}
   */
   readonly source: ElasticsearchTransformSource;
   /**
   * sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#sync ElasticsearchTransform#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#sync ElasticsearchTransform#sync}
   */
   readonly sync?: ElasticsearchTransformSync;
 }
@@ -132,13 +132,13 @@ export interface ElasticsearchTransformDestinationAliases {
   /**
   * The name of the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#alias ElasticsearchTransform#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#alias ElasticsearchTransform#alias}
   */
   readonly alias: string;
   /**
   * Whether the destination index should be the only index in this alias. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#move_on_creation ElasticsearchTransform#move_on_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#move_on_creation ElasticsearchTransform#move_on_creation}
   */
   readonly moveOnCreation?: boolean | cdktf.IResolvable;
 }
@@ -282,19 +282,19 @@ export interface ElasticsearchTransformDestination {
   /**
   * The destination index for the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#index ElasticsearchTransform#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#index ElasticsearchTransform#index}
   */
   readonly index: string;
   /**
   * The unique identifier for an ingest pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#pipeline ElasticsearchTransform#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#pipeline ElasticsearchTransform#pipeline}
   */
   readonly pipeline?: string;
   /**
   * aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#aliases ElasticsearchTransform#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#aliases ElasticsearchTransform#aliases}
   */
   readonly aliases?: ElasticsearchTransformDestinationAliases[] | cdktf.IResolvable;
 }
@@ -435,13 +435,13 @@ export interface ElasticsearchTransformRetentionPolicyTime {
   /**
   * The date field that is used to calculate the age of the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#field ElasticsearchTransform#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#field ElasticsearchTransform#field}
   */
   readonly field: string;
   /**
   * Specifies the maximum age of a document in the destination index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#max_age ElasticsearchTransform#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#max_age ElasticsearchTransform#max_age}
   */
   readonly maxAge: string;
 }
@@ -550,7 +550,7 @@ export interface ElasticsearchTransformRetentionPolicy {
   /**
   * time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#time ElasticsearchTransform#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#time ElasticsearchTransform#time}
   */
   readonly time: ElasticsearchTransformRetentionPolicyTime;
 }
@@ -633,19 +633,19 @@ export interface ElasticsearchTransformSource {
   /**
   * The source indices for the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#indices ElasticsearchTransform#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#indices ElasticsearchTransform#indices}
   */
   readonly indices: string[];
   /**
   * A query clause that retrieves a subset of data from the source index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#query ElasticsearchTransform#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#query ElasticsearchTransform#query}
   */
   readonly query?: string;
   /**
   * Definitions of search-time runtime fields that can be used by the transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#runtime_mappings ElasticsearchTransform#runtime_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#runtime_mappings ElasticsearchTransform#runtime_mappings}
   */
   readonly runtimeMappings?: string;
 }
@@ -786,13 +786,13 @@ export interface ElasticsearchTransformSyncTime {
   /**
   * The time delay between the current time and the latest input data time. The default value is 60s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#delay ElasticsearchTransform#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#delay ElasticsearchTransform#delay}
   */
   readonly delay?: string;
   /**
   * The date field that is used to identify new documents in the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#field ElasticsearchTransform#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#field ElasticsearchTransform#field}
   */
   readonly field: string;
 }
@@ -904,7 +904,7 @@ export interface ElasticsearchTransformSync {
   /**
   * time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#time ElasticsearchTransform#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#time ElasticsearchTransform#time}
   */
   readonly time: ElasticsearchTransformSyncTime;
 }
@@ -985,7 +985,7 @@ export class ElasticsearchTransformSyncOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform elasticstack_elasticsearch_transform}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform elasticstack_elasticsearch_transform}
 */
 export class ElasticsearchTransform extends cdktf.TerraformResource {
 
@@ -1001,7 +1001,7 @@ export class ElasticsearchTransform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchTransform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchTransform to import
-  * @param importFromId The id of the existing ElasticsearchTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchTransform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1013,7 +1013,7 @@ export class ElasticsearchTransform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_transform elasticstack_elasticsearch_transform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_transform elasticstack_elasticsearch_transform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1024,8 +1024,8 @@ export class ElasticsearchTransform extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_transform',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view
+// https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNiosIpamNetworkViewConfig extends cdktf.TerraformMetaArgume
   /**
   * External Attribute Filters are used to return a more specific list of results by filtering on external attributes. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#extattrfilters DataNiosIpamNetworkView#extattrfilters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#extattrfilters DataNiosIpamNetworkView#extattrfilters}
   */
   readonly extattrfilters?: { [key: string]: string };
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#filters DataNiosIpamNetworkView#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#filters DataNiosIpamNetworkView#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Maximum number of objects to be returned. Defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#max_results DataNiosIpamNetworkView#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#max_results DataNiosIpamNetworkView#max_results}
   */
   readonly maxResults?: number;
   /**
   * Enable (1) or disable (0) paging for the data source query. When enabled, the system retrieves results in pages, allowing efficient handling of large result sets. Paging is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#paging DataNiosIpamNetworkView#paging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#paging DataNiosIpamNetworkView#paging}
   */
   readonly paging?: number;
 }
@@ -116,19 +116,19 @@ export interface DataNiosIpamNetworkViewResultCloudInfoDelegatedMember {
   /**
   * The IPv4 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#ipv4addr DataNiosIpamNetworkView#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#ipv4addr DataNiosIpamNetworkView#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 Address of the Grid Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#ipv6addr DataNiosIpamNetworkView#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#ipv6addr DataNiosIpamNetworkView#ipv6addr}
   */
   readonly ipv6Addr?: string;
   /**
   * The Grid member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
   */
   readonly name?: string;
 }
@@ -282,7 +282,7 @@ export interface DataNiosIpamNetworkViewResultCloudInfo {
   /**
   * The Cloud Platform Appliance to which authority of the object is delegated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#delegated_member DataNiosIpamNetworkView#delegated_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#delegated_member DataNiosIpamNetworkView#delegated_member}
   */
   readonly delegatedMember?: DataNiosIpamNetworkViewResultCloudInfoDelegatedMember;
 }
@@ -413,7 +413,7 @@ export interface DataNiosIpamNetworkViewResultDdnsZonePrimariesDnsGridZone {
   /**
   * The reference to the DNS zone object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#ref DataNiosIpamNetworkView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#ref DataNiosIpamNetworkView#ref}
   */
   readonly ref: string;
 }
@@ -506,31 +506,31 @@ export interface DataNiosIpamNetworkViewResultDdnsZonePrimaries {
   /**
   * The IP address of the External server. Valid when zone_match is "EXTERNAL" or "ANY_EXTERNAL".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#dns_ext_primary DataNiosIpamNetworkView#dns_ext_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#dns_ext_primary DataNiosIpamNetworkView#dns_ext_primary}
   */
   readonly dnsExtPrimary?: string;
   /**
   * The name of external zone in FQDN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#dns_ext_zone DataNiosIpamNetworkView#dns_ext_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#dns_ext_zone DataNiosIpamNetworkView#dns_ext_zone}
   */
   readonly dnsExtZone?: string;
   /**
   * The name of a Grid member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#dns_grid_primary DataNiosIpamNetworkView#dns_grid_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#dns_grid_primary DataNiosIpamNetworkView#dns_grid_primary}
   */
   readonly dnsGridPrimary?: string;
   /**
   * The ref of a DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#dns_grid_zone DataNiosIpamNetworkView#dns_grid_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#dns_grid_zone DataNiosIpamNetworkView#dns_grid_zone}
   */
   readonly dnsGridZone?: DataNiosIpamNetworkViewResultDdnsZonePrimariesDnsGridZone;
   /**
   * Indicate matching type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#zone_match DataNiosIpamNetworkView#zone_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#zone_match DataNiosIpamNetworkView#zone_match}
   */
   readonly zoneMatch: string;
 }
@@ -761,7 +761,7 @@ export interface DataNiosIpamNetworkViewResultFederatedRealms {
   /**
   * The federated realm id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#id DataNiosIpamNetworkView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#id DataNiosIpamNetworkView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -770,7 +770,7 @@ export interface DataNiosIpamNetworkViewResultFederatedRealms {
   /**
   * The federated realm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
   */
   readonly name: string;
 }
@@ -965,49 +965,49 @@ export interface DataNiosIpamNetworkViewResultRemoteForwardZones {
   /**
   * The FQDN of the remote server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#fqdn DataNiosIpamNetworkView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#fqdn DataNiosIpamNetworkView#fqdn}
   */
   readonly fqdn: string;
   /**
   * The principal name in which GSS-TSIG for dynamic updates is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#gss_tsig_dns_principal DataNiosIpamNetworkView#gss_tsig_dns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#gss_tsig_dns_principal DataNiosIpamNetworkView#gss_tsig_dns_principal}
   */
   readonly gssTsigDnsPrincipal?: string;
   /**
   * The domain in which GSS-TSIG for dynamic updates is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#gss_tsig_domain DataNiosIpamNetworkView#gss_tsig_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#gss_tsig_domain DataNiosIpamNetworkView#gss_tsig_domain}
   */
   readonly gssTsigDomain?: string;
   /**
   * The key type to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#key_type DataNiosIpamNetworkView#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#key_type DataNiosIpamNetworkView#key_type}
   */
   readonly keyType?: string;
   /**
   * The remote server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#server_address DataNiosIpamNetworkView#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#server_address DataNiosIpamNetworkView#server_address}
   */
   readonly serverAddress: string;
   /**
   * The TSIG key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key DataNiosIpamNetworkView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key DataNiosIpamNetworkView#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key alorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key_alg DataNiosIpamNetworkView#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key_alg DataNiosIpamNetworkView#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. The key name entered here must match the TSIG key name on the external name server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key_name DataNiosIpamNetworkView#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key_name DataNiosIpamNetworkView#tsig_key_name}
   */
   readonly tsigKeyName?: string;
 }
@@ -1322,49 +1322,49 @@ export interface DataNiosIpamNetworkViewResultRemoteReverseZones {
   /**
   * The FQDN of the remote server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#fqdn DataNiosIpamNetworkView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#fqdn DataNiosIpamNetworkView#fqdn}
   */
   readonly fqdn: string;
   /**
   * The principal name in which GSS-TSIG for dynamic updates is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#gss_tsig_dns_principal DataNiosIpamNetworkView#gss_tsig_dns_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#gss_tsig_dns_principal DataNiosIpamNetworkView#gss_tsig_dns_principal}
   */
   readonly gssTsigDnsPrincipal?: string;
   /**
   * The domain in which GSS-TSIG for dynamic updates is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#gss_tsig_domain DataNiosIpamNetworkView#gss_tsig_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#gss_tsig_domain DataNiosIpamNetworkView#gss_tsig_domain}
   */
   readonly gssTsigDomain?: string;
   /**
   * The key type to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#key_type DataNiosIpamNetworkView#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#key_type DataNiosIpamNetworkView#key_type}
   */
   readonly keyType?: string;
   /**
   * The remote server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#server_address DataNiosIpamNetworkView#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#server_address DataNiosIpamNetworkView#server_address}
   */
   readonly serverAddress: string;
   /**
   * The TSIG key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key DataNiosIpamNetworkView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key DataNiosIpamNetworkView#tsig_key}
   */
   readonly tsigKey?: string;
   /**
   * The TSIG key alorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key_alg DataNiosIpamNetworkView#tsig_key_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key_alg DataNiosIpamNetworkView#tsig_key_alg}
   */
   readonly tsigKeyAlg?: string;
   /**
   * The name of the TSIG key. The key name entered here must match the TSIG key name on the external name server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#tsig_key_name DataNiosIpamNetworkView#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#tsig_key_name DataNiosIpamNetworkView#tsig_key_name}
   */
   readonly tsigKeyName?: string;
 }
@@ -1679,67 +1679,67 @@ export interface DataNiosIpamNetworkViewResult {
   /**
   * The cloud information associated with the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#cloud_info DataNiosIpamNetworkView#cloud_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#cloud_info DataNiosIpamNetworkView#cloud_info}
   */
   readonly cloudInfo?: DataNiosIpamNetworkViewResultCloudInfo;
   /**
   * Comment for the network view; maximum 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#comment DataNiosIpamNetworkView#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#comment DataNiosIpamNetworkView#comment}
   */
   readonly comment?: string;
   /**
   * DNS views that will receive the updates if you enable the appliance to send updates to Grid members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#ddns_dns_view DataNiosIpamNetworkView#ddns_dns_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#ddns_dns_view DataNiosIpamNetworkView#ddns_dns_view}
   */
   readonly ddnsDnsView?: string;
   /**
   * An array of Ddns Zone Primary dhcpddns structs that lists the information of primary zone to wich DDNS updates should be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#ddns_zone_primaries DataNiosIpamNetworkView#ddns_zone_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#ddns_zone_primaries DataNiosIpamNetworkView#ddns_zone_primaries}
   */
   readonly ddnsZonePrimaries?: DataNiosIpamNetworkViewResultDdnsZonePrimaries[] | cdktf.IResolvable;
   /**
   * Extensible attributes associated with the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#extattrs DataNiosIpamNetworkView#extattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#extattrs DataNiosIpamNetworkView#extattrs}
   */
   readonly extattrs?: { [key: string]: string };
   /**
   * This field contains the federated realms associated to this network view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#federated_realms DataNiosIpamNetworkView#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#federated_realms DataNiosIpamNetworkView#federated_realms}
   */
   readonly federatedRealms?: DataNiosIpamNetworkViewResultFederatedRealms[] | cdktf.IResolvable;
   /**
   * The list of linked authoritative DNS zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#internal_forward_zones DataNiosIpamNetworkView#internal_forward_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#internal_forward_zones DataNiosIpamNetworkView#internal_forward_zones}
   */
   readonly internalForwardZones?: string[];
   /**
   * This field controls whether this object is synchronized with the Multi-Grid Master. If this field is set to True, objects are not synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#mgm_private DataNiosIpamNetworkView#mgm_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#mgm_private DataNiosIpamNetworkView#mgm_private}
   */
   readonly mgmPrivate?: boolean | cdktf.IResolvable;
   /**
   * Name of the network view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#name DataNiosIpamNetworkView#name}
   */
   readonly name: string;
   /**
   * The list of forward-mapping zones to which the DHCP server sends the updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#remote_forward_zones DataNiosIpamNetworkView#remote_forward_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#remote_forward_zones DataNiosIpamNetworkView#remote_forward_zones}
   */
   readonly remoteForwardZones?: DataNiosIpamNetworkViewResultRemoteForwardZones[] | cdktf.IResolvable;
   /**
   * The list of reverse-mapping zones to which the DHCP server sends the updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#remote_reverse_zones DataNiosIpamNetworkView#remote_reverse_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#remote_reverse_zones DataNiosIpamNetworkView#remote_reverse_zones}
   */
   readonly remoteReverseZones?: DataNiosIpamNetworkViewResultRemoteReverseZones[] | cdktf.IResolvable;
 }
@@ -2165,7 +2165,7 @@ export class DataNiosIpamNetworkViewResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view nios_ipam_network_view}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view nios_ipam_network_view}
 */
 export class DataNiosIpamNetworkView extends cdktf.TerraformDataSource {
 
@@ -2181,7 +2181,7 @@ export class DataNiosIpamNetworkView extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNiosIpamNetworkView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNiosIpamNetworkView to import
-  * @param importFromId The id of the existing DataNiosIpamNetworkView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNiosIpamNetworkView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNiosIpamNetworkView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2193,7 +2193,7 @@ export class DataNiosIpamNetworkView extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_network_view nios_ipam_network_view} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/nios/1.1.0/docs/data-sources/ipam_network_view nios_ipam_network_view} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2204,8 +2204,8 @@ export class DataNiosIpamNetworkView extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_ipam_network_view',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

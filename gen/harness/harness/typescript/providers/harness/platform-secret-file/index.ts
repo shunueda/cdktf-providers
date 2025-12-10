@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformSecretFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#description PlatformSecretFile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#description PlatformSecretFile#description}
   */
   readonly description?: string;
   /**
   * Path of the file containing secret value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#file_path PlatformSecretFile#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#file_path PlatformSecretFile#file_path}
   */
   readonly filePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#id PlatformSecretFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#id PlatformSecretFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,49 @@ export interface PlatformSecretFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#identifier PlatformSecretFile#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#identifier PlatformSecretFile#identifier}
   */
   readonly identifier: string;
   /**
+  * Kms Key Id for encrypting the secret value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#kms_key_id PlatformSecretFile#kms_key_id}
+  */
+  readonly kmsKeyId?: string;
+  /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#name PlatformSecretFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#name PlatformSecretFile#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#org_id PlatformSecretFile#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#org_id PlatformSecretFile#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#project_id PlatformSecretFile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#project_id PlatformSecretFile#project_id}
   */
   readonly projectId?: string;
   /**
   * Identifier of the Secret Manager used to manage the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#secret_manager_identifier PlatformSecretFile#secret_manager_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#secret_manager_identifier PlatformSecretFile#secret_manager_identifier}
   */
   readonly secretManagerIdentifier: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#tags PlatformSecretFile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#tags PlatformSecretFile#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file harness_platform_secret_file}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file harness_platform_secret_file}
 */
 export class PlatformSecretFile extends cdktf.TerraformResource {
 
@@ -81,7 +87,7 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformSecretFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformSecretFile to import
-  * @param importFromId The id of the existing PlatformSecretFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformSecretFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformSecretFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +99,7 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_file harness_platform_secret_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/platform_secret_file harness_platform_secret_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +110,8 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_secret_file',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -119,6 +125,7 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
     this._filePath = config.filePath;
     this._id = config.id;
     this._identifier = config.identifier;
+    this._kmsKeyId = config.kmsKeyId;
     this._name = config.name;
     this._orgId = config.orgId;
     this._projectId = config.projectId;
@@ -186,6 +193,22 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get identifierInput() {
     return this._identifier;
+  }
+
+  // kms_key_id - computed: false, optional: true, required: false
+  private _kmsKeyId?: string; 
+  public get kmsKeyId() {
+    return this.getStringAttribute('kms_key_id');
+  }
+  public set kmsKeyId(value: string) {
+    this._kmsKeyId = value;
+  }
+  public resetKmsKeyId() {
+    this._kmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyIdInput() {
+    return this._kmsKeyId;
   }
 
   // name - computed: false, optional: false, required: true
@@ -272,6 +295,7 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
       file_path: cdktf.stringToTerraform(this._filePath),
       id: cdktf.stringToTerraform(this._id),
       identifier: cdktf.stringToTerraform(this._identifier),
+      kms_key_id: cdktf.stringToTerraform(this._kmsKeyId),
       name: cdktf.stringToTerraform(this._name),
       org_id: cdktf.stringToTerraform(this._orgId),
       project_id: cdktf.stringToTerraform(this._projectId),
@@ -302,6 +326,12 @@ export class PlatformSecretFile extends cdktf.TerraformResource {
       },
       identifier: {
         value: cdktf.stringToHclTerraform(this._identifier),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      kms_key_id: {
+        value: cdktf.stringToHclTerraform(this._kmsKeyId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

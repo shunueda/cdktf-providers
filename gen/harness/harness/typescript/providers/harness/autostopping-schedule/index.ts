@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AutostoppingScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * Time until which schedule will be active. Need to be in YYYY-MM-DD HH:mm:SS format. Eg 2006-01-02 15:04:05
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#ending_on AutostoppingSchedule#ending_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#ending_on AutostoppingSchedule#ending_on}
   */
   readonly endingOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#id AutostoppingSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#id AutostoppingSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface AutostoppingScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#name AutostoppingSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#name AutostoppingSchedule#name}
   */
   readonly name: string;
   /**
   * ID of AutoStopping rules on which the schedule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#rules AutostoppingSchedule#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#rules AutostoppingSchedule#rules}
   */
   readonly rules: number[];
   /**
   * Type of the schedule. Valid values are `uptime` and `downtime`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#schedule_type AutostoppingSchedule#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#schedule_type AutostoppingSchedule#schedule_type}
   */
   readonly scheduleType: string;
   /**
   * Time from which schedule will be active. Schedule will take immediate effect if starting_from is not specified. Need to be in YYYY-MM-DD HH:mm:SS format. Eg 2006-01-02 15:04:05
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#starting_from AutostoppingSchedule#starting_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#starting_from AutostoppingSchedule#starting_from}
   */
   readonly startingFrom?: string;
   /**
   * Time zone in which schedule needs to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#time_zone AutostoppingSchedule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#time_zone AutostoppingSchedule#time_zone}
   */
   readonly timeZone: string;
   /**
   * repeats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#repeats AutostoppingSchedule#repeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#repeats AutostoppingSchedule#repeats}
   */
   readonly repeats?: AutostoppingScheduleRepeats[] | cdktf.IResolvable;
 }
@@ -61,19 +61,19 @@ export interface AutostoppingScheduleRepeats {
   /**
   * List of days on which schedule need to be active. Valid values are SUN, MON, TUE, WED, THU, FRI and SAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#days AutostoppingSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#days AutostoppingSchedule#days}
   */
   readonly days: string[];
   /**
   * Ending time of schedule action on the day. Defaults to 24:00Hrs unless specified. Accepted format is HH:MM. Eg : 20:00 for 8pm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#end_time AutostoppingSchedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#end_time AutostoppingSchedule#end_time}
   */
   readonly endTime?: string;
   /**
   * Starting time of schedule action on the day. Defaults to 00:00Hrs unless specified. Accepted format is HH:MM. Eg : 13:15 for 01:15pm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#start_time AutostoppingSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#start_time AutostoppingSchedule#start_time}
   */
   readonly startTime?: string;
 }
@@ -244,7 +244,7 @@ export class AutostoppingScheduleRepeatsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule harness_autostopping_schedule}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule harness_autostopping_schedule}
 */
 export class AutostoppingSchedule extends cdktf.TerraformResource {
 
@@ -260,7 +260,7 @@ export class AutostoppingSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingSchedule to import
-  * @param importFromId The id of the existing AutostoppingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class AutostoppingSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_schedule harness_autostopping_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs/resources/autostopping_schedule harness_autostopping_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class AutostoppingSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_schedule',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

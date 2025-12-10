@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.3/docs
+// https://registry.terraform.io/providers/harness/harness/0.39.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface HarnessProviderConfig {
   /**
   * The Harness account id. This can also be set using the `HARNESS_ACCOUNT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#account_id HarnessProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#account_id HarnessProvider#account_id}
   */
   readonly accountId?: string;
   /**
   * The Harness API key. This can also be set using the `HARNESS_API_KEY` environment variable. For more information to create an API key in FirstGen, see https://docs.harness.io/article/smloyragsm-api-keys#create_an_api_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#api_key HarnessProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#api_key HarnessProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The URL of the Harness API endpoint. The default is `https://app.harness.io/gateway`. This can also be set using the `HARNESS_ENDPOINT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#endpoint HarnessProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#endpoint HarnessProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The API key for the Harness next gen platform. This can also be set using the `HARNESS_PLATFORM_API_KEY` environment variable. For more information to create an API key in NextGen, see https://docs.harness.io/article/tdoad7xrh9-add-and-manage-api-keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#platform_api_key HarnessProvider#platform_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#platform_api_key HarnessProvider#platform_api_key}
   */
   readonly platformApiKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#alias HarnessProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#alias HarnessProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs harness}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs harness}
 */
 export class HarnessProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class HarnessProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HarnessProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarnessProvider to import
-  * @param importFromId The id of the existing HarnessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarnessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarnessProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class HarnessProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs harness} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.4/docs harness} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class HarnessProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'harness',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.3',
-        providerVersionConstraint: '0.39.3'
+        providerVersion: '0.39.4',
+        providerVersionConstraint: '0.39.4'
       },
       terraformProviderSource: 'harness/harness'
     });

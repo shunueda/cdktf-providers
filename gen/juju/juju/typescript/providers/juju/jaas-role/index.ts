@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_role
+// https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface JaasRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_role#name JaasRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_role#name JaasRole#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_role juju_jaas_role}
+* Represents a {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_role juju_jaas_role}
 */
 export class JaasRole extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class JaasRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JaasRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JaasRole to import
-  * @param importFromId The id of the existing JaasRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JaasRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JaasRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class JaasRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juju/juju/0.23.2/docs/resources/jaas_role juju_jaas_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juju/juju/1.1.1/docs/resources/jaas_role juju_jaas_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class JaasRole extends cdktf.TerraformResource {
       terraformResourceType: 'juju_jaas_role',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '0.23.2',
-        providerVersionConstraint: '0.23.2'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
