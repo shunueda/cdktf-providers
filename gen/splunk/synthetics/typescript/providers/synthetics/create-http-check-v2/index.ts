@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CreateHttpCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#id CreateHttpCheckV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#id CreateHttpCheckV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface CreateHttpCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
   * test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#test CreateHttpCheckV2#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#test CreateHttpCheckV2#test}
   */
   readonly test: CreateHttpCheckV2Test[] | cdktf.IResolvable;
 }
 export interface CreateHttpCheckV2TestCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#key CreateHttpCheckV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#key CreateHttpCheckV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
   */
   readonly value?: string;
 }
@@ -172,11 +172,11 @@ export class CreateHttpCheckV2TestCustomPropertiesList extends cdktf.ComplexList
 }
 export interface CreateHttpCheckV2TestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
   */
   readonly value?: string;
 }
@@ -321,43 +321,43 @@ export class CreateHttpCheckV2TestHeadersList extends cdktf.ComplexList {
 }
 export interface CreateHttpCheckV2TestValidations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#actual CreateHttpCheckV2#actual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#actual CreateHttpCheckV2#actual}
   */
   readonly actual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#code CreateHttpCheckV2#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#code CreateHttpCheckV2#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#comparator CreateHttpCheckV2#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#comparator CreateHttpCheckV2#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#expected CreateHttpCheckV2#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#expected CreateHttpCheckV2#expected}
   */
   readonly expected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#extractor CreateHttpCheckV2#extractor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#extractor CreateHttpCheckV2#extractor}
   */
   readonly extractor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#source CreateHttpCheckV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#source CreateHttpCheckV2#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#type CreateHttpCheckV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#type CreateHttpCheckV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#value CreateHttpCheckV2#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#variable CreateHttpCheckV2#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#variable CreateHttpCheckV2#variable}
   */
   readonly variable?: string;
 }
@@ -734,69 +734,69 @@ export class CreateHttpCheckV2TestValidationsList extends cdktf.ComplexList {
 }
 export interface CreateHttpCheckV2Test {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#active CreateHttpCheckV2#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#active CreateHttpCheckV2#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#automatic_retries CreateHttpCheckV2#automatic_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#automatic_retries CreateHttpCheckV2#automatic_retries}
   */
   readonly automaticRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#body CreateHttpCheckV2#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#body CreateHttpCheckV2#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#frequency CreateHttpCheckV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#frequency CreateHttpCheckV2#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#location_ids CreateHttpCheckV2#location_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#location_ids CreateHttpCheckV2#location_ids}
   */
   readonly locationIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#name CreateHttpCheckV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#request_method CreateHttpCheckV2#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#request_method CreateHttpCheckV2#request_method}
   */
   readonly requestMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#scheduling_strategy CreateHttpCheckV2#scheduling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#scheduling_strategy CreateHttpCheckV2#scheduling_strategy}
   */
   readonly schedulingStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#type CreateHttpCheckV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#type CreateHttpCheckV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#url CreateHttpCheckV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#url CreateHttpCheckV2#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#user_agent CreateHttpCheckV2#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#user_agent CreateHttpCheckV2#user_agent}
   */
   readonly userAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#verify_certificates CreateHttpCheckV2#verify_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#verify_certificates CreateHttpCheckV2#verify_certificates}
   */
   readonly verifyCertificates: boolean | cdktf.IResolvable;
   /**
   * custom_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#custom_properties CreateHttpCheckV2#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#custom_properties CreateHttpCheckV2#custom_properties}
   */
   readonly customProperties?: CreateHttpCheckV2TestCustomProperties[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#headers CreateHttpCheckV2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#headers CreateHttpCheckV2#headers}
   */
   readonly headers?: CreateHttpCheckV2TestHeaders[] | cdktf.IResolvable;
   /**
   * validations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#validations CreateHttpCheckV2#validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#validations CreateHttpCheckV2#validations}
   */
   readonly validations?: CreateHttpCheckV2TestValidations[] | cdktf.IResolvable;
 }
@@ -1312,7 +1312,7 @@ export class CreateHttpCheckV2TestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2 synthetics_create_http_check_v2}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2 synthetics_create_http_check_v2}
 */
 export class CreateHttpCheckV2 extends cdktf.TerraformResource {
 
@@ -1328,7 +1328,7 @@ export class CreateHttpCheckV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CreateHttpCheckV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreateHttpCheckV2 to import
-  * @param importFromId The id of the existing CreateHttpCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreateHttpCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreateHttpCheckV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1340,7 +1340,7 @@ export class CreateHttpCheckV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_http_check_v2 synthetics_create_http_check_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_http_check_v2 synthetics_create_http_check_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1351,8 +1351,8 @@ export class CreateHttpCheckV2 extends cdktf.TerraformResource {
       terraformResourceType: 'synthetics_create_http_check_v2',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

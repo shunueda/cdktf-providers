@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface FloorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Floor number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#floor_number Floor#floor_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#floor_number Floor#floor_number}
   */
   readonly floorNumber: number;
   /**
   * Height
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#height Floor#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#height Floor#height}
   */
   readonly height: number;
   /**
   * Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#length Floor#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#length Floor#length}
   */
   readonly length: number;
   /**
   * Floor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#name Floor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#name Floor#name}
   */
   readonly name: string;
   /**
   * The ID of the parent building
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#parent_id Floor#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#parent_id Floor#parent_id}
   */
   readonly parentId: string;
   /**
   * The RF model
   *   - Choices: `Cubes And Walled Offices`, `Drywall Office Only`, `Indoor High Ceiling`, `Outdoor Open Space`, `Free Space`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#rf_model Floor#rf_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#rf_model Floor#rf_model}
   */
   readonly rfModel: string;
   /**
   * The unit of measurement
   *   - Choices: `feet`, `meters`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#units_of_measure Floor#units_of_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#units_of_measure Floor#units_of_measure}
   */
   readonly unitsOfMeasure: string;
   /**
   * Width
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#width Floor#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#width Floor#width}
   */
   readonly width: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor catalystcenter_floor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor catalystcenter_floor}
 */
 export class Floor extends cdktf.TerraformResource {
 
@@ -76,7 +76,7 @@ export class Floor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Floor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Floor to import
-  * @param importFromId The id of the existing Floor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Floor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Floor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -88,7 +88,7 @@ export class Floor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/floor catalystcenter_floor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/floor catalystcenter_floor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -99,8 +99,8 @@ export class Floor extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_floor',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

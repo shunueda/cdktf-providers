@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "dbtcloud": "1.4.2"
+    "dbtcloud": "1.5.0"
   }
 }

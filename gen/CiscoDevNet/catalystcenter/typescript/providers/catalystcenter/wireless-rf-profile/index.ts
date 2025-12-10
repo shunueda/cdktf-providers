@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,586 +10,586 @@ export interface WirelessRfProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies if the RF Profile is the default. Only one RF Profile can be marked as default at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#default_rf_profile WirelessRfProfile#default_rf_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#default_rf_profile WirelessRfProfile#default_rf_profile}
   */
   readonly defaultRfProfile: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the 6 GHz radio band in the RF Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#enable_radio_type6_g_hz WirelessRfProfile#enable_radio_type6_g_hz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#enable_radio_type6_g_hz WirelessRfProfile#enable_radio_type6_g_hz}
   */
   readonly enableRadioType6GHz: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the 5 GHz radio band in the RF Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#enable_radio_type_a WirelessRfProfile#enable_radio_type_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#enable_radio_type_a WirelessRfProfile#enable_radio_type_a}
   */
   readonly enableRadioTypeA: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the 2.4 GHz radio band in the RF Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#enable_radio_type_b WirelessRfProfile#enable_radio_type_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#enable_radio_type_b WirelessRfProfile#enable_radio_type_b}
   */
   readonly enableRadioTypeB: boolean | cdktf.IResolvable;
   /**
   * Channel width for the 5 GHz radio band.
   *   - Choices: `20`, `40`, `80`, `160`, `best`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_channel_width WirelessRfProfile#radio_type_a_channel_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_channel_width WirelessRfProfile#radio_type_a_channel_width}
   */
   readonly radioTypeAChannelWidth?: string;
   /**
   * Coverage Hole Detection client level for the 5 GHz radio band.
   *   - Range: `1`-`200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_client_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_client_level}
   */
   readonly radioTypeACoverageHoleDetectionPropertiesChdClientLevel?: number;
   /**
   * Coverage Hole Detection data RSSI threshold for the 5 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_data_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_data_rssi_threshold}
   */
   readonly radioTypeACoverageHoleDetectionPropertiesChdDataRssiThreshold?: number;
   /**
   * Coverage Hole Detection exception level (%) for the 5 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_exception_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_exception_level}
   */
   readonly radioTypeACoverageHoleDetectionPropertiesChdExceptionLevel?: number;
   /**
   * Coverage Hole Detection voice RSSI threshold for the 5 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_voice_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_a_coverage_hole_detection_properties_chd_voice_rssi_threshold}
   */
   readonly radioTypeACoverageHoleDetectionPropertiesChdVoiceRssiThreshold?: number;
   /**
   * Custom RX-SOP threshold for the 5 GHz radio band.
   *   - Range: `-85`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_custom_rx_sop_threshold WirelessRfProfile#radio_type_a_custom_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_custom_rx_sop_threshold WirelessRfProfile#radio_type_a_custom_rx_sop_threshold}
   */
   readonly radioTypeACustomRxSopThreshold?: number;
   /**
   * Data rates for the 5 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_data_rates WirelessRfProfile#radio_type_a_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_data_rates WirelessRfProfile#radio_type_a_data_rates}
   */
   readonly radioTypeADataRates?: string;
   /**
   * Client awareness for the 5 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_aware WirelessRfProfile#radio_type_a_fra_properties_client_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_aware WirelessRfProfile#radio_type_a_fra_properties_client_aware}
   */
   readonly radioTypeAFraPropertiesClientAware?: boolean | cdktf.IResolvable;
   /**
   * Client reset percentage for the 5 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_reset WirelessRfProfile#radio_type_a_fra_properties_client_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_reset WirelessRfProfile#radio_type_a_fra_properties_client_reset}
   */
   readonly radioTypeAFraPropertiesClientReset?: number;
   /**
   * Client selection percentage for the 5 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_select WirelessRfProfile#radio_type_a_fra_properties_client_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_fra_properties_client_select WirelessRfProfile#radio_type_a_fra_properties_client_select}
   */
   readonly radioTypeAFraPropertiesClientSelect?: number;
   /**
   * Mandatory data rates for the 5 GHz radio band, passed in comma-separated format, must be a subset of dataRates with a maximum of 2 values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_mandatory_data_rates WirelessRfProfile#radio_type_a_mandatory_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_mandatory_data_rates WirelessRfProfile#radio_type_a_mandatory_data_rates}
   */
   readonly radioTypeAMandatoryDataRates?: string;
   /**
   * Maximum power level for the 5 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_max_power_level WirelessRfProfile#radio_type_a_max_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_max_power_level WirelessRfProfile#radio_type_a_max_power_level}
   */
   readonly radioTypeAMaxPowerLevel?: number;
   /**
   * Client limit for the 5 GHz radio band.
   *   - Range: `0`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_max_radio_clients WirelessRfProfile#radio_type_a_max_radio_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_max_radio_clients WirelessRfProfile#radio_type_a_max_radio_clients}
   */
   readonly radioTypeAMaxRadioClients?: number;
   /**
   * Minimum power level for the 5 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_min_power_level WirelessRfProfile#radio_type_a_min_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_min_power_level WirelessRfProfile#radio_type_a_min_power_level}
   */
   readonly radioTypeAMinPowerLevel?: number;
   /**
   * Parent profile for the 5 GHz radio band.
   *   - Choices: `HIGH`, `TYPICAL`, `LOW`, `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_parent_profile WirelessRfProfile#radio_type_a_parent_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_parent_profile WirelessRfProfile#radio_type_a_parent_profile}
   */
   readonly radioTypeAParentProfile?: string;
   /**
   * Power threshold for the 5 GHz radio band.
   *   - Range: `-80`-`-50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_power_threshold_v1 WirelessRfProfile#radio_type_a_power_threshold_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_power_threshold_v1 WirelessRfProfile#radio_type_a_power_threshold_v1}
   */
   readonly radioTypeAPowerThresholdV1?: number;
   /**
   * Enable or disable preamble puncturing for the 5 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_preamble_puncture WirelessRfProfile#radio_type_a_preamble_puncture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_preamble_puncture WirelessRfProfile#radio_type_a_preamble_puncture}
   */
   readonly radioTypeAPreamblePuncture?: boolean | cdktf.IResolvable;
   /**
   * DCA channels for the 5 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_radio_channels WirelessRfProfile#radio_type_a_radio_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_radio_channels WirelessRfProfile#radio_type_a_radio_channels}
   */
   readonly radioTypeARadioChannels?: string;
   /**
   * RX-SOP threshold for the 5 GHz radio band.
   *   - Choices: `HIGH`, `MEDIUM`, `LOW`, `AUTO`, `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_rx_sop_threshold WirelessRfProfile#radio_type_a_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_rx_sop_threshold WirelessRfProfile#radio_type_a_rx_sop_threshold}
   */
   readonly radioTypeARxSopThreshold?: string;
   /**
   * Dot11ax Non-SRG OBSS PD for the 5 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
   */
   readonly radioTypeASpatialReusePropertiesDot11AxNonSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax Non-SRG OBSS PD max threshold for the 5 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeASpatialReusePropertiesDot11AxNonSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD for the 5 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
   */
   readonly radioTypeASpatialReusePropertiesDot11AxSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax SRG OBSS PD max threshold for the 5 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeASpatialReusePropertiesDot11AxSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD min threshold for the 5 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_a_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
   */
   readonly radioTypeASpatialReusePropertiesDot11AxSrgObssPacketDetectMinThreshold?: number;
   /**
   * Enable Zero Wait DFS for IOS-XE-based Wireless Controllers running version 17.9.1 and above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_a_zero_wait_dfs_enable WirelessRfProfile#radio_type_a_zero_wait_dfs_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_a_zero_wait_dfs_enable WirelessRfProfile#radio_type_a_zero_wait_dfs_enable}
   */
   readonly radioTypeAZeroWaitDfsEnable?: boolean | cdktf.IResolvable;
   /**
   * Coverage Hole Detection client level for the 2.4 GHz radio band.
   *   - Range: `1`-`200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_client_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_client_level}
   */
   readonly radioTypeBCoverageHoleDetectionPropertiesChdClientLevel?: number;
   /**
   * Coverage Hole Detection data RSSI threshold for the 2.4 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_data_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_data_rssi_threshold}
   */
   readonly radioTypeBCoverageHoleDetectionPropertiesChdDataRssiThreshold?: number;
   /**
   * Coverage Hole Detection exception level (%) for the 2.4 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_exception_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_exception_level}
   */
   readonly radioTypeBCoverageHoleDetectionPropertiesChdExceptionLevel?: number;
   /**
   * Coverage Hole Detection voice RSSI threshold for the 2.4 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_voice_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_b_coverage_hole_detection_properties_chd_voice_rssi_threshold}
   */
   readonly radioTypeBCoverageHoleDetectionPropertiesChdVoiceRssiThreshold?: number;
   /**
   * Custom RX-SOP threshold for the 2.4 GHz radio band.
   *   - Range: `-85`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_custom_rx_sop_threshold WirelessRfProfile#radio_type_b_custom_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_custom_rx_sop_threshold WirelessRfProfile#radio_type_b_custom_rx_sop_threshold}
   */
   readonly radioTypeBCustomRxSopThreshold?: number;
   /**
   * Data rates for the 2.4 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_data_rates WirelessRfProfile#radio_type_b_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_data_rates WirelessRfProfile#radio_type_b_data_rates}
   */
   readonly radioTypeBDataRates?: string;
   /**
   * Mandatory data rates for the 2.4 GHz radio band, passed in comma-separated format, must be a subset of dataRates with a maximum of 2 values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_mandatory_data_rates WirelessRfProfile#radio_type_b_mandatory_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_mandatory_data_rates WirelessRfProfile#radio_type_b_mandatory_data_rates}
   */
   readonly radioTypeBMandatoryDataRates?: string;
   /**
   * Maximum power level for the 2.4 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_max_power_level WirelessRfProfile#radio_type_b_max_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_max_power_level WirelessRfProfile#radio_type_b_max_power_level}
   */
   readonly radioTypeBMaxPowerLevel?: number;
   /**
   * Client limit for the 2.4 GHz radio band.
   *   - Range: `0`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_max_radio_clients WirelessRfProfile#radio_type_b_max_radio_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_max_radio_clients WirelessRfProfile#radio_type_b_max_radio_clients}
   */
   readonly radioTypeBMaxRadioClients?: number;
   /**
   * Minimum power level for the 2.4 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_min_power_level WirelessRfProfile#radio_type_b_min_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_min_power_level WirelessRfProfile#radio_type_b_min_power_level}
   */
   readonly radioTypeBMinPowerLevel?: number;
   /**
   * Parent profile for the 2.4 GHz radio band.
   *   - Choices: `HIGH`, `TYPICAL`, `LOW`, `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_parent_profile WirelessRfProfile#radio_type_b_parent_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_parent_profile WirelessRfProfile#radio_type_b_parent_profile}
   */
   readonly radioTypeBParentProfile?: string;
   /**
   * Power threshold for the 2.4 GHz radio band.
   *   - Range: `-80`-`-50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_power_threshold_v1 WirelessRfProfile#radio_type_b_power_threshold_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_power_threshold_v1 WirelessRfProfile#radio_type_b_power_threshold_v1}
   */
   readonly radioTypeBPowerThresholdV1?: number;
   /**
   * DCA channels for the 2.4 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_radio_channels WirelessRfProfile#radio_type_b_radio_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_radio_channels WirelessRfProfile#radio_type_b_radio_channels}
   */
   readonly radioTypeBRadioChannels?: string;
   /**
   * RX-SOP threshold for the 2.4 GHz radio band.
   *   - Choices: `HIGH`, `MEDIUM`, `LOW`, `AUTO`, `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_rx_sop_threshold WirelessRfProfile#radio_type_b_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_rx_sop_threshold WirelessRfProfile#radio_type_b_rx_sop_threshold}
   */
   readonly radioTypeBRxSopThreshold?: string;
   /**
   * Dot11ax Non-SRG OBSS PD for the 2.4 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
   */
   readonly radioTypeBSpatialReusePropertiesDot11AxNonSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax Non-SRG OBSS PD max threshold for the 2.4 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeBSpatialReusePropertiesDot11AxNonSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD for the 2.4 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
   */
   readonly radioTypeBSpatialReusePropertiesDot11AxSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax SRG OBSS PD max threshold for the 2.4 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeBSpatialReusePropertiesDot11AxSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD min threshold for the 2.4 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_b_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
   */
   readonly radioTypeBSpatialReusePropertiesDot11AxSrgObssPacketDetectMinThreshold?: number;
   /**
   * Broadcast Probe Response Interval for the 6 GHz radio band.
   *   - Range: `5`-`25`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_broadcast_probe_response_interval WirelessRfProfile#radio_type_c_broadcast_probe_response_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_broadcast_probe_response_interval WirelessRfProfile#radio_type_c_broadcast_probe_response_interval}
   */
   readonly radioTypeCBroadcastProbeResponseInterval?: number;
   /**
   * Coverage Hole Detection client level for the 6 GHz radio band.
   *   - Range: `1`-`200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_client_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_client_level WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_client_level}
   */
   readonly radioTypeCCoverageHoleDetectionPropertiesChdClientLevel?: number;
   /**
   * Coverage Hole Detection data RSSI threshold for the 6 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_data_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_data_rssi_threshold WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_data_rssi_threshold}
   */
   readonly radioTypeCCoverageHoleDetectionPropertiesChdDataRssiThreshold?: number;
   /**
   * Coverage Hole Detection exception level (%) for the 6 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_exception_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_exception_level WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_exception_level}
   */
   readonly radioTypeCCoverageHoleDetectionPropertiesChdExceptionLevel?: number;
   /**
   * Coverage Hole Detection voice RSSI threshold for the 6 GHz radio band.
   *   - Range: `-90`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_voice_rssi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_coverage_hole_detection_properties_chd_voice_rssi_threshold WirelessRfProfile#radio_type_c_coverage_hole_detection_properties_chd_voice_rssi_threshold}
   */
   readonly radioTypeCCoverageHoleDetectionPropertiesChdVoiceRssiThreshold?: number;
   /**
   * Custom RX-SOP threshold for the 6 GHz radio band.
   *   - Range: `-85`-`-60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_custom_rx_sop_threshold WirelessRfProfile#radio_type_c_custom_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_custom_rx_sop_threshold WirelessRfProfile#radio_type_c_custom_rx_sop_threshold}
   */
   readonly radioTypeCCustomRxSopThreshold?: number;
   /**
   * Data rates of 6 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_data_rates WirelessRfProfile#radio_type_c_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_data_rates WirelessRfProfile#radio_type_c_data_rates}
   */
   readonly radioTypeCDataRates?: string;
   /**
   * Discovery Frames for the 6 GHz radio band.
   *   - Choices: `None`, `Broadcast Probe Response`, `FILS Discovery`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_discovery_frames_6ghz WirelessRfProfile#radio_type_c_discovery_frames_6ghz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_discovery_frames_6ghz WirelessRfProfile#radio_type_c_discovery_frames_6ghz}
   */
   readonly radioTypeCDiscoveryFrames6Ghz?: string;
   /**
   * True if Standard Power Service is enabled, else False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_enable_standard_power_service WirelessRfProfile#radio_type_c_enable_standard_power_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_enable_standard_power_service WirelessRfProfile#radio_type_c_enable_standard_power_service}
   */
   readonly radioTypeCEnableStandardPowerService?: boolean | cdktf.IResolvable;
   /**
   * Client Reset Count for the 6 GHz radio band.
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_fra_properties_client_reset_count WirelessRfProfile#radio_type_c_fra_properties_client_reset_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_fra_properties_client_reset_count WirelessRfProfile#radio_type_c_fra_properties_client_reset_count}
   */
   readonly radioTypeCFraPropertiesClientResetCount?: number;
   /**
   * Client Utilization Threshold for the 6 GHz radio band.
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_fra_properties_client_utilization_threshold WirelessRfProfile#radio_type_c_fra_properties_client_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_fra_properties_client_utilization_threshold WirelessRfProfile#radio_type_c_fra_properties_client_utilization_threshold}
   */
   readonly radioTypeCFraPropertiesClientUtilizationThreshold?: number;
   /**
   * Mandatory data rates of 6 GHz radio band, passed in comma-separated format without spaces. Must be a subset of dataRates with a maximum of 2 values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_mandatory_data_rates WirelessRfProfile#radio_type_c_mandatory_data_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_mandatory_data_rates WirelessRfProfile#radio_type_c_mandatory_data_rates}
   */
   readonly radioTypeCMandatoryDataRates?: string;
   /**
   * Maximum DBS Width for the 6 GHz radio band.
   *   - Choices: `20`, `40`, `80`, `160`, `320`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_max_dbs_width WirelessRfProfile#radio_type_c_max_dbs_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_max_dbs_width WirelessRfProfile#radio_type_c_max_dbs_width}
   */
   readonly radioTypeCMaxDbsWidth?: number;
   /**
   * Maximum power level of the 6 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_max_power_level WirelessRfProfile#radio_type_c_max_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_max_power_level WirelessRfProfile#radio_type_c_max_power_level}
   */
   readonly radioTypeCMaxPowerLevel?: number;
   /**
   * Client limit for the 6 GHz radio band.
   *   - Range: `0`-`500`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_max_radio_clients WirelessRfProfile#radio_type_c_max_radio_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_max_radio_clients WirelessRfProfile#radio_type_c_max_radio_clients}
   */
   readonly radioTypeCMaxRadioClients?: number;
   /**
   * Minimum DBS Width for the 6 GHz radio band.
   *   - Choices: `20`, `40`, `80`, `160`, `320`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_min_dbs_width WirelessRfProfile#radio_type_c_min_dbs_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_min_dbs_width WirelessRfProfile#radio_type_c_min_dbs_width}
   */
   readonly radioTypeCMinDbsWidth?: number;
   /**
   * Minimum power level of the 6 GHz radio band.
   *   - Range: `-10`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_min_power_level WirelessRfProfile#radio_type_c_min_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_min_power_level WirelessRfProfile#radio_type_c_min_power_level}
   */
   readonly radioTypeCMinPowerLevel?: number;
   /**
   * MU-MIMO Downlink for 802.11ax parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_down_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_down_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11AxParametersMuMimoDownLink?: boolean | cdktf.IResolvable;
   /**
   * MU-MIMO Uplink for 802.11ax parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_mu_mimo_up_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11AxParametersMuMimoUpLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA Downlink for 802.11ax parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_down_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_down_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11AxParametersOfdmaDownLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA Uplink for 802.11ax parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11ax_parameters_ofdma_up_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11AxParametersOfdmaUpLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA mu mimo down link for 802.11be parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_down_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_down_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11BeParametersMuMimoDownLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA mu mimo up link for 802.11be parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_mu_mimo_up_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11BeParametersMuMimoUpLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA dma down link for 802.11be parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_down_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_down_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_down_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11BeParametersOfdmaDownLink?: boolean | cdktf.IResolvable;
   /**
   * OFDMA Multi-RU for 802.11be parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_multi_ru WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_multi_ru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_multi_ru WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_multi_ru}
   */
   readonly radioTypeCMultiBssidPropertiesDot11BeParametersOfdmaMultiRu?: boolean | cdktf.IResolvable;
   /**
   * OFDMA dma up link for 802.11be parameters in the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_up_link WirelessRfProfile#radio_type_c_multi_bssid_properties_dot11be_parameters_ofdma_up_link}
   */
   readonly radioTypeCMultiBssidPropertiesDot11BeParametersOfdmaUpLink?: boolean | cdktf.IResolvable;
   /**
   * Target Wake Time for the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_target_wake_time WirelessRfProfile#radio_type_c_multi_bssid_properties_target_wake_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_target_wake_time WirelessRfProfile#radio_type_c_multi_bssid_properties_target_wake_time}
   */
   readonly radioTypeCMultiBssidPropertiesTargetWakeTime?: boolean | cdktf.IResolvable;
   /**
   * TWT Broadcast Support for the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_twt_broadcast_support WirelessRfProfile#radio_type_c_multi_bssid_properties_twt_broadcast_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_multi_bssid_properties_twt_broadcast_support WirelessRfProfile#radio_type_c_multi_bssid_properties_twt_broadcast_support}
   */
   readonly radioTypeCMultiBssidPropertiesTwtBroadcastSupport?: boolean | cdktf.IResolvable;
   /**
   * Parent profile for the 6 GHz radio band.
   *   - Choices: `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_parent_profile WirelessRfProfile#radio_type_c_parent_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_parent_profile WirelessRfProfile#radio_type_c_parent_profile}
   */
   readonly radioTypeCParentProfile?: string;
   /**
   * Power threshold of the 6 GHz radio band.
   *   - Range: `-80`-`-50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_power_threshold_v1 WirelessRfProfile#radio_type_c_power_threshold_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_power_threshold_v1 WirelessRfProfile#radio_type_c_power_threshold_v1}
   */
   readonly radioTypeCPowerThresholdV1?: number;
   /**
   * Enable or Disable Preamble Puncturing. This WiFi 7 configuration is applicable to wireless IOS devices supporting 17.15 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_preamble_puncture WirelessRfProfile#radio_type_c_preamble_puncture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_preamble_puncture WirelessRfProfile#radio_type_c_preamble_puncture}
   */
   readonly radioTypeCPreamblePuncture?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable PSC enforcement for the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_psc_enforcing_enabled WirelessRfProfile#radio_type_c_psc_enforcing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_psc_enforcing_enabled WirelessRfProfile#radio_type_c_psc_enforcing_enabled}
   */
   readonly radioTypeCPscEnforcingEnabled?: boolean | cdktf.IResolvable;
   /**
   * DCA channels of 6 GHz radio band, passed in comma-separated format without spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_radio_channels WirelessRfProfile#radio_type_c_radio_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_radio_channels WirelessRfProfile#radio_type_c_radio_channels}
   */
   readonly radioTypeCRadioChannels?: string;
   /**
   * RX-SOP threshold of the 6 GHz radio band.
   *   - Choices: `HIGH`, `MEDIUM`, `LOW`, `AUTO`, `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_rx_sop_threshold WirelessRfProfile#radio_type_c_rx_sop_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_rx_sop_threshold WirelessRfProfile#radio_type_c_rx_sop_threshold}
   */
   readonly radioTypeCRxSopThreshold?: string;
   /**
   * Dot11ax Non-SRG OBSS PD for the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect}
   */
   readonly radioTypeCSpatialReusePropertiesDot11AxNonSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax Non-SRG OBSS PD Max Threshold for the 6 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_non_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeCSpatialReusePropertiesDot11AxNonSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD for the 6 GHz radio band.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect}
   */
   readonly radioTypeCSpatialReusePropertiesDot11AxSrgObssPacketDetect?: boolean | cdktf.IResolvable;
   /**
   * Dot11ax SRG OBSS PD Max Threshold for the 6 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_max_threshold}
   */
   readonly radioTypeCSpatialReusePropertiesDot11AxSrgObssPacketDetectMaxThreshold?: number;
   /**
   * Dot11ax SRG OBSS PD Min Threshold for the 6 GHz radio band.
   *   - Range: `-82`-`-62`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold WirelessRfProfile#radio_type_c_spatial_reuse_properties_dot11ax_srg_obss_packet_detect_min_threshold}
   */
   readonly radioTypeCSpatialReusePropertiesDot11AxSrgObssPacketDetectMinThreshold?: number;
   /**
   * RF Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#rf_profile_name WirelessRfProfile#rf_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#rf_profile_name WirelessRfProfile#rf_profile_name}
   */
   readonly rfProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile catalystcenter_wireless_rf_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile catalystcenter_wireless_rf_profile}
 */
 export class WirelessRfProfile extends cdktf.TerraformResource {
 
@@ -605,7 +605,7 @@ export class WirelessRfProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessRfProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessRfProfile to import
-  * @param importFromId The id of the existing WirelessRfProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessRfProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessRfProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -617,7 +617,7 @@ export class WirelessRfProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/wireless_rf_profile catalystcenter_wireless_rf_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_rf_profile catalystcenter_wireless_rf_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -628,8 +628,8 @@ export class WirelessRfProfile extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_wireless_rf_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

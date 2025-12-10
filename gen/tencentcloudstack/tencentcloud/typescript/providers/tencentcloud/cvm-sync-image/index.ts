@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,23 @@ export interface CvmSyncImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of destination regions for synchronization. Limits: It must be a valid region. For a custom image, the destination region cannot be the source region. For a shared image, the destination region must be the source region, which indicates to create a copy of the image as a custom image in the same region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#destination_regions CvmSyncImage#destination_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#destination_regions CvmSyncImage#destination_regions}
   */
   readonly destinationRegions: string[];
   /**
   * Checks whether image synchronization can be initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#dry_run CvmSyncImage#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#dry_run CvmSyncImage#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#id CvmSyncImage#id}
+  * Whether to synchronize as an encrypted custom image. Default value is `false`. Synchronization to an encrypted custom image is only supported within the same region.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#encrypt CvmSyncImage#encrypt}
+  */
+  readonly encrypt?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#id CvmSyncImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +35,31 @@ export interface CvmSyncImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID. The specified image must meet the following requirement: the images must be in the `NORMAL` state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#image_id CvmSyncImage#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#image_id CvmSyncImage#image_id}
   */
   readonly imageId: string;
   /**
   * Destination image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#image_name CvmSyncImage#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#image_name CvmSyncImage#image_name}
   */
   readonly imageName?: string;
   /**
   * Whether to return the ID of image created in the destination region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#image_set_required CvmSyncImage#image_set_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#image_set_required CvmSyncImage#image_set_required}
   */
   readonly imageSetRequired?: boolean | cdktf.IResolvable;
+  /**
+  * KMS key ID used when synchronizing to an encrypted custom image. This parameter is valid only synchronizing to an encrypted image. If KmsKeyId is not specified, the default CBS cloud product KMS key is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#kms_key_id CvmSyncImage#kms_key_id}
+  */
+  readonly kmsKeyId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image tencentcloud_cvm_sync_image}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image tencentcloud_cvm_sync_image}
 */
 export class CvmSyncImage extends cdktf.TerraformResource {
 
@@ -63,7 +75,7 @@ export class CvmSyncImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmSyncImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmSyncImage to import
-  * @param importFromId The id of the existing CvmSyncImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmSyncImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmSyncImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +87,7 @@ export class CvmSyncImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_sync_image tencentcloud_cvm_sync_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_sync_image tencentcloud_cvm_sync_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +98,8 @@ export class CvmSyncImage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_sync_image',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,10 +111,12 @@ export class CvmSyncImage extends cdktf.TerraformResource {
     });
     this._destinationRegions = config.destinationRegions;
     this._dryRun = config.dryRun;
+    this._encrypt = config.encrypt;
     this._id = config.id;
     this._imageId = config.imageId;
     this._imageName = config.imageName;
     this._imageSetRequired = config.imageSetRequired;
+    this._kmsKeyId = config.kmsKeyId;
   }
 
   // ==========
@@ -136,6 +150,22 @@ export class CvmSyncImage extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dryRunInput() {
     return this._dryRun;
+  }
+
+  // encrypt - computed: false, optional: true, required: false
+  private _encrypt?: boolean | cdktf.IResolvable; 
+  public get encrypt() {
+    return this.getBooleanAttribute('encrypt');
+  }
+  public set encrypt(value: boolean | cdktf.IResolvable) {
+    this._encrypt = value;
+  }
+  public resetEncrypt() {
+    this._encrypt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptInput() {
+    return this._encrypt;
   }
 
   // id - computed: true, optional: true, required: false
@@ -183,6 +213,11 @@ export class CvmSyncImage extends cdktf.TerraformResource {
     return this._imageName;
   }
 
+  // image_set - computed: true, optional: false, required: false
+  public get imageSet() {
+    return cdktf.Fn.tolist(this.getListAttribute('image_set'));
+  }
+
   // image_set_required - computed: false, optional: true, required: false
   private _imageSetRequired?: boolean | cdktf.IResolvable; 
   public get imageSetRequired() {
@@ -199,6 +234,22 @@ export class CvmSyncImage extends cdktf.TerraformResource {
     return this._imageSetRequired;
   }
 
+  // kms_key_id - computed: false, optional: true, required: false
+  private _kmsKeyId?: string; 
+  public get kmsKeyId() {
+    return this.getStringAttribute('kms_key_id');
+  }
+  public set kmsKeyId(value: string) {
+    this._kmsKeyId = value;
+  }
+  public resetKmsKeyId() {
+    this._kmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyIdInput() {
+    return this._kmsKeyId;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -207,10 +258,12 @@ export class CvmSyncImage extends cdktf.TerraformResource {
     return {
       destination_regions: cdktf.listMapper(cdktf.stringToTerraform, false)(this._destinationRegions),
       dry_run: cdktf.booleanToTerraform(this._dryRun),
+      encrypt: cdktf.booleanToTerraform(this._encrypt),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       image_name: cdktf.stringToTerraform(this._imageName),
       image_set_required: cdktf.booleanToTerraform(this._imageSetRequired),
+      kms_key_id: cdktf.stringToTerraform(this._kmsKeyId),
     };
   }
 
@@ -224,6 +277,12 @@ export class CvmSyncImage extends cdktf.TerraformResource {
       },
       dry_run: {
         value: cdktf.booleanToHclTerraform(this._dryRun),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      encrypt: {
+        value: cdktf.booleanToHclTerraform(this._encrypt),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -251,6 +310,12 @@ export class CvmSyncImage extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      kms_key_id: {
+        value: cdktf.stringToHclTerraform(this._kmsKeyId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
     };
 

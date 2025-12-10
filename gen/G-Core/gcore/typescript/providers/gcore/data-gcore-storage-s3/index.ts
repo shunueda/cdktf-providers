@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreStorageS3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3#id DataGcoreStorageS3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3#id DataGcoreStorageS3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataGcoreStorageS3Config extends cdktf.TerraformMetaArguments {
   /**
   * A name of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3#name DataGcoreStorageS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3#name DataGcoreStorageS3#name}
   */
   readonly name?: string;
   /**
   * An id of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3#storage_id DataGcoreStorageS3#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3#storage_id DataGcoreStorageS3#storage_id}
   */
   readonly storageId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3 gcore_storage_s3}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3 gcore_storage_s3}
 */
 export class DataGcoreStorageS3 extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGcoreStorageS3 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreStorageS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreStorageS3 to import
-  * @param importFromId The id of the existing DataGcoreStorageS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreStorageS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreStorageS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGcoreStorageS3 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/storage_s3 gcore_storage_s3} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/storage_s3 gcore_storage_s3} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGcoreStorageS3 extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_storage_s3',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

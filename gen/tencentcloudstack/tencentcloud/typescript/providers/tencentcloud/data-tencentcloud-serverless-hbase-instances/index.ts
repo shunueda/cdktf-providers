@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,7 @@ export interface DataTencentcloudServerlessHbaseInstancesConfig extends cdktf.Te
   * 	* 1: indicates the ascending order;
   * 	The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#asc DataTencentcloudServerlessHbaseInstances#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#asc DataTencentcloudServerlessHbaseInstances#asc}
   */
   readonly asc?: number;
   /**
@@ -21,11 +21,11 @@ export interface DataTencentcloudServerlessHbaseInstancesConfig extends cdktf.Te
   * 	* clusterList: Query the list of clusters except the destroyed cluster;
   * 	* monitorManage: Queries the list of clusters except those destroyed, being created, and failed to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#display_strategy DataTencentcloudServerlessHbaseInstances#display_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#display_strategy DataTencentcloudServerlessHbaseInstances#display_strategy}
   */
   readonly displayStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#id DataTencentcloudServerlessHbaseInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#id DataTencentcloudServerlessHbaseInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,19 +37,19 @@ export interface DataTencentcloudServerlessHbaseInstancesConfig extends cdktf.Te
   * 	* addTime: sorted by instance creation time;
   * 	* status: sorted by the status code of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#order_field DataTencentcloudServerlessHbaseInstances#order_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#order_field DataTencentcloudServerlessHbaseInstances#order_field}
   */
   readonly orderField?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#result_output_file DataTencentcloudServerlessHbaseInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#result_output_file DataTencentcloudServerlessHbaseInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#filters DataTencentcloudServerlessHbaseInstances#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#filters DataTencentcloudServerlessHbaseInstances#filters}
   */
   readonly filters?: DataTencentcloudServerlessHbaseInstancesFilters[] | cdktf.IResolvable;
 }
@@ -450,13 +450,13 @@ export interface DataTencentcloudServerlessHbaseInstancesFilters {
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#name DataTencentcloudServerlessHbaseInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#name DataTencentcloudServerlessHbaseInstances#name}
   */
   readonly name: string;
   /**
   * Filter field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#values DataTencentcloudServerlessHbaseInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#values DataTencentcloudServerlessHbaseInstances#values}
   */
   readonly values: string[];
 }
@@ -595,7 +595,7 @@ export class DataTencentcloudServerlessHbaseInstancesFiltersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances tencentcloud_serverless_hbase_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances tencentcloud_serverless_hbase_instances}
 */
 export class DataTencentcloudServerlessHbaseInstances extends cdktf.TerraformDataSource {
 
@@ -611,7 +611,7 @@ export class DataTencentcloudServerlessHbaseInstances extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudServerlessHbaseInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudServerlessHbaseInstances to import
-  * @param importFromId The id of the existing DataTencentcloudServerlessHbaseInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudServerlessHbaseInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudServerlessHbaseInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class DataTencentcloudServerlessHbaseInstances extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/serverless_hbase_instances tencentcloud_serverless_hbase_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/serverless_hbase_instances tencentcloud_serverless_hbase_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class DataTencentcloudServerlessHbaseInstances extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_serverless_hbase_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

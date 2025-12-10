@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTatInvokerConfig extends cdktf.TerraformMetaArg
   /**
   * Command ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#command_id DataTencentcloudTatInvoker#command_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#command_id DataTencentcloudTatInvoker#command_id}
   */
   readonly commandId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#id DataTencentcloudTatInvoker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#id DataTencentcloudTatInvoker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudTatInvokerConfig extends cdktf.TerraformMetaArg
   /**
   * Invoker ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#invoker_id DataTencentcloudTatInvoker#invoker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#invoker_id DataTencentcloudTatInvoker#invoker_id}
   */
   readonly invokerId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#result_output_file DataTencentcloudTatInvoker#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#result_output_file DataTencentcloudTatInvoker#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Invoker type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#type DataTencentcloudTatInvoker#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#type DataTencentcloudTatInvoker#type}
   */
   readonly type?: string;
 }
@@ -252,7 +252,7 @@ export class DataTencentcloudTatInvokerInvokerSetList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker tencentcloud_tat_invoker}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker tencentcloud_tat_invoker}
 */
 export class DataTencentcloudTatInvoker extends cdktf.TerraformDataSource {
 
@@ -268,7 +268,7 @@ export class DataTencentcloudTatInvoker extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTatInvoker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTatInvoker to import
-  * @param importFromId The id of the existing DataTencentcloudTatInvoker that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTatInvoker that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTatInvoker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class DataTencentcloudTatInvoker extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tat_invoker tencentcloud_tat_invoker} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tat_invoker tencentcloud_tat_invoker} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class DataTencentcloudTatInvoker extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tat_invoker',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

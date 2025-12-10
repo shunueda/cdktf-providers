@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CreatePortCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#id CreatePortCheckV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#id CreatePortCheckV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface CreatePortCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
   * test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#test CreatePortCheckV2#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#test CreatePortCheckV2#test}
   */
   readonly test: CreatePortCheckV2Test[] | cdktf.IResolvable;
 }
 export interface CreatePortCheckV2TestCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#key CreatePortCheckV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#key CreatePortCheckV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#value CreatePortCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#value CreatePortCheckV2#value}
   */
   readonly value?: string;
 }
@@ -172,53 +172,53 @@ export class CreatePortCheckV2TestCustomPropertiesList extends cdktf.ComplexList
 }
 export interface CreatePortCheckV2Test {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#active CreatePortCheckV2#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#active CreatePortCheckV2#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#automatic_retries CreatePortCheckV2#automatic_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#automatic_retries CreatePortCheckV2#automatic_retries}
   */
   readonly automaticRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#frequency CreatePortCheckV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#frequency CreatePortCheckV2#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#host CreatePortCheckV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#host CreatePortCheckV2#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#location_ids CreatePortCheckV2#location_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#location_ids CreatePortCheckV2#location_ids}
   */
   readonly locationIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#name CreatePortCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#name CreatePortCheckV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#port CreatePortCheckV2#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#port CreatePortCheckV2#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#protocol CreatePortCheckV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#protocol CreatePortCheckV2#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#scheduling_strategy CreatePortCheckV2#scheduling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#scheduling_strategy CreatePortCheckV2#scheduling_strategy}
   */
   readonly schedulingStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#type CreatePortCheckV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#type CreatePortCheckV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#url CreatePortCheckV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#url CreatePortCheckV2#url}
   */
   readonly url?: string;
   /**
   * custom_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#custom_properties CreatePortCheckV2#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#custom_properties CreatePortCheckV2#custom_properties}
   */
   readonly customProperties?: CreatePortCheckV2TestCustomProperties[] | cdktf.IResolvable;
 }
@@ -647,7 +647,7 @@ export class CreatePortCheckV2TestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2 synthetics_create_port_check_v2}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2 synthetics_create_port_check_v2}
 */
 export class CreatePortCheckV2 extends cdktf.TerraformResource {
 
@@ -663,7 +663,7 @@ export class CreatePortCheckV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CreatePortCheckV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreatePortCheckV2 to import
-  * @param importFromId The id of the existing CreatePortCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreatePortCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreatePortCheckV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -675,7 +675,7 @@ export class CreatePortCheckV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_port_check_v2 synthetics_create_port_check_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_port_check_v2 synthetics_create_port_check_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -686,8 +686,8 @@ export class CreatePortCheckV2 extends cdktf.TerraformResource {
       terraformResourceType: 'synthetics_create_port_check_v2',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

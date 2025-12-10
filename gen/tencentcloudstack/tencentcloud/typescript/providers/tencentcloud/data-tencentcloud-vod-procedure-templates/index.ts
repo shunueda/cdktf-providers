@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudVodProcedureTemplatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#id DataTencentcloudVodProcedureTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#id DataTencentcloudVodProcedureTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudVodProcedureTemplatesConfig extends cdktf.Terra
   /**
   * Name of procedure template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#name DataTencentcloudVodProcedureTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#name DataTencentcloudVodProcedureTemplates#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#result_output_file DataTencentcloudVodProcedureTemplates#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#result_output_file DataTencentcloudVodProcedureTemplates#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Subapplication ID in VOD. If you need to access a resource in a subapplication, enter the subapplication ID in this field; otherwise, leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#sub_app_id DataTencentcloudVodProcedureTemplates#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#sub_app_id DataTencentcloudVodProcedureTemplates#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * Template type filter. Valid values: `Preset`, `Custom`. `Preset`: preset template; `Custom`: custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#type DataTencentcloudVodProcedureTemplates#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#type DataTencentcloudVodProcedureTemplates#type}
   */
   readonly type?: string;
 }
@@ -1420,7 +1420,7 @@ export class DataTencentcloudVodProcedureTemplatesTemplateListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates tencentcloud_vod_procedure_templates}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates tencentcloud_vod_procedure_templates}
 */
 export class DataTencentcloudVodProcedureTemplates extends cdktf.TerraformDataSource {
 
@@ -1436,7 +1436,7 @@ export class DataTencentcloudVodProcedureTemplates extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudVodProcedureTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVodProcedureTemplates to import
-  * @param importFromId The id of the existing DataTencentcloudVodProcedureTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVodProcedureTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVodProcedureTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1448,7 +1448,7 @@ export class DataTencentcloudVodProcedureTemplates extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/vod_procedure_templates tencentcloud_vod_procedure_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/vod_procedure_templates tencentcloud_vod_procedure_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1459,8 +1459,8 @@ export class DataTencentcloudVodProcedureTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_vod_procedure_templates',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

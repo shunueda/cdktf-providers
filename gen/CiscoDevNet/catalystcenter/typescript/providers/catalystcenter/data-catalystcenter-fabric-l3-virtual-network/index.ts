@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_virtual_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l3_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterFabricL3VirtualNetworkConfig extends cdktf.Te
   /**
   * Name of the layer 3 virtual network. If `INFRA_VN` or `DEFAULT_VN` is used, those layer 3 virtual networks will be updated instead of created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_virtual_network#virtual_network_name DataCatalystcenterFabricL3VirtualNetwork#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l3_virtual_network#virtual_network_name DataCatalystcenterFabricL3VirtualNetwork#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network}
 */
 export class DataCatalystcenterFabricL3VirtualNetwork extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCatalystcenterFabricL3VirtualNetwork extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataCatalystcenterFabricL3VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterFabricL3VirtualNetwork to import
-  * @param importFromId The id of the existing DataCatalystcenterFabricL3VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterFabricL3VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l3_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterFabricL3VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCatalystcenterFabricL3VirtualNetwork extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCatalystcenterFabricL3VirtualNetwork extends cdktf.TerraformDat
       terraformResourceType: 'catalystcenter_fabric_l3_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

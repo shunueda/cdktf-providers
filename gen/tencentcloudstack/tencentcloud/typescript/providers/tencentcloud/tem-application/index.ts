@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TemApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#application_name TemApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#application_name TemApplication#application_name}
   */
   readonly applicationName: string;
   /**
   * program language, like JAVA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#coding_language TemApplication#coding_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#coding_language TemApplication#coding_language}
   */
   readonly codingLanguage: string;
   /**
   * application description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#description TemApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#description TemApplication#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#id TemApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#id TemApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface TemApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * tcr instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#instance_id TemApplication#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#instance_id TemApplication#instance_id}
   */
   readonly instanceId?: string;
   /**
   * repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#repo_name TemApplication#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#repo_name TemApplication#repo_name}
   */
   readonly repoName?: string;
   /**
   * registry address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#repo_server TemApplication#repo_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#repo_server TemApplication#repo_server}
   */
   readonly repoServer?: string;
   /**
   * repo type, 0: tcr personal, 1: tcr enterprise, 2: public repository, 3: tcr hosted by tem, 4: demo image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#repo_type TemApplication#repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#repo_type TemApplication#repo_type}
   */
   readonly repoType?: number;
   /**
   * application tag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#tags TemApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#tags TemApplication#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * create image repo or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#use_default_image_service TemApplication#use_default_image_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#use_default_image_service TemApplication#use_default_image_service}
   */
   readonly useDefaultImageService?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application tencentcloud_tem_application}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application tencentcloud_tem_application}
 */
 export class TemApplication extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TemApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemApplication to import
-  * @param importFromId The id of the existing TemApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TemApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_application tencentcloud_tem_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_application tencentcloud_tem_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TemApplication extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_application',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

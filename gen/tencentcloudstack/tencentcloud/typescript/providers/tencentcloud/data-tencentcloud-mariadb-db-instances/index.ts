@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMariadbDbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#id DataTencentcloudMariadbDbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#id DataTencentcloudMariadbDbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudMariadbDbInstancesConfig extends cdktf.Terrafor
   /**
   * instance ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#instance_ids DataTencentcloudMariadbDbInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#instance_ids DataTencentcloudMariadbDbInstances#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * project ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#project_ids DataTencentcloudMariadbDbInstances#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#project_ids DataTencentcloudMariadbDbInstances#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#result_output_file DataTencentcloudMariadbDbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#result_output_file DataTencentcloudMariadbDbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * instance name or vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#search_name DataTencentcloudMariadbDbInstances#search_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#search_name DataTencentcloudMariadbDbInstances#search_name}
   */
   readonly searchName?: string;
   /**
   * subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#subnet_id DataTencentcloudMariadbDbInstances#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#subnet_id DataTencentcloudMariadbDbInstances#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#vpc_id DataTencentcloudMariadbDbInstances#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#vpc_id DataTencentcloudMariadbDbInstances#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -284,7 +284,7 @@ export class DataTencentcloudMariadbDbInstancesInstancesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances tencentcloud_mariadb_db_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances tencentcloud_mariadb_db_instances}
 */
 export class DataTencentcloudMariadbDbInstances extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataTencentcloudMariadbDbInstances extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudMariadbDbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMariadbDbInstances to import
-  * @param importFromId The id of the existing DataTencentcloudMariadbDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMariadbDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMariadbDbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataTencentcloudMariadbDbInstances extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_db_instances tencentcloud_mariadb_db_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mariadb_db_instances tencentcloud_mariadb_db_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataTencentcloudMariadbDbInstances extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_mariadb_db_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

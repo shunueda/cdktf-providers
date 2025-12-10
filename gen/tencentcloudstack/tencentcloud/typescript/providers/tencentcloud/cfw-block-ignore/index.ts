@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CfwBlockIgnoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remarks information, length cannot exceed 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#comment CfwBlockIgnore#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#comment CfwBlockIgnore#comment}
   */
   readonly comment?: string;
   /**
   * Rule direction, 0 outbound, 1 inbound, 3 intranet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#direction CfwBlockIgnore#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#direction CfwBlockIgnore#direction}
   */
   readonly direction: string;
   /**
   * Rule domain name, one of IP and Domain is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#domain CfwBlockIgnore#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#domain CfwBlockIgnore#domain}
   */
   readonly domain?: string;
   /**
   * Rule end time, format: 2006-01-02 15:04:05, must be greater than the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#end_time CfwBlockIgnore#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#end_time CfwBlockIgnore#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#id CfwBlockIgnore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#id CfwBlockIgnore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface CfwBlockIgnoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule IP address, one of IP and Domain is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#ip CfwBlockIgnore#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#ip CfwBlockIgnore#ip}
   */
   readonly ip?: string;
   /**
   * Rule type, 1 block, 2 ignore, domain block is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#rule_type CfwBlockIgnore#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#rule_type CfwBlockIgnore#rule_type}
   */
   readonly ruleType: number;
   /**
   * Rule start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#start_time CfwBlockIgnore#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#start_time CfwBlockIgnore#start_time}
   */
   readonly startTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore tencentcloud_cfw_block_ignore}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore tencentcloud_cfw_block_ignore}
 */
 export class CfwBlockIgnore extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CfwBlockIgnore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwBlockIgnore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwBlockIgnore to import
-  * @param importFromId The id of the existing CfwBlockIgnore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwBlockIgnore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwBlockIgnore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CfwBlockIgnore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cfw_block_ignore tencentcloud_cfw_block_ignore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_block_ignore tencentcloud_cfw_block_ignore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CfwBlockIgnore extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_block_ignore',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

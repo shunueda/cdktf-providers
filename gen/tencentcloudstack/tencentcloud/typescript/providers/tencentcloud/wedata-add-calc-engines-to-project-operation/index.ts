@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataAddCalcEnginesToProjectOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#id WedataAddCalcEnginesToProjectOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#id WedataAddCalcEnginesToProjectOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface WedataAddCalcEnginesToProjectOperationConfig extends cdktf.Terr
   /**
   * Project ID to be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#project_id WedataAddCalcEnginesToProjectOperation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#project_id WedataAddCalcEnginesToProjectOperation#project_id}
   */
   readonly projectId: string;
   /**
   * dlc_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#dlc_info WedataAddCalcEnginesToProjectOperation#dlc_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#dlc_info WedataAddCalcEnginesToProjectOperation#dlc_info}
   */
   readonly dlcInfo: WedataAddCalcEnginesToProjectOperationDlcInfo[] | cdktf.IResolvable;
 }
@@ -37,25 +37,25 @@ export interface WedataAddCalcEnginesToProjectOperationDlcInfo {
   * - OWNER (Main Account Mode)
   * - SUB (Sub-Account Mode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#access_account WedataAddCalcEnginesToProjectOperation#access_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#access_account WedataAddCalcEnginesToProjectOperation#access_account}
   */
   readonly accessAccount?: string;
   /**
   * DLC resource names (need to add role Uin to DLC, otherwise resources may not be available).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#compute_resources WedataAddCalcEnginesToProjectOperation#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#compute_resources WedataAddCalcEnginesToProjectOperation#compute_resources}
   */
   readonly computeResources: string[];
   /**
   * Specify the default database for the DLC cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#default_database WedataAddCalcEnginesToProjectOperation#default_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#default_database WedataAddCalcEnginesToProjectOperation#default_database}
   */
   readonly defaultDatabase: string;
   /**
   * DLC region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#region WedataAddCalcEnginesToProjectOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#region WedataAddCalcEnginesToProjectOperation#region}
   */
   readonly region: string;
   /**
@@ -63,13 +63,13 @@ export interface WedataAddCalcEnginesToProjectOperationDlcInfo {
   * - Prod  (Production environment)
   * - Dev  (Development environment).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#standard_mode_env_tag WedataAddCalcEnginesToProjectOperation#standard_mode_env_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#standard_mode_env_tag WedataAddCalcEnginesToProjectOperation#standard_mode_env_tag}
   */
   readonly standardModeEnvTag?: string;
   /**
   * Sub-account ID (only effective for standard mode projects), when AccessAccount is in sub-account mode, the sub-account ID information needs to be specified, other modes do not need to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#sub_account_uin WedataAddCalcEnginesToProjectOperation#sub_account_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#sub_account_uin WedataAddCalcEnginesToProjectOperation#sub_account_uin}
   */
   readonly subAccountUin?: string;
 }
@@ -321,7 +321,7 @@ export class WedataAddCalcEnginesToProjectOperationDlcInfoList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation tencentcloud_wedata_add_calc_engines_to_project_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation tencentcloud_wedata_add_calc_engines_to_project_operation}
 */
 export class WedataAddCalcEnginesToProjectOperation extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class WedataAddCalcEnginesToProjectOperation extends cdktf.TerraformResou
   * Generates CDKTF code for importing a WedataAddCalcEnginesToProjectOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataAddCalcEnginesToProjectOperation to import
-  * @param importFromId The id of the existing WedataAddCalcEnginesToProjectOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataAddCalcEnginesToProjectOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataAddCalcEnginesToProjectOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class WedataAddCalcEnginesToProjectOperation extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_add_calc_engines_to_project_operation tencentcloud_wedata_add_calc_engines_to_project_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_add_calc_engines_to_project_operation tencentcloud_wedata_add_calc_engines_to_project_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class WedataAddCalcEnginesToProjectOperation extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_wedata_add_calc_engines_to_project_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

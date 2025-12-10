@@ -1,3 +1,3 @@
 # `uptime_scheduled_report`
 
-Refer to the Terraform Registry for docs: [`uptime_scheduled_report`](https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/scheduled_report).
+Refer to the Terraform Registry for docs: [`uptime_scheduled_report`](https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/scheduled_report).

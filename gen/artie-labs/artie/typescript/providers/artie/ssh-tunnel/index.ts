@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SshTunnelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The public hostname or IP address of your SSH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel#host SshTunnel#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel#host SshTunnel#host}
   */
   readonly host: string;
   /**
   * A human-readable label for this SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel#name SshTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel#name SshTunnel#name}
   */
   readonly name: string;
   /**
   * The port number of your SSH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel#port SshTunnel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel#port SshTunnel#port}
   */
   readonly port: number;
   /**
   * The username we should use when connecting to your SSH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel#username SshTunnel#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel#username SshTunnel#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel artie_ssh_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel artie_ssh_tunnel}
 */
 export class SshTunnel extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SshTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshTunnel to import
-  * @param importFromId The id of the existing SshTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SshTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/ssh_tunnel artie_ssh_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/ssh_tunnel artie_ssh_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SshTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'artie_ssh_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.5',
-        providerVersionConstraint: '2.3.5'
+        providerVersion: '2.3.6',
+        providerVersionConstraint: '2.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

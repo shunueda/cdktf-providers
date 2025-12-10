@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SshKeysConfig extends cdktf.TerraformMetaArguments {
   /**
   * Public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys#key SshKeys#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys#key SshKeys#key}
   */
   readonly key: string;
   /**
   * Name of the SSH key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys#name SshKeys#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys#name SshKeys#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys mgc_ssh_keys}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys mgc_ssh_keys}
 */
 export class SshKeys extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SshKeys extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshKeys to import
-  * @param importFromId The id of the existing SshKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SshKeys extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/ssh_keys mgc_ssh_keys} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/ssh_keys mgc_ssh_keys} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SshKeys extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_ssh_keys',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

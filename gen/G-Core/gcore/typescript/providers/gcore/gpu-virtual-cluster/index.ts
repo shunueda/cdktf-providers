@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GpuVirtualClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flavor name for the GPU cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#flavor GpuVirtualCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#flavor GpuVirtualCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#id GpuVirtualCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#id GpuVirtualCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface GpuVirtualClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the GPU cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#project_id GpuVirtualCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#project_id GpuVirtualCluster#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#project_name GpuVirtualCluster#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#project_name GpuVirtualCluster#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#region_id GpuVirtualCluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#region_id GpuVirtualCluster#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#region_name GpuVirtualCluster#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#region_name GpuVirtualCluster#region_name}
   */
   readonly regionName?: string;
   /**
   * Number of servers in the GPU cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#servers_count GpuVirtualCluster#servers_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#servers_count GpuVirtualCluster#servers_count}
   */
   readonly serversCount: number;
   /**
   * Tags to associate with the GPU cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#tags GpuVirtualCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#tags GpuVirtualCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * servers_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#servers_settings GpuVirtualCluster#servers_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#servers_settings GpuVirtualCluster#servers_settings}
   */
   readonly serversSettings: GpuVirtualClusterServersSettings;
 }
@@ -65,19 +65,19 @@ export interface GpuVirtualClusterServersSettingsCredentials {
   /**
   * Password for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#password GpuVirtualCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#password GpuVirtualCluster#password}
   */
   readonly password?: string;
   /**
   * Name of the keypair to use for SSH access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#ssh_key_name GpuVirtualCluster#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#ssh_key_name GpuVirtualCluster#ssh_key_name}
   */
   readonly sshKeyName?: string;
   /**
   * Username for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#username GpuVirtualCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#username GpuVirtualCluster#username}
   */
   readonly username?: string;
 }
@@ -221,7 +221,7 @@ export interface GpuVirtualClusterServersSettingsInterfaceFloatingIp {
   /**
   * Source of the floating IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#source GpuVirtualCluster#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#source GpuVirtualCluster#source}
   */
   readonly source: string;
 }
@@ -304,43 +304,43 @@ export interface GpuVirtualClusterServersSettingsInterface {
   /**
   * IP address for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#ip_address GpuVirtualCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#ip_address GpuVirtualCluster#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IP family for the interface (dual, ipv4, ipv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#ip_family GpuVirtualCluster#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#ip_family GpuVirtualCluster#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * Name of interface, should be unique for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
   */
   readonly name: string;
   /**
   * Required if type is 'subnet' or 'any_subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#network_id GpuVirtualCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#network_id GpuVirtualCluster#network_id}
   */
   readonly networkId?: string;
   /**
   * Required if type is 'subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#subnet_id GpuVirtualCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#subnet_id GpuVirtualCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Interface type (subnet, any_subnet, external)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#type GpuVirtualCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#type GpuVirtualCluster#type}
   */
   readonly type: string;
   /**
   * floating_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#floating_ip GpuVirtualCluster#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#floating_ip GpuVirtualCluster#floating_ip}
   */
   readonly floatingIp?: GpuVirtualClusterServersSettingsInterfaceFloatingIp;
 }
@@ -626,55 +626,55 @@ export interface GpuVirtualClusterServersSettingsVolume {
   /**
   * Boot order for the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#boot_index GpuVirtualCluster#boot_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#boot_index GpuVirtualCluster#boot_index}
   */
   readonly bootIndex: number;
   /**
   * Whether to delete the volume when the cluster is terminated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#delete_on_termination GpuVirtualCluster#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#delete_on_termination GpuVirtualCluster#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
   * ID of the image to use (required if source is 'image')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#image_id GpuVirtualCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#image_id GpuVirtualCluster#image_id}
   */
   readonly imageId?: string;
   /**
   * Name of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#name GpuVirtualCluster#name}
   */
   readonly name: string;
   /**
   * Size of the volume in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#size GpuVirtualCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#size GpuVirtualCluster#size}
   */
   readonly size: number;
   /**
   * ID of the snapshot to use (required if source is 'snapshot')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#snapshot_id GpuVirtualCluster#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#snapshot_id GpuVirtualCluster#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Volume source (new, image, snapshot)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#source GpuVirtualCluster#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#source GpuVirtualCluster#source}
   */
   readonly source: string;
   /**
   * Tags to associate with the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#tags GpuVirtualCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#tags GpuVirtualCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Type of volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#type GpuVirtualCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#type GpuVirtualCluster#type}
   */
   readonly type: string;
 }
@@ -1009,31 +1009,31 @@ export interface GpuVirtualClusterServersSettings {
   /**
   * List of security group IDs to associate with the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#security_groups GpuVirtualCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#security_groups GpuVirtualCluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * User data to provide to the instance for cloud-init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#user_data GpuVirtualCluster#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#user_data GpuVirtualCluster#user_data}
   */
   readonly userData?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#credentials GpuVirtualCluster#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#credentials GpuVirtualCluster#credentials}
   */
   readonly credentials?: GpuVirtualClusterServersSettingsCredentials;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#interface GpuVirtualCluster#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#interface GpuVirtualCluster#interface}
   */
   readonly interface: GpuVirtualClusterServersSettingsInterface[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#volume GpuVirtualCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#volume GpuVirtualCluster#volume}
   */
   readonly volume: GpuVirtualClusterServersSettingsVolume[] | cdktf.IResolvable;
 }
@@ -1227,7 +1227,7 @@ export class GpuVirtualClusterServersSettingsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster gcore_gpu_virtual_cluster}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster gcore_gpu_virtual_cluster}
 */
 export class GpuVirtualCluster extends cdktf.TerraformResource {
 
@@ -1243,7 +1243,7 @@ export class GpuVirtualCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpuVirtualCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpuVirtualCluster to import
-  * @param importFromId The id of the existing GpuVirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpuVirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpuVirtualCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1255,7 +1255,7 @@ export class GpuVirtualCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/gpu_virtual_cluster gcore_gpu_virtual_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/gpu_virtual_cluster gcore_gpu_virtual_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1266,8 +1266,8 @@ export class GpuVirtualCluster extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_gpu_virtual_cluster',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

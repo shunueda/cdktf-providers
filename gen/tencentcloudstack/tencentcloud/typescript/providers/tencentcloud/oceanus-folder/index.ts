@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OceanusFolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * New file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#folder_name OceanusFolder#folder_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#folder_name OceanusFolder#folder_name}
   */
   readonly folderName: string;
   /**
   * Folder type, 0: job folder, 1: resource folder. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#folder_type OceanusFolder#folder_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#folder_type OceanusFolder#folder_type}
   */
   readonly folderType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#id OceanusFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#id OceanusFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface OceanusFolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parent folder id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#parent_id OceanusFolder#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#parent_id OceanusFolder#parent_id}
   */
   readonly parentId: string;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#work_space_id OceanusFolder#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#work_space_id OceanusFolder#work_space_id}
   */
   readonly workSpaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder tencentcloud_oceanus_folder}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder tencentcloud_oceanus_folder}
 */
 export class OceanusFolder extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class OceanusFolder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusFolder to import
-  * @param importFromId The id of the existing OceanusFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class OceanusFolder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_folder tencentcloud_oceanus_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_folder tencentcloud_oceanus_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class OceanusFolder extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_folder',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

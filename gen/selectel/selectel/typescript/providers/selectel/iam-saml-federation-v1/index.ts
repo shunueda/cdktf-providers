@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IamSamlFederationV1Config extends cdktf.TerraformMetaArguments 
   /**
   * Description of the Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#description IamSamlFederationV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#description IamSamlFederationV1#description}
   */
   readonly description?: string;
   /**
   * Enable forced authentication at every login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#force_authn IamSamlFederationV1#force_authn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#force_authn IamSamlFederationV1#force_authn}
   */
   readonly forceAuthn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#id IamSamlFederationV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#id IamSamlFederationV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface IamSamlFederationV1Config extends cdktf.TerraformMetaArguments 
   /**
   * ID of the credential provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#issuer IamSamlFederationV1#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#issuer IamSamlFederationV1#issuer}
   */
   readonly issuer: string;
   /**
   * Name of the Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#name IamSamlFederationV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#name IamSamlFederationV1#name}
   */
   readonly name: string;
   /**
   * Session lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#session_max_age_hours IamSamlFederationV1#session_max_age_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#session_max_age_hours IamSamlFederationV1#session_max_age_hours}
   */
   readonly sessionMaxAgeHours: number;
   /**
   * Should sign authentication requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#sign_authn_requests IamSamlFederationV1#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#sign_authn_requests IamSamlFederationV1#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
   /**
   * Single sign-on endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#sso_url IamSamlFederationV1#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#sso_url IamSamlFederationV1#sso_url}
   */
   readonly ssoUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1 selectel_iam_saml_federation_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1 selectel_iam_saml_federation_v1}
 */
 export class IamSamlFederationV1 extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class IamSamlFederationV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamSamlFederationV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamSamlFederationV1 to import
-  * @param importFromId The id of the existing IamSamlFederationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamSamlFederationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamSamlFederationV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class IamSamlFederationV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/iam_saml_federation_v1 selectel_iam_saml_federation_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/iam_saml_federation_v1 selectel_iam_saml_federation_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class IamSamlFederationV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_iam_saml_federation_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.0',
-        providerVersionConstraint: '7.2.0'
+        providerVersion: '7.2.1',
+        providerVersionConstraint: '7.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

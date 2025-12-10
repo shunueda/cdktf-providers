@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "selectel": "7.2.0"
+    "selectel": "7.2.1"
   }
 }

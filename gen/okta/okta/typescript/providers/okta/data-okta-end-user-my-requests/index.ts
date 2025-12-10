@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOktaEndUserMyRequestsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the catalog entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#entry_id DataOktaEndUserMyRequests#entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#entry_id DataOktaEndUserMyRequests#entry_id}
   */
   readonly entryId: string;
   /**
   * The ID of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#id DataOktaEndUserMyRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#id DataOktaEndUserMyRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataOktaEndUserMyRequestsConfig extends cdktf.TerraformMetaArgu
   /**
   * requester_field_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#requester_field_values DataOktaEndUserMyRequests#requester_field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#requester_field_values DataOktaEndUserMyRequests#requester_field_values}
   */
   readonly requesterFieldValues?: DataOktaEndUserMyRequestsRequesterFieldValues[] | cdktf.IResolvable;
   /**
   * risk_assessment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#risk_assessment DataOktaEndUserMyRequests#risk_assessment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#risk_assessment DataOktaEndUserMyRequests#risk_assessment}
   */
   readonly riskAssessment?: DataOktaEndUserMyRequestsRiskAssessment;
 }
@@ -261,7 +261,7 @@ export interface DataOktaEndUserMyRequestsRequesterFieldValues {
   /**
   * The ID of a requesterField.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#id DataOktaEndUserMyRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#id DataOktaEndUserMyRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -270,26 +270,26 @@ export interface DataOktaEndUserMyRequestsRequesterFieldValues {
   /**
   * A human-readable description of requesterField. It's used for display purposes and is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#label DataOktaEndUserMyRequests#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#label DataOktaEndUserMyRequests#label}
   */
   readonly label?: string;
   /**
   * Type of value for the requester field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#type DataOktaEndUserMyRequests#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#type DataOktaEndUserMyRequests#type}
   */
   readonly type?: string;
   /**
   * The value of requesterField, which depends on the type of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#value DataOktaEndUserMyRequests#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#value DataOktaEndUserMyRequests#value}
   */
   readonly value?: string;
   /**
   * The values of requesterField with the type MULTISELECT.
   * If the field type is MULTISELECT, this property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#values DataOktaEndUserMyRequests#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#values DataOktaEndUserMyRequests#values}
   */
   readonly values?: string[];
 }
@@ -520,19 +520,19 @@ export interface DataOktaEndUserMyRequestsRiskAssessmentRiskRules {
   /**
   * The human readable description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#description DataOktaEndUserMyRequests#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#description DataOktaEndUserMyRequests#description}
   */
   readonly description?: string;
   /**
   * The name of a resource rule causing a conflict.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#name DataOktaEndUserMyRequests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#name DataOktaEndUserMyRequests#name}
   */
   readonly name?: string;
   /**
   * Human readable name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#resource_name DataOktaEndUserMyRequests#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#resource_name DataOktaEndUserMyRequests#resource_name}
   */
   readonly resourceName?: string;
 }
@@ -708,13 +708,13 @@ export interface DataOktaEndUserMyRequestsRiskAssessment {
   /**
   * Whether request submission is allowed or restricted in the risk settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#request_submission_type DataOktaEndUserMyRequests#request_submission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#request_submission_type DataOktaEndUserMyRequests#request_submission_type}
   */
   readonly requestSubmissionType?: string;
   /**
   * risk_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#risk_rules DataOktaEndUserMyRequests#risk_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#risk_rules DataOktaEndUserMyRequests#risk_rules}
   */
   readonly riskRules?: DataOktaEndUserMyRequestsRiskAssessmentRiskRules[] | cdktf.IResolvable;
 }
@@ -837,7 +837,7 @@ export class DataOktaEndUserMyRequestsRiskAssessmentOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests okta_end_user_my_requests}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests okta_end_user_my_requests}
 */
 export class DataOktaEndUserMyRequests extends cdktf.TerraformDataSource {
 
@@ -853,7 +853,7 @@ export class DataOktaEndUserMyRequests extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaEndUserMyRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaEndUserMyRequests to import
-  * @param importFromId The id of the existing DataOktaEndUserMyRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaEndUserMyRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaEndUserMyRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -865,7 +865,7 @@ export class DataOktaEndUserMyRequests extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/end_user_my_requests okta_end_user_my_requests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/end_user_my_requests okta_end_user_my_requests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -876,8 +876,8 @@ export class DataOktaEndUserMyRequests extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_end_user_my_requests',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

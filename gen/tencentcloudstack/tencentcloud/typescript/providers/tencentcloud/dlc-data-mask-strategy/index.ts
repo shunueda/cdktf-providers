@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DlcDataMaskStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#id DlcDataMaskStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#id DlcDataMaskStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DlcDataMaskStrategyConfig extends cdktf.TerraformMetaArguments 
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#strategy DlcDataMaskStrategy#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#strategy DlcDataMaskStrategy#strategy}
   */
   readonly strategy?: DlcDataMaskStrategyStrategy;
 }
@@ -25,13 +25,13 @@ export interface DlcDataMaskStrategyStrategyGroups {
   /**
   * The type of the data masking strategy. Supported value: MASK/MASK_NONE/MASK_NULL/MASK_HASH/MASK_SHOW_LAST_4/MASK_SHOW_FIRST_4/MASK_DATE_SHOW_YEAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#strategy_type DlcDataMaskStrategy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#strategy_type DlcDataMaskStrategy#strategy_type}
   */
   readonly strategyType?: string;
   /**
   * The unique ID of the work group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#work_group_id DlcDataMaskStrategy#work_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#work_group_id DlcDataMaskStrategy#work_group_id}
   */
   readonly workGroupId?: number;
 }
@@ -178,19 +178,19 @@ export interface DlcDataMaskStrategyStrategy {
   /**
   * The description of the data masking strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#strategy_desc DlcDataMaskStrategy#strategy_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#strategy_desc DlcDataMaskStrategy#strategy_desc}
   */
   readonly strategyDesc?: string;
   /**
   * The name of the data masking strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#strategy_name DlcDataMaskStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#strategy_name DlcDataMaskStrategy#strategy_name}
   */
   readonly strategyName?: string;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#groups DlcDataMaskStrategy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#groups DlcDataMaskStrategy#groups}
   */
   readonly groups?: DlcDataMaskStrategyStrategyGroups[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export class DlcDataMaskStrategyStrategyOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy tencentcloud_dlc_data_mask_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy tencentcloud_dlc_data_mask_strategy}
 */
 export class DlcDataMaskStrategy extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class DlcDataMaskStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcDataMaskStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcDataMaskStrategy to import
-  * @param importFromId The id of the existing DlcDataMaskStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcDataMaskStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcDataMaskStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class DlcDataMaskStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_data_mask_strategy tencentcloud_dlc_data_mask_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_data_mask_strategy tencentcloud_dlc_data_mask_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class DlcDataMaskStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_data_mask_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

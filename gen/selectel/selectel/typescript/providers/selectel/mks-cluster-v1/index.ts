@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface MksClusterV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#admission_controllers MksClusterV1#admission_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#admission_controllers MksClusterV1#admission_controllers}
   */
   readonly admissionControllers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#enable_audit_logs MksClusterV1#enable_audit_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#enable_audit_logs MksClusterV1#enable_audit_logs}
   */
   readonly enableAuditLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#enable_autorepair MksClusterV1#enable_autorepair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#enable_autorepair MksClusterV1#enable_autorepair}
   */
   readonly enableAutorepair?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#enable_patch_version_auto_upgrade MksClusterV1#enable_patch_version_auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#enable_patch_version_auto_upgrade MksClusterV1#enable_patch_version_auto_upgrade}
   */
   readonly enablePatchVersionAutoUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#enable_pod_security_policy MksClusterV1#enable_pod_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#enable_pod_security_policy MksClusterV1#enable_pod_security_policy}
   */
   readonly enablePodSecurityPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#feature_gates MksClusterV1#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#feature_gates MksClusterV1#feature_gates}
   */
   readonly featureGates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#id MksClusterV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#id MksClusterV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#kube_version MksClusterV1#kube_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#kube_version MksClusterV1#kube_version}
   */
   readonly kubeVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#maintenance_window_start MksClusterV1#maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#maintenance_window_start MksClusterV1#maintenance_window_start}
   */
   readonly maintenanceWindowStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#name MksClusterV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#name MksClusterV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#network_id MksClusterV1#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#network_id MksClusterV1#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#private_kube_api MksClusterV1#private_kube_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#private_kube_api MksClusterV1#private_kube_api}
   */
   readonly privateKubeApi?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#project_id MksClusterV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#project_id MksClusterV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#region MksClusterV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#region MksClusterV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#subnet_id MksClusterV1#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#subnet_id MksClusterV1#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#zonal MksClusterV1#zonal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#zonal MksClusterV1#zonal}
   */
   readonly zonal?: boolean | cdktf.IResolvable;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#oidc MksClusterV1#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#oidc MksClusterV1#oidc}
   */
   readonly oidc?: MksClusterV1Oidc;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#timeouts MksClusterV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#timeouts MksClusterV1#timeouts}
   */
   readonly timeouts?: MksClusterV1Timeouts;
 }
 export interface MksClusterV1Oidc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#ca_certs MksClusterV1#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#ca_certs MksClusterV1#ca_certs}
   */
   readonly caCerts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#client_id MksClusterV1#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#client_id MksClusterV1#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#enabled MksClusterV1#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#enabled MksClusterV1#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#groups_claim MksClusterV1#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#groups_claim MksClusterV1#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#issuer_url MksClusterV1#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#issuer_url MksClusterV1#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#provider_name MksClusterV1#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#provider_name MksClusterV1#provider_name}
   */
   readonly providerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#username_claim MksClusterV1#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#username_claim MksClusterV1#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -368,15 +368,15 @@ export class MksClusterV1OidcOutputReference extends cdktf.ComplexObject {
 }
 export interface MksClusterV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#create MksClusterV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#create MksClusterV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#delete MksClusterV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#delete MksClusterV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#update MksClusterV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#update MksClusterV1#update}
   */
   readonly update?: string;
 }
@@ -528,7 +528,7 @@ export class MksClusterV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1 selectel_mks_cluster_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1 selectel_mks_cluster_v1}
 */
 export class MksClusterV1 extends cdktf.TerraformResource {
 
@@ -544,7 +544,7 @@ export class MksClusterV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MksClusterV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MksClusterV1 to import
-  * @param importFromId The id of the existing MksClusterV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MksClusterV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MksClusterV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class MksClusterV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/mks_cluster_v1 selectel_mks_cluster_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_cluster_v1 selectel_mks_cluster_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class MksClusterV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_mks_cluster_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.0',
-        providerVersionConstraint: '7.2.0'
+        providerVersion: '7.2.1',
+        providerVersionConstraint: '7.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

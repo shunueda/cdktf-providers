@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreDdosProfileTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#id DataGcoreDdosProfileTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#id DataGcoreDdosProfileTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataGcoreDdosProfileTemplateConfig extends cdktf.TerraformMetaA
   /**
   * Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#name DataGcoreDdosProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#name DataGcoreDdosProfileTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#project_id DataGcoreDdosProfileTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#project_id DataGcoreDdosProfileTemplate#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#project_name DataGcoreDdosProfileTemplate#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#project_name DataGcoreDdosProfileTemplate#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#region_id DataGcoreDdosProfileTemplate#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#region_id DataGcoreDdosProfileTemplate#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#region_name DataGcoreDdosProfileTemplate#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#region_name DataGcoreDdosProfileTemplate#region_name}
   */
   readonly regionName?: string;
   /**
   * Template id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#template_id DataGcoreDdosProfileTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#template_id DataGcoreDdosProfileTemplate#template_id}
   */
   readonly templateId?: number;
 }
@@ -150,7 +150,7 @@ export class DataGcoreDdosProfileTemplateFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template gcore_ddos_profile_template}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template gcore_ddos_profile_template}
 */
 export class DataGcoreDdosProfileTemplate extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataGcoreDdosProfileTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreDdosProfileTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreDdosProfileTemplate to import
-  * @param importFromId The id of the existing DataGcoreDdosProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreDdosProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreDdosProfileTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataGcoreDdosProfileTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ddos_profile_template gcore_ddos_profile_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ddos_profile_template gcore_ddos_profile_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataGcoreDdosProfileTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_ddos_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

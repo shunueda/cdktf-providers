@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/workspace
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataNsWorkspaceConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/workspace ns_workspace}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/workspace ns_workspace}
 */
 export class DataNsWorkspace extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataNsWorkspace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsWorkspace to import
-  * @param importFromId The id of the existing DataNsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataNsWorkspace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/workspace ns_workspace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/workspace ns_workspace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataNsWorkspace extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns_workspace',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

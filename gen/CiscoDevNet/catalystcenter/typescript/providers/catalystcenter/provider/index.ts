@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CatalystcenterProviderConfig {
   /**
   * **Experimental (use at your own risk).** Allow existing objects in Catalyst Center to be managed. If `true`, a POST request that attempts to create an already existing resource will trigger an update instead of failing. This behavior is not guaranteed and may not work for all resources. This can also be set as the CC_ALLOW_EXISTING_ON_CREATE environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#allow_existing_on_create CatalystcenterProvider#allow_existing_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#allow_existing_on_create CatalystcenterProvider#allow_existing_on_create}
   */
   readonly allowExistingOnCreate?: boolean | cdktf.IResolvable;
   /**
   * Allow insecure HTTPS client. This can also be set as the CC_INSECURE environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#insecure CatalystcenterProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#insecure CatalystcenterProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Timeout in seconds for asynchronous tasks. This can also be set as the CC_MAX_TIMEOUT environment variable. Defaults to `180`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#max_timeout CatalystcenterProvider#max_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#max_timeout CatalystcenterProvider#max_timeout}
   */
   readonly maxTimeout?: number;
   /**
   * Password for the Catalyst Center instance. This can also be set as the CC_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#password CatalystcenterProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#password CatalystcenterProvider#password}
   */
   readonly password?: string;
   /**
   * Number of retries for REST API calls. This can also be set as the CC_RETRIES environment variable. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#retries CatalystcenterProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#retries CatalystcenterProvider#retries}
   */
   readonly retries?: number;
   /**
   * URL of the Catalyst Center instance. This can also be set as the CC_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#url CatalystcenterProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#url CatalystcenterProvider#url}
   */
   readonly url?: string;
   /**
   * Username for the Catalyst Center instance. This can also be set as the CC_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#username CatalystcenterProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#username CatalystcenterProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#alias CatalystcenterProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#alias CatalystcenterProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs catalystcenter}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs catalystcenter}
 */
 export class CatalystcenterProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class CatalystcenterProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CatalystcenterProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalystcenterProvider to import
-  * @param importFromId The id of the existing CatalystcenterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalystcenterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalystcenterProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class CatalystcenterProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs catalystcenter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs catalystcenter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class CatalystcenterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'catalystcenter',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       terraformProviderSource: 'CiscoDevNet/catalystcenter'
     });

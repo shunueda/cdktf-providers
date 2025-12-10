@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface NetworkVpcsSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone of the VPC subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#availability_zone NetworkVpcsSubnets#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#availability_zone NetworkVpcsSubnets#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The CIDR block of the VPC subnet. Example: '192.168.1.0/24', '0.0.0.0/0', '::/0' or '2001:db8::/32'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#cidr_block NetworkVpcsSubnets#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#cidr_block NetworkVpcsSubnets#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * The description of the VPC subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#description NetworkVpcsSubnets#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#description NetworkVpcsSubnets#description}
   */
   readonly description?: string;
   /**
   * The DNS nameservers of the VPC subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#dns_nameservers NetworkVpcsSubnets#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#dns_nameservers NetworkVpcsSubnets#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * Network protocol version. Allowed values: 'IPv4' or 'IPv6'. Example: 'IPv4'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#ip_version NetworkVpcsSubnets#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#ip_version NetworkVpcsSubnets#ip_version}
   */
   readonly ipVersion: string;
   /**
   * The name of the VPC subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#name NetworkVpcsSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#name NetworkVpcsSubnets#name}
   */
   readonly name: string;
   /**
   * The ID of the subnet pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#subnetpool_id NetworkVpcsSubnets#subnetpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#subnetpool_id NetworkVpcsSubnets#subnetpool_id}
   */
   readonly subnetpoolId: string;
   /**
   * The ID of the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#vpc_id NetworkVpcsSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#vpc_id NetworkVpcsSubnets#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets mgc_network_vpcs_subnets}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets mgc_network_vpcs_subnets}
 */
 export class NetworkVpcsSubnets extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class NetworkVpcsSubnets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVpcsSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVpcsSubnets to import
-  * @param importFromId The id of the existing NetworkVpcsSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVpcsSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVpcsSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class NetworkVpcsSubnets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_vpcs_subnets mgc_network_vpcs_subnets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_subnets mgc_network_vpcs_subnets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class NetworkVpcsSubnets extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_vpcs_subnets',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

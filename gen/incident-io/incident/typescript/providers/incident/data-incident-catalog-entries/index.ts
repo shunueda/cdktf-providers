@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/data-sources/catalog_entries
+// https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/catalog_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIncidentCatalogEntriesConfig extends cdktf.TerraformMetaArg
   /**
   * The catalog type ID to list entries for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/data-sources/catalog_entries#catalog_type_id DataIncidentCatalogEntries#catalog_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/catalog_entries#catalog_type_id DataIncidentCatalogEntries#catalog_type_id}
   */
   readonly catalogTypeId: string;
 }
@@ -207,7 +207,7 @@ export class DataIncidentCatalogEntriesCatalogEntriesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/data-sources/catalog_entries incident_catalog_entries}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/catalog_entries incident_catalog_entries}
 */
 export class DataIncidentCatalogEntries extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataIncidentCatalogEntries extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncidentCatalogEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentCatalogEntries to import
-  * @param importFromId The id of the existing DataIncidentCatalogEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/data-sources/catalog_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentCatalogEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/catalog_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentCatalogEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataIncidentCatalogEntries extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.21.0/docs/data-sources/catalog_entries incident_catalog_entries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/catalog_entries incident_catalog_entries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataIncidentCatalogEntries extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_catalog_entries',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.21.0',
-        providerVersionConstraint: '5.21.0'
+        providerVersion: '5.21.1',
+        providerVersionConstraint: '5.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

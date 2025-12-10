@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NetworkSecurityGroupsAttachConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the Network Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach#interface_id NetworkSecurityGroupsAttach#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach#interface_id NetworkSecurityGroupsAttach#interface_id}
   */
   readonly interfaceId: string;
   /**
   * The ID of the Security Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach#security_group_id NetworkSecurityGroupsAttach#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach#security_group_id NetworkSecurityGroupsAttach#security_group_id}
   */
   readonly securityGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach mgc_network_security_groups_attach}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach mgc_network_security_groups_attach}
 */
 export class NetworkSecurityGroupsAttach extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class NetworkSecurityGroupsAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSecurityGroupsAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSecurityGroupsAttach to import
-  * @param importFromId The id of the existing NetworkSecurityGroupsAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSecurityGroupsAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSecurityGroupsAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class NetworkSecurityGroupsAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_attach mgc_network_security_groups_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_security_groups_attach mgc_network_security_groups_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class NetworkSecurityGroupsAttach extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_security_groups_attach',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

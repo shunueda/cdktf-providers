@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AutogenSubdomainDelegationConfig extends cdktf.TerraformMetaArg
   /**
   * The autogen subdomain belongs to this env.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation#env_id AutogenSubdomainDelegation#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation#env_id AutogenSubdomainDelegation#env_id}
   */
   readonly envId: number;
   /**
   * A list of nameservers that refer to a DNS zone where this subdomain can delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation#nameservers AutogenSubdomainDelegation#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation#nameservers AutogenSubdomainDelegation#nameservers}
   */
   readonly nameservers: string[];
   /**
   * The autogen subdomain belongs to this subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation#subdomain_id AutogenSubdomainDelegation#subdomain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation#subdomain_id AutogenSubdomainDelegation#subdomain_id}
   */
   readonly subdomainId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation ns_autogen_subdomain_delegation}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation ns_autogen_subdomain_delegation}
 */
 export class AutogenSubdomainDelegation extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AutogenSubdomainDelegation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutogenSubdomainDelegation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutogenSubdomainDelegation to import
-  * @param importFromId The id of the existing AutogenSubdomainDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutogenSubdomainDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutogenSubdomainDelegation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AutogenSubdomainDelegation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/resources/autogen_subdomain_delegation ns_autogen_subdomain_delegation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/resources/autogen_subdomain_delegation ns_autogen_subdomain_delegation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AutogenSubdomainDelegation extends cdktf.TerraformResource {
       terraformResourceType: 'ns_autogen_subdomain_delegation',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

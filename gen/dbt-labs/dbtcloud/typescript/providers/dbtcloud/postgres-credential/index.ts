@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface PostgresCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default schema name. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#default_schema PostgresCredential#default_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#default_schema PostgresCredential#default_schema}
   */
   readonly defaultSchema?: string;
   /**
   * Whether the Postgres/Redshift/AlloyDB credential is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#is_active PostgresCredential#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#is_active PostgresCredential#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Number of threads to use (required for Redshift)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#num_threads PostgresCredential#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#num_threads PostgresCredential#num_threads}
   */
   readonly numThreads?: number;
   /**
   * Password for Postgres/Redshift/AlloyDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#password PostgresCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#password PostgresCredential#password}
   */
   readonly password?: string;
   /**
   * Project ID to create the Postgres/Redshift/AlloyDB credential in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#project_id PostgresCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#project_id PostgresCredential#project_id}
   */
   readonly projectId: number;
   /**
   * This field indicates that the credential is used as part of the Semantic Layer configuration. It is used to create a Postgres credential for the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#semantic_layer_credential PostgresCredential#semantic_layer_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#semantic_layer_credential PostgresCredential#semantic_layer_credential}
   */
   readonly semanticLayerCredential?: boolean | cdktf.IResolvable;
   /**
   * Default schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#target_name PostgresCredential#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#target_name PostgresCredential#target_name}
   */
   readonly targetName?: string;
   /**
   * Type of connection. One of (postgres/redshift). Use postgres for alloydb connections. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#type PostgresCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#type PostgresCredential#type}
   */
   readonly type?: string;
   /**
   * Username for Postgres/Redshift/AlloyDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#username PostgresCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#username PostgresCredential#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential dbtcloud_postgres_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential dbtcloud_postgres_credential}
 */
 export class PostgresCredential extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class PostgresCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresCredential to import
-  * @param importFromId The id of the existing PostgresCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class PostgresCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/postgres_credential dbtcloud_postgres_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_credential dbtcloud_postgres_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class PostgresCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_postgres_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

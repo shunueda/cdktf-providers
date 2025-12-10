@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OceanusJobCopyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#id OceanusJobCopy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#id OceanusJobCopy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface OceanusJobCopyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of the source job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#job_type OceanusJobCopy#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#job_type OceanusJobCopy#job_type}
   */
   readonly jobType?: number;
   /**
   * The serial ID of the job to be copied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#source_id OceanusJobCopy#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#source_id OceanusJobCopy#source_id}
   */
   readonly sourceId: string;
   /**
   * The name of the job to be copied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#source_name OceanusJobCopy#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#source_name OceanusJobCopy#source_name}
   */
   readonly sourceName?: string;
   /**
   * The cluster serial ID of the target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#target_cluster_id OceanusJobCopy#target_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#target_cluster_id OceanusJobCopy#target_cluster_id}
   */
   readonly targetClusterId: string;
   /**
   * The directory ID of the new job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#target_folder_id OceanusJobCopy#target_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#target_folder_id OceanusJobCopy#target_folder_id}
   */
   readonly targetFolderId?: string;
   /**
   * The name of the new job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#target_name OceanusJobCopy#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#target_name OceanusJobCopy#target_name}
   */
   readonly targetName?: string;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#work_space_id OceanusJobCopy#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#work_space_id OceanusJobCopy#work_space_id}
   */
   readonly workSpaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy tencentcloud_oceanus_job_copy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy tencentcloud_oceanus_job_copy}
 */
 export class OceanusJobCopy extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class OceanusJobCopy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusJobCopy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusJobCopy to import
-  * @param importFromId The id of the existing OceanusJobCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusJobCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusJobCopy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class OceanusJobCopy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/oceanus_job_copy tencentcloud_oceanus_job_copy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/oceanus_job_copy tencentcloud_oceanus_job_copy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class OceanusJobCopy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_job_copy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

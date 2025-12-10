@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTseAccessAddressConfig extends cdktf.TerraformM
   /**
   * Deploy region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#engine_region DataTencentcloudTseAccessAddress#engine_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#engine_region DataTencentcloudTseAccessAddress#engine_region}
   */
   readonly engineRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#id DataTencentcloudTseAccessAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#id DataTencentcloudTseAccessAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudTseAccessAddressConfig extends cdktf.TerraformM
   /**
   * engine instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#instance_id DataTencentcloudTseAccessAddress#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#instance_id DataTencentcloudTseAccessAddress#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#result_output_file DataTencentcloudTseAccessAddress#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#result_output_file DataTencentcloudTseAccessAddress#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Subnet ID, Zookeeper does not need to pass vpcid and subnetid; nacos and Polaris need to pass vpcid and subnetid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#subnet_id DataTencentcloudTseAccessAddress#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#subnet_id DataTencentcloudTseAccessAddress#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC ID, Zookeeper does not need to pass vpcid and subnetid; nacos and Polaris need to pass vpcid and subnetid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#vpc_id DataTencentcloudTseAccessAddress#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#vpc_id DataTencentcloudTseAccessAddress#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Name of other engine components(pushgateway, polaris-limiter).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#workload DataTencentcloudTseAccessAddress#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#workload DataTencentcloudTseAccessAddress#workload}
   */
   readonly workload?: string;
 }
@@ -228,7 +228,7 @@ export class DataTencentcloudTseAccessAddressLimiterAddressInfosList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address tencentcloud_tse_access_address}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address tencentcloud_tse_access_address}
 */
 export class DataTencentcloudTseAccessAddress extends cdktf.TerraformDataSource {
 
@@ -244,7 +244,7 @@ export class DataTencentcloudTseAccessAddress extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudTseAccessAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTseAccessAddress to import
-  * @param importFromId The id of the existing DataTencentcloudTseAccessAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTseAccessAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTseAccessAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class DataTencentcloudTseAccessAddress extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tse_access_address tencentcloud_tse_access_address} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tse_access_address tencentcloud_tse_access_address} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class DataTencentcloudTseAccessAddress extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_tse_access_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCrowdstrikeCloudRiskFindingsConfig extends cdktf.TerraformM
   /**
   * FQL filter string. Supported fields: `account_id`, `account_name`, `asset_gcrn`, `asset_id`, `asset_name`, `asset_region`, `asset_type`, `cloud_group`, `cloud_provider`, `first_seen`, `last_seen`, `resolved_at`, `risk_factor`, `rule_id`, `rule_name`, `service_category`, `severity`, `status`, `suppressed_by`, `suppressed_reason`, `tags`. Example: `severity:'High'+status:'open'`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings#filter DataCrowdstrikeCloudRiskFindings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings#filter DataCrowdstrikeCloudRiskFindings#filter}
   */
   readonly filter?: string;
   /**
   * The field to sort on. Use `.asc` or `.desc` suffix to specify sort direction. Supported fields: `account_id`, `account_name`, `asset_id`, `asset_name`, `asset_region`, `asset_type`, `cloud_provider`, `first_seen`, `last_seen`, `resolved_at`, `rule_name`, `service_category`, `severity`, `status`. Example: `first_seen.desc`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings#sort DataCrowdstrikeCloudRiskFindings#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings#sort DataCrowdstrikeCloudRiskFindings#sort}
   */
   readonly sort?: string;
 }
@@ -192,7 +192,7 @@ export class DataCrowdstrikeCloudRiskFindingsRisksList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings crowdstrike_cloud_risk_findings}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings crowdstrike_cloud_risk_findings}
 */
 export class DataCrowdstrikeCloudRiskFindings extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataCrowdstrikeCloudRiskFindings extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataCrowdstrikeCloudRiskFindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeCloudRiskFindings to import
-  * @param importFromId The id of the existing DataCrowdstrikeCloudRiskFindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeCloudRiskFindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeCloudRiskFindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataCrowdstrikeCloudRiskFindings extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/cloud_risk_findings crowdstrike_cloud_risk_findings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/cloud_risk_findings crowdstrike_cloud_risk_findings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataCrowdstrikeCloudRiskFindings extends cdktf.TerraformDataSource 
       terraformResourceType: 'crowdstrike_cloud_risk_findings',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

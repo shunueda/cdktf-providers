@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KubernetesServerlessNodePoolConfig extends cdktf.TerraformMetaA
   /**
   * cluster id of serverless node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#cluster_id KubernetesServerlessNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#cluster_id KubernetesServerlessNodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#id KubernetesServerlessNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#id KubernetesServerlessNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface KubernetesServerlessNodePoolConfig extends cdktf.TerraformMetaA
   /**
   * labels of serverless node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#labels KubernetesServerlessNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#labels KubernetesServerlessNodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * serverless node pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#name KubernetesServerlessNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#name KubernetesServerlessNodePool#name}
   */
   readonly name?: string;
   /**
   * security groups of serverless node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#security_group_ids KubernetesServerlessNodePool#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#security_group_ids KubernetesServerlessNodePool#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * serverless_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#serverless_nodes KubernetesServerlessNodePool#serverless_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#serverless_nodes KubernetesServerlessNodePool#serverless_nodes}
   */
   readonly serverlessNodes: KubernetesServerlessNodePoolServerlessNodes[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#taints KubernetesServerlessNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#taints KubernetesServerlessNodePool#taints}
   */
   readonly taints?: KubernetesServerlessNodePoolTaints[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface KubernetesServerlessNodePoolServerlessNodes {
   /**
   * display name of serverless node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#display_name KubernetesServerlessNodePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#display_name KubernetesServerlessNodePool#display_name}
   */
   readonly displayName?: string;
   /**
   * subnet id of serverless node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#subnet_id KubernetesServerlessNodePool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#subnet_id KubernetesServerlessNodePool#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -205,19 +205,19 @@ export interface KubernetesServerlessNodePoolTaints {
   /**
   * Effect of the taint. Valid values are: `NoSchedule`, `PreferNoSchedule`, `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#effect KubernetesServerlessNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#effect KubernetesServerlessNodePool#effect}
   */
   readonly effect: string;
   /**
   * Key of the taint. The taint key name does not exceed 63 characters, only supports English, numbers,'/','-', and does not allow beginning with ('/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#key KubernetesServerlessNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#key KubernetesServerlessNodePool#key}
   */
   readonly key: string;
   /**
   * Value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#value KubernetesServerlessNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#value KubernetesServerlessNodePool#value}
   */
   readonly value: string;
 }
@@ -382,7 +382,7 @@ export class KubernetesServerlessNodePoolTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool tencentcloud_kubernetes_serverless_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool tencentcloud_kubernetes_serverless_node_pool}
 */
 export class KubernetesServerlessNodePool extends cdktf.TerraformResource {
 
@@ -398,7 +398,7 @@ export class KubernetesServerlessNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesServerlessNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesServerlessNodePool to import
-  * @param importFromId The id of the existing KubernetesServerlessNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesServerlessNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesServerlessNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class KubernetesServerlessNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_serverless_node_pool tencentcloud_kubernetes_serverless_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_serverless_node_pool tencentcloud_kubernetes_serverless_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class KubernetesServerlessNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_serverless_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

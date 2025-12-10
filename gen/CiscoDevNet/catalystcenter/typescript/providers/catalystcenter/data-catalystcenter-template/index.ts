@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCatalystcenterTemplateConfig extends cdktf.TerraformMetaArg
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template#id DataCatalystcenterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template#id DataCatalystcenterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataCatalystcenterTemplateConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template#name DataCatalystcenterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template#name DataCatalystcenterTemplate#name}
   */
   readonly name?: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template#project_id DataCatalystcenterTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template#project_id DataCatalystcenterTemplate#project_id}
   */
   readonly projectId: string;
 }
@@ -433,7 +433,7 @@ export class DataCatalystcenterTemplateTemplateParamsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template catalystcenter_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template catalystcenter_template}
 */
 export class DataCatalystcenterTemplate extends cdktf.TerraformDataSource {
 
@@ -449,7 +449,7 @@ export class DataCatalystcenterTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCatalystcenterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterTemplate to import
-  * @param importFromId The id of the existing DataCatalystcenterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +461,7 @@ export class DataCatalystcenterTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template catalystcenter_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template catalystcenter_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +472,8 @@ export class DataCatalystcenterTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_template',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

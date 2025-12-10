@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface UptimeProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#endpoint UptimeProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#endpoint UptimeProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The rate limit to use for API calls in requests per second, defaults to 0.5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#rate_limit UptimeProvider#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#rate_limit UptimeProvider#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Subaccount ID to use for API calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#subaccount UptimeProvider#subaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#subaccount UptimeProvider#subaccount}
   */
   readonly subaccount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#token UptimeProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#token UptimeProvider#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#trace UptimeProvider#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#trace UptimeProvider#trace}
   */
   readonly trace?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#alias UptimeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#alias UptimeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs uptime}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs uptime}
 */
 export class UptimeProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class UptimeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a UptimeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UptimeProvider to import
-  * @param importFromId The id of the existing UptimeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UptimeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UptimeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class UptimeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs uptime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs uptime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class UptimeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'uptime',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       terraformProviderSource: 'uptime-com/uptime'
     });

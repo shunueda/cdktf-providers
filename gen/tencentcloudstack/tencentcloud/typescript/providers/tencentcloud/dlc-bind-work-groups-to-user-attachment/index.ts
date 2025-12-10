@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DlcBindWorkGroupsToUserAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment#id DlcBindWorkGroupsToUserAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment#id DlcBindWorkGroupsToUserAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DlcBindWorkGroupsToUserAttachmentConfig extends cdktf.Terraform
   /**
   * add_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment#add_info DlcBindWorkGroupsToUserAttachment#add_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment#add_info DlcBindWorkGroupsToUserAttachment#add_info}
   */
   readonly addInfo: DlcBindWorkGroupsToUserAttachmentAddInfo;
 }
@@ -25,13 +25,13 @@ export interface DlcBindWorkGroupsToUserAttachmentAddInfo {
   /**
   * User ID, which matches Uin on the CAM side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment#user_id DlcBindWorkGroupsToUserAttachment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment#user_id DlcBindWorkGroupsToUserAttachment#user_id}
   */
   readonly userId: string;
   /**
   * Collections of IDs of working groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment#work_group_ids DlcBindWorkGroupsToUserAttachment#work_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment#work_group_ids DlcBindWorkGroupsToUserAttachment#work_group_ids}
   */
   readonly workGroupIds: number[];
 }
@@ -138,7 +138,7 @@ export class DlcBindWorkGroupsToUserAttachmentAddInfoOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment tencentcloud_dlc_bind_work_groups_to_user_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment tencentcloud_dlc_bind_work_groups_to_user_attachment}
 */
 export class DlcBindWorkGroupsToUserAttachment extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class DlcBindWorkGroupsToUserAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcBindWorkGroupsToUserAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcBindWorkGroupsToUserAttachment to import
-  * @param importFromId The id of the existing DlcBindWorkGroupsToUserAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcBindWorkGroupsToUserAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcBindWorkGroupsToUserAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DlcBindWorkGroupsToUserAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_bind_work_groups_to_user_attachment tencentcloud_dlc_bind_work_groups_to_user_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_bind_work_groups_to_user_attachment tencentcloud_dlc_bind_work_groups_to_user_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DlcBindWorkGroupsToUserAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_bind_work_groups_to_user_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

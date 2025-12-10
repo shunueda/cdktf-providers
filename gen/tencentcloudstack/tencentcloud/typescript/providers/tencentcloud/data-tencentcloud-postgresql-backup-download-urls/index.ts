@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudPostgresqlBackupDownloadUrlsConfig extends cdkt
   /**
   * Unique backup ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#backup_id DataTencentcloudPostgresqlBackupDownloadUrls#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#backup_id DataTencentcloudPostgresqlBackupDownloadUrls#backup_id}
   */
   readonly backupId: string;
   /**
   * Backup type. Valid values: `LogBackup`, `BaseBackup`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#backup_type DataTencentcloudPostgresqlBackupDownloadUrls#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#backup_type DataTencentcloudPostgresqlBackupDownloadUrls#backup_type}
   */
   readonly backupType: string;
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#db_instance_id DataTencentcloudPostgresqlBackupDownloadUrls#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#db_instance_id DataTencentcloudPostgresqlBackupDownloadUrls#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#id DataTencentcloudPostgresqlBackupDownloadUrls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#id DataTencentcloudPostgresqlBackupDownloadUrls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataTencentcloudPostgresqlBackupDownloadUrlsConfig extends cdkt
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#result_output_file DataTencentcloudPostgresqlBackupDownloadUrls#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#result_output_file DataTencentcloudPostgresqlBackupDownloadUrls#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Validity period of a URL, which is 12 hours by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#url_expire_time DataTencentcloudPostgresqlBackupDownloadUrls#url_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#url_expire_time DataTencentcloudPostgresqlBackupDownloadUrls#url_expire_time}
   */
   readonly urlExpireTime?: number;
   /**
   * backup_download_restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#backup_download_restriction DataTencentcloudPostgresqlBackupDownloadUrls#backup_download_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#backup_download_restriction DataTencentcloudPostgresqlBackupDownloadUrls#backup_download_restriction}
   */
   readonly backupDownloadRestriction?: DataTencentcloudPostgresqlBackupDownloadUrlsBackupDownloadRestriction;
 }
@@ -55,31 +55,31 @@ export interface DataTencentcloudPostgresqlBackupDownloadUrlsBackupDownloadRestr
   /**
   * Whether IP is allowed. Valid values: `ALLOW` (allow), `DENY` (deny).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#ip_restriction_effect DataTencentcloudPostgresqlBackupDownloadUrls#ip_restriction_effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#ip_restriction_effect DataTencentcloudPostgresqlBackupDownloadUrls#ip_restriction_effect}
   */
   readonly ipRestrictionEffect?: string;
   /**
   * Whether it is allowed to download IP list of the backup files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#ip_set DataTencentcloudPostgresqlBackupDownloadUrls#ip_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#ip_set DataTencentcloudPostgresqlBackupDownloadUrls#ip_set}
   */
   readonly ipSet?: string[];
   /**
   * Type of the network restrictions for downloading backup files. Valid values: `NONE` (backups can be downloaded over both private and public networks), `INTRANET` (backups can only be downloaded over the private network), `CUSTOMIZE` (backups can be downloaded over specified VPCs or at specified IPs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#restriction_type DataTencentcloudPostgresqlBackupDownloadUrls#restriction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#restriction_type DataTencentcloudPostgresqlBackupDownloadUrls#restriction_type}
   */
   readonly restrictionType?: string;
   /**
   * Whether it is allowed to download the VPC ID list of the backup files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#vpc_id_set DataTencentcloudPostgresqlBackupDownloadUrls#vpc_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#vpc_id_set DataTencentcloudPostgresqlBackupDownloadUrls#vpc_id_set}
   */
   readonly vpcIdSet?: string[];
   /**
   * Whether VPC is allowed. Valid values: `ALLOW` (allow), `DENY` (deny).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#vpc_restriction_effect DataTencentcloudPostgresqlBackupDownloadUrls#vpc_restriction_effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#vpc_restriction_effect DataTencentcloudPostgresqlBackupDownloadUrls#vpc_restriction_effect}
   */
   readonly vpcRestrictionEffect?: string;
 }
@@ -279,7 +279,7 @@ export class DataTencentcloudPostgresqlBackupDownloadUrlsBackupDownloadRestricti
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls tencentcloud_postgresql_backup_download_urls}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls tencentcloud_postgresql_backup_download_urls}
 */
 export class DataTencentcloudPostgresqlBackupDownloadUrls extends cdktf.TerraformDataSource {
 
@@ -295,7 +295,7 @@ export class DataTencentcloudPostgresqlBackupDownloadUrls extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlBackupDownloadUrls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlBackupDownloadUrls to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlBackupDownloadUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlBackupDownloadUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlBackupDownloadUrls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class DataTencentcloudPostgresqlBackupDownloadUrls extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_backup_download_urls tencentcloud_postgresql_backup_download_urls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_backup_download_urls tencentcloud_postgresql_backup_download_urls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class DataTencentcloudPostgresqlBackupDownloadUrls extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_postgresql_backup_download_urls',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

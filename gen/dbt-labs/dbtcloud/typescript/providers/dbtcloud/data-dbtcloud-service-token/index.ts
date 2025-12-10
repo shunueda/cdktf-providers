@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataDbtcloudServiceTokenConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the service token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token#service_token_id DataDbtcloudServiceToken#service_token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token#service_token_id DataDbtcloudServiceToken#service_token_id}
   */
   readonly serviceTokenId: number;
   /**
   * service_token_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token#service_token_permissions DataDbtcloudServiceToken#service_token_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token#service_token_permissions DataDbtcloudServiceToken#service_token_permissions}
   */
   readonly serviceTokenPermissions?: DataDbtcloudServiceTokenServiceTokenPermissions[] | cdktf.IResolvable;
 }
@@ -123,7 +123,7 @@ export class DataDbtcloudServiceTokenServiceTokenPermissionsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token dbtcloud_service_token}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token dbtcloud_service_token}
 */
 export class DataDbtcloudServiceToken extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataDbtcloudServiceToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudServiceToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudServiceToken to import
-  * @param importFromId The id of the existing DataDbtcloudServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudServiceToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataDbtcloudServiceToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/service_token dbtcloud_service_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/service_token dbtcloud_service_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataDbtcloudServiceToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_service_token',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

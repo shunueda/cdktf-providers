@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/aaa_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/aaa_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterAaaSettingsConfig extends cdktf.TerraformMeta
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/aaa_settings#site_id DataCatalystcenterAaaSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/aaa_settings#site_id DataCatalystcenterAaaSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/aaa_settings catalystcenter_aaa_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/aaa_settings catalystcenter_aaa_settings}
 */
 export class DataCatalystcenterAaaSettings extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCatalystcenterAaaSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCatalystcenterAaaSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterAaaSettings to import
-  * @param importFromId The id of the existing DataCatalystcenterAaaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/aaa_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterAaaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/aaa_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterAaaSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCatalystcenterAaaSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/aaa_settings catalystcenter_aaa_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/aaa_settings catalystcenter_aaa_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCatalystcenterAaaSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_aaa_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

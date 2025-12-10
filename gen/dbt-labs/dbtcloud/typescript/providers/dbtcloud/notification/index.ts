@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The external email to receive the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#external_email Notification#external_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#external_email Notification#external_email}
   */
   readonly externalEmail?: string;
   /**
   * Type of notification (1 = dbt Cloud user email (default): does not require an external_email ; 2 = Slack channel: requires `slack_channel_id` and `slack_channel_name` ; 4 = external email: requires setting an `external_email`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#notification_type Notification#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#notification_type Notification#notification_type}
   */
   readonly notificationType?: number;
   /**
   * List of job IDs to trigger the webhook on cancel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#on_cancel Notification#on_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#on_cancel Notification#on_cancel}
   */
   readonly onCancel?: number[];
   /**
   * List of job IDs to trigger the webhook on failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#on_failure Notification#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#on_failure Notification#on_failure}
   */
   readonly onFailure?: number[];
   /**
   * List of job IDs to trigger the webhook on success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#on_success Notification#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#on_success Notification#on_success}
   */
   readonly onSuccess?: number[];
   /**
   * List of job IDs to trigger the webhook on warning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#on_warning Notification#on_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#on_warning Notification#on_warning}
   */
   readonly onWarning?: number[];
   /**
   * The ID of the Slack channel to receive the notification. It can be found at the bottom of the Slack channel settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#slack_channel_id Notification#slack_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#slack_channel_id Notification#slack_channel_id}
   */
   readonly slackChannelId?: string;
   /**
   * The name of the slack channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#slack_channel_name Notification#slack_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#slack_channel_name Notification#slack_channel_name}
   */
   readonly slackChannelName?: string;
   /**
   * State of the notification (1 = active (default), 2 = inactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#state Notification#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#state Notification#state}
   */
   readonly state?: number;
   /**
   * Internal dbt Cloud User ID. Must be the user_id for an existing user even if the notification is an external one. In the case of a Slack notification, it must be the user_id of the user that set up the Slack Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#user_id Notification#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#user_id Notification#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification dbtcloud_notification}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification dbtcloud_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/notification dbtcloud_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/notification dbtcloud_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_notification',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

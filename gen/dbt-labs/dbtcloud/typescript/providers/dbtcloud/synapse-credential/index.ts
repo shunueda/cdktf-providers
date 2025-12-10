@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SynapseCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of the adapter (synapse)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#adapter_type SynapseCredential#adapter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#adapter_type SynapseCredential#adapter_type}
   */
   readonly adapterType: string;
   /**
   * Authentication type (SQL, ActiveDirectoryPassword, ServicePrincipal)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#authentication SynapseCredential#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#authentication SynapseCredential#authentication}
   */
   readonly authentication: string;
   /**
   * The client ID of the Azure Active Directory service principal. This is only used when connecting to Azure SQL with an AAD service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#client_id SynapseCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#client_id SynapseCredential#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret of the Azure Active Directory service principal. This is only used when connecting to Azure SQL with an AAD service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#client_secret SynapseCredential#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#client_secret SynapseCredential#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The password for the account to connect to. Only used when connection with AD user/pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#password SynapseCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#password SynapseCredential#password}
   */
   readonly password?: string;
   /**
   * Project ID to create the Synapse credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#project_id SynapseCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#project_id SynapseCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create the dbt models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#schema SynapseCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#schema SynapseCredential#schema}
   */
   readonly schema: string;
   /**
   * Optionally set this to the principal who should own the schemas created by dbt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#schema_authorization SynapseCredential#schema_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#schema_authorization SynapseCredential#schema_authorization}
   */
   readonly schemaAuthorization?: string;
   /**
   * The tenant ID of the Azure Active Directory instance. This is only used when connecting to Azure SQL with a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#tenant_id SynapseCredential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#tenant_id SynapseCredential#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The username of the Synapse account to connect to. Only used when connection with AD user/pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#user SynapseCredential#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#user SynapseCredential#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential dbtcloud_synapse_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential dbtcloud_synapse_credential}
 */
 export class SynapseCredential extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class SynapseCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SynapseCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SynapseCredential to import
-  * @param importFromId The id of the existing SynapseCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SynapseCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SynapseCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class SynapseCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/synapse_credential dbtcloud_synapse_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/synapse_credential dbtcloud_synapse_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class SynapseCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_synapse_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudKubernetesClusterCommonNamesConfig extends cdkt
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#cluster_id DataTencentcloudKubernetesClusterCommonNames#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#cluster_id DataTencentcloudKubernetesClusterCommonNames#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#id DataTencentcloudKubernetesClusterCommonNames#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#id DataTencentcloudKubernetesClusterCommonNames#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudKubernetesClusterCommonNamesConfig extends cdkt
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#result_output_file DataTencentcloudKubernetesClusterCommonNames#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#result_output_file DataTencentcloudKubernetesClusterCommonNames#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * List of Role ID. Up to 50 sub-accounts can be passed in at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#role_ids DataTencentcloudKubernetesClusterCommonNames#role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#role_ids DataTencentcloudKubernetesClusterCommonNames#role_ids}
   */
   readonly roleIds?: string[];
   /**
   * List of sub-account. Up to 50 sub-accounts can be passed in at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#subaccount_uins DataTencentcloudKubernetesClusterCommonNames#subaccount_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#subaccount_uins DataTencentcloudKubernetesClusterCommonNames#subaccount_uins}
   */
   readonly subaccountUins?: string[];
 }
@@ -126,7 +126,7 @@ export class DataTencentcloudKubernetesClusterCommonNamesListStructList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names tencentcloud_kubernetes_cluster_common_names}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names tencentcloud_kubernetes_cluster_common_names}
 */
 export class DataTencentcloudKubernetesClusterCommonNames extends cdktf.TerraformDataSource {
 
@@ -142,7 +142,7 @@ export class DataTencentcloudKubernetesClusterCommonNames extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataTencentcloudKubernetesClusterCommonNames resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesClusterCommonNames to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterCommonNames that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterCommonNames that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesClusterCommonNames to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class DataTencentcloudKubernetesClusterCommonNames extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_cluster_common_names tencentcloud_kubernetes_cluster_common_names} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_cluster_common_names tencentcloud_kubernetes_cluster_common_names} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class DataTencentcloudKubernetesClusterCommonNames extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_kubernetes_cluster_common_names',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

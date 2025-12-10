@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WaapFirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#description WaapFirewallRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#description WaapFirewallRule#description}
   */
   readonly description?: string;
   /**
   * The WAAP domain ID for which the Firewall Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#domain_id WaapFirewallRule#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#domain_id WaapFirewallRule#domain_id}
   */
   readonly domainId: number;
   /**
   * Whether the rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#enabled WaapFirewallRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#enabled WaapFirewallRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#id WaapFirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#id WaapFirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface WaapFirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#name WaapFirewallRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#name WaapFirewallRule#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#action WaapFirewallRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#action WaapFirewallRule#action}
   */
   readonly action: WaapFirewallRuleAction;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#conditions WaapFirewallRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#conditions WaapFirewallRule#conditions}
   */
   readonly conditions: WaapFirewallRuleConditions;
 }
@@ -55,13 +55,13 @@ export interface WaapFirewallRuleActionBlock {
   /**
   * How long a rule's block action will apply to subsequent requests. Can be specified in seconds or by using a numeral followed by 's', 'm', 'h', or 'd' to represent time format (seconds, minutes, hours, or days). Example: 12h. Must match the pattern ^[0-9]*[smhd]?$
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#action_duration WaapFirewallRule#action_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#action_duration WaapFirewallRule#action_duration}
   */
   readonly actionDuration?: string;
   /**
   * A custom HTTP status code that the WAAP returns if a rule blocks a request. It must be one of these values {403, 405, 418, 429}. Default is 403.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#status_code WaapFirewallRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#status_code WaapFirewallRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -176,13 +176,13 @@ export interface WaapFirewallRuleAction {
   /**
   * The WAAP allows the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#allow WaapFirewallRule#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#allow WaapFirewallRule#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#block WaapFirewallRule#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#block WaapFirewallRule#block}
   */
   readonly block?: WaapFirewallRuleActionBlock;
 }
@@ -297,13 +297,13 @@ export interface WaapFirewallRuleConditionsIp {
   /**
   * A single IPv4 or IPv6 address to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#ip_address WaapFirewallRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#ip_address WaapFirewallRule#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#negation WaapFirewallRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#negation WaapFirewallRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -415,19 +415,19 @@ export interface WaapFirewallRuleConditionsIpRange {
   /**
   * The lower bound IPv4 or IPv6 address to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#lower_bound WaapFirewallRule#lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#lower_bound WaapFirewallRule#lower_bound}
   */
   readonly lowerBound: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#negation WaapFirewallRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#negation WaapFirewallRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The upper bound IPv4 or IPv6 address to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#upper_bound WaapFirewallRule#upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#upper_bound WaapFirewallRule#upper_bound}
   */
   readonly upperBound: string;
 }
@@ -565,13 +565,13 @@ export interface WaapFirewallRuleConditions {
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#ip WaapFirewallRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#ip WaapFirewallRule#ip}
   */
   readonly ip?: WaapFirewallRuleConditionsIp;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#ip_range WaapFirewallRule#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#ip_range WaapFirewallRule#ip_range}
   */
   readonly ipRange?: WaapFirewallRuleConditionsIpRange;
 }
@@ -684,7 +684,7 @@ export class WaapFirewallRuleConditionsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule gcore_waap_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule gcore_waap_firewall_rule}
 */
 export class WaapFirewallRule extends cdktf.TerraformResource {
 
@@ -700,7 +700,7 @@ export class WaapFirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapFirewallRule to import
-  * @param importFromId The id of the existing WaapFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -712,7 +712,7 @@ export class WaapFirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_firewall_rule gcore_waap_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_firewall_rule gcore_waap_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -723,8 +723,8 @@ export class WaapFirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

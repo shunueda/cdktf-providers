@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FabricL3VirtualNetworkConfig extends cdktf.TerraformMetaArgumen
   /**
   * Fabric ID of the fabric site this layer 3 virtual network is to be anchored at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network#anchored_site_id FabricL3VirtualNetwork#anchored_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network#anchored_site_id FabricL3VirtualNetwork#anchored_site_id}
   */
   readonly anchoredSiteId?: string;
   /**
   * IDs of the fabrics this layer 3 virtual network is to be assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network#fabric_ids FabricL3VirtualNetwork#fabric_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network#fabric_ids FabricL3VirtualNetwork#fabric_ids}
   */
   readonly fabricIds?: string[];
   /**
   * Name of the layer 3 virtual network. If `INFRA_VN` or `DEFAULT_VN` is used, those layer 3 virtual networks will be updated instead of created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network#virtual_network_name FabricL3VirtualNetwork#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network#virtual_network_name FabricL3VirtualNetwork#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network}
 */
 export class FabricL3VirtualNetwork extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FabricL3VirtualNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricL3VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricL3VirtualNetwork to import
-  * @param importFromId The id of the existing FabricL3VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricL3VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricL3VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FabricL3VirtualNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_virtual_network catalystcenter_fabric_l3_virtual_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FabricL3VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l3_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

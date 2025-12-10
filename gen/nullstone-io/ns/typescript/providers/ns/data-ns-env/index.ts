@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsEnvConfig extends cdktf.TerraformMetaArguments {
   /**
   * The environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env#env_id DataNsEnv#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env#env_id DataNsEnv#env_id}
   */
   readonly envId: number;
   /**
   * The stack ID that owns this environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env#stack_id DataNsEnv#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env#stack_id DataNsEnv#stack_id}
   */
   readonly stackId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env ns_env}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env ns_env}
 */
 export class DataNsEnv extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataNsEnv extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsEnv resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsEnv to import
-  * @param importFromId The id of the existing DataNsEnv that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsEnv that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsEnv to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataNsEnv extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env ns_env} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env ns_env} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataNsEnv extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns_env',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

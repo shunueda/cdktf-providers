@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,152 +10,152 @@ export interface IpPoolReservationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of addresses assigned from the IPv4 pool (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_assigned_addresses IpPoolReservation#ipv4_assigned_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_assigned_addresses IpPoolReservation#ipv4_assigned_addresses}
   */
   readonly ipv4AssignedAddresses?: string;
   /**
   * The number of addresses that are assigned from the IPv4 pool by default (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_default_assigned_addresses IpPoolReservation#ipv4_default_assigned_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_default_assigned_addresses IpPoolReservation#ipv4_default_assigned_addresses}
   */
   readonly ipv4DefaultAssignedAddresses?: string;
   /**
   * The IPv4 DHCP server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_dhcp_servers IpPoolReservation#ipv4_dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_dhcp_servers IpPoolReservation#ipv4_dhcp_servers}
   */
   readonly ipv4DhcpServers?: string[];
   /**
   * The IPv4 DNS server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_dns_servers IpPoolReservation#ipv4_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_dns_servers IpPoolReservation#ipv4_dns_servers}
   */
   readonly ipv4DnsServers?: string[];
   /**
   * The IPv4 gateway IP address for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_gateway IpPoolReservation#ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_gateway IpPoolReservation#ipv4_gateway}
   */
   readonly ipv4Gateway?: string;
   /**
   * The non-tunnel global pool ID for this IPv4 reserve pool. Once added, this value cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_global_pool_id IpPoolReservation#ipv4_global_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_global_pool_id IpPoolReservation#ipv4_global_pool_id}
   */
   readonly ipv4GlobalPoolId: string;
   /**
   * The IPv4 network mask length as a decimal for the CIDR notation of this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_prefix_length IpPoolReservation#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_prefix_length IpPoolReservation#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength: number;
   /**
   * The IPv4 IP address component of the CIDR notation for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_subnet IpPoolReservation#ipv4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_subnet IpPoolReservation#ipv4_subnet}
   */
   readonly ipv4Subnet: string;
   /**
   * The total number of addresses in the IPv4 pool (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_total_addresses IpPoolReservation#ipv4_total_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_total_addresses IpPoolReservation#ipv4_total_addresses}
   */
   readonly ipv4TotalAddresses?: string;
   /**
   * The number of addresses in the IPv4 pool that cannot be assigned (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv4_unassignable_addresses IpPoolReservation#ipv4_unassignable_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv4_unassignable_addresses IpPoolReservation#ipv4_unassignable_addresses}
   */
   readonly ipv4UnassignableAddresses?: string;
   /**
   * The number of addresses assigned from the IPv6 pool (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_assigned_addresses IpPoolReservation#ipv6_assigned_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_assigned_addresses IpPoolReservation#ipv6_assigned_addresses}
   */
   readonly ipv6AssignedAddresses?: string;
   /**
   * The number of addresses that are assigned from the IPv6 pool by default (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_default_assigned_addresses IpPoolReservation#ipv6_default_assigned_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_default_assigned_addresses IpPoolReservation#ipv6_default_assigned_addresses}
   */
   readonly ipv6DefaultAssignedAddresses?: string;
   /**
   * The IPv6 DHCP server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_dhcp_servers IpPoolReservation#ipv6_dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_dhcp_servers IpPoolReservation#ipv6_dhcp_servers}
   */
   readonly ipv6DhcpServers?: string[];
   /**
   * The IPv6 DNS server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_dns_servers IpPoolReservation#ipv6_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_dns_servers IpPoolReservation#ipv6_dns_servers}
   */
   readonly ipv6DnsServers?: string[];
   /**
   * The IPv6 gateway IP address for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_gateway IpPoolReservation#ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_gateway IpPoolReservation#ipv6_gateway}
   */
   readonly ipv6Gateway?: string;
   /**
   * The non-tunnel global pool ID for this IPv6 reserve pool. Once added, this value cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_global_pool_id IpPoolReservation#ipv6_global_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_global_pool_id IpPoolReservation#ipv6_global_pool_id}
   */
   readonly ipv6GlobalPoolId?: string;
   /**
   * The IPv6 network mask length as a decimal for the CIDR notation of this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_prefix_length IpPoolReservation#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_prefix_length IpPoolReservation#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * If the IPv6 prefixLength is 64, this option may be enabled for SLAAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_slaac_support IpPoolReservation#ipv6_slaac_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_slaac_support IpPoolReservation#ipv6_slaac_support}
   */
   readonly ipv6SlaacSupport?: boolean | cdktf.IResolvable;
   /**
   * The IPv6 IP address component of the CIDR notation for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_subnet IpPoolReservation#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_subnet IpPoolReservation#ipv6_subnet}
   */
   readonly ipv6Subnet?: string;
   /**
   * The total number of addresses in the IPv6 pool (numeric string, up to 128 bits).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_total_addresses IpPoolReservation#ipv6_total_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_total_addresses IpPoolReservation#ipv6_total_addresses}
   */
   readonly ipv6TotalAddresses?: string;
   /**
   * The number of addresses in the IPv6 pool that cannot be assigned (numeric string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#ipv6_unassignable_addresses IpPoolReservation#ipv6_unassignable_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#ipv6_unassignable_addresses IpPoolReservation#ipv6_unassignable_addresses}
   */
   readonly ipv6UnassignableAddresses?: string;
   /**
   * The name for this reserve IP pool. Only letters, numbers, '-' (hyphen), '_' (underscore), '.' (period), and '/' (forward slash) are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#name IpPoolReservation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#name IpPoolReservation#name}
   */
   readonly name: string;
   /**
   * The type of the reserve IP subpool. Once created, this cannot be changed.
   *   - Choices: `Generic`, `LAN`, `Management`, `Service`, `WAN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#pool_type IpPoolReservation#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#pool_type IpPoolReservation#pool_type}
   */
   readonly poolType: string;
   /**
   * The id of the non-Global site that this subpool belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#site_id IpPoolReservation#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#site_id IpPoolReservation#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation catalystcenter_ip_pool_reservation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation catalystcenter_ip_pool_reservation}
 */
 export class IpPoolReservation extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class IpPoolReservation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpPoolReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpPoolReservation to import
-  * @param importFromId The id of the existing IpPoolReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpPoolReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpPoolReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class IpPoolReservation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/ip_pool_reservation catalystcenter_ip_pool_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool_reservation catalystcenter_ip_pool_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class IpPoolReservation extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_ip_pool_reservation',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

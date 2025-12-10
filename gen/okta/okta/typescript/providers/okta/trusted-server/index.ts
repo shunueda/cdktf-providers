@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TrustedServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authorization server ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server#auth_server_id TrustedServer#auth_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server#auth_server_id TrustedServer#auth_server_id}
   */
   readonly authServerId: string;
   /**
   * A list of the authorization server IDs user want to trust
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server#trusted TrustedServer#trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server#trusted TrustedServer#trusted}
   */
   readonly trusted: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server okta_trusted_server}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server okta_trusted_server}
 */
 export class TrustedServer extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class TrustedServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustedServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustedServer to import
-  * @param importFromId The id of the existing TrustedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustedServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TrustedServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/trusted_server okta_trusted_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/trusted_server okta_trusted_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class TrustedServer extends cdktf.TerraformResource {
       terraformResourceType: 'okta_trusted_server',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

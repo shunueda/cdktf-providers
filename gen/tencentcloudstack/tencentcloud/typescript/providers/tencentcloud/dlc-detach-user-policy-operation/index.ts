@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DlcDetachUserPolicyOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#id DlcDetachUserPolicyOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#id DlcDetachUserPolicyOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DlcDetachUserPolicyOperationConfig extends cdktf.TerraformMetaA
   /**
   * User ID, which matches Uin on the CAM side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#user_id DlcDetachUserPolicyOperation#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#user_id DlcDetachUserPolicyOperation#user_id}
   */
   readonly userId: string;
   /**
   * policy_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#policy_set DlcDetachUserPolicyOperation#policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#policy_set DlcDetachUserPolicyOperation#policy_set}
   */
   readonly policySet?: DlcDetachUserPolicyOperationPolicySet[] | cdktf.IResolvable;
 }
@@ -31,43 +31,43 @@ export interface DlcDetachUserPolicyOperationPolicySet {
   /**
   * The name of the target data source. To grant admin permission, it must be `*` (all resources at this level); to grant data source and database permissions, it must be `COSDataCatalog` or `*`; to grant table permissions, it can be a custom data source; if it is left empty, `DataLakeCatalog` is used. Note: To grant permissions on a custom data source, the permissions that can be managed in the Data Lake Compute console are subsets of the account permissions granted when you connect the data source to the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#catalog DlcDetachUserPolicyOperation#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#catalog DlcDetachUserPolicyOperation#catalog}
   */
   readonly catalog: string;
   /**
   * The name of the target column. `*` represents all columns. To grant admin permissions, it must be `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#column DlcDetachUserPolicyOperation#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#column DlcDetachUserPolicyOperation#column}
   */
   readonly column?: string;
   /**
   * The permission policy creation time, which is not required as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#create_time DlcDetachUserPolicyOperation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#create_time DlcDetachUserPolicyOperation#create_time}
   */
   readonly createTime?: string;
   /**
   * The name of the target data engine. `*` represents all engines. To grant admin permissions, it must be `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#data_engine DlcDetachUserPolicyOperation#data_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#data_engine DlcDetachUserPolicyOperation#data_engine}
   */
   readonly dataEngine?: string;
   /**
   * The name of the target database. `*` represents all databases in the current catalog. To grant admin permissions, it must be `*`; to grant data connection permissions, it must be null; to grant other permissions, it can be any database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#database DlcDetachUserPolicyOperation#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#database DlcDetachUserPolicyOperation#database}
   */
   readonly database: string;
   /**
   * The name of the target function. `*` represents all functions in the current catalog. To grant admin permissions, it must be `*`; to grant data connection permissions, it must be null; to grant other permissions, it can be any function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#function DlcDetachUserPolicyOperation#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#function DlcDetachUserPolicyOperation#function}
   */
   readonly function?: string;
   /**
   * The policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#id DlcDetachUserPolicyOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#id DlcDetachUserPolicyOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,61 +76,61 @@ export interface DlcDetachUserPolicyOperationPolicySet {
   /**
   * The grant mode, which is not required as an input parameter. Valid values: `COMMON` and `SENIOR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#mode DlcDetachUserPolicyOperation#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#mode DlcDetachUserPolicyOperation#mode}
   */
   readonly mode?: string;
   /**
   * The target permissions, which vary by permission level. Admin: `ALL` (default); data connection: `CREATE`; database: `ALL`, `CREATE`, `ALTER`, and `DROP`; table: `ALL`, `SELECT`, `INSERT`, `ALTER`, `DELETE`, `DROP`, and `UPDATE`. Note: For table permissions, if a data source other than `COSDataCatalog` is specified, only the `SELECT` permission can be granted here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#operation DlcDetachUserPolicyOperation#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#operation DlcDetachUserPolicyOperation#operation}
   */
   readonly operation: string;
   /**
   * The operator, which is not required as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#operator DlcDetachUserPolicyOperation#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#operator DlcDetachUserPolicyOperation#operator}
   */
   readonly operator?: string;
   /**
   * The permission type. Valid values: `ADMIN`, `DATASOURCE`, `DATABASE`, `TABLE`, `VIEW`, `FUNCTION`, `COLUMN`, and `ENGINE`. Note: If it is left empty, `ADMIN` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#policy_type DlcDetachUserPolicyOperation#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#policy_type DlcDetachUserPolicyOperation#policy_type}
   */
   readonly policyType?: string;
   /**
   * Whether the grantee is allowed to further grant the permissions. Valid values: `false` (default) and `true` (the grantee can grant permissions gained here to other sub-users).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#re_auth DlcDetachUserPolicyOperation#re_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#re_auth DlcDetachUserPolicyOperation#re_auth}
   */
   readonly reAuth?: boolean | cdktf.IResolvable;
   /**
   * The permission source, which is not required when input parameters are passed in. Valid values: `USER` (from the user) and `WORKGROUP` (from one or more associated work groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#source DlcDetachUserPolicyOperation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#source DlcDetachUserPolicyOperation#source}
   */
   readonly source?: string;
   /**
   * The ID of the work group, which applies only when the value of the `Source` field is `WORKGROUP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#source_id DlcDetachUserPolicyOperation#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#source_id DlcDetachUserPolicyOperation#source_id}
   */
   readonly sourceId?: number;
   /**
   * The name of the work group, which applies only when the value of the `Source` field is `WORKGROUP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#source_name DlcDetachUserPolicyOperation#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#source_name DlcDetachUserPolicyOperation#source_name}
   */
   readonly sourceName?: string;
   /**
   * The name of the target table. `*` represents all tables in the current database. To grant admin permissions, it must be `*`; to grant data connection and database permissions, it must be null; to grant other permissions, it can be any table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#table DlcDetachUserPolicyOperation#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#table DlcDetachUserPolicyOperation#table}
   */
   readonly table: string;
   /**
   * The name of the target view. `*` represents all views in the current database. To grant admin permissions, it must be `*`; to grant data connection and database permissions, it must be null; to grant other permissions, it can be any view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#view DlcDetachUserPolicyOperation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#view DlcDetachUserPolicyOperation#view}
   */
   readonly view?: string;
 }
@@ -698,7 +698,7 @@ export class DlcDetachUserPolicyOperationPolicySetList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation tencentcloud_dlc_detach_user_policy_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation tencentcloud_dlc_detach_user_policy_operation}
 */
 export class DlcDetachUserPolicyOperation extends cdktf.TerraformResource {
 
@@ -714,7 +714,7 @@ export class DlcDetachUserPolicyOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcDetachUserPolicyOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcDetachUserPolicyOperation to import
-  * @param importFromId The id of the existing DlcDetachUserPolicyOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcDetachUserPolicyOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcDetachUserPolicyOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -726,7 +726,7 @@ export class DlcDetachUserPolicyOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_detach_user_policy_operation tencentcloud_dlc_detach_user_policy_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dlc_detach_user_policy_operation tencentcloud_dlc_detach_user_policy_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -737,8 +737,8 @@ export class DlcDetachUserPolicyOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_detach_user_policy_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

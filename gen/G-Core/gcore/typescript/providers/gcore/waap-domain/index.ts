@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WaapDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#id WaapDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#id WaapDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface WaapDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#name WaapDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#name WaapDomain#name}
   */
   readonly name: string;
   /**
   * Status of the domain. It must be one of these values {active, monitor}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#status WaapDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#status WaapDomain#status}
   */
   readonly status?: string;
   /**
   * api_discovery_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#api_discovery_settings WaapDomain#api_discovery_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#api_discovery_settings WaapDomain#api_discovery_settings}
   */
   readonly apiDiscoverySettings?: WaapDomainApiDiscoverySettings;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#settings WaapDomain#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#settings WaapDomain#settings}
   */
   readonly settings?: WaapDomainSettings;
 }
@@ -43,31 +43,31 @@ export interface WaapDomainApiDiscoverySettings {
   /**
   * The URL of the API description file. This will be periodically scanned if `description_file_scan_enabled` is enabled. Supported formats are YAML and JSON, and it must adhere to OpenAPI versions 2, 3, or 3.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#description_file_location WaapDomain#description_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#description_file_location WaapDomain#description_file_location}
   */
   readonly descriptionFileLocation: string;
   /**
   * Indicates if periodic scan of the description file is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#description_file_scan_enabled WaapDomain#description_file_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#description_file_scan_enabled WaapDomain#description_file_scan_enabled}
   */
   readonly descriptionFileScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * The interval in hours for scanning the description file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#description_file_scan_interval_hours WaapDomain#description_file_scan_interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#description_file_scan_interval_hours WaapDomain#description_file_scan_interval_hours}
   */
   readonly descriptionFileScanIntervalHours?: number;
   /**
   * Indicates if traffic scan is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#traffic_scan_enabled WaapDomain#traffic_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#traffic_scan_enabled WaapDomain#traffic_scan_enabled}
   */
   readonly trafficScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * The interval in hours for scanning the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#traffic_scan_interval_hours WaapDomain#traffic_scan_interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#traffic_scan_interval_hours WaapDomain#traffic_scan_interval_hours}
   */
   readonly trafficScanIntervalHours?: number;
 }
@@ -266,13 +266,13 @@ export interface WaapDomainSettingsApi {
   /**
   * List of API URL patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#api_urls WaapDomain#api_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#api_urls WaapDomain#api_urls}
   */
   readonly apiUrls?: string[];
   /**
   * Indicates if the domain is an API domain. All requests to an API domain are treated as API requests. If this is set to true then the api_urls field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#is_api WaapDomain#is_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#is_api WaapDomain#is_api}
   */
   readonly isApi?: boolean | cdktf.IResolvable;
 }
@@ -387,13 +387,13 @@ export interface WaapDomainSettingsDdos {
   /**
   * Burst threshold for DDoS protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#burst_threshold WaapDomain#burst_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#burst_threshold WaapDomain#burst_threshold}
   */
   readonly burstThreshold?: number;
   /**
   * Global threshold for DDoS protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#global_threshold WaapDomain#global_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#global_threshold WaapDomain#global_threshold}
   */
   readonly globalThreshold?: number;
 }
@@ -508,13 +508,13 @@ export interface WaapDomainSettings {
   /**
   * api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#api WaapDomain#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#api WaapDomain#api}
   */
   readonly api?: WaapDomainSettingsApi;
   /**
   * ddos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#ddos WaapDomain#ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#ddos WaapDomain#ddos}
   */
   readonly ddos?: WaapDomainSettingsDdos;
 }
@@ -627,7 +627,7 @@ export class WaapDomainSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain gcore_waap_domain}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain gcore_waap_domain}
 */
 export class WaapDomain extends cdktf.TerraformResource {
 
@@ -643,7 +643,7 @@ export class WaapDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapDomain to import
-  * @param importFromId The id of the existing WaapDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class WaapDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_domain gcore_waap_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_domain gcore_waap_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +666,8 @@ export class WaapDomain extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_domain',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

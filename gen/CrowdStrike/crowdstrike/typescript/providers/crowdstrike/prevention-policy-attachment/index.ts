@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface PreventionPolicyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Host Group ids to attach to the prevention policy.
+  * When true (default), this resource takes exclusive ownership of all host groups and ioa rule groups attached to the prevention policy. When false, this resource only manages the specific host groups and ioa rule groups defined in the configuration, leaving other groups untouched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment#host_groups PreventionPolicyAttachment#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment#exclusive PreventionPolicyAttachment#exclusive}
+  */
+  readonly exclusive?: boolean | cdktf.IResolvable;
+  /**
+  * Host Group IDs to attach to the prevention policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment#host_groups PreventionPolicyAttachment#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * The prevention policy id you want to attach to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment#id PreventionPolicyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment#id PreventionPolicyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * IOA Rule Group to attach to the prevention policy.
+  * IOA Rule Group IDs to attach to the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment#ioa_rule_groups PreventionPolicyAttachment#ioa_rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment#ioa_rule_groups PreventionPolicyAttachment#ioa_rule_groups}
   */
   readonly ioaRuleGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment crowdstrike_prevention_policy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment crowdstrike_prevention_policy_attachment}
 */
 export class PreventionPolicyAttachment extends cdktf.TerraformResource {
 
@@ -47,7 +53,7 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PreventionPolicyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PreventionPolicyAttachment to import
-  * @param importFromId The id of the existing PreventionPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PreventionPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PreventionPolicyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +65,7 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/prevention_policy_attachment crowdstrike_prevention_policy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/prevention_policy_attachment crowdstrike_prevention_policy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +76,8 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_prevention_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +87,7 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._exclusive = config.exclusive;
     this._hostGroups = config.hostGroups;
     this._id = config.id;
     this._ioaRuleGroups = config.ioaRuleGroups;
@@ -89,6 +96,22 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // exclusive - computed: true, optional: true, required: false
+  private _exclusive?: boolean | cdktf.IResolvable; 
+  public get exclusive() {
+    return this.getBooleanAttribute('exclusive');
+  }
+  public set exclusive(value: boolean | cdktf.IResolvable) {
+    this._exclusive = value;
+  }
+  public resetExclusive() {
+    this._exclusive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exclusiveInput() {
+    return this._exclusive;
+  }
 
   // host_groups - computed: false, optional: true, required: false
   private _hostGroups?: string[]; 
@@ -146,6 +169,7 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      exclusive: cdktf.booleanToTerraform(this._exclusive),
       host_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._hostGroups),
       id: cdktf.stringToTerraform(this._id),
       ioa_rule_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ioaRuleGroups),
@@ -154,6 +178,12 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      exclusive: {
+        value: cdktf.booleanToHclTerraform(this._exclusive),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       host_groups: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._hostGroups),
         isBlock: false,

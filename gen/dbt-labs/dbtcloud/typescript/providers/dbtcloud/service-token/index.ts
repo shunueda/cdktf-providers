@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ServiceTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#name ServiceToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#name ServiceToken#name}
   */
   readonly name: string;
   /**
   * Service token state (1 is active, 2 is inactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#state ServiceToken#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#state ServiceToken#state}
   */
   readonly state?: number;
   /**
   * service_token_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#service_token_permissions ServiceToken#service_token_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#service_token_permissions ServiceToken#service_token_permissions}
   */
   readonly serviceTokenPermissions?: ServiceTokenServiceTokenPermissions[] | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface ServiceTokenServiceTokenPermissions {
   /**
   * Whether or not to apply this permission to all projects for this service token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#all_projects ServiceToken#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#all_projects ServiceToken#all_projects}
   */
   readonly allProjects: boolean | cdktf.IResolvable;
   /**
   * Set of permissions to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#permission_set ServiceToken#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#permission_set ServiceToken#permission_set}
   */
   readonly permissionSet: string;
   /**
   * Project ID to apply this permission to for this service token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#project_id ServiceToken#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#project_id ServiceToken#project_id}
   */
   readonly projectId?: number;
   /**
@@ -52,7 +52,7 @@ export interface ServiceTokenServiceTokenPermissions {
   * Not setting a value is the same as selecting `all`.
   * Not all permission sets support environment level write settings, only `analyst`, `database_admin`, `developer`, `git_admin` and `team_admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#writable_environment_categories ServiceToken#writable_environment_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#writable_environment_categories ServiceToken#writable_environment_categories}
   */
   readonly writableEnvironmentCategories?: string[];
 }
@@ -249,7 +249,7 @@ export class ServiceTokenServiceTokenPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token dbtcloud_service_token}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token dbtcloud_service_token}
 */
 export class ServiceToken extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class ServiceToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceToken to import
-  * @param importFromId The id of the existing ServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class ServiceToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/service_token dbtcloud_service_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/service_token dbtcloud_service_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class ServiceToken extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_service_token',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

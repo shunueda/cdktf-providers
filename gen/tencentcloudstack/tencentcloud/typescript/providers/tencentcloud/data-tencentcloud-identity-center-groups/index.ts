@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudIdentityCenterGroupsConfig extends cdktf.Terraf
   /**
   * Filter criterion. Format: <Attribute> <Operator> <Value>, case-insensitive. Currently, <Attribute> supports only GroupName, and <Operator> supports only eq (Equals) and sw (Start With). For example, Filter = "GroupName sw test" indicates querying all user groups with names starting with test; Filter = "GroupName eq testgroup" indicates querying the user group with the name testgroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#filter DataTencentcloudIdentityCenterGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#filter DataTencentcloudIdentityCenterGroups#filter}
   */
   readonly filter?: string;
   /**
   * Filtered user. IsSelected=1 will be returned for the user group associated with this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#filter_users DataTencentcloudIdentityCenterGroups#filter_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#filter_users DataTencentcloudIdentityCenterGroups#filter_users}
   */
   readonly filterUsers?: string[];
   /**
   * User group type. Manual: manually created; Synchronized: externally imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#group_type DataTencentcloudIdentityCenterGroups#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#group_type DataTencentcloudIdentityCenterGroups#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#id DataTencentcloudIdentityCenterGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#id DataTencentcloudIdentityCenterGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataTencentcloudIdentityCenterGroupsConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#result_output_file DataTencentcloudIdentityCenterGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#result_output_file DataTencentcloudIdentityCenterGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sorting field, which currently only supports CreateTime. The default is the CreateTime field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#sort_field DataTencentcloudIdentityCenterGroups#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#sort_field DataTencentcloudIdentityCenterGroups#sort_field}
   */
   readonly sortField?: string;
   /**
   * Sorting type. Desc: descending order; Asc: ascending order. It should be set along with SortField.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#sort_type DataTencentcloudIdentityCenterGroups#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#sort_type DataTencentcloudIdentityCenterGroups#sort_type}
   */
   readonly sortType?: string;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#zone_id DataTencentcloudIdentityCenterGroups#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#zone_id DataTencentcloudIdentityCenterGroups#zone_id}
   */
   readonly zoneId: string;
 }
@@ -169,7 +169,7 @@ export class DataTencentcloudIdentityCenterGroupsGroupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups tencentcloud_identity_center_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups tencentcloud_identity_center_groups}
 */
 export class DataTencentcloudIdentityCenterGroups extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataTencentcloudIdentityCenterGroups extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudIdentityCenterGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIdentityCenterGroups to import
-  * @param importFromId The id of the existing DataTencentcloudIdentityCenterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIdentityCenterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIdentityCenterGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataTencentcloudIdentityCenterGroups extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/identity_center_groups tencentcloud_identity_center_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/identity_center_groups tencentcloud_identity_center_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataTencentcloudIdentityCenterGroups extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_identity_center_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator#id DataOktaAuthenticator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator#id DataOktaAuthenticator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataOktaAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * A human-readable string that identifies the authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator#key DataOktaAuthenticator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator#key DataOktaAuthenticator#key}
   */
   readonly key?: string;
   /**
   * Name of the authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator#name DataOktaAuthenticator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator#name DataOktaAuthenticator#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator okta_authenticator}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator okta_authenticator}
 */
 export class DataOktaAuthenticator extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataOktaAuthenticator extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaAuthenticator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaAuthenticator to import
-  * @param importFromId The id of the existing DataOktaAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaAuthenticator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataOktaAuthenticator extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/authenticator okta_authenticator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/authenticator okta_authenticator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataOktaAuthenticator extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_authenticator',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

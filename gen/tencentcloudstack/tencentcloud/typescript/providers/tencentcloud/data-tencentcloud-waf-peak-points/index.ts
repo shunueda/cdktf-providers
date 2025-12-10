@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudWafPeakPointsConfig extends cdktf.TerraformMeta
   /**
   * The domain name to be queried. If all domain name data is queried, this parameter is not filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#domain DataTencentcloudWafPeakPoints#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#domain DataTencentcloudWafPeakPoints#domain}
   */
   readonly domain?: string;
   /**
   * Only support sparta-waf and clb-waf. If not passed, there will be no filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#edition DataTencentcloudWafPeakPoints#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#edition DataTencentcloudWafPeakPoints#edition}
   */
   readonly edition?: string;
   /**
   * Begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#from_time DataTencentcloudWafPeakPoints#from_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#from_time DataTencentcloudWafPeakPoints#from_time}
   */
   readonly fromTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#id DataTencentcloudWafPeakPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#id DataTencentcloudWafPeakPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataTencentcloudWafPeakPointsConfig extends cdktf.TerraformMeta
   /**
   * WAF instance ID, if not passed, there will be no filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#instance_id DataTencentcloudWafPeakPoints#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#instance_id DataTencentcloudWafPeakPoints#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Twelve values are available: `access`-Peak qps trend chart; `botAccess`- bot peak qps trend chart; `down`-Downstream peak bandwidth trend chart; `up`-Upstream peak bandwidth trend chart; `attack`-Trend chart of total number of web attacks; `cc`-Trend chart of total number of CC attacks; `bw`- Black IP Attack Total Trend Chart; `tamper`- Anti Tamper Attack Total Trend Chart; `leak`- Trend chart of total number of anti leakage attacks; `acl`- Trend chart of total number of access control attacks; `http_status`- Trend chart of status code frequency; `wx_access`- WeChat Mini Program Peak QPS Trend Chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#metric_name DataTencentcloudWafPeakPoints#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#metric_name DataTencentcloudWafPeakPoints#metric_name}
   */
   readonly metricName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#result_output_file DataTencentcloudWafPeakPoints#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#result_output_file DataTencentcloudWafPeakPoints#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#to_time DataTencentcloudWafPeakPoints#to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#to_time DataTencentcloudWafPeakPoints#to_time}
   */
   readonly toTime: string;
 }
@@ -199,7 +199,7 @@ export class DataTencentcloudWafPeakPointsPointsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points tencentcloud_waf_peak_points}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points tencentcloud_waf_peak_points}
 */
 export class DataTencentcloudWafPeakPoints extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataTencentcloudWafPeakPoints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudWafPeakPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafPeakPoints to import
-  * @param importFromId The id of the existing DataTencentcloudWafPeakPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafPeakPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafPeakPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataTencentcloudWafPeakPoints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/waf_peak_points tencentcloud_waf_peak_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_peak_points tencentcloud_waf_peak_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataTencentcloudWafPeakPoints extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_waf_peak_points',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

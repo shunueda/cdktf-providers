@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcDbaasInstancesSnapshotsConfig extends cdktf.TerraformMet
   /**
   * ID of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots#instance_id DataMgcDbaasInstancesSnapshots#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots#instance_id DataMgcDbaasInstancesSnapshots#instance_id}
   */
   readonly instanceId: string;
 }
@@ -18,7 +18,7 @@ export interface DataMgcDbaasInstancesSnapshotsSnapshots {
   /**
   * ID of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots#instance_id DataMgcDbaasInstancesSnapshots#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots#instance_id DataMgcDbaasInstancesSnapshots#instance_id}
   */
   readonly instanceId: string;
 }
@@ -151,7 +151,7 @@ export class DataMgcDbaasInstancesSnapshotsSnapshotsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots mgc_dbaas_instances_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots mgc_dbaas_instances_snapshots}
 */
 export class DataMgcDbaasInstancesSnapshots extends cdktf.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataMgcDbaasInstancesSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcDbaasInstancesSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcDbaasInstancesSnapshots to import
-  * @param importFromId The id of the existing DataMgcDbaasInstancesSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcDbaasInstancesSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcDbaasInstancesSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataMgcDbaasInstancesSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshots mgc_dbaas_instances_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshots mgc_dbaas_instances_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class DataMgcDbaasInstancesSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_dbaas_instances_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

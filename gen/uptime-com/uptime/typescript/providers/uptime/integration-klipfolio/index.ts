@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IntegrationKlipfolioConfig extends cdktf.TerraformMetaArguments
   /**
   * Klipfolio API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio#api_key IntegrationKlipfolio#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio#api_key IntegrationKlipfolio#api_key}
   */
   readonly apiKey: string;
   /**
@@ -19,23 +19,23 @@ export interface IntegrationKlipfolioConfig extends cdktf.TerraformMetaArguments
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio#contact_groups IntegrationKlipfolio#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio#contact_groups IntegrationKlipfolio#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Name of the data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio#data_source_name IntegrationKlipfolio#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio#data_source_name IntegrationKlipfolio#data_source_name}
   */
   readonly dataSourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio#name IntegrationKlipfolio#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio#name IntegrationKlipfolio#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio uptime_integration_klipfolio}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio uptime_integration_klipfolio}
 */
 export class IntegrationKlipfolio extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IntegrationKlipfolio extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationKlipfolio resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationKlipfolio to import
-  * @param importFromId The id of the existing IntegrationKlipfolio that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationKlipfolio that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationKlipfolio to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IntegrationKlipfolio extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_klipfolio uptime_integration_klipfolio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_klipfolio uptime_integration_klipfolio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IntegrationKlipfolio extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_klipfolio',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

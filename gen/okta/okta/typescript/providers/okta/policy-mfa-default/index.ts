@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyMfaDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#duo PolicyMfaDefault#duo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#duo PolicyMfaDefault#duo}
   */
   readonly duo?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#external_idp PolicyMfaDefault#external_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#external_idp PolicyMfaDefault#external_idp}
   */
   readonly externalIdp?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#external_idps PolicyMfaDefault#external_idps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#external_idps PolicyMfaDefault#external_idps}
   */
   readonly externalIdps?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#fido_u2f PolicyMfaDefault#fido_u2f}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#fido_u2f PolicyMfaDefault#fido_u2f}
   */
   readonly fidoU2F?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#fido_webauthn PolicyMfaDefault#fido_webauthn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#fido_webauthn PolicyMfaDefault#fido_webauthn}
   */
   readonly fidoWebauthn?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#google_otp PolicyMfaDefault#google_otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#google_otp PolicyMfaDefault#google_otp}
   */
   readonly googleOtp?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#hotp PolicyMfaDefault#hotp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#hotp PolicyMfaDefault#hotp}
   */
   readonly hotp?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#id PolicyMfaDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#id PolicyMfaDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,77 +45,77 @@ export interface PolicyMfaDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is the policy using Okta Identity Engine (OIE) with authenticators instead of factors?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#is_oie PolicyMfaDefault#is_oie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#is_oie PolicyMfaDefault#is_oie}
   */
   readonly isOie?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_call PolicyMfaDefault#okta_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_call PolicyMfaDefault#okta_call}
   */
   readonly oktaCall?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_email PolicyMfaDefault#okta_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_email PolicyMfaDefault#okta_email}
   */
   readonly oktaEmail?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_otp PolicyMfaDefault#okta_otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_otp PolicyMfaDefault#okta_otp}
   */
   readonly oktaOtp?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_password PolicyMfaDefault#okta_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_password PolicyMfaDefault#okta_password}
   */
   readonly oktaPassword?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_push PolicyMfaDefault#okta_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_push PolicyMfaDefault#okta_push}
   */
   readonly oktaPush?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_question PolicyMfaDefault#okta_question}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_question PolicyMfaDefault#okta_question}
   */
   readonly oktaQuestion?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_sms PolicyMfaDefault#okta_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_sms PolicyMfaDefault#okta_sms}
   */
   readonly oktaSms?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#okta_verify PolicyMfaDefault#okta_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#okta_verify PolicyMfaDefault#okta_verify}
   */
   readonly oktaVerify?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#onprem_mfa PolicyMfaDefault#onprem_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#onprem_mfa PolicyMfaDefault#onprem_mfa}
   */
   readonly onpremMfa?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#phone_number PolicyMfaDefault#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#phone_number PolicyMfaDefault#phone_number}
   */
   readonly phoneNumber?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#rsa_token PolicyMfaDefault#rsa_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#rsa_token PolicyMfaDefault#rsa_token}
   */
   readonly rsaToken?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#security_question PolicyMfaDefault#security_question}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#security_question PolicyMfaDefault#security_question}
   */
   readonly securityQuestion?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#smart_card_idp PolicyMfaDefault#smart_card_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#smart_card_idp PolicyMfaDefault#smart_card_idp}
   */
   readonly smartCardIdp?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#symantec_vip PolicyMfaDefault#symantec_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#symantec_vip PolicyMfaDefault#symantec_vip}
   */
   readonly symantecVip?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#webauthn PolicyMfaDefault#webauthn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#webauthn PolicyMfaDefault#webauthn}
   */
   readonly webauthn?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#yubikey_token PolicyMfaDefault#yubikey_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#yubikey_token PolicyMfaDefault#yubikey_token}
   */
   readonly yubikeyToken?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default okta_policy_mfa_default}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default okta_policy_mfa_default}
 */
 export class PolicyMfaDefault extends cdktf.TerraformResource {
 
@@ -131,7 +131,7 @@ export class PolicyMfaDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyMfaDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyMfaDefault to import
-  * @param importFromId The id of the existing PolicyMfaDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyMfaDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyMfaDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class PolicyMfaDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_mfa_default okta_policy_mfa_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_mfa_default okta_policy_mfa_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class PolicyMfaDefault extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_mfa_default',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

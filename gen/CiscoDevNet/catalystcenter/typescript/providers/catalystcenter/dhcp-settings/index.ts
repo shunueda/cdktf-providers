@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DhcpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * DHCP servers for managing client device networking configuration. Max:10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings#servers DhcpSettings#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings#servers DhcpSettings#servers}
   */
   readonly servers?: string[];
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings#site_id DhcpSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings#site_id DhcpSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings catalystcenter_dhcp_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings catalystcenter_dhcp_settings}
 */
 export class DhcpSettings extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class DhcpSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpSettings to import
-  * @param importFromId The id of the existing DhcpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DhcpSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/dhcp_settings catalystcenter_dhcp_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/dhcp_settings catalystcenter_dhcp_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DhcpSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_dhcp_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

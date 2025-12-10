@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMysqlProxyCustomConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom#id DataTencentcloudMysqlProxyCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom#id DataTencentcloudMysqlProxyCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudMysqlProxyCustomConfig extends cdktf.TerraformM
   /**
   * instanced id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom#instance_id DataTencentcloudMysqlProxyCustom#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom#instance_id DataTencentcloudMysqlProxyCustom#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom#result_output_file DataTencentcloudMysqlProxyCustom#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom#result_output_file DataTencentcloudMysqlProxyCustom#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -204,7 +204,7 @@ export class DataTencentcloudMysqlProxyCustomWeightRuleList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom tencentcloud_mysql_proxy_custom}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom tencentcloud_mysql_proxy_custom}
 */
 export class DataTencentcloudMysqlProxyCustom extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataTencentcloudMysqlProxyCustom extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudMysqlProxyCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlProxyCustom to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlProxyCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlProxyCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlProxyCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataTencentcloudMysqlProxyCustom extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_proxy_custom tencentcloud_mysql_proxy_custom} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_proxy_custom tencentcloud_mysql_proxy_custom} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataTencentcloudMysqlProxyCustom extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_mysql_proxy_custom',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

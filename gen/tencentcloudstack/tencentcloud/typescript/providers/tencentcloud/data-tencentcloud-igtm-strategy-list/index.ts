@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudIgtmStrategyListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#id DataTencentcloudIgtmStrategyList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#id DataTencentcloudIgtmStrategyList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudIgtmStrategyListConfig extends cdktf.TerraformM
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#instance_id DataTencentcloudIgtmStrategyList#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#instance_id DataTencentcloudIgtmStrategyList#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#result_output_file DataTencentcloudIgtmStrategyList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#result_output_file DataTencentcloudIgtmStrategyList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#filters DataTencentcloudIgtmStrategyList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#filters DataTencentcloudIgtmStrategyList#filters}
   */
   readonly filters?: DataTencentcloudIgtmStrategyListFilters[] | cdktf.IResolvable;
 }
@@ -264,7 +264,7 @@ export interface DataTencentcloudIgtmStrategyListFilters {
   * Whether to enable fuzzy query, only supports filter field name as domain.
   * When fuzzy query is enabled, Value maximum length is 1, otherwise Value maximum length is 5. (Reserved field, currently unused).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#fuzzy DataTencentcloudIgtmStrategyList#fuzzy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#fuzzy DataTencentcloudIgtmStrategyList#fuzzy}
   */
   readonly fuzzy?: boolean | cdktf.IResolvable;
   /**
@@ -272,13 +272,13 @@ export interface DataTencentcloudIgtmStrategyListFilters {
   * - type: main resource type, CDN.
   * - instanceId: IGTM instance ID. This is a required parameter, failure to pass will cause interface query failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#name DataTencentcloudIgtmStrategyList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#name DataTencentcloudIgtmStrategyList#name}
   */
   readonly name: string;
   /**
   * Filter field values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#value DataTencentcloudIgtmStrategyList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#value DataTencentcloudIgtmStrategyList#value}
   */
   readonly value: string[];
 }
@@ -446,7 +446,7 @@ export class DataTencentcloudIgtmStrategyListFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list tencentcloud_igtm_strategy_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list tencentcloud_igtm_strategy_list}
 */
 export class DataTencentcloudIgtmStrategyList extends cdktf.TerraformDataSource {
 
@@ -462,7 +462,7 @@ export class DataTencentcloudIgtmStrategyList extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudIgtmStrategyList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIgtmStrategyList to import
-  * @param importFromId The id of the existing DataTencentcloudIgtmStrategyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIgtmStrategyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIgtmStrategyList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class DataTencentcloudIgtmStrategyList extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_strategy_list tencentcloud_igtm_strategy_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/igtm_strategy_list tencentcloud_igtm_strategy_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class DataTencentcloudIgtmStrategyList extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_igtm_strategy_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

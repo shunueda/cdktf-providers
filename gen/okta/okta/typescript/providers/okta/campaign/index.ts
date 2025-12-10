@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface CampaignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates the minimum required SKU to manage the campaign. Values can be `BASIC` and `PREMIUM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#campaign_tier Campaign#campaign_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#campaign_tier Campaign#campaign_tier}
   */
   readonly campaignTier?: string;
   /**
   * Identifies if it is a resource campaign or a user campaign. By default it is RESOURCE.Values can be `RESOURCE` and `USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#campaign_type Campaign#campaign_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#campaign_type Campaign#campaign_type}
   */
   readonly campaignType?: string;
   /**
   * Description about the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#description Campaign#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#description Campaign#description}
   */
   readonly description?: string;
   /**
   * Name of the campaign. Maintain some uniqueness when naming the campaign as it helps to identify and filter for campaigns when needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#name Campaign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#name Campaign#name}
   */
   readonly name: string;
   /**
   * If true, skip remediation when ending the campaign (only applicable if remediationSetting.noResponse=DENY).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#skip_remediation Campaign#skip_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#skip_remediation Campaign#skip_remediation}
   */
   readonly skipRemediation?: boolean | cdktf.IResolvable;
   /**
   * notification_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notification_settings Campaign#notification_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notification_settings Campaign#notification_settings}
   */
   readonly notificationSettings?: CampaignNotificationSettings;
   /**
   * principal_scope_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#principal_scope_settings Campaign#principal_scope_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#principal_scope_settings Campaign#principal_scope_settings}
   */
   readonly principalScopeSettings?: CampaignPrincipalScopeSettings;
   /**
   * remediation_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#remediation_settings Campaign#remediation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#remediation_settings Campaign#remediation_settings}
   */
   readonly remediationSettings?: CampaignRemediationSettings;
   /**
   * resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_settings Campaign#resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_settings Campaign#resource_settings}
   */
   readonly resourceSettings?: CampaignResourceSettings;
   /**
   * reviewer_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_settings Campaign#reviewer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_settings Campaign#reviewer_settings}
   */
   readonly reviewerSettings?: CampaignReviewerSettings;
   /**
   * schedule_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#schedule_settings Campaign#schedule_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#schedule_settings Campaign#schedule_settings}
   */
   readonly scheduleSettings?: CampaignScheduleSettings;
 }
@@ -78,37 +78,37 @@ export interface CampaignNotificationSettings {
   /**
   * To indicate whether a notification should be sent to the reviewer when a given reviewer level period is about to end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notify_review_period_end Campaign#notify_review_period_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notify_review_period_end Campaign#notify_review_period_end}
   */
   readonly notifyReviewPeriodEnd: boolean | cdktf.IResolvable;
   /**
   * To indicate whether a notification should be sent to the reviewers when campaign has come to an end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notify_reviewer_at_campaign_end Campaign#notify_reviewer_at_campaign_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notify_reviewer_at_campaign_end Campaign#notify_reviewer_at_campaign_end}
   */
   readonly notifyReviewerAtCampaignEnd: boolean | cdktf.IResolvable;
   /**
   * To indicate whether a notification should be sent to the reviewer during the midpoint of the review process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notify_reviewer_during_midpoint_of_review Campaign#notify_reviewer_during_midpoint_of_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notify_reviewer_during_midpoint_of_review Campaign#notify_reviewer_during_midpoint_of_review}
   */
   readonly notifyReviewerDuringMidpointOfReview: boolean | cdktf.IResolvable;
   /**
   * To indicate whether a notification should be sent to the reviewer when the review is overdue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notify_reviewer_when_overdue Campaign#notify_reviewer_when_overdue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notify_reviewer_when_overdue Campaign#notify_reviewer_when_overdue}
   */
   readonly notifyReviewerWhenOverdue: boolean | cdktf.IResolvable;
   /**
   * To indicate whether a notification should be sent to the reviewer when actionable reviews are assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#notify_reviewer_when_review_assigned Campaign#notify_reviewer_when_review_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#notify_reviewer_when_review_assigned Campaign#notify_reviewer_when_review_assigned}
   */
   readonly notifyReviewerWhenReviewAssigned: boolean | cdktf.IResolvable;
   /**
   * Specifies times (in seconds) to send reminders to reviewers before the campaign closes. Max 3 values. Example: [86400, 172800, 604800]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reminders_reviewer_before_campaign_close_in_secs Campaign#reminders_reviewer_before_campaign_close_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reminders_reviewer_before_campaign_close_in_secs Campaign#reminders_reviewer_before_campaign_close_in_secs}
   */
   readonly remindersReviewerBeforeCampaignCloseInSecs?: number[];
 }
@@ -334,7 +334,7 @@ export interface CampaignPrincipalScopeSettingsPredefinedInactiveUsersScope {
   /**
   * The duration the users have not used single sign on (SSO) to access their account within the specific time frame. Minimum 30 days and maximum 365 days are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#inactive_days Campaign#inactive_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#inactive_days Campaign#inactive_days}
   */
   readonly inactiveDays?: number;
 }
@@ -452,49 +452,49 @@ export interface CampaignPrincipalScopeSettings {
   /**
   * An array of Okta user IDs excluded from access certification or the campaign. This field is optional. A maximum of 50 users can be specified in the array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#excluded_user_ids Campaign#excluded_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#excluded_user_ids Campaign#excluded_user_ids}
   */
   readonly excludedUserIds?: string[];
   /**
   * An array of Okta group IDs included from access certification or the campaign. userIds, groupIds or userScopeExpression is required if campaign type is USER. A maximum of 5 groups can be specified in the array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#group_ids Campaign#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#group_ids Campaign#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * If set to true, only active Okta users are included in the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_only_active_users Campaign#include_only_active_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_only_active_users Campaign#include_only_active_users}
   */
   readonly includeOnlyActiveUsers?: boolean | cdktf.IResolvable;
   /**
   * If set to true, only includes users that have at least one SOD conflict that was caused due to entitlement(s) within Campaign scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#only_include_users_with_sod_conflicts Campaign#only_include_users_with_sod_conflicts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#only_include_users_with_sod_conflicts Campaign#only_include_users_with_sod_conflicts}
   */
   readonly onlyIncludeUsersWithSodConflicts?: boolean | cdktf.IResolvable;
   /**
   * Specifies the type for principal_scope_settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#type Campaign#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#type Campaign#type}
   */
   readonly type: string;
   /**
   * An array of Okta user IDs included from access certification or the campaign. userIds, groupIds or userScopeExpression is required if campaign type is USER. A maximum of 100 users can be specified in the array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#user_ids Campaign#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#user_ids Campaign#user_ids}
   */
   readonly userIds?: string[];
   /**
   * The Okta expression language user expression on the resourceSettings to include users in the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#user_scope_expression Campaign#user_scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#user_scope_expression Campaign#user_scope_expression}
   */
   readonly userScopeExpression?: string;
   /**
   * predefined_inactive_users_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#predefined_inactive_users_scope Campaign#predefined_inactive_users_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#predefined_inactive_users_scope Campaign#predefined_inactive_users_scope}
   */
   readonly predefinedInactiveUsersScope?: CampaignPrincipalScopeSettingsPredefinedInactiveUsersScope[] | cdktf.IResolvable;
 }
@@ -790,13 +790,13 @@ export interface CampaignRemediationSettingsAutoRemediationSettingsIncludeOnly {
   /**
   * The ID of the resource to include in the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_id Campaign#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_id Campaign#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The type of the resource to include in the campaign. Valid values are 'APPLICATION', 'GROUP', 'ENTITLEMENT', 'ENTITLEMENT_BUNDLE'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_type Campaign#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_type Campaign#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -943,13 +943,13 @@ export interface CampaignRemediationSettingsAutoRemediationSettings {
   /**
   * If true, all indirect assignments will be included in the campaign. If false, only direct assignments will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_all_indirect_assignments Campaign#include_all_indirect_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_all_indirect_assignments Campaign#include_all_indirect_assignments}
   */
   readonly includeAllIndirectAssignments?: boolean | cdktf.IResolvable;
   /**
   * include_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_only Campaign#include_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_only Campaign#include_only}
   */
   readonly includeOnly?: CampaignRemediationSettingsAutoRemediationSettingsIncludeOnly[] | cdktf.IResolvable;
 }
@@ -1074,25 +1074,25 @@ export interface CampaignRemediationSettings {
   /**
   * Specifies the action by default if the reviewer approves access. NO_ACTION indicates there is no remediation action and the user retains access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#access_approved Campaign#access_approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#access_approved Campaign#access_approved}
   */
   readonly accessApproved: string;
   /**
   * Specifies the action if the reviewer revokes access. NO_ACTION indicates the user retains the same access. DENY indicates the user will have their access revoked as long as they are not assigned to a group through Group Rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#access_revoked Campaign#access_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#access_revoked Campaign#access_revoked}
   */
   readonly accessRevoked: string;
   /**
   * Specifies the action if the reviewer doesn't respond to the request or if the campaign is closed before an action is taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#no_response Campaign#no_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#no_response Campaign#no_response}
   */
   readonly noResponse: string;
   /**
   * auto_remediation_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#auto_remediation_settings Campaign#auto_remediation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#auto_remediation_settings Campaign#auto_remediation_settings}
   */
   readonly autoRemediationSettings?: CampaignRemediationSettingsAutoRemediationSettings;
 }
@@ -1266,13 +1266,13 @@ export interface CampaignResourceSettingsExcludedResources {
   /**
   * The ID of the resource to exclude in the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_id Campaign#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_id Campaign#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The type of resource to exclude in the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_type Campaign#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_type Campaign#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -1419,7 +1419,7 @@ export interface CampaignResourceSettingsTargetResourcesEntitlementBundles {
   /**
   * The ID of the entitlement bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#id Campaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#id Campaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1537,7 +1537,7 @@ export interface CampaignResourceSettingsTargetResourcesEntitlementsValues {
   /**
   * The entitlement value id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#id Campaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#id Campaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1655,7 +1655,7 @@ export interface CampaignResourceSettingsTargetResourcesEntitlements {
   /**
   * The entitlement id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#id Campaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#id Campaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1664,13 +1664,13 @@ export interface CampaignResourceSettingsTargetResourcesEntitlements {
   /**
   * Whether to include all entitlement values. If false we must provide the values property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_all_values Campaign#include_all_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_all_values Campaign#include_all_values}
   */
   readonly includeAllValues?: boolean | cdktf.IResolvable;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#values Campaign#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#values Campaign#values}
   */
   readonly values?: CampaignResourceSettingsTargetResourcesEntitlementsValues[] | cdktf.IResolvable;
 }
@@ -1843,31 +1843,31 @@ export interface CampaignResourceSettingsTargetResources {
   /**
   * Include all entitlements and entitlement bundles for this application. Only applicable if the resourcetype = APPLICATION and Entitlement Management is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_all_entitlements_and_bundles Campaign#include_all_entitlements_and_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_all_entitlements_and_bundles Campaign#include_all_entitlements_and_bundles}
   */
   readonly includeAllEntitlementsAndBundles?: boolean | cdktf.IResolvable;
   /**
   * The resource ID that is being reviewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_id Campaign#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_id Campaign#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of Okta resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#resource_type Campaign#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#resource_type Campaign#resource_type}
   */
   readonly resourceType: string;
   /**
   * entitlement_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#entitlement_bundles Campaign#entitlement_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#entitlement_bundles Campaign#entitlement_bundles}
   */
   readonly entitlementBundles?: CampaignResourceSettingsTargetResourcesEntitlementBundles[] | cdktf.IResolvable;
   /**
   * entitlements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#entitlements Campaign#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#entitlements Campaign#entitlements}
   */
   readonly entitlements?: CampaignResourceSettingsTargetResourcesEntitlements[] | cdktf.IResolvable;
 }
@@ -2095,49 +2095,49 @@ export interface CampaignResourceSettings {
   /**
   * Include admin roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_admin_roles Campaign#include_admin_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_admin_roles Campaign#include_admin_roles}
   */
   readonly includeAdminRoles?: boolean | cdktf.IResolvable;
   /**
   * Include entitlements for this application. This property is only applicable if resource_type = APPLICATION and Entitlement Management is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#include_entitlements Campaign#include_entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#include_entitlements Campaign#include_entitlements}
   */
   readonly includeEntitlements?: boolean | cdktf.IResolvable;
   /**
   * Only include individually assigned apps. This is only applicable if campaign type is USER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#individually_assigned_apps_only Campaign#individually_assigned_apps_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#individually_assigned_apps_only Campaign#individually_assigned_apps_only}
   */
   readonly individuallyAssignedAppsOnly?: boolean | cdktf.IResolvable;
   /**
   * Only include individually assigned groups. This is only applicable if campaign type is USER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#individually_assigned_groups_only Campaign#individually_assigned_groups_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#individually_assigned_groups_only Campaign#individually_assigned_groups_only}
   */
   readonly individuallyAssignedGroupsOnly?: boolean | cdktf.IResolvable;
   /**
   * Only include out-of-policy entitlements. Only applicable if resource_type = APPLICATION and Entitlement Management is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#only_include_out_of_policy_entitlements Campaign#only_include_out_of_policy_entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#only_include_out_of_policy_entitlements Campaign#only_include_out_of_policy_entitlements}
   */
   readonly onlyIncludeOutOfPolicyEntitlements?: boolean | cdktf.IResolvable;
   /**
   * The type of Okta resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#type Campaign#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#type Campaign#type}
   */
   readonly type: string;
   /**
   * excluded_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#excluded_resources Campaign#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#excluded_resources Campaign#excluded_resources}
   */
   readonly excludedResources?: CampaignResourceSettingsExcludedResources[] | cdktf.IResolvable;
   /**
   * target_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#target_resources Campaign#target_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#target_resources Campaign#target_resources}
   */
   readonly targetResources?: CampaignResourceSettingsTargetResources[] | cdktf.IResolvable;
 }
@@ -2433,13 +2433,13 @@ export interface CampaignReviewerSettingsReviewerLevelsStartReview {
   /**
   * The day of the campaign when the review starts. 0 means the first day of the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#on_day Campaign#on_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#on_day Campaign#on_day}
   */
   readonly onDay?: number;
   /**
   * The condition for which, the lower level reviews will move to that level for further review.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#when Campaign#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#when Campaign#when}
   */
   readonly when?: string;
 }
@@ -2586,43 +2586,43 @@ export interface CampaignReviewerSettingsReviewerLevels {
   /**
   * Required when the type=`REVIEWER_EXPRESSION` or type=`RESOURCE_OWNER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#fallback_reviewer_id Campaign#fallback_reviewer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#fallback_reviewer_id Campaign#fallback_reviewer_id}
   */
   readonly fallbackReviewerId?: string;
   /**
   * The ID of the reviewer group to which the reviewer is assigned.This property is required when type=`GROUP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_group_id Campaign#reviewer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_group_id Campaign#reviewer_group_id}
   */
   readonly reviewerGroupId?: string;
   /**
   * The ID of the reviewer to which the reviewer is assigned.This property is required when type=`USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_id Campaign#reviewer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_id Campaign#reviewer_id}
   */
   readonly reviewerId?: string;
   /**
   * This property is required when type=`REVIEWER_EXPRESSION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_scope_expression Campaign#reviewer_scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_scope_expression Campaign#reviewer_scope_expression}
   */
   readonly reviewerScopeExpression?: string;
   /**
   * This property is used to prevent self review.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#self_review_disabled Campaign#self_review_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#self_review_disabled Campaign#self_review_disabled}
   */
   readonly selfReviewDisabled?: boolean | cdktf.IResolvable;
   /**
   * Identifies the kind of reviewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#type Campaign#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#type Campaign#type}
   */
   readonly type: string;
   /**
   * start_review block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#start_review Campaign#start_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#start_review Campaign#start_review}
   */
   readonly startReview?: CampaignReviewerSettingsReviewerLevelsStartReview[] | cdktf.IResolvable;
 }
@@ -2911,59 +2911,59 @@ export interface CampaignReviewerSettings {
   /**
   * When approving or revoking review items, bulk actions are disabled if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#bulk_decision_disabled Campaign#bulk_decision_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#bulk_decision_disabled Campaign#bulk_decision_disabled}
   */
   readonly bulkDecisionDisabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the fallback reviewer. Required when the type=`REVIEWER_EXPRESSION` or type=`RESOURCE_OWNER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#fallback_reviewer_id Campaign#fallback_reviewer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#fallback_reviewer_id Campaign#fallback_reviewer_id}
   */
   readonly fallbackReviewerId?: string;
   /**
   * When approving or revoking review items, a justification is required if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#justification_required Campaign#justification_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#justification_required Campaign#justification_required}
   */
   readonly justificationRequired?: boolean | cdktf.IResolvable;
   /**
   * Reassignment is disabled for reviewers if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reassignment_disabled Campaign#reassignment_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reassignment_disabled Campaign#reassignment_disabled}
   */
   readonly reassignmentDisabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the reviewer group to which the reviewer is assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_group_id Campaign#reviewer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_group_id Campaign#reviewer_group_id}
   */
   readonly reviewerGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_id Campaign#reviewer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_id Campaign#reviewer_id}
   */
   readonly reviewerId?: string;
   /**
   * This property is required when type=`USER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_scope_expression Campaign#reviewer_scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_scope_expression Campaign#reviewer_scope_expression}
   */
   readonly reviewerScopeExpression?: string;
   /**
   * This property is required to be true for resource-centric campaigns when the Okta Admin Console is one of the resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#self_review_disabled Campaign#self_review_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#self_review_disabled Campaign#self_review_disabled}
   */
   readonly selfReviewDisabled?: boolean | cdktf.IResolvable;
   /**
   * Identifies the kind of reviewer for Access Certification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#type Campaign#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#type Campaign#type}
   */
   readonly type: string;
   /**
   * reviewer_levels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#reviewer_levels Campaign#reviewer_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#reviewer_levels Campaign#reviewer_levels}
   */
   readonly reviewerLevels?: CampaignReviewerSettingsReviewerLevels[] | cdktf.IResolvable;
 }
@@ -3317,19 +3317,19 @@ export interface CampaignScheduleSettingsRecurrence {
   /**
   * Specifies when the recurring schedule can have an end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#ends Campaign#ends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#ends Campaign#ends}
   */
   readonly ends?: string;
   /**
   * Recurrence interval specified according to ISO8061 notation for durations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#interval Campaign#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#interval Campaign#interval}
   */
   readonly interval: string;
   /**
   * Specifies when the recurring schedule can have an end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#repeat_on_type Campaign#repeat_on_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#repeat_on_type Campaign#repeat_on_type}
   */
   readonly repeatOnType?: string;
 }
@@ -3502,35 +3502,35 @@ export interface CampaignScheduleSettings {
   /**
   * The duration (in days) that the campaign is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#duration_in_days Campaign#duration_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#duration_in_days Campaign#duration_in_days}
   */
   readonly durationInDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#end_date Campaign#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#end_date Campaign#end_date}
   */
   readonly endDate?: string;
   /**
   * The date on which the campaign is supposed to start. Accepts date in ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#start_date Campaign#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#start_date Campaign#start_date}
   */
   readonly startDate: string;
   /**
   * The time zone in which the campaign is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#time_zone Campaign#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#time_zone Campaign#time_zone}
   */
   readonly timeZone: string;
   /**
   * The type of campaign being scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#type Campaign#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#type Campaign#type}
   */
   readonly type: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#recurrence Campaign#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#recurrence Campaign#recurrence}
   */
   readonly recurrence?: CampaignScheduleSettingsRecurrence[] | cdktf.IResolvable;
 }
@@ -3757,7 +3757,7 @@ export class CampaignScheduleSettingsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign okta_campaign}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign okta_campaign}
 */
 export class Campaign extends cdktf.TerraformResource {
 
@@ -3773,7 +3773,7 @@ export class Campaign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Campaign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Campaign to import
-  * @param importFromId The id of the existing Campaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Campaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Campaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3785,7 +3785,7 @@ export class Campaign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/campaign okta_campaign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/campaign okta_campaign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3796,8 +3796,8 @@ export class Campaign extends cdktf.TerraformResource {
       terraformResourceType: 'okta_campaign',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

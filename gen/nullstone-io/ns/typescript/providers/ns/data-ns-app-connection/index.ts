@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface DataNsAppConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The contract that defines which modules can satisfy this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#contract DataNsAppConnection#contract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#contract DataNsAppConnection#contract}
   */
   readonly contract?: string;
   /**
   * The unique name of the connection within this module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#name DataNsAppConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#name DataNsAppConnection#name}
   */
   readonly name: string;
   /**
   * This data source will cause an error if optional is false and this connection is not configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#optional DataNsAppConnection#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#optional DataNsAppConnection#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * The type of module to satisfy this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#type DataNsAppConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#type DataNsAppConnection#type}
   */
   readonly type?: string;
   /**
   * Defines this connection is satisfied through another ns_connection.
   * Typically, this is set to data.ns_connection.other.name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#via DataNsAppConnection#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#via DataNsAppConnection#via}
   */
   readonly via?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection ns_app_connection}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection ns_app_connection}
 */
 export class DataNsAppConnection extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataNsAppConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsAppConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsAppConnection to import
-  * @param importFromId The id of the existing DataNsAppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsAppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsAppConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataNsAppConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/app_connection ns_app_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/app_connection ns_app_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataNsAppConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns_app_connection',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

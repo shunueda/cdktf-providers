@@ -1,3 +1,3 @@
 # `data_dbtcloud_group`
 
-Refer to the Terraform Registry for docs: [`data_dbtcloud_group`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/group).
+Refer to the Terraform Registry for docs: [`data_dbtcloud_group`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/group).

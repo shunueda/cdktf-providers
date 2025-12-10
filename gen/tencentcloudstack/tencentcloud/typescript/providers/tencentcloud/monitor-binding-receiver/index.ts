@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MonitorBindingReceiverConfig extends cdktf.TerraformMetaArgumen
   /**
   * Policy group ID for binding receivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#group_id MonitorBindingReceiver#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#group_id MonitorBindingReceiver#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#id MonitorBindingReceiver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#id MonitorBindingReceiver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface MonitorBindingReceiverConfig extends cdktf.TerraformMetaArgumen
   /**
   * receivers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#receivers MonitorBindingReceiver#receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#receivers MonitorBindingReceiver#receivers}
   */
   readonly receivers?: MonitorBindingReceiverReceivers;
 }
@@ -31,43 +31,43 @@ export interface MonitorBindingReceiverReceivers {
   /**
   * End of alarm period. Meaning with `start_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#end_time MonitorBindingReceiver#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#end_time MonitorBindingReceiver#end_time}
   */
   readonly endTime?: number;
   /**
   * Method of warning notification.Optional `CALL`,`EMAIL`,`SITE`,`SMS`,`WECHAT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#notify_way MonitorBindingReceiver#notify_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#notify_way MonitorBindingReceiver#notify_way}
   */
   readonly notifyWay: string[];
   /**
   * Alert sending language. Optional `en-US`,`zh-CN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#receive_language MonitorBindingReceiver#receive_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#receive_language MonitorBindingReceiver#receive_language}
   */
   readonly receiveLanguage?: string;
   /**
   * Alarm receive group ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#receiver_group_list MonitorBindingReceiver#receiver_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#receiver_group_list MonitorBindingReceiver#receiver_group_list}
   */
   readonly receiverGroupList?: number[];
   /**
   * Receive type. Optional `group`,`user`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#receiver_type MonitorBindingReceiver#receiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#receiver_type MonitorBindingReceiver#receiver_type}
   */
   readonly receiverType: string;
   /**
   * Alarm receiver ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#receiver_user_list MonitorBindingReceiver#receiver_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#receiver_user_list MonitorBindingReceiver#receiver_user_list}
   */
   readonly receiverUserList?: number[];
   /**
   * Alarm period start time. Valid value ranges: (0~86399). which removes the date after it is converted to Beijing time as a Unix timestamp, for example 7200 means '10:0:0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#start_time MonitorBindingReceiver#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#start_time MonitorBindingReceiver#start_time}
   */
   readonly startTime?: number;
 }
@@ -319,7 +319,7 @@ export class MonitorBindingReceiverReceiversOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver tencentcloud_monitor_binding_receiver}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver tencentcloud_monitor_binding_receiver}
 */
 export class MonitorBindingReceiver extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class MonitorBindingReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorBindingReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorBindingReceiver to import
-  * @param importFromId The id of the existing MonitorBindingReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorBindingReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorBindingReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class MonitorBindingReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_binding_receiver tencentcloud_monitor_binding_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_binding_receiver tencentcloud_monitor_binding_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class MonitorBindingReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_binding_receiver',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface GlobalConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apache Spark connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#apache_spark GlobalConnection#apache_spark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#apache_spark GlobalConnection#apache_spark}
   */
   readonly apacheSpark?: GlobalConnectionApacheSpark;
   /**
   * Athena connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#athena GlobalConnection#athena}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#athena GlobalConnection#athena}
   */
   readonly athena?: GlobalConnectionAthena;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#bigquery GlobalConnection#bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#bigquery GlobalConnection#bigquery}
   */
   readonly bigquery?: GlobalConnectionBigquery;
   /**
   * Databricks connection configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#databricks GlobalConnection#databricks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#databricks GlobalConnection#databricks}
   */
   readonly databricks?: GlobalConnectionDatabricks;
   /**
   * Microsoft Fabric connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#fabric GlobalConnection#fabric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#fabric GlobalConnection#fabric}
   */
   readonly fabric?: GlobalConnectionFabric;
   /**
   * Connection name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#name GlobalConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#name GlobalConnection#name}
   */
   readonly name: string;
   /**
   * External OAuth configuration ID (only Snowflake for now)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#oauth_configuration_id GlobalConnection#oauth_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#oauth_configuration_id GlobalConnection#oauth_configuration_id}
   */
   readonly oauthConfigurationId?: number;
   /**
   * PostgreSQL connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#postgres GlobalConnection#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#postgres GlobalConnection#postgres}
   */
   readonly postgres?: GlobalConnectionPostgres;
   /**
   * Private Link Endpoint ID. This ID can be found using the `privatelink_endpoint` data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#private_link_endpoint_id GlobalConnection#private_link_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#private_link_endpoint_id GlobalConnection#private_link_endpoint_id}
   */
   readonly privateLinkEndpointId?: string;
   /**
   * Redshift connection configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#redshift GlobalConnection#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#redshift GlobalConnection#redshift}
   */
   readonly redshift?: GlobalConnectionRedshift;
   /**
   * Snowflake connection configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#snowflake GlobalConnection#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#snowflake GlobalConnection#snowflake}
   */
   readonly snowflake?: GlobalConnectionSnowflake;
   /**
   * Starburst/Trino connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#starburst GlobalConnection#starburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#starburst GlobalConnection#starburst}
   */
   readonly starburst?: GlobalConnectionStarburst;
   /**
   * Azure Synapse Analytics connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#synapse GlobalConnection#synapse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#synapse GlobalConnection#synapse}
   */
   readonly synapse?: GlobalConnectionSynapse;
   /**
   * Teradata connection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#teradata GlobalConnection#teradata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#teradata GlobalConnection#teradata}
   */
   readonly teradata?: GlobalConnectionTeradata;
 }
@@ -94,55 +94,55 @@ export interface GlobalConnectionApacheSpark {
   /**
   * Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#auth GlobalConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#auth GlobalConnection#auth}
   */
   readonly auth?: string;
   /**
   * Spark cluster for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#cluster GlobalConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#cluster GlobalConnection#cluster}
   */
   readonly cluster: string;
   /**
   * Connection retries. Default=0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#connect_retries GlobalConnection#connect_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#connect_retries GlobalConnection#connect_retries}
   */
   readonly connectRetries?: number;
   /**
   * Connection time out in seconds. Default=10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#connect_timeout GlobalConnection#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#connect_timeout GlobalConnection#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Hostname of the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#host GlobalConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#host GlobalConnection#host}
   */
   readonly host: string;
   /**
   * Authentication method for the connection (http or thrift).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#method GlobalConnection#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#method GlobalConnection#method}
   */
   readonly method: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#organization GlobalConnection#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#organization GlobalConnection#organization}
   */
   readonly organization?: string;
   /**
   * Port for the connection. Default=443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#user GlobalConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#user GlobalConnection#user}
   */
   readonly user?: string;
 }
@@ -461,73 +461,73 @@ export interface GlobalConnectionAthena {
   /**
   * Specify the database (data catalog) to build models into (lowercase only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#database GlobalConnection#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#database GlobalConnection#database}
   */
   readonly database: string;
   /**
   * Number of times to retry boto3 requests (e.g. deleting S3 files for materialized tables).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#num_boto3_retries GlobalConnection#num_boto3_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#num_boto3_retries GlobalConnection#num_boto3_retries}
   */
   readonly numBoto3Retries?: number;
   /**
   * Number of times to retry iceberg commit queries to fix ICEBERG_COMMIT_ERROR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#num_iceberg_retries GlobalConnection#num_iceberg_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#num_iceberg_retries GlobalConnection#num_iceberg_retries}
   */
   readonly numIcebergRetries?: number;
   /**
   * Number of times to retry a failing query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#num_retries GlobalConnection#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#num_retries GlobalConnection#num_retries}
   */
   readonly numRetries?: number;
   /**
   * Interval in seconds to use for polling the status of query results in Athena.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#poll_interval GlobalConnection#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#poll_interval GlobalConnection#poll_interval}
   */
   readonly pollInterval?: number;
   /**
   * AWS region of your Athena instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#region_name GlobalConnection#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#region_name GlobalConnection#region_name}
   */
   readonly regionName: string;
   /**
   * Prefix for storing tables, if different from the connection's S3 staging directory. Must be in the format 's3://bucket-name/path/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#s3_data_dir GlobalConnection#s3_data_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#s3_data_dir GlobalConnection#s3_data_dir}
   */
   readonly s3DataDir?: string;
   /**
   * How to generate table paths in the S3 data directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#s3_data_naming GlobalConnection#s3_data_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#s3_data_naming GlobalConnection#s3_data_naming}
   */
   readonly s3DataNaming?: string;
   /**
   * S3 location to store Athena query results and metadata. Must be in the format 's3://bucket-name/path/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#s3_staging_dir GlobalConnection#s3_staging_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#s3_staging_dir GlobalConnection#s3_staging_dir}
   */
   readonly s3StagingDir: string;
   /**
   * Prefix for storing temporary tables, if different from the connection's S3 data directory. Must be in the format 's3://bucket-name/path/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#s3_tmp_table_dir GlobalConnection#s3_tmp_table_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#s3_tmp_table_dir GlobalConnection#s3_tmp_table_dir}
   */
   readonly s3TmpTableDir?: string;
   /**
   * Identifier of Athena Spark workgroup for running Python models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#spark_work_group GlobalConnection#spark_work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#spark_work_group GlobalConnection#spark_work_group}
   */
   readonly sparkWorkGroup?: string;
   /**
   * Identifier of Athena workgroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#work_group GlobalConnection#work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#work_group GlobalConnection#work_group}
   */
   readonly workGroup?: string;
 }
@@ -933,157 +933,157 @@ export interface GlobalConnectionBigquery {
   /**
   * OAuth Client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#application_id GlobalConnection#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#application_id GlobalConnection#application_id}
   */
   readonly applicationId?: string;
   /**
   * OAuth Client Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#application_secret GlobalConnection#application_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#application_secret GlobalConnection#application_secret}
   */
   readonly applicationSecret?: string;
   /**
   * Auth Provider X509 Cert URL for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#auth_provider_x509_cert_url GlobalConnection#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#auth_provider_x509_cert_url GlobalConnection#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl: string;
   /**
   * Auth URI for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#auth_uri GlobalConnection#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#auth_uri GlobalConnection#auth_uri}
   */
   readonly authUri: string;
   /**
   * Service Account email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_email GlobalConnection#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_email GlobalConnection#client_email}
   */
   readonly clientEmail: string;
   /**
   * Client ID of the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_id GlobalConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_id GlobalConnection#client_id}
   */
   readonly clientId: string;
   /**
   * Client X509 Cert URL for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_x509_cert_url GlobalConnection#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_x509_cert_url GlobalConnection#client_x509_cert_url}
   */
   readonly clientX509CertUrl: string;
   /**
   * Dataproc cluster name for PySpark workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#dataproc_cluster_name GlobalConnection#dataproc_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#dataproc_cluster_name GlobalConnection#dataproc_cluster_name}
   */
   readonly dataprocClusterName?: string;
   /**
   * Google Cloud region for PySpark workloads on Dataproc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#dataproc_region GlobalConnection#dataproc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#dataproc_region GlobalConnection#dataproc_region}
   */
   readonly dataprocRegion?: string;
   /**
   * Project to bill for query execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#execution_project GlobalConnection#execution_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#execution_project GlobalConnection#execution_project}
   */
   readonly executionProject?: string;
   /**
   * The GCP project ID to use for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#gcp_project_id GlobalConnection#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#gcp_project_id GlobalConnection#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
   * URI for a Google Cloud Storage bucket to host Python code executed via Datapro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#gcs_bucket GlobalConnection#gcs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#gcs_bucket GlobalConnection#gcs_bucket}
   */
   readonly gcsBucket?: string;
   /**
   * Service Account to impersonate when running queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#impersonate_service_account GlobalConnection#impersonate_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#impersonate_service_account GlobalConnection#impersonate_service_account}
   */
   readonly impersonateServiceAccount?: string;
   /**
   * Maximum timeout for the job creation step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#job_creation_timeout_seconds GlobalConnection#job_creation_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#job_creation_timeout_seconds GlobalConnection#job_creation_timeout_seconds}
   */
   readonly jobCreationTimeoutSeconds?: number;
   /**
   * Timeout in seconds for job execution, to be used for the bigquery_v1 adapter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#job_execution_timeout_seconds GlobalConnection#job_execution_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#job_execution_timeout_seconds GlobalConnection#job_execution_timeout_seconds}
   */
   readonly jobExecutionTimeoutSeconds?: number;
   /**
   * Total number of seconds to wait while retrying the same query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#job_retry_deadline_seconds GlobalConnection#job_retry_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#job_retry_deadline_seconds GlobalConnection#job_retry_deadline_seconds}
   */
   readonly jobRetryDeadlineSeconds?: number;
   /**
   * Location to create new Datasets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#location GlobalConnection#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#location GlobalConnection#location}
   */
   readonly location?: string;
   /**
   * Max number of bytes that can be billed for a given BigQuery query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#maximum_bytes_billed GlobalConnection#maximum_bytes_billed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#maximum_bytes_billed GlobalConnection#maximum_bytes_billed}
   */
   readonly maximumBytesBilled?: number;
   /**
   * The priority with which to execute BigQuery queries (batch or interactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#priority GlobalConnection#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#priority GlobalConnection#priority}
   */
   readonly priority?: string;
   /**
   * Private Key for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#private_key GlobalConnection#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#private_key GlobalConnection#private_key}
   */
   readonly privateKey: string;
   /**
   * Private Key ID for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#private_key_id GlobalConnection#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#private_key_id GlobalConnection#private_key_id}
   */
   readonly privateKeyId: string;
   /**
   * Number of retries for queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#retries GlobalConnection#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#retries GlobalConnection#retries}
   */
   readonly retries?: number;
   /**
   * OAuth scopes for the BigQuery connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#scopes GlobalConnection#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#scopes GlobalConnection#scopes}
   */
   readonly scopes?: string[];
   /**
   * Timeout in seconds for queries, to be used ONLY for the bigquery_v0 adapter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#timeout_seconds GlobalConnection#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#timeout_seconds GlobalConnection#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Token URI for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#token_uri GlobalConnection#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#token_uri GlobalConnection#token_uri}
   */
   readonly tokenUri: string;
   /**
   * Whether to use the latest bigquery_v1 adapter (use this for BQ WIF). If true, the `job_execution_timeout_seconds` field will be used. Warning! changing the adapter version (from legacy to latest or vice versa) is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#use_latest_adapter GlobalConnection#use_latest_adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#use_latest_adapter GlobalConnection#use_latest_adapter}
   */
   readonly useLatestAdapter?: boolean | cdktf.IResolvable;
 }
@@ -1877,31 +1877,31 @@ export interface GlobalConnectionDatabricks {
   /**
   * Catalog name if Unity Catalog is enabled in your Databricks workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#catalog GlobalConnection#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#catalog GlobalConnection#catalog}
   */
   readonly catalog?: string;
   /**
   * Required to enable Databricks OAuth authentication for IDE developers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_id GlobalConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_id GlobalConnection#client_id}
   */
   readonly clientId?: string;
   /**
   * Required to enable Databricks OAuth authentication for IDE developers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_secret GlobalConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_secret GlobalConnection#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The hostname of the Databricks cluster or SQL warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#host GlobalConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#host GlobalConnection#host}
   */
   readonly host: string;
   /**
   * The HTTP path of the Databricks cluster or SQL warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#http_path GlobalConnection#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#http_path GlobalConnection#http_path}
   */
   readonly httpPath: string;
 }
@@ -2107,37 +2107,37 @@ export interface GlobalConnectionFabric {
   /**
   * The database to connect to for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#database GlobalConnection#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#database GlobalConnection#database}
   */
   readonly database: string;
   /**
   * The number of seconds used to establish a connection before failing. Defaults to 0, which means that the timeout is disabled or uses the default system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#login_timeout GlobalConnection#login_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#login_timeout GlobalConnection#login_timeout}
   */
   readonly loginTimeout?: number;
   /**
   * The port to connect to for this connection. Default=1433
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
   /**
   * The number of seconds used to wait for a query before failing. Defaults to 0, which means that the timeout is disabled or uses the default system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#query_timeout GlobalConnection#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#query_timeout GlobalConnection#query_timeout}
   */
   readonly queryTimeout?: number;
   /**
   * The number of automatic times to retry a query before failing. Defaults to 1. Queries with syntax errors will not be retried. This setting can be used to overcome intermittent network issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#retries GlobalConnection#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#retries GlobalConnection#retries}
   */
   readonly retries?: number;
   /**
   * The server hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#server GlobalConnection#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#server GlobalConnection#server}
   */
   readonly server: string;
 }
@@ -2372,19 +2372,19 @@ export interface GlobalConnectionPostgresSshTunnel {
   /**
   * The hostname for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#hostname GlobalConnection#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#hostname GlobalConnection#hostname}
   */
   readonly hostname: string;
   /**
   * The HTTP port for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port: number;
   /**
   * The username to use for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#username GlobalConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#username GlobalConnection#username}
   */
   readonly username: string;
 }
@@ -2539,25 +2539,25 @@ export interface GlobalConnectionPostgres {
   /**
   * The database name for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#dbname GlobalConnection#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#dbname GlobalConnection#dbname}
   */
   readonly dbname: string;
   /**
   * The hostname of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#hostname GlobalConnection#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#hostname GlobalConnection#hostname}
   */
   readonly hostname: string;
   /**
   * The port to connect to for this connection. Default=5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
   /**
   * PostgreSQL SSH Tunnel configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#ssh_tunnel GlobalConnection#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#ssh_tunnel GlobalConnection#ssh_tunnel}
   */
   readonly sshTunnel?: GlobalConnectionPostgresSshTunnel;
 }
@@ -2734,19 +2734,19 @@ export interface GlobalConnectionRedshiftSshTunnel {
   /**
   * The hostname for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#hostname GlobalConnection#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#hostname GlobalConnection#hostname}
   */
   readonly hostname: string;
   /**
   * The HTTP port for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port: number;
   /**
   * The username to use for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#username GlobalConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#username GlobalConnection#username}
   */
   readonly username: string;
 }
@@ -2901,25 +2901,25 @@ export interface GlobalConnectionRedshift {
   /**
   * The database name for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#dbname GlobalConnection#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#dbname GlobalConnection#dbname}
   */
   readonly dbname: string;
   /**
   * The hostname of the data warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#hostname GlobalConnection#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#hostname GlobalConnection#hostname}
   */
   readonly hostname: string;
   /**
   * The port to connect to for this connection. Default=5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
   /**
   * Redshift SSH Tunnel configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#ssh_tunnel GlobalConnection#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#ssh_tunnel GlobalConnection#ssh_tunnel}
   */
   readonly sshTunnel?: GlobalConnectionRedshiftSshTunnel;
 }
@@ -3096,49 +3096,49 @@ export interface GlobalConnectionSnowflake {
   /**
   * The Snowflake account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#account GlobalConnection#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#account GlobalConnection#account}
   */
   readonly account: string;
   /**
   * Whether to allow Snowflake OAuth for the connection. If true, the `oauth_client_id` and `oauth_client_secret` fields must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#allow_sso GlobalConnection#allow_sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#allow_sso GlobalConnection#allow_sso}
   */
   readonly allowSso?: boolean | cdktf.IResolvable;
   /**
   * If true, the snowflake client will keep connections for longer than the default 4 hours. This is helpful when particularly long-running queries are executing (> 4 hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#client_session_keep_alive GlobalConnection#client_session_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#client_session_keep_alive GlobalConnection#client_session_keep_alive}
   */
   readonly clientSessionKeepAlive?: boolean | cdktf.IResolvable;
   /**
   * The default database for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#database GlobalConnection#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#database GlobalConnection#database}
   */
   readonly database: string;
   /**
   * OAuth Client ID. Required to allow OAuth between dbt Cloud and Snowflake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#oauth_client_id GlobalConnection#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#oauth_client_id GlobalConnection#oauth_client_id}
   */
   readonly oauthClientId?: string;
   /**
   * OAuth Client Secret. Required to allow OAuth between dbt Cloud and Snowflake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#oauth_client_secret GlobalConnection#oauth_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#oauth_client_secret GlobalConnection#oauth_client_secret}
   */
   readonly oauthClientSecret?: string;
   /**
   * The Snowflake role to use when running queries on the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#role GlobalConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#role GlobalConnection#role}
   */
   readonly role?: string;
   /**
   * The default Snowflake Warehouse to use for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#warehouse GlobalConnection#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#warehouse GlobalConnection#warehouse}
   */
   readonly warehouse: string;
 }
@@ -3428,19 +3428,19 @@ export interface GlobalConnectionStarburst {
   /**
   * The hostname of the account to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#host GlobalConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#host GlobalConnection#host}
   */
   readonly host: string;
   /**
   * The authentication method. Only LDAP for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#method GlobalConnection#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#method GlobalConnection#method}
   */
   readonly method?: string;
   /**
   * The port to connect to for this connection. Default=443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
 }
@@ -3591,37 +3591,37 @@ export interface GlobalConnectionSynapse {
   /**
   * The database to connect to for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#database GlobalConnection#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#database GlobalConnection#database}
   */
   readonly database: string;
   /**
   * The server hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#host GlobalConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#host GlobalConnection#host}
   */
   readonly host: string;
   /**
   * The number of seconds used to establish a connection before failing. Defaults to 0, which means that the timeout is disabled or uses the default system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#login_timeout GlobalConnection#login_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#login_timeout GlobalConnection#login_timeout}
   */
   readonly loginTimeout?: number;
   /**
   * The port to connect to for this connection. Default=1433
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: number;
   /**
   * The number of seconds used to wait for a query before failing. Defaults to 0, which means that the timeout is disabled or uses the default system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#query_timeout GlobalConnection#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#query_timeout GlobalConnection#query_timeout}
   */
   readonly queryTimeout?: number;
   /**
   * The number of automatic times to retry a query before failing. Defaults to 1. Queries with syntax errors will not be retried. This setting can be used to overcome intermittent network issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#retries GlobalConnection#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#retries GlobalConnection#retries}
   */
   readonly retries?: number;
 }
@@ -3856,31 +3856,31 @@ export interface GlobalConnectionTeradata {
   /**
   * The hostname of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#host GlobalConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#host GlobalConnection#host}
   */
   readonly host: string;
   /**
   * The port to connect to for this connection. Default=1025
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#port GlobalConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#port GlobalConnection#port}
   */
   readonly port?: string;
   /**
   * The number of seconds used to establish a connection before failing. Defaults to 0, which means that the timeout is disabled or uses the default system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#request_timeout GlobalConnection#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#request_timeout GlobalConnection#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * The number of automatic times to retry a query before failing. Defaults to 1. Queries with syntax errors will not be retried. This setting can be used to overcome intermittent network issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#retries GlobalConnection#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#retries GlobalConnection#retries}
   */
   readonly retries?: number;
   /**
   * The transaction mode to use for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#tmode GlobalConnection#tmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#tmode GlobalConnection#tmode}
   */
   readonly tmode: string;
 }
@@ -4084,7 +4084,7 @@ export class GlobalConnectionTeradataOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection dbtcloud_global_connection}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection dbtcloud_global_connection}
 */
 export class GlobalConnection extends cdktf.TerraformResource {
 
@@ -4100,7 +4100,7 @@ export class GlobalConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalConnection to import
-  * @param importFromId The id of the existing GlobalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4112,7 +4112,7 @@ export class GlobalConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/global_connection dbtcloud_global_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/global_connection dbtcloud_global_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4123,8 +4123,8 @@ export class GlobalConnection extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_global_connection',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

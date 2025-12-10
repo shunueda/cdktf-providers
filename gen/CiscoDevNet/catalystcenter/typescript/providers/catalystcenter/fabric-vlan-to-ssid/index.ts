@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface FabricVlanToSsidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fabric ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#fabric_id FabricVlanToSsid#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#fabric_id FabricVlanToSsid#fabric_id}
   */
   readonly fabricId: string;
   /**
   * List of VLAN to SSID mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#mappings FabricVlanToSsid#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#mappings FabricVlanToSsid#mappings}
   */
   readonly mappings: FabricVlanToSsidMappings[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface FabricVlanToSsidMappingsSsidDetails {
   /**
   * Name of the SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#name FabricVlanToSsid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#name FabricVlanToSsid#name}
   */
   readonly name: string;
   /**
   * Represents the name of the Security Group. Example: Auditors, BYOD, Developers, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#security_group_tag FabricVlanToSsid#security_group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#security_group_tag FabricVlanToSsid#security_group_tag}
   */
   readonly securityGroupTag?: string;
 }
@@ -174,13 +174,13 @@ export interface FabricVlanToSsidMappings {
   /**
   * SSID Details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#ssid_details FabricVlanToSsid#ssid_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#ssid_details FabricVlanToSsid#ssid_details}
   */
   readonly ssidDetails?: FabricVlanToSsidMappingsSsidDetails[] | cdktf.IResolvable;
   /**
   * VLAN Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#vlan_name FabricVlanToSsid#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#vlan_name FabricVlanToSsid#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -325,7 +325,7 @@ export class FabricVlanToSsidMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid catalystcenter_fabric_vlan_to_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid catalystcenter_fabric_vlan_to_ssid}
 */
 export class FabricVlanToSsid extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class FabricVlanToSsid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricVlanToSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricVlanToSsid to import
-  * @param importFromId The id of the existing FabricVlanToSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricVlanToSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricVlanToSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class FabricVlanToSsid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_vlan_to_ssid catalystcenter_fabric_vlan_to_ssid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_vlan_to_ssid catalystcenter_fabric_vlan_to_ssid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class FabricVlanToSsid extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_vlan_to_ssid',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

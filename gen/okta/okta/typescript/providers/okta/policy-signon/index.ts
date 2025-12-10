@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicySignonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#description PolicySignon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#description PolicySignon#description}
   */
   readonly description?: string;
   /**
   * List of Group IDs to Include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#groups_included PolicySignon#groups_included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#groups_included PolicySignon#groups_included}
   */
   readonly groupsIncluded?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#id PolicySignon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#id PolicySignon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface PolicySignonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#name PolicySignon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#name PolicySignon#name}
   */
   readonly name: string;
   /**
   * Policy Priority, this attribute can be set to a valid priority. To avoid endless diff situation we error if an invalid priority is provided. API defaults it to the last (lowest) if not there.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#priority PolicySignon#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#priority PolicySignon#priority}
   */
   readonly priority?: number;
   /**
   * Policy Status: `ACTIVE` or `INACTIVE`. Default: `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#status PolicySignon#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#status PolicySignon#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon okta_policy_signon}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon okta_policy_signon}
 */
 export class PolicySignon extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class PolicySignon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySignon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySignon to import
-  * @param importFromId The id of the existing PolicySignon that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySignon that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySignon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class PolicySignon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_signon okta_policy_signon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_signon okta_policy_signon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class PolicySignon extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_signon',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

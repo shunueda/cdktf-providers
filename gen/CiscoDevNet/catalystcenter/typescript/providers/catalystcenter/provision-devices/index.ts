@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ProvisionDevicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of devices to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#provision_devices ProvisionDevices#provision_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#provision_devices ProvisionDevices#provision_devices}
   */
   readonly provisionDevices: ProvisionDevicesProvisionDevices[] | cdktf.IResolvable;
   /**
   * Site Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#site_id ProvisionDevices#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#site_id ProvisionDevices#site_id}
   */
   readonly siteId: string;
 }
@@ -24,19 +24,19 @@ export interface ProvisionDevicesProvisionDevices {
   /**
   * ID of network device to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#network_device_id ProvisionDevices#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#network_device_id ProvisionDevices#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Flag to indicate whether the device should be reprovisioned. If set to `true`, reprovisioning will be triggered on every Terraform apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#reprovision ProvisionDevices#reprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#reprovision ProvisionDevices#reprovision}
   */
   readonly reprovision?: boolean | cdktf.IResolvable;
   /**
   * ID of the site this network device needs to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#site_id ProvisionDevices#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#site_id ProvisionDevices#site_id}
   */
   readonly siteId: string;
 }
@@ -209,7 +209,7 @@ export class ProvisionDevicesProvisionDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices catalystcenter_provision_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices catalystcenter_provision_devices}
 */
 export class ProvisionDevices extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class ProvisionDevices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProvisionDevices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProvisionDevices to import
-  * @param importFromId The id of the existing ProvisionDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProvisionDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProvisionDevices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class ProvisionDevices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/provision_devices catalystcenter_provision_devices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_devices catalystcenter_provision_devices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class ProvisionDevices extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_provision_devices',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

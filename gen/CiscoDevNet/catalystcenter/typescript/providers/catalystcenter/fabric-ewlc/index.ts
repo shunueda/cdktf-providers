@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,37 +11,37 @@ export interface FabricEwlcConfig extends cdktf.TerraformMetaArguments {
   * Percentage of APs to reboot during rolling upgrade
   *   - Choices: `5`, `15`, `25`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#ap_reboot_percentage FabricEwlc#ap_reboot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#ap_reboot_percentage FabricEwlc#ap_reboot_percentage}
   */
   readonly apRebootPercentage?: number;
   /**
   * Flag to enable or disable rolling AP upgrades
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#enable_rolling_ap_upgrade FabricEwlc#enable_rolling_ap_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#enable_rolling_ap_upgrade FabricEwlc#enable_rolling_ap_upgrade}
   */
   readonly enableRollingApUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable or disable embedded wireless capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#enable_wireless FabricEwlc#enable_wireless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#enable_wireless FabricEwlc#enable_wireless}
   */
   readonly enableWireless: boolean | cdktf.IResolvable;
   /**
   * Fabric Site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#fabric_id FabricEwlc#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#fabric_id FabricEwlc#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Network Device ID of the wireless capable switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#network_device_id FabricEwlc#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#network_device_id FabricEwlc#network_device_id}
   */
   readonly networkDeviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc catalystcenter_fabric_ewlc}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc catalystcenter_fabric_ewlc}
 */
 export class FabricEwlc extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class FabricEwlc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricEwlc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricEwlc to import
-  * @param importFromId The id of the existing FabricEwlc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricEwlc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricEwlc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class FabricEwlc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_ewlc catalystcenter_fabric_ewlc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_ewlc catalystcenter_fabric_ewlc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class FabricEwlc extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_ewlc',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

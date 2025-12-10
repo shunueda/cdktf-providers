@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NsProviderConfig {
   /**
   * Configure provider with the context of the capability's id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs#capability_id NsProvider#capability_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs#capability_id NsProvider#capability_id}
   */
   readonly capabilityId?: number;
   /**
   * Configure provider with the context of the capability's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs#capability_name NsProvider#capability_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs#capability_name NsProvider#capability_name}
   */
   readonly capabilityName?: string;
   /**
   * Configure provider with this organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs#organization NsProvider#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs#organization NsProvider#organization}
   */
   readonly organization?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs#alias NsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs#alias NsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs ns}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs ns}
 */
 export class NsProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class NsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NsProvider to import
-  * @param importFromId The id of the existing NsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs ns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs ns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ns',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       terraformProviderSource: 'nullstone-io/ns'
     });

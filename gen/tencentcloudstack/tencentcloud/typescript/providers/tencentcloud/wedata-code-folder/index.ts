@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WedataCodeFolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Folder name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder#folder_name WedataCodeFolder#folder_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder#folder_name WedataCodeFolder#folder_name}
   */
   readonly folderName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder#id WedataCodeFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder#id WedataCodeFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface WedataCodeFolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parent folder path, for example /aaa/bbb/ccc, path header must start with a slash, root directory pass /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder#parent_folder_path WedataCodeFolder#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder#parent_folder_path WedataCodeFolder#parent_folder_path}
   */
   readonly parentFolderPath: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder#project_id WedataCodeFolder#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder#project_id WedataCodeFolder#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder tencentcloud_wedata_code_folder}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder tencentcloud_wedata_code_folder}
 */
 export class WedataCodeFolder extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class WedataCodeFolder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataCodeFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataCodeFolder to import
-  * @param importFromId The id of the existing WedataCodeFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataCodeFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataCodeFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class WedataCodeFolder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_code_folder tencentcloud_wedata_code_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_code_folder tencentcloud_wedata_code_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class WedataCodeFolder extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_code_folder',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

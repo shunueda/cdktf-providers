@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoOriginAclConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#id TeoOriginAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#id TeoOriginAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface TeoOriginAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * he list of L4 proxy Instances that require enabling origin ACLs. This list must be empty when the request parameter L4EnableMode is set to 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#l4_proxy_ids TeoOriginAcl#l4_proxy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#l4_proxy_ids TeoOriginAcl#l4_proxy_ids}
   */
   readonly l4ProxyIds?: string[];
   /**
   * The list of L7 acceleration domains that require enabling the origin ACLs. This list must be empty when the request parameter L7EnableMode is set to 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#l7_hosts TeoOriginAcl#l7_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#l7_hosts TeoOriginAcl#l7_hosts}
   */
   readonly l7Hosts?: string[];
   /**
   * Specifies the site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#zone_id TeoOriginAcl#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#zone_id TeoOriginAcl#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#timeouts TeoOriginAcl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#timeouts TeoOriginAcl#timeouts}
   */
   readonly timeouts?: TeoOriginAclTimeouts;
 }
 export interface TeoOriginAclTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#create TeoOriginAcl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#create TeoOriginAcl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#delete TeoOriginAcl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#delete TeoOriginAcl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#update TeoOriginAcl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#update TeoOriginAcl#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class TeoOriginAclTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl tencentcloud_teo_origin_acl}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl tencentcloud_teo_origin_acl}
 */
 export class TeoOriginAcl extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class TeoOriginAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoOriginAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoOriginAcl to import
-  * @param importFromId The id of the existing TeoOriginAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoOriginAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoOriginAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class TeoOriginAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_origin_acl tencentcloud_teo_origin_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_origin_acl tencentcloud_teo_origin_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class TeoOriginAcl extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_origin_acl',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

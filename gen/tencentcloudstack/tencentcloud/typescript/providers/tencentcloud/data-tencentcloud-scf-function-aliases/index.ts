@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudScfFunctionAliasesConfig extends cdktf.Terrafor
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#function_name DataTencentcloudScfFunctionAliases#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#function_name DataTencentcloudScfFunctionAliases#function_name}
   */
   readonly functionName: string;
   /**
   * If this parameter is provided, only aliases associated with this function version will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#function_version DataTencentcloudScfFunctionAliases#function_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#function_version DataTencentcloudScfFunctionAliases#function_version}
   */
   readonly functionVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#id DataTencentcloudScfFunctionAliases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#id DataTencentcloudScfFunctionAliases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudScfFunctionAliasesConfig extends cdktf.Terrafor
   /**
   * Function namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#namespace DataTencentcloudScfFunctionAliases#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#namespace DataTencentcloudScfFunctionAliases#namespace}
   */
   readonly namespace?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#result_output_file DataTencentcloudScfFunctionAliases#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#result_output_file DataTencentcloudScfFunctionAliases#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -394,7 +394,7 @@ export class DataTencentcloudScfFunctionAliasesAliasesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases tencentcloud_scf_function_aliases}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases tencentcloud_scf_function_aliases}
 */
 export class DataTencentcloudScfFunctionAliases extends cdktf.TerraformDataSource {
 
@@ -410,7 +410,7 @@ export class DataTencentcloudScfFunctionAliases extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudScfFunctionAliases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudScfFunctionAliases to import
-  * @param importFromId The id of the existing DataTencentcloudScfFunctionAliases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudScfFunctionAliases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudScfFunctionAliases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -422,7 +422,7 @@ export class DataTencentcloudScfFunctionAliases extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/scf_function_aliases tencentcloud_scf_function_aliases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/scf_function_aliases tencentcloud_scf_function_aliases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,8 +433,8 @@ export class DataTencentcloudScfFunctionAliases extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_scf_function_aliases',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

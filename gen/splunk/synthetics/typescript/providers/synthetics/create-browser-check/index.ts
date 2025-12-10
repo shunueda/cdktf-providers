@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,156 +8,156 @@ import * as cdktf from 'cdktf';
 
 export interface CreateBrowserCheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#auto_retry CreateBrowserCheck#auto_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#auto_retry CreateBrowserCheck#auto_retry}
   */
   readonly autoRetry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#auto_update_user_agent CreateBrowserCheck#auto_update_user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#auto_update_user_agent CreateBrowserCheck#auto_update_user_agent}
   */
   readonly autoUpdateUserAgent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#enabled CreateBrowserCheck#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#enabled CreateBrowserCheck#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#enforce_ssl_validation CreateBrowserCheck#enforce_ssl_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#enforce_ssl_validation CreateBrowserCheck#enforce_ssl_validation}
   */
   readonly enforceSslValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#frequency CreateBrowserCheck#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#frequency CreateBrowserCheck#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#http_method CreateBrowserCheck#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#http_method CreateBrowserCheck#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#http_request_body CreateBrowserCheck#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#http_request_body CreateBrowserCheck#http_request_body}
   */
   readonly httpRequestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#id CreateBrowserCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#id CreateBrowserCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#integrations CreateBrowserCheck#integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#integrations CreateBrowserCheck#integrations}
   */
   readonly integrations?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#last_updated CreateBrowserCheck#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#last_updated CreateBrowserCheck#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#locations CreateBrowserCheck#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#locations CreateBrowserCheck#locations}
   */
   readonly locations?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#name CreateBrowserCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#name CreateBrowserCheck#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#round_robin CreateBrowserCheck#round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#round_robin CreateBrowserCheck#round_robin}
   */
   readonly roundRobin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#tags CreateBrowserCheck#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#tags CreateBrowserCheck#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#type CreateBrowserCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#type CreateBrowserCheck#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#url CreateBrowserCheck#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#url CreateBrowserCheck#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#user_agent CreateBrowserCheck#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#user_agent CreateBrowserCheck#user_agent}
   */
   readonly userAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#wait_for_full_metrics CreateBrowserCheck#wait_for_full_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#wait_for_full_metrics CreateBrowserCheck#wait_for_full_metrics}
   */
   readonly waitForFullMetrics?: boolean | cdktf.IResolvable;
   /**
   * blackout_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#blackout_periods CreateBrowserCheck#blackout_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#blackout_periods CreateBrowserCheck#blackout_periods}
   */
   readonly blackoutPeriods?: CreateBrowserCheckBlackoutPeriods[] | cdktf.IResolvable;
   /**
   * browser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#browser CreateBrowserCheck#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#browser CreateBrowserCheck#browser}
   */
   readonly browser?: CreateBrowserCheckBrowser[] | cdktf.IResolvable;
   /**
   * check_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#check_connection CreateBrowserCheck#check_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#check_connection CreateBrowserCheck#check_connection}
   */
   readonly checkConnection?: CreateBrowserCheckCheckConnection[] | cdktf.IResolvable;
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#cookies CreateBrowserCheck#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#cookies CreateBrowserCheck#cookies}
   */
   readonly cookies?: CreateBrowserCheckCookies[] | cdktf.IResolvable;
   /**
   * dns_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#dns_overrides CreateBrowserCheck#dns_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#dns_overrides CreateBrowserCheck#dns_overrides}
   */
   readonly dnsOverrides?: CreateBrowserCheckDnsOverrides[] | cdktf.IResolvable;
   /**
   * excluded_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#excluded_files CreateBrowserCheck#excluded_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#excluded_files CreateBrowserCheck#excluded_files}
   */
   readonly excludedFiles?: CreateBrowserCheckExcludedFiles[] | cdktf.IResolvable;
   /**
   * http_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#http_request_headers CreateBrowserCheck#http_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#http_request_headers CreateBrowserCheck#http_request_headers}
   */
   readonly httpRequestHeaders?: CreateBrowserCheckHttpRequestHeaders[] | cdktf.IResolvable;
   /**
   * javascript_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#javascript_files CreateBrowserCheck#javascript_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#javascript_files CreateBrowserCheck#javascript_files}
   */
   readonly javascriptFiles?: CreateBrowserCheckJavascriptFiles[] | cdktf.IResolvable;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notifications CreateBrowserCheck#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notifications CreateBrowserCheck#notifications}
   */
   readonly notifications?: CreateBrowserCheckNotifications[] | cdktf.IResolvable;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#steps CreateBrowserCheck#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#steps CreateBrowserCheck#steps}
   */
   readonly steps?: CreateBrowserCheckSteps[] | cdktf.IResolvable;
   /**
   * success_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#success_criteria CreateBrowserCheck#success_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#success_criteria CreateBrowserCheck#success_criteria}
   */
   readonly successCriteria?: CreateBrowserCheckSuccessCriteria[] | cdktf.IResolvable;
   /**
   * threshold_monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#threshold_monitors CreateBrowserCheck#threshold_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#threshold_monitors CreateBrowserCheck#threshold_monitors}
   */
   readonly thresholdMonitors?: CreateBrowserCheckThresholdMonitors[] | cdktf.IResolvable;
   /**
   * viewport block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#viewport CreateBrowserCheck#viewport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#viewport CreateBrowserCheck#viewport}
   */
   readonly viewport?: CreateBrowserCheckViewport[] | cdktf.IResolvable;
 }
@@ -299,7 +299,7 @@ export class CreateBrowserCheckBlackoutPeriodsList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckBrowser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#type CreateBrowserCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#type CreateBrowserCheck#type}
   */
   readonly type?: string;
 }
@@ -415,19 +415,19 @@ export class CreateBrowserCheckBrowserList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckCheckConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#download_bandwidth CreateBrowserCheck#download_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#download_bandwidth CreateBrowserCheck#download_bandwidth}
   */
   readonly downloadBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#latency CreateBrowserCheck#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#latency CreateBrowserCheck#latency}
   */
   readonly latency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#packet_loss CreateBrowserCheck#packet_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#packet_loss CreateBrowserCheck#packet_loss}
   */
   readonly packetLoss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#upload_bandwidth CreateBrowserCheck#upload_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#upload_bandwidth CreateBrowserCheck#upload_bandwidth}
   */
   readonly uploadBandwidth?: number;
 }
@@ -630,19 +630,19 @@ export class CreateBrowserCheckCheckConnectionList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#domain CreateBrowserCheck#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#domain CreateBrowserCheck#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#key CreateBrowserCheck#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#key CreateBrowserCheck#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#path CreateBrowserCheck#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#path CreateBrowserCheck#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#value CreateBrowserCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#value CreateBrowserCheck#value}
   */
   readonly value?: string;
 }
@@ -845,11 +845,11 @@ export class CreateBrowserCheckCookiesList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckDnsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#original_domain CreateBrowserCheck#original_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#original_domain CreateBrowserCheck#original_domain}
   */
   readonly originalDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#original_host CreateBrowserCheck#original_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#original_host CreateBrowserCheck#original_host}
   */
   readonly originalHost?: string;
 }
@@ -994,15 +994,15 @@ export class CreateBrowserCheckDnsOverridesList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckExcludedFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#exclusion_type CreateBrowserCheck#exclusion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#exclusion_type CreateBrowserCheck#exclusion_type}
   */
   readonly exclusionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#pattern CreateBrowserCheck#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#pattern CreateBrowserCheck#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#preset_name CreateBrowserCheck#preset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#preset_name CreateBrowserCheck#preset_name}
   */
   readonly presetName?: string;
 }
@@ -1262,14 +1262,14 @@ export class CreateBrowserCheckHttpRequestHeadersList extends cdktf.ComplexList 
 }
 export interface CreateBrowserCheckJavascriptFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#id CreateBrowserCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#id CreateBrowserCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#name CreateBrowserCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#name CreateBrowserCheck#name}
   */
   readonly name?: string;
 }
@@ -1414,19 +1414,19 @@ export class CreateBrowserCheckJavascriptFilesList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckNotificationsEscalationsNotificationWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#duration_in_minutes CreateBrowserCheck#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#duration_in_minutes CreateBrowserCheck#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#end_time CreateBrowserCheck#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#end_time CreateBrowserCheck#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#start_time CreateBrowserCheck#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#start_time CreateBrowserCheck#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#time_zone CreateBrowserCheck#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#time_zone CreateBrowserCheck#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -1704,30 +1704,30 @@ export class CreateBrowserCheckNotificationsEscalationsNotifyWhoLinksList extend
 }
 export interface CreateBrowserCheckNotificationsEscalationsNotifyWho {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#call CreateBrowserCheck#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#call CreateBrowserCheck#call}
   */
   readonly call?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#custom_user_email CreateBrowserCheck#custom_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#custom_user_email CreateBrowserCheck#custom_user_email}
   */
   readonly customUserEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#email CreateBrowserCheck#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#email CreateBrowserCheck#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#id CreateBrowserCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#id CreateBrowserCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
   */
   readonly sms?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#type CreateBrowserCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#type CreateBrowserCheck#type}
   */
   readonly type?: string;
 }
@@ -1994,31 +1994,31 @@ export class CreateBrowserCheckNotificationsEscalationsNotifyWhoList extends cdk
 }
 export interface CreateBrowserCheckNotificationsEscalations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#after_minutes CreateBrowserCheck#after_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#after_minutes CreateBrowserCheck#after_minutes}
   */
   readonly afterMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#call CreateBrowserCheck#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#call CreateBrowserCheck#call}
   */
   readonly call?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#email CreateBrowserCheck#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#email CreateBrowserCheck#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
   */
   readonly sms?: boolean | cdktf.IResolvable;
   /**
   * notification_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notification_window CreateBrowserCheck#notification_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notification_window CreateBrowserCheck#notification_window}
   */
   readonly notificationWindow?: CreateBrowserCheckNotificationsEscalationsNotificationWindow[] | cdktf.IResolvable;
   /**
   * notify_who block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notify_who CreateBrowserCheck#notify_who}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notify_who CreateBrowserCheck#notify_who}
   */
   readonly notifyWho?: CreateBrowserCheckNotificationsEscalationsNotifyWho[] | cdktf.IResolvable;
 }
@@ -2284,19 +2284,19 @@ export class CreateBrowserCheckNotificationsEscalationsList extends cdktf.Comple
 }
 export interface CreateBrowserCheckNotificationsNotificationWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#duration_in_minutes CreateBrowserCheck#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#duration_in_minutes CreateBrowserCheck#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#end_time CreateBrowserCheck#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#end_time CreateBrowserCheck#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#start_time CreateBrowserCheck#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#start_time CreateBrowserCheck#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#time_zone CreateBrowserCheck#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#time_zone CreateBrowserCheck#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -2574,30 +2574,30 @@ export class CreateBrowserCheckNotificationsNotifyWhoLinksList extends cdktf.Com
 }
 export interface CreateBrowserCheckNotificationsNotifyWho {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#call CreateBrowserCheck#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#call CreateBrowserCheck#call}
   */
   readonly call?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#custom_user_email CreateBrowserCheck#custom_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#custom_user_email CreateBrowserCheck#custom_user_email}
   */
   readonly customUserEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#email CreateBrowserCheck#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#email CreateBrowserCheck#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#id CreateBrowserCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#id CreateBrowserCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
   */
   readonly sms?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#type CreateBrowserCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#type CreateBrowserCheck#type}
   */
   readonly type?: string;
 }
@@ -2864,45 +2864,45 @@ export class CreateBrowserCheckNotificationsNotifyWhoList extends cdktf.ComplexL
 }
 export interface CreateBrowserCheckNotifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#call CreateBrowserCheck#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#call CreateBrowserCheck#call}
   */
   readonly call?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#email CreateBrowserCheck#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#email CreateBrowserCheck#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#muted CreateBrowserCheck#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#muted CreateBrowserCheck#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notify_after_failure_count CreateBrowserCheck#notify_after_failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notify_after_failure_count CreateBrowserCheck#notify_after_failure_count}
   */
   readonly notifyAfterFailureCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notify_on_location_failure CreateBrowserCheck#notify_on_location_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notify_on_location_failure CreateBrowserCheck#notify_on_location_failure}
   */
   readonly notifyOnLocationFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#sms CreateBrowserCheck#sms}
   */
   readonly sms?: boolean | cdktf.IResolvable;
   /**
   * escalations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#escalations CreateBrowserCheck#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#escalations CreateBrowserCheck#escalations}
   */
   readonly escalations?: CreateBrowserCheckNotificationsEscalations[] | cdktf.IResolvable;
   /**
   * notification_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notification_windows CreateBrowserCheck#notification_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notification_windows CreateBrowserCheck#notification_windows}
   */
   readonly notificationWindows?: CreateBrowserCheckNotificationsNotificationWindows[] | cdktf.IResolvable;
   /**
   * notify_who block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#notify_who CreateBrowserCheck#notify_who}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#notify_who CreateBrowserCheck#notify_who}
   */
   readonly notifyWho?: CreateBrowserCheckNotificationsNotifyWho[] | cdktf.IResolvable;
 }
@@ -3250,31 +3250,31 @@ export class CreateBrowserCheckNotificationsList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#how CreateBrowserCheck#how}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#how CreateBrowserCheck#how}
   */
   readonly how?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#item_method CreateBrowserCheck#item_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#item_method CreateBrowserCheck#item_method}
   */
   readonly itemMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#name CreateBrowserCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#name CreateBrowserCheck#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#position CreateBrowserCheck#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#position CreateBrowserCheck#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#value CreateBrowserCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#value CreateBrowserCheck#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#variable_name CreateBrowserCheck#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#variable_name CreateBrowserCheck#variable_name}
   */
   readonly variableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#what CreateBrowserCheck#what}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#what CreateBrowserCheck#what}
   */
   readonly what?: string;
 }
@@ -3564,19 +3564,19 @@ export class CreateBrowserCheckStepsList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckSuccessCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#action_type CreateBrowserCheck#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#action_type CreateBrowserCheck#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#comparison_string CreateBrowserCheck#comparison_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#comparison_string CreateBrowserCheck#comparison_string}
   */
   readonly comparisonString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#created_at CreateBrowserCheck#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#created_at CreateBrowserCheck#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#updated_at CreateBrowserCheck#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#updated_at CreateBrowserCheck#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -3779,19 +3779,19 @@ export class CreateBrowserCheckSuccessCriteriaList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckThresholdMonitors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#comparison_type CreateBrowserCheck#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#comparison_type CreateBrowserCheck#comparison_type}
   */
   readonly comparisonType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#matcher CreateBrowserCheck#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#matcher CreateBrowserCheck#matcher}
   */
   readonly matcher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#metric_name CreateBrowserCheck#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#metric_name CreateBrowserCheck#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#value CreateBrowserCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#value CreateBrowserCheck#value}
   */
   readonly value?: number;
 }
@@ -3994,11 +3994,11 @@ export class CreateBrowserCheckThresholdMonitorsList extends cdktf.ComplexList {
 }
 export interface CreateBrowserCheckViewport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#height CreateBrowserCheck#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#height CreateBrowserCheck#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#width CreateBrowserCheck#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#width CreateBrowserCheck#width}
   */
   readonly width?: number;
 }
@@ -4143,7 +4143,7 @@ export class CreateBrowserCheckViewportList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check synthetics_create_browser_check}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check synthetics_create_browser_check}
 */
 export class CreateBrowserCheck extends cdktf.TerraformResource {
 
@@ -4159,7 +4159,7 @@ export class CreateBrowserCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CreateBrowserCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreateBrowserCheck to import
-  * @param importFromId The id of the existing CreateBrowserCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreateBrowserCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreateBrowserCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4171,7 +4171,7 @@ export class CreateBrowserCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_browser_check synthetics_create_browser_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_browser_check synthetics_create_browser_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4182,8 +4182,8 @@ export class CreateBrowserCheck extends cdktf.TerraformResource {
       terraformResourceType: 'synthetics_create_browser_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

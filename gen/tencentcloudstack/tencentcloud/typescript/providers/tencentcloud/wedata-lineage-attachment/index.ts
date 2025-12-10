@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataLineageAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#id WedataLineageAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#id WedataLineageAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface WedataLineageAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * relations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#relations WedataLineageAttachment#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#relations WedataLineageAttachment#relations}
   */
   readonly relations: WedataLineageAttachmentRelations;
 }
@@ -25,13 +25,13 @@ export interface WedataLineageAttachmentRelationsProcessesProcessProperties {
   /**
   * Property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
   */
   readonly name?: string;
   /**
   * Property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
   */
   readonly value?: string;
 }
@@ -178,19 +178,19 @@ export interface WedataLineageAttachmentRelationsProcesses {
   /**
   * Lineage task unique node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
   */
   readonly lineageNodeId?: string;
   /**
   * WEDATA, THIRD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
   */
   readonly platform: string;
   /**
   * Original unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#process_id WedataLineageAttachment#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#process_id WedataLineageAttachment#process_id}
   */
   readonly processId: string;
   /**
@@ -201,7 +201,7 @@ export interface WedataLineageAttachmentRelationsProcesses {
   *     //Integrated offline task lineage
   *     INTEGRATED_OFFLINE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#process_sub_type WedataLineageAttachment#process_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#process_sub_type WedataLineageAttachment#process_sub_type}
   */
   readonly processSubType?: string;
   /**
@@ -221,13 +221,13 @@ export interface WedataLineageAttachmentRelationsProcesses {
   *     //Data service
   *     DATA_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#process_type WedataLineageAttachment#process_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#process_type WedataLineageAttachment#process_type}
   */
   readonly processType: string;
   /**
   * process_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#process_properties WedataLineageAttachment#process_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#process_properties WedataLineageAttachment#process_properties}
   */
   readonly processProperties?: WedataLineageAttachmentRelationsProcessesProcessProperties[] | cdktf.IResolvable;
 }
@@ -449,13 +449,13 @@ export interface WedataLineageAttachmentRelationsSourceResourceProperties {
   /**
   * Property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
   */
   readonly name?: string;
   /**
   * Property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
   */
   readonly value?: string;
 }
@@ -602,58 +602,58 @@ export interface WedataLineageAttachmentRelationsSource {
   /**
   * Creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#create_time WedataLineageAttachment#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#create_time WedataLineageAttachment#create_time}
   */
   readonly createTime?: string;
   /**
   * Description: table type | metric description | model description | field description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#description WedataLineageAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#description WedataLineageAttachment#description}
   */
   readonly description?: string;
   /**
   * Lineage node unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
   */
   readonly lineageNodeId?: string;
   /**
   * Source: WEDATA|THIRD.
   * Default is wedata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
   */
   readonly platform: string;
   /**
   * Business name: database.table | metric name | model name | field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_name WedataLineageAttachment#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_name WedataLineageAttachment#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Entity type.
   * TABLE|METRIC|MODEL|SERVICE|COLUMN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_type WedataLineageAttachment#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_type WedataLineageAttachment#resource_type}
   */
   readonly resourceType: string;
   /**
   * Entity original unique ID.\n
   * Note: When lineage is for table columns, the unique ID should be passed as TableResourceUniqueId::FieldName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_unique_id WedataLineageAttachment#resource_unique_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_unique_id WedataLineageAttachment#resource_unique_id}
   */
   readonly resourceUniqueId: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#update_time WedataLineageAttachment#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#update_time WedataLineageAttachment#update_time}
   */
   readonly updateTime?: string;
   /**
   * resource_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_properties WedataLineageAttachment#resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_properties WedataLineageAttachment#resource_properties}
   */
   readonly resourceProperties?: WedataLineageAttachmentRelationsSourceResourceProperties[] | cdktf.IResolvable;
 }
@@ -962,13 +962,13 @@ export interface WedataLineageAttachmentRelationsTargetResourceProperties {
   /**
   * Property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#name WedataLineageAttachment#name}
   */
   readonly name?: string;
   /**
   * Property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#value WedataLineageAttachment#value}
   */
   readonly value?: string;
 }
@@ -1115,58 +1115,58 @@ export interface WedataLineageAttachmentRelationsTarget {
   /**
   * Creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#create_time WedataLineageAttachment#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#create_time WedataLineageAttachment#create_time}
   */
   readonly createTime?: string;
   /**
   * Description: table type | metric description | model description | field description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#description WedataLineageAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#description WedataLineageAttachment#description}
   */
   readonly description?: string;
   /**
   * Lineage node unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#lineage_node_id WedataLineageAttachment#lineage_node_id}
   */
   readonly lineageNodeId?: string;
   /**
   * Source: WEDATA|THIRD.
   * Default is wedata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#platform WedataLineageAttachment#platform}
   */
   readonly platform: string;
   /**
   * Business name: database.table | metric name | model name | field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_name WedataLineageAttachment#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_name WedataLineageAttachment#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Entity type.
   * TABLE|METRIC|MODEL|SERVICE|COLUMN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_type WedataLineageAttachment#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_type WedataLineageAttachment#resource_type}
   */
   readonly resourceType: string;
   /**
   * Entity original unique ID.\n
   * Note: When lineage is for table columns, the unique ID should be passed as TableResourceUniqueId::FieldName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_unique_id WedataLineageAttachment#resource_unique_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_unique_id WedataLineageAttachment#resource_unique_id}
   */
   readonly resourceUniqueId: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#update_time WedataLineageAttachment#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#update_time WedataLineageAttachment#update_time}
   */
   readonly updateTime?: string;
   /**
   * resource_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#resource_properties WedataLineageAttachment#resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#resource_properties WedataLineageAttachment#resource_properties}
   */
   readonly resourceProperties?: WedataLineageAttachmentRelationsTargetResourceProperties[] | cdktf.IResolvable;
 }
@@ -1475,19 +1475,19 @@ export interface WedataLineageAttachmentRelations {
   /**
   * processes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#processes WedataLineageAttachment#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#processes WedataLineageAttachment#processes}
   */
   readonly processes: WedataLineageAttachmentRelationsProcesses;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#source WedataLineageAttachment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#source WedataLineageAttachment#source}
   */
   readonly source: WedataLineageAttachmentRelationsSource;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#target WedataLineageAttachment#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#target WedataLineageAttachment#target}
   */
   readonly target: WedataLineageAttachmentRelationsTarget;
 }
@@ -1620,7 +1620,7 @@ export class WedataLineageAttachmentRelationsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment tencentcloud_wedata_lineage_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment tencentcloud_wedata_lineage_attachment}
 */
 export class WedataLineageAttachment extends cdktf.TerraformResource {
 
@@ -1636,7 +1636,7 @@ export class WedataLineageAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataLineageAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataLineageAttachment to import
-  * @param importFromId The id of the existing WedataLineageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataLineageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataLineageAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1648,7 +1648,7 @@ export class WedataLineageAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_lineage_attachment tencentcloud_wedata_lineage_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_lineage_attachment tencentcloud_wedata_lineage_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1659,8 +1659,8 @@ export class WedataLineageAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_lineage_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

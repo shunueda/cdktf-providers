@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs
+// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SelectelProviderConfig {
   /**
   * Region for Keystone and Resell API URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#auth_region SelectelProvider#auth_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#auth_region SelectelProvider#auth_region}
   */
   readonly authRegion: string;
   /**
   * Base url to work with auth API (Keystone URL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#auth_url SelectelProvider#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#auth_url SelectelProvider#auth_url}
   */
   readonly authUrl: string;
   /**
   * Your domain name i.e. your account id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#domain_name SelectelProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#domain_name SelectelProvider#domain_name}
   */
   readonly domainName: string;
   /**
   * Service user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#password SelectelProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#password SelectelProvider#password}
   */
   readonly password: string;
   /**
   * VPC project ID to import resources that need the project scope auth token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#project_id SelectelProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#project_id SelectelProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * VPC region to import resources associated with the specific region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#region SelectelProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#region SelectelProvider#region}
   */
   readonly region?: string;
   /**
   * Used for service accounts in other domain. If you don't know exactly what this field means then don't use it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#user_domain_name SelectelProvider#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#user_domain_name SelectelProvider#user_domain_name}
   */
   readonly userDomainName?: string;
   /**
   * Service user username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#username SelectelProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#username SelectelProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#alias SelectelProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#alias SelectelProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs selectel}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs selectel}
 */
 export class SelectelProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class SelectelProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SelectelProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelectelProvider to import
-  * @param importFromId The id of the existing SelectelProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelectelProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelectelProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SelectelProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs selectel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs selectel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SelectelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'selectel',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.0',
-        providerVersionConstraint: '7.2.0'
+        providerVersion: '7.2.1',
+        providerVersionConstraint: '7.2.1'
       },
       terraformProviderSource: 'selectel/selectel'
     });

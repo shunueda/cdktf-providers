@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AdminRoleTargetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of app names (name represents set of app instances) or a combination of app name and app instance ID (like 'salesforce' or 'facebook.0oapsqQ6dv19pqyEo0g3')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#apps AdminRoleTargets#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#apps AdminRoleTargets#apps}
   */
   readonly apps?: string[];
   /**
   * List of group IDs. Conflicts with apps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#groups AdminRoleTargets#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#groups AdminRoleTargets#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#id AdminRoleTargets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#id AdminRoleTargets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AdminRoleTargetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of the role that is assigned to the user and supports optional targets. See [API Docs](https://developer.okta.com/docs/api/openapi/okta-management/guides/roles/#standard-roles)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#role_type AdminRoleTargets#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#role_type AdminRoleTargets#role_type}
   */
   readonly roleType: string;
   /**
   * User associated with the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#user_id AdminRoleTargets#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#user_id AdminRoleTargets#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets okta_admin_role_targets}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets okta_admin_role_targets}
 */
 export class AdminRoleTargets extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AdminRoleTargets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdminRoleTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdminRoleTargets to import
-  * @param importFromId The id of the existing AdminRoleTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdminRoleTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdminRoleTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AdminRoleTargets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_targets okta_admin_role_targets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/admin_role_targets okta_admin_role_targets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AdminRoleTargets extends cdktf.TerraformResource {
       terraformResourceType: 'okta_admin_role_targets',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

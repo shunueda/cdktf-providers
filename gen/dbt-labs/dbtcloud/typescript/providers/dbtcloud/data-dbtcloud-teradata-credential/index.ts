@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDbtcloudTeradataCredentialConfig extends cdktf.TerraformMet
   /**
   * Credential ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential#credential_id DataDbtcloudTeradataCredential#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential#credential_id DataDbtcloudTeradataCredential#credential_id}
   */
   readonly credentialId: number;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential#project_id DataDbtcloudTeradataCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential#project_id DataDbtcloudTeradataCredential#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential dbtcloud_teradata_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential dbtcloud_teradata_credential}
 */
 export class DataDbtcloudTeradataCredential extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataDbtcloudTeradataCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudTeradataCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudTeradataCredential to import
-  * @param importFromId The id of the existing DataDbtcloudTeradataCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudTeradataCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudTeradataCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataDbtcloudTeradataCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/data-sources/teradata_credential dbtcloud_teradata_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/teradata_credential dbtcloud_teradata_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataDbtcloudTeradataCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_teradata_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

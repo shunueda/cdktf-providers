@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OrganizationOrgIdentityConfig extends cdktf.TerraformMetaArgume
   /**
   * Identity description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#description OrganizationOrgIdentity#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#description OrganizationOrgIdentity#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#id OrganizationOrgIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#id OrganizationOrgIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface OrganizationOrgIdentityConfig extends cdktf.TerraformMetaArgume
   /**
   * Identity name.Supports English letters and numbers, the length cannot exceed 40 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#identity_alias_name OrganizationOrgIdentity#identity_alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#identity_alias_name OrganizationOrgIdentity#identity_alias_name}
   */
   readonly identityAliasName: string;
   /**
   * identity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#identity_policy OrganizationOrgIdentity#identity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#identity_policy OrganizationOrgIdentity#identity_policy}
   */
   readonly identityPolicy: OrganizationOrgIdentityIdentityPolicy[] | cdktf.IResolvable;
 }
@@ -37,25 +37,25 @@ export interface OrganizationOrgIdentityIdentityPolicy {
   /**
   * Customize policy content and follow CAM policy syntax. Valid and required when PolicyType is the 1-custom policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#policy_document OrganizationOrgIdentity#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#policy_document OrganizationOrgIdentity#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * CAM default policy ID. Valid and required when PolicyType is the 2-preset policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#policy_id OrganizationOrgIdentity#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#policy_id OrganizationOrgIdentity#policy_id}
   */
   readonly policyId?: number;
   /**
   * CAM default policy name. Valid and required when PolicyType is the 2-preset policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#policy_name OrganizationOrgIdentity#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#policy_name OrganizationOrgIdentity#policy_name}
   */
   readonly policyName?: string;
   /**
   * Policy type. Value 1-custom policy 2-preset policy; default value 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#policy_type OrganizationOrgIdentity#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#policy_type OrganizationOrgIdentity#policy_type}
   */
   readonly policyType?: number;
 }
@@ -258,7 +258,7 @@ export class OrganizationOrgIdentityIdentityPolicyList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity tencentcloud_organization_org_identity}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity tencentcloud_organization_org_identity}
 */
 export class OrganizationOrgIdentity extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class OrganizationOrgIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationOrgIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationOrgIdentity to import
-  * @param importFromId The id of the existing OrganizationOrgIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationOrgIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationOrgIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class OrganizationOrgIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_identity tencentcloud_organization_org_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/organization_org_identity tencentcloud_organization_org_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class OrganizationOrgIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_org_identity',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

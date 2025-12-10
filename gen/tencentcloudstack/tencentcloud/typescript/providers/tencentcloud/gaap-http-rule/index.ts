@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface GaapHttpRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Timeout of the health check response, default value is 2s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#connect_timeout GaapHttpRule#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#connect_timeout GaapHttpRule#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Forward domain of the forward rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#domain GaapHttpRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#domain GaapHttpRule#domain}
   */
   readonly domain: string;
   /**
   * The default value of requested host which is forwarded to the realserver by the listener is `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#forward_host GaapHttpRule#forward_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#forward_host GaapHttpRule#forward_host}
   */
   readonly forwardHost?: string;
   /**
   * Indicates whether health check is enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#health_check GaapHttpRule#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#health_check GaapHttpRule#health_check}
   */
   readonly healthCheck: boolean | cdktf.IResolvable;
   /**
   * Method of the health check. Valid value: `GET` and `HEAD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#health_check_method GaapHttpRule#health_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#health_check_method GaapHttpRule#health_check_method}
   */
   readonly healthCheckMethod?: string;
   /**
   * Path of health check. Maximum length is 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#health_check_path GaapHttpRule#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#health_check_path GaapHttpRule#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
   * Return code of confirmed normal. Valid value: `100`, `200`, `300`, `400` and `500`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#health_check_status_codes GaapHttpRule#health_check_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#health_check_status_codes GaapHttpRule#health_check_status_codes}
   */
   readonly healthCheckStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#id GaapHttpRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#id GaapHttpRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface GaapHttpRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval of the health check, default value is 5s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#interval GaapHttpRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#interval GaapHttpRule#interval}
   */
   readonly interval?: number;
   /**
   * ID of the layer7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#listener_id GaapHttpRule#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#listener_id GaapHttpRule#listener_id}
   */
   readonly listenerId: string;
   /**
   * Path of the forward rule. Maximum length is 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#path GaapHttpRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#path GaapHttpRule#path}
   */
   readonly path: string;
   /**
   * Type of the realserver. Valid value: `IP` and `DOMAIN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#realserver_type GaapHttpRule#realserver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#realserver_type GaapHttpRule#realserver_type}
   */
   readonly realserverType: string;
   /**
   * Scheduling policy of the forward rule, default value is `rr`. Valid value: `rr`, `wrr` and `lc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#scheduler GaapHttpRule#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#scheduler GaapHttpRule#scheduler}
   */
   readonly scheduler?: string;
   /**
   * ServerNameIndication (SNI) is required when the SNI switch is turned on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#sni GaapHttpRule#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#sni GaapHttpRule#sni}
   */
   readonly sni?: string;
   /**
   * ServerNameIndication (SNI) switch. ON means on and OFF means off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#sni_switch GaapHttpRule#sni_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#sni_switch GaapHttpRule#sni_switch}
   */
   readonly sniSwitch?: string;
   /**
   * realservers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#realservers GaapHttpRule#realservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#realservers GaapHttpRule#realservers}
   */
   readonly realservers?: GaapHttpRuleRealservers[] | cdktf.IResolvable;
 }
@@ -109,7 +109,7 @@ export interface GaapHttpRuleRealservers {
   /**
   * ID of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#id GaapHttpRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#id GaapHttpRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,19 +118,19 @@ export interface GaapHttpRuleRealservers {
   /**
   * IP of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#ip GaapHttpRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#ip GaapHttpRule#ip}
   */
   readonly ip: string;
   /**
   * Port of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#port GaapHttpRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#port GaapHttpRule#port}
   */
   readonly port: number;
   /**
   * Scheduling weight, default value is `1`. Valid value ranges: (1~100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#weight GaapHttpRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#weight GaapHttpRule#weight}
   */
   readonly weight?: number;
 }
@@ -324,7 +324,7 @@ export class GaapHttpRuleRealserversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule tencentcloud_gaap_http_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule tencentcloud_gaap_http_rule}
 */
 export class GaapHttpRule extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class GaapHttpRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapHttpRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapHttpRule to import
-  * @param importFromId The id of the existing GaapHttpRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapHttpRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapHttpRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class GaapHttpRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_http_rule tencentcloud_gaap_http_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_http_rule tencentcloud_gaap_http_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class GaapHttpRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_http_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

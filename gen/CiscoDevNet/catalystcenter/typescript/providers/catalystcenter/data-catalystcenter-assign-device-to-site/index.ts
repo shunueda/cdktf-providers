@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/assign_device_to_site
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/assign_device_to_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterAssignDeviceToSiteConfig extends cdktf.Terraf
   /**
   * This must be building Id or floor Id. Access points, Sensors are assigned to floor. Remaining network devices are assigned to building.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/assign_device_to_site#site_id DataCatalystcenterAssignDeviceToSite#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/assign_device_to_site#site_id DataCatalystcenterAssignDeviceToSite#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/assign_device_to_site catalystcenter_assign_device_to_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/assign_device_to_site catalystcenter_assign_device_to_site}
 */
 export class DataCatalystcenterAssignDeviceToSite extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCatalystcenterAssignDeviceToSite extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataCatalystcenterAssignDeviceToSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterAssignDeviceToSite to import
-  * @param importFromId The id of the existing DataCatalystcenterAssignDeviceToSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/assign_device_to_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterAssignDeviceToSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/assign_device_to_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterAssignDeviceToSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCatalystcenterAssignDeviceToSite extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/assign_device_to_site catalystcenter_assign_device_to_site} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/assign_device_to_site catalystcenter_assign_device_to_site} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCatalystcenterAssignDeviceToSite extends cdktf.TerraformDataSou
       terraformResourceType: 'catalystcenter_assign_device_to_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

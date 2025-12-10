@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DtsSyncJobResizeOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation#id DtsSyncJobResizeOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation#id DtsSyncJobResizeOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DtsSyncJobResizeOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * Synchronization instance id (i.e. identifies a synchronization job).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation#job_id DtsSyncJobResizeOperation#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation#job_id DtsSyncJobResizeOperation#job_id}
   */
   readonly jobId: string;
   /**
   * Task specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation#new_instance_class DtsSyncJobResizeOperation#new_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation#new_instance_class DtsSyncJobResizeOperation#new_instance_class}
   */
   readonly newInstanceClass: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation tencentcloud_dts_sync_job_resize_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation tencentcloud_dts_sync_job_resize_operation}
 */
 export class DtsSyncJobResizeOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DtsSyncJobResizeOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsSyncJobResizeOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsSyncJobResizeOperation to import
-  * @param importFromId The id of the existing DtsSyncJobResizeOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsSyncJobResizeOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsSyncJobResizeOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DtsSyncJobResizeOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dts_sync_job_resize_operation tencentcloud_dts_sync_job_resize_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dts_sync_job_resize_operation tencentcloud_dts_sync_job_resize_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DtsSyncJobResizeOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dts_sync_job_resize_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

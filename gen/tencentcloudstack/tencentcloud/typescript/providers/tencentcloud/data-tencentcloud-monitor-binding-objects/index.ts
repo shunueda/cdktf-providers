@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMonitorBindingObjectsConfig extends cdktf.Terra
   /**
   * Policy group ID for query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects#group_id DataTencentcloudMonitorBindingObjects#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects#group_id DataTencentcloudMonitorBindingObjects#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects#id DataTencentcloudMonitorBindingObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects#id DataTencentcloudMonitorBindingObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudMonitorBindingObjectsConfig extends cdktf.Terra
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects#result_output_file DataTencentcloudMonitorBindingObjects#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects#result_output_file DataTencentcloudMonitorBindingObjects#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -119,7 +119,7 @@ export class DataTencentcloudMonitorBindingObjectsListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects tencentcloud_monitor_binding_objects}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects tencentcloud_monitor_binding_objects}
 */
 export class DataTencentcloudMonitorBindingObjects extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataTencentcloudMonitorBindingObjects extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudMonitorBindingObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorBindingObjects to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorBindingObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorBindingObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorBindingObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataTencentcloudMonitorBindingObjects extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_binding_objects tencentcloud_monitor_binding_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_binding_objects tencentcloud_monitor_binding_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataTencentcloudMonitorBindingObjects extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_monitor_binding_objects',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

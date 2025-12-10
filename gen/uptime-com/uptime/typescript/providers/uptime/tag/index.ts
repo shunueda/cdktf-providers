@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,17 +11,17 @@ export interface TagConfig extends cdktf.TerraformMetaArguments {
   * A valid hex color code in 6-digit format with # prefix (e.g., '#abc0ff').
   * Must be lowercase and include the # symbol followed by exactly 6 hexadecimal characters (0-9, a-f).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag#color_hex Tag#color_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag#color_hex Tag#color_hex}
   */
   readonly colorHex: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag#tag Tag#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag#tag Tag#tag}
   */
   readonly tag: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag uptime_tag}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag uptime_tag}
 */
 export class Tag extends cdktf.TerraformResource {
 
@@ -37,7 +37,7 @@ export class Tag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tag to import
-  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class Tag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/tag uptime_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/tag uptime_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class Tag extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_tag',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface EntitlementBundleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the entitlement bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#description EntitlementBundle#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#description EntitlementBundle#description}
   */
   readonly description?: string;
   /**
   * Name of the entitlement bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#name EntitlementBundle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#name EntitlementBundle#name}
   */
   readonly name: string;
   /**
   * status of the entitlement bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#status EntitlementBundle#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#status EntitlementBundle#status}
   */
   readonly status?: string;
   /**
   * The ORN of the target resource. Required when updating the entitlement bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#target_resource_orn EntitlementBundle#target_resource_orn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#target_resource_orn EntitlementBundle#target_resource_orn}
   */
   readonly targetResourceOrn?: string;
   /**
   * entitlements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#entitlements EntitlementBundle#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#entitlements EntitlementBundle#entitlements}
   */
   readonly entitlements?: EntitlementBundleEntitlements[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#target EntitlementBundle#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#target EntitlementBundle#target}
   */
   readonly target: EntitlementBundleTarget;
 }
@@ -48,7 +48,7 @@ export interface EntitlementBundleEntitlementsValues {
   /**
   * Entitlement value ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#id EntitlementBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#id EntitlementBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ export interface EntitlementBundleEntitlements {
   /**
   * Entitlement ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#id EntitlementBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#id EntitlementBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ export interface EntitlementBundleEntitlements {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#values EntitlementBundle#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#values EntitlementBundle#values}
   */
   readonly values?: EntitlementBundleEntitlementsValues[] | cdktf.IResolvable;
 }
@@ -319,13 +319,13 @@ export interface EntitlementBundleTarget {
   /**
   * External ID of the target resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#external_id EntitlementBundle#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#external_id EntitlementBundle#external_id}
   */
   readonly externalId: string;
   /**
   * Type of the target resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#type EntitlementBundle#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#type EntitlementBundle#type}
   */
   readonly type: string;
 }
@@ -442,7 +442,7 @@ export class EntitlementBundleTargetOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle okta_entitlement_bundle}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle okta_entitlement_bundle}
 */
 export class EntitlementBundle extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class EntitlementBundle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntitlementBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntitlementBundle to import
-  * @param importFromId The id of the existing EntitlementBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntitlementBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntitlementBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class EntitlementBundle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement_bundle okta_entitlement_bundle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/entitlement_bundle okta_entitlement_bundle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class EntitlementBundle extends cdktf.TerraformResource {
       terraformResourceType: 'okta_entitlement_bundle',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

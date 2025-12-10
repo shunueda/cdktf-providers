@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCatalystcenterTemplateVersionsConfig extends cdktf.Terrafor
   /**
   * UUID of template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions#template_id DataCatalystcenterTemplateVersions#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions#template_id DataCatalystcenterTemplateVersions#template_id}
   */
   readonly templateId?: string;
 }
@@ -101,7 +101,7 @@ export class DataCatalystcenterTemplateVersionsTemplateVersionsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions catalystcenter_template_versions}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions catalystcenter_template_versions}
 */
 export class DataCatalystcenterTemplateVersions extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataCatalystcenterTemplateVersions extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataCatalystcenterTemplateVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterTemplateVersions to import
-  * @param importFromId The id of the existing DataCatalystcenterTemplateVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterTemplateVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterTemplateVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataCatalystcenterTemplateVersions extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions catalystcenter_template_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions catalystcenter_template_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataCatalystcenterTemplateVersions extends cdktf.TerraformDataSourc
       terraformResourceType: 'catalystcenter_template_versions',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

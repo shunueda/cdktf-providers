@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface WafModuleStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * ACL module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#access_control WafModuleStatus#access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#access_control WafModuleStatus#access_control}
   */
   readonly accessControl: number;
   /**
   * Anti leakage module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#anti_leakage WafModuleStatus#anti_leakage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#anti_leakage WafModuleStatus#anti_leakage}
   */
   readonly antiLeakage?: number;
   /**
   * Anti tamper module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#anti_tamper WafModuleStatus#anti_tamper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#anti_tamper WafModuleStatus#anti_tamper}
   */
   readonly antiTamper?: number;
   /**
   * API security module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#api_protection WafModuleStatus#api_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#api_protection WafModuleStatus#api_protection}
   */
   readonly apiProtection: number;
   /**
   * CC module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#cc_protection WafModuleStatus#cc_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#cc_protection WafModuleStatus#cc_protection}
   */
   readonly ccProtection: number;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#domain WafModuleStatus#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#domain WafModuleStatus#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#id WafModuleStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#id WafModuleStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,13 +53,13 @@ export interface WafModuleStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * WEB security module status, 0:closed, 1:opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#web_security WafModuleStatus#web_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#web_security WafModuleStatus#web_security}
   */
   readonly webSecurity: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status tencentcloud_waf_module_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status tencentcloud_waf_module_status}
 */
 export class WafModuleStatus extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class WafModuleStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafModuleStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafModuleStatus to import
-  * @param importFromId The id of the existing WafModuleStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafModuleStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafModuleStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class WafModuleStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_module_status tencentcloud_waf_module_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_module_status tencentcloud_waf_module_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class WafModuleStatus extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_module_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

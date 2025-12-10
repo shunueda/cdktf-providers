@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCkafkaDatahubGroupOffsetsConfig extends cdktf.T
   /**
   * Kafka consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#group DataTencentcloudCkafkaDatahubGroupOffsets#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#group DataTencentcloudCkafkaDatahubGroupOffsets#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#id DataTencentcloudCkafkaDatahubGroupOffsets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#id DataTencentcloudCkafkaDatahubGroupOffsets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudCkafkaDatahubGroupOffsetsConfig extends cdktf.T
   /**
   * topic name that the task subscribe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#name DataTencentcloudCkafkaDatahubGroupOffsets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#name DataTencentcloudCkafkaDatahubGroupOffsets#name}
   */
   readonly name: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#result_output_file DataTencentcloudCkafkaDatahubGroupOffsets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#result_output_file DataTencentcloudCkafkaDatahubGroupOffsets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * fuzzy match topicName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#search_word DataTencentcloudCkafkaDatahubGroupOffsets#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#search_word DataTencentcloudCkafkaDatahubGroupOffsets#search_word}
   */
   readonly searchWord?: string;
 }
@@ -222,7 +222,7 @@ export class DataTencentcloudCkafkaDatahubGroupOffsetsTopicListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets tencentcloud_ckafka_datahub_group_offsets}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets tencentcloud_ckafka_datahub_group_offsets}
 */
 export class DataTencentcloudCkafkaDatahubGroupOffsets extends cdktf.TerraformDataSource {
 
@@ -238,7 +238,7 @@ export class DataTencentcloudCkafkaDatahubGroupOffsets extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudCkafkaDatahubGroupOffsets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCkafkaDatahubGroupOffsets to import
-  * @param importFromId The id of the existing DataTencentcloudCkafkaDatahubGroupOffsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCkafkaDatahubGroupOffsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCkafkaDatahubGroupOffsets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class DataTencentcloudCkafkaDatahubGroupOffsets extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ckafka_datahub_group_offsets tencentcloud_ckafka_datahub_group_offsets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/ckafka_datahub_group_offsets tencentcloud_ckafka_datahub_group_offsets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class DataTencentcloudCkafkaDatahubGroupOffsets extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_ckafka_datahub_group_offsets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

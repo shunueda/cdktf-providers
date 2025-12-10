@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecretsmanagerCertificateV1Config extends cdktf.TerraformMetaAr
   /**
   * ca_chain list of public certs for certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1#certificates SecretsmanagerCertificateV1#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1#certificates SecretsmanagerCertificateV1#certificates}
   */
   readonly certificates: string[];
   /**
   * name of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1#name SecretsmanagerCertificateV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1#name SecretsmanagerCertificateV1#name}
   */
   readonly name: string;
   /**
   * that should start with -----BEGIN PRIVATE KEY----- and end with -----END PRIVATE KEY-----
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1#private_key SecretsmanagerCertificateV1#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1#private_key SecretsmanagerCertificateV1#private_key}
   */
   readonly privateKey: string;
   /**
   * id of a project where secret is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1#project_id SecretsmanagerCertificateV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1#project_id SecretsmanagerCertificateV1#project_id}
   */
   readonly projectId: string;
 }
@@ -209,7 +209,7 @@ export class SecretsmanagerCertificateV1ValidityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1 selectel_secretsmanager_certificate_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1 selectel_secretsmanager_certificate_v1}
 */
 export class SecretsmanagerCertificateV1 extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class SecretsmanagerCertificateV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretsmanagerCertificateV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretsmanagerCertificateV1 to import
-  * @param importFromId The id of the existing SecretsmanagerCertificateV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretsmanagerCertificateV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretsmanagerCertificateV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class SecretsmanagerCertificateV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/secretsmanager_certificate_v1 selectel_secretsmanager_certificate_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/secretsmanager_certificate_v1 selectel_secretsmanager_certificate_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class SecretsmanagerCertificateV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_secretsmanager_certificate_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.0',
-        providerVersionConstraint: '7.2.0'
+        providerVersion: '7.2.1',
+        providerVersionConstraint: '7.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

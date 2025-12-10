@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface WafClbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to purchase API Security, 1: yes, 0: no. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#api_security WafClbInstance#api_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#api_security WafClbInstance#api_security}
   */
   readonly apiSecurity?: number;
   /**
   * Auto renew flag, 1: enable, 0: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#auto_renew_flag WafClbInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#auto_renew_flag WafClbInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to purchase Bot management, 1: yes, 0: no. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#bot_management WafClbInstance#bot_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#bot_management WafClbInstance#bot_management}
   */
   readonly botManagement?: number;
   /**
   * Is elastic billing enabled, 1: enable, 0: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#elastic_mode WafClbInstance#elastic_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#elastic_mode WafClbInstance#elastic_mode}
   */
   readonly elasticMode?: number;
   /**
   * Billing order parameters. support: premium_clb, enterprise_clb, ultimate_clb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#goods_category WafClbInstance#goods_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#goods_category WafClbInstance#goods_category}
   */
   readonly goodsCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#id WafClbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#id WafClbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface WafClbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Waf instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#instance_name WafClbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#instance_name WafClbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * QPS Limit, Minimum setting 10000. Only `elastic_mode` is 1, can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#qps_limit WafClbInstance#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#qps_limit WafClbInstance#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * Time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#time_span WafClbInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#time_span WafClbInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Time unit, support d, m, y. d: day, m: month, y: year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#time_unit WafClbInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#time_unit WafClbInstance#time_unit}
   */
   readonly timeUnit?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance tencentcloud_waf_clb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance tencentcloud_waf_clb_instance}
 */
 export class WafClbInstance extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class WafClbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafClbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafClbInstance to import
-  * @param importFromId The id of the existing WafClbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafClbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafClbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class WafClbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_clb_instance tencentcloud_waf_clb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_clb_instance tencentcloud_waf_clb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class WafClbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_clb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

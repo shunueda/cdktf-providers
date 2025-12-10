@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,127 @@ export interface DataGcoreAiClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * AI Cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#cluster_id DataGcoreAiCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#cluster_id DataGcoreAiCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#id DataGcoreAiCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#id DataGcoreAiCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#project_id DataGcoreAiCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#project_id DataGcoreAiCluster#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#project_name DataGcoreAiCluster#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#project_name DataGcoreAiCluster#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#region_id DataGcoreAiCluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#region_id DataGcoreAiCluster#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#region_name DataGcoreAiCluster#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#region_name DataGcoreAiCluster#region_name}
   */
   readonly regionName?: string;
+}
+export interface DataGcoreAiClusterAttachedInterfaces {
+}
+
+export function dataGcoreAiClusterAttachedInterfacesToTerraform(struct?: DataGcoreAiClusterAttachedInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataGcoreAiClusterAttachedInterfacesToHclTerraform(struct?: DataGcoreAiClusterAttachedInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGcoreAiClusterAttachedInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGcoreAiClusterAttachedInterfaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGcoreAiClusterAttachedInterfaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+
+  // network_id - computed: true, optional: false, required: false
+  public get networkId() {
+    return this.getStringAttribute('network_id');
+  }
+
+  // port_id - computed: true, optional: false, required: false
+  public get portId() {
+    return this.getStringAttribute('port_id');
+  }
+
+  // subnet_id - computed: true, optional: false, required: false
+  public get subnetId() {
+    return this.getStringAttribute('subnet_id');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataGcoreAiClusterAttachedInterfacesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGcoreAiClusterAttachedInterfacesOutputReference {
+    return new DataGcoreAiClusterAttachedInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataGcoreAiClusterInterface {
 }
@@ -902,7 +997,7 @@ export class DataGcoreAiClusterVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster gcore_ai_cluster}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster gcore_ai_cluster}
 */
 export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
 
@@ -918,7 +1013,7 @@ export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreAiCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreAiCluster to import
-  * @param importFromId The id of the existing DataGcoreAiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreAiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreAiCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -930,7 +1025,7 @@ export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/ai_cluster gcore_ai_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/ai_cluster gcore_ai_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -941,8 +1036,8 @@ export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_ai_cluster',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -963,6 +1058,12 @@ export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // attached_interfaces - computed: true, optional: false, required: false
+  private _attachedInterfaces = new DataGcoreAiClusterAttachedInterfacesList(this, "attached_interfaces", false);
+  public get attachedInterfaces() {
+    return this._attachedInterfaces;
+  }
 
   // cluster_id - computed: false, optional: false, required: true
   private _clusterId?: string; 
@@ -1035,7 +1136,7 @@ export class DataGcoreAiCluster extends cdktf.TerraformDataSource {
   }
 
   // interface - computed: true, optional: false, required: false
-  private _interface = new DataGcoreAiClusterInterfaceList(this, "interface", false);
+  private _interface = new DataGcoreAiClusterInterfaceList(this, "interface", true);
   public get interface() {
     return this._interface;
   }

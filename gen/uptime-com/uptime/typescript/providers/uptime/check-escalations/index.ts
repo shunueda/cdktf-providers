@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,14 +10,14 @@ export interface CheckEscalationsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the check to configure escalations for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#check_id CheckEscalations#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#check_id CheckEscalations#check_id}
   */
   readonly checkId: number;
   /**
   * List of escalation rules. Each escalation is triggered sequentially
   * after the specified wait time. If the list is empty, all escalations will be removed from the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#escalations CheckEscalations#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#escalations CheckEscalations#escalations}
   */
   readonly escalations: CheckEscalationsEscalations[] | cdktf.IResolvable;
 }
@@ -26,14 +26,14 @@ export interface CheckEscalationsEscalations {
   * List of contact group names to receive notifications for this escalation level.
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#contact_groups CheckEscalations#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#contact_groups CheckEscalations#contact_groups}
   */
   readonly contactGroups: string[];
   /**
   * Number of times to repeat this escalation level.
   * Use 0 to repeat indefinitely until the check recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#num_repeats CheckEscalations#num_repeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#num_repeats CheckEscalations#num_repeats}
   */
   readonly numRepeats: number;
   /**
@@ -41,7 +41,7 @@ export interface CheckEscalationsEscalations {
   * For the first escalation, this is the time after the initial alert. For subsequent escalations,
   * this is the time after the previous escalation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#wait_time CheckEscalations#wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#wait_time CheckEscalations#wait_time}
   */
   readonly waitTime: number;
 }
@@ -206,7 +206,7 @@ export class CheckEscalationsEscalationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations uptime_check_escalations}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations uptime_check_escalations}
 */
 export class CheckEscalations extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class CheckEscalations extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckEscalations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckEscalations to import
-  * @param importFromId The id of the existing CheckEscalations that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckEscalations that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckEscalations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class CheckEscalations extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_escalations uptime_check_escalations} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_escalations uptime_check_escalations} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class CheckEscalations extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_escalations',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

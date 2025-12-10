@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecurityEventsProviderConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether or not the Security Events Provider is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#is_enabled SecurityEventsProvider#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#is_enabled SecurityEventsProvider#is_enabled}
   */
   readonly isEnabled: string;
   /**
   * The name of the Security Events Provider instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#name SecurityEventsProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#name SecurityEventsProvider#name}
   */
   readonly name: string;
   /**
   * The application type of the Security Events Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#type SecurityEventsProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#type SecurityEventsProvider#type}
   */
   readonly type: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#settings SecurityEventsProvider#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#settings SecurityEventsProvider#settings}
   */
   readonly settings?: SecurityEventsProviderSettings;
 }
@@ -36,19 +36,19 @@ export interface SecurityEventsProviderSettings {
   /**
   * Issuer URL. Use with jwks_url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#issuer SecurityEventsProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#issuer SecurityEventsProvider#issuer}
   */
   readonly issuer?: string;
   /**
   * The public URL where the JWKS public key is uploaded. Use with issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#jwks_url SecurityEventsProvider#jwks_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#jwks_url SecurityEventsProvider#jwks_url}
   */
   readonly jwksUrl?: string;
   /**
   * The published well-known URL of the Security Events Provider (the SSF transmitter).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#well_known_url SecurityEventsProvider#well_known_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#well_known_url SecurityEventsProvider#well_known_url}
   */
   readonly wellKnownUrl?: string;
 }
@@ -200,7 +200,7 @@ export class SecurityEventsProviderSettingsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider okta_security_events_provider}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider okta_security_events_provider}
 */
 export class SecurityEventsProvider extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class SecurityEventsProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityEventsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityEventsProvider to import
-  * @param importFromId The id of the existing SecurityEventsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityEventsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityEventsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class SecurityEventsProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_events_provider okta_security_events_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/security_events_provider okta_security_events_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class SecurityEventsProvider extends cdktf.TerraformResource {
       terraformResourceType: 'okta_security_events_provider',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

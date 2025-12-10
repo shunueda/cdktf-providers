@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSyntheticsDevicesV2CheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check#id DataSyntheticsDevicesV2Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check#id DataSyntheticsDevicesV2Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataSyntheticsDevicesV2CheckConfig extends cdktf.TerraformMetaA
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check#devices DataSyntheticsDevicesV2Check#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check#devices DataSyntheticsDevicesV2Check#devices}
   */
   readonly devices?: DataSyntheticsDevicesV2CheckDevices[] | cdktf.IResolvable;
 }
@@ -230,7 +230,7 @@ export class DataSyntheticsDevicesV2CheckDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check synthetics_devices_v2_check}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check synthetics_devices_v2_check}
 */
 export class DataSyntheticsDevicesV2Check extends cdktf.TerraformDataSource {
 
@@ -246,7 +246,7 @@ export class DataSyntheticsDevicesV2Check extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSyntheticsDevicesV2Check resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSyntheticsDevicesV2Check to import
-  * @param importFromId The id of the existing DataSyntheticsDevicesV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSyntheticsDevicesV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSyntheticsDevicesV2Check to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class DataSyntheticsDevicesV2Check extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/devices_v2_check synthetics_devices_v2_check} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/devices_v2_check synthetics_devices_v2_check} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class DataSyntheticsDevicesV2Check extends cdktf.TerraformDataSource {
       terraformResourceType: 'synthetics_devices_v2_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

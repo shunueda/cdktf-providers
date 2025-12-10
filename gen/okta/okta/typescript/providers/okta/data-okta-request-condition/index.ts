@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOktaRequestConditionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#id DataOktaRequestCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#id DataOktaRequestCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataOktaRequestConditionConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the resource in Okta ID format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#resource_id DataOktaRequestCondition#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#resource_id DataOktaRequestCondition#resource_id}
   */
   readonly resourceId: string;
   /**
   * access_scope_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#access_scope_settings DataOktaRequestCondition#access_scope_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#access_scope_settings DataOktaRequestCondition#access_scope_settings}
   */
   readonly accessScopeSettings?: DataOktaRequestConditionAccessScopeSettings;
   /**
   * requester_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#requester_settings DataOktaRequestCondition#requester_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#requester_settings DataOktaRequestCondition#requester_settings}
   */
   readonly requesterSettings?: DataOktaRequestConditionRequesterSettings;
 }
@@ -123,7 +123,7 @@ export interface DataOktaRequestConditionAccessScopeSettings {
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#ids DataOktaRequestCondition#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#ids DataOktaRequestCondition#ids}
   */
   readonly ids?: DataOktaRequestConditionAccessScopeSettingsIds[] | cdktf.IResolvable;
 }
@@ -310,7 +310,7 @@ export interface DataOktaRequestConditionRequesterSettings {
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#ids DataOktaRequestCondition#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#ids DataOktaRequestCondition#ids}
   */
   readonly ids?: DataOktaRequestConditionRequesterSettingsIds[] | cdktf.IResolvable;
 }
@@ -409,7 +409,7 @@ export class DataOktaRequestConditionRequesterSettingsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition okta_request_condition}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition okta_request_condition}
 */
 export class DataOktaRequestCondition extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataOktaRequestCondition extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaRequestCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaRequestCondition to import
-  * @param importFromId The id of the existing DataOktaRequestCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaRequestCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaRequestCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataOktaRequestCondition extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/request_condition okta_request_condition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/data-sources/request_condition okta_request_condition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DataOktaRequestCondition extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_request_condition',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

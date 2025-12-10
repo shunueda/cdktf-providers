@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface CloudSecurityCustomRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * A list of the alert logic and detection criteria for rule violations. Do not include numbering within this list. The Falcon console will automatically add numbering.When `alert_info` is not defined and `parent_rule_id` is defined, this field will inherit the parent rule's `alert_info`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#alert_info CloudSecurityCustomRule#alert_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#alert_info CloudSecurityCustomRule#alert_info}
   */
   readonly alertInfo?: string[];
   /**
   * Specific attack types associated with the rule. If `parent_rule_id` is defined, `attack_types` will be inherited from the parent rule and cannot be specified using this field. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#attack_types CloudSecurityCustomRule#attack_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#attack_types CloudSecurityCustomRule#attack_types}
   */
   readonly attackTypes?: string[];
   /**
   * Cloud provider for the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#cloud_provider CloudSecurityCustomRule#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#cloud_provider CloudSecurityCustomRule#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Security framework and compliance rule information. Utilize the `crowdstrike_cloud_compliance_framework_controls` data source to obtain this information. When `controls` is not defined and `parent_rule_id` is defined, this field will inherit the parent rule's `controls`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#controls CloudSecurityCustomRule#controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#controls CloudSecurityCustomRule#controls}
   */
   readonly controls?: CloudSecurityCustomRuleControls[] | cdktf.IResolvable;
   /**
   * Description of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#description CloudSecurityCustomRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#description CloudSecurityCustomRule#description}
   */
   readonly description: string;
   /**
   * Rego logic for the rule. Either `logic` or `parent_rule_id` must be defined. When `parent_rule_id` is set, the rule inherits the Rego logic from the parent rule. Note: The API does not return Rego logic for rules created from a parent rule, so this field will not appear in state when using `parent_rule_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#logic CloudSecurityCustomRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#logic CloudSecurityCustomRule#logic}
   */
   readonly logic?: string;
   /**
   * Name of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#name CloudSecurityCustomRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#name CloudSecurityCustomRule#name}
   */
   readonly name: string;
   /**
   * Id of the parent rule to inherit properties from. The `crowdstrike_cloud_security_rules` data source can be used to query Falcon for parent rule information to use in this field. Required if `logic` is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#parent_rule_id CloudSecurityCustomRule#parent_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#parent_rule_id CloudSecurityCustomRule#parent_rule_id}
   */
   readonly parentRuleId?: string;
   /**
   * Information about how to remediate issues detected by this rule. Do not include numbering within this list. The Falcon console will automatically add numbering. When `remediation_info` is not defined and `parent_rule_id` is defined, this field will inherit the parent rule's `remediation_info`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#remediation_info CloudSecurityCustomRule#remediation_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#remediation_info CloudSecurityCustomRule#remediation_info}
   */
   readonly remediationInfo?: string[];
   /**
   * The full resource type. Examples: `AWS::IAM::CredentialReport`, `Microsoft.Compute/virtualMachines`, `container.googleapis.com/Cluster`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#resource_type CloudSecurityCustomRule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#resource_type CloudSecurityCustomRule#resource_type}
   */
   readonly resourceType: string;
   /**
   * Severity of the rule. Valid values are `critical`, `high`, `medium`, `informational`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#severity CloudSecurityCustomRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#severity CloudSecurityCustomRule#severity}
   */
   readonly severity?: string;
 }
@@ -78,13 +78,13 @@ export interface CloudSecurityCustomRuleControls {
   /**
   * The compliance framework
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#authority CloudSecurityCustomRule#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#authority CloudSecurityCustomRule#authority}
   */
   readonly authority?: string;
   /**
   * The compliance framework rule code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#code CloudSecurityCustomRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#code CloudSecurityCustomRule#code}
   */
   readonly code?: string;
 }
@@ -229,7 +229,7 @@ export class CloudSecurityCustomRuleControlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule crowdstrike_cloud_security_custom_rule}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule crowdstrike_cloud_security_custom_rule}
 */
 export class CloudSecurityCustomRule extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class CloudSecurityCustomRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSecurityCustomRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSecurityCustomRule to import
-  * @param importFromId The id of the existing CloudSecurityCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSecurityCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSecurityCustomRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class CloudSecurityCustomRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_security_custom_rule crowdstrike_cloud_security_custom_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_security_custom_rule crowdstrike_cloud_security_custom_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class CloudSecurityCustomRule extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_security_custom_rule',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

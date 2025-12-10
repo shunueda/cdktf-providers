@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DasbCmdTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Command list, n separated, maximum length 32768 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template#cmd_list DasbCmdTemplate#cmd_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template#cmd_list DasbCmdTemplate#cmd_list}
   */
   readonly cmdList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template#id DasbCmdTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template#id DasbCmdTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DasbCmdTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Template name, maximum length 32 characters, cannot contain blank characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template#name DasbCmdTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template#name DasbCmdTemplate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template tencentcloud_dasb_cmd_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template tencentcloud_dasb_cmd_template}
 */
 export class DasbCmdTemplate extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DasbCmdTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbCmdTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbCmdTemplate to import
-  * @param importFromId The id of the existing DasbCmdTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbCmdTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbCmdTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DasbCmdTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dasb_cmd_template tencentcloud_dasb_cmd_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_cmd_template tencentcloud_dasb_cmd_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DasbCmdTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_cmd_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

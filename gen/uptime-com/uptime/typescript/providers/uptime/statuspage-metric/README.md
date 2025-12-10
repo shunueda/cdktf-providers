@@ -1,3 +1,3 @@
 # `uptime_statuspage_metric`
 
-Refer to the Terraform Registry for docs: [`uptime_statuspage_metric`](https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_metric).
+Refer to the Terraform Registry for docs: [`uptime_statuspage_metric`](https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage_metric).

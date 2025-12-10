@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FastedgeSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Secret description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#comment FastedgeSecret#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#comment FastedgeSecret#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#id FastedgeSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#id FastedgeSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface FastedgeSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#name FastedgeSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#name FastedgeSecret#name}
   */
   readonly name: string;
   /**
   * slot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#slot FastedgeSecret#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#slot FastedgeSecret#slot}
   */
   readonly slot?: FastedgeSecretSlot[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface FastedgeSecretSlot {
   /**
   * Secret slot id, often used as 'effective from' timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#id FastedgeSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#id FastedgeSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ export interface FastedgeSecretSlot {
   /**
   * Secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#value FastedgeSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#value FastedgeSecret#value}
   */
   readonly value: string;
 }
@@ -190,7 +190,7 @@ export class FastedgeSecretSlotList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret gcore_fastedge_secret}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret gcore_fastedge_secret}
 */
 export class FastedgeSecret extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class FastedgeSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FastedgeSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastedgeSecret to import
-  * @param importFromId The id of the existing FastedgeSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastedgeSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastedgeSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class FastedgeSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/fastedge_secret gcore_fastedge_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/fastedge_secret gcore_fastedge_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class FastedgeSecret extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_fastedge_secret',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

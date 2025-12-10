@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreImageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#id DataGcoreImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#id DataGcoreImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataGcoreImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * use 'image_id' if you know it, for example 'f4b1b1b1-1b1b-1b1b-1b1b-1b1b1b1b1b1b'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#image_id DataGcoreImage#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#image_id DataGcoreImage#image_id}
   */
   readonly imageId?: string;
   /**
   * set to true if you need to get baremetal image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#is_baremetal DataGcoreImage#is_baremetal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#is_baremetal DataGcoreImage#is_baremetal}
   */
   readonly isBaremetal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#metadata_k DataGcoreImage#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#metadata_k DataGcoreImage#metadata_k}
   */
   readonly metadataK?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#metadata_kv DataGcoreImage#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#metadata_kv DataGcoreImage#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * use 'os-version', for example 'ubuntu-20.04'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#name DataGcoreImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#name DataGcoreImage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#project_id DataGcoreImage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#project_id DataGcoreImage#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#project_name DataGcoreImage#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#project_name DataGcoreImage#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#region_id DataGcoreImage#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#region_id DataGcoreImage#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#region_name DataGcoreImage#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#region_name DataGcoreImage#region_name}
   */
   readonly regionName?: string;
 }
@@ -144,7 +144,7 @@ export class DataGcoreImageMetadataReadOnlyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image gcore_image}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image gcore_image}
 */
 export class DataGcoreImage extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataGcoreImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreImage to import
-  * @param importFromId The id of the existing DataGcoreImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataGcoreImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/image gcore_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/image gcore_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataGcoreImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_image',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

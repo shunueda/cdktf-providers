@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudTsfGroupsConfig extends cdktf.TerraformMetaArgu
   /**
   * applicationId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#application_id DataTencentcloudTsfGroups#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#application_id DataTencentcloudTsfGroups#application_id}
   */
   readonly applicationId?: string;
   /**
   * clusterId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#cluster_id DataTencentcloudTsfGroups#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#cluster_id DataTencentcloudTsfGroups#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * group Id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#group_id_list DataTencentcloudTsfGroups#group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#group_id_list DataTencentcloudTsfGroups#group_id_list}
   */
   readonly groupIdList?: string[];
   /**
   * Group resourceType list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#group_resource_type_list DataTencentcloudTsfGroups#group_resource_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#group_resource_type_list DataTencentcloudTsfGroups#group_resource_type_list}
   */
   readonly groupResourceTypeList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#id DataTencentcloudTsfGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#id DataTencentcloudTsfGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface DataTencentcloudTsfGroupsConfig extends cdktf.TerraformMetaArgu
   /**
   * namespace Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#namespace_id DataTencentcloudTsfGroups#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#namespace_id DataTencentcloudTsfGroups#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * sort term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#order_by DataTencentcloudTsfGroups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#order_by DataTencentcloudTsfGroups#order_by}
   */
   readonly orderBy?: string;
   /**
   * order type, 0 desc, 1 asc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#order_type DataTencentcloudTsfGroups#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#order_type DataTencentcloudTsfGroups#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#result_output_file DataTencentcloudTsfGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#result_output_file DataTencentcloudTsfGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * searchWord, support groupName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#search_word DataTencentcloudTsfGroups#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#search_word DataTencentcloudTsfGroups#search_word}
   */
   readonly searchWord?: string;
   /**
   * group status filter, `Running`: running, `Unknown`: unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#status DataTencentcloudTsfGroups#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#status DataTencentcloudTsfGroups#status}
   */
   readonly status?: string;
 }
@@ -318,7 +318,7 @@ export class DataTencentcloudTsfGroupsResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups tencentcloud_tsf_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups tencentcloud_tsf_groups}
 */
 export class DataTencentcloudTsfGroups extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataTencentcloudTsfGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTsfGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfGroups to import
-  * @param importFromId The id of the existing DataTencentcloudTsfGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataTencentcloudTsfGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_groups tencentcloud_tsf_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/tsf_groups tencentcloud_tsf_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataTencentcloudTsfGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tsf_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

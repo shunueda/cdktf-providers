@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email address of the administrator responsible for this zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#contact DnsZone#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#contact DnsZone#contact}
   */
   readonly contact?: string;
   /**
   * Activation or deactivation of DNSSEC for the zone.Set it to true to enable DNSSEC for the zone or false to disable it.By default, DNSSEC is set to false wich means it is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#dnssec DnsZone#dnssec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#dnssec DnsZone#dnssec}
   */
   readonly dnssec?: boolean | cdktf.IResolvable;
   /**
   * Default: true. If a zone is disabled, then its records will not be resolved on dns servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#enabled DnsZone#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#enabled DnsZone#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * number of seconds after which secondary name servers should stop answering request for this zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#expiry DnsZone#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#expiry DnsZone#expiry}
   */
   readonly expiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#id DnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#id DnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,59 +41,59 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Arbitrary data of zone in JSON format. You can specify webhook URL and webhook_method here. Webhook will receive a map with three arrays: for created, updated, and deleted rrsets. webhook_method can be omitted; POST will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#meta DnsZone#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#meta DnsZone#meta}
   */
   readonly meta?: { [key: string]: string };
   /**
   * A name of DNS Zone resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
   * Time To Live of cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#nx_ttl DnsZone#nx_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#nx_ttl DnsZone#nx_ttl}
   */
   readonly nxTtl?: number;
   /**
   * Primary master name server for zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#primary_server DnsZone#primary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#primary_server DnsZone#primary_server}
   */
   readonly primaryServer?: string;
   /**
   * number of seconds after which secondary name servers should refresh the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#refresh DnsZone#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#refresh DnsZone#refresh}
   */
   readonly refresh?: number;
   /**
   * number of seconds after which secondary name servers should retry to request the serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#retry DnsZone#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#retry DnsZone#retry}
   */
   readonly retry?: number;
   /**
   * Serial number for this zone or Timestamp of zone modification moment. If a secondary name server slaved to this one observes an increase in this number, the slave will assume that the zone has been updated and initiate a zone transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#serial DnsZone#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#serial DnsZone#serial}
   */
   readonly serial?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#timeouts DnsZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#timeouts DnsZone#timeouts}
   */
   readonly timeouts?: DnsZoneTimeouts;
 }
 export interface DnsZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#create DnsZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#create DnsZone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#delete DnsZone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#delete DnsZone#delete}
   */
   readonly delete?: string;
 }
@@ -216,7 +216,7 @@ export class DnsZoneTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone gcore_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone gcore_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/dns_zone gcore_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/dns_zone gcore_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

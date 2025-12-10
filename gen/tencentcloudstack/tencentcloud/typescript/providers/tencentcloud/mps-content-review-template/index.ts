@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MpsContentReviewTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Content review template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#comment MpsContentReviewTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#comment MpsContentReviewTemplate#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#id MpsContentReviewTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#id MpsContentReviewTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface MpsContentReviewTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Content review template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#name MpsContentReviewTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#name MpsContentReviewTemplate#name}
   */
   readonly name?: string;
   /**
   * political_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#political_configure MpsContentReviewTemplate#political_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#political_configure MpsContentReviewTemplate#political_configure}
   */
   readonly politicalConfigure?: MpsContentReviewTemplatePoliticalConfigure;
   /**
   * porn_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#porn_configure MpsContentReviewTemplate#porn_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#porn_configure MpsContentReviewTemplate#porn_configure}
   */
   readonly pornConfigure?: MpsContentReviewTemplatePornConfigure;
   /**
   * prohibited_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#prohibited_configure MpsContentReviewTemplate#prohibited_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#prohibited_configure MpsContentReviewTemplate#prohibited_configure}
   */
   readonly prohibitedConfigure?: MpsContentReviewTemplateProhibitedConfigure;
   /**
   * terrorism_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#terrorism_configure MpsContentReviewTemplate#terrorism_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#terrorism_configure MpsContentReviewTemplate#terrorism_configure}
   */
   readonly terrorismConfigure?: MpsContentReviewTemplateTerrorismConfigure;
   /**
   * user_define_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#user_define_configure MpsContentReviewTemplate#user_define_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#user_define_configure MpsContentReviewTemplate#user_define_configure}
   */
   readonly userDefineConfigure?: MpsContentReviewTemplateUserDefineConfigure;
 }
@@ -61,19 +61,19 @@ export interface MpsContentReviewTemplatePoliticalConfigureAsrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Political asr task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -214,25 +214,25 @@ export interface MpsContentReviewTemplatePoliticalConfigureImgReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 97 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * Political image filter tag, if the review result contains the selected tag, the result will be returned, if the filter tag is empty, all the review results will be returned, the optional value is:violation_photo, politician, entertainment, sport, entrepreneur, scholar, celebrity, military.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 95 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Political image task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -402,19 +402,19 @@ export interface MpsContentReviewTemplatePoliticalConfigureOcrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Political ocr task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -555,19 +555,19 @@ export interface MpsContentReviewTemplatePoliticalConfigure {
   /**
   * asr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
   */
   readonly asrReviewInfo?: MpsContentReviewTemplatePoliticalConfigureAsrReviewInfo;
   /**
   * img_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
   */
   readonly imgReviewInfo?: MpsContentReviewTemplatePoliticalConfigureImgReviewInfo;
   /**
   * ocr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
   */
   readonly ocrReviewInfo?: MpsContentReviewTemplatePoliticalConfigureOcrReviewInfo;
 }
@@ -711,19 +711,19 @@ export interface MpsContentReviewTemplatePornConfigureAsrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Voice pornography task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -864,25 +864,25 @@ export interface MpsContentReviewTemplatePornConfigureImgReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 90 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * Porn image filter label, if the review result contains the selected label, the result will be returned. If the filter label is empty, all the review results will be returned. The optional value is:porn, vulgar, intimacy, sexy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 0. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Porn screen task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -1052,19 +1052,19 @@ export interface MpsContentReviewTemplatePornConfigureOcrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Ocr pornography task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -1205,19 +1205,19 @@ export interface MpsContentReviewTemplatePornConfigure {
   /**
   * asr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
   */
   readonly asrReviewInfo?: MpsContentReviewTemplatePornConfigureAsrReviewInfo;
   /**
   * img_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
   */
   readonly imgReviewInfo?: MpsContentReviewTemplatePornConfigureImgReviewInfo;
   /**
   * ocr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
   */
   readonly ocrReviewInfo?: MpsContentReviewTemplatePornConfigureOcrReviewInfo;
 }
@@ -1361,19 +1361,19 @@ export interface MpsContentReviewTemplateProhibitedConfigureAsrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Voice Prohibition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -1514,19 +1514,19 @@ export interface MpsContentReviewTemplateProhibitedConfigureOcrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Ocr Prohibition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -1667,13 +1667,13 @@ export interface MpsContentReviewTemplateProhibitedConfigure {
   /**
   * asr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
   */
   readonly asrReviewInfo?: MpsContentReviewTemplateProhibitedConfigureAsrReviewInfo;
   /**
   * ocr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
   */
   readonly ocrReviewInfo?: MpsContentReviewTemplateProhibitedConfigureOcrReviewInfo;
 }
@@ -1788,25 +1788,25 @@ export interface MpsContentReviewTemplateTerrorismConfigureImgReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 90 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * Terrorism image filter tag, if the review result contains the selected tag, the result will be returned, if the filter tag is empty, all the review results will be returned, the optional value is:guns, crowd, bloody, police, banners, militant, explosion, terrorists, scenario.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 80 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Terrorism image task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -1976,19 +1976,19 @@ export interface MpsContentReviewTemplateTerrorismConfigureOcrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * Ocr terrorism image task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -2129,13 +2129,13 @@ export interface MpsContentReviewTemplateTerrorismConfigure {
   /**
   * img_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#img_review_info MpsContentReviewTemplate#img_review_info}
   */
   readonly imgReviewInfo?: MpsContentReviewTemplateTerrorismConfigureImgReviewInfo;
   /**
   * ocr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
   */
   readonly ocrReviewInfo: MpsContentReviewTemplateTerrorismConfigureOcrReviewInfo;
 }
@@ -2247,25 +2247,25 @@ export interface MpsContentReviewTemplateUserDefineConfigureAsrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * User-defined asr tags, the review result contains the selected tag and returns the result, if the filter tag is empty, all review results are returned. If you want to use the tag filtering function, when adding a asr library, you need to add the corresponding character tag.The maximum number of tags is 10, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * User-defined asr review task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -2435,25 +2435,25 @@ export interface MpsContentReviewTemplateUserDefineConfigureFaceReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * User-defined face review tags, the review result contains the selected tag and returns the result, if the filter tag is empty, all review results are returned. If you want to use the tag filtering function, when adding a face library, you need to add the corresponding character tag.The maximum number of tags is 10, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * User-defined face review task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -2623,25 +2623,25 @@ export interface MpsContentReviewTemplateUserDefineConfigureOcrReviewInfo {
   /**
   * The score threshold for judging suspected violations. When the smart review reaches the score above, it is considered suspected violations. If it is not filled, the default is 100 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#block_confidence MpsContentReviewTemplate#block_confidence}
   */
   readonly blockConfidence?: number;
   /**
   * User-defined ocr tags, the review result contains the selected tag and returns the result, if the filter tag is empty, all review results are returned. If you want to use the tag filtering function, when adding a ocr library, you need to add the corresponding character tag.The maximum number of tags is 10, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#label_set MpsContentReviewTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * The score threshold for judging whether manual review is required for violations. When the intelligent review reaches the score above, it is considered that manual review is required. If it is not filled, the default is 75 points. Value range: 0~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#review_confidence MpsContentReviewTemplate#review_confidence}
   */
   readonly reviewConfidence?: number;
   /**
   * User-defined ocr text review task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#switch MpsContentReviewTemplate#switch}
   */
   readonly switch: string;
 }
@@ -2811,19 +2811,19 @@ export interface MpsContentReviewTemplateUserDefineConfigure {
   /**
   * asr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#asr_review_info MpsContentReviewTemplate#asr_review_info}
   */
   readonly asrReviewInfo?: MpsContentReviewTemplateUserDefineConfigureAsrReviewInfo;
   /**
   * face_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#face_review_info MpsContentReviewTemplate#face_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#face_review_info MpsContentReviewTemplate#face_review_info}
   */
   readonly faceReviewInfo?: MpsContentReviewTemplateUserDefineConfigureFaceReviewInfo;
   /**
   * ocr_review_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#ocr_review_info MpsContentReviewTemplate#ocr_review_info}
   */
   readonly ocrReviewInfo?: MpsContentReviewTemplateUserDefineConfigureOcrReviewInfo;
 }
@@ -2965,7 +2965,7 @@ export class MpsContentReviewTemplateUserDefineConfigureOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template tencentcloud_mps_content_review_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template tencentcloud_mps_content_review_template}
 */
 export class MpsContentReviewTemplate extends cdktf.TerraformResource {
 
@@ -2981,7 +2981,7 @@ export class MpsContentReviewTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsContentReviewTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsContentReviewTemplate to import
-  * @param importFromId The id of the existing MpsContentReviewTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsContentReviewTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsContentReviewTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2993,7 +2993,7 @@ export class MpsContentReviewTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_content_review_template tencentcloud_mps_content_review_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_content_review_template tencentcloud_mps_content_review_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3004,8 +3004,8 @@ export class MpsContentReviewTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_content_review_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

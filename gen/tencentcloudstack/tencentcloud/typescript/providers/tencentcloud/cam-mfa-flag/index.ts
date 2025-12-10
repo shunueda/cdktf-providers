@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CamMfaFlagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#id CamMfaFlag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#id CamMfaFlag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CamMfaFlagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Operate uin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#op_uin CamMfaFlag#op_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#op_uin CamMfaFlag#op_uin}
   */
   readonly opUin: number;
   /**
   * action_flag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#action_flag CamMfaFlag#action_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#action_flag CamMfaFlag#action_flag}
   */
   readonly actionFlag?: CamMfaFlagActionFlag;
   /**
   * login_flag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#login_flag CamMfaFlag#login_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#login_flag CamMfaFlag#login_flag}
   */
   readonly loginFlag?: CamMfaFlagLoginFlag;
 }
@@ -37,19 +37,19 @@ export interface CamMfaFlagActionFlag {
   /**
   * Phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#phone CamMfaFlag#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#phone CamMfaFlag#phone}
   */
   readonly phone?: number;
   /**
   * Soft token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#stoken CamMfaFlag#stoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#stoken CamMfaFlag#stoken}
   */
   readonly stoken?: number;
   /**
   * Wechat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#wechat CamMfaFlag#wechat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#wechat CamMfaFlag#wechat}
   */
   readonly wechat?: number;
 }
@@ -193,19 +193,19 @@ export interface CamMfaFlagLoginFlag {
   /**
   * Phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#phone CamMfaFlag#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#phone CamMfaFlag#phone}
   */
   readonly phone?: number;
   /**
   * Soft token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#stoken CamMfaFlag#stoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#stoken CamMfaFlag#stoken}
   */
   readonly stoken?: number;
   /**
   * Wechat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#wechat CamMfaFlag#wechat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#wechat CamMfaFlag#wechat}
   */
   readonly wechat?: number;
 }
@@ -347,7 +347,7 @@ export class CamMfaFlagLoginFlagOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag tencentcloud_cam_mfa_flag}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag tencentcloud_cam_mfa_flag}
 */
 export class CamMfaFlag extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class CamMfaFlag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamMfaFlag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamMfaFlag to import
-  * @param importFromId The id of the existing CamMfaFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamMfaFlag that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamMfaFlag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class CamMfaFlag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cam_mfa_flag tencentcloud_cam_mfa_flag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cam_mfa_flag tencentcloud_cam_mfa_flag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class CamMfaFlag extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_mfa_flag',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

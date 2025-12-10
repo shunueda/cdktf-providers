@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,70 +10,70 @@ export interface DiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
   * CDP level is the number of hops across neighbor devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#cdp_level Discovery#cdp_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#cdp_level Discovery#cdp_level}
   */
   readonly cdpLevel?: number;
   /**
   * Type of Discovery.
   *   - Choices: `Single`, `Range`, `Multi Range`, `CDP`, `LLDP`, `CIDR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#discovery_type Discovery#discovery_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#discovery_type Discovery#discovery_type}
   */
   readonly discoveryType: string;
   /**
   * Enable passwords of the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#enable_password_list Discovery#enable_password_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#enable_password_list Discovery#enable_password_list}
   */
   readonly enablePasswordList?: string[];
   /**
   * A list of IDs, which must include SNMP credential and CLI credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#global_credential_id_list Discovery#global_credential_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#global_credential_id_list Discovery#global_credential_id_list}
   */
   readonly globalCredentialIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#http_read_credential Discovery#http_read_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#http_read_credential Discovery#http_read_credential}
   */
   readonly httpReadCredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#http_write_credential Discovery#http_write_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#http_write_credential Discovery#http_write_credential}
   */
   readonly httpWriteCredential?: string;
   /**
   * A string of IP address ranges to discover.  E.g.: '172.30.0.1' for discovery_type Single, CDP and LLDP; '172.30.0.1-172.30.0.4' for Range; '72.30.0.1-172.30.0.4,172.31.0.1-172.31.0.4' for Multi Range; '172.30.0.1/20' for CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#ip_address_list Discovery#ip_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#ip_address_list Discovery#ip_address_list}
   */
   readonly ipAddressList?: string;
   /**
   * A list of IP address ranges to exclude from the discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#ip_filter_list Discovery#ip_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#ip_filter_list Discovery#ip_filter_list}
   */
   readonly ipFilterList?: string[];
   /**
   * LLDP level to which neighbor devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#lldp_level Discovery#lldp_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#lldp_level Discovery#lldp_level}
   */
   readonly lldpLevel?: number;
   /**
   * A name of the discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
   /**
   * Port number for netconf as a string. It requires SSH protocol to work.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#netconf_port Discovery#netconf_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#netconf_port Discovery#netconf_port}
   */
   readonly netconfPort?: string;
   /**
   * Passwords of the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#password_list Discovery#password_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#password_list Discovery#password_list}
   */
   readonly passwordList?: string[];
   /**
@@ -81,107 +81,107 @@ export interface DiscoveryConfig extends cdktf.TerraformMetaArguments {
   *   - Choices: `None`, `UseLoopBack`
   *   - Default value: `None`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#preferred_mgmt_ip_method Discovery#preferred_mgmt_ip_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#preferred_mgmt_ip_method Discovery#preferred_mgmt_ip_method}
   */
   readonly preferredMgmtIpMethod?: string;
   /**
   * A string of comma-separated protocols (SSH/Telnet), in the same order in which the connections to each device are attempted. E.g.: 'Telnet': only telnet; 'SSH,Telnet': ssh first, with telnet fallback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#protocol_order Discovery#protocol_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#protocol_order Discovery#protocol_order}
   */
   readonly protocolOrder: string;
   /**
   * Number of times to try establishing SSH/Telnet connection to a device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#retry Discovery#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#retry Discovery#retry}
   */
   readonly retry?: number;
   /**
   * Auth passphrase for SNMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_auth_passphrase Discovery#snmp_auth_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_auth_passphrase Discovery#snmp_auth_passphrase}
   */
   readonly snmpAuthPassphrase?: string;
   /**
   * SNMP auth protocol.
   *   - Choices: `SHA`, `MD5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_auth_protocol Discovery#snmp_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_auth_protocol Discovery#snmp_auth_protocol}
   */
   readonly snmpAuthProtocol?: string;
   /**
   * Mode of SNMP. The `snmp_auth_protocol` and `snmp_auth_passphrase` are required for "AuthNoPriv" mode. Additionally, `snmp_priv_protocol` and `snmp_priv_passphrase` are required for "AuthPriv" mode.
   *   - Choices: `AuthPriv`, `AuthNoPriv`, `NoAuthNoPriv`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_mode Discovery#snmp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_mode Discovery#snmp_mode}
   */
   readonly snmpMode?: string;
   /**
   * Passphrase for SNMP privacy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_priv_passphrase Discovery#snmp_priv_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_priv_passphrase Discovery#snmp_priv_passphrase}
   */
   readonly snmpPrivPassphrase?: string;
   /**
   * SNMP privacy protocol.
   *   - Choices: `DES`, `AES128`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_priv_protocol Discovery#snmp_priv_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_priv_protocol Discovery#snmp_priv_protocol}
   */
   readonly snmpPrivProtocol?: string;
   /**
   * SNMP RO community of the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_ro_community Discovery#snmp_ro_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_ro_community Discovery#snmp_ro_community}
   */
   readonly snmpRoCommunity?: string;
   /**
   * Description for snmp_ro_community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_ro_community_desc Discovery#snmp_ro_community_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_ro_community_desc Discovery#snmp_ro_community_desc}
   */
   readonly snmpRoCommunityDesc?: string;
   /**
   * SNMP RW community of the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_rw_community Discovery#snmp_rw_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_rw_community Discovery#snmp_rw_community}
   */
   readonly snmpRwCommunity?: string;
   /**
   * Description for snmp_rw_community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_rw_community_desc Discovery#snmp_rw_community_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_rw_community_desc Discovery#snmp_rw_community_desc}
   */
   readonly snmpRwCommunityDesc?: string;
   /**
   * SNMP username of the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_user_name Discovery#snmp_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_user_name Discovery#snmp_user_name}
   */
   readonly snmpUserName?: string;
   /**
   * SNMP version
   *   - Choices: `v2`, `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#snmp_version Discovery#snmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#snmp_version Discovery#snmp_version}
   */
   readonly snmpVersion?: string;
   /**
   * Number of seconds to wait for each SSH/Telnet connection to a device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#timeout_seconds Discovery#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#timeout_seconds Discovery#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Usernames for the devices to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#user_name_list Discovery#user_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#user_name_list Discovery#user_name_list}
   */
   readonly userNameList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery catalystcenter_discovery}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery catalystcenter_discovery}
 */
 export class Discovery extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class Discovery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Discovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Discovery to import
-  * @param importFromId The id of the existing Discovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Discovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Discovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class Discovery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/discovery catalystcenter_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/discovery catalystcenter_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class Discovery extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_discovery',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "artie": "2.3.5"
+    "artie": "2.3.6"
   }
 }

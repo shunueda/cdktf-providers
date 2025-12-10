@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,110 +11,110 @@ export interface AuthenticationPolicyServerConfig extends cdktf.TerraformMetaArg
   * Accounting port of RADIUS server
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#accounting_port AuthenticationPolicyServer#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#accounting_port AuthenticationPolicyServer#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Authentication port of RADIUS server
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#authentication_port AuthenticationPolicyServer#authentication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#authentication_port AuthenticationPolicyServer#authentication_port}
   */
   readonly authenticationPort?: number;
   /**
   * Cisco ISE Server DTOs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#cisco_ise_dtos AuthenticationPolicyServer#cisco_ise_dtos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#cisco_ise_dtos AuthenticationPolicyServer#cisco_ise_dtos}
   */
   readonly ciscoIseDtos?: AuthenticationPolicyServerCiscoIseDtos[] | cdktf.IResolvable;
   /**
   * Encryption key used to encrypt shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#encryption_key AuthenticationPolicyServer#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#encryption_key AuthenticationPolicyServer#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * Type of encryption scheme for additional security
   *   - Choices: `KEYWRAP`, `RADSEC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#encryption_scheme AuthenticationPolicyServer#encryption_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#encryption_scheme AuthenticationPolicyServer#encryption_scheme}
   */
   readonly encryptionScheme?: string;
   /**
   * For future use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#external_cisco_ise_ip_addr_dtos AuthenticationPolicyServer#external_cisco_ise_ip_addr_dtos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#external_cisco_ise_ip_addr_dtos AuthenticationPolicyServer#external_cisco_ise_ip_addr_dtos}
   */
   readonly externalCiscoIseIpAddrDtos?: AuthenticationPolicyServerExternalCiscoIseIpAddrDtos[] | cdktf.IResolvable;
   /**
   * IP address of authentication and policy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#ip_address AuthenticationPolicyServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#ip_address AuthenticationPolicyServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Value true for Cisco ISE Server. Default value is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#is_ise_enabled AuthenticationPolicyServer#is_ise_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#is_ise_enabled AuthenticationPolicyServer#is_ise_enabled}
   */
   readonly isIseEnabled?: boolean | cdktf.IResolvable;
   /**
   * Message key used to encrypt shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#message_key AuthenticationPolicyServer#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#message_key AuthenticationPolicyServer#message_key}
   */
   readonly messageKey?: string;
   /**
   * Port of TACACS server
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#port AuthenticationPolicyServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#port AuthenticationPolicyServer#port}
   */
   readonly port?: number;
   /**
   * Type of protocol for authentication and policy server. If already saved with RADIUS, can update to RADIUS_TACACS. If already saved with TACACS, can update to RADIUS_TACACS
   *   - Choices: `TACACS`, `RADIUS`, `RADIUS_TACACS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#protocol AuthenticationPolicyServer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#protocol AuthenticationPolicyServer#protocol}
   */
   readonly protocol: string;
   /**
   * Value true for enable, false for disable. Default value is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#pxgrid_enabled AuthenticationPolicyServer#pxgrid_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#pxgrid_enabled AuthenticationPolicyServer#pxgrid_enabled}
   */
   readonly pxgridEnabled?: boolean | cdktf.IResolvable;
   /**
   * Number of communication retries between devices and authentication and policy server. The range is from 1 to 3
   *   - Range: `1`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#retries AuthenticationPolicyServer#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#retries AuthenticationPolicyServer#retries}
   */
   readonly retries: number;
   /**
   * Role of authentication and policy server
   *   - Choices: `primary`, `secondary`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#role AuthenticationPolicyServer#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#role AuthenticationPolicyServer#role}
   */
   readonly role: string;
   /**
   * Shared secret between devices and authentication and policy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#shared_secret AuthenticationPolicyServer#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#shared_secret AuthenticationPolicyServer#shared_secret}
   */
   readonly sharedSecret: string;
   /**
   * Number of seconds before timing out between devices and authentication and policy server. The range is from 2 to 20
   *   - Range: `2`-`20`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#timeout_seconds AuthenticationPolicyServer#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#timeout_seconds AuthenticationPolicyServer#timeout_seconds}
   */
   readonly timeoutSeconds: number;
   /**
   * Value true to use DNAC certificate for Pxgrid. Default value is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#use_dnac_cert_for_pxgrid AuthenticationPolicyServer#use_dnac_cert_for_pxgrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#use_dnac_cert_for_pxgrid AuthenticationPolicyServer#use_dnac_cert_for_pxgrid}
   */
   readonly useDnacCertForPxgrid?: boolean | cdktf.IResolvable;
 }
@@ -122,43 +122,43 @@ export interface AuthenticationPolicyServerCiscoIseDtos {
   /**
   * Description about the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#description AuthenticationPolicyServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#description AuthenticationPolicyServer#description}
   */
   readonly description?: string;
   /**
   * Fully-qualified domain name of the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#fqdn AuthenticationPolicyServer#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#fqdn AuthenticationPolicyServer#fqdn}
   */
   readonly fqdn: string;
   /**
   * IP Address of the Cisco ISE Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#ip_address AuthenticationPolicyServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#ip_address AuthenticationPolicyServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Password of the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#password AuthenticationPolicyServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#password AuthenticationPolicyServer#password}
   */
   readonly password: string;
   /**
   * SSH key of the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#sshkey AuthenticationPolicyServer#sshkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#sshkey AuthenticationPolicyServer#sshkey}
   */
   readonly sshkey?: string;
   /**
   * Subscriber name of the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#subscriber_name AuthenticationPolicyServer#subscriber_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#subscriber_name AuthenticationPolicyServer#subscriber_name}
   */
   readonly subscriberName: string;
   /**
   * User name of the Cisco ISE server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#user_name AuthenticationPolicyServer#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#user_name AuthenticationPolicyServer#user_name}
   */
   readonly userName: string;
 }
@@ -433,7 +433,7 @@ export class AuthenticationPolicyServerCiscoIseDtosList extends cdktf.ComplexLis
 }
 export interface AuthenticationPolicyServerExternalCiscoIseIpAddrDtosExternalCiscoIseIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#external_ip_address AuthenticationPolicyServer#external_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#external_ip_address AuthenticationPolicyServer#external_ip_address}
   */
   readonly externalIpAddress?: string;
 }
@@ -549,11 +549,11 @@ export class AuthenticationPolicyServerExternalCiscoIseIpAddrDtosExternalCiscoIs
 }
 export interface AuthenticationPolicyServerExternalCiscoIseIpAddrDtos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#external_cisco_ise_ip_addresses AuthenticationPolicyServer#external_cisco_ise_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#external_cisco_ise_ip_addresses AuthenticationPolicyServer#external_cisco_ise_ip_addresses}
   */
   readonly externalCiscoIseIpAddresses?: AuthenticationPolicyServerExternalCiscoIseIpAddrDtosExternalCiscoIseIpAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#type AuthenticationPolicyServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#type AuthenticationPolicyServer#type}
   */
   readonly type?: string;
 }
@@ -698,7 +698,7 @@ export class AuthenticationPolicyServerExternalCiscoIseIpAddrDtosList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server catalystcenter_authentication_policy_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server catalystcenter_authentication_policy_server}
 */
 export class AuthenticationPolicyServer extends cdktf.TerraformResource {
 
@@ -714,7 +714,7 @@ export class AuthenticationPolicyServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationPolicyServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationPolicyServer to import
-  * @param importFromId The id of the existing AuthenticationPolicyServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationPolicyServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationPolicyServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -726,7 +726,7 @@ export class AuthenticationPolicyServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/authentication_policy_server catalystcenter_authentication_policy_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/authentication_policy_server catalystcenter_authentication_policy_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -737,8 +737,8 @@ export class AuthenticationPolicyServer extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_authentication_policy_server',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

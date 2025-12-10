@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,75 +10,75 @@ export interface TelemetrySettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Netflow Application Telemetry and Controller Based Application Recognition (CBAR) by default upon network device site assignment for wired access devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#enable_netflow_collector_on_devices TelemetrySettings#enable_netflow_collector_on_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#enable_netflow_collector_on_devices TelemetrySettings#enable_netflow_collector_on_devices}
   */
   readonly enableNetflowCollectorOnDevices: boolean | cdktf.IResolvable;
   /**
   * Track the presence, location, and movement of wired endpoints in the network. Traffic received from endpoints is used to extract and store their identity information (MAC address and IP address). Other features, such as IEEE 802.1X, web authentication, Cisco Security Groups (formerly TrustSec), SD-Access, and Assurance, depend on this identity information to operate properly. Wired Endpoint Data Collection enables Device Tracking policies on devices assigned to the Access role in Inventory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#enable_wired_data_collection TelemetrySettings#enable_wired_data_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#enable_wired_data_collection TelemetrySettings#enable_wired_data_collection}
   */
   readonly enableWiredDataCollection: boolean | cdktf.IResolvable;
   /**
   * Enables Streaming Telemetry on your wireless controllers in order to determine the health of your wireless controller, access points and wireless clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#enable_wireless_telemetry TelemetrySettings#enable_wireless_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#enable_wireless_telemetry TelemetrySettings#enable_wireless_telemetry}
   */
   readonly enableWirelessTelemetry: boolean | cdktf.IResolvable;
   /**
   * External syslog servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#external_syslog_servers TelemetrySettings#external_syslog_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#external_syslog_servers TelemetrySettings#external_syslog_servers}
   */
   readonly externalSyslogServers?: string[];
   /**
   * External SNMP trap servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#external_trap_servers TelemetrySettings#external_trap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#external_trap_servers TelemetrySettings#external_trap_servers}
   */
   readonly externalTrapServers?: string[];
   /**
   * Application Visibility Collector Type
   *   - Choices: `Builtin`, `TelemetryBrokerOrUDPDirector`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#netflow_collector TelemetrySettings#netflow_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#netflow_collector TelemetrySettings#netflow_collector}
   */
   readonly netflowCollector: string;
   /**
   * IP Address. If collection type is `TelemetryBrokerOrUDPDirector`, this field value is mandatory otherwise it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#netflow_collector_ip_address TelemetrySettings#netflow_collector_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#netflow_collector_ip_address TelemetrySettings#netflow_collector_ip_address}
   */
   readonly netflowCollectorIpAddress?: string;
   /**
   * If collection type is `TelemetryBrokerOrUDPDirector`, this field value is mandatory otherwise it is optional
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#netflow_collector_port TelemetrySettings#netflow_collector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#netflow_collector_port TelemetrySettings#netflow_collector_port}
   */
   readonly netflowCollectorPort?: number;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#site_id TelemetrySettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#site_id TelemetrySettings#site_id}
   */
   readonly siteId: string;
   /**
   * Enable this server as a destination server for syslog messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#use_builtin_syslog_server TelemetrySettings#use_builtin_syslog_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#use_builtin_syslog_server TelemetrySettings#use_builtin_syslog_server}
   */
   readonly useBuiltinSyslogServer: boolean | cdktf.IResolvable;
   /**
   * Enable this server as a destination server for SNMP traps and messages from your network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#use_builtin_trap_server TelemetrySettings#use_builtin_trap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#use_builtin_trap_server TelemetrySettings#use_builtin_trap_server}
   */
   readonly useBuiltinTrapServer: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings catalystcenter_telemetry_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings catalystcenter_telemetry_settings}
 */
 export class TelemetrySettings extends cdktf.TerraformResource {
 
@@ -94,7 +94,7 @@ export class TelemetrySettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelemetrySettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelemetrySettings to import
-  * @param importFromId The id of the existing TelemetrySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelemetrySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelemetrySettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -106,7 +106,7 @@ export class TelemetrySettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/telemetry_settings catalystcenter_telemetry_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/telemetry_settings catalystcenter_telemetry_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -117,8 +117,8 @@ export class TelemetrySettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_telemetry_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

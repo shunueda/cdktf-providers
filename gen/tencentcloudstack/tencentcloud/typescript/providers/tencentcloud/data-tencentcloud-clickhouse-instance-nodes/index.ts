@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudClickhouseInstanceNodesConfig extends cdktf.Ter
   /**
   * Display strategy, display all when All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#display_policy DataTencentcloudClickhouseInstanceNodes#display_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#display_policy DataTencentcloudClickhouseInstanceNodes#display_policy}
   */
   readonly displayPolicy?: string;
   /**
   * When true, returns all nodes, that is, the Limit is infinitely large.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#force_all DataTencentcloudClickhouseInstanceNodes#force_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#force_all DataTencentcloudClickhouseInstanceNodes#force_all}
   */
   readonly forceAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#id DataTencentcloudClickhouseInstanceNodes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#id DataTencentcloudClickhouseInstanceNodes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudClickhouseInstanceNodesConfig extends cdktf.Ter
   /**
   * InstanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#instance_id DataTencentcloudClickhouseInstanceNodes#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#instance_id DataTencentcloudClickhouseInstanceNodes#instance_id}
   */
   readonly instanceId: string;
   /**
   * Cluster role type, default is `data` data node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#node_role DataTencentcloudClickhouseInstanceNodes#node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#node_role DataTencentcloudClickhouseInstanceNodes#node_role}
   */
   readonly nodeRole?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#result_output_file DataTencentcloudClickhouseInstanceNodes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#result_output_file DataTencentcloudClickhouseInstanceNodes#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -253,7 +253,7 @@ export class DataTencentcloudClickhouseInstanceNodesInstanceNodesListStructList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes tencentcloud_clickhouse_instance_nodes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes tencentcloud_clickhouse_instance_nodes}
 */
 export class DataTencentcloudClickhouseInstanceNodes extends cdktf.TerraformDataSource {
 
@@ -269,7 +269,7 @@ export class DataTencentcloudClickhouseInstanceNodes extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudClickhouseInstanceNodes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClickhouseInstanceNodes to import
-  * @param importFromId The id of the existing DataTencentcloudClickhouseInstanceNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClickhouseInstanceNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClickhouseInstanceNodes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DataTencentcloudClickhouseInstanceNodes extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_instance_nodes tencentcloud_clickhouse_instance_nodes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_instance_nodes tencentcloud_clickhouse_instance_nodes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class DataTencentcloudClickhouseInstanceNodes extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_clickhouse_instance_nodes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

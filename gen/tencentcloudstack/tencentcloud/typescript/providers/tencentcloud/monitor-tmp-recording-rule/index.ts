@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MonitorTmpRecordingRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * Recording rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#group MonitorTmpRecordingRule#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#group MonitorTmpRecordingRule#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#id MonitorTmpRecordingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#id MonitorTmpRecordingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface MonitorTmpRecordingRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#instance_id MonitorTmpRecordingRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#instance_id MonitorTmpRecordingRule#instance_id}
   */
   readonly instanceId: string;
   /**
   * Recording rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#name MonitorTmpRecordingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#name MonitorTmpRecordingRule#name}
   */
   readonly name: string;
   /**
   * Rule state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#rule_state MonitorTmpRecordingRule#rule_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#rule_state MonitorTmpRecordingRule#rule_state}
   */
   readonly ruleState?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule tencentcloud_monitor_tmp_recording_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule tencentcloud_monitor_tmp_recording_rule}
 */
 export class MonitorTmpRecordingRule extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MonitorTmpRecordingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpRecordingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpRecordingRule to import
-  * @param importFromId The id of the existing MonitorTmpRecordingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpRecordingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpRecordingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MonitorTmpRecordingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_recording_rule tencentcloud_monitor_tmp_recording_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/monitor_tmp_recording_rule tencentcloud_monitor_tmp_recording_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MonitorTmpRecordingRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_recording_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

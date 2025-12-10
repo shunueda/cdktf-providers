@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface LanAutomationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Discovered device site name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#discovered_device_site_name_hierarchy LanAutomation#discovered_device_site_name_hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#discovered_device_site_name_hierarchy LanAutomation#discovered_device_site_name_hierarchy}
   */
   readonly discoveredDeviceSiteNameHierarchy: string;
   /**
   * List of specific devices that will be LAN Automated in this session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#discovery_devices LanAutomation#discovery_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#discovery_devices LanAutomation#discovery_devices}
   */
   readonly discoveryDevices?: LanAutomationDiscoveryDevices[] | cdktf.IResolvable;
   /**
@@ -24,68 +24,68 @@ export interface LanAutomationConfig extends cdktf.TerraformMetaArguments {
   *   - Range: `1`-`5`
   *   - Default value: `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#discovery_level LanAutomation#discovery_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#discovery_level LanAutomation#discovery_level}
   */
   readonly discoveryLevel?: number;
   /**
   * Discovery timeout in minutes. Until this time, the stop processing will not be triggered.
   *   - Range: `20`-`10080`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#discovery_timeout LanAutomation#discovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#discovery_timeout LanAutomation#discovery_timeout}
   */
   readonly discoveryTimeout?: number;
   /**
   * File ID of the CSV file containing the host name list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#host_name_file_id LanAutomation#host_name_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#host_name_file_id LanAutomation#host_name_file_id}
   */
   readonly hostNameFileId?: string;
   /**
   * Host name prefix which shall be assigned to the discovered device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#host_name_prefix LanAutomation#host_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#host_name_prefix LanAutomation#host_name_prefix}
   */
   readonly hostNamePrefix?: string;
   /**
   * The list of IP pools with its name and role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#ip_pools LanAutomation#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#ip_pools LanAutomation#ip_pools}
   */
   readonly ipPools: LanAutomationIpPools[] | cdktf.IResolvable;
   /**
   * ISIS domain password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#isis_domain_password LanAutomation#isis_domain_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#isis_domain_password LanAutomation#isis_domain_password}
   */
   readonly isisDomainPassword?: string;
   /**
   * To enable underlay native multicast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#multicast_enabled LanAutomation#multicast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#multicast_enabled LanAutomation#multicast_enabled}
   */
   readonly multicastEnabled?: boolean | cdktf.IResolvable;
   /**
   * Secondary seed management IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#peer_device_management_ip_address LanAutomation#peer_device_management_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#peer_device_management_ip_address LanAutomation#peer_device_management_ip_address}
   */
   readonly peerDeviceManagementIpAddress?: string;
   /**
   * The list of interfaces on primary seed via which the discovered devices are connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#primary_device_interface_names LanAutomation#primary_device_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#primary_device_interface_names LanAutomation#primary_device_interface_names}
   */
   readonly primaryDeviceInterfaceNames: string[];
   /**
   * Primary seed management IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#primary_device_management_ip_address LanAutomation#primary_device_management_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#primary_device_management_ip_address LanAutomation#primary_device_management_ip_address}
   */
   readonly primaryDeviceManagementIpAddress: string;
   /**
   * Advertise LAN Automation summary route into BGP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#redistribute_isis_to_bgp LanAutomation#redistribute_isis_to_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#redistribute_isis_to_bgp LanAutomation#redistribute_isis_to_bgp}
   */
   readonly redistributeIsisToBgp?: boolean | cdktf.IResolvable;
 }
@@ -93,25 +93,25 @@ export interface LanAutomationDiscoveryDevices {
   /**
   * Hostname of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#device_host_name LanAutomation#device_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#device_host_name LanAutomation#device_host_name}
   */
   readonly deviceHostName?: string;
   /**
   * Management IP Address of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#device_management_ip_address LanAutomation#device_management_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#device_management_ip_address LanAutomation#device_management_ip_address}
   */
   readonly deviceManagementIpAddress?: string;
   /**
   * Serial number of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#device_serial_number LanAutomation#device_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#device_serial_number LanAutomation#device_serial_number}
   */
   readonly deviceSerialNumber: string;
   /**
   * Site name hierarchy for the device, must be a child site of the discoveredDeviceSiteNameHierarchy or same if it’s not area type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#device_site_name_hierarchy LanAutomation#device_site_name_hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#device_site_name_hierarchy LanAutomation#device_site_name_hierarchy}
   */
   readonly deviceSiteNameHierarchy?: string;
 }
@@ -313,14 +313,14 @@ export interface LanAutomationIpPools {
   /**
   * Name of the IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#ip_pool_name LanAutomation#ip_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#ip_pool_name LanAutomation#ip_pool_name}
   */
   readonly ipPoolName: string;
   /**
   * Role of the IP pool.
   *   - Choices: `MAIN_POOL`, `PHYSICAL_LINK_POOL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#ip_pool_role LanAutomation#ip_pool_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#ip_pool_role LanAutomation#ip_pool_role}
   */
   readonly ipPoolRole: string;
 }
@@ -459,7 +459,7 @@ export class LanAutomationIpPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation catalystcenter_lan_automation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation catalystcenter_lan_automation}
 */
 export class LanAutomation extends cdktf.TerraformResource {
 
@@ -475,7 +475,7 @@ export class LanAutomation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LanAutomation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LanAutomation to import
-  * @param importFromId The id of the existing LanAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LanAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LanAutomation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class LanAutomation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/lan_automation catalystcenter_lan_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/lan_automation catalystcenter_lan_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class LanAutomation extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_lan_automation',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

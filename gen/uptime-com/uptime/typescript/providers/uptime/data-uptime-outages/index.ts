@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/outages
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/outages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -150,7 +150,7 @@ export class DataUptimeOutagesOutagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/outages uptime_outages}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/outages uptime_outages}
 */
 export class DataUptimeOutages extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataUptimeOutages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataUptimeOutages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataUptimeOutages to import
-  * @param importFromId The id of the existing DataUptimeOutages that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/outages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataUptimeOutages that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/outages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataUptimeOutages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataUptimeOutages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/outages uptime_outages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/outages uptime_outages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataUptimeOutages extends cdktf.TerraformDataSource {
       terraformResourceType: 'uptime_outages',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

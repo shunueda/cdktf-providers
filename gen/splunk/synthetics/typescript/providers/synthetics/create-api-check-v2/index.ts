@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CreateApiCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#id CreateApiCheckV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#id CreateApiCheckV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface CreateApiCheckV2Config extends cdktf.TerraformMetaArguments {
   /**
   * test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#test CreateApiCheckV2#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#test CreateApiCheckV2#test}
   */
   readonly test: CreateApiCheckV2Test[] | cdktf.IResolvable;
 }
 export interface CreateApiCheckV2TestCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#key CreateApiCheckV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#key CreateApiCheckV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
   */
   readonly value?: string;
 }
@@ -172,23 +172,23 @@ export class CreateApiCheckV2TestCustomPropertiesList extends cdktf.ComplexList 
 }
 export interface CreateApiCheckV2TestRequestsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#body CreateApiCheckV2#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#body CreateApiCheckV2#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#headers CreateApiCheckV2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#headers CreateApiCheckV2#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#request_method CreateApiCheckV2#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#request_method CreateApiCheckV2#request_method}
   */
   readonly requestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#url CreateApiCheckV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#url CreateApiCheckV2#url}
   */
   readonly url?: string;
 }
@@ -420,31 +420,31 @@ export class CreateApiCheckV2TestRequestsConfigurationList extends cdktf.Complex
 }
 export interface CreateApiCheckV2TestRequestsSetup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#code CreateApiCheckV2#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#code CreateApiCheckV2#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#extractor CreateApiCheckV2#extractor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#extractor CreateApiCheckV2#extractor}
   */
   readonly extractor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#source CreateApiCheckV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#source CreateApiCheckV2#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#type CreateApiCheckV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#type CreateApiCheckV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#variable CreateApiCheckV2#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#variable CreateApiCheckV2#variable}
   */
   readonly variable?: string;
 }
@@ -734,43 +734,43 @@ export class CreateApiCheckV2TestRequestsSetupList extends cdktf.ComplexList {
 }
 export interface CreateApiCheckV2TestRequestsValidations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#actual CreateApiCheckV2#actual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#actual CreateApiCheckV2#actual}
   */
   readonly actual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#code CreateApiCheckV2#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#code CreateApiCheckV2#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#comparator CreateApiCheckV2#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#comparator CreateApiCheckV2#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#expected CreateApiCheckV2#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#expected CreateApiCheckV2#expected}
   */
   readonly expected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#extractor CreateApiCheckV2#extractor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#extractor CreateApiCheckV2#extractor}
   */
   readonly extractor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#source CreateApiCheckV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#source CreateApiCheckV2#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#type CreateApiCheckV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#type CreateApiCheckV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#value CreateApiCheckV2#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#variable CreateApiCheckV2#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#variable CreateApiCheckV2#variable}
   */
   readonly variable?: string;
 }
@@ -1149,19 +1149,19 @@ export interface CreateApiCheckV2TestRequests {
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#configuration CreateApiCheckV2#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#configuration CreateApiCheckV2#configuration}
   */
   readonly configuration?: CreateApiCheckV2TestRequestsConfiguration[] | cdktf.IResolvable;
   /**
   * setup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#setup CreateApiCheckV2#setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#setup CreateApiCheckV2#setup}
   */
   readonly setup?: CreateApiCheckV2TestRequestsSetup[] | cdktf.IResolvable;
   /**
   * validations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#validations CreateApiCheckV2#validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#validations CreateApiCheckV2#validations}
   */
   readonly validations?: CreateApiCheckV2TestRequestsValidations[] | cdktf.IResolvable;
 }
@@ -1335,43 +1335,43 @@ export class CreateApiCheckV2TestRequestsList extends cdktf.ComplexList {
 }
 export interface CreateApiCheckV2Test {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#active CreateApiCheckV2#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#active CreateApiCheckV2#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#automatic_retries CreateApiCheckV2#automatic_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#automatic_retries CreateApiCheckV2#automatic_retries}
   */
   readonly automaticRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#device_id CreateApiCheckV2#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#device_id CreateApiCheckV2#device_id}
   */
   readonly deviceId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#frequency CreateApiCheckV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#frequency CreateApiCheckV2#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#location_ids CreateApiCheckV2#location_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#location_ids CreateApiCheckV2#location_ids}
   */
   readonly locationIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#name CreateApiCheckV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#scheduling_strategy CreateApiCheckV2#scheduling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#scheduling_strategy CreateApiCheckV2#scheduling_strategy}
   */
   readonly schedulingStrategy?: string;
   /**
   * custom_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#custom_properties CreateApiCheckV2#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#custom_properties CreateApiCheckV2#custom_properties}
   */
   readonly customProperties?: CreateApiCheckV2TestCustomProperties[] | cdktf.IResolvable;
   /**
   * requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#requests CreateApiCheckV2#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#requests CreateApiCheckV2#requests}
   */
   readonly requests?: CreateApiCheckV2TestRequests[] | cdktf.IResolvable;
 }
@@ -1704,7 +1704,7 @@ export class CreateApiCheckV2TestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2 synthetics_create_api_check_v2}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2 synthetics_create_api_check_v2}
 */
 export class CreateApiCheckV2 extends cdktf.TerraformResource {
 
@@ -1720,7 +1720,7 @@ export class CreateApiCheckV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CreateApiCheckV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreateApiCheckV2 to import
-  * @param importFromId The id of the existing CreateApiCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreateApiCheckV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreateApiCheckV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1732,7 +1732,7 @@ export class CreateApiCheckV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/resources/create_api_check_v2 synthetics_create_api_check_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/resources/create_api_check_v2 synthetics_create_api_check_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1743,8 +1743,8 @@ export class CreateApiCheckV2 extends cdktf.TerraformResource {
       terraformResourceType: 'synthetics_create_api_check_v2',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

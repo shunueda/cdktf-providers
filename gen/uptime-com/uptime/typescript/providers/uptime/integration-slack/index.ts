@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IntegrationSlackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Slack channel to post to (overrides webhook default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack#channel IntegrationSlack#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack#channel IntegrationSlack#channel}
   */
   readonly channel?: string;
   /**
@@ -19,23 +19,23 @@ export interface IntegrationSlackConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack#contact_groups IntegrationSlack#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack#contact_groups IntegrationSlack#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack#name IntegrationSlack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack#name IntegrationSlack#name}
   */
   readonly name: string;
   /**
   * Slack webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack#webhook_url IntegrationSlack#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack#webhook_url IntegrationSlack#webhook_url}
   */
   readonly webhookUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack uptime_integration_slack}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack uptime_integration_slack}
 */
 export class IntegrationSlack extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IntegrationSlack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationSlack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationSlack to import
-  * @param importFromId The id of the existing IntegrationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationSlack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IntegrationSlack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_slack uptime_integration_slack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_slack uptime_integration_slack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IntegrationSlack extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_slack',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

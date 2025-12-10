@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApiTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the API token client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#client_name ApiToken#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#client_name ApiToken#client_name}
   */
   readonly clientName?: string;
   /**
   * Timestamp when the API token was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#created ApiToken#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#created ApiToken#created}
   */
   readonly created?: string;
   /**
   * The ID of the API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#id ApiToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#id ApiToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface ApiTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#name ApiToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#name ApiToken#name}
   */
   readonly name?: string;
   /**
   * The userId of the user who created the API Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#user_id ApiToken#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#user_id ApiToken#user_id}
   */
   readonly userId?: string;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#network ApiToken#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#network ApiToken#network}
   */
   readonly network?: ApiTokenNetwork;
 }
@@ -51,19 +51,19 @@ export interface ApiTokenNetwork {
   /**
   * The connection type of the Network Condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#connection ApiToken#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#connection ApiToken#connection}
   */
   readonly connection?: string;
   /**
   * The IP address the excluded zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#exclude ApiToken#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#exclude ApiToken#exclude}
   */
   readonly exclude?: string[];
   /**
   * The IP address the included zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#include ApiToken#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#include ApiToken#include}
   */
   readonly include?: string[];
 }
@@ -215,7 +215,7 @@ export class ApiTokenNetworkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token okta_api_token}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token okta_api_token}
 */
 export class ApiToken extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class ApiToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiToken to import
-  * @param importFromId The id of the existing ApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class ApiToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_token okta_api_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_token okta_api_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class ApiToken extends cdktf.TerraformResource {
       terraformResourceType: 'okta_api_token',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

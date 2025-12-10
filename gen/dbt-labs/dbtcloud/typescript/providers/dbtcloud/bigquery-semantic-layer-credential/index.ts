@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface BigquerySemanticLayerCredentialConfig extends cdktf.TerraformMe
   /**
   * Auth Provider X509 Cert URL for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#auth_provider_x509_cert_url BigquerySemanticLayerCredential#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#auth_provider_x509_cert_url BigquerySemanticLayerCredential#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl: string;
   /**
   * Auth URI for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#auth_uri BigquerySemanticLayerCredential#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#auth_uri BigquerySemanticLayerCredential#auth_uri}
   */
   readonly authUri: string;
   /**
   * Service Account email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#client_email BigquerySemanticLayerCredential#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#client_email BigquerySemanticLayerCredential#client_email}
   */
   readonly clientEmail: string;
   /**
   * Client ID of the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#client_id BigquerySemanticLayerCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#client_id BigquerySemanticLayerCredential#client_id}
   */
   readonly clientId: string;
   /**
   * Client X509 Cert URL for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#client_x509_cert_url BigquerySemanticLayerCredential#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#client_x509_cert_url BigquerySemanticLayerCredential#client_x509_cert_url}
   */
   readonly clientX509CertUrl: string;
   /**
   * Semantic Layer credential configuration details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#configuration BigquerySemanticLayerCredential#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#configuration BigquerySemanticLayerCredential#configuration}
   */
   readonly configuration: BigquerySemanticLayerCredentialConfiguration;
   /**
   * BigQuery credential details, but used in the context of the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#credential BigquerySemanticLayerCredential#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#credential BigquerySemanticLayerCredential#credential}
   */
   readonly credential: BigquerySemanticLayerCredentialCredential;
   /**
   * Private Key for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#private_key BigquerySemanticLayerCredential#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#private_key BigquerySemanticLayerCredential#private_key}
   */
   readonly privateKey: string;
   /**
   * Private Key ID for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#private_key_id BigquerySemanticLayerCredential#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#private_key_id BigquerySemanticLayerCredential#private_key_id}
   */
   readonly privateKeyId: string;
   /**
   * Token URI for the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#token_uri BigquerySemanticLayerCredential#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#token_uri BigquerySemanticLayerCredential#token_uri}
   */
   readonly tokenUri: string;
 }
@@ -72,19 +72,19 @@ export interface BigquerySemanticLayerCredentialConfiguration {
   /**
   * The adapter version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#adapter_version BigquerySemanticLayerCredential#adapter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#adapter_version BigquerySemanticLayerCredential#adapter_version}
   */
   readonly adapterVersion: string;
   /**
   * The name of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#name BigquerySemanticLayerCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#name BigquerySemanticLayerCredential#name}
   */
   readonly name: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#project_id BigquerySemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#project_id BigquerySemanticLayerCredential#project_id}
   */
   readonly projectId: number;
 }
@@ -229,25 +229,25 @@ export interface BigquerySemanticLayerCredentialCredential {
   /**
   * Default dataset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#dataset BigquerySemanticLayerCredential#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#dataset BigquerySemanticLayerCredential#dataset}
   */
   readonly dataset: string;
   /**
   * Whether the BigQuery credential is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#is_active BigquerySemanticLayerCredential#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#is_active BigquerySemanticLayerCredential#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Number of threads to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#num_threads BigquerySemanticLayerCredential#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#num_threads BigquerySemanticLayerCredential#num_threads}
   */
   readonly numThreads: number;
   /**
   * Project ID to create the BigQuery credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#project_id BigquerySemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#project_id BigquerySemanticLayerCredential#project_id}
   */
   readonly projectId: number;
 }
@@ -429,7 +429,7 @@ export class BigquerySemanticLayerCredentialCredentialOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential dbtcloud_bigquery_semantic_layer_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential dbtcloud_bigquery_semantic_layer_credential}
 */
 export class BigquerySemanticLayerCredential extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class BigquerySemanticLayerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BigquerySemanticLayerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BigquerySemanticLayerCredential to import
-  * @param importFromId The id of the existing BigquerySemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BigquerySemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BigquerySemanticLayerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class BigquerySemanticLayerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/bigquery_semantic_layer_credential dbtcloud_bigquery_semantic_layer_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/bigquery_semantic_layer_credential dbtcloud_bigquery_semantic_layer_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class BigquerySemanticLayerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_bigquery_semantic_layer_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LighthouseDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to automatically use the voucher. Not used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#auto_voucher LighthouseDisk#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#auto_voucher LighthouseDisk#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   * Specify the disk backup quota. If not uploaded, the default is no backup quota. Currently, only one disk backup quota is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_backup_quota LighthouseDisk#disk_backup_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_backup_quota LighthouseDisk#disk_backup_quota}
   */
   readonly diskBackupQuota?: number;
   /**
   * Disk count. Values: [1, 30]. Default: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_count LighthouseDisk#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_count LighthouseDisk#disk_count}
   */
   readonly diskCount?: number;
   /**
   * Disk name. Maximum length 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_name LighthouseDisk#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_name LighthouseDisk#disk_name}
   */
   readonly diskName?: string;
   /**
   * Disk size, unit: GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_size LighthouseDisk#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_size LighthouseDisk#disk_size}
   */
   readonly diskSize: number;
   /**
   * Disk type. Value:CLOUD_PREMIUM, CLOUD_SSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_type LighthouseDisk#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_type LighthouseDisk#disk_type}
   */
   readonly diskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#id LighthouseDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#id LighthouseDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,19 +53,19 @@ export interface LighthouseDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#zone LighthouseDisk#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#zone LighthouseDisk#zone}
   */
   readonly zone: string;
   /**
   * auto_mount_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#auto_mount_configuration LighthouseDisk#auto_mount_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#auto_mount_configuration LighthouseDisk#auto_mount_configuration}
   */
   readonly autoMountConfiguration?: LighthouseDiskAutoMountConfiguration;
   /**
   * disk_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#disk_charge_prepaid LighthouseDisk#disk_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#disk_charge_prepaid LighthouseDisk#disk_charge_prepaid}
   */
   readonly diskChargePrepaid: LighthouseDiskDiskChargePrepaid;
 }
@@ -73,19 +73,19 @@ export interface LighthouseDiskAutoMountConfiguration {
   /**
   * The file system type. Value: ext4, xfs. Only instances of the Linux operating system can pass in this parameter, and if it is not passed, it defaults to ext4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#file_system_type LighthouseDisk#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#file_system_type LighthouseDisk#file_system_type}
   */
   readonly fileSystemType?: string;
   /**
   * Instance ID to be mounted. The specified instance must be in the Running state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#instance_id LighthouseDisk#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#instance_id LighthouseDisk#instance_id}
   */
   readonly instanceId: string;
   /**
   * The mount point within the instance. Only instances of the Linux operating system can pass in this parameter, and if it is not passed, it will be mounted under the /data/disk path by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#mount_point LighthouseDisk#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#mount_point LighthouseDisk#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -226,19 +226,19 @@ export interface LighthouseDiskDiskChargePrepaid {
   /**
   * new purchase cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#period LighthouseDisk#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#period LighthouseDisk#period}
   */
   readonly period: number;
   /**
   * Automatic renewal flag. Value: `NOTIFY_AND_AUTO_RENEW`: Notice expires and auto-renews. `NOTIFY_AND_MANUAL_RENEW`: Notification expires without automatic renewal, users need to manually renew. `DISABLE_NOTIFY_AND_AUTO_RENEW`: No automatic renewal and no notification. Default: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the disk will be automatically renewed monthly when the account balance is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#renew_flag LighthouseDisk#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#renew_flag LighthouseDisk#renew_flag}
   */
   readonly renewFlag?: string;
   /**
   * newly purchased unit. Default: m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#time_unit LighthouseDisk#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#time_unit LighthouseDisk#time_unit}
   */
   readonly timeUnit?: string;
 }
@@ -377,7 +377,7 @@ export class LighthouseDiskDiskChargePrepaidOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk tencentcloud_lighthouse_disk}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk tencentcloud_lighthouse_disk}
 */
 export class LighthouseDisk extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class LighthouseDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LighthouseDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LighthouseDisk to import
-  * @param importFromId The id of the existing LighthouseDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LighthouseDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LighthouseDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class LighthouseDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_disk tencentcloud_lighthouse_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_disk tencentcloud_lighthouse_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class LighthouseDisk extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lighthouse_disk',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

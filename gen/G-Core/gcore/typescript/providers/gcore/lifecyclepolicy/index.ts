@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface LifecyclepolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#action Lifecyclepolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#action Lifecyclepolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#id Lifecyclepolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#id Lifecyclepolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#name Lifecyclepolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#name Lifecyclepolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#project_id Lifecyclepolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#project_id Lifecyclepolicy#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#project_name Lifecyclepolicy#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#project_name Lifecyclepolicy#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#region_id Lifecyclepolicy#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#region_id Lifecyclepolicy#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#region_name Lifecyclepolicy#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#region_name Lifecyclepolicy#region_name}
   */
   readonly regionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#status Lifecyclepolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#status Lifecyclepolicy#status}
   */
   readonly status?: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#schedule Lifecyclepolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#schedule Lifecyclepolicy#schedule}
   */
   readonly schedule?: LifecyclepolicySchedule[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#volume Lifecyclepolicy#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#volume Lifecyclepolicy#volume}
   */
   readonly volume?: LifecyclepolicyVolume[] | cdktf.IResolvable;
 }
@@ -59,41 +59,41 @@ export interface LifecyclepolicyScheduleCron {
   /**
   * Either single asterisk or comma-separated list of integers (1-31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#day Lifecyclepolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#day Lifecyclepolicy#day}
   */
   readonly day?: string;
   /**
   * Either single asterisk or comma-separated list of integers (0-6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#day_of_week Lifecyclepolicy#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#day_of_week Lifecyclepolicy#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Either single asterisk or comma-separated list of integers (0-23)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#hour Lifecyclepolicy#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#hour Lifecyclepolicy#hour}
   */
   readonly hour?: string;
   /**
   * Either single asterisk or comma-separated list of integers (0-59)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#minute Lifecyclepolicy#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#minute Lifecyclepolicy#minute}
   */
   readonly minute?: string;
   /**
   * Either single asterisk or comma-separated list of integers (1-12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#month Lifecyclepolicy#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#month Lifecyclepolicy#month}
   */
   readonly month?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#timezone Lifecyclepolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#timezone Lifecyclepolicy#timezone}
   */
   readonly timezone?: string;
   /**
   * Either single asterisk or comma-separated list of integers (1-53)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#week Lifecyclepolicy#week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#week Lifecyclepolicy#week}
   */
   readonly week?: string;
 }
@@ -353,25 +353,25 @@ export interface LifecyclepolicyScheduleInterval {
   /**
   * Number of days to wait between actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#days Lifecyclepolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#days Lifecyclepolicy#days}
   */
   readonly days?: number;
   /**
   * Number of hours to wait between actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#hours Lifecyclepolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#hours Lifecyclepolicy#hours}
   */
   readonly hours?: number;
   /**
   * Number of minutes to wait between actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#minutes Lifecyclepolicy#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#minutes Lifecyclepolicy#minutes}
   */
   readonly minutes?: number;
   /**
   * Number of weeks to wait between actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#weeks Lifecyclepolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#weeks Lifecyclepolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -544,25 +544,25 @@ export interface LifecyclepolicyScheduleRetentionTime {
   /**
   * Number of days to wait before deleting snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#days Lifecyclepolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#days Lifecyclepolicy#days}
   */
   readonly days?: number;
   /**
   * Number of hours to wait before deleting snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#hours Lifecyclepolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#hours Lifecyclepolicy#hours}
   */
   readonly hours?: number;
   /**
   * Number of minutes to wait before deleting snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#minutes Lifecyclepolicy#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#minutes Lifecyclepolicy#minutes}
   */
   readonly minutes?: number;
   /**
   * Number of weeks to wait before deleting snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#weeks Lifecyclepolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#weeks Lifecyclepolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -735,31 +735,31 @@ export interface LifecyclepolicySchedule {
   /**
   * Maximum number of stored resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#max_quantity Lifecyclepolicy#max_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#max_quantity Lifecyclepolicy#max_quantity}
   */
   readonly maxQuantity: number;
   /**
   * Used to name snapshots. {volume_id} is substituted with volume.id on creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#resource_name_template Lifecyclepolicy#resource_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#resource_name_template Lifecyclepolicy#resource_name_template}
   */
   readonly resourceNameTemplate?: string;
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#cron Lifecyclepolicy#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#cron Lifecyclepolicy#cron}
   */
   readonly cron?: LifecyclepolicyScheduleCron;
   /**
   * interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#interval Lifecyclepolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#interval Lifecyclepolicy#interval}
   */
   readonly interval?: LifecyclepolicyScheduleInterval;
   /**
   * retention_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#retention_time Lifecyclepolicy#retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#retention_time Lifecyclepolicy#retention_time}
   */
   readonly retentionTime?: LifecyclepolicyScheduleRetentionTime;
 }
@@ -998,7 +998,7 @@ export class LifecyclepolicyScheduleList extends cdktf.ComplexList {
 }
 export interface LifecyclepolicyVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#id Lifecyclepolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#id Lifecyclepolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1119,7 +1119,7 @@ export class LifecyclepolicyVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy gcore_lifecyclepolicy}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy gcore_lifecyclepolicy}
 */
 export class Lifecyclepolicy extends cdktf.TerraformResource {
 
@@ -1135,7 +1135,7 @@ export class Lifecyclepolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lifecyclepolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lifecyclepolicy to import
-  * @param importFromId The id of the existing Lifecyclepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lifecyclepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lifecyclepolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1147,7 +1147,7 @@ export class Lifecyclepolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/lifecyclepolicy gcore_lifecyclepolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lifecyclepolicy gcore_lifecyclepolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1158,8 +1158,8 @@ export class Lifecyclepolicy extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_lifecyclepolicy',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

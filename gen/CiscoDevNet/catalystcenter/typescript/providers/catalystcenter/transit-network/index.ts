@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface TransitNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Autonomous System Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#autonomous_system_number TransitNetwork#autonomous_system_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#autonomous_system_number TransitNetwork#autonomous_system_number}
   */
   readonly autonomousSystemNumber?: string;
   /**
   * List of network device IDs that will be used as control plane nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#control_plane_network_device_ids TransitNetwork#control_plane_network_device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#control_plane_network_device_ids TransitNetwork#control_plane_network_device_ids}
   */
   readonly controlPlaneNetworkDeviceIds?: string[];
   /**
   * Set this to true to enable multicast over SD-Access transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#is_multicast_over_transit_enabled TransitNetwork#is_multicast_over_transit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#is_multicast_over_transit_enabled TransitNetwork#is_multicast_over_transit_enabled}
   */
   readonly isMulticastOverTransitEnabled?: boolean | cdktf.IResolvable;
   /**
   * Transit Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#name TransitNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#name TransitNetwork#name}
   */
   readonly name: string;
   /**
   * Routing Protocol Name
   *   - Choices: `BGP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#routing_protocol_name TransitNetwork#routing_protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#routing_protocol_name TransitNetwork#routing_protocol_name}
   */
   readonly routingProtocolName?: string;
   /**
   * Transit Network Type
   *   - Choices: `IP_BASED_TRANSIT`, `SDA_LISP_PUB_SUB_TRANSIT`, `SDA_LISP_BGP_TRANSIT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#type TransitNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#type TransitNetwork#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network catalystcenter_transit_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network catalystcenter_transit_network}
 */
 export class TransitNetwork extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class TransitNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitNetwork to import
-  * @param importFromId The id of the existing TransitNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class TransitNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/transit_network catalystcenter_transit_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/transit_network catalystcenter_transit_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class TransitNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_transit_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

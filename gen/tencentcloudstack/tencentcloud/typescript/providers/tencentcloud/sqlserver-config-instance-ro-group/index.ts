@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverConfigInstanceRoGroupConfig extends cdktf.TerraformMet
   /**
   * 0-user-defined weight (adjusted according to WeightPairs), 1-system automatically assigns weight (WeightPairs is invalid), the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#auto_weight SqlserverConfigInstanceRoGroup#auto_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#auto_weight SqlserverConfigInstanceRoGroup#auto_weight}
   */
   readonly autoWeight?: number;
   /**
   * 0-do not rebalance the load, 1-rebalance the load, the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#balance_weight SqlserverConfigInstanceRoGroup#balance_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#balance_weight SqlserverConfigInstanceRoGroup#balance_weight}
   */
   readonly balanceWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#id SqlserverConfigInstanceRoGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#id SqlserverConfigInstanceRoGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface SqlserverConfigInstanceRoGroupConfig extends cdktf.TerraformMet
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#instance_id SqlserverConfigInstanceRoGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#instance_id SqlserverConfigInstanceRoGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to enable timeout culling function. 0- Disable the culling function. 1- Enable the culling function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#is_offline_delay SqlserverConfigInstanceRoGroup#is_offline_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#is_offline_delay SqlserverConfigInstanceRoGroup#is_offline_delay}
   */
   readonly isOfflineDelay?: number;
   /**
   * After the timeout removal function is enabled, the number of read-only copies retained by the read-only group at least, if this parameter is not filled, it will not be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#min_read_only_in_group SqlserverConfigInstanceRoGroup#min_read_only_in_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#min_read_only_in_group SqlserverConfigInstanceRoGroup#min_read_only_in_group}
   */
   readonly minReadOnlyInGroup?: number;
   /**
   * Read-only group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#read_only_group_id SqlserverConfigInstanceRoGroup#read_only_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#read_only_group_id SqlserverConfigInstanceRoGroup#read_only_group_id}
   */
   readonly readOnlyGroupId: string;
   /**
   * Read-only group name. If this parameter is not specified, it is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#read_only_group_name SqlserverConfigInstanceRoGroup#read_only_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#read_only_group_name SqlserverConfigInstanceRoGroup#read_only_group_name}
   */
   readonly readOnlyGroupName?: string;
   /**
   * After the timeout elimination function is enabled, the timeout threshold used, if this parameter is not filled, it will not be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#read_only_max_delay_time SqlserverConfigInstanceRoGroup#read_only_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#read_only_max_delay_time SqlserverConfigInstanceRoGroup#read_only_max_delay_time}
   */
   readonly readOnlyMaxDelayTime?: number;
   /**
   * weight_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#weight_pairs SqlserverConfigInstanceRoGroup#weight_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#weight_pairs SqlserverConfigInstanceRoGroup#weight_pairs}
   */
   readonly weightPairs?: SqlserverConfigInstanceRoGroupWeightPairs[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface SqlserverConfigInstanceRoGroupWeightPairs {
   /**
   * Read-only instance ID, in the format: mssqlro-3l3fgqn7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#read_only_instance_id SqlserverConfigInstanceRoGroup#read_only_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#read_only_instance_id SqlserverConfigInstanceRoGroup#read_only_instance_id}
   */
   readonly readOnlyInstanceId: string;
   /**
   * Read-only instance weight, the range is 0-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#read_only_weight SqlserverConfigInstanceRoGroup#read_only_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#read_only_weight SqlserverConfigInstanceRoGroup#read_only_weight}
   */
   readonly readOnlyWeight: number;
 }
@@ -218,7 +218,7 @@ export class SqlserverConfigInstanceRoGroupWeightPairsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group tencentcloud_sqlserver_config_instance_ro_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group tencentcloud_sqlserver_config_instance_ro_group}
 */
 export class SqlserverConfigInstanceRoGroup extends cdktf.TerraformResource {
 
@@ -234,7 +234,7 @@ export class SqlserverConfigInstanceRoGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverConfigInstanceRoGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverConfigInstanceRoGroup to import
-  * @param importFromId The id of the existing SqlserverConfigInstanceRoGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverConfigInstanceRoGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverConfigInstanceRoGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class SqlserverConfigInstanceRoGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_ro_group tencentcloud_sqlserver_config_instance_ro_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/sqlserver_config_instance_ro_group tencentcloud_sqlserver_config_instance_ro_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class SqlserverConfigInstanceRoGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_config_instance_ro_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

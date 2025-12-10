@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WaapAdvancedRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description assigned to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#description WaapAdvancedRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#description WaapAdvancedRule#description}
   */
   readonly description?: string;
   /**
   * The WAAP domain ID for which the Advanced Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#domain_id WaapAdvancedRule#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#domain_id WaapAdvancedRule#domain_id}
   */
   readonly domainId: number;
   /**
   * Whether the rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#enabled WaapAdvancedRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#enabled WaapAdvancedRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#id WaapAdvancedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#id WaapAdvancedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface WaapAdvancedRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name assigned to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#name WaapAdvancedRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#name WaapAdvancedRule#name}
   */
   readonly name: string;
   /**
   * The WAAP request/response phase for applying the rule. The 'access' phase is responsible for modifying the request before it is sent to the origin server. The 'header_filter' phase is responsible for modifying the HTTP headers of a response before they are sent back to the client.The 'body_filter' phase is responsible for modifying the body of a response before it is sent back to the client. Default is 'access'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#phase WaapAdvancedRule#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#phase WaapAdvancedRule#phase}
   */
   readonly phase?: string;
   /**
   * A CEL syntax expression that contains the rule's conditions. Allowed objects are: request, whois, session, response, tags, user_defined_tags, user_agent, client_data. More info can be found here: https://gcore.com/docs/waap/waap-rules/advanced-rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#source WaapAdvancedRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#source WaapAdvancedRule#source}
   */
   readonly source: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#action WaapAdvancedRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#action WaapAdvancedRule#action}
   */
   readonly action: WaapAdvancedRuleAction;
 }
@@ -61,13 +61,13 @@ export interface WaapAdvancedRuleActionBlock {
   /**
   * How long a rule's block action will apply to subsequent requests. Can be specified in seconds or by using a numeral followed by 's', 'm', 'h', or 'd' to represent time format (seconds, minutes, hours, or days). Example: 12h. Must match the pattern ^[0-9]*[smhd]?$
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#action_duration WaapAdvancedRule#action_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#action_duration WaapAdvancedRule#action_duration}
   */
   readonly actionDuration?: string;
   /**
   * A custom HTTP status code that the WAAP returns if a rule blocks a request. It must be one of these values {403, 405, 418, 429}. Default is 403.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#status_code WaapAdvancedRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#status_code WaapAdvancedRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -182,7 +182,7 @@ export interface WaapAdvancedRuleActionTag {
   /**
   * The list of user defined tags to tag the request with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#tags WaapAdvancedRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#tags WaapAdvancedRule#tags}
   */
   readonly tags: string[];
 }
@@ -265,37 +265,37 @@ export interface WaapAdvancedRuleAction {
   /**
   * The WAAP allows the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#allow WaapAdvancedRule#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#allow WaapAdvancedRule#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * The WAAP requires the user to solve a CAPTCHA challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#captcha WaapAdvancedRule#captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#captcha WaapAdvancedRule#captcha}
   */
   readonly captcha?: boolean | cdktf.IResolvable;
   /**
   * The WAAP performs automatic browser validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#handshake WaapAdvancedRule#handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#handshake WaapAdvancedRule#handshake}
   */
   readonly handshake?: boolean | cdktf.IResolvable;
   /**
   * The WAAP monitors the request but took no action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#monitor WaapAdvancedRule#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#monitor WaapAdvancedRule#monitor}
   */
   readonly monitor?: boolean | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#block WaapAdvancedRule#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#block WaapAdvancedRule#block}
   */
   readonly block?: WaapAdvancedRuleActionBlock;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#tag WaapAdvancedRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#tag WaapAdvancedRule#tag}
   */
   readonly tag?: WaapAdvancedRuleActionTag;
 }
@@ -524,7 +524,7 @@ export class WaapAdvancedRuleActionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule gcore_waap_advanced_rule}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule gcore_waap_advanced_rule}
 */
 export class WaapAdvancedRule extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class WaapAdvancedRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapAdvancedRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapAdvancedRule to import
-  * @param importFromId The id of the existing WaapAdvancedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapAdvancedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapAdvancedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class WaapAdvancedRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_advanced_rule gcore_waap_advanced_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_advanced_rule gcore_waap_advanced_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class WaapAdvancedRule extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_advanced_rule',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UserBaseSchemaPropertyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#id UserBaseSchemaProperty#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#id UserBaseSchemaProperty#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface UserBaseSchemaPropertyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Subschema unique string identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#index UserBaseSchemaProperty#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#index UserBaseSchemaProperty#index}
   */
   readonly index: string;
   /**
   * Master priority for the user schema property. It can be set to `PROFILE_MASTER` or `OKTA`. Default: `PROFILE_MASTER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#master UserBaseSchemaProperty#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#master UserBaseSchemaProperty#master}
   */
   readonly master?: string;
   /**
   * The validation pattern to use for the subschema. Must be in form of '.+', or '[<pattern>]+' if present.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#pattern UserBaseSchemaProperty#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#pattern UserBaseSchemaProperty#pattern}
   */
   readonly pattern?: string;
   /**
   * Access control permissions for the property. It can be set to `READ_WRITE`, `READ_ONLY`, `HIDE`. Default: `READ_ONLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#permissions UserBaseSchemaProperty#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#permissions UserBaseSchemaProperty#permissions}
   */
   readonly permissions?: string;
   /**
   * Whether the subschema is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#required UserBaseSchemaProperty#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#required UserBaseSchemaProperty#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Subschema title (display name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#title UserBaseSchemaProperty#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#title UserBaseSchemaProperty#title}
   */
   readonly title: string;
   /**
   * The type of the schema property. It can be `string`, `boolean`, `number`, `integer`, `array`, or `object`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#type UserBaseSchemaProperty#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#type UserBaseSchemaProperty#type}
   */
   readonly type: string;
   /**
   * User type ID. By default, it is `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#user_type UserBaseSchemaProperty#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#user_type UserBaseSchemaProperty#user_type}
   */
   readonly userType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property okta_user_base_schema_property}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property okta_user_base_schema_property}
 */
 export class UserBaseSchemaProperty extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class UserBaseSchemaProperty extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserBaseSchemaProperty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserBaseSchemaProperty to import
-  * @param importFromId The id of the existing UserBaseSchemaProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserBaseSchemaProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserBaseSchemaProperty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class UserBaseSchemaProperty extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_base_schema_property okta_user_base_schema_property} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_base_schema_property okta_user_base_schema_property} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class UserBaseSchemaProperty extends cdktf.TerraformResource {
       terraformResourceType: 'okta_user_base_schema_property',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

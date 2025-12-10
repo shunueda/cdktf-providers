@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSyntheticsDowntimeConfigurationsV2CheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#id DataSyntheticsDowntimeConfigurationsV2Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#id DataSyntheticsDowntimeConfigurationsV2Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataSyntheticsDowntimeConfigurationsV2CheckConfig extends cdktf
   /**
   * downtime_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#downtime_configurations DataSyntheticsDowntimeConfigurationsV2Check#downtime_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#downtime_configurations DataSyntheticsDowntimeConfigurationsV2Check#downtime_configurations}
   */
   readonly downtimeConfigurations?: DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurations[] | cdktf.IResolvable;
 }
 export interface DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRecurrenceEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#type DataSyntheticsDowntimeConfigurationsV2Check#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#type DataSyntheticsDowntimeConfigurationsV2Check#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#value DataSyntheticsDowntimeConfigurationsV2Check#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#value DataSyntheticsDowntimeConfigurationsV2Check#value}
   */
   readonly value?: string;
 }
@@ -172,15 +172,15 @@ export class DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRe
 }
 export interface DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRecurrenceRepeats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#custom_frequency DataSyntheticsDowntimeConfigurationsV2Check#custom_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#custom_frequency DataSyntheticsDowntimeConfigurationsV2Check#custom_frequency}
   */
   readonly customFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#custom_value DataSyntheticsDowntimeConfigurationsV2Check#custom_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#custom_value DataSyntheticsDowntimeConfigurationsV2Check#custom_value}
   */
   readonly customValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#type DataSyntheticsDowntimeConfigurationsV2Check#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#type DataSyntheticsDowntimeConfigurationsV2Check#type}
   */
   readonly type?: string;
 }
@@ -356,13 +356,13 @@ export interface DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfiguratio
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#end DataSyntheticsDowntimeConfigurationsV2Check#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#end DataSyntheticsDowntimeConfigurationsV2Check#end}
   */
   readonly end?: DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRecurrenceEnd[] | cdktf.IResolvable;
   /**
   * repeats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#repeats DataSyntheticsDowntimeConfigurationsV2Check#repeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#repeats DataSyntheticsDowntimeConfigurationsV2Check#repeats}
   */
   readonly repeats?: DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRecurrenceRepeats[] | cdktf.IResolvable;
 }
@@ -507,24 +507,24 @@ export class DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRe
 }
 export interface DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#description DataSyntheticsDowntimeConfigurationsV2Check#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#description DataSyntheticsDowntimeConfigurationsV2Check#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#id DataSyntheticsDowntimeConfigurationsV2Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#id DataSyntheticsDowntimeConfigurationsV2Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#timezone DataSyntheticsDowntimeConfigurationsV2Check#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#timezone DataSyntheticsDowntimeConfigurationsV2Check#timezone}
   */
   readonly timezone?: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#recurrence DataSyntheticsDowntimeConfigurationsV2Check#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#recurrence DataSyntheticsDowntimeConfigurationsV2Check#recurrence}
   */
   readonly recurrence?: DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsRecurrence[] | cdktf.IResolvable;
 }
@@ -769,7 +769,7 @@ export class DataSyntheticsDowntimeConfigurationsV2CheckDowntimeConfigurationsLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check synthetics_downtime_configurations_v2_check}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check synthetics_downtime_configurations_v2_check}
 */
 export class DataSyntheticsDowntimeConfigurationsV2Check extends cdktf.TerraformDataSource {
 
@@ -785,7 +785,7 @@ export class DataSyntheticsDowntimeConfigurationsV2Check extends cdktf.Terraform
   * Generates CDKTF code for importing a DataSyntheticsDowntimeConfigurationsV2Check resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSyntheticsDowntimeConfigurationsV2Check to import
-  * @param importFromId The id of the existing DataSyntheticsDowntimeConfigurationsV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSyntheticsDowntimeConfigurationsV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSyntheticsDowntimeConfigurationsV2Check to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -797,7 +797,7 @@ export class DataSyntheticsDowntimeConfigurationsV2Check extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/downtime_configurations_v2_check synthetics_downtime_configurations_v2_check} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/downtime_configurations_v2_check synthetics_downtime_configurations_v2_check} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -808,8 +808,8 @@ export class DataSyntheticsDowntimeConfigurationsV2Check extends cdktf.Terraform
       terraformResourceType: 'synthetics_downtime_configurations_v2_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

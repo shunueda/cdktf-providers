@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataOpsStopTaskAsyncConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async#id WedataOpsStopTaskAsync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async#id WedataOpsStopTaskAsync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface WedataOpsStopTaskAsyncConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether to terminate the generated instance, the default is false; if true, it will wait for all forces to terminate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async#kill_instance WedataOpsStopTaskAsync#kill_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async#kill_instance WedataOpsStopTaskAsync#kill_instance}
   */
   readonly killInstance?: boolean | cdktf.IResolvable;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async#project_id WedataOpsStopTaskAsync#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async#project_id WedataOpsStopTaskAsync#project_id}
   */
   readonly projectId: string;
   /**
   * Task id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async#task_ids WedataOpsStopTaskAsync#task_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async#task_ids WedataOpsStopTaskAsync#task_ids}
   */
   readonly taskIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async tencentcloud_wedata_ops_stop_task_async}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async tencentcloud_wedata_ops_stop_task_async}
 */
 export class WedataOpsStopTaskAsync extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class WedataOpsStopTaskAsync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataOpsStopTaskAsync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataOpsStopTaskAsync to import
-  * @param importFromId The id of the existing WedataOpsStopTaskAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataOpsStopTaskAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataOpsStopTaskAsync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class WedataOpsStopTaskAsync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_ops_stop_task_async tencentcloud_wedata_ops_stop_task_async} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/wedata_ops_stop_task_async tencentcloud_wedata_ops_stop_task_async} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class WedataOpsStopTaskAsync extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_ops_stop_task_async',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

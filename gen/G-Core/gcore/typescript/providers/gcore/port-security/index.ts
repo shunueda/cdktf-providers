@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PortSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable port security for the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#enable_port_security PortSecurity#enable_port_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#enable_port_security PortSecurity#enable_port_security}
   */
   readonly enablePortSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#id PortSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#id PortSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PortSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the port where allowed address pairs will be managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#port_id PortSecurity#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#port_id PortSecurity#port_id}
   */
   readonly portId: string;
   /**
   * Project ID in which the port exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#project_id PortSecurity#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#project_id PortSecurity#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name in which the port exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#project_name PortSecurity#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#project_name PortSecurity#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID where the port is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#region_id PortSecurity#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#region_id PortSecurity#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name where the port is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#region_name PortSecurity#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#region_name PortSecurity#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security gcore_port_security}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security gcore_port_security}
 */
 export class PortSecurity extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class PortSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortSecurity to import
-  * @param importFromId The id of the existing PortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class PortSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/port_security gcore_port_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/port_security gcore_port_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class PortSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_port_security',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

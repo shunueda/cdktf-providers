@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSyntheticsBrowserV2CheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#id DataSyntheticsBrowserV2Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#id DataSyntheticsBrowserV2Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataSyntheticsBrowserV2CheckConfig extends cdktf.TerraformMetaA
   /**
   * test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#test DataSyntheticsBrowserV2Check#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#test DataSyntheticsBrowserV2Check#test}
   */
   readonly test: DataSyntheticsBrowserV2CheckTest[] | cdktf.IResolvable;
 }
@@ -1353,11 +1353,11 @@ export class DataSyntheticsBrowserV2CheckTestTransactionsList extends cdktf.Comp
 }
 export interface DataSyntheticsBrowserV2CheckTestCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#key DataSyntheticsBrowserV2Check#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#key DataSyntheticsBrowserV2Check#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#value DataSyntheticsBrowserV2Check#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#value DataSyntheticsBrowserV2Check#value}
   */
   readonly value?: string;
 }
@@ -1502,7 +1502,7 @@ export class DataSyntheticsBrowserV2CheckTestCustomPropertiesList extends cdktf.
 }
 export interface DataSyntheticsBrowserV2CheckTest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#id DataSyntheticsBrowserV2Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#id DataSyntheticsBrowserV2Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1511,7 +1511,7 @@ export interface DataSyntheticsBrowserV2CheckTest {
   /**
   * custom_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#custom_properties DataSyntheticsBrowserV2Check#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#custom_properties DataSyntheticsBrowserV2Check#custom_properties}
   */
   readonly customProperties?: DataSyntheticsBrowserV2CheckTestCustomProperties[] | cdktf.IResolvable;
 }
@@ -1742,7 +1742,7 @@ export class DataSyntheticsBrowserV2CheckTestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check synthetics_browser_v2_check}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check synthetics_browser_v2_check}
 */
 export class DataSyntheticsBrowserV2Check extends cdktf.TerraformDataSource {
 
@@ -1758,7 +1758,7 @@ export class DataSyntheticsBrowserV2Check extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSyntheticsBrowserV2Check resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSyntheticsBrowserV2Check to import
-  * @param importFromId The id of the existing DataSyntheticsBrowserV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSyntheticsBrowserV2Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSyntheticsBrowserV2Check to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1770,7 +1770,7 @@ export class DataSyntheticsBrowserV2Check extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/browser_v2_check synthetics_browser_v2_check} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/browser_v2_check synthetics_browser_v2_check} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1781,8 +1781,8 @@ export class DataSyntheticsBrowserV2Check extends cdktf.TerraformDataSource {
       terraformResourceType: 'synthetics_browser_v2_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

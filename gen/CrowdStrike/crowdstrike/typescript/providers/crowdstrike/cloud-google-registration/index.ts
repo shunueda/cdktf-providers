@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface CloudGoogleRegistrationConfig extends cdktf.TerraformMetaArgume
   /**
   * The deployment method for the registration. Can be either terraform-native or infrastructure-manager. Defaults to terraform-native
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#deployment_method CloudGoogleRegistration#deployment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#deployment_method CloudGoogleRegistration#deployment_method}
   */
   readonly deploymentMethod?: string;
   /**
   * Regex patterns to exclude specific projects from registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#excluded_project_patterns CloudGoogleRegistration#excluded_project_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#excluded_project_patterns CloudGoogleRegistration#excluded_project_patterns}
   */
   readonly excludedProjectPatterns?: string[];
   /**
   * Google Cloud folder IDs to register. Each must be numeric. Mutually exclusive with `organization` and `projects`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#folders CloudGoogleRegistration#folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#folders CloudGoogleRegistration#folders}
   */
   readonly folders?: string[];
   /**
   * The Google Cloud project ID where CrowdStrike infrastructure resources will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#infra_project CloudGoogleRegistration#infra_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#infra_project CloudGoogleRegistration#infra_project}
   */
   readonly infraProject: string;
   /**
   * Google Cloud labels to apply to created resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#labels CloudGoogleRegistration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#labels CloudGoogleRegistration#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#name CloudGoogleRegistration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#name CloudGoogleRegistration#name}
   */
   readonly name: string;
   /**
   * Google Cloud organization ID to register. Must be numeric. Mutually exclusive with `folders` and `projects`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#organization CloudGoogleRegistration#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#organization CloudGoogleRegistration#organization}
   */
   readonly organization?: string;
   /**
   * Google Cloud project IDs to register. Each must be 6-30 characters, start with a lowercase letter, and contain only lowercase letters, numbers, and hyphens. Mutually exclusive with `organization` and `folders`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#projects CloudGoogleRegistration#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#projects CloudGoogleRegistration#projects}
   */
   readonly projects?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#realtime_visibility CloudGoogleRegistration#realtime_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#realtime_visibility CloudGoogleRegistration#realtime_visibility}
   */
   readonly realtimeVisibility?: CloudGoogleRegistrationRealtimeVisibility;
   /**
   * Prefix to add to created Google Cloud resource names. The combined length of prefix and suffix must not exceed 13 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#resource_name_prefix CloudGoogleRegistration#resource_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#resource_name_prefix CloudGoogleRegistration#resource_name_prefix}
   */
   readonly resourceNamePrefix?: string;
   /**
   * Suffix to add to created Google Cloud resource names. The combined length of prefix and suffix must not exceed 13 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#resource_name_suffix CloudGoogleRegistration#resource_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#resource_name_suffix CloudGoogleRegistration#resource_name_suffix}
   */
   readonly resourceNameSuffix?: string;
   /**
   * Google Cloud tags to apply to created resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#tags CloudGoogleRegistration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#tags CloudGoogleRegistration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Google Cloud project ID for Workload Identity Federation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#wif_project CloudGoogleRegistration#wif_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#wif_project CloudGoogleRegistration#wif_project}
   */
   readonly wifProject: string;
 }
@@ -88,7 +88,7 @@ export interface CloudGoogleRegistrationRealtimeVisibility {
   /**
   * Enable real-time visibility and detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#enabled CloudGoogleRegistration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#enabled CloudGoogleRegistration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -179,7 +179,7 @@ export class CloudGoogleRegistrationRealtimeVisibilityOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration crowdstrike_cloud_google_registration}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration crowdstrike_cloud_google_registration}
 */
 export class CloudGoogleRegistration extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class CloudGoogleRegistration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGoogleRegistration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGoogleRegistration to import
-  * @param importFromId The id of the existing CloudGoogleRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGoogleRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGoogleRegistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class CloudGoogleRegistration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration crowdstrike_cloud_google_registration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/cloud_google_registration crowdstrike_cloud_google_registration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class CloudGoogleRegistration extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_google_registration',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

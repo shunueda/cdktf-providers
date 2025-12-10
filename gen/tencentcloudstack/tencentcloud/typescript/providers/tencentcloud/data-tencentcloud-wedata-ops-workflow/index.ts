@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataOpsWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow#id DataTencentcloudWedataOpsWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow#id DataTencentcloudWedataOpsWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudWedataOpsWorkflowConfig extends cdktf.Terraform
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow#project_id DataTencentcloudWedataOpsWorkflow#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow#project_id DataTencentcloudWedataOpsWorkflow#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow#result_output_file DataTencentcloudWedataOpsWorkflow#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow#result_output_file DataTencentcloudWedataOpsWorkflow#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Workflow ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow#workflow_id DataTencentcloudWedataOpsWorkflow#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow#workflow_id DataTencentcloudWedataOpsWorkflow#workflow_id}
   */
   readonly workflowId: string;
 }
@@ -195,7 +195,7 @@ export class DataTencentcloudWedataOpsWorkflowDataList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow tencentcloud_wedata_ops_workflow}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow tencentcloud_wedata_ops_workflow}
 */
 export class DataTencentcloudWedataOpsWorkflow extends cdktf.TerraformDataSource {
 
@@ -211,7 +211,7 @@ export class DataTencentcloudWedataOpsWorkflow extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudWedataOpsWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataOpsWorkflow to import
-  * @param importFromId The id of the existing DataTencentcloudWedataOpsWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataOpsWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataOpsWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class DataTencentcloudWedataOpsWorkflow extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_workflow tencentcloud_wedata_ops_workflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_workflow tencentcloud_wedata_ops_workflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class DataTencentcloudWedataOpsWorkflow extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_wedata_ops_workflow',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

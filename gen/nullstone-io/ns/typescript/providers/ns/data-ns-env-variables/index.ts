@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables
+// https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsEnvVariablesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The raw environment variables before they are interpolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables#input_env_variables DataNsEnvVariables#input_env_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables#input_env_variables DataNsEnvVariables#input_env_variables}
   */
   readonly inputEnvVariables: { [key: string]: string };
   /**
   * The raw secrets before they are interpolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables#input_secrets DataNsEnvVariables#input_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables#input_secrets DataNsEnvVariables#input_secrets}
   */
   readonly inputSecrets: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables ns_env_variables}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables ns_env_variables}
 */
 export class DataNsEnvVariables extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataNsEnvVariables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsEnvVariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsEnvVariables to import
-  * @param importFromId The id of the existing DataNsEnvVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsEnvVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsEnvVariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataNsEnvVariables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.0/docs/data-sources/env_variables ns_env_variables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/ns/0.8.1/docs/data-sources/env_variables ns_env_variables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataNsEnvVariables extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns_env_variables',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

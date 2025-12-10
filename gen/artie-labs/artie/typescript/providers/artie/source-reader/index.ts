@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,127 @@ export interface SourceReaderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of rows to read from the source database in each batch while backfilling. Maximum allowed value is 50,000. Default is 5,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#backfill_batch_size SourceReader#backfill_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#backfill_batch_size SourceReader#backfill_batch_size}
   */
   readonly backfillBatchSize?: number;
   /**
   * The source connector that we should read data from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#connector_uuid SourceReader#connector_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#connector_uuid SourceReader#connector_uuid}
   */
   readonly connectorUuid: string;
   /**
   * The name of the data plane to deploy this source reader in. If this is not set, we will use the default data plane for your account. To see the full list of supported data planes on your account, click on 'New pipeline' in our UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#data_plane_name SourceReader#data_plane_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#data_plane_name SourceReader#data_plane_name}
   */
   readonly dataPlaneName?: string;
   /**
   * The name of the database we should read data from in the source connector. This should be specified if the source connector's type is DocumentDB, MongoDB, MySQL, MS SQL, Oracle (this maps to the service name), or PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#database_name SourceReader#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#database_name SourceReader#database_name}
   */
   readonly databaseName?: string;
   /**
   * If `enable_unify_across_databases` is set to true, this should be a list of databases within your Microsoft SQL Server that we should sync data from. All tables that you opt into being unified should exist in each of these databases. This is only applicable if the source type is Microsoft SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#databases_to_unify SourceReader#databases_to_unify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#databases_to_unify SourceReader#databases_to_unify}
   */
   readonly databasesToUnify?: string[];
   /**
   * If set to true, Artie will not automatically fetch tables from the source database on the UI. This is useful if you have a large number of tables and you want to manually specify the schema before we fetch all the tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#disable_auto_fetch_tables SourceReader#disable_auto_fetch_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#disable_auto_fetch_tables SourceReader#disable_auto_fetch_tables}
   */
   readonly disableAutoFetchTables?: boolean | cdktf.IResolvable;
   /**
   * If the source database is a very low-traffic PostgreSQL database (e.g., a dev database) and is running on Amazon RDS, we recommend setting this to true to prevent WAL growth issues. This is only applicable if the source type is PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#enable_heartbeats SourceReader#enable_heartbeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#enable_heartbeats SourceReader#enable_heartbeats}
   */
   readonly enableHeartbeats?: boolean | cdktf.IResolvable;
   /**
   * If set to true, you can specify multiple databases within your Microsoft SQL Server that we should sync data from, and we will unify tables with the same name and schema into a single destination table. This is useful if you have multiple identical databases and want to fan-in the data. This is only applicable if the source type is Microsoft SQL Server and `mssql_replication_method` is set to `fn_dblog` or `change_tracking`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#enable_unify_across_databases SourceReader#enable_unify_across_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#enable_unify_across_databases SourceReader#enable_unify_across_databases}
   */
   readonly enableUnifyAcrossDatabases?: boolean | cdktf.IResolvable;
   /**
   * If set to true, you can specify tables that should be generalized to all schemas, meaning we will sync all tables with the same name into the same destination table. This is useful if you have multiple identical schemas and want to fan-in the data. This is only applicable if the source type is PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#enable_unify_across_schemas SourceReader#enable_unify_across_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#enable_unify_across_schemas SourceReader#enable_unify_across_schemas}
   */
   readonly enableUnifyAcrossSchemas?: boolean | cdktf.IResolvable;
   /**
   * If set to true, this source reader can be used by multiple pipelines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#is_shared SourceReader#is_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#is_shared SourceReader#is_shared}
   */
   readonly isShared?: boolean | cdktf.IResolvable;
   /**
   * If unset, we will use the default replication method (Capture Instances). If set to `fn_dblog`, we will stream data from transaction logs via SQL access. This is only applicable if the source type is Microsoft SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#mssql_replication_method SourceReader#mssql_replication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#mssql_replication_method SourceReader#mssql_replication_method}
   */
   readonly mssqlReplicationMethod?: string;
   /**
   * An optional human-readable label for this source reader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#name SourceReader#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#name SourceReader#name}
   */
   readonly name?: string;
   /**
   * If set to true, Artie will write all incoming CDC events into a single Kafka topic per schema. This is currently only supported if your source is Oracle and your account has this feature enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#one_topic_per_schema SourceReader#one_topic_per_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#one_topic_per_schema SourceReader#one_topic_per_schema}
   */
   readonly oneTopicPerSchema?: boolean | cdktf.IResolvable;
   /**
   * The name of the container (pluggable database) if the source type is Oracle and you are using a container database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#oracle_container_name SourceReader#oracle_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#oracle_container_name SourceReader#oracle_container_name}
   */
   readonly oracleContainerName?: string;
   /**
   * If this source reader is reading any partitioned tables, this regex pattern should describe the expected suffix of each partition's name so that we can consume data from all partitions. If not set, this defaults to `_((default)|([0-9]{4})_(0[1-9]|1[012]))$` - meaning that for a table called `my_table` that's partitioned by month, we will detect partitions such as `my_table_default`, `my_table_2025_01`, `my_table_2025_02`, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#partition_suffix_regex_pattern SourceReader#partition_suffix_regex_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#partition_suffix_regex_pattern SourceReader#partition_suffix_regex_pattern}
   */
   readonly partitionSuffixRegexPattern?: string;
   /**
   * This should be set to `filtered` if the PostgreSQL publication in the source database is not set to include `ALL TABLES`. If that's the case, you will need to explicitly add tables to the publication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#postgres_publication_mode SourceReader#postgres_publication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#postgres_publication_mode SourceReader#postgres_publication_mode}
   */
   readonly postgresPublicationMode?: string;
   /**
   * If set, this will override the name of the PostgreSQL publication. Otherwise, we will use our default value, `dbz_publication`. This is only applicable if the source type is PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#postgres_publication_name_override SourceReader#postgres_publication_name_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#postgres_publication_name_override SourceReader#postgres_publication_name_override}
   */
   readonly postgresPublicationNameOverride?: string;
   /**
   * If set, this will override the name of the PostgreSQL replication slot. Otherwise, we will use our default value, `artie`. This is only applicable if the source type is PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#postgres_replication_slot_override SourceReader#postgres_replication_slot_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#postgres_replication_slot_override SourceReader#postgres_replication_slot_override}
   */
   readonly postgresReplicationSlotOverride?: string;
   /**
+  * If set to true, changes to partitioned tables will be published using the root partitioned table's identity rather than the actual partition that was changed (The API defaults this to true). This is only applicable if the source type is PostgreSQL.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#publish_via_partition_root SourceReader#publish_via_partition_root}
+  */
+  readonly publishViaPartitionRoot?: boolean | cdktf.IResolvable;
+  /**
   * A map of tables from the source database that you want this source reader to include CDC events for. This should be specified if (and only if) the source reader has `is_shared` set to true, and it must include all tables that are specified in the `tables` attribute of any pipeline that uses this source reader. The key for each table should be formatted as `schema_name.table_name` if your source database uses schemas, otherwise just `table_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#tables SourceReader#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#tables SourceReader#tables}
   */
   readonly tables?: { [key: string]: SourceReaderTables } | cdktf.IResolvable;
   /**
   * If unify across schemas is enabled, this is an additional regex pattern that you can use to filter which schemas should be unified. This is only applicable if the source type is PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#unify_across_schemas_regex SourceReader#unify_across_schemas_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#unify_across_schemas_regex SourceReader#unify_across_schemas_regex}
   */
   readonly unifyAcrossSchemasRegex?: string;
 }
@@ -132,49 +138,49 @@ export interface SourceReaderTables {
   /**
   * If the source table is partitioned and its child partitions are in a different schema, this should specify the name of that schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#child_partition_schema_name SourceReader#child_partition_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#child_partition_schema_name SourceReader#child_partition_schema_name}
   */
   readonly childPartitionSchemaName?: string;
   /**
   * An optional list of columns to exclude from CDC events. This cannot be used if `columns_to_include` is also specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#columns_to_exclude SourceReader#columns_to_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#columns_to_exclude SourceReader#columns_to_exclude}
   */
   readonly columnsToExclude?: string[];
   /**
   * An optional list of columns to include in CDC events. If not provided, all columns will be included. This cannot be used if `columns_to_exclude` is also specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#columns_to_include SourceReader#columns_to_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#columns_to_include SourceReader#columns_to_include}
   */
   readonly columnsToInclude?: string[];
   /**
   * If the source table is partitioned, set this to true and we will ingest data from all of its partitions. You may also need to customize `partition_suffix_regex_pattern` on the source reader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#is_partitioned SourceReader#is_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#is_partitioned SourceReader#is_partitioned}
   */
   readonly isPartitioned?: boolean | cdktf.IResolvable;
   /**
   * The name of the table in the source database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#name SourceReader#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#name SourceReader#name}
   */
   readonly name: string;
   /**
   * The name of the schema the table belongs to in the source database. This must be specified if your source database uses schemas (such as PostgreSQL), e.g. `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#schema SourceReader#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#schema SourceReader#schema}
   */
   readonly schema?: string;
   /**
   * This should be set to true for any tables that you intend to unify across databases in any pipeline that uses this source reader. This is only applicable if the source reader has `enable_unify_across_databases` set to true and `databases_to_unify` filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#unify_across_databases SourceReader#unify_across_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#unify_across_databases SourceReader#unify_across_databases}
   */
   readonly unifyAcrossDatabases?: boolean | cdktf.IResolvable;
   /**
   * This should be set to true for any tables that you intend to unify across schemas in any pipeline that uses this source reader. This is only applicable if the source reader has `enable_unify_across_schemas` set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#unify_across_schemas SourceReader#unify_across_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#unify_across_schemas SourceReader#unify_across_schemas}
   */
   readonly unifyAcrossSchemas?: boolean | cdktf.IResolvable;
 }
@@ -488,7 +494,7 @@ export class SourceReaderTablesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader artie_source_reader}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader artie_source_reader}
 */
 export class SourceReader extends cdktf.TerraformResource {
 
@@ -504,7 +510,7 @@ export class SourceReader extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceReader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceReader to import
-  * @param importFromId The id of the existing SourceReader that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceReader that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceReader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -516,7 +522,7 @@ export class SourceReader extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/source_reader artie_source_reader} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/source_reader artie_source_reader} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -527,8 +533,8 @@ export class SourceReader extends cdktf.TerraformResource {
       terraformResourceType: 'artie_source_reader',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.5',
-        providerVersionConstraint: '2.3.5'
+        providerVersion: '2.3.6',
+        providerVersionConstraint: '2.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -556,6 +562,7 @@ export class SourceReader extends cdktf.TerraformResource {
     this._postgresPublicationMode = config.postgresPublicationMode;
     this._postgresPublicationNameOverride = config.postgresPublicationNameOverride;
     this._postgresReplicationSlotOverride = config.postgresReplicationSlotOverride;
+    this._publishViaPartitionRoot = config.publishViaPartitionRoot;
     this._tables.internalValue = config.tables;
     this._unifyAcrossSchemasRegex = config.unifyAcrossSchemasRegex;
   }
@@ -849,6 +856,22 @@ export class SourceReader extends cdktf.TerraformResource {
     return this._postgresReplicationSlotOverride;
   }
 
+  // publish_via_partition_root - computed: true, optional: true, required: false
+  private _publishViaPartitionRoot?: boolean | cdktf.IResolvable; 
+  public get publishViaPartitionRoot() {
+    return this.getBooleanAttribute('publish_via_partition_root');
+  }
+  public set publishViaPartitionRoot(value: boolean | cdktf.IResolvable) {
+    this._publishViaPartitionRoot = value;
+  }
+  public resetPublishViaPartitionRoot() {
+    this._publishViaPartitionRoot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publishViaPartitionRootInput() {
+    return this._publishViaPartitionRoot;
+  }
+
   // tables - computed: true, optional: true, required: false
   private _tables = new SourceReaderTablesMap(this, "tables");
   public get tables() {
@@ -910,6 +933,7 @@ export class SourceReader extends cdktf.TerraformResource {
       postgres_publication_mode: cdktf.stringToTerraform(this._postgresPublicationMode),
       postgres_publication_name_override: cdktf.stringToTerraform(this._postgresPublicationNameOverride),
       postgres_replication_slot_override: cdktf.stringToTerraform(this._postgresReplicationSlotOverride),
+      publish_via_partition_root: cdktf.booleanToTerraform(this._publishViaPartitionRoot),
       tables: cdktf.hashMapper(sourceReaderTablesToTerraform)(this._tables.internalValue),
       unify_across_schemas_regex: cdktf.stringToTerraform(this._unifyAcrossSchemasRegex),
     };
@@ -1024,6 +1048,12 @@ export class SourceReader extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      publish_via_partition_root: {
+        value: cdktf.booleanToHclTerraform(this._publishViaPartitionRoot),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       tables: {
         value: cdktf.hashMapperHcl(sourceReaderTablesToHclTerraform)(this._tables.internalValue),

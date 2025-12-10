@@ -1,3 +1,3 @@
 # `catalystcenter_apply_pending_fabric_events`
 
-Refer to the Terraform Registry for docs: [`catalystcenter_apply_pending_fabric_events`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/apply_pending_fabric_events).
+Refer to the Terraform Registry for docs: [`catalystcenter_apply_pending_fabric_events`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/apply_pending_fabric_events).

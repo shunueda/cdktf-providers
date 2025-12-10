@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcmMeshConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mesh name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#display_name TcmMesh#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#display_name TcmMesh#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#id TcmMesh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#id TcmMesh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface TcmMeshConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mesh ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#mesh_id TcmMesh#mesh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#mesh_id TcmMesh#mesh_id}
   */
   readonly meshId?: string;
   /**
   * Mesh version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#mesh_version TcmMesh#mesh_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#mesh_version TcmMesh#mesh_version}
   */
   readonly meshVersion: string;
   /**
   * Mesh type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#type TcmMesh#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#type TcmMesh#type}
   */
   readonly type: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#config TcmMesh#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#config TcmMesh#config}
   */
   readonly config: TcmMeshConfigA;
   /**
   * tag_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#tag_list TcmMesh#tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#tag_list TcmMesh#tag_list}
   */
   readonly tagList?: TcmMeshTagListStruct[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface TcmMeshConfigInject {
   /**
   * IP ranges that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#exclude_ip_ranges TcmMesh#exclude_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#exclude_ip_ranges TcmMesh#exclude_ip_ranges}
   */
   readonly excludeIpRanges?: string[];
   /**
   * Let istio-proxy(sidecar) start first, before app container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#hold_application_until_proxy_starts TcmMesh#hold_application_until_proxy_starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#hold_application_until_proxy_starts TcmMesh#hold_application_until_proxy_starts}
   */
   readonly holdApplicationUntilProxyStarts?: boolean | cdktf.IResolvable;
   /**
   * Let istio-proxy(sidecar) stop last, after app container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#hold_proxy_until_application_ends TcmMesh#hold_proxy_until_application_ends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#hold_proxy_until_application_ends TcmMesh#hold_proxy_until_application_ends}
   */
   readonly holdProxyUntilApplicationEnds?: boolean | cdktf.IResolvable;
 }
@@ -211,13 +211,13 @@ export interface TcmMeshConfigIstioSmartDns {
   /**
   * Enable auto allocate address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#istio_meta_dns_auto_allocate TcmMesh#istio_meta_dns_auto_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#istio_meta_dns_auto_allocate TcmMesh#istio_meta_dns_auto_allocate}
   */
   readonly istioMetaDnsAutoAllocate?: boolean | cdktf.IResolvable;
   /**
   * Enable dns proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#istio_meta_dns_capture TcmMesh#istio_meta_dns_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#istio_meta_dns_capture TcmMesh#istio_meta_dns_capture}
   */
   readonly istioMetaDnsCapture?: boolean | cdktf.IResolvable;
 }
@@ -332,19 +332,19 @@ export interface TcmMeshConfigIstioTracingApm {
   /**
   * Whether enable APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#enable TcmMesh#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#enable TcmMesh#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * Instance id of the APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#region TcmMesh#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#region TcmMesh#region}
   */
   readonly region?: string;
 }
@@ -485,7 +485,7 @@ export interface TcmMeshConfigIstioTracingZipkin {
   /**
   * Zipkin address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#address TcmMesh#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#address TcmMesh#address}
   */
   readonly address: string;
 }
@@ -568,25 +568,25 @@ export interface TcmMeshConfigIstioTracing {
   /**
   * Whether enable tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#enable TcmMesh#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#enable TcmMesh#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Tracing sampling, 0.0-1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#sampling TcmMesh#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#sampling TcmMesh#sampling}
   */
   readonly sampling?: number;
   /**
   * apm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#apm TcmMesh#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#apm TcmMesh#apm}
   */
   readonly apm?: TcmMeshConfigIstioTracingApm;
   /**
   * zipkin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#zipkin TcmMesh#zipkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#zipkin TcmMesh#zipkin}
   */
   readonly zipkin?: TcmMeshConfigIstioTracingZipkin;
 }
@@ -759,37 +759,37 @@ export interface TcmMeshConfigIstio {
   /**
   * Disable http retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#disable_http_retry TcmMesh#disable_http_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#disable_http_retry TcmMesh#disable_http_retry}
   */
   readonly disableHttpRetry?: boolean | cdktf.IResolvable;
   /**
   * Disable policy checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#disable_policy_checks TcmMesh#disable_policy_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#disable_policy_checks TcmMesh#disable_policy_checks}
   */
   readonly disablePolicyChecks?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP/1.0 support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#enable_pilot_http TcmMesh#enable_pilot_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#enable_pilot_http TcmMesh#enable_pilot_http}
   */
   readonly enablePilotHttp?: boolean | cdktf.IResolvable;
   /**
   * Outbound traffic policy, REGISTRY_ONLY or ALLOW_ANY, see https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig-OutboundTrafficPolicy-Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#outbound_traffic_policy TcmMesh#outbound_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#outbound_traffic_policy TcmMesh#outbound_traffic_policy}
   */
   readonly outboundTrafficPolicy: string;
   /**
   * smart_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#smart_dns TcmMesh#smart_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#smart_dns TcmMesh#smart_dns}
   */
   readonly smartDns?: TcmMeshConfigIstioSmartDns;
   /**
   * tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#tracing TcmMesh#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#tracing TcmMesh#tracing}
   */
   readonly tracing?: TcmMeshConfigIstioTracing;
 }
@@ -1017,37 +1017,37 @@ export interface TcmMeshConfigPrometheusCustomProm {
   /**
   * Authentication type of the prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#auth_type TcmMesh#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#auth_type TcmMesh#auth_type}
   */
   readonly authType: string;
   /**
   * Whether it is public address, default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#is_public_addr TcmMesh#is_public_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#is_public_addr TcmMesh#is_public_addr}
   */
   readonly isPublicAddr?: boolean | cdktf.IResolvable;
   /**
   * Password of the prometheus, used in basic authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#password TcmMesh#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#password TcmMesh#password}
   */
   readonly password?: string;
   /**
   * Url of the prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#url TcmMesh#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#url TcmMesh#url}
   */
   readonly url: string;
   /**
   * Username of the prometheus, used in basic authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#username TcmMesh#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#username TcmMesh#username}
   */
   readonly username?: string;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#vpc_id TcmMesh#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#vpc_id TcmMesh#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1272,31 +1272,31 @@ export interface TcmMeshConfigPrometheus {
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#region TcmMesh#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#region TcmMesh#region}
   */
   readonly region?: string;
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#subnet_id TcmMesh#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#subnet_id TcmMesh#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#vpc_id TcmMesh#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#vpc_id TcmMesh#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * custom_prom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#custom_prom TcmMesh#custom_prom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#custom_prom TcmMesh#custom_prom}
   */
   readonly customProm?: TcmMeshConfigPrometheusCustomProm;
 }
@@ -1498,13 +1498,13 @@ export interface TcmMeshConfigSidecarResourcesLimits {
   /**
   * Resource type name, `cpu/memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#name TcmMesh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#name TcmMesh#name}
   */
   readonly name?: string;
   /**
   * Resource quantity, example: cpu-`100m`, memory-`1Gi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#quantity TcmMesh#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#quantity TcmMesh#quantity}
   */
   readonly quantity?: string;
 }
@@ -1651,13 +1651,13 @@ export interface TcmMeshConfigSidecarResourcesRequests {
   /**
   * Resource type name, `cpu/memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#name TcmMesh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#name TcmMesh#name}
   */
   readonly name?: string;
   /**
   * Resource quantity, example: cpu-`100m`, memory-`1Gi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#quantity TcmMesh#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#quantity TcmMesh#quantity}
   */
   readonly quantity?: string;
 }
@@ -1804,13 +1804,13 @@ export interface TcmMeshConfigSidecarResources {
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#limits TcmMesh#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#limits TcmMesh#limits}
   */
   readonly limits?: TcmMeshConfigSidecarResourcesLimits[] | cdktf.IResolvable;
   /**
   * requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#requests TcmMesh#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#requests TcmMesh#requests}
   */
   readonly requests?: TcmMeshConfigSidecarResourcesRequests[] | cdktf.IResolvable;
 }
@@ -1925,19 +1925,19 @@ export interface TcmMeshConfigTracingApm {
   /**
   * Whether enable APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#enable TcmMesh#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#enable TcmMesh#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Instance id of the APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#instance_id TcmMesh#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#region TcmMesh#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#region TcmMesh#region}
   */
   readonly region?: string;
 }
@@ -2081,7 +2081,7 @@ export interface TcmMeshConfigTracingZipkin {
   /**
   * Zipkin address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#address TcmMesh#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#address TcmMesh#address}
   */
   readonly address: string;
 }
@@ -2164,25 +2164,25 @@ export interface TcmMeshConfigTracing {
   /**
   * Whether enable tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#enable TcmMesh#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#enable TcmMesh#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Tracing sampling, 0.0-1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#sampling TcmMesh#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#sampling TcmMesh#sampling}
   */
   readonly sampling?: number;
   /**
   * apm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#apm TcmMesh#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#apm TcmMesh#apm}
   */
   readonly apm?: TcmMeshConfigTracingApm;
   /**
   * zipkin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#zipkin TcmMesh#zipkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#zipkin TcmMesh#zipkin}
   */
   readonly zipkin?: TcmMeshConfigTracingZipkin;
 }
@@ -2355,31 +2355,31 @@ export interface TcmMeshConfigA {
   /**
   * inject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#inject TcmMesh#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#inject TcmMesh#inject}
   */
   readonly inject?: TcmMeshConfigInject;
   /**
   * istio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#istio TcmMesh#istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#istio TcmMesh#istio}
   */
   readonly istio?: TcmMeshConfigIstio;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#prometheus TcmMesh#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#prometheus TcmMesh#prometheus}
   */
   readonly prometheus?: TcmMeshConfigPrometheus;
   /**
   * sidecar_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#sidecar_resources TcmMesh#sidecar_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#sidecar_resources TcmMesh#sidecar_resources}
   */
   readonly sidecarResources?: TcmMeshConfigSidecarResources;
   /**
   * tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#tracing TcmMesh#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#tracing TcmMesh#tracing}
   */
   readonly tracing?: TcmMeshConfigTracing;
 }
@@ -2581,19 +2581,19 @@ export interface TcmMeshTagListStruct {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#key TcmMesh#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#key TcmMesh#key}
   */
   readonly key: string;
   /**
   * Passthrough to other related product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#passthrough TcmMesh#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#passthrough TcmMesh#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#value TcmMesh#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#value TcmMesh#value}
   */
   readonly value: string;
 }
@@ -2761,7 +2761,7 @@ export class TcmMeshTagListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh tencentcloud_tcm_mesh}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh tencentcloud_tcm_mesh}
 */
 export class TcmMesh extends cdktf.TerraformResource {
 
@@ -2777,7 +2777,7 @@ export class TcmMesh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmMesh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmMesh to import
-  * @param importFromId The id of the existing TcmMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmMesh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2789,7 +2789,7 @@ export class TcmMesh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcm_mesh tencentcloud_tcm_mesh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcm_mesh tencentcloud_tcm_mesh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2800,8 +2800,8 @@ export class TcmMesh extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcm_mesh',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

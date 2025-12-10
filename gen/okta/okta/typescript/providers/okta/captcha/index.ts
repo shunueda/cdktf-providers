@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CaptchaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#id Captcha#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#id Captcha#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface CaptchaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the CAPTCHA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#name Captcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#name Captcha#name}
   */
   readonly name: string;
   /**
   * Secret key issued from the CAPTCHA vendor to perform server-side validation for a CAPTCHA token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#secret_key Captcha#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#secret_key Captcha#secret_key}
   */
   readonly secretKey: string;
   /**
   * Site key issued from the CAPTCHA vendor to render a CAPTCHA on a page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#site_key Captcha#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#site_key Captcha#site_key}
   */
   readonly siteKey: string;
   /**
   * Type of the captcha. Valid values: `HCAPTCHA`, `RECAPTCHA_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#type Captcha#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#type Captcha#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha okta_captcha}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha okta_captcha}
 */
 export class Captcha extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Captcha extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Captcha resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Captcha to import
-  * @param importFromId The id of the existing Captcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Captcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Captcha to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Captcha extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/captcha okta_captcha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/captcha okta_captcha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Captcha extends cdktf.TerraformResource {
       terraformResourceType: 'okta_captcha',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NetworkPublicIpsAttachConfig extends cdktf.TerraformMetaArgumen
   /**
   * Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach#interface_id NetworkPublicIpsAttach#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach#interface_id NetworkPublicIpsAttach#interface_id}
   */
   readonly interfaceId: string;
   /**
   * Public IP ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach#public_ip_id NetworkPublicIpsAttach#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach#public_ip_id NetworkPublicIpsAttach#public_ip_id}
   */
   readonly publicIpId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach mgc_network_public_ips_attach}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach mgc_network_public_ips_attach}
 */
 export class NetworkPublicIpsAttach extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class NetworkPublicIpsAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPublicIpsAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPublicIpsAttach to import
-  * @param importFromId The id of the existing NetworkPublicIpsAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPublicIpsAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPublicIpsAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class NetworkPublicIpsAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_public_ips_attach mgc_network_public_ips_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_public_ips_attach mgc_network_public_ips_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class NetworkPublicIpsAttach extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_public_ips_attach',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

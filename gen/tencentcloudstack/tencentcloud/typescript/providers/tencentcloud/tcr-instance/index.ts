@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcrInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicate to delete the COS bucket which is auto-created with the instance or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#delete_bucket TcrInstance#delete_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#delete_bucket TcrInstance#delete_bucket}
   */
   readonly deleteBucket?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#id TcrInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#id TcrInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface TcrInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Length of time to purchase an instance (in month). Must set when registry_charge_type is prepaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#instance_charge_type_prepaid_period TcrInstance#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#instance_charge_type_prepaid_period TcrInstance#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. 1: manual renewal, 2: automatic renewal, 3: no renewal and no notification. Must set when registry_charge_type is prepaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#instance_charge_type_prepaid_renew_flag TcrInstance#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#instance_charge_type_prepaid_renew_flag TcrInstance#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: number;
   /**
   * TCR types. Valid values are: `standard`, `basic`, `premium`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#instance_type TcrInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#instance_type TcrInstance#instance_type}
   */
   readonly instanceType: string;
   /**
   * Name of the TCR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#name TcrInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#name TcrInstance#name}
   */
   readonly name: string;
   /**
   * Control public network access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#open_public_operation TcrInstance#open_public_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#open_public_operation TcrInstance#open_public_operation}
   */
   readonly openPublicOperation?: boolean | cdktf.IResolvable;
   /**
   * Charge type of instance. 1: postpaid; 2: prepaid. Default is postpaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#registry_charge_type TcrInstance#registry_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#registry_charge_type TcrInstance#registry_charge_type}
   */
   readonly registryChargeType?: number;
   /**
   * The available tags within this TCR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#tags TcrInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#tags TcrInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * replications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#replications TcrInstance#replications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#replications TcrInstance#replications}
   */
   readonly replications?: TcrInstanceReplications[] | cdktf.IResolvable;
   /**
   * security_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#security_policy TcrInstance#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#security_policy TcrInstance#security_policy}
   */
   readonly securityPolicy?: TcrInstanceSecurityPolicy[] | cdktf.IResolvable;
 }
@@ -79,19 +79,19 @@ export interface TcrInstanceReplications {
   /**
   * Replication region ID, check the example at the top of page to find out id of region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#region_id TcrInstance#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#region_id TcrInstance#region_id}
   */
   readonly regionId?: number;
   /**
   * Replication region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#region_name TcrInstance#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#region_name TcrInstance#region_name}
   */
   readonly regionName?: string;
   /**
   * Specify whether to sync TCR cloud tags to COS Bucket. NOTE: You have to specify when adding, modifying will be ignored for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#syn_tag TcrInstance#syn_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#syn_tag TcrInstance#syn_tag}
   */
   readonly synTag?: boolean | cdktf.IResolvable;
 }
@@ -272,13 +272,13 @@ export interface TcrInstanceSecurityPolicy {
   /**
   * The public network IP address of the access source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#cidr_block TcrInstance#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#cidr_block TcrInstance#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Remarks of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#description TcrInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#description TcrInstance#description}
   */
   readonly description?: string;
 }
@@ -433,7 +433,7 @@ export class TcrInstanceSecurityPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance tencentcloud_tcr_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance tencentcloud_tcr_instance}
 */
 export class TcrInstance extends cdktf.TerraformResource {
 
@@ -449,7 +449,7 @@ export class TcrInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrInstance to import
-  * @param importFromId The id of the existing TcrInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +461,7 @@ export class TcrInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcr_instance tencentcloud_tcr_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcr_instance tencentcloud_tcr_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +472,8 @@ export class TcrInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

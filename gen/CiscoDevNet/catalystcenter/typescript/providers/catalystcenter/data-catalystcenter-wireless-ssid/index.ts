@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCatalystcenterWirelessSsidConfig extends cdktf.TerraformMet
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid#id DataCatalystcenterWirelessSsid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid#id DataCatalystcenterWirelessSsid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataCatalystcenterWirelessSsidConfig extends cdktf.TerraformMet
   /**
   * Site ID - only site level Global is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid#site_id DataCatalystcenterWirelessSsid#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid#site_id DataCatalystcenterWirelessSsid#site_id}
   */
   readonly siteId: string;
 }
@@ -110,7 +110,7 @@ export class DataCatalystcenterWirelessSsidMultiPskSettingsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid catalystcenter_wireless_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid catalystcenter_wireless_ssid}
 */
 export class DataCatalystcenterWirelessSsid extends cdktf.TerraformDataSource {
 
@@ -126,7 +126,7 @@ export class DataCatalystcenterWirelessSsid extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCatalystcenterWirelessSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterWirelessSsid to import
-  * @param importFromId The id of the existing DataCatalystcenterWirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterWirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterWirelessSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class DataCatalystcenterWirelessSsid extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/wireless_ssid catalystcenter_wireless_ssid} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_ssid catalystcenter_wireless_ssid} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class DataCatalystcenterWirelessSsid extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_wireless_ssid',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

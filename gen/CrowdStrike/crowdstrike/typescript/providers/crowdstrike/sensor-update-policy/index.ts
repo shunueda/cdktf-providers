@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SensorUpdatePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sensor build to use for the sensor update policy. Use an empty string to turn off sensor version updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#build SensorUpdatePolicy#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#build SensorUpdatePolicy#build}
   */
   readonly buildAttribute: string;
   /**
   * Sensor arm64 build to use for the sensor update policy (Linux only). Required if platform_name is Linux. Use an empty string to turn off sensor version updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#build_arm64 SensorUpdatePolicy#build_arm64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#build_arm64 SensorUpdatePolicy#build_arm64}
   */
   readonly buildArm64?: string;
   /**
   * Description of the sensor update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#description SensorUpdatePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#description SensorUpdatePolicy#description}
   */
   readonly description?: string;
   /**
   * Enable the sensor update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#enabled SensorUpdatePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#enabled SensorUpdatePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host Group ids to attach to the sensor update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#host_groups SensorUpdatePolicy#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#host_groups SensorUpdatePolicy#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * Name of the sensor update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#name SensorUpdatePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#name SensorUpdatePolicy#name}
   */
   readonly name: string;
   /**
   * Platform for the sensor update policy to manage. (Windows, Mac, Linux). Changing this value will require replacing the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#platform_name SensorUpdatePolicy#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#platform_name SensorUpdatePolicy#platform_name}
   */
   readonly platformName: string;
   /**
   * Prohibit sensor updates during a set of time blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#schedule SensorUpdatePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#schedule SensorUpdatePolicy#schedule}
   */
   readonly schedule: SensorUpdatePolicySchedule;
   /**
   * Enable uninstall protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#uninstall_protection SensorUpdatePolicy#uninstall_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#uninstall_protection SensorUpdatePolicy#uninstall_protection}
   */
   readonly uninstallProtection?: boolean | cdktf.IResolvable;
 }
@@ -66,19 +66,19 @@ export interface SensorUpdatePolicyScheduleTimeBlocks {
   /**
   * The days of the week the time block should be active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#days SensorUpdatePolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#days SensorUpdatePolicy#days}
   */
   readonly days: string[];
   /**
   * The end time for the time block in 24HR format. Must be atleast 1 hour more than start_time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#end_time SensorUpdatePolicy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#end_time SensorUpdatePolicy#end_time}
   */
   readonly endTime: string;
   /**
   * The start time for the time block in 24HR format. Must be atleast 1 hour before end_time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#start_time SensorUpdatePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#start_time SensorUpdatePolicy#start_time}
   */
   readonly startTime: string;
 }
@@ -245,19 +245,19 @@ export interface SensorUpdatePolicySchedule {
   /**
   * Enable the scheduler for sensor update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#enabled SensorUpdatePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#enabled SensorUpdatePolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The time block to prevent sensor updates. Only set when enabled is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#time_blocks SensorUpdatePolicy#time_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#time_blocks SensorUpdatePolicy#time_blocks}
   */
   readonly timeBlocks?: SensorUpdatePolicyScheduleTimeBlocks[] | cdktf.IResolvable;
   /**
   * The time zones that will be used for the time blocks. Only set when enabled is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#timezone SensorUpdatePolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#timezone SensorUpdatePolicy#timezone}
   */
   readonly timezone?: string;
 }
@@ -406,7 +406,7 @@ export class SensorUpdatePolicyScheduleOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy crowdstrike_sensor_update_policy}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy crowdstrike_sensor_update_policy}
 */
 export class SensorUpdatePolicy extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class SensorUpdatePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorUpdatePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorUpdatePolicy to import
-  * @param importFromId The id of the existing SensorUpdatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorUpdatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorUpdatePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class SensorUpdatePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/sensor_update_policy crowdstrike_sensor_update_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_update_policy crowdstrike_sensor_update_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class SensorUpdatePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_sensor_update_policy',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

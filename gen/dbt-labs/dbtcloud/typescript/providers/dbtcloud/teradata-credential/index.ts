@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TeradataCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The password for the Teradata account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#password TeradataCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#password TeradataCredential#password}
   */
   readonly password: string;
   /**
   * Project ID to create the Teradata/Trino credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#project_id TeradataCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#project_id TeradataCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The schema where to create models
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#schema TeradataCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#schema TeradataCredential#schema}
   */
   readonly schema: string;
   /**
   * The number of threads to use. Default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#threads TeradataCredential#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#threads TeradataCredential#threads}
   */
   readonly threads?: number;
   /**
   * The username for the Teradata account 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#user TeradataCredential#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#user TeradataCredential#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential dbtcloud_teradata_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential dbtcloud_teradata_credential}
 */
 export class TeradataCredential extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class TeradataCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeradataCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeradataCredential to import
-  * @param importFromId The id of the existing TeradataCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeradataCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeradataCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class TeradataCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/teradata_credential dbtcloud_teradata_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/teradata_credential dbtcloud_teradata_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class TeradataCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_teradata_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

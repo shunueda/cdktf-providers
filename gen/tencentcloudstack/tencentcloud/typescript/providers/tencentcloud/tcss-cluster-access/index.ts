@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcssClusterAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#cluster_id TcssClusterAccess#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#cluster_id TcssClusterAccess#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#id TcssClusterAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#id TcssClusterAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface TcssClusterAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable cluster defend status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#switch_on TcssClusterAccess#switch_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#switch_on TcssClusterAccess#switch_on}
   */
   readonly switchOn?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#timeouts TcssClusterAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#timeouts TcssClusterAccess#timeouts}
   */
   readonly timeouts?: TcssClusterAccessTimeouts;
 }
 export interface TcssClusterAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#create TcssClusterAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#create TcssClusterAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#delete TcssClusterAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#delete TcssClusterAccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#update TcssClusterAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#update TcssClusterAccess#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class TcssClusterAccessTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access tencentcloud_tcss_cluster_access}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access tencentcloud_tcss_cluster_access}
 */
 export class TcssClusterAccess extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class TcssClusterAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcssClusterAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcssClusterAccess to import
-  * @param importFromId The id of the existing TcssClusterAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcssClusterAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcssClusterAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class TcssClusterAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcss_cluster_access tencentcloud_tcss_cluster_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcss_cluster_access tencentcloud_tcss_cluster_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class TcssClusterAccess extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcss_cluster_access',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

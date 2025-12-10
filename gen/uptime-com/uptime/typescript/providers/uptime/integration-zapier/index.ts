@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,23 +13,23 @@ export interface IntegrationZapierConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier#contact_groups IntegrationZapier#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier#contact_groups IntegrationZapier#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier#name IntegrationZapier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier#name IntegrationZapier#name}
   */
   readonly name: string;
   /**
   * Zapier webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier#webhook_url IntegrationZapier#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier#webhook_url IntegrationZapier#webhook_url}
   */
   readonly webhookUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier uptime_integration_zapier}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier uptime_integration_zapier}
 */
 export class IntegrationZapier extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IntegrationZapier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationZapier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationZapier to import
-  * @param importFromId The id of the existing IntegrationZapier that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationZapier that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationZapier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IntegrationZapier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_zapier uptime_integration_zapier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_zapier uptime_integration_zapier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IntegrationZapier extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_zapier',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

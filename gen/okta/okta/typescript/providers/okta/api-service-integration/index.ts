@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApiServiceIntegrationConfig extends cdktf.TerraformMetaArgument
   /**
   * The type of the API service integration. This string is an underscore-concatenated, lowercased API service integration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration#type ApiServiceIntegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration#type ApiServiceIntegration#type}
   */
   readonly type: string;
   /**
   * granted_scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration#granted_scopes ApiServiceIntegration#granted_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration#granted_scopes ApiServiceIntegration#granted_scopes}
   */
   readonly grantedScopes?: ApiServiceIntegrationGrantedScopes[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface ApiServiceIntegrationGrantedScopes {
   /**
   * The scope of the API service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration#scope ApiServiceIntegration#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration#scope ApiServiceIntegration#scope}
   */
   readonly scope: string;
 }
@@ -137,7 +137,7 @@ export class ApiServiceIntegrationGrantedScopesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration okta_api_service_integration}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration okta_api_service_integration}
 */
 export class ApiServiceIntegration extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class ApiServiceIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiServiceIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiServiceIntegration to import
-  * @param importFromId The id of the existing ApiServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiServiceIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class ApiServiceIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/api_service_integration okta_api_service_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/api_service_integration okta_api_service_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class ApiServiceIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'okta_api_service_integration',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

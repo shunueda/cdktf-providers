@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMysqlBinlogBackupOverviewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview#id DataTencentcloudMysqlBinlogBackupOverview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview#id DataTencentcloudMysqlBinlogBackupOverview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudMysqlBinlogBackupOverviewConfig extends cdktf.T
   /**
   * The type of cloud database product to be queried, currently only supports `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview#product DataTencentcloudMysqlBinlogBackupOverview#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview#product DataTencentcloudMysqlBinlogBackupOverview#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview#result_output_file DataTencentcloudMysqlBinlogBackupOverview#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview#result_output_file DataTencentcloudMysqlBinlogBackupOverview#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview tencentcloud_mysql_binlog_backup_overview}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview tencentcloud_mysql_binlog_backup_overview}
 */
 export class DataTencentcloudMysqlBinlogBackupOverview extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudMysqlBinlogBackupOverview extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudMysqlBinlogBackupOverview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlBinlogBackupOverview to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlBinlogBackupOverview that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlBinlogBackupOverview that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlBinlogBackupOverview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudMysqlBinlogBackupOverview extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_binlog_backup_overview tencentcloud_mysql_binlog_backup_overview} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_binlog_backup_overview tencentcloud_mysql_binlog_backup_overview} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudMysqlBinlogBackupOverview extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_mysql_binlog_backup_overview',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

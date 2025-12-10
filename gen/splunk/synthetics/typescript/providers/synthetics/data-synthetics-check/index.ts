@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface DataSyntheticsCheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#created_at DataSyntheticsCheck#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#created_at DataSyntheticsCheck#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#frequency DataSyntheticsCheck#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#frequency DataSyntheticsCheck#frequency}
   */
   readonly frequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#id DataSyntheticsCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#id DataSyntheticsCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#muted DataSyntheticsCheck#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#muted DataSyntheticsCheck#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#paused DataSyntheticsCheck#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#paused DataSyntheticsCheck#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#response_time_monitor_milliseconds DataSyntheticsCheck#response_time_monitor_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#response_time_monitor_milliseconds DataSyntheticsCheck#response_time_monitor_milliseconds}
   */
   readonly responseTimeMonitorMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#type DataSyntheticsCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#type DataSyntheticsCheck#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#updated_at DataSyntheticsCheck#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#updated_at DataSyntheticsCheck#updated_at}
   */
   readonly updatedAt?: string;
   /**
   * browser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#browser DataSyntheticsCheck#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#browser DataSyntheticsCheck#browser}
   */
   readonly browser?: DataSyntheticsCheckBrowser[] | cdktf.IResolvable;
   /**
   * check_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#check_connection DataSyntheticsCheck#check_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#check_connection DataSyntheticsCheck#check_connection}
   */
   readonly checkConnection?: DataSyntheticsCheckCheckConnection[] | cdktf.IResolvable;
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#cookies DataSyntheticsCheck#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#cookies DataSyntheticsCheck#cookies}
   */
   readonly cookies?: DataSyntheticsCheckCookies[] | cdktf.IResolvable;
   /**
   * dns_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#dns_overrides DataSyntheticsCheck#dns_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#dns_overrides DataSyntheticsCheck#dns_overrides}
   */
   readonly dnsOverrides?: DataSyntheticsCheckDnsOverrides[] | cdktf.IResolvable;
   /**
   * excluded_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#excluded_files DataSyntheticsCheck#excluded_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#excluded_files DataSyntheticsCheck#excluded_files}
   */
   readonly excludedFiles?: DataSyntheticsCheckExcludedFiles[] | cdktf.IResolvable;
   /**
   * javascript_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#javascript_files DataSyntheticsCheck#javascript_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#javascript_files DataSyntheticsCheck#javascript_files}
   */
   readonly javascriptFiles?: DataSyntheticsCheckJavascriptFiles[] | cdktf.IResolvable;
   /**
   * links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#links DataSyntheticsCheck#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#links DataSyntheticsCheck#links}
   */
   readonly links?: DataSyntheticsCheckLinks[] | cdktf.IResolvable;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#steps DataSyntheticsCheck#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#steps DataSyntheticsCheck#steps}
   */
   readonly steps?: DataSyntheticsCheckSteps[] | cdktf.IResolvable;
   /**
   * threshold_monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#threshold_monitors DataSyntheticsCheck#threshold_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#threshold_monitors DataSyntheticsCheck#threshold_monitors}
   */
   readonly thresholdMonitors?: DataSyntheticsCheckThresholdMonitors[] | cdktf.IResolvable;
   /**
   * viewport block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#viewport DataSyntheticsCheck#viewport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#viewport DataSyntheticsCheck#viewport}
   */
   readonly viewport?: DataSyntheticsCheckViewport[] | cdktf.IResolvable;
 }
@@ -1507,7 +1507,7 @@ export class DataSyntheticsCheckTagsList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckBrowser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#type DataSyntheticsCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#type DataSyntheticsCheck#type}
   */
   readonly type?: string;
 }
@@ -1623,19 +1623,19 @@ export class DataSyntheticsCheckBrowserList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckCheckConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#download_bandwidth DataSyntheticsCheck#download_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#download_bandwidth DataSyntheticsCheck#download_bandwidth}
   */
   readonly downloadBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#latency DataSyntheticsCheck#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#latency DataSyntheticsCheck#latency}
   */
   readonly latency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#packet_loss DataSyntheticsCheck#packet_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#packet_loss DataSyntheticsCheck#packet_loss}
   */
   readonly packetLoss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#upload_bandwidth DataSyntheticsCheck#upload_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#upload_bandwidth DataSyntheticsCheck#upload_bandwidth}
   */
   readonly uploadBandwidth?: number;
 }
@@ -1838,19 +1838,19 @@ export class DataSyntheticsCheckCheckConnectionList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#domain DataSyntheticsCheck#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#domain DataSyntheticsCheck#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#key DataSyntheticsCheck#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#key DataSyntheticsCheck#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#path DataSyntheticsCheck#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#path DataSyntheticsCheck#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#value DataSyntheticsCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#value DataSyntheticsCheck#value}
   */
   readonly value?: string;
 }
@@ -2053,11 +2053,11 @@ export class DataSyntheticsCheckCookiesList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckDnsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#original_domain DataSyntheticsCheck#original_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#original_domain DataSyntheticsCheck#original_domain}
   */
   readonly originalDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#original_host DataSyntheticsCheck#original_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#original_host DataSyntheticsCheck#original_host}
   */
   readonly originalHost?: string;
 }
@@ -2202,15 +2202,15 @@ export class DataSyntheticsCheckDnsOverridesList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckExcludedFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#exclusion_type DataSyntheticsCheck#exclusion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#exclusion_type DataSyntheticsCheck#exclusion_type}
   */
   readonly exclusionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#pattern DataSyntheticsCheck#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#pattern DataSyntheticsCheck#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#preset_name DataSyntheticsCheck#preset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#preset_name DataSyntheticsCheck#preset_name}
   */
   readonly presetName?: string;
 }
@@ -2384,14 +2384,14 @@ export class DataSyntheticsCheckExcludedFilesList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckJavascriptFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#id DataSyntheticsCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#id DataSyntheticsCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#name DataSyntheticsCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#name DataSyntheticsCheck#name}
   */
   readonly name?: string;
 }
@@ -2536,19 +2536,19 @@ export class DataSyntheticsCheckJavascriptFilesList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckLinks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#last_run DataSyntheticsCheck#last_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#last_run DataSyntheticsCheck#last_run}
   */
   readonly lastRun?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#metrics DataSyntheticsCheck#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#metrics DataSyntheticsCheck#metrics}
   */
   readonly metrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#self DataSyntheticsCheck#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#self DataSyntheticsCheck#self}
   */
   readonly selfAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#self_html DataSyntheticsCheck#self_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#self_html DataSyntheticsCheck#self_html}
   */
   readonly selfHtml?: string;
 }
@@ -2751,31 +2751,31 @@ export class DataSyntheticsCheckLinksList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#how DataSyntheticsCheck#how}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#how DataSyntheticsCheck#how}
   */
   readonly how?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#item_method DataSyntheticsCheck#item_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#item_method DataSyntheticsCheck#item_method}
   */
   readonly itemMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#name DataSyntheticsCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#name DataSyntheticsCheck#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#position DataSyntheticsCheck#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#position DataSyntheticsCheck#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#value DataSyntheticsCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#value DataSyntheticsCheck#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#variable_name DataSyntheticsCheck#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#variable_name DataSyntheticsCheck#variable_name}
   */
   readonly variableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#what DataSyntheticsCheck#what}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#what DataSyntheticsCheck#what}
   */
   readonly what?: string;
 }
@@ -3065,19 +3065,19 @@ export class DataSyntheticsCheckStepsList extends cdktf.ComplexList {
 }
 export interface DataSyntheticsCheckThresholdMonitors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#comparison_type DataSyntheticsCheck#comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#comparison_type DataSyntheticsCheck#comparison_type}
   */
   readonly comparisonType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#matcher DataSyntheticsCheck#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#matcher DataSyntheticsCheck#matcher}
   */
   readonly matcher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#metric_name DataSyntheticsCheck#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#metric_name DataSyntheticsCheck#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#value DataSyntheticsCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#value DataSyntheticsCheck#value}
   */
   readonly value?: number;
 }
@@ -3280,11 +3280,11 @@ export class DataSyntheticsCheckThresholdMonitorsList extends cdktf.ComplexList 
 }
 export interface DataSyntheticsCheckViewport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#height DataSyntheticsCheck#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#height DataSyntheticsCheck#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#width DataSyntheticsCheck#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#width DataSyntheticsCheck#width}
   */
   readonly width?: number;
 }
@@ -3429,7 +3429,7 @@ export class DataSyntheticsCheckViewportList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check synthetics_check}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check synthetics_check}
 */
 export class DataSyntheticsCheck extends cdktf.TerraformDataSource {
 
@@ -3445,7 +3445,7 @@ export class DataSyntheticsCheck extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSyntheticsCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSyntheticsCheck to import
-  * @param importFromId The id of the existing DataSyntheticsCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSyntheticsCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSyntheticsCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3457,7 +3457,7 @@ export class DataSyntheticsCheck extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs/data-sources/check synthetics_check} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs/data-sources/check synthetics_check} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3468,8 +3468,8 @@ export class DataSyntheticsCheck extends cdktf.TerraformDataSource {
       terraformResourceType: 'synthetics_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

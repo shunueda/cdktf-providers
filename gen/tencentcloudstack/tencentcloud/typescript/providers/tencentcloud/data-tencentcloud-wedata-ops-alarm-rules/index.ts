@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataTencentcloudWedataOpsAlarmRulesConfig extends cdktf.Terrafo
   /**
   * Alarm level: 1. Normal, 2. Major, 3. Urgent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#alarm_level DataTencentcloudWedataOpsAlarmRules#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#alarm_level DataTencentcloudWedataOpsAlarmRules#alarm_level}
   */
   readonly alarmLevel?: number;
   /**
   * Query the alarm rules configured for the corresponding alarm recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#alarm_recipient_id DataTencentcloudWedataOpsAlarmRules#alarm_recipient_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#alarm_recipient_id DataTencentcloudWedataOpsAlarmRules#alarm_recipient_id}
   */
   readonly alarmRecipientId?: string;
   /**
   * Alarm Rule Monitoring Types: failure: failure alarm; overtime: timeout alarm; success: success alarm; backTrackingOrRerunSuccess: backTrackingOrRerunSuccess: backTrackingOrRerunFailure: backTrackingOrRerunFailure. Project Fluctuation Alarms: projectFailureInstanceUpwardFluctuationAlarm: alarm if the upward fluctuation rate of failed instances exceeds the threshold. projectSuccessInstanceDownwardFluctuationAlarm: alarm if the downward fluctuation rate of successful instances exceeds the threshold. Offline Integration Task Reconciliation Alarms: reconciliationFailure: offline reconciliation task failure alarm; reconciliationOvertime: offline reconciliation task timeout alarm; reconciliationMismatch: alarm if the number of inconsistent entries in a data reconciliation task exceeds the threshold. Example value: ["failure"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#alarm_type DataTencentcloudWedataOpsAlarmRules#alarm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#alarm_type DataTencentcloudWedataOpsAlarmRules#alarm_type}
   */
   readonly alarmType?: string;
   /**
   * The start time of the alarm rule creation time range, in the format of 2025-08-17 00:00:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#create_time_from DataTencentcloudWedataOpsAlarmRules#create_time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#create_time_from DataTencentcloudWedataOpsAlarmRules#create_time_from}
   */
   readonly createTimeFrom?: string;
   /**
   * The end time of the alarm rule creation time range, in the format of "2025-08-26 23:59:59".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#create_time_to DataTencentcloudWedataOpsAlarmRules#create_time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#create_time_to DataTencentcloudWedataOpsAlarmRules#create_time_to}
   */
   readonly createTimeTo?: string;
   /**
   * Alarm rule creator filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#create_user_uin DataTencentcloudWedataOpsAlarmRules#create_user_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#create_user_uin DataTencentcloudWedataOpsAlarmRules#create_user_uin}
   */
   readonly createUserUin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#id DataTencentcloudWedataOpsAlarmRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#id DataTencentcloudWedataOpsAlarmRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface DataTencentcloudWedataOpsAlarmRulesConfig extends cdktf.Terrafo
   /**
   * Query the corresponding alarm rule based on the alarm rule ID/rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#keyword DataTencentcloudWedataOpsAlarmRules#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#keyword DataTencentcloudWedataOpsAlarmRules#keyword}
   */
   readonly keyword?: string;
   /**
   * Monitoring object type, Task dimension monitoring: can be configured according to task/workflow/project: 1.Task, 2.Workflow, 3.Project (default is 1.Task) Project dimension monitoring: Project overall task fluctuation alarm, 7: Project fluctuation monitoring alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#monitor_object_type DataTencentcloudWedataOpsAlarmRules#monitor_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#monitor_object_type DataTencentcloudWedataOpsAlarmRules#monitor_object_type}
   */
   readonly monitorObjectType?: number;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#project_id DataTencentcloudWedataOpsAlarmRules#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#project_id DataTencentcloudWedataOpsAlarmRules#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#result_output_file DataTencentcloudWedataOpsAlarmRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#result_output_file DataTencentcloudWedataOpsAlarmRules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Query alarm rules based on task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#task_id DataTencentcloudWedataOpsAlarmRules#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#task_id DataTencentcloudWedataOpsAlarmRules#task_id}
   */
   readonly taskId?: string;
   /**
   * Last updated time filter alarm rules, format such as "2025-08-26 00:00:00".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#update_time_from DataTencentcloudWedataOpsAlarmRules#update_time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#update_time_from DataTencentcloudWedataOpsAlarmRules#update_time_from}
   */
   readonly updateTimeFrom?: string;
   /**
   * Last updated time filter alarm rule format such as: "2025-08-26 23:59:59".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#update_time_to DataTencentcloudWedataOpsAlarmRules#update_time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#update_time_to DataTencentcloudWedataOpsAlarmRules#update_time_to}
   */
   readonly updateTimeTo?: string;
 }
@@ -1175,7 +1175,7 @@ export class DataTencentcloudWedataOpsAlarmRulesDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules tencentcloud_wedata_ops_alarm_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules tencentcloud_wedata_ops_alarm_rules}
 */
 export class DataTencentcloudWedataOpsAlarmRules extends cdktf.TerraformDataSource {
 
@@ -1191,7 +1191,7 @@ export class DataTencentcloudWedataOpsAlarmRules extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudWedataOpsAlarmRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataOpsAlarmRules to import
-  * @param importFromId The id of the existing DataTencentcloudWedataOpsAlarmRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataOpsAlarmRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataOpsAlarmRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1203,7 +1203,7 @@ export class DataTencentcloudWedataOpsAlarmRules extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_ops_alarm_rules tencentcloud_wedata_ops_alarm_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_ops_alarm_rules tencentcloud_wedata_ops_alarm_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1214,8 +1214,8 @@ export class DataTencentcloudWedataOpsAlarmRules extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_wedata_ops_alarm_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyPasswordDefaultConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable or disable voice call recovery: ACTIVE or INACTIVE. Default: `INACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#call_recovery PolicyPasswordDefault#call_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#call_recovery PolicyPasswordDefault#call_recovery}
   */
   readonly callRecovery?: string;
   /**
   * Enable or disable email password recovery: ACTIVE or INACTIVE. Default: `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#email_recovery PolicyPasswordDefault#email_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#email_recovery PolicyPasswordDefault#email_recovery}
   */
   readonly emailRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#id PolicyPasswordDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#id PolicyPasswordDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,139 +29,139 @@ export interface PolicyPasswordDefaultConfig extends cdktf.TerraformMetaArgument
   /**
   * Number of minutes before a locked account is unlocked: 0 = no limit. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_auto_unlock_minutes PolicyPasswordDefault#password_auto_unlock_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_auto_unlock_minutes PolicyPasswordDefault#password_auto_unlock_minutes}
   */
   readonly passwordAutoUnlockMinutes?: number;
   /**
   * Check Passwords Against Common Password Dictionary. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_dictionary_lookup PolicyPasswordDefault#password_dictionary_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_dictionary_lookup PolicyPasswordDefault#password_dictionary_lookup}
   */
   readonly passwordDictionaryLookup?: boolean | cdktf.IResolvable;
   /**
   * User firstName attribute must be excluded from the password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_exclude_first_name PolicyPasswordDefault#password_exclude_first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_exclude_first_name PolicyPasswordDefault#password_exclude_first_name}
   */
   readonly passwordExcludeFirstName?: boolean | cdktf.IResolvable;
   /**
   * User lastName attribute must be excluded from the password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_exclude_last_name PolicyPasswordDefault#password_exclude_last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_exclude_last_name PolicyPasswordDefault#password_exclude_last_name}
   */
   readonly passwordExcludeLastName?: boolean | cdktf.IResolvable;
   /**
   * If the user name must be excluded from the password. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_exclude_username PolicyPasswordDefault#password_exclude_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_exclude_username PolicyPasswordDefault#password_exclude_username}
   */
   readonly passwordExcludeUsername?: boolean | cdktf.IResolvable;
   /**
   * Length in days a user will be warned before password expiry: 0 = no warning. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_expire_warn_days PolicyPasswordDefault#password_expire_warn_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_expire_warn_days PolicyPasswordDefault#password_expire_warn_days}
   */
   readonly passwordExpireWarnDays?: number;
   /**
   * Number of distinct passwords that must be created before they can be reused: 0 = none. Default: `4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_history_count PolicyPasswordDefault#password_history_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_history_count PolicyPasswordDefault#password_history_count}
   */
   readonly passwordHistoryCount?: number;
   /**
   * Notification channels to use to notify a user when their account has been locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_lockout_notification_channels PolicyPasswordDefault#password_lockout_notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_lockout_notification_channels PolicyPasswordDefault#password_lockout_notification_channels}
   */
   readonly passwordLockoutNotificationChannels?: string[];
   /**
   * Length in days a password is valid before expiry: 0 = no limit. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_max_age_days PolicyPasswordDefault#password_max_age_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_max_age_days PolicyPasswordDefault#password_max_age_days}
   */
   readonly passwordMaxAgeDays?: number;
   /**
   * Number of unsuccessful login attempts allowed before lockout: 0 = no limit. Default: `10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_max_lockout_attempts PolicyPasswordDefault#password_max_lockout_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_max_lockout_attempts PolicyPasswordDefault#password_max_lockout_attempts}
   */
   readonly passwordMaxLockoutAttempts?: number;
   /**
   * Minimum time interval in minutes between password changes: 0 = no limit. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_age_minutes PolicyPasswordDefault#password_min_age_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_age_minutes PolicyPasswordDefault#password_min_age_minutes}
   */
   readonly passwordMinAgeMinutes?: number;
   /**
   * Minimum password length. Default is `8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_length PolicyPasswordDefault#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_length PolicyPasswordDefault#password_min_length}
   */
   readonly passwordMinLength?: number;
   /**
   * If a password must contain at least one lower case letter: 0 = no, 1 = yes. Default = 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_lowercase PolicyPasswordDefault#password_min_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_lowercase PolicyPasswordDefault#password_min_lowercase}
   */
   readonly passwordMinLowercase?: number;
   /**
   * If a password must contain at least one number: 0 = no, 1 = yes. Default = `1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_number PolicyPasswordDefault#password_min_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_number PolicyPasswordDefault#password_min_number}
   */
   readonly passwordMinNumber?: number;
   /**
   * If a password must contain at least one symbol (!@#$%^&*): 0 = no, 1 = yes. Default = `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_symbol PolicyPasswordDefault#password_min_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_symbol PolicyPasswordDefault#password_min_symbol}
   */
   readonly passwordMinSymbol?: number;
   /**
   * If a password must contain at least one upper case letter: 0 = no, 1 = yes. Default = 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_min_uppercase PolicyPasswordDefault#password_min_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_min_uppercase PolicyPasswordDefault#password_min_uppercase}
   */
   readonly passwordMinUppercase?: number;
   /**
   * If a user should be informed when their account is locked. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#password_show_lockout_failures PolicyPasswordDefault#password_show_lockout_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#password_show_lockout_failures PolicyPasswordDefault#password_show_lockout_failures}
   */
   readonly passwordShowLockoutFailures?: boolean | cdktf.IResolvable;
   /**
   * Min length of the password recovery question answer. Default: `4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#question_min_length PolicyPasswordDefault#question_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#question_min_length PolicyPasswordDefault#question_min_length}
   */
   readonly questionMinLength?: number;
   /**
   * Enable or disable security question password recovery: ACTIVE or INACTIVE. Default: `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#question_recovery PolicyPasswordDefault#question_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#question_recovery PolicyPasswordDefault#question_recovery}
   */
   readonly questionRecovery?: string;
   /**
   * Lifetime in minutes of the recovery email token. Default: `60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#recovery_email_token PolicyPasswordDefault#recovery_email_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#recovery_email_token PolicyPasswordDefault#recovery_email_token}
   */
   readonly recoveryEmailToken?: number;
   /**
   * When an Active Directory user is locked out of Okta, the Okta unlock operation should also attempt to unlock the user's Windows account. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#skip_unlock PolicyPasswordDefault#skip_unlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#skip_unlock PolicyPasswordDefault#skip_unlock}
   */
   readonly skipUnlock?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable SMS password recovery: ACTIVE or INACTIVE. Default: `INACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#sms_recovery PolicyPasswordDefault#sms_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#sms_recovery PolicyPasswordDefault#sms_recovery}
   */
   readonly smsRecovery?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default okta_policy_password_default}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default okta_policy_password_default}
 */
 export class PolicyPasswordDefault extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class PolicyPasswordDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyPasswordDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyPasswordDefault to import
-  * @param importFromId The id of the existing PolicyPasswordDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyPasswordDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyPasswordDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class PolicyPasswordDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_password_default okta_policy_password_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_password_default okta_policy_password_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class PolicyPasswordDefault extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_password_default',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

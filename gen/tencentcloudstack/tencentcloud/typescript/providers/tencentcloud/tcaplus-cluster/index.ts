@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcaplusClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the TcaplusDB cluster. Name length should be between 1 and 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#cluster_name TcaplusCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#cluster_name TcaplusCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#id TcaplusCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#id TcaplusCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TcaplusClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDL type of the TcaplusDB cluster. Valid values: `PROTO` and `TDR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#idl_type TcaplusCluster#idl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#idl_type TcaplusCluster#idl_type}
   */
   readonly idlType: string;
   /**
   * Expiration time of old password after password update, unit: second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#old_password_expire_last TcaplusCluster#old_password_expire_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#old_password_expire_last TcaplusCluster#old_password_expire_last}
   */
   readonly oldPasswordExpireLast?: number;
   /**
   * Password of the TcaplusDB cluster. Password length should be between 12 and 16. The password must be a *mix* of uppercase letters (A-Z), lowercase *letters* (a-z) and *numbers* (0-9).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#password TcaplusCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#password TcaplusCluster#password}
   */
   readonly password: string;
   /**
   * Subnet id of the TcaplusDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#subnet_id TcaplusCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#subnet_id TcaplusCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC id of the TcaplusDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#vpc_id TcaplusCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#vpc_id TcaplusCluster#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster tencentcloud_tcaplus_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster tencentcloud_tcaplus_cluster}
 */
 export class TcaplusCluster extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TcaplusCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcaplusCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcaplusCluster to import
-  * @param importFromId The id of the existing TcaplusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcaplusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcaplusCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TcaplusCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tcaplus_cluster tencentcloud_tcaplus_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tcaplus_cluster tencentcloud_tcaplus_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TcaplusCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcaplus_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

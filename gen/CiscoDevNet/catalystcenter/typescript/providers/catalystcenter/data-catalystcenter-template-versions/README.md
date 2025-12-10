@@ -1,3 +1,3 @@
 # `data_catalystcenter_template_versions`
 
-Refer to the Terraform Registry for docs: [`data_catalystcenter_template_versions`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/data-sources/template_versions).
+Refer to the Terraform Registry for docs: [`data_catalystcenter_template_versions`](https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/template_versions).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DnspodDomainAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias#domain DnspodDomainAlias#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias#domain DnspodDomainAlias#domain}
   */
   readonly domain: string;
   /**
   * Domain alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias#domain_alias DnspodDomainAlias#domain_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias#domain_alias DnspodDomainAlias#domain_alias}
   */
   readonly domainAlias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias#id DnspodDomainAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias#id DnspodDomainAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DnspodDomainAliasConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias tencentcloud_dnspod_domain_alias}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias tencentcloud_dnspod_domain_alias}
 */
 export class DnspodDomainAlias extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DnspodDomainAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnspodDomainAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnspodDomainAlias to import
-  * @param importFromId The id of the existing DnspodDomainAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnspodDomainAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnspodDomainAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DnspodDomainAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dnspod_domain_alias tencentcloud_dnspod_domain_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dnspod_domain_alias tencentcloud_dnspod_domain_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DnspodDomainAlias extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dnspod_domain_alias',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

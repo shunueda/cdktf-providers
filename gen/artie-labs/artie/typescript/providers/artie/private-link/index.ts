@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PrivateLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of AWS Availability Zone IDs where the PrivateLink endpoint is available (e.g., ["use1-az1", "use1-az2"]).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#az_ids PrivateLink#az_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#az_ids PrivateLink#az_ids}
   */
   readonly azIds: string[];
   /**
   * The data plane name associated with this PrivateLink connection. If not provided, it will be computed by the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#data_plane_name PrivateLink#data_plane_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#data_plane_name PrivateLink#data_plane_name}
   */
   readonly dataPlaneName?: string;
   /**
   * The name of the PrivateLink connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#name PrivateLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#name PrivateLink#name}
   */
   readonly name: string;
   /**
   * The AWS region of the VPC endpoint (e.g., us-east-1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#region PrivateLink#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#region PrivateLink#region}
   */
   readonly region: string;
   /**
   * The VPC Endpoint ID (e.g., vpce-xxxxxxxxxxxxxxxxx) that connects to Artie's endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#vpc_endpoint_id PrivateLink#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#vpc_endpoint_id PrivateLink#vpc_endpoint_id}
   */
   readonly vpcEndpointId: string;
   /**
   * The VPC endpoint service name for Artie's service in your AWS region (e.g., com.amazonaws.vpce.us-east-1.vpce-svc-xxxxx).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#vpc_service_name PrivateLink#vpc_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#vpc_service_name PrivateLink#vpc_service_name}
   */
   readonly vpcServiceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link artie_private_link}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link artie_private_link}
 */
 export class PrivateLink extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PrivateLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateLink to import
-  * @param importFromId The id of the existing PrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PrivateLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.5/docs/resources/private_link artie_private_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.6/docs/resources/private_link artie_private_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PrivateLink extends cdktf.TerraformResource {
       terraformResourceType: 'artie_private_link',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.5',
-        providerVersionConstraint: '2.3.5'
+        providerVersion: '2.3.6',
+        providerVersionConstraint: '2.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

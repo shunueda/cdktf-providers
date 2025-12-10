@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of allowed CIDR blocks for API server access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#allowed_cidrs KubernetesCluster#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#allowed_cidrs KubernetesCluster#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
   * The IP address range of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#cluster_ipv4_cidr KubernetesCluster#cluster_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#cluster_ipv4_cidr KubernetesCluster#cluster_ipv4_cidr}
   */
   readonly clusterIpv4Cidr?: string;
   /**
   * A brief description of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#description KubernetesCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#description KubernetesCluster#description}
   */
   readonly description?: string;
   /**
   * Enables the use of a server group with anti-affinity policy during the creation of the cluster and its node pools. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#enabled_server_group KubernetesCluster#enabled_server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#enabled_server_group KubernetesCluster#enabled_server_group}
   */
   readonly enabledServerGroup?: boolean | cdktf.IResolvable;
   /**
   * Kubernetes cluster name. Must be unique within a namespace and follow naming rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * The IP address range of the Kubernetes cluster service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#services_ipv4_cidr KubernetesCluster#services_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#services_ipv4_cidr KubernetesCluster#services_ipv4_cidr}
   */
   readonly servicesIpv4Cidr?: string;
   /**
   * The native Kubernetes version of the cluster. Use the standard "vX.Y.Z" format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster mgc_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster mgc_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster mgc_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster mgc_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

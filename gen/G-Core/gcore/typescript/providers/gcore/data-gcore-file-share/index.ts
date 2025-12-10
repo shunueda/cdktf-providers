@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreFileShareConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#id DataGcoreFileShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#id DataGcoreFileShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataGcoreFileShareConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the file share. It must be unique within the project and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#name DataGcoreFileShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#name DataGcoreFileShare#name}
   */
   readonly name: string;
   /**
   * Project ID, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#project_id DataGcoreFileShare#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#project_id DataGcoreFileShare#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#project_name DataGcoreFileShare#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#project_name DataGcoreFileShare#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#region_id DataGcoreFileShare#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#region_id DataGcoreFileShare#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#region_name DataGcoreFileShare#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#region_name DataGcoreFileShare#region_name}
   */
   readonly regionName?: string;
   /**
   * share_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#share_settings DataGcoreFileShare#share_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#share_settings DataGcoreFileShare#share_settings}
   */
   readonly shareSettings?: DataGcoreFileShareShareSettings;
 }
@@ -55,25 +55,25 @@ export interface DataGcoreFileShareShareSettings {
   /**
   * Allowed characters in file names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#allowed_characters DataGcoreFileShare#allowed_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#allowed_characters DataGcoreFileShare#allowed_characters}
   */
   readonly allowedCharacters?: string;
   /**
   * Affects the maximum limit of file path component name length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#path_length DataGcoreFileShare#path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#path_length DataGcoreFileShare#path_length}
   */
   readonly pathLength?: string;
   /**
   * Indicates if root squash is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#root_squash DataGcoreFileShare#root_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#root_squash DataGcoreFileShare#root_squash}
   */
   readonly rootSquash?: boolean | cdktf.IResolvable;
   /**
   * The type of the file share (standard or vast).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#type_name DataGcoreFileShare#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#type_name DataGcoreFileShare#type_name}
   */
   readonly typeName?: string;
 }
@@ -244,7 +244,7 @@ export class DataGcoreFileShareShareSettingsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share gcore_file_share}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share gcore_file_share}
 */
 export class DataGcoreFileShare extends cdktf.TerraformDataSource {
 
@@ -260,7 +260,7 @@ export class DataGcoreFileShare extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreFileShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreFileShare to import
-  * @param importFromId The id of the existing DataGcoreFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreFileShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class DataGcoreFileShare extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/data-sources/file_share gcore_file_share} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/file_share gcore_file_share} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class DataGcoreFileShare extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_file_share',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2
+// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface CraasTokenV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#all_registries CraasTokenV2#all_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#all_registries CraasTokenV2#all_registries}
   */
   readonly allRegistries: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#expires_at CraasTokenV2#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#expires_at CraasTokenV2#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#id CraasTokenV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#id CraasTokenV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#is_set CraasTokenV2#is_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#is_set CraasTokenV2#is_set}
   */
   readonly isSet: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#mode_rw CraasTokenV2#mode_rw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#mode_rw CraasTokenV2#mode_rw}
   */
   readonly modeRw: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#name CraasTokenV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#name CraasTokenV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#project_id CraasTokenV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#project_id CraasTokenV2#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#registry_ids CraasTokenV2#registry_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#registry_ids CraasTokenV2#registry_ids}
   */
   readonly registryIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2 selectel_craas_token_v2}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2 selectel_craas_token_v2}
 */
 export class CraasTokenV2 extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CraasTokenV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CraasTokenV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CraasTokenV2 to import
-  * @param importFromId The id of the existing CraasTokenV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CraasTokenV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CraasTokenV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CraasTokenV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/craas_token_v2 selectel_craas_token_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/craas_token_v2 selectel_craas_token_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class CraasTokenV2 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_craas_token_v2',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.0',
-        providerVersionConstraint: '7.2.0'
+        providerVersion: '7.2.1',
+        providerVersionConstraint: '7.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

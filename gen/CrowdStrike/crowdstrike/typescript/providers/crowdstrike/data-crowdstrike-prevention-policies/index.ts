@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataCrowdstrikePreventionPoliciesConfig extends cdktf.Terraform
   /**
   * Filter policies by the user who created them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#created_by DataCrowdstrikePreventionPolicies#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#created_by DataCrowdstrikePreventionPolicies#created_by}
   */
   readonly createdBy?: string;
   /**
   * Filter policies by description. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#description DataCrowdstrikePreventionPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#description DataCrowdstrikePreventionPolicies#description}
   */
   readonly description?: string;
   /**
   * Filter policies by enabled status. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#enabled DataCrowdstrikePreventionPolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#enabled DataCrowdstrikePreventionPolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FQL filter to apply to the prevention policies query. When specified, only policies matching the filter will be returned. Cannot be used together with 'ids' or other filter attributes. Example: `platform_name:'Windows'`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#filter DataCrowdstrikePreventionPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#filter DataCrowdstrikePreventionPolicies#filter}
   */
   readonly filter?: string;
   /**
   * List of prevention policy IDs to retrieve. When specified, only policies with matching IDs will be returned. Cannot be used together with 'filter' or other filter attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#ids DataCrowdstrikePreventionPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#ids DataCrowdstrikePreventionPolicies#ids}
   */
   readonly ids?: string[];
   /**
   * Filter policies by the user who last modified them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#modified_by DataCrowdstrikePreventionPolicies#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#modified_by DataCrowdstrikePreventionPolicies#modified_by}
   */
   readonly modifiedBy?: string;
   /**
   * Filter policies by name. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#name DataCrowdstrikePreventionPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#name DataCrowdstrikePreventionPolicies#name}
   */
   readonly name?: string;
   /**
   * Filter policies by platform_name (Windows, Linux, Mac). All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#platform_name DataCrowdstrikePreventionPolicies#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#platform_name DataCrowdstrikePreventionPolicies#platform_name}
   */
   readonly platformName?: string;
   /**
   * Sort order for the results. Valid values include field names with optional '.asc' or '.desc' suffix. Example: 'name.asc', 'precedence.desc'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#sort DataCrowdstrikePreventionPolicies#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#sort DataCrowdstrikePreventionPolicies#sort}
   */
   readonly sort?: string;
 }
@@ -189,7 +189,7 @@ export class DataCrowdstrikePreventionPoliciesPoliciesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies crowdstrike_prevention_policies}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies crowdstrike_prevention_policies}
 */
 export class DataCrowdstrikePreventionPolicies extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataCrowdstrikePreventionPolicies extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataCrowdstrikePreventionPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikePreventionPolicies to import
-  * @param importFromId The id of the existing DataCrowdstrikePreventionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikePreventionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikePreventionPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataCrowdstrikePreventionPolicies extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/data-sources/prevention_policies crowdstrike_prevention_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/data-sources/prevention_policies crowdstrike_prevention_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataCrowdstrikePreventionPolicies extends cdktf.TerraformDataSource
       terraformResourceType: 'crowdstrike_prevention_policies',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.51',
-        providerVersionConstraint: '0.0.51'
+        providerVersion: '0.0.52',
+        providerVersionConstraint: '0.0.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

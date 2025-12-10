@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,19 +11,19 @@ export interface FabricZoneConfig extends cdktf.TerraformMetaArguments {
   * Authentication profile used for this fabric
   *   - Choices: `No Authentication`, `Low Impact`, `Open Authentication`, `Closed Authentication`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone#authentication_profile_name FabricZone#authentication_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone#authentication_profile_name FabricZone#authentication_profile_name}
   */
   readonly authenticationProfileName: string;
   /**
   * ID of the network hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone#site_id FabricZone#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone#site_id FabricZone#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone catalystcenter_fabric_zone}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone catalystcenter_fabric_zone}
 */
 export class FabricZone extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class FabricZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricZone to import
-  * @param importFromId The id of the existing FabricZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class FabricZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_zone catalystcenter_fabric_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_zone catalystcenter_fabric_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class FabricZone extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_zone',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

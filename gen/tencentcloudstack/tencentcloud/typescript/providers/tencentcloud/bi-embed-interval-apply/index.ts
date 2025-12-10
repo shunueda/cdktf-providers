@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BiEmbedIntervalApplyConfig extends cdktf.TerraformMetaArguments
   /**
   * Token that needs to be applied for extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#bi_token BiEmbedIntervalApply#bi_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#bi_token BiEmbedIntervalApply#bi_token}
   */
   readonly biToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#id BiEmbedIntervalApply#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#id BiEmbedIntervalApply#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface BiEmbedIntervalApplyConfig extends cdktf.TerraformMetaArguments
   /**
   * Sharing page id, this is empty value 0 when embedding the board.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#page_id BiEmbedIntervalApply#page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#page_id BiEmbedIntervalApply#page_id}
   */
   readonly pageId?: number;
   /**
   * Sharing project id, required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#project_id BiEmbedIntervalApply#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#project_id BiEmbedIntervalApply#project_id}
   */
   readonly projectId?: number;
   /**
   * Choose panel or page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#scope BiEmbedIntervalApply#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#scope BiEmbedIntervalApply#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply tencentcloud_bi_embed_interval_apply}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply tencentcloud_bi_embed_interval_apply}
 */
 export class BiEmbedIntervalApply extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class BiEmbedIntervalApply extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BiEmbedIntervalApply resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BiEmbedIntervalApply to import
-  * @param importFromId The id of the existing BiEmbedIntervalApply that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BiEmbedIntervalApply that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BiEmbedIntervalApply to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class BiEmbedIntervalApply extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/bi_embed_interval_apply tencentcloud_bi_embed_interval_apply} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/bi_embed_interval_apply tencentcloud_bi_embed_interval_apply} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class BiEmbedIntervalApply extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bi_embed_interval_apply',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

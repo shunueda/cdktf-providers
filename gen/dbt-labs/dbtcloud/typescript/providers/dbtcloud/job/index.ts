@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,175 +10,181 @@ export interface JobConfig extends cdktf.TerraformMetaArguments {
   /**
   * The model selector for checking changes in the compare changes Advanced CI feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#compare_changes_flags Job#compare_changes_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#compare_changes_flags Job#compare_changes_flags}
   */
   readonly compareChangesFlags?: string;
   /**
   * Version number of dbt to use in this job, usually in the format 1.2.0-latest rather than core versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#dbt_version Job#dbt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#dbt_version Job#dbt_version}
   */
   readonly dbtVersion?: string;
   /**
   * Environment identifier that this job defers to (new deferring approach)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#deferring_environment_id Job#deferring_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#deferring_environment_id Job#deferring_environment_id}
   */
   readonly deferringEnvironmentId?: number;
   /**
   * Job identifier that this job defers to (legacy deferring approach)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#deferring_job_id Job#deferring_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#deferring_job_id Job#deferring_job_id}
   */
   readonly deferringJobId?: number;
   /**
   * Description for the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#description Job#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#description Job#description}
   */
   readonly description?: string;
   /**
   * Environment ID to create the job in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#environment_id Job#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#environment_id Job#environment_id}
   */
   readonly environmentId: number;
   /**
   * Whether the CI job should fail when a lint error is found. Only used when `run_lint` is set to `true`. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#errors_on_lint_failure Job#errors_on_lint_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#errors_on_lint_failure Job#errors_on_lint_failure}
   */
   readonly errorsOnLintFailure?: boolean | cdktf.IResolvable;
   /**
   * List of commands to execute for the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#execute_steps Job#execute_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#execute_steps Job#execute_steps}
   */
   readonly executeSteps: string[];
   /**
   * Whether to force node selection (SAO - Select All Optimizations) for the job. If `dbt_version` is not set to `latest-fusion`, this must be set to `true` when specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#force_node_selection Job#force_node_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#force_node_selection Job#force_node_selection}
   */
   readonly forceNodeSelection?: boolean | cdktf.IResolvable;
   /**
   * Flag for whether the job should generate documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#generate_docs Job#generate_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#generate_docs Job#generate_docs}
   */
   readonly generateDocs?: boolean | cdktf.IResolvable;
   /**
   * Should always be set to true as setting it to false is the same as creating a job in a deleted state. To create/keep a job in a 'deactivated' state, check  the `triggers` config. Setting it to false essentially deletes the job. On resource creation, this field is enforced to be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#is_active Job#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#is_active Job#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Can be used to enforce the job type betwen `ci`, `merge` and `scheduled`. Without this value the job type is inferred from the triggers configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#job_type Job#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#job_type Job#job_type}
   */
   readonly jobType?: string;
   /**
   * Job name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#name Job#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#name Job#name}
   */
   readonly name: string;
   /**
   * Number of threads to use in the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#num_threads Job#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#num_threads Job#num_threads}
   */
   readonly numThreads?: number;
   /**
   * Project ID to create the job in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#project_id Job#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#project_id Job#project_id}
   */
   readonly projectId: number;
   /**
   * Whether the CI job should compare data changes introduced by the code changes. Requires `deferring_environment_id` to be set. (Advanced CI needs to be activated in the dbt Cloud Account Settings first as well)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#run_compare_changes Job#run_compare_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#run_compare_changes Job#run_compare_changes}
   */
   readonly runCompareChanges?: boolean | cdktf.IResolvable;
   /**
   * Flag for whether the job should add a `dbt source freshness` step to the job. The difference between manually adding a step with `dbt source freshness` in the job steps or using this flag is that with this flag, a failed freshness will still allow the following steps to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#run_generate_sources Job#run_generate_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#run_generate_sources Job#run_generate_sources}
   */
   readonly runGenerateSources?: boolean | cdktf.IResolvable;
   /**
   * Whether the CI job should lint SQL changes. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#run_lint Job#run_lint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#run_lint Job#run_lint}
   */
   readonly runLint?: boolean | cdktf.IResolvable;
   /**
   * Custom cron expression for schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule_cron Job#schedule_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule_cron Job#schedule_cron}
   */
   readonly scheduleCron?: string;
   /**
   * List of days of week as numbers (0 = Sunday, 7 = Saturday) to execute the job at if running on a schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule_days Job#schedule_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule_days Job#schedule_days}
   */
   readonly scheduleDays?: number[];
   /**
   * List of hours to execute the job at if running on a schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule_hours Job#schedule_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule_hours Job#schedule_hours}
   */
   readonly scheduleHours?: number[];
   /**
   * Number of hours between job executions if running on a schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule_interval Job#schedule_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule_interval Job#schedule_interval}
   */
   readonly scheduleInterval?: number;
   /**
   * Type of schedule to use, one of every_day/ days_of_week/ custom_cron/ interval_cron
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule_type Job#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule_type Job#schedule_type}
   */
   readonly scheduleType?: string;
   /**
   *  Whether this job defers on a previous run of itself
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#self_deferring Job#self_deferring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#self_deferring Job#self_deferring}
   */
   readonly selfDeferring?: boolean | cdktf.IResolvable;
   /**
   * Target name for the dbt profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#target_name Job#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#target_name Job#target_name}
   */
   readonly targetName?: string;
   /**
   * [Deprectated - Moved to execution.timeout_seconds] Number of seconds to allow the job to run before timing out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#timeout_seconds Job#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#timeout_seconds Job#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Flags for which types of triggers to use, the values are `github_webhook`, `git_provider_webhook`, `schedule` and `on_merge`. All flags should be listed and set with `true` or `false`. When `on_merge` is `true`, all the other values must be false.<br>`custom_branch_only` used to be allowed but has been deprecated from the API. The jobs will use the custom branch of the environment. Please remove the `custom_branch_only` from your config. <br>To create a job in a 'deactivated' state, set all to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#triggers Job#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#triggers Job#triggers}
   */
   readonly triggers: JobTriggers;
   /**
   * Whether the CI job should be automatically triggered on draft PRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#triggers_on_draft_pr Job#triggers_on_draft_pr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#triggers_on_draft_pr Job#triggers_on_draft_pr}
   */
   readonly triggersOnDraftPr?: boolean | cdktf.IResolvable;
   /**
+  * When set to `true`, the provider will validate the `execute_steps` during plan time to ensure they contain valid dbt commands. If a command is not recognized (e.g., a new dbt command not yet supported by the provider), the validation will fail. Defaults to `false` to allow flexibility with newer dbt commands.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#validate_execute_steps Job#validate_execute_steps}
+  */
+  readonly validateExecuteSteps?: boolean | cdktf.IResolvable;
+  /**
   * job_completion_trigger_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#job_completion_trigger_condition Job#job_completion_trigger_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#job_completion_trigger_condition Job#job_completion_trigger_condition}
   */
   readonly jobCompletionTriggerCondition?: JobJobCompletionTriggerCondition[] | cdktf.IResolvable;
 }
@@ -186,25 +192,25 @@ export interface JobTriggers {
   /**
   * Whether the job runs automatically on PR creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#git_provider_webhook Job#git_provider_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#git_provider_webhook Job#git_provider_webhook}
   */
   readonly gitProviderWebhook?: boolean | cdktf.IResolvable;
   /**
   * Whether the job runs automatically on PR creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#github_webhook Job#github_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#github_webhook Job#github_webhook}
   */
   readonly githubWebhook?: boolean | cdktf.IResolvable;
   /**
   * Whether the job runs automatically once a PR is merged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#on_merge Job#on_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#on_merge Job#on_merge}
   */
   readonly onMerge?: boolean | cdktf.IResolvable;
   /**
   * Whether the job runs on a schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#schedule Job#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#schedule Job#schedule}
   */
   readonly schedule?: boolean | cdktf.IResolvable;
 }
@@ -387,19 +393,19 @@ export interface JobJobCompletionTriggerCondition {
   /**
   * The ID of the job that would trigger this job after completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#job_id Job#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#job_id Job#job_id}
   */
   readonly jobId: number;
   /**
   * The ID of the project where the trigger job is running in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#project_id Job#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#project_id Job#project_id}
   */
   readonly projectId: number;
   /**
   * List of statuses to trigger the job on. Possible values are `success`, `error` and `canceled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#statuses Job#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#statuses Job#statuses}
   */
   readonly statuses: string[];
 }
@@ -564,7 +570,7 @@ export class JobJobCompletionTriggerConditionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job dbtcloud_job}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job dbtcloud_job}
 */
 export class Job extends cdktf.TerraformResource {
 
@@ -580,7 +586,7 @@ export class Job extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Job resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Job to import
-  * @param importFromId The id of the existing Job that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Job that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Job to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +598,7 @@ export class Job extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/job dbtcloud_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/job dbtcloud_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +609,8 @@ export class Job extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_job',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -642,6 +648,7 @@ export class Job extends cdktf.TerraformResource {
     this._timeoutSeconds = config.timeoutSeconds;
     this._triggers.internalValue = config.triggers;
     this._triggersOnDraftPr = config.triggersOnDraftPr;
+    this._validateExecuteSteps = config.validateExecuteSteps;
     this._jobCompletionTriggerCondition.internalValue = config.jobCompletionTriggerCondition;
   }
 
@@ -1092,6 +1099,22 @@ export class Job extends cdktf.TerraformResource {
     return this._triggersOnDraftPr;
   }
 
+  // validate_execute_steps - computed: true, optional: true, required: false
+  private _validateExecuteSteps?: boolean | cdktf.IResolvable; 
+  public get validateExecuteSteps() {
+    return this.getBooleanAttribute('validate_execute_steps');
+  }
+  public set validateExecuteSteps(value: boolean | cdktf.IResolvable) {
+    this._validateExecuteSteps = value;
+  }
+  public resetValidateExecuteSteps() {
+    this._validateExecuteSteps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateExecuteStepsInput() {
+    return this._validateExecuteSteps;
+  }
+
   // job_completion_trigger_condition - computed: false, optional: true, required: false
   private _jobCompletionTriggerCondition = new JobJobCompletionTriggerConditionList(this, "job_completion_trigger_condition", false);
   public get jobCompletionTriggerCondition() {
@@ -1142,6 +1165,7 @@ export class Job extends cdktf.TerraformResource {
       timeout_seconds: cdktf.numberToTerraform(this._timeoutSeconds),
       triggers: jobTriggersToTerraform(this._triggers.internalValue),
       triggers_on_draft_pr: cdktf.booleanToTerraform(this._triggersOnDraftPr),
+      validate_execute_steps: cdktf.booleanToTerraform(this._validateExecuteSteps),
       job_completion_trigger_condition: cdktf.listMapper(jobJobCompletionTriggerConditionToTerraform, true)(this._jobCompletionTriggerCondition.internalValue),
     };
   }
@@ -1312,6 +1336,12 @@ export class Job extends cdktf.TerraformResource {
       },
       triggers_on_draft_pr: {
         value: cdktf.booleanToHclTerraform(this._triggersOnDraftPr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      validate_execute_steps: {
+        value: cdktf.booleanToHclTerraform(this._validateExecuteSteps),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

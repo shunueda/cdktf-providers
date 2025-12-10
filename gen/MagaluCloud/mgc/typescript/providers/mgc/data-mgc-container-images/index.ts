@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMgcContainerImagesConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images#registry_id DataMgcContainerImages#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images#registry_id DataMgcContainerImages#registry_id}
   */
   readonly registryId: string;
   /**
   * Name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images#repository_name DataMgcContainerImages#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images#repository_name DataMgcContainerImages#repository_name}
   */
   readonly repositoryName: string;
 }
@@ -117,7 +117,7 @@ export class DataMgcContainerImagesImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images mgc_container_images}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images mgc_container_images}
 */
 export class DataMgcContainerImages extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataMgcContainerImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcContainerImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcContainerImages to import
-  * @param importFromId The id of the existing DataMgcContainerImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcContainerImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcContainerImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataMgcContainerImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_images mgc_container_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/container_images mgc_container_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataMgcContainerImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_container_images',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

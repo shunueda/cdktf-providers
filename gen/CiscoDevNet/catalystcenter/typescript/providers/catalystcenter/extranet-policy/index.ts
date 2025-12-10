@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ExtranetPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the extranet policy to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy#extranet_policy_name ExtranetPolicy#extranet_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy#extranet_policy_name ExtranetPolicy#extranet_policy_name}
   */
   readonly extranetPolicyName: string;
   /**
   * IDs of the fabric sites to be associated with this extranet policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy#fabric_ids ExtranetPolicy#fabric_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy#fabric_ids ExtranetPolicy#fabric_ids}
   */
   readonly fabricIds?: string[];
   /**
   * Name of the existing provider virtual network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy#provider_virtual_network_name ExtranetPolicy#provider_virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy#provider_virtual_network_name ExtranetPolicy#provider_virtual_network_name}
   */
   readonly providerVirtualNetworkName: string;
   /**
   * Name of the subscriber virtual networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy#subscriber_virtual_network_names ExtranetPolicy#subscriber_virtual_network_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy#subscriber_virtual_network_names ExtranetPolicy#subscriber_virtual_network_names}
   */
   readonly subscriberVirtualNetworkNames: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy catalystcenter_extranet_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy catalystcenter_extranet_policy}
 */
 export class ExtranetPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ExtranetPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExtranetPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExtranetPolicy to import
-  * @param importFromId The id of the existing ExtranetPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExtranetPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExtranetPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ExtranetPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/extranet_policy catalystcenter_extranet_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/extranet_policy catalystcenter_extranet_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ExtranetPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_extranet_policy',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface CheckWhoisConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#address CheckWhois#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#address CheckWhois#address}
   */
   readonly address: string;
   /**
@@ -21,37 +21,37 @@ export interface CheckWhoisConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#contact_groups CheckWhois#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#contact_groups CheckWhois#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * The current domain registration info that should always match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#expect_string CheckWhois#expect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#expect_string CheckWhois#expect_string}
   */
   readonly expectString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#is_paused CheckWhois#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#is_paused CheckWhois#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#name CheckWhois#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#name CheckWhois#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#notes CheckWhois#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#notes CheckWhois#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#num_retries CheckWhois#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#num_retries CheckWhois#num_retries}
   */
   readonly numRetries?: number;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#sla CheckWhois#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#sla CheckWhois#sla}
   */
   readonly sla?: CheckWhoisSla;
   /**
@@ -61,13 +61,13 @@ export interface CheckWhoisConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#tags CheckWhois#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#tags CheckWhois#tags}
   */
   readonly tags?: string[];
   /**
   * Raise an alert if there are less than this many days before the domain needs to be renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#threshold CheckWhois#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#threshold CheckWhois#threshold}
   */
   readonly threshold?: number;
 }
@@ -75,13 +75,13 @@ export interface CheckWhoisSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#latency CheckWhois#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#latency CheckWhois#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#uptime CheckWhois#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#uptime CheckWhois#uptime}
   */
   readonly uptime?: string;
 }
@@ -204,7 +204,7 @@ export class CheckWhoisSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois uptime_check_whois}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois uptime_check_whois}
 */
 export class CheckWhois extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class CheckWhois extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckWhois resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckWhois to import
-  * @param importFromId The id of the existing CheckWhois that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckWhois that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckWhois to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class CheckWhois extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_whois uptime_check_whois} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_whois uptime_check_whois} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class CheckWhois extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_whois',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

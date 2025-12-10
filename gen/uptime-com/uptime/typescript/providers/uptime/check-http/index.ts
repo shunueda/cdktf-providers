@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface CheckHttpConfig extends cdktf.TerraformMetaArguments {
   * A valid URL with a required scheme (e.g., 'https://example.com', 'http://192.168.1.1:8080').
   * Must include protocol scheme and valid hostname or IP address. Port numbers are optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#address CheckHttp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#address CheckHttp#address}
   */
   readonly address: string;
   /**
@@ -20,23 +20,23 @@ export interface CheckHttpConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#contact_groups CheckHttp#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#contact_groups CheckHttp#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Whether to verify SSL/TLS certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#encryption CheckHttp#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#encryption CheckHttp#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#expect_string CheckHttp#expect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#expect_string CheckHttp#expect_string}
   */
   readonly expectString?: string;
   /**
   * Valid values for this property are: "STRING" - exact match, "REGEX" - match by regular expression, "INVERSE_REGEX" - fail if the regular expression matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#expect_string_type CheckHttp#expect_string_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#expect_string_type CheckHttp#expect_string_type}
   */
   readonly expectStringType?: string;
   /**
@@ -44,77 +44,77 @@ export interface CheckHttpConfig extends cdktf.TerraformMetaArguments {
   * Header names are case-insensitive. Multiple values for the same header are supported 
   * (e.g., { 'Accept': ['application/json', 'text/plain'] }). Defaults to an empty map if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#headers CheckHttp#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#headers CheckHttp#headers}
   */
   readonly headers?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#include_in_global_metrics CheckHttp#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#include_in_global_metrics CheckHttp#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#interval CheckHttp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#interval CheckHttp#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#is_paused CheckHttp#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#is_paused CheckHttp#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#locations CheckHttp#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#locations CheckHttp#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#name CheckHttp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#name CheckHttp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#notes CheckHttp#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#notes CheckHttp#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#num_retries CheckHttp#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#num_retries CheckHttp#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#password CheckHttp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#password CheckHttp#password}
   */
   readonly password?: string;
   /**
   * The `Port` value is mandatory if the address URL contains a custom, non-standard port. It should be set to the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#port CheckHttp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#port CheckHttp#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#proxy CheckHttp#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#proxy CheckHttp#proxy}
   */
   readonly proxy?: string;
   /**
   * String to post
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#send_string CheckHttp#send_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#send_string CheckHttp#send_string}
   */
   readonly sendString?: string;
   /**
   * How many locations should be down before an alert is sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#sensitivity CheckHttp#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#sensitivity CheckHttp#sensitivity}
   */
   readonly sensitivity?: number;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#sla CheckHttp#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#sla CheckHttp#sla}
   */
   readonly sla?: CheckHttpSla;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#status_code CheckHttp#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#status_code CheckHttp#status_code}
   */
   readonly statusCode?: string;
   /**
@@ -124,23 +124,23 @@ export interface CheckHttpConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#tags CheckHttp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#tags CheckHttp#tags}
   */
   readonly tags?: string[];
   /**
   * A timeout alert will be issued if the check takes longer than this many seconds to complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#threshold CheckHttp#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#threshold CheckHttp#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#username CheckHttp#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#username CheckHttp#username}
   */
   readonly username?: string;
   /**
   * Check version to use. Keep default value unless you are absolutely sure you need to change it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#version CheckHttp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#version CheckHttp#version}
   */
   readonly version?: number;
 }
@@ -148,13 +148,13 @@ export interface CheckHttpSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#latency CheckHttp#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#latency CheckHttp#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#uptime CheckHttp#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#uptime CheckHttp#uptime}
   */
   readonly uptime?: string;
 }
@@ -277,7 +277,7 @@ export class CheckHttpSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http uptime_check_http}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http uptime_check_http}
 */
 export class CheckHttp extends cdktf.TerraformResource {
 
@@ -293,7 +293,7 @@ export class CheckHttp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckHttp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckHttp to import
-  * @param importFromId The id of the existing CheckHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckHttp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class CheckHttp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_http uptime_check_http} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_http uptime_check_http} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class CheckHttp extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_http',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

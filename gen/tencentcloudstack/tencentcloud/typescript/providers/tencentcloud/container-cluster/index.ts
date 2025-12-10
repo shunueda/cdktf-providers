@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface ContainerClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The network bandwidth of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#bandwidth ContainerCluster#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#bandwidth ContainerCluster#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * The network type of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#bandwidth_type ContainerCluster#bandwidth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#bandwidth_type ContainerCluster#bandwidth_type}
   */
   readonly bandwidthType: string;
   /**
   * The CIDR which the cluster is going to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cluster_cidr ContainerCluster#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cluster_cidr ContainerCluster#cluster_cidr}
   */
   readonly clusterCidr: string;
   /**
   * The description of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cluster_desc ContainerCluster#cluster_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cluster_desc ContainerCluster#cluster_desc}
   */
   readonly clusterDesc?: string;
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cluster_name ContainerCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cluster_name ContainerCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The kubernetes version of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cluster_version ContainerCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cluster_version ContainerCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
   * The cpu of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cpu ContainerCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cpu ContainerCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * The type of node needed by cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#cvm_type ContainerCluster#cvm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#cvm_type ContainerCluster#cvm_type}
   */
   readonly cvmType?: string;
   /**
   * The docker graph path is going to mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#docker_graph_path ContainerCluster#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#docker_graph_path ContainerCluster#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * The node number is going to create in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#goods_num ContainerCluster#goods_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#goods_num ContainerCluster#goods_num}
   */
   readonly goodsNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#id ContainerCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#id ContainerCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,127 +77,127 @@ export interface ContainerClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name ot node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#instance_name ContainerCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#instance_name ContainerCluster#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The instance type of the node needed by cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#instance_type ContainerCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#instance_type ContainerCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Describe whether the node enable the gateway capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#is_vpc_gateway ContainerCluster#is_vpc_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#is_vpc_gateway ContainerCluster#is_vpc_gateway}
   */
   readonly isVpcGateway: number;
   /**
   * The key_id of each node(if using key pair to access).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#key_id ContainerCluster#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#key_id ContainerCluster#key_id}
   */
   readonly keyId?: string;
   /**
   * The memory of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#mem ContainerCluster#mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#mem ContainerCluster#mem}
   */
   readonly mem?: number;
   /**
   * The path which volume is going to be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#mount_target ContainerCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#mount_target ContainerCluster#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * The system os name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#os_name ContainerCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#os_name ContainerCluster#os_name}
   */
   readonly osName: string;
   /**
   * The password of each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#password ContainerCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#password ContainerCluster#password}
   */
   readonly password?: string;
   /**
   * The puchase duration of the node needed by cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#period ContainerCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#period ContainerCluster#period}
   */
   readonly period?: number;
   /**
   * Indicate whether wan ip is needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#require_wan_ip ContainerCluster#require_wan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#require_wan_ip ContainerCluster#require_wan_ip}
   */
   readonly requireWanIp?: number;
   /**
   * The size of the root volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#root_size ContainerCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#root_size ContainerCluster#root_size}
   */
   readonly rootSize: number;
   /**
   * The type of the root volume. see more from CVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#root_type ContainerCluster#root_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#root_type ContainerCluster#root_type}
   */
   readonly rootType?: string;
   /**
   * The security group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#sg_id ContainerCluster#sg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#sg_id ContainerCluster#sg_id}
   */
   readonly sgId?: string;
   /**
   * The size of the data volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#storage_size ContainerCluster#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#storage_size ContainerCluster#storage_size}
   */
   readonly storageSize: number;
   /**
   * The type of the data volume. see more from CVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#storage_type ContainerCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#storage_type ContainerCluster#storage_type}
   */
   readonly storageType?: string;
   /**
   * The subnet id which the node stays in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#subnet_id ContainerCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#subnet_id ContainerCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Determine whether the node will be schedulable. 0 is the default meaning node will be schedulable. 1 for unschedulable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#unschedulable ContainerCluster#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#unschedulable ContainerCluster#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * User defined script in a base64-format. The script runs after the kubernetes component is ready on node. see more from CCS api documents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#user_script ContainerCluster#user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#user_script ContainerCluster#user_script}
   */
   readonly userScript?: string;
   /**
   * Specify vpc which the node(s) stay in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#vpc_id ContainerCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#vpc_id ContainerCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * The zone which the node stays in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#zone_id ContainerCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#zone_id ContainerCluster#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster tencentcloud_container_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster tencentcloud_container_cluster}
 */
 export class ContainerCluster extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class ContainerCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerCluster to import
-  * @param importFromId The id of the existing ContainerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class ContainerCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/container_cluster tencentcloud_container_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/container_cluster tencentcloud_container_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class ContainerCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_container_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

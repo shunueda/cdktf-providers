@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,175 +8,175 @@ import * as cdktf from 'cdktf';
 
 export interface StatuspageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_drill_down Statuspage#allow_drill_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_drill_down Statuspage#allow_drill_down}
   */
   readonly allowDrillDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_pdf_report Statuspage#allow_pdf_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_pdf_report Statuspage#allow_pdf_report}
   */
   readonly allowPdfReport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_search_indexing Statuspage#allow_search_indexing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_search_indexing Statuspage#allow_search_indexing}
   */
   readonly allowSearchIndexing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions Statuspage#allow_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions Statuspage#allow_subscriptions}
   */
   readonly allowSubscriptions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions_email Statuspage#allow_subscriptions_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions_email Statuspage#allow_subscriptions_email}
   */
   readonly allowSubscriptionsEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions_rss Statuspage#allow_subscriptions_rss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions_rss Statuspage#allow_subscriptions_rss}
   */
   readonly allowSubscriptionsRss?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions_slack Statuspage#allow_subscriptions_slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions_slack Statuspage#allow_subscriptions_slack}
   */
   readonly allowSubscriptionsSlack?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions_sms Statuspage#allow_subscriptions_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions_sms Statuspage#allow_subscriptions_sms}
   */
   readonly allowSubscriptionsSms?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#allow_subscriptions_webhook Statuspage#allow_subscriptions_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#allow_subscriptions_webhook Statuspage#allow_subscriptions_webhook}
   */
   readonly allowSubscriptionsWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#auth_password Statuspage#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#auth_password Statuspage#auth_password}
   */
   readonly authPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#auth_username Statuspage#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#auth_username Statuspage#auth_username}
   */
   readonly authUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#cname Statuspage#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#cname Statuspage#cname}
   */
   readonly cname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#company_website_url Statuspage#company_website_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#company_website_url Statuspage#company_website_url}
   */
   readonly companyWebsiteUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#contact_email Statuspage#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#contact_email Statuspage#contact_email}
   */
   readonly contactEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#custom_css Statuspage#custom_css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#custom_css Statuspage#custom_css}
   */
   readonly customCss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#custom_footer_html Statuspage#custom_footer_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#custom_footer_html Statuspage#custom_footer_html}
   */
   readonly customFooterHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#custom_header_bg_color_hex Statuspage#custom_header_bg_color_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#custom_header_bg_color_hex Statuspage#custom_header_bg_color_hex}
   */
   readonly customHeaderBgColorHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#custom_header_html Statuspage#custom_header_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#custom_header_html Statuspage#custom_header_html}
   */
   readonly customHeaderHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#custom_header_text_color_hex Statuspage#custom_header_text_color_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#custom_header_text_color_hex Statuspage#custom_header_text_color_hex}
   */
   readonly customHeaderTextColorHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#default_history_date_range Statuspage#default_history_date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#default_history_date_range Statuspage#default_history_date_range}
   */
   readonly defaultHistoryDateRange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#description Statuspage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#description Statuspage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#email_from Statuspage#email_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#email_from Statuspage#email_from}
   */
   readonly emailFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#email_reply_to Statuspage#email_reply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#email_reply_to Statuspage#email_reply_to}
   */
   readonly emailReplyTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#google_analytics_code Statuspage#google_analytics_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#google_analytics_code Statuspage#google_analytics_code}
   */
   readonly googleAnalyticsCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#hide_empty_tabs_history Statuspage#hide_empty_tabs_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#hide_empty_tabs_history Statuspage#hide_empty_tabs_history}
   */
   readonly hideEmptyTabsHistory?: boolean | cdktf.IResolvable;
   /**
   * Defines the widest range of time users can select or view on the date picker on the check drill-down, by default all data is available when no value is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#max_visible_component_days Statuspage#max_visible_component_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#max_visible_component_days Statuspage#max_visible_component_days}
   */
   readonly maxVisibleComponentDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#name Statuspage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#name Statuspage#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#page_type Statuspage#page_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#page_type Statuspage#page_type}
   */
   readonly pageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_active_incidents Statuspage#show_active_incidents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_active_incidents Statuspage#show_active_incidents}
   */
   readonly showActiveIncidents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_component_history Statuspage#show_component_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_component_history Statuspage#show_component_history}
   */
   readonly showComponentHistory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_component_response_time Statuspage#show_component_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_component_response_time Statuspage#show_component_response_time}
   */
   readonly showComponentResponseTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_history_snake Statuspage#show_history_snake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_history_snake Statuspage#show_history_snake}
   */
   readonly showHistorySnake?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_history_tab Statuspage#show_history_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_history_tab Statuspage#show_history_tab}
   */
   readonly showHistoryTab?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_past_incidents Statuspage#show_past_incidents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_past_incidents Statuspage#show_past_incidents}
   */
   readonly showPastIncidents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_status_tab Statuspage#show_status_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_status_tab Statuspage#show_status_tab}
   */
   readonly showStatusTab?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#show_summary_metrics Statuspage#show_summary_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#show_summary_metrics Statuspage#show_summary_metrics}
   */
   readonly showSummaryMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#slug Statuspage#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#slug Statuspage#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#theme Statuspage#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#theme Statuspage#theme}
   */
   readonly theme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#timezone Statuspage#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#timezone Statuspage#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#uptime_calculation_type Statuspage#uptime_calculation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#uptime_calculation_type Statuspage#uptime_calculation_type}
   */
   readonly uptimeCalculationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#visibility_level Statuspage#visibility_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#visibility_level Statuspage#visibility_level}
   */
   readonly visibilityLevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage uptime_statuspage}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage uptime_statuspage}
 */
 export class Statuspage extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class Statuspage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Statuspage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Statuspage to import
-  * @param importFromId The id of the existing Statuspage that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Statuspage that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Statuspage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class Statuspage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage uptime_statuspage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/statuspage uptime_statuspage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class Statuspage extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_statuspage',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

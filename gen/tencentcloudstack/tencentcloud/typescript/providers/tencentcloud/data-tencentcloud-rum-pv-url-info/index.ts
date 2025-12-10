@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface DataTencentcloudRumPvUrlInfoConfig extends cdktf.TerraformMetaA
   /**
   * The region where the data reporting takes place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#area DataTencentcloudRumPvUrlInfo#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#area DataTencentcloudRumPvUrlInfo#area}
   */
   readonly area?: string;
   /**
   * The mobile phone brand used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#brand DataTencentcloudRumPvUrlInfo#brand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#brand DataTencentcloudRumPvUrlInfo#brand}
   */
   readonly brand?: string;
   /**
   * The browser type used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#browser DataTencentcloudRumPvUrlInfo#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#browser DataTencentcloudRumPvUrlInfo#browser}
   */
   readonly browser?: string;
   /**
   * The device used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#device DataTencentcloudRumPvUrlInfo#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#device DataTencentcloudRumPvUrlInfo#device}
   */
   readonly device?: string;
   /**
   * End time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#end_time DataTencentcloudRumPvUrlInfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#end_time DataTencentcloudRumPvUrlInfo#end_time}
   */
   readonly endTime: number;
   /**
   * The browser engine used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#engine DataTencentcloudRumPvUrlInfo#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#engine DataTencentcloudRumPvUrlInfo#engine}
   */
   readonly engine?: string;
   /**
   * The code environment where the data reporting takes place.(`production`: production env, `development`: development env, `gray`: gray env, `pre`: pre env, `daily`: daily env, `local`: local env, `others`: others env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#env DataTencentcloudRumPvUrlInfo#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#env DataTencentcloudRumPvUrlInfo#env}
   */
   readonly env?: string;
   /**
   * First Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#ext_first DataTencentcloudRumPvUrlInfo#ext_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#ext_first DataTencentcloudRumPvUrlInfo#ext_first}
   */
   readonly extFirst?: string;
   /**
   * Second Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#ext_second DataTencentcloudRumPvUrlInfo#ext_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#ext_second DataTencentcloudRumPvUrlInfo#ext_second}
   */
   readonly extSecond?: string;
   /**
   * Third Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#ext_third DataTencentcloudRumPvUrlInfo#ext_third}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#ext_third DataTencentcloudRumPvUrlInfo#ext_third}
   */
   readonly extThird?: string;
   /**
   * The source page of the data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#from DataTencentcloudRumPvUrlInfo#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#from DataTencentcloudRumPvUrlInfo#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#id DataTencentcloudRumPvUrlInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#id DataTencentcloudRumPvUrlInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,73 +83,73 @@ export interface DataTencentcloudRumPvUrlInfoConfig extends cdktf.TerraformMetaA
   /**
   * Whether it is non-China region.`1`: yes; `0`: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#is_abroad DataTencentcloudRumPvUrlInfo#is_abroad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#is_abroad DataTencentcloudRumPvUrlInfo#is_abroad}
   */
   readonly isAbroad?: string;
   /**
   * The internet service provider used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#isp DataTencentcloudRumPvUrlInfo#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#isp DataTencentcloudRumPvUrlInfo#isp}
   */
   readonly isp?: string;
   /**
   * Log level for data reporting(`1`: whitelist, `2`: normal, `4`: error, `8`: promise error, `16`: ajax request error, `32`: js resource load error, `64`: image resource load error, `128`: css resource load error, `256`: console.error, `512`: video resource load error, `1024`: request retcode error, `2048`: sdk self monitor error, `4096`: pv log, `8192`: event log).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#level DataTencentcloudRumPvUrlInfo#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#level DataTencentcloudRumPvUrlInfo#level}
   */
   readonly level?: string;
   /**
   * The network type used for data reporting.(`1`: Wifi, `2`: 2G, `3`: 3G, `4`: 4G, `5`: 5G, `6`: 6G, `100`: Unknown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#net_type DataTencentcloudRumPvUrlInfo#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#net_type DataTencentcloudRumPvUrlInfo#net_type}
   */
   readonly netType?: string;
   /**
   * The operating system used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#os DataTencentcloudRumPvUrlInfo#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#os DataTencentcloudRumPvUrlInfo#os}
   */
   readonly os?: string;
   /**
   * The platform where the data reporting takes place.(`1`: Android, `2`: IOS, `3`: Windows, `4`: Mac, `5`: Linux, `100`: Other).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#platform DataTencentcloudRumPvUrlInfo#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#platform DataTencentcloudRumPvUrlInfo#platform}
   */
   readonly platform?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#project_id DataTencentcloudRumPvUrlInfo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#project_id DataTencentcloudRumPvUrlInfo#project_id}
   */
   readonly projectId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#result_output_file DataTencentcloudRumPvUrlInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#result_output_file DataTencentcloudRumPvUrlInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#start_time DataTencentcloudRumPvUrlInfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#start_time DataTencentcloudRumPvUrlInfo#start_time}
   */
   readonly startTime: number;
   /**
   * Type value is fixed, please always pass `pagepv`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#type DataTencentcloudRumPvUrlInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#type DataTencentcloudRumPvUrlInfo#type}
   */
   readonly type: string;
   /**
   * The SDK version used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#version_num DataTencentcloudRumPvUrlInfo#version_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#version_num DataTencentcloudRumPvUrlInfo#version_num}
   */
   readonly versionNum?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info tencentcloud_rum_pv_url_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info tencentcloud_rum_pv_url_info}
 */
 export class DataTencentcloudRumPvUrlInfo extends cdktf.TerraformDataSource {
 
@@ -165,7 +165,7 @@ export class DataTencentcloudRumPvUrlInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudRumPvUrlInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRumPvUrlInfo to import
-  * @param importFromId The id of the existing DataTencentcloudRumPvUrlInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRumPvUrlInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRumPvUrlInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DataTencentcloudRumPvUrlInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/rum_pv_url_info tencentcloud_rum_pv_url_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/rum_pv_url_info tencentcloud_rum_pv_url_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DataTencentcloudRumPvUrlInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_rum_pv_url_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

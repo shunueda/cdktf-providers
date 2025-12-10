@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataUptimeStatuspageStatusHistoryConfig extends cdktf.Terraform
   /**
   * Filter by component ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#component_id DataUptimeStatuspageStatusHistory#component_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#component_id DataUptimeStatuspageStatusHistory#component_id}
   */
   readonly componentId?: number;
   /**
   * Filter entries from this date (ISO 8601 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#date_from DataUptimeStatuspageStatusHistory#date_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#date_from DataUptimeStatuspageStatusHistory#date_from}
   */
   readonly dateFrom?: string;
   /**
   * Filter entries until this date (ISO 8601 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#date_to DataUptimeStatuspageStatusHistory#date_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#date_to DataUptimeStatuspageStatusHistory#date_to}
   */
   readonly dateTo?: string;
   /**
   * Filter by status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#status DataUptimeStatuspageStatusHistory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#status DataUptimeStatuspageStatusHistory#status}
   */
   readonly status?: string;
   /**
   * ID of the status page to retrieve status history for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#statuspage_id DataUptimeStatuspageStatusHistory#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#statuspage_id DataUptimeStatuspageStatusHistory#statuspage_id}
   */
   readonly statuspageId: number;
 }
@@ -140,7 +140,7 @@ export class DataUptimeStatuspageStatusHistoryHistoryList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history uptime_statuspage_status_history}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history uptime_statuspage_status_history}
 */
 export class DataUptimeStatuspageStatusHistory extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataUptimeStatuspageStatusHistory extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataUptimeStatuspageStatusHistory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataUptimeStatuspageStatusHistory to import
-  * @param importFromId The id of the existing DataUptimeStatuspageStatusHistory that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataUptimeStatuspageStatusHistory that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataUptimeStatuspageStatusHistory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataUptimeStatuspageStatusHistory extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/statuspage_status_history uptime_statuspage_status_history} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/data-sources/statuspage_status_history uptime_statuspage_status_history} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class DataUptimeStatuspageStatusHistory extends cdktf.TerraformDataSource
       terraformResourceType: 'uptime_statuspage_status_history',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs
+// https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SyntheticsProviderConfig {
   /**
   * Splunk Observability API Key. Will pull from `OBSERVABILITY_API_TOKEN` environment variable if available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#apikey SyntheticsProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#apikey SyntheticsProvider#apikey}
   */
   readonly apikey: string;
   /**
   * Splunk Observability Realm API Endpoint (E.G. `https://api.<REALM>.signalfx.com`). Will pull from `API_URL` environment variable if available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#apiurl SyntheticsProvider#apiurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#apiurl SyntheticsProvider#apiurl}
   */
   readonly apiurl?: string;
   /**
   * One of: `observability` or `rigor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#product SyntheticsProvider#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#product SyntheticsProvider#product}
   */
   readonly product: string;
   /**
   * Splunk Observability Realm (E.G. `us1`). Will pull from `REALM` environment variable if available. For Rigor use realm rigor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#realm SyntheticsProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#realm SyntheticsProvider#realm}
   */
   readonly realm: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#alias SyntheticsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#alias SyntheticsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs synthetics}
+* Represents a {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs synthetics}
 */
 export class SyntheticsProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class SyntheticsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SyntheticsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyntheticsProvider to import
-  * @param importFromId The id of the existing SyntheticsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyntheticsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyntheticsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SyntheticsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.16/docs synthetics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/synthetics/2.0.17/docs synthetics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SyntheticsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'synthetics',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16',
-        providerVersionConstraint: '2.0.16'
+        providerVersion: '2.0.17',
+        providerVersionConstraint: '2.0.17'
       },
       terraformProviderSource: 'splunk/synthetics'
     });

@@ -1,3 +1,3 @@
 # `mgc_kubernetes_cluster`
 
-Refer to the Terraform Registry for docs: [`mgc_kubernetes_cluster`](https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/kubernetes_cluster).
+Refer to the Terraform Registry for docs: [`mgc_kubernetes_cluster`](https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/kubernetes_cluster).

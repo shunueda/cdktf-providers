@@ -1,3 +1,3 @@
 # `okta_policy_rule_signon`
 
-Refer to the Terraform Registry for docs: [`okta_policy_rule_signon`](https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/policy_rule_signon).
+Refer to the Terraform Registry for docs: [`okta_policy_rule_signon`](https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/policy_rule_signon).

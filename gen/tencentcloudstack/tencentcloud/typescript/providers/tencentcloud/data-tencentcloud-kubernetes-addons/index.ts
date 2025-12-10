@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudKubernetesAddonsConfig extends cdktf.TerraformM
   /**
   * Add-on name (all add-ons in the cluster are returned if this parameter is not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons#addon_name DataTencentcloudKubernetesAddons#addon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons#addon_name DataTencentcloudKubernetesAddons#addon_name}
   */
   readonly addonName?: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons#cluster_id DataTencentcloudKubernetesAddons#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons#cluster_id DataTencentcloudKubernetesAddons#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons#id DataTencentcloudKubernetesAddons#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons#id DataTencentcloudKubernetesAddons#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataTencentcloudKubernetesAddonsConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons#result_output_file DataTencentcloudKubernetesAddons#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons#result_output_file DataTencentcloudKubernetesAddons#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -130,7 +130,7 @@ export class DataTencentcloudKubernetesAddonsAddonsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons tencentcloud_kubernetes_addons}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons tencentcloud_kubernetes_addons}
 */
 export class DataTencentcloudKubernetesAddons extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataTencentcloudKubernetesAddons extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudKubernetesAddons resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesAddons to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesAddons that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesAddons that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesAddons to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataTencentcloudKubernetesAddons extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/kubernetes_addons tencentcloud_kubernetes_addons} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/kubernetes_addons tencentcloud_kubernetes_addons} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataTencentcloudKubernetesAddons extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_kubernetes_addons',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

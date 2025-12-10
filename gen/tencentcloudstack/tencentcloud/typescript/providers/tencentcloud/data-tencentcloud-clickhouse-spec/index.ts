@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudClickhouseSpecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#id DataTencentcloudClickhouseSpec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#id DataTencentcloudClickhouseSpec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudClickhouseSpecConfig extends cdktf.TerraformMet
   /**
   * Is it elastic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#is_elastic DataTencentcloudClickhouseSpec#is_elastic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#is_elastic DataTencentcloudClickhouseSpec#is_elastic}
   */
   readonly isElastic?: boolean | cdktf.IResolvable;
   /**
   * Billing type, PREPAID means annual and monthly subscription, POSTPAID_BY_HOUR means pay-as-you-go billing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#pay_mode DataTencentcloudClickhouseSpec#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#pay_mode DataTencentcloudClickhouseSpec#pay_mode}
   */
   readonly payMode?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#result_output_file DataTencentcloudClickhouseSpec#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#result_output_file DataTencentcloudClickhouseSpec#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Regional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#zone DataTencentcloudClickhouseSpec#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#zone DataTencentcloudClickhouseSpec#zone}
   */
   readonly zone: string;
 }
@@ -770,7 +770,7 @@ export class DataTencentcloudClickhouseSpecDataSpecList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec tencentcloud_clickhouse_spec}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec tencentcloud_clickhouse_spec}
 */
 export class DataTencentcloudClickhouseSpec extends cdktf.TerraformDataSource {
 
@@ -786,7 +786,7 @@ export class DataTencentcloudClickhouseSpec extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClickhouseSpec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClickhouseSpec to import
-  * @param importFromId The id of the existing DataTencentcloudClickhouseSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClickhouseSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClickhouseSpec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -798,7 +798,7 @@ export class DataTencentcloudClickhouseSpec extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clickhouse_spec tencentcloud_clickhouse_spec} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/clickhouse_spec tencentcloud_clickhouse_spec} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -809,8 +809,8 @@ export class DataTencentcloudClickhouseSpec extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_clickhouse_spec',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

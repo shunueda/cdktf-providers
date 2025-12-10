@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FabricL2HandoffConfig extends cdktf.TerraformMetaArguments {
   /**
   * External VLAN number into which the fabric must be extended. Allowed VLAN range is 2-4094 except for reserved vlans (1, 1002-1005, 2046, 4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#external_vlan_id FabricL2Handoff#external_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#external_vlan_id FabricL2Handoff#external_vlan_id}
   */
   readonly externalVlanId: number;
   /**
   * ID of the fabric this device belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#fabric_id FabricL2Handoff#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#fabric_id FabricL2Handoff#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Interface name of the layer 2 handoff. E.g., GigabitEthernet1/0/4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#interface_name FabricL2Handoff#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#interface_name FabricL2Handoff#interface_name}
   */
   readonly interfaceName: string;
   /**
   * VLAN number associated with this fabric. Allowed VLAN range is 2-4094 except for reserved vlans (1, 1002-1005, 2046, 4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#internal_vlan_id FabricL2Handoff#internal_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#internal_vlan_id FabricL2Handoff#internal_vlan_id}
   */
   readonly internalVlanId: number;
   /**
   * Network device ID of the fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#network_device_id FabricL2Handoff#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#network_device_id FabricL2Handoff#network_device_id}
   */
   readonly networkDeviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff catalystcenter_fabric_l2_handoff}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff catalystcenter_fabric_l2_handoff}
 */
 export class FabricL2Handoff extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class FabricL2Handoff extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricL2Handoff resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricL2Handoff to import
-  * @param importFromId The id of the existing FabricL2Handoff that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricL2Handoff that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricL2Handoff to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class FabricL2Handoff extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.4/docs/resources/fabric_l2_handoff catalystcenter_fabric_l2_handoff} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l2_handoff catalystcenter_fabric_l2_handoff} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class FabricL2Handoff extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l2_handoff',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.4',
-        providerVersionConstraint: '0.4.4'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

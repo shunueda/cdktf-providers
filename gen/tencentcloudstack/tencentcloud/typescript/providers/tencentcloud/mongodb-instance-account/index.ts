@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbInstanceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#id MongodbInstanceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#id MongodbInstanceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface MongodbInstanceAccountConfig extends cdktf.TerraformMetaArgumen
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#instance_id MongodbInstanceAccount#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#instance_id MongodbInstanceAccount#instance_id}
   */
   readonly instanceId: string;
   /**
   * The password corresponding to the mongouser account. mongouser is the system default account, which is the password set when creating an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#mongo_user_password MongodbInstanceAccount#mongo_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#mongo_user_password MongodbInstanceAccount#mongo_user_password}
   */
   readonly mongoUserPassword?: string;
   /**
   * New account password. Password complexity requirements are as follows: character length range [8,32]. Contains at least letters, numbers and special characters (exclamation point!, at@, pound sign #, percent sign %, caret ^, asterisk *, parentheses (), underscore _).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#password MongodbInstanceAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#password MongodbInstanceAccount#password}
   */
   readonly password?: string;
   /**
   * Account remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#user_desc MongodbInstanceAccount#user_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#user_desc MongodbInstanceAccount#user_desc}
   */
   readonly userDesc?: string;
   /**
   * The new account name. Its format requirements are as follows: character range [1,32]. Characters in the range of [A,Z], [a,z], [1,9] as well as underscore _ and dash - can be input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#user_name MongodbInstanceAccount#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#user_name MongodbInstanceAccount#user_name}
   */
   readonly userName: string;
   /**
   * auth_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#auth_role MongodbInstanceAccount#auth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#auth_role MongodbInstanceAccount#auth_role}
   */
   readonly authRole?: MongodbInstanceAccountAuthRole[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface MongodbInstanceAccountAuthRole {
   /**
   * Permission information of the current account. 0: No permission. 1: read-only. 2: Write only. 3: Read and write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#mask MongodbInstanceAccount#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#mask MongodbInstanceAccount#mask}
   */
   readonly mask: number;
   /**
   * Refers to the name of the database with the current account permissions.*: Indicates all databases. db.name: Indicates the database of a specific name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#namespace MongodbInstanceAccount#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#namespace MongodbInstanceAccount#namespace}
   */
   readonly namespace: string;
 }
@@ -200,7 +200,7 @@ export class MongodbInstanceAccountAuthRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account tencentcloud_mongodb_instance_account}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account tencentcloud_mongodb_instance_account}
 */
 export class MongodbInstanceAccount extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class MongodbInstanceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceAccount to import
-  * @param importFromId The id of the existing MongodbInstanceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class MongodbInstanceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_instance_account tencentcloud_mongodb_instance_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mongodb_instance_account tencentcloud_mongodb_instance_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class MongodbInstanceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_account',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

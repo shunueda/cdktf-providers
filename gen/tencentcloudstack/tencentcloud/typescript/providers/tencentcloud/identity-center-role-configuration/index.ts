@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdentityCenterRoleConfigurationConfig extends cdktf.TerraformMe
   /**
   * Access configuration description, which contains up to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#description IdentityCenterRoleConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#description IdentityCenterRoleConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#id IdentityCenterRoleConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#id IdentityCenterRoleConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface IdentityCenterRoleConfigurationConfig extends cdktf.TerraformMe
   /**
   * Initial access page. It indicates the initial access page URL when CIC users use the access configuration to access the target account of the Tencent Cloud Organization. This page must be the Tencent Cloud console page. The default is null, which indicates navigating to the home page of the Tencent Cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#relay_state IdentityCenterRoleConfiguration#relay_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#relay_state IdentityCenterRoleConfiguration#relay_state}
   */
   readonly relayState?: string;
   /**
   * Access configuration name, which contains up to 128 characters, including English letters, digits, and hyphens (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#role_configuration_name IdentityCenterRoleConfiguration#role_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#role_configuration_name IdentityCenterRoleConfiguration#role_configuration_name}
   */
   readonly roleConfigurationName: string;
   /**
   * Session duration. It indicates the maximum session duration when CIC users use the access configuration to access the target account of the Tencent Cloud Organization. Unit: seconds. Value range: 900-43,200 (15 minutes to 12 hours). Default value: 3600 (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#session_duration IdentityCenterRoleConfiguration#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#session_duration IdentityCenterRoleConfiguration#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#zone_id IdentityCenterRoleConfiguration#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#zone_id IdentityCenterRoleConfiguration#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration tencentcloud_identity_center_role_configuration}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration tencentcloud_identity_center_role_configuration}
 */
 export class IdentityCenterRoleConfiguration extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IdentityCenterRoleConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityCenterRoleConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterRoleConfiguration to import
-  * @param importFromId The id of the existing IdentityCenterRoleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterRoleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterRoleConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IdentityCenterRoleConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/identity_center_role_configuration tencentcloud_identity_center_role_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_role_configuration tencentcloud_identity_center_role_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IdentityCenterRoleConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_identity_center_role_configuration',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

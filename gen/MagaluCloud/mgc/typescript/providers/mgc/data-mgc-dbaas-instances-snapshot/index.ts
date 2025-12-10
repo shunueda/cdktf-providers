@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcDbaasInstancesSnapshotConfig extends cdktf.TerraformMeta
   /**
   * ID of the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot#id DataMgcDbaasInstancesSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot#id DataMgcDbaasInstancesSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataMgcDbaasInstancesSnapshotConfig extends cdktf.TerraformMeta
   /**
   * ID of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot#instance_id DataMgcDbaasInstancesSnapshot#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot#instance_id DataMgcDbaasInstancesSnapshot#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot mgc_dbaas_instances_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot mgc_dbaas_instances_snapshot}
 */
 export class DataMgcDbaasInstancesSnapshot extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMgcDbaasInstancesSnapshot extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcDbaasInstancesSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcDbaasInstancesSnapshot to import
-  * @param importFromId The id of the existing DataMgcDbaasInstancesSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcDbaasInstancesSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcDbaasInstancesSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMgcDbaasInstancesSnapshot extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/dbaas_instances_snapshot mgc_dbaas_instances_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_instances_snapshot mgc_dbaas_instances_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMgcDbaasInstancesSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_dbaas_instances_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.2',
-        providerVersionConstraint: '0.40.2'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

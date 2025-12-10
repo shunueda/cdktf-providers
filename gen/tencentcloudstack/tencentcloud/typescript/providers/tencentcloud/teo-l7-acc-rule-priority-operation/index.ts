@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoL7AccRulePriorityOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation#id TeoL7AccRulePriorityOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation#id TeoL7AccRulePriorityOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TeoL7AccRulePriorityOperationConfig extends cdktf.TerraformMeta
   /**
   * Complete list of rule IDs under site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation#rule_ids TeoL7AccRulePriorityOperation#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation#rule_ids TeoL7AccRulePriorityOperation#rule_ids}
   */
   readonly ruleIds: string[];
   /**
   * Zone id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation#zone_id TeoL7AccRulePriorityOperation#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation#zone_id TeoL7AccRulePriorityOperation#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation tencentcloud_teo_l7_acc_rule_priority_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation tencentcloud_teo_l7_acc_rule_priority_operation}
 */
 export class TeoL7AccRulePriorityOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TeoL7AccRulePriorityOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoL7AccRulePriorityOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoL7AccRulePriorityOperation to import
-  * @param importFromId The id of the existing TeoL7AccRulePriorityOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoL7AccRulePriorityOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoL7AccRulePriorityOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TeoL7AccRulePriorityOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule_priority_operation tencentcloud_teo_l7_acc_rule_priority_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_l7_acc_rule_priority_operation tencentcloud_teo_l7_acc_rule_priority_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class TeoL7AccRulePriorityOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_l7_acc_rule_priority_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

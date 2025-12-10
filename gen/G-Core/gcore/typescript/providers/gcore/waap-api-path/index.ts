@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WaapApiPathConfig extends cdktf.TerraformMetaArguments {
   /**
   * An array of API groups associated with the API path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#api_groups WaapApiPath#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#api_groups WaapApiPath#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * The API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#api_version WaapApiPath#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#api_version WaapApiPath#api_version}
   */
   readonly apiVersion?: string;
   /**
   * The WAAP domain ID for which the API Path is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#domain_id WaapApiPath#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#domain_id WaapApiPath#domain_id}
   */
   readonly domainId: number;
   /**
   * The different HTTP schemes an API path can have. It must be one of these values: HTTP, HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#http_scheme WaapApiPath#http_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#http_scheme WaapApiPath#http_scheme}
   */
   readonly httpScheme: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#id WaapApiPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#id WaapApiPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface WaapApiPathConfig extends cdktf.TerraformMetaArguments {
   /**
   * The different methods an API path can have. It must be one of these values: GET, POST, PUT, PATCH, DELETE, TRACE, HEAD, OPTIONS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#method WaapApiPath#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#method WaapApiPath#method}
   */
   readonly method: string;
   /**
   * The API path, locations that are saved for resource IDs will be put in curly brackets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#path WaapApiPath#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#path WaapApiPath#path}
   */
   readonly path: string;
   /**
   * The status of the discovered API path. It must be one of these values: CONFIRMED_API, POTENTIAL_API, NOT_API, DELISTED_API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#status WaapApiPath#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#status WaapApiPath#status}
   */
   readonly status?: string;
   /**
   * An array of tags associated with the API path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#tags WaapApiPath#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#tags WaapApiPath#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path gcore_waap_api_path}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path gcore_waap_api_path}
 */
 export class WaapApiPath extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class WaapApiPath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapApiPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapApiPath to import
-  * @param importFromId The id of the existing WaapApiPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapApiPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapApiPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class WaapApiPath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/waap_api_path gcore_waap_api_path} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_api_path gcore_waap_api_path} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class WaapApiPath extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_api_path',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

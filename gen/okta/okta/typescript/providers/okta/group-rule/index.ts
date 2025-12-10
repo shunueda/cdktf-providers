@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The expression type to use to invoke the rule. The default is `urn:okta:expression:1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#expression_type GroupRule#expression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#expression_type GroupRule#expression_type}
   */
   readonly expressionType?: string;
   /**
   * The expression value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#expression_value GroupRule#expression_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#expression_value GroupRule#expression_value}
   */
   readonly expressionValue: string;
   /**
   * The list of group ids to assign the users to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#group_assignments GroupRule#group_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#group_assignments GroupRule#group_assignments}
   */
   readonly groupAssignments: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#id GroupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#id GroupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface GroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Group Rule (min character 1; max characters 50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#name GroupRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#name GroupRule#name}
   */
   readonly name: string;
   /**
   * Remove users added by this rule from the assigned group after deleting this resource. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#remove_assigned_users GroupRule#remove_assigned_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#remove_assigned_users GroupRule#remove_assigned_users}
   */
   readonly removeAssignedUsers?: boolean | cdktf.IResolvable;
   /**
   * Default to `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#status GroupRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#status GroupRule#status}
   */
   readonly status?: string;
   /**
   * The list of user IDs that would be excluded when rules are processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#users_excluded GroupRule#users_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#users_excluded GroupRule#users_excluded}
   */
   readonly usersExcluded?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule okta_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule okta_group_rule}
 */
 export class GroupRule extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class GroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupRule to import
-  * @param importFromId The id of the existing GroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class GroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_rule okta_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_rule okta_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class GroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'okta_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

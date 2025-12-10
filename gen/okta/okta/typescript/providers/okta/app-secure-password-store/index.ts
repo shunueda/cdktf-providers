@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AppSecurePasswordStoreConfig extends cdktf.TerraformMetaArgumen
   /**
   * Custom error page URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#accessibility_error_redirect_url AppSecurePasswordStore#accessibility_error_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#accessibility_error_redirect_url AppSecurePasswordStore#accessibility_error_redirect_url}
   */
   readonly accessibilityErrorRedirectUrl?: string;
   /**
   * Custom login page URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#accessibility_login_redirect_url AppSecurePasswordStore#accessibility_login_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#accessibility_login_redirect_url AppSecurePasswordStore#accessibility_login_redirect_url}
   */
   readonly accessibilityLoginRedirectUrl?: string;
   /**
   * Enable self service. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#accessibility_self_service AppSecurePasswordStore#accessibility_self_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#accessibility_self_service AppSecurePasswordStore#accessibility_self_service}
   */
   readonly accessibilitySelfService?: boolean | cdktf.IResolvable;
   /**
   * Application notes for admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#admin_note AppSecurePasswordStore#admin_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#admin_note AppSecurePasswordStore#admin_note}
   */
   readonly adminNote?: string;
   /**
   * Displays specific appLinks for the app. The value for each application link should be boolean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#app_links_json AppSecurePasswordStore#app_links_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#app_links_json AppSecurePasswordStore#app_links_json}
   */
   readonly appLinksJson?: string;
   /**
   * Display auto submit toolbar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#auto_submit_toolbar AppSecurePasswordStore#auto_submit_toolbar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#auto_submit_toolbar AppSecurePasswordStore#auto_submit_toolbar}
   */
   readonly autoSubmitToolbar?: boolean | cdktf.IResolvable;
   /**
   * Application credentials scheme. One of: `EDIT_USERNAME_AND_PASSWORD`, `ADMIN_SETS_CREDENTIALS`, `EDIT_PASSWORD_ONLY`, `EXTERNAL_PASSWORD_SYNC`, or `SHARED_USERNAME_AND_PASSWORD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#credentials_scheme AppSecurePasswordStore#credentials_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#credentials_scheme AppSecurePasswordStore#credentials_scheme}
   */
   readonly credentialsScheme?: string;
   /**
   * Application notes for end users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#enduser_note AppSecurePasswordStore#enduser_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#enduser_note AppSecurePasswordStore#enduser_note}
   */
   readonly enduserNote?: string;
   /**
   * Do not display application icon on mobile app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#hide_ios AppSecurePasswordStore#hide_ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#hide_ios AppSecurePasswordStore#hide_ios}
   */
   readonly hideIos?: boolean | cdktf.IResolvable;
   /**
   * Do not display application icon to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#hide_web AppSecurePasswordStore#hide_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#hide_web AppSecurePasswordStore#hide_web}
   */
   readonly hideWeb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#id AppSecurePasswordStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#id AppSecurePasswordStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,135 +77,135 @@ export interface AppSecurePasswordStoreConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Application's display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#label AppSecurePasswordStore#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#label AppSecurePasswordStore#label}
   */
   readonly label: string;
   /**
   * Local file path to the logo. The file must be in PNG, JPG, or GIF format, and less than 1 MB in size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#logo AppSecurePasswordStore#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#logo AppSecurePasswordStore#logo}
   */
   readonly logo?: string;
   /**
   * Name of optional param in the login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field1 AppSecurePasswordStore#optional_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field1 AppSecurePasswordStore#optional_field1}
   */
   readonly optionalField1?: string;
   /**
   * Name of optional value in login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field1_value AppSecurePasswordStore#optional_field1_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field1_value AppSecurePasswordStore#optional_field1_value}
   */
   readonly optionalField1Value?: string;
   /**
   * Name of optional param in the login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field2 AppSecurePasswordStore#optional_field2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field2 AppSecurePasswordStore#optional_field2}
   */
   readonly optionalField2?: string;
   /**
   * Name of optional value in login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field2_value AppSecurePasswordStore#optional_field2_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field2_value AppSecurePasswordStore#optional_field2_value}
   */
   readonly optionalField2Value?: string;
   /**
   * Name of optional param in the login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field3 AppSecurePasswordStore#optional_field3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field3 AppSecurePasswordStore#optional_field3}
   */
   readonly optionalField3?: string;
   /**
   * Name of optional value in login form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#optional_field3_value AppSecurePasswordStore#optional_field3_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#optional_field3_value AppSecurePasswordStore#optional_field3_value}
   */
   readonly optionalField3Value?: string;
   /**
   * Login password field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#password_field AppSecurePasswordStore#password_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#password_field AppSecurePasswordStore#password_field}
   */
   readonly passwordField: string;
   /**
   * Allow user to reveal password. It can not be set to `true` if `credentials_scheme` is `ADMIN_SETS_CREDENTIALS`, `SHARED_USERNAME_AND_PASSWORD` or `EXTERNAL_PASSWORD_SYNC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#reveal_password AppSecurePasswordStore#reveal_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#reveal_password AppSecurePasswordStore#reveal_password}
   */
   readonly revealPassword?: boolean | cdktf.IResolvable;
   /**
   * Shared password, required for certain schemes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#shared_password AppSecurePasswordStore#shared_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#shared_password AppSecurePasswordStore#shared_password}
   */
   readonly sharedPassword?: string;
   /**
   * Shared username, required for certain schemes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#shared_username AppSecurePasswordStore#shared_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#shared_username AppSecurePasswordStore#shared_username}
   */
   readonly sharedUsername?: string;
   /**
   * Status of application. By default, it is `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#status AppSecurePasswordStore#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#status AppSecurePasswordStore#status}
   */
   readonly status?: string;
   /**
   * Login URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#url AppSecurePasswordStore#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#url AppSecurePasswordStore#url}
   */
   readonly url: string;
   /**
   * Username template. Default: `${source.login}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#user_name_template AppSecurePasswordStore#user_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#user_name_template AppSecurePasswordStore#user_name_template}
   */
   readonly userNameTemplate?: string;
   /**
   * Push username on update. Valid values: `PUSH` and `DONT_PUSH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#user_name_template_push_status AppSecurePasswordStore#user_name_template_push_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#user_name_template_push_status AppSecurePasswordStore#user_name_template_push_status}
   */
   readonly userNameTemplatePushStatus?: string;
   /**
   * Username template suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#user_name_template_suffix AppSecurePasswordStore#user_name_template_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#user_name_template_suffix AppSecurePasswordStore#user_name_template_suffix}
   */
   readonly userNameTemplateSuffix?: string;
   /**
   * Username template type. Default: `BUILT_IN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#user_name_template_type AppSecurePasswordStore#user_name_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#user_name_template_type AppSecurePasswordStore#user_name_template_type}
   */
   readonly userNameTemplateType?: string;
   /**
   * Login username field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#username_field AppSecurePasswordStore#username_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#username_field AppSecurePasswordStore#username_field}
   */
   readonly usernameField: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#timeouts AppSecurePasswordStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#timeouts AppSecurePasswordStore#timeouts}
   */
   readonly timeouts?: AppSecurePasswordStoreTimeouts;
 }
 export interface AppSecurePasswordStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#create AppSecurePasswordStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#create AppSecurePasswordStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#read AppSecurePasswordStore#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#read AppSecurePasswordStore#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#update AppSecurePasswordStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#update AppSecurePasswordStore#update}
   */
   readonly update?: string;
 }
@@ -357,7 +357,7 @@ export class AppSecurePasswordStoreTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store okta_app_secure_password_store}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store okta_app_secure_password_store}
 */
 export class AppSecurePasswordStore extends cdktf.TerraformResource {
 
@@ -373,7 +373,7 @@ export class AppSecurePasswordStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppSecurePasswordStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppSecurePasswordStore to import
-  * @param importFromId The id of the existing AppSecurePasswordStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppSecurePasswordStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppSecurePasswordStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class AppSecurePasswordStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_secure_password_store okta_app_secure_password_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_secure_password_store okta_app_secure_password_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class AppSecurePasswordStore extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_secure_password_store',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

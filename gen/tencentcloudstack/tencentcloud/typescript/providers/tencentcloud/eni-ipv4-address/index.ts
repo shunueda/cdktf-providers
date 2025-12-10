@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EniIpv4AddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#id EniIpv4Address#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#id EniIpv4Address#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface EniIpv4AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the ENI instance, such as `eni-m6dyj72l`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#network_interface_id EniIpv4Address#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#network_interface_id EniIpv4Address#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
   * IP service level. It is used together with `SecondaryPrivateIpAddressCount`. Values: PT`(Gold), `AU`(Silver), `AG `(Bronze) and DEFAULT (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#qos_level EniIpv4Address#qos_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#qos_level EniIpv4Address#qos_level}
   */
   readonly qosLevel?: string;
   /**
   * The number of newly-applied private IP addresses. You should provide either this parameter or PrivateIpAddresses, or both. The total number of private IP addresses cannot exceed the quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#secondary_private_ip_address_count EniIpv4Address#secondary_private_ip_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#secondary_private_ip_address_count EniIpv4Address#secondary_private_ip_address_count}
   */
   readonly secondaryPrivateIpAddressCount?: number;
   /**
   * private_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#private_ip_addresses EniIpv4Address#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#private_ip_addresses EniIpv4Address#private_ip_addresses}
   */
   readonly privateIpAddresses?: EniIpv4AddressPrivateIpAddresses[] | cdktf.IResolvable;
 }
@@ -43,49 +43,49 @@ export interface EniIpv4AddressPrivateIpAddresses {
   /**
   * EIP instance ID, such as `eip-11112222`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#address_id EniIpv4Address#address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#address_id EniIpv4Address#address_id}
   */
   readonly addressId?: string;
   /**
   * Private IP description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#description EniIpv4Address#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#description EniIpv4Address#description}
   */
   readonly description?: string;
   /**
   * Whether the public IP is blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#is_wan_ip_blocked EniIpv4Address#is_wan_ip_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#is_wan_ip_blocked EniIpv4Address#is_wan_ip_blocked}
   */
   readonly isWanIpBlocked?: boolean | cdktf.IResolvable;
   /**
   * Whether it is a primary IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#primary EniIpv4Address#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#primary EniIpv4Address#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * Private IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#private_ip_address EniIpv4Address#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#private_ip_address EniIpv4Address#private_ip_address}
   */
   readonly privateIpAddress: string;
   /**
   * Public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#public_ip_address EniIpv4Address#public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#public_ip_address EniIpv4Address#public_ip_address}
   */
   readonly publicIpAddress?: string;
   /**
   * IP service level. Values: PT` (Gold), `AU` (Silver), `AG `(Bronze) and DEFAULT` (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#qos_level EniIpv4Address#qos_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#qos_level EniIpv4Address#qos_level}
   */
   readonly qosLevel?: string;
   /**
   * IP status: `PENDING`: Creating, `MIGRATING`: Migrating, `DELETING`: Deleting, `AVAILABLE`: Available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#state EniIpv4Address#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#state EniIpv4Address#state}
   */
   readonly state?: string;
 }
@@ -401,7 +401,7 @@ export class EniIpv4AddressPrivateIpAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address tencentcloud_eni_ipv4_address}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address tencentcloud_eni_ipv4_address}
 */
 export class EniIpv4Address extends cdktf.TerraformResource {
 
@@ -417,7 +417,7 @@ export class EniIpv4Address extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EniIpv4Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EniIpv4Address to import
-  * @param importFromId The id of the existing EniIpv4Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EniIpv4Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EniIpv4Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class EniIpv4Address extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eni_ipv4_address tencentcloud_eni_ipv4_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv4_address tencentcloud_eni_ipv4_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class EniIpv4Address extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eni_ipv4_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

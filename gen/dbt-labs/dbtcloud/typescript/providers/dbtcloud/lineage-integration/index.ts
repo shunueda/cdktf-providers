@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LineageIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The URL of the BI server (see docs for more details)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#host LineageIntegration#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#host LineageIntegration#host}
   */
   readonly host: string;
   /**
   * The dbt Cloud project ID for the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#project_id LineageIntegration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#project_id LineageIntegration#project_id}
   */
   readonly projectId: number;
   /**
   * The sitename for the collections of dashboards (see docs for more details)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#site_id LineageIntegration#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#site_id LineageIntegration#site_id}
   */
   readonly siteId: string;
   /**
   * The secret token value to use to authenticate to the BI server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#token LineageIntegration#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#token LineageIntegration#token}
   */
   readonly token: string;
   /**
   * The token to use to authenticate to the BI server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#token_name LineageIntegration#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#token_name LineageIntegration#token_name}
   */
   readonly tokenName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration dbtcloud_lineage_integration}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration dbtcloud_lineage_integration}
 */
 export class LineageIntegration extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class LineageIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LineageIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LineageIntegration to import
-  * @param importFromId The id of the existing LineageIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LineageIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LineageIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class LineageIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.2/docs/resources/lineage_integration dbtcloud_lineage_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/lineage_integration dbtcloud_lineage_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class LineageIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_lineage_integration',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

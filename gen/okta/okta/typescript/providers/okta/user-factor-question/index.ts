@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserFactorQuestionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Security question answer. Note here that answer won't be set during the resource import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question#answer UserFactorQuestion#answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question#answer UserFactorQuestion#answer}
   */
   readonly answer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question#id UserFactorQuestion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question#id UserFactorQuestion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface UserFactorQuestionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Security question unique key. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question#key UserFactorQuestion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question#key UserFactorQuestion#key}
   */
   readonly key: string;
   /**
   * ID of the user. Resource will be recreated when `user_id` changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question#user_id UserFactorQuestion#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question#user_id UserFactorQuestion#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question okta_user_factor_question}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question okta_user_factor_question}
 */
 export class UserFactorQuestion extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class UserFactorQuestion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserFactorQuestion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserFactorQuestion to import
-  * @param importFromId The id of the existing UserFactorQuestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserFactorQuestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserFactorQuestion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class UserFactorQuestion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/user_factor_question okta_user_factor_question} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/user_factor_question okta_user_factor_question} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class UserFactorQuestion extends cdktf.TerraformResource {
       terraformResourceType: 'okta_user_factor_question',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

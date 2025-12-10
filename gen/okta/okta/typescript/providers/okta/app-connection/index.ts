@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AppConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to perform on the connection. Valid values are `activate` or `deactivate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#action AppConnection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#action AppConnection#action}
   */
   readonly action: string;
   /**
   * The base URL for the provisioning connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#base_url AppConnection#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#base_url AppConnection#base_url}
   */
   readonly baseUrl: string;
   /**
   * The application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#id AppConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#id AppConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface AppConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#profile AppConnection#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#profile AppConnection#profile}
   */
   readonly profile?: AppConnectionProfile;
 }
@@ -39,13 +39,13 @@ export interface AppConnectionProfileSettings {
   /**
   * Admin password for OAuth2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#admin_password AppConnection#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#admin_password AppConnection#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Admin username for OAuth2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#admin_username AppConnection#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#admin_username AppConnection#admin_username}
   */
   readonly adminUsername?: string;
 }
@@ -170,7 +170,7 @@ export interface AppConnectionProfileSigning {
   /**
   * Token rotation mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#rotation_mode AppConnection#rotation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#rotation_mode AppConnection#rotation_mode}
   */
   readonly rotationMode?: string;
 }
@@ -266,31 +266,31 @@ export interface AppConnectionProfile {
   /**
   * Authentication scheme. Valid values are TOKEN or OAUTH2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#auth_scheme AppConnection#auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#auth_scheme AppConnection#auth_scheme}
   */
   readonly authScheme: string;
   /**
   * OAuth2 client ID (required for OAUTH2 auth scheme).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#client_id AppConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#client_id AppConnection#client_id}
   */
   readonly clientId?: string;
   /**
   * Authentication token (required for TOKEN auth scheme).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#token AppConnection#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#token AppConnection#token}
   */
   readonly token?: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#settings AppConnection#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#settings AppConnection#settings}
   */
   readonly settings?: AppConnectionProfileSettings;
   /**
   * signing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#signing AppConnection#signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#signing AppConnection#signing}
   */
   readonly signing?: AppConnectionProfileSigning;
 }
@@ -497,7 +497,7 @@ export class AppConnectionProfileOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection okta_app_connection}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection okta_app_connection}
 */
 export class AppConnection extends cdktf.TerraformResource {
 
@@ -513,7 +513,7 @@ export class AppConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnection to import
-  * @param importFromId The id of the existing AppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -525,7 +525,7 @@ export class AppConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_connection okta_app_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_connection okta_app_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -536,8 +536,8 @@ export class AppConnection extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_connection',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudDnspodRecordsConfig extends cdktf.TerraformMeta
   /**
   * The domain for which DNS records are to be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#domain DataTencentcloudDnspodRecords#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#domain DataTencentcloudDnspodRecords#domain}
   */
   readonly domain?: string;
   /**
   * The ID of the domain for which DNS records are to be obtained. If DomainId is passed in, the system will omit the parameter domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#domain_id DataTencentcloudDnspodRecords#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#domain_id DataTencentcloudDnspodRecords#domain_id}
   */
   readonly domainId?: string;
   /**
   * The group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#group_id DataTencentcloudDnspodRecords#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#group_id DataTencentcloudDnspodRecords#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#id DataTencentcloudDnspodRecords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#id DataTencentcloudDnspodRecords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface DataTencentcloudDnspodRecordsConfig extends cdktf.TerraformMeta
   /**
   * The keyword for searching for DNS records. Host headers and record values are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#keyword DataTencentcloudDnspodRecords#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#keyword DataTencentcloudDnspodRecords#keyword}
   */
   readonly keyword?: string;
   /**
   * The limit. It defaults to 100 and can be up to 3,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#limit DataTencentcloudDnspodRecords#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#limit DataTencentcloudDnspodRecords#limit}
   */
   readonly limit?: number;
   /**
   * The offset. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#offset DataTencentcloudDnspodRecords#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#offset DataTencentcloudDnspodRecords#offset}
   */
   readonly offset?: number;
   /**
   * The split zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#record_line DataTencentcloudDnspodRecords#record_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#record_line DataTencentcloudDnspodRecords#record_line}
   */
   readonly recordLine?: string;
   /**
   * The split zone ID. If `record_line_id` is passed in, the system will omit the parameter `record_line`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#record_line_id DataTencentcloudDnspodRecords#record_line_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#record_line_id DataTencentcloudDnspodRecords#record_line_id}
   */
   readonly recordLineId?: string;
   /**
   * The type of DNS record, such as A, CNAME, NS, AAAA, explicit URL, implicit URL, CAA, or SPF record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#record_type DataTencentcloudDnspodRecords#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#record_type DataTencentcloudDnspodRecords#record_type}
   */
   readonly recordType?: string;
   /**
   * Used for store query result as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#result_output_file DataTencentcloudDnspodRecords#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#result_output_file DataTencentcloudDnspodRecords#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The sorting field. Available values: name, line, type, value, weight, mx, and ttl,updated_on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#sort_field DataTencentcloudDnspodRecords#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#sort_field DataTencentcloudDnspodRecords#sort_field}
   */
   readonly sortField?: string;
   /**
   * The sorting type. Valid values: ASC (ascending, default), DESC (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#sort_type DataTencentcloudDnspodRecords#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#sort_type DataTencentcloudDnspodRecords#sort_type}
   */
   readonly sortType?: string;
   /**
   * The host header of a DNS record. If this parameter is passed in, only the DNS record corresponding to this host header will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#subdomain DataTencentcloudDnspodRecords#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#subdomain DataTencentcloudDnspodRecords#subdomain}
   */
   readonly subdomain?: string;
 }
@@ -315,7 +315,7 @@ export class DataTencentcloudDnspodRecordsResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records tencentcloud_dnspod_records}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records tencentcloud_dnspod_records}
 */
 export class DataTencentcloudDnspodRecords extends cdktf.TerraformDataSource {
 
@@ -331,7 +331,7 @@ export class DataTencentcloudDnspodRecords extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDnspodRecords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnspodRecords to import
-  * @param importFromId The id of the existing DataTencentcloudDnspodRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnspodRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnspodRecords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class DataTencentcloudDnspodRecords extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dnspod_records tencentcloud_dnspod_records} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dnspod_records tencentcloud_dnspod_records} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class DataTencentcloudDnspodRecords extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dnspod_records',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

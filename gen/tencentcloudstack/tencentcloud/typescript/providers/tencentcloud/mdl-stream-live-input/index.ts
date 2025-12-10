@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MdlStreamLiveInputConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#id MdlStreamLiveInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#id MdlStreamLiveInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface MdlStreamLiveInputConfig extends cdktf.TerraformMetaArguments {
   /**
   * Input name, which can contain 1-32 case-sensitive letters, digits, and underscores and must be unique at the region level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#name MdlStreamLiveInput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#name MdlStreamLiveInput#name}
   */
   readonly name: string;
   /**
   * ID of the input security group to attachYou can attach only one security group to an input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#security_group_ids MdlStreamLiveInput#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#security_group_ids MdlStreamLiveInput#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Input typeValid values: `RTMP_PUSH`, `RTP_PUSH`, `UDP_PUSH`, `RTMP_PULL`, `HLS_PULL`, `MP4_PULL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#type MdlStreamLiveInput#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#type MdlStreamLiveInput#type}
   */
   readonly type: string;
   /**
   * input_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#input_settings MdlStreamLiveInput#input_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#input_settings MdlStreamLiveInput#input_settings}
   */
   readonly inputSettings?: MdlStreamLiveInputInputSettings[] | cdktf.IResolvable;
 }
@@ -43,55 +43,55 @@ export interface MdlStreamLiveInputInputSettings {
   /**
   * Application name, which is valid if `Type` is `RTMP_PUSH` and can contain 1-32 letters and digitsNote: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#app_name MdlStreamLiveInput#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#app_name MdlStreamLiveInput#app_name}
   */
   readonly appName?: string;
   /**
   * Delayed time (ms) for playback, which is valid if `Type` is `RTMP_PUSH`Value range: 0 (default) or 10000-600000The value must be a multiple of 1,000.Note: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#delay_time MdlStreamLiveInput#delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#delay_time MdlStreamLiveInput#delay_time}
   */
   readonly delayTime?: number;
   /**
   * RTP/UDP input address, which does not need to be entered for the input parameter.Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#input_address MdlStreamLiveInput#input_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#input_address MdlStreamLiveInput#input_address}
   */
   readonly inputAddress?: string;
   /**
   * The domain of an SRT_PUSH address. If this is a request parameter, you do not need to specify it.Note: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#input_domain MdlStreamLiveInput#input_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#input_domain MdlStreamLiveInput#input_domain}
   */
   readonly inputDomain?: string;
   /**
   * The password, which is used for authentication.Note: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#password MdlStreamLiveInput#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#password MdlStreamLiveInput#password}
   */
   readonly password?: string;
   /**
   * Source type for stream pulling and relaying. To pull content from private-read COS buckets under the current account, set this parameter to `TencentCOS`; otherwise, leave it empty.Note: this field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#source_type MdlStreamLiveInput#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#source_type MdlStreamLiveInput#source_type}
   */
   readonly sourceType?: string;
   /**
   * Source URL, which is valid if `Type` is `RTMP_PULL`, `HLS_PULL`, or `MP4_PULL` and can contain 1-512 charactersNote: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#source_url MdlStreamLiveInput#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#source_url MdlStreamLiveInput#source_url}
   */
   readonly sourceUrl?: string;
   /**
   * Stream name, which is valid if `Type` is `RTMP_PUSH` and can contain 1-32 letters and digitsNote: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#stream_name MdlStreamLiveInput#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#stream_name MdlStreamLiveInput#stream_name}
   */
   readonly streamName?: string;
   /**
   * The username, which is used for authentication.Note: This field may return `null`, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#user_name MdlStreamLiveInput#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#user_name MdlStreamLiveInput#user_name}
   */
   readonly userName?: string;
 }
@@ -439,7 +439,7 @@ export class MdlStreamLiveInputInputSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input tencentcloud_mdl_stream_live_input}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input tencentcloud_mdl_stream_live_input}
 */
 export class MdlStreamLiveInput extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class MdlStreamLiveInput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdlStreamLiveInput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdlStreamLiveInput to import
-  * @param importFromId The id of the existing MdlStreamLiveInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdlStreamLiveInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdlStreamLiveInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class MdlStreamLiveInput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mdl_stream_live_input tencentcloud_mdl_stream_live_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mdl_stream_live_input tencentcloud_mdl_stream_live_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class MdlStreamLiveInput extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mdl_stream_live_input',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

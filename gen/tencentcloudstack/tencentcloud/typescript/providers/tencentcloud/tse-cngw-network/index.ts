@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TseCngwNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * description of clb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#description TseCngwNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#description TseCngwNetwork#description}
   */
   readonly description?: string;
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#gateway_id TseCngwNetwork#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#gateway_id TseCngwNetwork#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * gateway group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#group_id TseCngwNetwork#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#group_id TseCngwNetwork#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#id TseCngwNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#id TseCngwNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface TseCngwNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * internet type. Reference value:`IPV4` (default value), `IPV6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#internet_address_version TseCngwNetwork#internet_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#internet_address_version TseCngwNetwork#internet_address_version}
   */
   readonly internetAddressVersion?: string;
   /**
   * public network bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#internet_max_bandwidth_out TseCngwNetwork#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#internet_max_bandwidth_out TseCngwNetwork#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * trade type of internet. Reference value:`BANDWIDTH` (default value), `TRAFFIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#internet_pay_mode TseCngwNetwork#internet_pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#internet_pay_mode TseCngwNetwork#internet_pay_mode}
   */
   readonly internetPayMode?: string;
   /**
   * primary availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#master_zone_id TseCngwNetwork#master_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#master_zone_id TseCngwNetwork#master_zone_id}
   */
   readonly masterZoneId?: string;
   /**
   * Whether load balancing has multiple availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#multi_zone_flag TseCngwNetwork#multi_zone_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#multi_zone_flag TseCngwNetwork#multi_zone_flag}
   */
   readonly multiZoneFlag?: boolean | cdktf.IResolvable;
   /**
   * specification type of clb. Default `shared` type when this parameter is empty, Note: input `shared` is not supported when creating. Reference value:`clb.c2.medium`, `clb.c3.small`, `clb.c3.medium`, `clb.c4.small`, `clb.c4.medium`, `clb.c4.large`, `clb.c4.xlarge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#sla_type TseCngwNetwork#sla_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#sla_type TseCngwNetwork#sla_type}
   */
   readonly slaType?: string;
   /**
   * alternate availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#slave_zone_id TseCngwNetwork#slave_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#slave_zone_id TseCngwNetwork#slave_zone_id}
   */
   readonly slaveZoneId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network tencentcloud_tse_cngw_network}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network tencentcloud_tse_cngw_network}
 */
 export class TseCngwNetwork extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class TseCngwNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwNetwork to import
-  * @param importFromId The id of the existing TseCngwNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class TseCngwNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_network tencentcloud_tse_cngw_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_network tencentcloud_tse_cngw_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class TseCngwNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_network',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WafAutoDenyRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The threshold number of attacks that triggers IP autodeny, ranging from 2 to 100 times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#attack_threshold WafAutoDenyRules#attack_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#attack_threshold WafAutoDenyRules#attack_threshold}
   */
   readonly attackThreshold: number;
   /**
   * The IP autodeny time after triggering the IP autodeny, ranging from 5 to 360 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#deny_time_threshold WafAutoDenyRules#deny_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#deny_time_threshold WafAutoDenyRules#deny_time_threshold}
   */
   readonly denyTimeThreshold: number;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#domain WafAutoDenyRules#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#domain WafAutoDenyRules#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#id WafAutoDenyRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#id WafAutoDenyRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface WafAutoDenyRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP autodeny statistical time, ranging from 1-60 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#time_threshold WafAutoDenyRules#time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#time_threshold WafAutoDenyRules#time_threshold}
   */
   readonly timeThreshold: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules tencentcloud_waf_auto_deny_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules tencentcloud_waf_auto_deny_rules}
 */
 export class WafAutoDenyRules extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WafAutoDenyRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafAutoDenyRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafAutoDenyRules to import
-  * @param importFromId The id of the existing WafAutoDenyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafAutoDenyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafAutoDenyRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WafAutoDenyRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/waf_auto_deny_rules tencentcloud_waf_auto_deny_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_auto_deny_rules tencentcloud_waf_auto_deny_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WafAutoDenyRules extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_auto_deny_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

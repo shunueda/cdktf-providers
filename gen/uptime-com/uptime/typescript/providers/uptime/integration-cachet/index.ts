@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface IntegrationCachetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The URL of your Cachet instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#cachet_url IntegrationCachet#cachet_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#cachet_url IntegrationCachet#cachet_url}
   */
   readonly cachetUrl: string;
   /**
   * Component ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#component IntegrationCachet#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#component IntegrationCachet#component}
   */
   readonly component?: string;
   /**
@@ -25,29 +25,29 @@ export interface IntegrationCachetConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#contact_groups IntegrationCachet#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#contact_groups IntegrationCachet#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Metric ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#metric IntegrationCachet#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#metric IntegrationCachet#metric}
   */
   readonly metric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#name IntegrationCachet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#name IntegrationCachet#name}
   */
   readonly name: string;
   /**
   * Cachet API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#token IntegrationCachet#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#token IntegrationCachet#token}
   */
   readonly token: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet uptime_integration_cachet}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet uptime_integration_cachet}
 */
 export class IntegrationCachet extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IntegrationCachet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationCachet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationCachet to import
-  * @param importFromId The id of the existing IntegrationCachet that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationCachet that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationCachet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IntegrationCachet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_cachet uptime_integration_cachet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_cachet uptime_integration_cachet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IntegrationCachet extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_cachet',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

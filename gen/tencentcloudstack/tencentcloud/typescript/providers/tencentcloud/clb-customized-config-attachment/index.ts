@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClbCustomizedConfigAttachmentConfig extends cdktf.TerraformMeta
   /**
   * ID of Customized Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#config_id ClbCustomizedConfigAttachment#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#config_id ClbCustomizedConfigAttachment#config_id}
   */
   readonly configId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#id ClbCustomizedConfigAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#id ClbCustomizedConfigAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ClbCustomizedConfigAttachmentConfig extends cdktf.TerraformMeta
   /**
   * bind_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#bind_list ClbCustomizedConfigAttachment#bind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#bind_list ClbCustomizedConfigAttachment#bind_list}
   */
   readonly bindList: ClbCustomizedConfigAttachmentBindListStruct[] | cdktf.IResolvable;
 }
@@ -31,25 +31,25 @@ export interface ClbCustomizedConfigAttachmentBindListStruct {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#domain ClbCustomizedConfigAttachment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#domain ClbCustomizedConfigAttachment#domain}
   */
   readonly domain: string;
   /**
   * Listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#listener_id ClbCustomizedConfigAttachment#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#listener_id ClbCustomizedConfigAttachment#listener_id}
   */
   readonly listenerId: string;
   /**
   * Clb ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#load_balancer_id ClbCustomizedConfigAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#load_balancer_id ClbCustomizedConfigAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * Location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#location_id ClbCustomizedConfigAttachment#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#location_id ClbCustomizedConfigAttachment#location_id}
   */
   readonly locationId?: string;
 }
@@ -243,7 +243,7 @@ export class ClbCustomizedConfigAttachmentBindListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment tencentcloud_clb_customized_config_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment tencentcloud_clb_customized_config_attachment}
 */
 export class ClbCustomizedConfigAttachment extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class ClbCustomizedConfigAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbCustomizedConfigAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbCustomizedConfigAttachment to import
-  * @param importFromId The id of the existing ClbCustomizedConfigAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbCustomizedConfigAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbCustomizedConfigAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class ClbCustomizedConfigAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_customized_config_attachment tencentcloud_clb_customized_config_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_customized_config_attachment tencentcloud_clb_customized_config_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class ClbCustomizedConfigAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_customized_config_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

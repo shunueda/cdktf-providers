@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTencentcloudSqlserverBasicInstancesConfig extends cdktf.Ter
   /**
   * ID of the SQL Server basic instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#id DataTencentcloudSqlserverBasicInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#id DataTencentcloudSqlserverBasicInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,31 +19,31 @@ export interface DataTencentcloudSqlserverBasicInstancesConfig extends cdktf.Ter
   /**
   * Name of the SQL Server basic instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#name DataTencentcloudSqlserverBasicInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#name DataTencentcloudSqlserverBasicInstances#name}
   */
   readonly name?: string;
   /**
   * Project ID of the SQL Server basic instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#project_id DataTencentcloudSqlserverBasicInstances#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#project_id DataTencentcloudSqlserverBasicInstances#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#result_output_file DataTencentcloudSqlserverBasicInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#result_output_file DataTencentcloudSqlserverBasicInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Subnet ID of the SQL Server basic instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#subnet_id DataTencentcloudSqlserverBasicInstances#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#subnet_id DataTencentcloudSqlserverBasicInstances#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Vpc ID of the SQL Server basic instance to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#vpc_id DataTencentcloudSqlserverBasicInstances#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#vpc_id DataTencentcloudSqlserverBasicInstances#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -205,7 +205,7 @@ export class DataTencentcloudSqlserverBasicInstancesInstanceListStructList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances tencentcloud_sqlserver_basic_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances tencentcloud_sqlserver_basic_instances}
 */
 export class DataTencentcloudSqlserverBasicInstances extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataTencentcloudSqlserverBasicInstances extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudSqlserverBasicInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverBasicInstances to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverBasicInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverBasicInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverBasicInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataTencentcloudSqlserverBasicInstances extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/sqlserver_basic_instances tencentcloud_sqlserver_basic_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/sqlserver_basic_instances tencentcloud_sqlserver_basic_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataTencentcloudSqlserverBasicInstances extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_sqlserver_basic_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

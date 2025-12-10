@@ -1,3 +1,3 @@
 # `tencentcloud_cdwdoris_workload_group`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cdwdoris_workload_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cdwdoris_workload_group).
+Refer to the Terraform Registry for docs: [`tencentcloud_cdwdoris_workload_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cdwdoris_workload_group).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AppOauthRoleAssignmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Client ID for the role to be assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment#client_id AppOauthRoleAssignment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment#client_id AppOauthRoleAssignment#client_id}
   */
   readonly clientId: string;
   /**
   * Resource set for the custom role to assign, must be the ID of the created resource set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment#resource_set AppOauthRoleAssignment#resource_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment#resource_set AppOauthRoleAssignment#resource_set}
   */
   readonly resourceSet?: string;
   /**
   * Custom Role ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment#role AppOauthRoleAssignment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment#role AppOauthRoleAssignment#role}
   */
   readonly role?: string;
   /**
   * Role type to assign. This can be one of the standard Okta roles, such as `HELP_DESK_ADMIN`, or `CUSTOM`. Using custom requires the `resource_set` and `role` attributes to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment#type AppOauthRoleAssignment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment#type AppOauthRoleAssignment#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment okta_app_oauth_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment okta_app_oauth_role_assignment}
 */
 export class AppOauthRoleAssignment extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AppOauthRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppOauthRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppOauthRoleAssignment to import
-  * @param importFromId The id of the existing AppOauthRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppOauthRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppOauthRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AppOauthRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_oauth_role_assignment okta_app_oauth_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/app_oauth_role_assignment okta_app_oauth_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AppOauthRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_oauth_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

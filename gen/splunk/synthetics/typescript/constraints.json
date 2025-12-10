@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "synthetics": "2.0.16"
+    "synthetics": "2.0.17"
   }
 }

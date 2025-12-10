@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TemWorkloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#application_id TemWorkload#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#application_id TemWorkload#application_id}
   */
   readonly applicationId: string;
   /**
   * cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#cpu_spec TemWorkload#cpu_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#cpu_spec TemWorkload#cpu_spec}
   */
   readonly cpuSpec: number;
   /**
   * deploy mode, support IMAGE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#deploy_mode TemWorkload#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#deploy_mode TemWorkload#deploy_mode}
   */
   readonly deployMode: string;
   /**
   * deploy version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#deploy_version TemWorkload#deploy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#deploy_version TemWorkload#deploy_version}
   */
   readonly deployVersion: string;
   /**
   * environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#environment_id TemWorkload#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#environment_id TemWorkload#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#id TemWorkload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#id TemWorkload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,97 +47,97 @@ export interface TemWorkloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#img_repo TemWorkload#img_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#img_repo TemWorkload#img_repo}
   */
   readonly imgRepo: string;
   /**
   * initial pod number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#init_pod_num TemWorkload#init_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#init_pod_num TemWorkload#init_pod_num}
   */
   readonly initPodNum: number;
   /**
   * mem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#memory_spec TemWorkload#memory_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#memory_spec TemWorkload#memory_spec}
   */
   readonly memorySpec: number;
   /**
   * mem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#post_start TemWorkload#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#post_start TemWorkload#post_start}
   */
   readonly postStart?: string;
   /**
   * mem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#pre_stop TemWorkload#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#pre_stop TemWorkload#pre_stop}
   */
   readonly preStop?: string;
   /**
   * repo server addr when deploy by image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#repo_server TemWorkload#repo_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#repo_server TemWorkload#repo_server}
   */
   readonly repoServer?: string;
   /**
   * repo type when deploy: 0: tcr personal; 1: tcr enterprise; 2: public repository; 3: tem host tcr; 4: demo repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#repo_type TemWorkload#repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#repo_type TemWorkload#repo_type}
   */
   readonly repoType?: number;
   /**
   * security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#security_group_ids TemWorkload#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#security_group_ids TemWorkload#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * tcr instance id when deploy by image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#tcr_instance_id TemWorkload#tcr_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#tcr_instance_id TemWorkload#tcr_instance_id}
   */
   readonly tcrInstanceId?: string;
   /**
   * deploy_strategy_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#deploy_strategy_conf TemWorkload#deploy_strategy_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#deploy_strategy_conf TemWorkload#deploy_strategy_conf}
   */
   readonly deployStrategyConf?: TemWorkloadDeployStrategyConf;
   /**
   * env_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#env_conf TemWorkload#env_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#env_conf TemWorkload#env_conf}
   */
   readonly envConf?: TemWorkloadEnvConf[] | cdktf.IResolvable;
   /**
   * liveness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#liveness TemWorkload#liveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#liveness TemWorkload#liveness}
   */
   readonly liveness?: TemWorkloadLiveness;
   /**
   * readiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#readiness TemWorkload#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#readiness TemWorkload#readiness}
   */
   readonly readiness?: TemWorkloadReadiness;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#startup_probe TemWorkload#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#startup_probe TemWorkload#startup_probe}
   */
   readonly startupProbe?: TemWorkloadStartupProbe;
   /**
   * storage_confs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#storage_confs TemWorkload#storage_confs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#storage_confs TemWorkload#storage_confs}
   */
   readonly storageConfs?: TemWorkloadStorageConfs[] | cdktf.IResolvable;
   /**
   * storage_mount_confs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#storage_mount_confs TemWorkload#storage_mount_confs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#storage_mount_confs TemWorkload#storage_mount_confs}
   */
   readonly storageMountConfs?: TemWorkloadStorageMountConfs[] | cdktf.IResolvable;
 }
@@ -145,37 +145,37 @@ export interface TemWorkloadDeployStrategyConf {
   /**
   * interval between batches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#batch_interval TemWorkload#batch_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#batch_interval TemWorkload#batch_interval}
   */
   readonly batchInterval?: number;
   /**
   * beta batch number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#beta_batch_num TemWorkload#beta_batch_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#beta_batch_num TemWorkload#beta_batch_num}
   */
   readonly betaBatchNum?: number;
   /**
   * strategy type, 0 means auto, 1 means manual, 2 means manual with beta batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#deploy_strategy_type TemWorkload#deploy_strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#deploy_strategy_type TemWorkload#deploy_strategy_type}
   */
   readonly deployStrategyType: number;
   /**
   * force update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#force TemWorkload#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#force TemWorkload#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * minimal available instances duration deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#min_available TemWorkload#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#min_available TemWorkload#min_available}
   */
   readonly minAvailable?: number;
   /**
   * total batch number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#total_batch_count TemWorkload#total_batch_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#total_batch_count TemWorkload#total_batch_count}
   */
   readonly totalBatchCount: number;
 }
@@ -400,31 +400,31 @@ export interface TemWorkloadEnvConf {
   /**
   * referenced config name when type=referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#config TemWorkload#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#config TemWorkload#config}
   */
   readonly config?: string;
   /**
   * env key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#key TemWorkload#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#key TemWorkload#key}
   */
   readonly key: string;
   /**
   * referenced secret name when type=referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#secret TemWorkload#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#secret TemWorkload#secret}
   */
   readonly secret?: string;
   /**
   * env type, support default, referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#type TemWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#type TemWorkload#type}
   */
   readonly type?: string;
   /**
   * env value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#value TemWorkload#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#value TemWorkload#value}
   */
   readonly value: string;
 }
@@ -652,49 +652,49 @@ export interface TemWorkloadLiveness {
   /**
   * script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#exec TemWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#exec TemWorkload#exec}
   */
   readonly exec?: string;
   /**
   * initial delay seconds for liveness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#path TemWorkload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#path TemWorkload#path}
   */
   readonly path?: string;
   /**
   * period seconds for liveness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * liveness check port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#port TemWorkload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#port TemWorkload#port}
   */
   readonly port?: number;
   /**
   * protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#protocol TemWorkload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#protocol TemWorkload#protocol}
   */
   readonly protocol?: string;
   /**
   * timeout seconds for liveness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * check type, support HttpGet, TcpSocket and Exec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#type TemWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#type TemWorkload#type}
   */
   readonly type: string;
 }
@@ -980,49 +980,49 @@ export interface TemWorkloadReadiness {
   /**
   * script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#exec TemWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#exec TemWorkload#exec}
   */
   readonly exec?: string;
   /**
   * initial delay seconds for readiness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#path TemWorkload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#path TemWorkload#path}
   */
   readonly path?: string;
   /**
   * period seconds for readiness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * readiness check port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#port TemWorkload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#port TemWorkload#port}
   */
   readonly port?: number;
   /**
   * protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#protocol TemWorkload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#protocol TemWorkload#protocol}
   */
   readonly protocol?: string;
   /**
   * timeout seconds for readiness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * check type, support HttpGet, TcpSocket and Exec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#type TemWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#type TemWorkload#type}
   */
   readonly type: string;
 }
@@ -1308,49 +1308,49 @@ export interface TemWorkloadStartupProbe {
   /**
   * script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#exec TemWorkload#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#exec TemWorkload#exec}
   */
   readonly exec?: string;
   /**
   * initial delay seconds for startup check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#initial_delay_seconds TemWorkload#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#path TemWorkload#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#path TemWorkload#path}
   */
   readonly path?: string;
   /**
   * period seconds for startup check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#period_seconds TemWorkload#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * startup check port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#port TemWorkload#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#port TemWorkload#port}
   */
   readonly port?: number;
   /**
   * protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#protocol TemWorkload#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#protocol TemWorkload#protocol}
   */
   readonly protocol?: string;
   /**
   * timeout seconds for startup check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#timeout_seconds TemWorkload#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * check type, support HttpGet, TcpSocket and Exec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#type TemWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#type TemWorkload#type}
   */
   readonly type: string;
 }
@@ -1636,19 +1636,19 @@ export interface TemWorkloadStorageConfs {
   /**
   * volume ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#storage_vol_ip TemWorkload#storage_vol_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#storage_vol_ip TemWorkload#storage_vol_ip}
   */
   readonly storageVolIp: string;
   /**
   * volume name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#storage_vol_name TemWorkload#storage_vol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#storage_vol_name TemWorkload#storage_vol_name}
   */
   readonly storageVolName: string;
   /**
   * volume path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#storage_vol_path TemWorkload#storage_vol_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#storage_vol_path TemWorkload#storage_vol_path}
   */
   readonly storageVolPath: string;
 }
@@ -1815,13 +1815,13 @@ export interface TemWorkloadStorageMountConfs {
   /**
   * mount path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#mount_path TemWorkload#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#mount_path TemWorkload#mount_path}
   */
   readonly mountPath: string;
   /**
   * volume name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#volume_name TemWorkload#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#volume_name TemWorkload#volume_name}
   */
   readonly volumeName: string;
 }
@@ -1960,7 +1960,7 @@ export class TemWorkloadStorageMountConfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload tencentcloud_tem_workload}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload tencentcloud_tem_workload}
 */
 export class TemWorkload extends cdktf.TerraformResource {
 
@@ -1976,7 +1976,7 @@ export class TemWorkload extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemWorkload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemWorkload to import
-  * @param importFromId The id of the existing TemWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemWorkload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1988,7 +1988,7 @@ export class TemWorkload extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tem_workload tencentcloud_tem_workload} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tem_workload tencentcloud_tem_workload} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1999,8 +1999,8 @@ export class TemWorkload extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_workload',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

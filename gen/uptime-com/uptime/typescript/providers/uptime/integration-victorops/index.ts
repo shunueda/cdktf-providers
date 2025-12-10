@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops
+// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,29 +13,29 @@ export interface IntegrationVictoropsConfig extends cdktf.TerraformMetaArguments
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops#contact_groups IntegrationVictorops#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops#contact_groups IntegrationVictorops#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops#name IntegrationVictorops#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops#name IntegrationVictorops#name}
   */
   readonly name: string;
   /**
   * VictorOps routing key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops#routing_key IntegrationVictorops#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops#routing_key IntegrationVictorops#routing_key}
   */
   readonly routingKey?: string;
   /**
   * VictorOps service API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops#service_key IntegrationVictorops#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops#service_key IntegrationVictorops#service_key}
   */
   readonly serviceKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops uptime_integration_victorops}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops uptime_integration_victorops}
 */
 export class IntegrationVictorops extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IntegrationVictorops extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationVictorops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationVictorops to import
-  * @param importFromId The id of the existing IntegrationVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationVictorops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IntegrationVictorops extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_victorops uptime_integration_victorops} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_victorops uptime_integration_victorops} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IntegrationVictorops extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_victorops',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.20.0',
-        providerVersionConstraint: '2.20.0'
+        providerVersion: '2.21.0',
+        providerVersionConstraint: '2.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

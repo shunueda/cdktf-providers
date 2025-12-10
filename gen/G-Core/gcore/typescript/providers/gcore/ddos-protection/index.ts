@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection
+// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface DdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Activate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#active DdosProtection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#active DdosProtection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Activate BGP protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#bgp DdosProtection#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#bgp DdosProtection#bgp}
   */
   readonly bgp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#bm_instance_id DdosProtection#bm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#bm_instance_id DdosProtection#bm_instance_id}
   */
   readonly bmInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#id DdosProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#id DdosProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,39 +33,39 @@ export interface DdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#ip_address DdosProtection#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#ip_address DdosProtection#ip_address}
   */
   readonly ipAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#last_updated DdosProtection#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#last_updated DdosProtection#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Profile template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#profile_template DdosProtection#profile_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#profile_template DdosProtection#profile_template}
   */
   readonly profileTemplate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#project_id DdosProtection#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#project_id DdosProtection#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#project_name DdosProtection#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#project_name DdosProtection#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#region_id DdosProtection#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#region_id DdosProtection#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#region_name DdosProtection#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#region_name DdosProtection#region_name}
   */
   readonly regionName?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#fields DdosProtection#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#fields DdosProtection#fields}
   */
   readonly fields?: DdosProtectionFields[] | cdktf.IResolvable;
 }
@@ -151,19 +151,19 @@ export class DdosProtectionProtocolsList extends cdktf.ComplexList {
 }
 export interface DdosProtectionFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#base_field DdosProtection#base_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#base_field DdosProtection#base_field}
   */
   readonly baseField: number;
   /**
   * Complex value. Only one of 'value' or 'field_value' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#field_value DdosProtection#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#field_value DdosProtection#field_value}
   */
   readonly fieldValue?: string;
   /**
   * Basic type value. Only one of 'value' or 'field_value' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#value DdosProtection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#value DdosProtection#value}
   */
   readonly value?: string;
 }
@@ -369,7 +369,7 @@ export class DdosProtectionFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection gcore_ddos_protection}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection gcore_ddos_protection}
 */
 export class DdosProtection extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class DdosProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosProtection to import
-  * @param importFromId The id of the existing DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class DdosProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.2/docs/resources/ddos_protection gcore_ddos_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/ddos_protection gcore_ddos_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class DdosProtection extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_ddos_protection',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.2',
-        providerVersionConstraint: '0.32.2'
+        providerVersion: '0.32.4',
+        providerVersionConstraint: '0.32.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

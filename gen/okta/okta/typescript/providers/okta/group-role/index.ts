@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * When this setting is enabled, the admins won't receive any of the default Okta administrator emails. These admins also won't have access to contact Okta Support and open support cases on behalf of your org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#disable_notifications GroupRole#disable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#disable_notifications GroupRole#disable_notifications}
   */
   readonly disableNotifications?: boolean | cdktf.IResolvable;
   /**
   * ID of group to attach admin roles to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#group_id GroupRole#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#group_id GroupRole#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#id GroupRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#id GroupRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface GroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource Set ID. Required for role_type = `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#resource_set_id GroupRole#resource_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#resource_set_id GroupRole#resource_set_id}
   */
   readonly resourceSetId?: string;
   /**
   * Role ID. Required for role_type = `CUSTOM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#role_id GroupRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#role_id GroupRole#role_id}
   */
   readonly roleId?: string;
   /**
@@ -54,25 +54,25 @@ export interface GroupRoleConfig extends cdktf.TerraformMetaArguments {
   * 	. See [API Docs](https://developer.okta.com/docs/api/openapi/okta-management/guides/roles/#standard-roles).
   * 	- "USER_ADMIN" is the Group Administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#role_type GroupRole#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#role_type GroupRole#role_type}
   */
   readonly roleType: string;
   /**
   * A list of app names (name represents set of app instances, like 'salesforce' or 'facebook'), or a combination of app name and app instance ID (like 'facebook.0oapsqQ6dv19pqyEo0g3') you would like as the targets of the admin role. - Only supported when used with the role type `APP_ADMIN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#target_app_list GroupRole#target_app_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#target_app_list GroupRole#target_app_list}
   */
   readonly targetAppList?: string[];
   /**
   * A list of group IDs you would like as the targets of the admin role. - Only supported when used with the role types: `GROUP_MEMBERSHIP_ADMIN`, `HELP_DESK_ADMIN`, or `USER_ADMIN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#target_group_list GroupRole#target_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#target_group_list GroupRole#target_group_list}
   */
   readonly targetGroupList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role okta_group_role}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role okta_group_role}
 */
 export class GroupRole extends cdktf.TerraformResource {
 
@@ -88,7 +88,7 @@ export class GroupRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupRole to import
-  * @param importFromId The id of the existing GroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -100,7 +100,7 @@ export class GroupRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/group_role okta_group_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/group_role okta_group_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -111,8 +111,8 @@ export class GroupRole extends cdktf.TerraformResource {
       terraformResourceType: 'okta_group_role',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

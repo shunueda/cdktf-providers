@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/rate_limit_warning_threshold_percentage
+// https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/rate_limit_warning_threshold_percentage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface RateLimitWarningThresholdPercentageConfig extends cdktf.Terrafo
   /**
   * The threshold value (percentage) of a rate limit that, when exceeded, triggers a warning notification. By default, this value is 90 for Workforce orgs and 60 for CIAM orgs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/rate_limit_warning_threshold_percentage#warning_threshold RateLimitWarningThresholdPercentage#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/rate_limit_warning_threshold_percentage#warning_threshold RateLimitWarningThresholdPercentage#warning_threshold}
   */
   readonly warningThreshold: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/rate_limit_warning_threshold_percentage okta_rate_limit_warning_threshold_percentage}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/rate_limit_warning_threshold_percentage okta_rate_limit_warning_threshold_percentage}
 */
 export class RateLimitWarningThresholdPercentage extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class RateLimitWarningThresholdPercentage extends cdktf.TerraformResource
   * Generates CDKTF code for importing a RateLimitWarningThresholdPercentage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RateLimitWarningThresholdPercentage to import
-  * @param importFromId The id of the existing RateLimitWarningThresholdPercentage that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/rate_limit_warning_threshold_percentage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RateLimitWarningThresholdPercentage that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/rate_limit_warning_threshold_percentage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RateLimitWarningThresholdPercentage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class RateLimitWarningThresholdPercentage extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/rate_limit_warning_threshold_percentage okta_rate_limit_warning_threshold_percentage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.2/docs/resources/rate_limit_warning_threshold_percentage okta_rate_limit_warning_threshold_percentage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class RateLimitWarningThresholdPercentage extends cdktf.TerraformResource
       terraformResourceType: 'okta_rate_limit_warning_threshold_percentage',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.1',
-        providerVersionConstraint: '6.5.1'
+        providerVersion: '6.5.2',
+        providerVersionConstraint: '6.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

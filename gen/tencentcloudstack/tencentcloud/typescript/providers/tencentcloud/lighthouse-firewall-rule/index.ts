@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LighthouseFirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#id LighthouseFirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#id LighthouseFirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface LighthouseFirewallRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#instance_id LighthouseFirewallRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#instance_id LighthouseFirewallRule#instance_id}
   */
   readonly instanceId: string;
   /**
   * firewall_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#firewall_rules LighthouseFirewallRule#firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#firewall_rules LighthouseFirewallRule#firewall_rules}
   */
   readonly firewallRules: LighthouseFirewallRuleFirewallRules[] | cdktf.IResolvable;
 }
@@ -31,31 +31,31 @@ export interface LighthouseFirewallRuleFirewallRules {
   /**
   * Valid values are ACCEPT, DROP. Default value is ACCEPT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#action LighthouseFirewallRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#action LighthouseFirewallRule#action}
   */
   readonly action?: string;
   /**
   * IP range or IP (mutually exclusive). Default value is 0.0.0.0/0, which indicates all sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#cidr_block LighthouseFirewallRule#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#cidr_block LighthouseFirewallRule#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Firewall rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#firewall_rule_description LighthouseFirewallRule#firewall_rule_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#firewall_rule_description LighthouseFirewallRule#firewall_rule_description}
   */
   readonly firewallRuleDescription?: string;
   /**
   * Port. Valid values are ALL, one single port, multiple ports separated by commas, or port range indicated by a minus sign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#port LighthouseFirewallRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#port LighthouseFirewallRule#port}
   */
   readonly port?: string;
   /**
   * Protocol. Valid values are TCP, UDP, ICMP, ALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#protocol LighthouseFirewallRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#protocol LighthouseFirewallRule#protocol}
   */
   readonly protocol: string;
 }
@@ -284,7 +284,7 @@ export class LighthouseFirewallRuleFirewallRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule tencentcloud_lighthouse_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule tencentcloud_lighthouse_firewall_rule}
 */
 export class LighthouseFirewallRule extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class LighthouseFirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LighthouseFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LighthouseFirewallRule to import
-  * @param importFromId The id of the existing LighthouseFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LighthouseFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LighthouseFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class LighthouseFirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/lighthouse_firewall_rule tencentcloud_lighthouse_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/lighthouse_firewall_rule tencentcloud_lighthouse_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class LighthouseFirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lighthouse_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.42',
-        providerVersionConstraint: '1.82.42'
+        providerVersion: '1.82.43',
+        providerVersionConstraint: '1.82.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
